@@ -23248,5 +23248,50 @@
     "quality_estimate_basis": "The repository is newly created, self-contained, browser-runnable, supports keyboard/mouse/touch input, has a complete combat loop and direct Opus attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Track Master",
+    "github_url": "https://github.com/Akajek/Track-Master",
+    "game_links": [
+      "https://github.com/Akajek/Track-Master/blob/main/README.md",
+      "https://github.com/Akajek/Track-Master/blob/main/server.js",
+      "https://github.com/Akajek/Track-Master/tree/main/public",
+      "https://github.com/Akajek/Track-Master/blob/main/package.json"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Akajek/Track-Master/commit/71b666e45724f9d41759707f8917b9b5e455af4e",
+    "screenshot_urls": [],
+    "technology": [
+      "Node.js",
+      "WebSocket",
+      "Canvas 2D",
+      "JavaScript",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Track Master"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub repository search for Claude game created 2026-09-13..2026-09-15",
+      "https://github.com/Akajek/Track-Master"
+    ],
+    "verification_notes": "The repository was created on 2026-09-13 and describes a complete asymmetric multiplayer browser tower-defense game. The README documents Mastermind track editing, towers, traps, abilities, runner movement, escape objectives, upgrades, victory points, rooms and setup. package.json identifies a Node.js server and ws dependency; server.js and public/index.html, game.js and rules.js provide the multiplayer entry point and game state. The cited gameplay commit contains an exact Co-Authored-By: Claude Opus 5 trailer and reports tested gameplay systems. Count one new browser game unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 260000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas board rendering, WebSocket snapshots, tower/trap simulation, collision checks, effects, UI and multiplayer state; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "The new project has a substantial documented multiplayer loop, server/client source, configurable mechanics, tests and direct Opus gameplay evidence.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
