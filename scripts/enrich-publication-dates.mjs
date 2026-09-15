@@ -54,7 +54,22 @@ for (let index = 0; index < pendingSlugs.length; index += 25) {
   const batch = pendingSlugs.slice(index, index + 25);
   const response = runGraphql(batch);
   if (response.error || response.errors) {
-    for (const slug of batch) cache[slug] = { ...(cache[slug] ?? {}), metadata: { error: response.error ?? JSON.stringify(response.errors) } };
+    // One deleted or inaccessible repository can poison a GraphQL batch. Retry
+    // each member serially so valid repositories still receive date metadata.
+    for (const slug of batch) {
+      const single = runGraphql([slug]);
+      const repository = single.data?.r0;
+      if (repository) {
+        cache[slug] = {
+          metadata: { created_at: repository.createdAt, html_url: repository.url },
+          releases: repository.releases?.nodes ?? [],
+        };
+        fetchedRepositories += 1;
+        fetchedReleases += 1;
+      } else {
+        cache[slug] = { ...(cache[slug] ?? {}), metadata: { error: single.error ?? JSON.stringify(single.errors) } };
+      }
+    }
     checkpoint();
     continue;
   }
