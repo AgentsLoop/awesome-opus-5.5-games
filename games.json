@@ -27231,5 +27231,61 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/JakeAve/airgap/commit/344e9d333dad28a0b4645962b3dbe68ec9d3902a",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "Tic-Tac-Toe MCP Game",
+    "repository_id": "R_kgDOUarQlA",
+    "github_url": "https://github.com/worgho2/tic-tac-toe-mcp-game",
+    "game_links": [
+      "https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/README.md",
+      "https://github.com/worgho2/tic-tac-toe-mcp-game/tree/main/src/server/game",
+      "https://github.com/worgho2/tic-tac-toe-mcp-game/tree/main/src/app/screens",
+      "https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/docs/media/game.png"
+    ],
+    "live_demo_url": "https://tic-tac-toe-mcp-game.baziewi.cz/mcp",
+    "evidence_url": "https://github.com/worgho2/tic-tac-toe-mcp-game/commit/0f29b0b7f5bb68b17422bcdd3ea7130497f9312d",
+    "screenshot_urls": [
+      "https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/docs/media/game.png"
+    ],
+    "technology": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "MCP Apps",
+      "Docker",
+      "Native web UI"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Tic-Tac-Toe MCP Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "repository_created_at": "2026-09-14T15:38:14Z",
+    "recent_game_evidence_on": "2026-09-14",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub commit search for Claude Fable 5.1 dated 2026-09-13..2026-09-15",
+      "https://github.com/worgho2/tic-tac-toe-mcp-game"
+    ],
+    "verification_notes": "The README documents a real two-player tic-tac-toe game rendered inside Claude, ChatGPT or VS Code through MCP Apps. The public source contains server-side board state and legal move handling, a lobby, invitations, turn-specific moves, win/draw outcomes, rematches and a React game screen with clickable cells. The repository has exact Claude Fable 5.1 trailers on current implementation commits, including the 2026-09-14 game model and widget work. Count one fresh game unit; the public MCP endpoint and screenshot are recorded, but no browser playtest was performed in this turn.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 90000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for a React pixel-art board, lobby polling, server-side turn state, UI animation and MCP message handling; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "Source-complete networked game with server-enforced rules, matchmaking, invites, rematches, a polished widget and a public MCP endpoint, supported by screenshots and exact recent model trailers.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a polished two-player tic-tac-toe game that runs as an MCP App inside Claude, ChatGPT and VS Code conversations. Expose one model-visible join_game tool, render a self-contained pixel-art React widget, provide a lobby with player handles and invites, enforce turns and legal board state on the server, show wins and draws, support automatic rematches with score tracking, poll for opponent moves, and package the service for Docker and a public Streamable HTTP MCP endpoint. This is a source-derived reconstruction from the public repository and Claude Fable 5.1-attributed commits, not a claim about the original private prompt.",
+    "prompt_origin": "source_linked_plus_reverse_engineered",
+    "prompt_evidence_url": "https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/README.md",
+    "quality_category": "curated_games"
   }
 ]
