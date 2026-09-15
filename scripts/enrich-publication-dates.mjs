@@ -17,7 +17,7 @@ const runGraphql = (slugs) => {
   const selections = slugs.map((slug, index) => {
     const [owner, name] = slug.split('/');
     const quote = (value) => JSON.stringify(value);
-    return `r${index}: repository(owner: ${quote(owner)}, name: ${quote(name)}) { createdAt url releases(first: 100, orderBy: { field: CREATED_AT, direction: ASC }) { nodes { createdAt publishedAt htmlUrl isDraft isPrerelease } } }`;
+    return `r${index}: repository(owner: ${quote(owner)}, name: ${quote(name)}) { createdAt url releases(first: 100, orderBy: { field: CREATED_AT, direction: ASC }) { nodes { createdAt publishedAt url isDraft isPrerelease } } }`;
   }).join('\n');
   const query = `query { ${selections} }`;
   try {
