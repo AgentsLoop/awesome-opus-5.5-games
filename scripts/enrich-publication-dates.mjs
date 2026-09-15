@@ -13,6 +13,19 @@ const runGh = (endpoint) => {
     return { error: String(error.stderr ?? error.message ?? error).trim() };
   }
 };
+const runGraphql = (slugs) => {
+  const selections = slugs.map((slug, index) => {
+    const [owner, name] = slug.split('/');
+    const quote = (value) => JSON.stringify(value);
+    return `r${index}: repository(owner: ${quote(owner)}, name: ${quote(name)}) { createdAt url releases(first: 100, orderBy: { field: CREATED_AT, direction: ASC }) { nodes { createdAt publishedAt htmlUrl isDraft isPrerelease } } }`;
+  }).join('\n');
+  const query = `query { ${selections} }`;
+  try {
+    return JSON.parse(execFileSync('gh', ['api', 'graphql', '-f', `query=${query}`], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], timeout: 30000 }));
+  } catch (error) {
+    return { error: String(error.stderr ?? error.message ?? error).trim() };
+  }
+};
 
 const repoSlug = (url) => {
   const match = /^https:\/\/github\.com\/([^/]+\/[^/]+)\/?$/.exec(url ?? '');
@@ -35,17 +48,38 @@ let repositoryDatesAdded = 0;
 let failures = 0;
 const checkpoint = () => fs.writeFileSync(cachePath, `${JSON.stringify(cache, null, 2)}\n`);
 
+const slugs = [...new Set(records.filter((record) => record.is_independent_game && record.github_url).map((record) => repoSlug(record.github_url)).filter(Boolean))];
+const pendingSlugs = slugs.filter((slug) => !cache[slug]?.metadata || !cache[slug]?.releases);
+for (let index = 0; index < pendingSlugs.length; index += 25) {
+  const batch = pendingSlugs.slice(index, index + 25);
+  const response = runGraphql(batch);
+  if (response.error || response.errors) {
+    for (const slug of batch) cache[slug] = { ...(cache[slug] ?? {}), metadata: { error: response.error ?? JSON.stringify(response.errors) } };
+    checkpoint();
+    continue;
+  }
+  batch.forEach((slug, batchIndex) => {
+    const repository = response.data?.[`r${batchIndex}`];
+    if (!repository) {
+      cache[slug] = { ...(cache[slug] ?? {}), metadata: { error: 'Repository not found or inaccessible' } };
+      return;
+    }
+    cache[slug] = {
+      metadata: { created_at: repository.createdAt, html_url: repository.url },
+      releases: repository.releases?.nodes ?? [],
+    };
+  });
+  fetchedRepositories += batch.length;
+  fetchedReleases += batch.length;
+  checkpoint();
+}
+
 for (const record of records) {
   if (!record.is_independent_game || !record.github_url) continue;
   const slug = repoSlug(record.github_url);
   if (!slug) continue;
 
-  let metadata = cache[slug]?.metadata;
-  if (!metadata) {
-    metadata = runGh(`repos/${slug}`);
-    cache[slug] = { ...(cache[slug] ?? {}), metadata };
-    fetchedRepositories += 1;
-  }
+  const metadata = cache[slug]?.metadata;
   if (metadata.error) {
     failures += 1;
     record.publication_date_status ??= 'unknown';
@@ -68,12 +102,7 @@ for (const record of records) {
     continue;
   }
 
-  let releases = cache[slug]?.releases;
-  if (!releases) {
-    releases = runGh(`repos/${slug}/releases?per_page=100`);
-    cache[slug] = { ...cache[slug], releases };
-    fetchedReleases += 1;
-  }
+  const releases = cache[slug]?.releases;
   if (Array.isArray(releases)) {
     const publicReleases = releases
       .filter((release) => !release.draft && (release.published_at || release.created_at))
