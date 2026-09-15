@@ -27508,5 +27508,61 @@
     "prompt_origin": "source_linked_plus_reverse_engineered",
     "prompt_evidence_url": "https://github.com/1989-12-13/BuddyGame/blob/master/README.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "Tres Space Shooter",
+    "repository_id": "R_kgDOQlvCvQ",
+    "github_url": "https://github.com/SilvioDoMine/tres-spaceshooter",
+    "game_links": [
+      "https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/README.md",
+      "https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/app/components/game/GameOrchestrator.vue",
+      "https://github.com/SilvioDoMine/tres-spaceshooter/tree/main/app/components/game",
+      "https://github.com/SilvioDoMine/tres-spaceshooter/commit/a8502003f4c589b2e8f03509485adf9e22428f55",
+      "https://github.com/SilvioDoMine/tres-spaceshooter/commit/2af9d5ff8a0f6a8198d481679e9d6d40bd16cb87"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/SilvioDoMine/tres-spaceshooter/commit/a8502003f4c589b2e8f03509485adf9e22428f55",
+    "screenshot_urls": [],
+    "technology": [
+      "Nuxt 3",
+      "Vue 3",
+      "TresJS",
+      "Three.js",
+      "TypeScript",
+      "Pinia",
+      "Native web"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed_at_repository_level",
+    "game_count": 1,
+    "contained_games": [
+      "Tres Space Shooter"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "repository_created_at": "2025-12-09T19:57:45Z",
+    "recent_game_evidence_on": "2026-09-15",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub game commit search dated 2026-09-13..2026-09-15",
+      "https://github.com/SilvioDoMine/tres-spaceshooter"
+    ],
+    "verification_notes": "The README and TresJS source identify a real browser space-shooter with a 3D world, player ship controls, enemy managers and AI, projectiles, collision/combat state, health, loot, skills, equipment, missions, chapters, boss encounters, lobby/progression and a frame-driven game loop. Current commits on 2026-09-14 and 2026-09-15 add game-speed simulation, combat audio, health testing, hyperdrive effects, ship updates and chapter repagination. The repository also contains exact Claude Opus 5 attribution on its recent release/deploy commits. Count one fresh game unit with two-day gameplay evidence; model attribution is recorded at repository level rather than claimed for every gameplay commit.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed_at_repository_level",
+    "flops_estimate_raw": 2200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/TresJS 3D rendering, multiple animated ships/enemies, projectile and collision updates, post-processing/VFX, audio and UI; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "A substantial source-complete Three.js space-shooter with a real frame loop, enemy AI, projectiles, combat/audio systems, progression, missions, 3D assets and extensive fresh gameplay polish.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a source-complete 3D browser space-shooter called Tres Space Shooter with Nuxt 3, Vue, TresJS/Three.js, TypeScript and Pinia. Create a lobby and chapter-based missions around a controllable player ship, enemy managers and AI, projectile combat, collision and health, loot and heart pickups, skills, equipment, rewards, bosses, progression, pause/results screens, audio and visual effects. Run all subsystems from a deterministic frame-driven game loop, add adjustable 1x/2x/3x simulation speed, 3D environments, ship/equipment visuals and mobile-friendly UI, and keep the app deployable as a Nuxt site. This is a source-derived reconstruction from the public repository and repository-level Claude Opus 5 attribution, not a claim about the original private prompt.",
+    "prompt_origin": "source_linked_plus_reverse_engineered",
+    "prompt_evidence_url": "https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/README.md",
+    "quality_category": "curated_games"
   }
 ]
