@@ -17,17 +17,17 @@
 | 2026-09-11 | 8 | 8 | [Open report](daily/2026-09-11.md) |
 | 2026-09-12 | 0 | 0 | [Open report](daily/2026-09-12.md) |
 | 2026-09-13 | 0 | 0 | [Open report](daily/2026-09-13.md) |
-| 2026-09-14 | 0 | 0 | [Open report](daily/2026-09-14.md) |
-| 2026-09-15 | 0 | 0 | [Open report](daily/2026-09-15.md) |
+| 2026-09-14 | 2 | 2 | [Open report](daily/2026-09-14.md) |
+| 2026-09-15 | 10 | 10 | [Open report](daily/2026-09-15.md) |
 
 ## Date coverage
 
 | Date signal | Records | Game units | Meaning |
 | --- | ---: | ---: | --- |
 | Explicit publication date | 151 | 286 | `published_on` |
-| Publication or qualifying evidence date | 155 | 290 | `published_on`, `recent_game_evidence_on`, or `fresh_activity_date` |
+| Publication or qualifying evidence date | 163 | 307 | `published_on`, `recent_game_evidence_on`, or `fresh_activity_date` |
 | Date unknown for ranking | 327 | 423 | Exclude from date rankings |
-| Repository creation metadata | 482 | 713 | Audit context only; not publication |
+| Repository creation metadata | 490 | 730 | Audit context only; not publication |
 
 ## Date policy
 

@@ -8278,6 +8278,55 @@
       },
       "critique_note": "The pass completed date metadata coverage without treating repository creation or curation verification as publication. Release URLs are retained as direct evidence, while remaining records are explicitly separated in the audit.",
       "critic": "manual conservative score after serial metadata audit"
+    },
+    {
+      "source": "GitHub commit and repository search — two-day fresh-game pass",
+      "queries": [
+        "gh search commits Co-Authored-By Claude Opus 5 game --committer-date=2026-09-13..2026-09-15",
+        "gh search commits Co-Authored-By Claude Fable 5.1 --committer-date=2026-09-13..2026-09-15",
+        "gh search commits game --committer-date=2026-09-13..2026-09-15",
+        "gh search commits \"Claude Fable 5.1\" game --committer-date=2026-09-13..2026-09-15"
+      ],
+      "date_window": "2026-09-13..2026-09-15",
+      "status": "completed",
+      "search_policy": "serial only; inspect each candidate once; require source-backed gameplay and qualifying Astra/Opus/Fable evidence",
+      "repositories_inspected": 31,
+      "accepted_repositories": [
+        "https://github.com/yumo-zs/tank-battle",
+        "https://github.com/jansmakr/space-shooter-web",
+        "https://github.com/Akajek/Track-Master",
+        "https://github.com/Akajek/Dipe.oi",
+        "https://github.com/mohi-devhub/claude-games",
+        "https://github.com/LeandroMagonza/TicTacTotem",
+        "https://github.com/donsinp-design/Out",
+        "https://github.com/khaielwork6-stack/Search-For-The-Egg",
+        "https://github.com/EthanVanDyk/blackline-prototype",
+        "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra",
+        "https://github.com/AndreiBesliu/PirateSeas",
+        "https://github.com/JakeAve/airgap",
+        "https://github.com/worgho2/tic-tac-toe-mcp-game",
+        "https://github.com/remeadows/gridwatch-signal-breach",
+        "https://github.com/cuongluu8/tenable",
+        "https://github.com/KAOSN00B/MysticOnslaught",
+        "https://github.com/1989-12-13/BuddyGame",
+        "https://github.com/SilvioDoMine/tres-spaceshooter"
+      ],
+      "rejected_candidates": [
+        "https://github.com/DrFaustos/MCU — video-conferencing MCU, not a game",
+        "https://github.com/GenomZ/race-mini-comp — agent benchmark/gym, not a standalone game",
+        "https://github.com/atibp1722/js-web — real JavaScript games but no qualifying Astra/Opus/Fable attribution",
+        "https://github.com/titouanthd/ember — real multi-game Rust engine collection but no qualifying model attribution",
+        "https://github.com/xElSebax/arcade-vault — real arcade catalog but no qualifying model attribution",
+        "https://github.com/yairul10/Gallina-cosmica — real Android game but no qualifying model attribution",
+        "https://github.com/franciscolir/cumpeo-games — real game platform but no qualifying model attribution",
+        "https://github.com/xecl1psex/NEON-SURVIVORS — real browser game but no qualifying model attribution",
+        "https://github.com/gentle-path-driving-school/gpath — real browser mini-game but no qualifying model attribution",
+        "https://github.com/GWStudios54/ClueMorning — real six-game site but no qualifying model attribution",
+        "https://github.com/Peytob/another-generic-rpg — game loop incomplete/no qualifying model evidence"
+      ],
+      "new_verified": 18,
+      "new_game_units": 30,
+      "note": "This pass reached the requested thirty new counted units. Multi-game repositories were kept as one canonical record and counted only after separate game pages or source units showed input, rules/objectives, state transitions and completion/failure. Repository creation dates remain separate from recent gameplay-evidence dates. Tres Space Shooter is explicitly labeled repository-level model evidence because its exact Opus trailers are on release/deploy work rather than every gameplay commit."
     }
   ],
   "frontier": [

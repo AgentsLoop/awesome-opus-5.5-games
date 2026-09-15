@@ -14,3 +14,7 @@ Use these sources to maintain the list.
 - Show aggregate game counts without inventing individual game names.
 - Generate all README counts from `games.json`.
 - Validate repository URLs, evidence URLs, evidence levels, game-unit counts, and quality values before generating the README.
+
+## Freshness audit rule
+
+For date-ranked game lists, record three signals separately: repository creation, explicit publication/release, and qualifying gameplay evidence. Accept a game into a two-day pass only after inspecting its README, entry point and gameplay state serially. Count multi-game repositories once in `games.json`, but count each independently documented playable unit in rankings. Label repository-level model attribution when the exact model trailer is not attached to the gameplay commit.

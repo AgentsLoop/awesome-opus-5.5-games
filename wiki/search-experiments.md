@@ -2107,3 +2107,11 @@ Create `games/<slug>/readme.md` for every named game unit. Link the repository, 
 ### Publication-date enrichment audit
 
 Run GitHub metadata collection serially through bounded GraphQL batches. Fetch repository creation timestamps for every qualifying repository and inspect the first public release when available. Store `published_on` only for an explicit publication or release signal. Store `repository_created_at` separately, label repository-created-only records, preserve inaccessible-repository dates as recorded without live source, and leave no record with an unclassified date status. Regenerate the ranking reports and validate both the dataset and date audit after the pass.
+
+### Two-day fresh-game pass completed on 2026-09-15
+
+Run the GitHub commit and repository queries serially for `2026-09-13..2026-09-15`. Require a playable source loop and qualifying GPT-6 Astra, Claude Opus, or Claude Fable evidence. Accept one canonical record per repository, then count separately documented game pages or source units inside multi-game repositories.
+
+Add 30 counted units from 18 repositories. Strong multi-game sources included [Airgap](https://github.com/JakeAve/airgap) with seven browser games and [Top-10 Tension](https://github.com/cuongluu8/tenable) with four football-trivia modes. Fresh single-game additions included [PirateSeas](https://github.com/AndreiBesliu/PirateSeas), [GridWatch: Signal Breach](https://github.com/remeadows/gridwatch-signal-breach), [Tic-Tac-Toe MCP Game](https://github.com/worgho2/tic-tac-toe-mcp-game), [Mystic Onslaught](https://github.com/KAOSN00B/MysticOnslaught), [120 Dispatch Desk](https://github.com/1989-12-13/BuddyGame), and [Tres Space Shooter](https://github.com/SilvioDoMine/tres-spaceshooter).
+
+Reject real games without qualifying model attribution, catalogs, engine benchmarks, visual scenes, tooling, and incomplete prototypes. Keep repository creation timestamps separate from current gameplay-evidence dates. Label repository-level model evidence instead of upgrading it to direct gameplay attribution.
