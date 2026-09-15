@@ -229,7 +229,7 @@ const audit = rows.map((row) => ({
 fs.writeFileSync(path.join(outputDirectory, 'date-audit.json'), `${JSON.stringify({ generated_on: asOf, records: audit }, null, 2)}\n`);
 
 let index = '# Game Rankings\n\n> Generate these reports with ' + '`node scripts/generate-rankings.mjs --as-of=YYYY-MM-DD`' + '.\n\n';
-index += `## Current reports\n\n- [Top games this week](this-week.md) — **${weekRows.length}** ranked rows.\n- [Top games this month](this-month.md) — **${monthRows.length}** ranked rows.\n- [Date audit data](date-audit.json) — normalized date fields for every independent game unit.\n\n`;
+index += `## Current reports\n\n- [Top games this week](this-week.md) — **${weekRows.length}** ranked rows.\n- [Top games this month](this-month.md) — **${monthRows.length}** ranked rows.\n- [Date audit data](date-audit.json) — normalized date fields for every curated game unit.\n\n`;
 index += `## Daily rankings\n\n| Date | Ranked rows | Counted units | Report |\n| --- | ---: | ---: | --- |\n`;
 for (const date of dailyDates) {
   const items = dailyRows.get(date) ?? [];
@@ -245,6 +245,7 @@ index += `## Date policy\n\n`;
 index += `- Treat ` + '`published_on`' + ` as the preferred publication date.\n`;
 index += `- Use recent gameplay evidence or fresh repository activity only when no publication date exists, and label the basis in the report.\n`;
 index += `- Keep repository creation and ` + '`verified_on`' + ` dates separate from publication.\n`;
+index += `- Exclude low-quality records below the 7.0 curated-list threshold; keep them in [bad-games.md](../bad-games.md).\n`;
 index += `- Show unknown dates instead of guessing.\n`;
 index += `- Regenerate all reports after changing ` + '`games.json`' + `.\n\n`;
 index += `As of: **${asOf}**\n`;

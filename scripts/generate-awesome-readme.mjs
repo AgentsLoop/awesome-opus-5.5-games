@@ -174,7 +174,8 @@ const periodTable = (title, description, items) => {
 };
 const threeCount = unitTotal(rows.filter((row) => /three\.js|threejs|webgl|webgpu/i.test(techText(row.record, row.technology))));
 const nonBrowserCount = unitTotal(rows.filter((row) => row.category === 'Non-Browser Engines'));
-const promptCount = unitTotal(rows.filter((row) => row.record.prompt));
+const directPromptCount = unitTotal(rows.filter((row) => row.record.prompt_urls?.length));
+const promptFieldCount = unitTotal(rows.filter((row) => row.record.prompt));
 const screenshotCount = unitTotal(rows.filter((row) => row.record.screenshot_urls?.length));
 const evidenceCounts = rows.reduce((counts, row) => {
   const key = evidenceText(row.record);
@@ -209,7 +210,8 @@ output += `| Other non-game records moved to other.md | **${otherRecords.length}
 output += `| WebGL-family game units, across all categories | **${threeCount}** |\n`;
 output += `| Non-browser engine game units | **${nonBrowserCount}** |\n`;
 output += `| Game units with screenshot links | **${screenshotCount}** |\n`;
-output += `| Game units with direct prompt links | **${promptCount}** |\n`;
+output += `| Game units with direct prompt links | **${directPromptCount}** |\n`;
+output += `| Game units with source-derived prompt fields | **${promptFieldCount}** |\n`;
 output += `| Game units with exact publication dates | **${publicationDateUnits}** (${publicationDateRecords.length} repositories) |\n`;
 output += `| Game units with repository creation dates | **${repositoryDateUnits}** (${repositoryDateRecords.length} repositories) |\n\n`;
 output += `## Verification snapshot\n\n`;
