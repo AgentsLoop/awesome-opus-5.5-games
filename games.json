@@ -23206,5 +23206,47 @@
     "quality_estimate_basis": "The project has a complete browser entry point, documented controls and objective, multiple enemy and terrain systems, progression, persistence and direct Opus attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Space Shooter",
+    "github_url": "https://github.com/jansmakr/space-shooter-web",
+    "game_links": [
+      "https://github.com/jansmakr/space-shooter-web/commit/2d6ca4489a4d2ee4e5c7c59b33ef893a53faf0f8",
+      "https://github.com/jansmakr/space-shooter-web/blob/main/index.html"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/jansmakr/space-shooter-web/commit/2d6ca4489a4d2ee4e5c7c59b33ef893a53faf0f8",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML5 Canvas",
+      "JavaScript",
+      "CSS3",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Space Shooter"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, committer-date 2026-09-13..2026-09-15",
+      "https://github.com/jansmakr/space-shooter-web"
+    ],
+    "verification_notes": "The repository was created on 2026-09-15 and contains a standalone index.html Canvas game. The source implements title/start/pause/game-over states, keyboard, mouse and touch controls, a player ship, bullets, meteors, enemies, enemy fire, collisions, power-ups, sectors, lives, score and local best-score persistence. The cited creation commit contains an exact Co-Authored-By: Claude Opus 5 trailer. Count one new browser game unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 220000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas sprite drawing, collision checks, projectiles, enemy spawning, particles, HUD and audio; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "The repository is newly created, self-contained, browser-runnable, supports keyboard/mouse/touch input, has a complete combat loop and direct Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
