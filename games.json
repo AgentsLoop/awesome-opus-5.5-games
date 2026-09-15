@@ -23293,5 +23293,51 @@
     "quality_estimate_basis": "The new project has a substantial documented multiplayer loop, server/client source, configurable mechanics, tests and direct Opus gameplay evidence.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "TurretForge.io",
+    "github_url": "https://github.com/Akajek/Dipe.oi",
+    "game_links": [
+      "https://github.com/Akajek/Dipe.oi/blob/main/README.md",
+      "https://github.com/Akajek/Dipe.oi/blob/main/server/index.js",
+      "https://github.com/Akajek/Dipe.oi/tree/main/client",
+      "https://github.com/Akajek/Dipe.oi/tree/main/shared",
+      "https://github.com/Akajek/Dipe.oi/blob/main/package.json"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Akajek/Dipe.oi/commit/12c04f0330101248c96696b820fe02a166510b96",
+    "screenshot_urls": [],
+    "technology": [
+      "Node.js",
+      "WebSocket",
+      "Canvas 2D",
+      "JavaScript",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "TurretForge.io"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub repository search for Claude game created 2026-09-13..2026-09-15",
+      "https://github.com/Akajek/Dipe.oi"
+    ],
+    "verification_notes": "The repository was created on 2026-09-13 and contains TurretForge.io, a multiplayer arena shooter with custom turret construction. The README documents four modes, movement, aiming, firing, XP, levels, turret editing, projectiles, collisions, boss fights, WebSocket snapshots, server authority, client prediction, VFX and tests. The source tree separates server, client and shared rules and package.json provides the Node.js runtime. The cited creation commit contains an exact Co-Authored-By: Claude Opus 5 trailer. Count one new browser game unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 340000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for server physics, WebSocket snapshots, Canvas rendering, custom turret projectiles, particles, audio and multiplayer interpolation; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "The new repository contains a substantial multiplayer shooter, custom build system, server-authoritative simulation, tests and direct Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
