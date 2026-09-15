@@ -27287,5 +27287,60 @@
     "prompt_origin": "source_linked_plus_reverse_engineered",
     "prompt_evidence_url": "https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/README.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "GridWatch: Signal Breach",
+    "repository_id": "R_kgDOSue4tg",
+    "github_url": "https://github.com/remeadows/gridwatch-signal-breach",
+    "game_links": [
+      "https://github.com/remeadows/gridwatch-signal-breach/blob/main/README.md",
+      "https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/sim",
+      "https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/input",
+      "https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/render"
+    ],
+    "live_demo_url": "https://GridWatch-SignalBreach.warsignallabs.net",
+    "evidence_url": "https://github.com/remeadows/gridwatch-signal-breach/commit/7609592f1d278117c7302cbea7b2e4cc8975cfa2",
+    "screenshot_urls": [
+      "https://github.com/remeadows/gridwatch-signal-breach/blob/main/src/assets/board/phase6/gw-phase6-core-board-v1.webp"
+    ],
+    "technology": [
+      "Vite",
+      "TypeScript",
+      "HTML5 Canvas 2D",
+      "Cloudflare Pages",
+      "Native web"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "GridWatch: Signal Breach"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "repository_created_at": "2026-06-02T02:38:31Z",
+    "recent_game_evidence_on": "2026-09-14",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub commit search for Claude Fable 5.1 dated 2026-09-13..2026-09-15",
+      "https://github.com/remeadows/gridwatch-signal-breach"
+    ],
+    "verification_notes": "The README identifies GridWatch: Signal Breach as a static browser-playable cyberpunk signal-routing defense game. Its source includes Canvas rendering, pointer input, deterministic simulation, seeded waves, build phases, deployable relay/firewall/ICE/scrubber/overclock units, hostile probes/crawlers/spoofs/hunters/splitters/goliaths, campaign sectors, scoring, win/failure and retry states. The repository has exact Claude Fable 5.1 trailers on current 2026-09-14 deployment/account and acceptance work; the cited commit records the live deployment and acceptance state. Count one existing game with fresh qualifying game/deployment evidence in the two-day window; no claim is made that the repository itself was created in that window.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 320000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas rendering, deterministic grid simulation, wave AI, particle/animation effects, input and HUD updates; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Substantial source-complete tower-defense game with deterministic replay validation, multiple campaigns, typed simulation/render separation, public deployment, screenshots and recent exact Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a polished static browser game called GridWatch: Signal Breach with a cyberpunk signal-routing defense campaign. Render three sectors on 8x8 grids with Canvas 2D; let players place and sell relays, firewalls, ICE turrets, scrubbers and overclock nodes; simulate deterministic seeded waves of probes, crawlers, spoofs, hunters, splitters and a goliath; expose build and launch phases, twelve-wave objectives, briefing/pause controls, scoring, retry, sector selection, victory and failure screens, and replay-verifiable commands. Deploy it as a Vite/TypeScript Cloudflare Pages game with optional high-score validation. This is a source-derived reconstruction from the public repository and Claude Fable 5.1-attributed commits, not a claim about the original private prompt.",
+    "prompt_origin": "source_linked_plus_reverse_engineered",
+    "prompt_evidence_url": "https://github.com/remeadows/gridwatch-signal-breach/blob/main/README.md",
+    "quality_category": "curated_games"
   }
 ]
