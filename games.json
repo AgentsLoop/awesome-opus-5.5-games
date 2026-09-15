@@ -27111,5 +27111,60 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/README.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "PirateSeas",
+    "repository_id": "R_kgDOUaEchw",
+    "github_url": "https://github.com/AndreiBesliu/PirateSeas",
+    "game_links": [
+      "https://github.com/AndreiBesliu/PirateSeas/blob/main/README.md",
+      "https://github.com/AndreiBesliu/PirateSeas/blob/main/DEVLOG.md",
+      "https://github.com/AndreiBesliu/PirateSeas/commit/3dadae58813538994eaa19b76499ba65298e3e36",
+      "https://github.com/AndreiBesliu/PirateSeas/tree/main/Source/PirateSeas"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/AndreiBesliu/PirateSeas/commit/3dadae58813538994eaa19b76499ba65298e3e36",
+    "screenshot_urls": [
+      "https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png"
+    ],
+    "technology": [
+      "Unreal Engine 5.7",
+      "C++",
+      "Chaos Physics",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5",
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "PirateSeas"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "repository_created_at": "2026-09-14T07:56:53Z",
+    "recent_game_evidence_on": "2026-09-15",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search for Opus created 2026-09-13..2026-09-15",
+      "https://github.com/AndreiBesliu/PirateSeas"
+    ],
+    "verification_notes": "The repository is a newly created Unreal Engine 5.7 C++ pirate sailing combat game. README and source document a playable open-ocean loop with sail and rudder controls, wind-driven movement, AI enemy ships, broadside cannons, ballistic cannonballs, hull/rigging/rudder/battery damage, islands, grounding, convoy objectives, HUD and measured combat scenarios. DEVLOG records exact prompts and Claude Opus 5 / Claude Fable 5.1 attribution; the cited 2026-09-15 commit contains an exact Co-Authored-By: Claude Fable 5.1 trailer. Source files include ShipPawn, EnemyShipPawn, ShipAIController, CannonBall, Island, WindSubsystem, SeaGameMode and the Unreal map. Count one new native-engine game unit; no public browser demo was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unreal Engine 5.7 scene rendering, Chaos physics, water, ships, AI, ballistic projectiles, particles, audio and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "Substantial source-complete Unreal game with a documented sailing/combat loop, native C++ gameplay classes, AI, physical ballistics, damage zones, islands, measured scenarios, screenshots and direct model attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Create a source-complete Unreal Engine 5.7 C++ pirate sailing combat game. Build an open-ocean level with wind-driven sails, rudder steering, physical ship movement, one or more AI enemy ships, broadside cannons with ballistic cannonballs and independent reloads, hull/rigging/rudder/battery damage zones, islands and grounding, convoy objectives, HUD feedback, win/failure states and deterministic measurement scenarios. Use Chaos physics and keep gameplay in C++ rather than Blueprint. Validate controls, projectile flight, damage effects, AI behavior, grounding, objectives and restartable gameplay against the public PirateSeas source and DEVLOG; this is a reconstruction of the observed implementation, not a claim about the original private prompt.",
+    "prompt_origin": "source_linked_plus_reverse_engineered",
+    "prompt_evidence_url": "https://github.com/AndreiBesliu/PirateSeas/blob/main/DEVLOG.md",
+    "quality_category": "curated_games"
   }
 ]
