@@ -63,9 +63,9 @@ function evidenceSource(record) {
 function dateInfo(record) {
   const published = validDate(record.published_on) ? {
     date: record.published_on,
-    published_date_type: 'published',
-    published_date_source: nonGitHubSource(record) || evidenceSource(record),
-    published_date_confidence: 'exact',
+    published_date_type: record.published_date_type ?? 'published',
+    published_date_source: usableUrl(record.published_date_source) ? record.published_date_source : (nonGitHubSource(record) || evidenceSource(record)),
+    published_date_confidence: record.published_date_confidence ?? 'exact',
   } : null;
   const recentEvidence = validDate(record.recent_game_evidence_on) ? {
     date: record.recent_game_evidence_on,
