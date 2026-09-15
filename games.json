@@ -27166,5 +27166,70 @@
     "prompt_origin": "source_linked_plus_reverse_engineered",
     "prompt_evidence_url": "https://github.com/AndreiBesliu/PirateSeas/blob/main/DEVLOG.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "Airgap",
+    "repository_id": "R_kgDOUXOrRg",
+    "github_url": "https://github.com/JakeAve/airgap",
+    "game_links": [
+      "https://github.com/JakeAve/airgap/blob/main/README.md",
+      "https://github.com/JakeAve/airgap/blob/main/static/checkers.html",
+      "https://github.com/JakeAve/airgap/blob/main/static/chess.html",
+      "https://github.com/JakeAve/airgap/blob/main/static/packetstorm.html",
+      "https://github.com/JakeAve/airgap/blob/main/static/spaceships.html",
+      "https://github.com/JakeAve/airgap/blob/main/static/swarm.html",
+      "https://github.com/JakeAve/airgap/blob/main/static/tictactoe.html",
+      "https://github.com/JakeAve/airgap/tree/main/src/games"
+    ],
+    "live_demo_url": "https://jakeave.github.io/airgap/",
+    "evidence_url": "https://github.com/JakeAve/airgap/commit/344e9d333dad28a0b4645962b3dbe68ec9d3902a",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "Deno",
+      "HTML",
+      "CSS",
+      "PWA",
+      "GitHub Pages"
+    ],
+    "model_family": [
+      "Claude Fable 5.1",
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 7,
+    "contained_games": [
+      "Checkers",
+      "Chess",
+      "Hive",
+      "Swarm",
+      "Packet Storm",
+      "Spaceships",
+      "Tic-Tac-Toe"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "repository_created_at": "2026-09-11T18:02:08Z",
+    "recent_game_evidence_on": "2026-09-15",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub commit search for Claude Fable 5.1 dated 2026-09-13..2026-09-15",
+      "https://github.com/JakeAve/airgap"
+    ],
+    "verification_notes": "The repository is a browser PWA/library of independent two-player games whose moves are exchanged by sound or QR. The public source contains separate playable pages and game logic for Checkers, Chess, Hive, Swarm, Packet Storm, Spaceships (a Battleship-style game), and Tic-Tac-Toe, with rules, state transitions, turn handling, codecs, UI input and end states. The dated commits Add checkers (#3), Add chess (#6), and Add Swarm (#5) contain exact Co-Authored-By: Claude Fable 5.1 trailers; Packet Storm and other current gameplay commits contain exact Claude Opus 5 trailers. Count seven independently playable game units in one repository; the repository was created 2026-09-11 and received game/effects work on 2026-09-15.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for seven lightweight browser game UIs, board/state updates, QR and audio transport, SVG/canvas-style rendering, animations and validation; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "A polished, source-complete multi-game PWA with seven distinct rule engines, playable pages, deterministic codecs, tests, peer-to-peer move transport and current gameplay commits with direct model trailers.",
+    "counted_game_units": 7,
+    "is_independent_game": true,
+    "prompt": "Build a polished browser PWA called Airgap that hosts seven independent two-player games: Checkers, Chess, Hive, Swarm, Packet Storm, Spaceships, and Tic-Tac-Toe. Give each game its own page, rules engine, state transitions, move codec, input UI, turn flow, win/draw/resign states and tests. Let two phones exchange moves without a server through audio or QR-code transport, provide a shared shell, saves and game links, and deploy it as an installable GitHub Pages PWA. This is a source-derived reconstruction from the public repository and model-attributed commits, not a claim about the original private prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/JakeAve/airgap/commit/344e9d333dad28a0b4645962b3dbe68ec9d3902a",
+    "quality_category": "curated_games"
   }
 ]
