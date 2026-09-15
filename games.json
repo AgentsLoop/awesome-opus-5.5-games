@@ -27402,5 +27402,57 @@
     "prompt_origin": "source_linked_plus_reverse_engineered",
     "prompt_evidence_url": "https://github.com/cuongluu8/tenable/blob/main/README.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "Mystic Onslaught",
+    "repository_id": "R_kgDORNboZQ",
+    "github_url": "https://github.com/KAOSN00B/MysticOnslaught",
+    "game_links": [
+      "https://github.com/KAOSN00B/MysticOnslaught/blob/master/README.md",
+      "https://github.com/KAOSN00B/MysticOnslaught/tree/master/TestGame",
+      "https://kaosn00b.itch.io/mystic-onslaught"
+    ],
+    "live_demo_url": "https://kaosn00b.itch.io/mystic-onslaught",
+    "evidence_url": "https://github.com/KAOSN00B/MysticOnslaught/commit/b5c7a873c0708727201e03129deb29da904f640e",
+    "screenshot_urls": [],
+    "technology": [
+      "C++",
+      "raylib 5.5",
+      "Emscripten",
+      "Native desktop and web"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Mystic Onslaught"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "repository_created_at": "2026-02-10T23:55:20Z",
+    "recent_game_evidence_on": "2026-09-15",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub game commit search dated 2026-09-13..2026-09-15",
+      "https://github.com/KAOSN00B/MysticOnslaught",
+      "https://kaosn00b.itch.io/mystic-onslaught"
+    ],
+    "verification_notes": "The README and source describe a playable top-down action roguelite with real-time combat, six classes, abilities, enemy waves, procedural/authored rooms, bosses, pickups, relics, a village hub, meta progression, keyboard/gamepad/touch controls and Emscripten web support. The public itch.io game page is linked from the README. The repository received a fresh 2026-09-15 README/title update and has exact Claude Fable 5 trailers on gameplay/content-engine commits, including boss combat and encounter work. Count one existing game newly verified for this collection; its repository predates the two-day window.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for raylib rendering, real-time combat, enemy AI, projectile/VFX systems, collision/navigation, audio, content loading and six-class gameplay; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Large source-complete roguelite with a documented gameplay loop, multiple classes and bosses, procedural rooms, persistent progression, custom tools, native and web builds, public itch.io page and direct Fable-attributed gameplay systems.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a source-complete top-down action roguelite called Mystic Onslaught in C++ with raylib 5.5 and Emscripten support. Let the player choose among six distinct classes, enter procedural or authored dungeon rooms, move and fight in real time with class abilities, defeat enemy waves and bosses, collect health/gold/cells, choose relics and upgrades, visit a village hub, persist meta progression, and restart runs. Add keyboard, gamepad and touch controls, projectiles, VFX, audio, dialogue/cutscenes, settings, editors, a virtual canvas and desktop/web build targets. This is a source-derived reconstruction from the public repository and Claude Fable 5-attributed commits, not a claim about the original private prompt.",
+    "prompt_origin": "source_linked_plus_reverse_engineered",
+    "prompt_evidence_url": "https://github.com/KAOSN00B/MysticOnslaught/blob/master/README.md",
+    "quality_category": "curated_games"
   }
 ]
