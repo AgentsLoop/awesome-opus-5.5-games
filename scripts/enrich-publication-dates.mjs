@@ -8,7 +8,7 @@ const cache = fs.existsSync(cachePath) ? JSON.parse(fs.readFileSync(cachePath, '
 
 const runGh = (endpoint) => {
   try {
-    return JSON.parse(execFileSync('gh', ['api', endpoint], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }));
+    return JSON.parse(execFileSync('gh', ['api', endpoint], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], timeout: 15000 }));
   } catch (error) {
     return { error: String(error.stderr ?? error.message ?? error).trim() };
   }
@@ -33,6 +33,7 @@ let fetchedReleases = 0;
 let releaseDatesAdded = 0;
 let repositoryDatesAdded = 0;
 let failures = 0;
+const checkpoint = () => fs.writeFileSync(cachePath, `${JSON.stringify(cache, null, 2)}\n`);
 
 for (const record of records) {
   if (!record.is_independent_game || !record.github_url) continue;
@@ -48,6 +49,7 @@ for (const record of records) {
   if (metadata.error) {
     failures += 1;
     record.publication_date_status ??= 'unknown';
+    checkpoint();
     continue;
   }
 
@@ -62,6 +64,7 @@ for (const record of records) {
     record.published_date_type ??= sourceType(source);
     record.published_date_confidence ??= 'exact';
     record.publication_date_status = 'confirmed';
+    checkpoint();
     continue;
   }
 
@@ -83,6 +86,7 @@ for (const record of records) {
       record.published_date_confidence = 'exact';
       record.publication_date_status = 'confirmed';
       releaseDatesAdded += 1;
+      checkpoint();
       continue;
     }
   } else {
@@ -90,6 +94,9 @@ for (const record of records) {
   }
 
   record.publication_date_status = record.repository_created_at ? 'repository_created_only' : 'unknown';
+
+  // Checkpoint after every repository so a transient API stall never loses the completed pass.
+  checkpoint();
 }
 
 fs.writeFileSync(dataPath, `${JSON.stringify(records, null, 2)}\n`);
