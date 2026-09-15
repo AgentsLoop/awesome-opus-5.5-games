@@ -27454,5 +27454,59 @@
     "prompt_origin": "source_linked_plus_reverse_engineered",
     "prompt_evidence_url": "https://github.com/KAOSN00B/MysticOnslaught/blob/master/README.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "120 Dispatch Desk",
+    "repository_id": "R_kgDOTVByRw",
+    "github_url": "https://github.com/1989-12-13/BuddyGame",
+    "game_links": [
+      "https://github.com/1989-12-13/BuddyGame/blob/master/README.md",
+      "https://github.com/1989-12-13/BuddyGame/tree/master/src/game",
+      "https://github.com/1989-12-13/BuddyGame/tree/master/src/components/minigames",
+      "https://github.com/1989-12-13/BuddyGame/blob/master/src/screens/game/WorkbenchScreen.tsx"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/1989-12-13/BuddyGame/commit/90cde035fe862952c47565745077ad18ba57701b",
+    "screenshot_urls": [],
+    "technology": [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Leaflet",
+      "Playwright",
+      "Native web"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "120 Dispatch Desk"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "repository_created_at": "2026-07-11T04:19:40Z",
+    "recent_game_evidence_on": "2026-09-15",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub game commit search dated 2026-09-13..2026-09-15",
+      "https://github.com/1989-12-13/BuddyGame"
+    ],
+    "verification_notes": "The README documents a playable public-service emergency-dispatch narrative game. The source contains a multi-line dispatch loop, timed calls, caller questioning, location and route planning, ambulance dispatch, handoff, scoring/evaluation, shift endings, persistent progress and seven interactive CPR/first-aid mini-games. The current repository received substantial gameplay/UI and test updates on 2026-09-14 and 2026-09-15, including the workbench and dispatch flow; earlier gameplay and minigame commits carry exact Claude Fable 5 trailers. Count one independent game with fresh two-day implementation evidence; no public hosted demo was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 110000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React UI rendering, Leaflet map layers, timed state-machine updates, audio, minigames and browser test instrumentation; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "A substantial playable narrative game with concurrent lines, dispatch decisions, route/map state, many scenarios, first-aid minigames, audio, persistent progress, current polish and test evidence.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a source-complete emergency-dispatch narrative game called 120 Dispatch Desk with React 19, TypeScript and Vite. Let the player work a shift across three concurrent lines and two ambulances, answer caller questions, confirm location and symptoms, prioritize cases, plan routes, dispatch vehicles, give first-aid guidance, complete scene handoffs, review outcomes and continue or end the shift based on performance. Add 33 replayable call scenarios, independent subtitles and audio, persistent progress, pause/settings behavior, an interactive map with offline fallback, and seven first-aid mini-games including CPR, breathing and step-order tasks. Add unit, browser and end-to-end tests. This is a source-derived reconstruction from the public repository and Claude Fable 5-attributed commits, not a claim about the original private prompt.",
+    "prompt_origin": "source_linked_plus_reverse_engineered",
+    "prompt_evidence_url": "https://github.com/1989-12-13/BuddyGame/blob/master/README.md",
+    "quality_category": "curated_games"
   }
 ]
