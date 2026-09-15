@@ -97,7 +97,15 @@ for (const record of records) {
   const metadata = cache[slug]?.metadata;
   if (metadata.error) {
     failures += 1;
-    record.publication_date_status ??= 'unknown';
+    if (validDate(record.published_on)) {
+      const source = record.published_date_source ?? nonGitHubSource(record) ?? record.github_url;
+      record.published_date_source = source;
+      record.published_date_type ??= sourceType(source);
+      record.published_date_confidence ??= 'recorded';
+      record.publication_date_status = 'recorded_without_live_source';
+    } else {
+      record.publication_date_status = record.repository_created_at ? 'repository_created_only' : 'unknown';
+    }
     checkpoint();
     continue;
   }
