@@ -2,7 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const allRecords = JSON.parse(fs.readFileSync('games.json', 'utf8'));
-const games = allRecords.filter((record) => record.is_independent_game && record.counted_game_units > 0);
+const lowQualityThreshold = 7;
+const allGameRecords = allRecords.filter((record) => record.is_independent_game && record.counted_game_units > 0);
+const badGameRecords = allGameRecords.filter((record) => Number(record.quality_estimate_10) < lowQualityThreshold);
+const games = allGameRecords.filter((record) => Number(record.quality_estimate_10) >= lowQualityThreshold);
+const otherRecords = allRecords.filter((record) => !record.is_independent_game);
 
 const esc = (value) => String(value ?? '').replaceAll('|', '\\|').replaceAll('\n', ' ').trim();
 const techText = (record, technology = null) => (technology ?? record.technology ?? []).join(', ') || 'Browser';
@@ -80,6 +84,8 @@ for (const group of groups.values()) group.sort((a, b) => b.rating - a.rating ||
 const unitTotal = (items) => items.reduce((total, item) => total + item.unitCount, 0);
 const count = unitTotal(rows);
 const repoCount = games.length;
+const badRows = badGameRecords.flatMap(units);
+const badCount = unitTotal(badRows);
 const hasDate = (value) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value);
 const publicationDateRecords = games.filter((record) => hasDate(record.published_on));
 const repositoryDateRecords = games.filter((record) => hasDate(record.repository_created_at?.slice(0, 10)));
@@ -168,7 +174,7 @@ const periodTable = (title, description, items) => {
 };
 const threeCount = unitTotal(rows.filter((row) => /three\.js|threejs|webgl|webgpu/i.test(techText(row.record, row.technology))));
 const nonBrowserCount = unitTotal(rows.filter((row) => row.category === 'Non-Browser Engines'));
-const promptCount = unitTotal(rows.filter((row) => row.record.prompt_urls?.length));
+const promptCount = unitTotal(rows.filter((row) => row.record.prompt));
 const screenshotCount = unitTotal(rows.filter((row) => row.record.screenshot_urls?.length));
 const evidenceCounts = rows.reduce((counts, row) => {
   const key = evidenceText(row.record);
@@ -198,6 +204,8 @@ output += `| Signal | Result |\n| --- | ---: |\n`;
 output += `| Counted game units | **${count}** |\n`;
 output += `| Qualifying source repositories | **${repoCount}** |\n`;
 output += `| Dataset records, including related or excluded records | **${totalRecordCount}** |\n`;
+output += `| Low-quality game units moved to bad-games.md | **${badCount}** (${badGameRecords.length} repositories) |\n`;
+output += `| Other non-game records moved to other.md | **${otherRecords.length}** |\n`;
 output += `| WebGL-family game units, across all categories | **${threeCount}** |\n`;
 output += `| Non-browser engine game units | **${nonBrowserCount}** |\n`;
 output += `| Game units with screenshot links | **${screenshotCount}** |\n`;
@@ -227,6 +235,8 @@ if (screenshotCount) {
 output += `## Game library\n\n> **Browse curated game units by category.**\n\n`;
 output += `Jump to a category:\n\n`;
 for (const [title, group] of groups) output += `- ${categoryIcons[title]} [${title}](#${slug(title)}) — **${unitTotal(group)} game units**\n`;
+output += `- ⚠️ [Bad games](bad-games.md) — **${badCount}** low-quality game units excluded from the curated library\n`;
+output += `- 📦 [Other](other.md) — **${otherRecords.length}** related, derivative, forked, or non-game records\n`;
 output += `\n### How to use this guide\n\n`;
 output += `- Select a game title to open its local per-game note in [games/](games/).\n`;
 output += `- Select the repository link inside the note to open the canonical GitHub source.\n`;
@@ -270,3 +280,26 @@ output += `## Star this collection\n\n`;
 output += `If source-backed AI game history should stay searchable, [**star the repository**](https://github.com/agents-dev/find-games-last-week-made-with).\n`;
 
 fs.writeFileSync('README.md', output);
+
+const link = (label, url) => `[${label}](${url})`;
+const short = (value, length = 280) => {
+  const text = esc(value);
+  return text.length > length ? `${text.slice(0, length - 1)}…` : text;
+};
+let badMarkdown = `# Bad Games\n\n> Excluded from the curated library because the quality estimate is below **${lowQualityThreshold.toFixed(1)}/10**. Keep these records for transparent audit history.\n\n`;
+badMarkdown += `| Game | Score | Model | Technology | Reason | Links |\n| --- | ---: | --- | --- | --- | --- |\n`;
+for (const row of badRows) {
+  const record = row.record;
+  const links = [link('GitHub', record.github_url), record.evidence_url ? link('evidence', record.evidence_url) : ''].filter(Boolean).join(' · ');
+  badMarkdown += `| **${esc(row.name)}** | ${Number(row.rating).toFixed(1)} | ${esc(modelText(record))} | ${esc(techText(record, row.technology))} | ${short(record.quality_estimate_basis)} | ${links} |\n`;
+}
+badMarkdown += `\nDo not use this category as a quality recommendation. Re-run the prompt and quality review workflow after materially improving a source repository.\n`;
+fs.writeFileSync('bad-games.md', badMarkdown);
+
+let otherMarkdown = `# Other\n\n> Records retained for audit history but excluded from the game library because they are forks, derivatives, catalogs, tools, engines, or otherwise not independently qualifying games.\n\n`;
+otherMarkdown += `| Record | Repository | Reason | Evidence |\n| --- | --- | --- | --- |\n`;
+for (const record of otherRecords.sort((a, b) => a.name.localeCompare(b.name))) {
+  otherMarkdown += `| **${esc(record.name)}** | ${link('GitHub', record.github_url)} | ${short(record.verification_notes)} | ${link('evidence', record.evidence_url)} |\n`;
+}
+otherMarkdown += `\nDo not count these records as independent game units. Promote a record only after proving distinct gameplay, source ownership, and qualifying model evidence.\n`;
+fs.writeFileSync('other.md', otherMarkdown);
