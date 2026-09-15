@@ -23537,5 +23537,51 @@
     "quality_estimate_basis": "The project has a substantial Roblox vertical slice, client/server gameplay systems, tests, Studio verification and direct recent Opus evidence.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Need for Speed: Blackline — Iron Quay Prototype",
+    "github_url": "https://github.com/EthanVanDyk/blackline-prototype",
+    "game_links": [
+      "https://github.com/EthanVanDyk/blackline-prototype/blob/main/README.md",
+      "https://github.com/EthanVanDyk/blackline-prototype/blob/main/index.html",
+      "https://github.com/EthanVanDyk/blackline-prototype/blob/main/core.js",
+      "https://github.com/EthanVanDyk/blackline-prototype/blob/main/game.js",
+      "https://github.com/EthanVanDyk/blackline-prototype/blob/main/test/simulation.test.cjs"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/EthanVanDyk/blackline-prototype",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js 0.160.1",
+      "HTML5",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Need for Speed: Blackline — Iron Quay Prototype"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub repository search for GPT-6 created 2026-09-13..2026-09-15",
+      "https://github.com/EthanVanDyk/blackline-prototype"
+    ],
+    "verification_notes": "The repository was created on 2026-09-15 and its description explicitly says it is a racing game vibe-coded using GPT 6. The README documents a playable browser 3D heist racer with rehearsal recording, teammate playback, archive collection, police pursuit, heat, escape, extraction, cash banking, drift, nitrous, traffic, collisions, pause/retry and keyboard/touch-ready source. core.js and game.js implement the simulation, Three.js scene, input and rendering; 12 automated checks cover the complete loop. Normalize the explicit GPT 6 attribution to GPT-6 Astra. Count one new browser game unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 360000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js scene rendering, vehicle physics, road graph police AI, collision checks, replay interpolation, HUD and audio; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "The repository is new, self-contained and playable, has a complete heist loop, Three.js source, 12 automated checks and explicit GPT 6 attribution; attribution is creator-reported rather than trailer-confirmed.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
