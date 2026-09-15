@@ -23395,5 +23395,50 @@
     "quality_estimate_basis": "The new repository contains four separately implemented games with source modules, controls, tests, demo assets and Claude-related repository evidence; method attribution is creator-reported for the current set.",
     "counted_game_units": 4,
     "is_independent_game": true
+  },
+  {
+    "name": "Tic Tac Totem",
+    "github_url": "https://github.com/LeandroMagonza/TicTacTotem",
+    "game_links": [
+      "https://github.com/LeandroMagonza/TicTacTotem/blob/master/Assets/Scripts/GameManager.cs",
+      "https://github.com/LeandroMagonza/TicTacTotem/blob/master/Assets/Scripts/MatchManager.cs",
+      "https://github.com/LeandroMagonza/TicTacTotem/blob/master/Assets/Scripts/Piece.cs",
+      "https://github.com/LeandroMagonza/TicTacTotem/blob/master/Assets/Scenes/Game%20Scene.unity"
+    ],
+    "live_demo_url": "https://leandromagonza.github.io/TicTacTotem/",
+    "evidence_url": "https://github.com/LeandroMagonza/TicTacTotem/commit/67e9cc44a97e6b5c25231ed17deaf9152b574bed",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity",
+      "C#",
+      "Photon PUN",
+      "WebGL",
+      "Online multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Tic Tac Totem"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, committer-date 2026-09-13..2026-09-15",
+      "https://github.com/LeandroMagonza/TicTacTotem"
+    ],
+    "verification_notes": "The repository contains a real Unity/Photon WebGL online board game. Its metadata describes the rules: players place or move ranked pieces orthogonally, capture lower-ranked pieces, rotate colors after matches and play against another player or the bot. Assets/Scripts/GameManager.cs, MatchManager.cs, Piece.cs, Launcher.cs, scenes and the published GitHub Pages target provide the game entry, turn state, piece movement, win logic and online room flow. The cited recent gameplay commit contains an exact Co-Authored-By: Claude Opus 5 trailer and reports bot regression testing. Count one newly found native-engine game with fresh qualifying gameplay evidence.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity WebGL rendering, board state, Photon networking, bot search, UI and turn animation; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "The repository has a complete online ruleset, bot opponent, Unity scenes, Photon integration, published WebGL target and direct recent Opus gameplay evidence.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
