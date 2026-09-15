@@ -42,10 +42,10 @@ for (const row of data.records) {
   const key = `${row.repository_url}\n${row.game}`;
   if (keys.has(key)) throw new Error(`Duplicate audit row: ${key}`);
   keys.add(key);
-  if (!['published', 'recent_game_evidence', 'repository_activity', 'unknown'].includes(row.published_date_type)) {
+  if (!['published', 'release', 'creator_post', 'live_demo', 'external_source', 'repository_created', 'recent_game_evidence', 'repository_activity', 'unknown'].includes(row.published_date_type)) {
     throw new Error(`Invalid publication date type for ${key}: ${row.published_date_type}`);
   }
-  if (!['exact', 'unknown'].includes(row.published_date_confidence)) throw new Error(`Invalid date confidence for ${key}`);
+  if (!['exact', 'recorded', 'unknown'].includes(row.published_date_confidence)) throw new Error(`Invalid date confidence for ${key}`);
   if (row.published_date !== null && !datePattern.test(row.published_date)) throw new Error(`Invalid normalized date for ${key}`);
   if (row.published_date_type !== 'unknown' && !row.published_date) throw new Error(`Dated row has no date: ${key}`);
   for (const field of ['repository_url', 'published_date_source']) {
