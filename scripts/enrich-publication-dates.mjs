@@ -33,6 +33,7 @@ const repoSlug = (url) => {
 };
 const validDate = (value) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value);
 const nonGitHubSource = (record) => (record.discovery_sources ?? []).find((source) => /^https?:\/\//.test(source) && !source.includes('github.com')) ?? null;
+const inferredDateSource = (record) => nonGitHubSource(record) ?? (typeof record.evidence_url === 'string' && /^https?:\/\//.test(record.evidence_url) ? record.evidence_url : record.github_url);
 const sourceType = (source) => {
   if (!source) return 'repository_created';
   if (/reddit\.com|x\.com|twitter\.com/.test(source)) return 'creator_post';
@@ -98,7 +99,7 @@ for (const record of records) {
   if (metadata.error) {
     failures += 1;
     if (validDate(record.published_on)) {
-      const source = record.published_date_source ?? nonGitHubSource(record) ?? record.github_url;
+      const source = record.published_date_source && record.published_date_source !== record.github_url ? record.published_date_source : inferredDateSource(record);
       record.published_date_source = source;
       record.published_date_type ??= sourceType(source);
       record.published_date_confidence ??= 'recorded';
@@ -116,7 +117,7 @@ for (const record of records) {
   }
 
   if (validDate(record.published_on)) {
-    const source = record.published_date_source ?? nonGitHubSource(record) ?? record.github_url;
+    const source = record.published_date_source && record.published_date_source !== record.github_url ? record.published_date_source : inferredDateSource(record);
     record.published_date_source = source;
     record.published_date_type ??= sourceType(source);
     record.published_date_confidence ??= 'exact';
