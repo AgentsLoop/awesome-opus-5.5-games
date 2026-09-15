@@ -1166,42 +1166,6 @@
       "verified_on": "2026-09-10"
     },
     {
-      "game": "Chinese Word Hunt",
-      "repository_url": "https://github.com/02dtan/ChineseWordHunt",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-01-20T04:43:43Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Badge Realms",
-      "repository_url": "https://github.com/0LauraGelvez/Badge-realms",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-01-30T04:05:36Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Warehouse FPS",
-      "repository_url": "https://github.com/404-Repo/404-game-recipe",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-08-07T10:41:07Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "Sunset Flap",
       "repository_url": "https://github.com/5kahoisaac/sunset-flap",
       "counted_game_units": 1,
@@ -1235,18 +1199,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-01-24T22:59:37Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "MONQUEST",
-      "repository_url": "https://github.com/Ajay9o9/MONQUEST",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-06-10T18:28:31Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -1394,30 +1346,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Tetris",
-      "repository_url": "https://github.com/ChrisBayer42/tetris-Claude120226",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-02-12T13:15:51Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "The Unwritten Vale: Endless",
-      "repository_url": "https://github.com/DAH746/fable-games",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-07-17T08:59:29Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "DRIFTLANDS",
       "repository_url": "https://github.com/DEADover/DRIFTLANDS",
       "counted_game_units": 1,
@@ -1523,42 +1451,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-09-02T01:07:46Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Dragon Quest-style RPG Game 3",
-      "repository_url": "https://github.com/Isusun/rpg_fable5_3",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-07-05T01:53:13Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Dragon Quest-style RPG Game 2",
-      "repository_url": "https://github.com/Isusun/rpg_test_fable5",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-06-23T05:24:53Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Neon Dodge Arena",
-      "repository_url": "https://github.com/Jabaraj16/neon-dodge-arena",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-02-07T05:33:17Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -1694,18 +1586,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Frosty Tactics",
-      "repository_url": "https://github.com/Ninaji/Frosty-Tatics",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-06-10T01:45:58Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "BLOCKS",
       "repository_url": "https://github.com/Nipale-ai/blocks-openworld",
       "counted_game_units": 1,
@@ -1790,18 +1670,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "VibePinball",
-      "repository_url": "https://github.com/Randroids-Dojo/VibePinball",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-06-09T23:17:08Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "Awawa Quest",
       "repository_url": "https://github.com/Rebell-Leader/claude-game",
       "counted_game_units": 1,
@@ -1871,18 +1739,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-06-11T11:56:30Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Afterglow",
-      "repository_url": "https://github.com/ThakornToon/neon-runner",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-07-09T05:07:16Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -2234,18 +2090,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Pilgrim's Path",
-      "repository_url": "https://github.com/beneisenberg/pilgrims-path",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-07-03T15:25:17Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "FireRed RPG",
       "repository_url": "https://github.com/blackscythe123/FireRed-RPG",
       "counted_game_units": 1,
@@ -2330,18 +2174,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Doom Furniture Refurb",
-      "repository_url": "https://github.com/cbx-nz/mrcrayfishfurniturerefurb-doom",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-03-08T00:55:34Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "Fallout Ember",
       "repository_url": "https://github.com/chrisfirsttt/fallout-ember",
       "counted_game_units": 1,
@@ -2351,18 +2183,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-07-29T17:14:44Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Dune Browser Game",
-      "repository_url": "https://github.com/cocodedk/Dune-Browser-Game",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-04-12T05:42:46Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -2399,18 +2219,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-06-11T17:41:25Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Breakout Pygame",
-      "repository_url": "https://github.com/drjasonharrison/breakout-video-pygame",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-02-13T23:53:43Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -2654,18 +2462,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Claude's Game",
-      "repository_url": "https://github.com/johnvsbabylon/claudes_game",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2025-12-25T17:37:37Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "APEX GP",
       "repository_url": "https://github.com/jolbol1/apex-gp",
       "counted_game_units": 1,
@@ -2687,18 +2483,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-07-27T01:13:55Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Vibe Pixel Rally",
-      "repository_url": "https://github.com/jv4v2nw88z-hue/VibePixleRalley",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-07-26T16:35:40Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -2882,18 +2666,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Flappy Bird Opus 4.7",
-      "repository_url": "https://github.com/marcoakes/flappy-bird-opus-4-7",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-04-19T15:03:48Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "Breakout — ChatGPT Gauntlet Loop Experiment",
       "repository_url": "https://github.com/marcosmallet/breakout-gauntlet-loop",
       "counted_game_units": 1,
@@ -2954,18 +2726,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "The Mysterious Castle",
-      "repository_url": "https://github.com/mike-snodgrass/text-adventure-game",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-01-07T01:07:31Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "ZOF//DUTY",
       "repository_url": "https://github.com/mike007jd/ZofDuty",
       "counted_game_units": 1,
@@ -2999,18 +2759,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-03-02T15:21:47Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Claude of Duty",
-      "repository_url": "https://github.com/mshumer/Claude-of-Duty",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-07-25T19:32:36Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -3578,42 +3326,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Tic Tac Toe",
-      "repository_url": "https://github.com/shuyangsun/az-game-tic-tac-toe",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-05-10T10:35:50Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Xiang Qi",
-      "repository_url": "https://github.com/shuyangsun/az-game-xiang-qi",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-05-10T10:37:13Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Raccoon Heist",
-      "repository_url": "https://github.com/simonw/raccoon-heist",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-08-05T14:49:38Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "Gura Gura Iseki",
       "repository_url": "https://github.com/simosimo1333-png/5p-games-opus5",
       "counted_game_units": 1,
@@ -3878,18 +3590,6 @@
       "verified_on": "2026-09-09"
     },
     {
-      "game": "Moonberry Trail",
-      "repository_url": "https://github.com/the-missionary-company/moonberry-trail",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-08-14T21:04:36Z",
-      "verified_on": "2026-09-09"
-    },
-    {
       "game": "Tiny Kingdom",
       "repository_url": "https://github.com/theniki/Tiny-Kingdom",
       "counted_game_units": 1,
@@ -3923,18 +3623,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-06-10T03:08:35Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Bird Tic-Toe",
-      "repository_url": "https://github.com/vriveras/bird-tic-toe",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-01-26T05:18:23Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -4199,18 +3887,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-06-11T09:24:48Z",
-      "verified_on": "2026-09-09"
-    },
-    {
-      "game": "Threshold",
-      "repository_url": "https://github.com/joshuakoester82/treshold-fable-5-1",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-09-01T22:18:28Z",
       "verified_on": "2026-09-09"
     },
     {
@@ -5363,18 +5039,6 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-03-24T19:51:09Z",
-      "verified_on": "2026-09-10"
-    },
-    {
-      "game": "A Game",
-      "repository_url": "https://github.com/sfgeekgit/game_e",
-      "counted_game_units": 1,
-      "published_on": null,
-      "published_date_type": "unknown",
-      "published_date": null,
-      "published_date_source": null,
-      "published_date_confidence": "unknown",
-      "repository_created_at": "2026-02-08T22:17:49Z",
       "verified_on": "2026-09-10"
     },
     {
