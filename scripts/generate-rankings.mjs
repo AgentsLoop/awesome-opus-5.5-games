@@ -198,6 +198,9 @@ function report(title, description, items, period) {
 }
 
 fs.mkdirSync(dailyDirectory, { recursive: true });
+for (const entry of fs.readdirSync(dailyDirectory)) {
+  if (entry.endsWith('.md')) fs.unlinkSync(path.join(dailyDirectory, entry));
+}
 for (const date of dailyDates) {
   const items = dailyRows.get(date) ?? [];
   const description = `Rank games with a publication or qualifying evidence date of **${date}**.`;
