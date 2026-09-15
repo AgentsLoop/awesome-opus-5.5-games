@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 728 curated game units. 500 qualifying source repositories.
+### 741 curated game units. 510 qualifying source repositories.
 
-[![Games](https://img.shields.io/badge/GAMES-728-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-500-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-198-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-741-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-510-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-200-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,53 +19,55 @@
 
 This is a curated index of playable game units with public GitHub source and evidence that connects them to GPT-6 Astra, Claude Opus, or Claude Fable. “Curated” does not mean every attribution has the same strength: the per-entry evidence grade states whether the model claim is direct, creator-reported, repository-level, or inferred.
 
-The source of truth is [games.json](games.json). It was last verified on **2026-09-12**.
+The source of truth is [games.json](games.json). It was last verified on **2026-09-15**.
 
 Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
+
+Browse [publication-date rankings](rankings/README.md) for daily, weekly, and monthly reports. These reports exclude games without a reliable publication or qualifying evidence date.
 
 ## Collection at a glance
 
 | Signal | Result |
 | --- | ---: |
-| Counted game units | **728** |
-| Qualifying source repositories | **500** |
-| Dataset records, including related or excluded records | **552** |
-| WebGL-family game units, across all categories | **198** |
-| Non-browser engine game units | **247** |
-| Game units with screenshot links | **114** |
+| Counted game units | **741** |
+| Qualifying source repositories | **510** |
+| Dataset records, including related or excluded records | **562** |
+| WebGL-family game units, across all categories | **200** |
+| Non-browser engine game units | **250** |
+| Game units with screenshot links | **121** |
 | Game units with direct prompt links | **17** |
 
 ## Verification snapshot
 
-The list contains **728** game units from **500** qualifying repositories. The dataset also retains **52** related or excluded records for audit history. Each row uses one of these model-evidence grades.
+The list contains **741** game units from **510** qualifying repositories. The dataset also retains **52** related or excluded records for audit history. Each row uses one of these model-evidence grades.
 
 | Grade | Meaning | Game units |
 | --- | --- | ---: |
-| ✓ Direct | A public primary source directly attributes the listed model. | **475** |
-| ≈ Creator report | The creator attributes the listed model. | **205** |
+| ✓ Direct | A public primary source directly attributes the listed model. | **482** |
+| ≈ Creator report | The creator attributes the listed model. | **211** |
 | △ Repository trail | A repository, directory, or topic trail supports the model claim. | **46** |
 | ? Inferred | The model attribution is inferred and should be independently checked. | **2** |
 
 ## Top games today
 
-> Rank the highest-rated repositories verified in this curation run on **2026-09-12**.
+> Rank the highest-rated repositories verified in this curation run on **2026-09-15**.
 
 | Rank | Game | Score | Model | Verified date |
 | ---: | --- | ---: | --- | --- |
-| 1 | [**Unfit for Print**](games/unfit-for-print/readme.md) | ⭐ **9.7** | Claude Opus 5 | 2026-09-12 |
-| 2 | [**chess3dastra**](games/chess3dastra/readme.md) | ⭐ **9.6** | GPT-6 Astra | 2026-09-12 |
-| 3 | [**Skylark Run**](games/skylark-run/readme.md) | ⭐ **9.6** | Claude Opus 5 | 2026-09-12 |
-| 4 | [**Bubble Pop**](games/bubble-pop/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-12 |
-| 5 | [**Grand Theft Astra**](games/grand-theft-astra/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-12 |
-| 6 | [**Battle City**](games/battle-city-nickblack1919-battle-city/readme.md) | ⭐ **9.4** | Claude Opus 5 | 2026-09-12 |
-| 7 | [**Haynes Quest**](games/haynes-quest/readme.md) | ⭐ **9.4** | Claude Fable 5.1 | 2026-09-12 |
-| 8 | [**Balloon Pop**](games/balloon-pop/readme.md) | ⭐ **9.3** | Claude Opus 4.8 | 2026-09-12 |
-| 9 | [**Explottens: Survival**](games/explottens-survival/readme.md) | ⭐ **9.2** | Claude Opus 5 | 2026-09-12 |
-| 10 | [**Debug Dash**](games/debug-dash/readme.md) | ⭐ **9.0** | GPT-6 Astra | 2026-09-12 |
+| 1 | [**Sunward**](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra) | ⭐ **9.4** | GPT-6 Astra | 2026-09-15 |
+| 2 | [**OutRun Bangkok — Hidden Stage: Ice Run**](https://github.com/donsinp-design/Out) | ⭐ **9.3** | Claude Opus 5 | 2026-09-15 |
+| 3 | [**Need for Speed: Blackline — Iron Quay Prototype**](https://github.com/EthanVanDyk/blackline-prototype) | ⭐ **9.2** | GPT-6 Astra | 2026-09-15 |
+| 4 | [**TurretForge.io**](https://github.com/Akajek/Dipe.oi) | ⭐ **9.2** | Claude Opus 5 | 2026-09-15 |
+| 5 | [**Search For The Egg**](https://github.com/khaielwork6-stack/Search-For-The-Egg) | ⭐ **9.1** | Claude Opus 5 | 2026-09-15 |
+| 6 | [**Track Master**](https://github.com/Akajek/Track-Master) | ⭐ **9.1** | Claude Opus 5 | 2026-09-15 |
+| 7 | [**Breakout**](https://github.com/mohi-devhub/claude-games) | ⭐ **8.9** | Claude Opus 5 | 2026-09-15 |
+| 8 | [**Space Shooter**](https://github.com/jansmakr/space-shooter-web) | ⭐ **8.8** | Claude Opus 5 | 2026-09-15 |
+| 9 | [**Tic Tac Totem**](https://github.com/LeandroMagonza/TicTacTotem) | ⭐ **8.8** | Claude Opus 5 | 2026-09-15 |
+| 10 | [**Battle City**](https://github.com/yumo-zs/tank-battle) | ⭐ **8.6** | Claude Opus 5 | 2026-09-15 |
 
 ## Top games this week
 
-> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-06** through **2026-09-12**.
+> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-09** through **2026-09-15**.
 
 | Rank | Game | Score | Model | Verified date |
 | ---: | --- | ---: | --- | --- |
@@ -87,7 +89,7 @@ The list contains **728** game units from **500** qualifying repositories. The d
 
 ## Top games this month
 
-> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-01** through **2026-09-12**.
+> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-01** through **2026-09-15**.
 
 | Rank | Game | Score | Model | Verified date |
 | ---: | --- | ---: | --- | --- |
@@ -150,12 +152,12 @@ The list contains **728** game units from **500** qualifying repositories. The d
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **247 game units**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **250 game units**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **28 game units**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **71 game units**
-- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **47 game units**
-- 💥 [Action and Shooters](#action-and-shooters) — **114 game units**
-- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **118 game units**
+- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **48 game units**
+- 💥 [Action and Shooters](#action-and-shooters) — **117 game units**
+- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **124 game units**
 - 🎮 [Other Browser Games](#other-browser-games) — **50 game units**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 game units**
 
@@ -170,7 +172,7 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 
 ## Non-Browser Engines
 
-> 🛠️ **247 curated game units. Ranked by evidence-based quality score.**
+> 🛠️ **250 curated game units. Ranked by evidence-based quality score.**
 
 - [**CYBER SUNDAY**](games/cyber-sunday/readme.md) — ⭐ **9.6/10** · Claude Opus 5 · Godot 4.7, GDScript, Blender, GLB/glTF, Native desktop, +3 more · [✓ direct model evidence](https://github.com/influenza-dotcom/3D-RPG/commit/40b621ce679e98674ecb40851912fb48b82aa82) · [files](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
 - [**Bong — 末法残土**](games/bong/readme.md) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, +1 more · [✓ direct model evidence](https://github.com/Kizunad/Bong/commit/3ec765b4138f5d82479ef3eaf9c8b5009d2068d3) · [files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -187,6 +189,7 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 - [**Gravity Box — Campaign 100**](games/gravity-box-campaign-100/readme.md) — ⭐ **9.4/10** · GPT-6 Astra, GPT-5.6 Sol · Unity 6000.3.19f1, C#, Rigidbody physics, Native Android, Native macOS, +1 more · [✓ direct model evidence](https://github.com/nghienvothuat-a11y/GravityBox#ch%E1%BA%A1y-v%C3%A0-quan-s%C3%A1t) · [screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C010.png) · +3 more screenshots in data
 - [**moorestech**](games/moorestech/readme.md) — ⭐ **9.4/10** · Claude Opus 5, Claude Fable 5.1 · Unity, C#, .NET, Native desktop · [✓ direct model evidence](https://github.com/moorestech/moorestech/commit/165abc729ea1b66e593ad9bba6c5cd3a4578d19b) · [files](https://github.com/moorestech/moorestech/blob/master/moorestech_client/Assets/Scenes/Game/MainGame.unity) · [screenshot](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png) · +1 more screenshots in data
 - [**Starcluster**](games/starcluster/readme.md) — ⭐ **9.4/10** · Claude Opus · C++, SDL2, Native desktop, Native Android, Space economy sandbox, +1 more · [✓ direct model evidence](https://github.com/Jirnyak/starcluster/commit/bc827455aadd234574fa4353c3993d55dff9e907) · [files](https://github.com/Jirnyak/starcluster/blob/main/README.md) · [play](https://Jirnyak.github.io/starcluster/)
+- [**Sunward**](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra) — ⭐ **9.4/10** · GPT-6 Astra · Unity 6000.6, C#, Native macOS, Apple Silicon · [≈ creator-reported model evidence](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra) · [files](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/README.md) · [screenshot](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/docs/images/driving.png) · +2 more screenshots in data
 - [**The Fallen Citadel**](games/the-fallen-citadel/readme.md) — ⭐ **9.4/10** · Claude Opus 5, Claude Fable 5, Claude Opus 4.8 · Unity, C#, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/SUBMISSION_AI_USAGE.md) · [files](https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Characters/PlayerCharacterHost.cs) · [play](https://nansu0425.github.io/nan2026-game/) · [screenshot](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg)
 - [**Ultima V: Warriors of Destiny — Traditional Chinese Remake**](games/ultima-v-warriors-of-destiny-traditional-chinese-remake/readme.md) — ⭐ **9.4/10** · Claude Opus 5 · Go, Ebitengine, Native desktop, WebAssembly · [✓ direct model evidence](https://github.com/wicanr2/u5-cht/commit/acbc49511f7b20538b386546987a32c52792c1d6) · [files](https://github.com/wicanr2/u5-cht/blob/main/cmd/u5cht/main.go)
 - [**Curse of the Dungeon Engine**](games/curse-of-the-dungeon-engine/readme.md) — ⭐ **9.3/10** · Claude Opus 5 · C++17, SDL2, Custom C++ engine, Native desktop, Nintendo Switch, +1 more · [✓ direct model evidence](https://github.com/edrethardo/game/commit/8148119d359e264f39f0c1d047389c3830c38fc1) · [files](https://github.com/edrethardo/game/blob/master/README.md)
@@ -216,6 +219,7 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 - [**Lanterns**](games/lanterns/readme.md) — ⭐ **9.1/10** · Claude Opus 4.8, Claude Opus 4 · Godot 4, JSON world model, GDScript engine, Native desktop, 3D FPS arena shooter, +2 more · [✓ direct model evidence](https://github.com/kamwoh/yume/commit/11df7cf1a0e29ec63b2f3ffe45ba14b57d623b33) · [files](https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn) · [screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif) · +2 more screenshots in data
 - [**OpenCiv1++**](games/openciv1/readme.md) — ⭐ **9.1/10** · Claude Opus 4.7 · C++17, SDL2, Custom engine, Native desktop · [✓ direct model evidence](https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472) · [files](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/main.cpp) · [screenshot](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif) · +1 more screenshots in data
 - [**Panchigi**](games/panchigi/readme.md) — ⭐ **9.1/10** · Claude Opus 5 · Unity 6, C#, Mirror networking, Native desktop, Flappy race, +2 more · [✓ direct model evidence](https://github.com/Baeinsoo/LeagueOfPhysical-Client/commit/91deba77b47ef0fb19c8a0ca3360637689b9db7c) · [files](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Panchigi.unity)
+- [**Search For The Egg**](https://github.com/khaielwork6-stack/Search-For-The-Egg) — ⭐ **9.1/10** · Claude Opus 5 · Roblox, Luau, Rojo, Roblox Studio · [✓ direct model evidence](https://github.com/khaielwork6-stack/Search-For-The-Egg/commit/1cf570e10c7d616d68c3c2a969ef0355a459c6d3) · [files](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/README.md) · [screenshot](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/Search_For_The_Egg_Claude_Code_Build_Pack/classes.png) · +1 more screenshots in data
 - [**SimCity (Bevy)**](games/simcity-bevy/readme.md) — ⭐ **9.1/10** · Claude Fable 5, Claude Opus 4.8 · Bevy 0.19, Rust, ECS, Native desktop · [✓ direct model evidence](https://github.com/grgrwlkr/SimCity/commit/7fc290811853e2d196146d7cfad256d98ec420f7) · [files](https://github.com/grgrwlkr/SimCity/blob/main/README.md)
 - [**Skydive**](games/skydive/readme.md) — ⭐ **9.1/10** · Claude Opus 5 · Unity 6, C#, Mirror networking, Native desktop, Flappy race, +2 more · [✓ direct model evidence](https://github.com/Baeinsoo/LeagueOfPhysical-Client/commit/91deba77b47ef0fb19c8a0ca3360637689b9db7c) · [files](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Skydive.unity)
 - [**Sokoban**](games/sokoban/readme.md) — ⭐ **9.1/10** · Claude Opus 4.8, Claude Opus 4 · Godot 4, JSON world model, GDScript engine, Native desktop, 3D FPS arena shooter, +2 more · [✓ direct model evidence](https://github.com/kamwoh/yume/commit/11df7cf1a0e29ec63b2f3ffe45ba14b57d623b33) · [files](https://github.com/kamwoh/yume/blob/master/godot/scenes/sokoban_2d.tscn) · [screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif) · +2 more screenshots in data
@@ -257,6 +261,7 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 - [**Silent Hill**](games/silent-hill/readme.md) — ⭐ **8.8/10** · Claude Opus 4.6, Claude Opus 4.7, Claude Fable 5.1 · C, C++, PsyCross, SDL2, OpenAL, +3 more · [✓ direct model evidence](https://github.com/SlickAmogus/silent-hill-decomp#features) · [files](https://github.com/SlickAmogus/silent-hill-decomp/tree/pc-port/pc_port) · [play](https://sh1pc.com)
 - [**Tenaoshi**](games/tenaoshi/readme.md) — ⭐ **8.8/10** · Claude Opus 4.6 · raylib, C, Native desktop · [✓ direct model evidence](https://github.com/NaoyaNakagawa0124/auto-dev-projects/commit/cdda4207959660c3db687c13869548e46123b742) · [files](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tenaoshi)
 - [**The Unreliable Narrator**](games/the-unreliable-narrator/readme.md) — ⭐ **8.8/10** · Claude Opus 4.5 · libGDX, Java, Native desktop · [✓ direct model evidence](https://github.com/DevStreamLogica/The-Unreliable-Narrator/commit/5419bf6107e4855c31c311b4aa8bd143a991e4ff) · [files](https://github.com/DevStreamLogica/The-Unreliable-Narrator/tree/main/core/src/main/java/com/dsa/game)
+- [**Tic Tac Totem**](https://github.com/LeandroMagonza/TicTacTotem) — ⭐ **8.8/10** · Claude Opus 5 · Unity, C#, Photon PUN, WebGL, Online multiplayer · [✓ direct model evidence](https://github.com/LeandroMagonza/TicTacTotem/commit/67e9cc44a97e6b5c25231ed17deaf9152b574bed) · [files](https://github.com/LeandroMagonza/TicTacTotem/blob/master/Assets/Scripts/GameManager.cs) · [play](https://leandromagonza.github.io/TicTacTotem/)
 - [**TsunDoku**](games/tsundoku/readme.md) — ⭐ **8.8/10** · Claude Opus 4.6 · raylib, C, Native desktop · [✓ direct model evidence](https://github.com/NaoyaNakagawa0124/auto-dev-projects/commit/cdda4207959660c3db687c13869548e46123b742) · [files](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tsundoku)
 - [**Agentic APAR Demo**](games/agentic-apar-demo/readme.md) — ⭐ **8.7/10** · GPT-6 Astra, Codex · Unity 6.0.6f1, C#, URP 17.6, Unity WebGL, Browser, +1 more · [✓ direct model evidence](https://github.com/fathahnoor/AgenticAPARDemo#-the-mission) · [play](https://fathahnoor.github.io/AgenticAPARDemo/)
 - [**AIGameTest2 — Taoist card roguelite**](games/aigametest2-taoist-card-roguelite/readme.md) — ⭐ **8.7/10** · Claude Fable 5 · Godot, GDScript, 2D, Native desktop · [✓ direct model evidence](https://github.com/archer47-qingmei/AIGameTest2/commit/e89397577783f9de7ae469d689d741cb1dff175b) · [files](https://github.com/archer47-qingmei/AIGameTest2/blob/master/GameManager.gd) · [screenshot](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/_planning/hub_day_with_jishuang_v3.png) · +1 more screenshots in data
@@ -501,12 +506,13 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 
 ## Adventure, RPG, and Exploration
 
-> 🗺️ **47 curated game units. Ranked by evidence-based quality score.**
+> 🗺️ **48 curated game units. Ranked by evidence-based quality score.**
 
 - [**chess3dastra**](games/chess3dastra/readme.md) — ⭐ **9.6/10** · GPT-6 Astra · HTML, JavaScript, Three.js, WebGL, chess.js, +1 more · [≈ creator-reported model evidence](https://github.com/yortch/chess3dastra/commit/fd76149969af950523c6827a057c4171f8cf3f9d) · [files](https://github.com/yortch/chess3dastra#readme) · [play](https://yortch.github.io/chess3dastra/) · [screenshot](https://github.com/yortch/chess3dastra/blob/main/docs/screenshots/3d-dark.png) · +1 more screenshots in data
 - [**Yaoling Shangu (药灵山谷)**](games/yaoling-shangu/readme.md) — ⭐ **9.2/10** · Claude Opus 4.7 · Phaser 3, TypeScript, Vite, Browser · [✓ direct model evidence](https://github.com/DSXiangLi/tcm_odyssey/commit/bf02fd08c267dd0b7887dae436454a77bb6f6ae9) · [files](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/main.ts) · [screenshot](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/herb_area.gif) · +2 more screenshots in data
 - [**Mangoidiots Solitaire**](games/mangoidiots-solitaire/readme.md) — ⭐ **9.1/10** · GPT-6 Astra · Phaser, TypeScript, Vite, IndexedDB, Service Worker, +1 more · [✓ direct model evidence](https://github.com/venkatarangan/mangoidiots-solitaire#features) · [play](https://solitaire.mangoidiots.com/) · [screenshot](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png) · +2 more screenshots in data
 - [**OSRS Tower Defense**](games/osrs-tower-defense/readme.md) — ⭐ **9.1/10** · Claude Opus 5 · Next.js, React, TypeScript, Canvas 2D, Web Audio, +1 more · [✓ direct model evidence](https://github.com/hamilton-junior/osrs-tower-defense/commit/331b546afbf9ea67388df492d7664e25ab765ac3) · [files](https://hamilton-junior.github.io/osrs-tower-defense/) · [play](https://hamilton-junior.github.io/osrs-tower-defense/)
+- [**Track Master**](https://github.com/Akajek/Track-Master) — ⭐ **9.1/10** · Claude Opus 5 · Node.js, WebSocket, Canvas 2D, JavaScript, Browser multiplayer · [✓ direct model evidence](https://github.com/Akajek/Track-Master/commit/71b666e45724f9d41759707f8917b9b5e455af4e) · [files](https://github.com/Akajek/Track-Master/blob/main/README.md)
 - [**Big Bite**](games/big-bite/readme.md) — ⭐ **9.0/10** · Claude Fable 5 · Phaser 3, TypeScript, Vite, Firebase Hosting, Browser · [✓ direct model evidence](https://github.com/hokita/mouse2/commit/48f4f442562d651138c170069cf774210338ab2a) · [files](https://github.com/hokita/mouse2/blob/main/src/scenes/BiteScene.ts) · [screenshot](https://github.com/hokita/mouse2/blob/main/docs/screenshots/menu.png) · +2 more screenshots in data
 - [**Dodger**](games/dodger/readme.md) — ⭐ **9.0/10** · Claude Fable 5 · Phaser 3, TypeScript, Vite, Firebase Hosting, Browser · [✓ direct model evidence](https://github.com/hokita/mouse2/commit/48f4f442562d651138c170069cf774210338ab2a) · [files](https://github.com/hokita/mouse2/blob/main/src/scenes/GameScene.ts) · [play](https://mouse2-0357d0.web.app/) · [screenshot](https://github.com/hokita/mouse2/blob/main/docs/screenshots/menu.png) · +2 more screenshots in data
 - [**Fish Catch**](games/fish-catch/readme.md) — ⭐ **9.0/10** · Claude Fable 5 · Phaser 3, TypeScript, Vite, Firebase Hosting, Browser · [✓ direct model evidence](https://github.com/hokita/mouse2/commit/48f4f442562d651138c170069cf774210338ab2a) · [files](https://github.com/hokita/mouse2/blob/main/src/scenes/FishScene.ts) · [screenshot](https://github.com/hokita/mouse2/blob/main/docs/screenshots/menu.png) · +2 more screenshots in data
@@ -555,7 +561,7 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 
 ## Action and Shooters
 
-> 💥 **114 curated game units. Ranked by evidence-based quality score.**
+> 💥 **117 curated game units. Ranked by evidence-based quality score.**
 
 - [**Commander Simulator**](games/commander-simulator/readme.md) — ⭐ **9.7/10** · Claude Fable 5.1, ChatGPT 5.6 Soul, GPT-6 Astra · JavaScript, Browser ES modules, WebSocket, Vercel · [✓ direct model evidence](https://github.com/tuitamogamer-gpt/mtg-commander-simulator#your-first-game) · [files](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) · [screenshot](https://github.com/tuitamogamer-gpt/mtg-commander-simulator/blob/main/assets/menu/command-table-preview.jpg)
 - [**OpenSamguk**](games/opensamguk/readme.md) — ⭐ **9.6/10** · Claude Opus 4.8 · Kotlin, Spring Boot, Next.js, TypeScript, SVG/isometric map, +3 more · [✓ direct model evidence](https://github.com/peppone-choi/opensamguk/commit/a4dc4d43d0554d6297cd98f6d5d3e5b3b3811a93) · [files](https://github.com/peppone-choi/opensamguk#readme) · [screenshot](https://github.com/peppone-choi/opensamguk/blob/main/data/map/rivers/board.svg)
@@ -574,6 +580,7 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 - [**Explottens: Survival**](games/explottens-survival/readme.md) — ⭐ **9.2/10** · Claude Opus 5 · TypeScript, Phaser 3, Canvas2D, Playable ad, Browser · [✓ direct model evidence](https://github.com/Werplay/playable-explottens-survivor/commit/eb0183f356fc23283704b5f0d1d2882838a02155) · [files](https://github.com/Werplay/playable-explottens-survivor#readme)
 - [**Hex Danmaku**](games/hex-danmaku/readme.md) — ⭐ **9.2/10** · Claude Fable 5.1 · React 18 UMD, Babel, JavaScript, Browser · [✓ direct model evidence](https://github.com/macjoocan/hex-danmaku/commit/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e) · [files](https://github.com/macjoocan/hex-danmaku/blob/main/Hex%20Danmaku.html) · [screenshot](https://github.com/macjoocan/hex-danmaku/blob/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e/assets/fantasy/forest-sanctuary.png)
 - [**Neural Sight**](games/neural-sight/readme.md) — ⭐ **9.2/10** · GPT-6 Astra · PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, +1 more · [✓ direct model evidence](https://github.com/monstercameron/Neural-Sight#built-to-play-with) · [play](https://monstercameron.github.io/Neural-Sight/) · [screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) · +2 more screenshots in data
+- [**TurretForge.io**](https://github.com/Akajek/Dipe.oi) — ⭐ **9.2/10** · Claude Opus 5 · Node.js, WebSocket, Canvas 2D, JavaScript, Browser multiplayer · [✓ direct model evidence](https://github.com/Akajek/Dipe.oi/commit/12c04f0330101248c96696b820fe02a166510b96) · [files](https://github.com/Akajek/Dipe.oi/blob/main/README.md)
 - [**Aradama Survivors**](games/aradama-survivors/readme.md) — ⭐ **9.1/10** · Claude Fable 5 · Phaser 3, TypeScript, Vite, Browser · [✓ direct model evidence](https://github.com/eidas/aradama-survivors-proto/commit/1e9f90d306c787f41f77670f9d751889ba20f2b2) · [files](https://github.com/eidas/aradama-survivors-proto/blob/1e9f90d306c787f41f77670f9d751889ba20f2b2/src/main.ts) · [play](https://eidas.github.io/aradama-survivors-proto/)
 - [**GoGo Arabic**](games/gogo-arabic/readme.md) — ⭐ **9.1/10** · Claude Fable 5 · Phaser 3, React 19, JavaScript, Vite, Browser · [✓ direct model evidence](https://github.com/theshumba/gogo-arabic/commit/fb12686f27611212e4f9e3604d313bb81907adf0) · [files](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/scenes/WorldScene.js) · [screenshot](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/desert_marketplace.png) · +1 more screenshots in data
 - [**Heroes Clone**](games/heroes-clone/readme.md) — ⭐ **9.1/10** · Claude Opus 4.7 · Phaser 3, TypeScript, Vite, Browser · [✓ direct model evidence](https://github.com/TamirNator/heroes-clone/commit/41d39785dd53ca890229ad420bf1db840d88e7bf) · [files](https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/main.ts)
@@ -585,9 +592,11 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 - [**ha·ggis Hub**](games/ha-ggis-hub/readme.md) — ⭐ **8.9/10** · Claude Fable 5 · Rust, WebAssembly, TypeScript, Canvas2D, Vite, +1 more · [✓ direct model evidence](https://github.com/Giftedx/ha-ggis-hub/commit/de3221adf7854391fe833753a3f3bb4f47ead79f) · [files](https://github.com/Giftedx/ha-ggis-hub/blob/main/src/games/registry.ts) · [play](https://ha.ggis.xyz) · [screenshot](https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/bothy-idle.png) · +1 more screenshots in data
 - [**Elk Dismount**](games/elk-dismount/readme.md) — ⭐ **8.8/10** · Claude Fable 5.1 · Three.js, Rapier, TypeScript, Web Audio API, Browser · [✓ direct model evidence](https://github.com/thevangelist/elk-dismount#what-the-paper-prints) · [files](https://github.com/thevangelist/elk-dismount) · [screenshot](https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png)
 - [**Pixel Tactical Shooter**](games/pixel-tactical-shooter/readme.md) — ⭐ **8.8/10** · Claude Opus 4.6 · TypeScript, Three.js, WebGL, Browser · [✓ direct model evidence](https://github.com/Vadaski/pixel-tactical-shooter/commit/f7a7f2fac1f02aa457dc81d7114c16492723a838) · [files](https://github.com/Vadaski/pixel-tactical-shooter/blob/main/index.html) · [play](https://vadaski.github.io/pixel-tactical-shooter/)
+- [**Space Shooter**](https://github.com/jansmakr/space-shooter-web) — ⭐ **8.8/10** · Claude Opus 5 · HTML5 Canvas, JavaScript, CSS3, Browser · [✓ direct model evidence](https://github.com/jansmakr/space-shooter-web/commit/2d6ca4489a4d2ee4e5c7c59b33ef893a53faf0f8) · [files](https://github.com/jansmakr/space-shooter-web/commit/2d6ca4489a4d2ee4e5c7c59b33ef893a53faf0f8)
 - [**SQL Boss Battle Game**](games/sql-boss-battle-game/readme.md) — ⭐ **8.8/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas, sql.js, Web Audio API, +2 more · [✓ direct model evidence](https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-#whats-inside) · [files](https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-) · [play](https://raishaldhawan23.github.io/SQL-Boss-Battle-Game-/) · [screenshot](https://github.com/user-attachments/assets/f1986481-3d0b-4d7f-9240-9a5be77148d9)
 - [**VOIDRUNNER: Orbital Combat League**](games/voidrunner-orbital-combat-league/readme.md) — ⭐ **8.7/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Web Audio, +1 more · [≈ creator-reported model evidence](https://github.com/alesha-pro/bench-portal#readme) · [files](https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra) · [play](https://alesha-pro.github.io/bench-portal/games/voidrunner-astra/)
 - [**Zombie Shooter**](games/zombie-shooter/readme.md) — ⭐ **8.7/10** · Claude Opus 5 · HTML, CSS, JavaScript, Canvas 2D, Browser · [✓ direct model evidence](https://github.com/poralmi233-spec/zombie-shooter/commit/abac67d58ab6526ecf45c7be9b0a232e945ba339) · [files](https://github.com/poralmi233-spec/zombie-shooter#readme) · [play](https://poralmi233-spec.github.io/zombie-shooter/)
+- [**Battle City**](https://github.com/yumo-zs/tank-battle) — ⭐ **8.6/10** · Claude Opus 5 · HTML5 Canvas, JavaScript ES6+, CSS3, Browser · [✓ direct model evidence](https://github.com/yumo-zs/tank-battle/commit/b4014790104d47001c03cfe1856bb43761a36fbd) · [files](https://github.com/yumo-zs/tank-battle/blob/main/README.md)
 - [**VOIDBOUND: The Choir of Ash**](games/voidbound-the-choir-of-ash/readme.md) — ⭐ **8.6/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Web Audio, +1 more · [≈ creator-reported model evidence](https://github.com/alesha-pro/bench-portal#readme) · [files](https://github.com/alesha-pro/bench-portal/tree/main/games/voidbound-choir-of-ash) · [play](https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/)
 - [**Amp Build 1**](games/amp-build-1/readme.md) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · [✓ direct model evidence](https://github.com/zuwasi/Baboons-Over-London) · [prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Amp Build 2**](games/amp-build-2/readme.md) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · [✓ direct model evidence](https://github.com/zuwasi/Baboons-Over-London) · [prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
@@ -676,7 +685,7 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 
 ## Racing and Vehicles
 
-> 🏎️ **118 curated game units. Ranked by evidence-based quality score.**
+> 🏎️ **124 curated game units. Ranked by evidence-based quality score.**
 
 - [**2048**](games/2048-patricker-treant/readme.md) — ⭐ **9.6/10** · Claude Fable 5 · Rust, WebAssembly, TypeScript, React, SVG, +1 more · [✓ direct model evidence](https://github.com/patricker/treant/commit/68aff75c3204e0b362625e4fb72a01f72cd13fad) · [files](https://github.com/patricker/treant/blob/master/docs/src/components/arcade/games/game2048.tsx)
 - [**Amazons**](games/amazons/readme.md) — ⭐ **9.6/10** · Claude Fable 5 · Rust, WebAssembly, TypeScript, React, SVG, +1 more · [✓ direct model evidence](https://github.com/patricker/treant/commit/68aff75c3204e0b362625e4fb72a01f72cd13fad) · [files](https://github.com/patricker/treant/blob/master/docs/src/components/arcade/games/amazons.tsx)
@@ -757,10 +766,12 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 - [**Multiplication Chain**](games/multiplication-chain/readme.md) — ⭐ **9.3/10** · Claude Opus 4.8 · JavaScript, HTML, Canvas 2D, Static browser app · [✓ direct model evidence](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445)
 - [**Multiplication Farm**](games/multiplication-farm/readme.md) — ⭐ **9.3/10** · Claude Opus 4.8 · JavaScript, HTML, Canvas 2D, Static browser app · [✓ direct model evidence](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445)
 - [**Number Match**](games/number-match/readme.md) — ⭐ **9.3/10** · Claude Opus 4.8 · JavaScript, HTML, Canvas 2D, Static browser app · [✓ direct model evidence](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445) · [files](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445)
+- [**OutRun Bangkok — Hidden Stage: Ice Run**](https://github.com/donsinp-design/Out) — ⭐ **9.3/10** · Claude Opus 5 · HTML5 Canvas, JavaScript, WebAudio, Browser, iOS WebView wrapper · [✓ direct model evidence](https://github.com/donsinp-design/Out/commit/d2109e4c14a47aafcec77e328f70835d190ef882) · [files](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/README.md) · [screenshot](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/screenshot-stage1.png) · +1 more screenshots in data
 - [**Remainder Treasure Hunt**](games/remainder-treasure-hunt/readme.md) — ⭐ **9.3/10** · Claude Opus 4.8 · JavaScript, HTML, Canvas 2D, Static browser app · [✓ direct model evidence](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445)
 - [**Stack Builder**](games/stack-builder/readme.md) — ⭐ **9.3/10** · Claude Opus 4.8 · JavaScript, HTML, Canvas 2D, Static browser app · [✓ direct model evidence](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445)
 - [**Timing Puzzle**](games/timing-puzzle/readme.md) — ⭐ **9.3/10** · Claude Opus 4.8 · JavaScript, HTML, Canvas 2D, Static browser app · [✓ direct model evidence](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445) · [files](https://github.com/mundeok/math-arcade-paradise/tree/master/tests)
 - [**Turbo Kart Rush**](games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md) — ⭐ **9.3/10** · Claude Fable 5.1 · TypeScript, Three.js 0.185, WebGL2, Vite · [✓ direct model evidence](https://github.com/claudio41cg-max/rio-rush-cross#play) · [files](https://github.com/claudio41cg-max/rio-rush-cross) · [screenshot](https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/title.jpg) · +1 more screenshots in data
+- [**Need for Speed: Blackline — Iron Quay Prototype**](https://github.com/EthanVanDyk/blackline-prototype) — ⭐ **9.2/10** · GPT-6 Astra · Three.js 0.160.1, HTML5, JavaScript, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/EthanVanDyk/blackline-prototype) · [files](https://github.com/EthanVanDyk/blackline-prototype/blob/main/README.md)
 - [**BLACKLINE — Stealth Heist**](games/blackline-stealth-heist/readme.md) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · [✓ direct model evidence](https://github.com/pyros-projects/Trial#what-you-can-do) · [files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/10-stealth-heist) · [screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · +4 more screenshots in data
 - [**ECHO / SHIFT — Rhythm Bullet Hell**](games/echo-shift-rhythm-bullet-hell/readme.md) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · [✓ direct model evidence](https://github.com/pyros-projects/Trial#what-you-can-do) · [files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/12-rhythm-bullet-hell) · [screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · +4 more screenshots in data
 - [**Embervault — Procedural Roguelike**](games/embervault-procedural-roguelike/readme.md) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · [✓ direct model evidence](https://github.com/pyros-projects/Trial#what-you-can-do) · [files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/16-procedural-roguelike) · [screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · +4 more screenshots in data
@@ -771,6 +782,10 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 - [**Turbo Kart Rush**](games/turbo-kart-rush/readme.md) — ⭐ **9.0/10** · Claude Fable 5.1 · Three.js, TypeScript, Vite, WebGL2, Web Audio API, +1 more · [✓ direct model evidence](https://github.com/bridge-mind/turbo-kart-rush#play) · [play](https://bridge-mind.github.io/turbo-kart-rush/) · [screenshot](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/title.jpg) · +3 more screenshots in data
 - [**AERIS — Drone Racing**](games/aeris-drone-racing/readme.md) — ⭐ **8.9/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · [✓ direct model evidence](https://github.com/pyros-projects/Trial#what-you-can-do) · [files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/13-drone-racing) · [screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · +4 more screenshots in data
 - [**APERTURE — Fly Around Sculpture**](games/aperture-fly-around-sculpture/readme.md) — ⭐ **8.9/10** · GPT-6 · React, TypeScript, Three.js, Vite, glTF, +2 more · [✓ direct model evidence](https://github.com/565353780/fly-around-sculpture#%E6%93%8D%E4%BD%9C%E4%B8%8E%E8%AE%A1%E5%88%86) · [play](https://565353780.github.io/fly-around-sculpture/) · [screenshot](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png) · +1 more screenshots in data
+- [**Breakout**](https://github.com/mohi-devhub/claude-games) — ⭐ **8.9/10** · Claude Opus 5 · TypeScript, React/TSX, Claude Code function hooks, Interactive terminal · [≈ creator-reported model evidence](https://github.com/mohi-devhub/claude-games/commit/e8b658d16f54483a652d8322a6c8498cd48b6fad) · [files](https://github.com/mohi-devhub/claude-games/blob/main/hooks/boards/breakout.tsx) · [screenshot](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif) · +1 more screenshots in data
+- [**Dino Runner**](https://github.com/mohi-devhub/claude-games) — ⭐ **8.9/10** · Claude Opus 5 · TypeScript, React/TSX, Claude Code function hooks, Interactive terminal · [≈ creator-reported model evidence](https://github.com/mohi-devhub/claude-games/commit/e8b658d16f54483a652d8322a6c8498cd48b6fad) · [files](https://github.com/mohi-devhub/claude-games/blob/main/hooks/boards/dino.tsx) · [screenshot](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif) · +1 more screenshots in data
+- [**Side-scrolling Shooter**](https://github.com/mohi-devhub/claude-games) — ⭐ **8.9/10** · Claude Opus 5 · TypeScript, React/TSX, Claude Code function hooks, Interactive terminal · [≈ creator-reported model evidence](https://github.com/mohi-devhub/claude-games/commit/e8b658d16f54483a652d8322a6c8498cd48b6fad) · [files](https://github.com/mohi-devhub/claude-games/blob/main/hooks/boards/shooter.tsx) · [screenshot](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif) · +1 more screenshots in data
+- [**Terminal Racer**](https://github.com/mohi-devhub/claude-games) — ⭐ **8.9/10** · Claude Opus 5 · TypeScript, React/TSX, Claude Code function hooks, Interactive terminal · [≈ creator-reported model evidence](https://github.com/mohi-devhub/claude-games/commit/e8b658d16f54483a652d8322a6c8498cd48b6fad) · [files](https://github.com/mohi-devhub/claude-games/blob/main/hooks/boards/racer.tsx) · [screenshot](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif) · +1 more screenshots in data
 - [**Drift Away Arrows**](games/drift-away-arrows/readme.md) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · [✓ direct model evidence](https://github.com/pawanp3/renderwolf-fable5-chart-toppers)
 - [**Fable Kart**](games/fable-kart/readme.md) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, Vite, JavaScript · [✓ direct model evidence](https://github.com/koviq4/fable-sandbox)
 - [**Frostline Kart**](games/frostline-kart/readme.md) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Three.js, WebGL, Browser · [✓ direct model evidence](https://github.com/sorrycc/fable-arcade#games) · [files](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [play](https://sorrycc.github.io/fable-arcade/games/mario-kart-snow/) · [prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · +7 more prompts in data
@@ -935,6 +950,10 @@ The **0–10 rating** uses source completeness, playable mechanics, scope, tests
 ## Per-game notes
 
 Open the [games/](games/) directory or the [per-game notes index](games/README.md) to read a short source-backed note for every named game unit. Each note links model evidence, gameplay source, and available screenshot assets. Use the placeholder only when the repository and related-source scan found no screenshot.
+
+## Ranking reports
+
+Open [rankings/](rankings/README.md) for generated top games this week, top games this month, and daily rankings for the last seven dates. Read each row's date basis before treating it as a publication date.
 
 ## Contributing
 
