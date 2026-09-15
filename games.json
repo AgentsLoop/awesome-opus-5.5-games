@@ -23583,5 +23583,54 @@
     "quality_estimate_basis": "The repository is new, self-contained and playable, has a complete heist loop, Three.js source, 12 automated checks and explicit GPT 6 attribution; attribution is creator-reported rather than trailer-confirmed.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Sunward",
+    "github_url": "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra",
+    "game_links": [
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/README.md",
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/releases/tag/v0.1.0",
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scripts/ArcadeCar.cs",
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scripts/FestivalSession.cs",
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scenes/Sunward.unity"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra",
+    "screenshot_urls": [
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/docs/images/driving.png",
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/docs/images/photo.png",
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/docs/images/photo-mode.png"
+    ],
+    "technology": [
+      "Unity 6000.6",
+      "C#",
+      "Native macOS",
+      "Apple Silicon"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Sunward"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub repository search for GPT-6 Astra created 2026-09-13..2026-09-15",
+      "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra"
+    ],
+    "verification_notes": "The repository was created on 2026-09-14 and explicitly attributes Sunward to GPT-6 Astra. It publishes a playable Apple Silicon Mac release and the complete Unity source. The README documents a 10.34 km open-world arcade racer with three checkpoint circuits, rivals, four vehicles, tuning, drifting, boost, traffic, radio, photo mode, saving and recovery; the source includes ArcadeCar, FestivalSession, WorldBuilder, SunwardGame and a scene. The README reports physics-based driving, save/reload, photo and radio checks. Count one new native-engine game unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity URP world rendering, traffic, vehicle physics, photo mode, audio, UI and save systems on the target Mac; not measured hardware throughput.",
+    "quality_estimate_10": 9.4,
+    "quality_estimate_basis": "The project has a public playable release, substantial open-world racing scope, Unity source, screenshots, validation reports and explicit GPT-6 Astra attribution; attribution is creator-reported.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
