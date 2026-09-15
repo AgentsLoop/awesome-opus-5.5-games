@@ -23440,5 +23440,54 @@
     "quality_estimate_basis": "The repository has a complete online ruleset, bot opponent, Unity scenes, Photon integration, published WebGL target and direct recent Opus gameplay evidence.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "OutRun Bangkok — Hidden Stage: Ice Run",
+    "github_url": "https://github.com/donsinp-design/Out",
+    "game_links": [
+      "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/README.md",
+      "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/game.js",
+      "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/track.js",
+      "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/world.js",
+      "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/index.html"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/donsinp-design/Out/commit/d2109e4c14a47aafcec77e328f70835d190ef882",
+    "screenshot_urls": [
+      "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/screenshot-stage1.png",
+      "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/screenshot-sathorn.png"
+    ],
+    "technology": [
+      "HTML5 Canvas",
+      "JavaScript",
+      "WebAudio",
+      "Browser",
+      "iOS WebView wrapper"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "OutRun Bangkok — Hidden Stage: Ice Run"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, committer-date 2026-09-13..2026-09-15",
+      "https://github.com/donsinp-design/Out"
+    ],
+    "verification_notes": "The repository contains a complete pseudo-3D arcade racer. The README documents the ice-delivery objective, time and checkpoint system, seven route areas, steering, gas, braking, drifting, collisions, damage, traffic, pedestrians, destructibles, touch controls, pause/restart and score persistence. src/game.js, track.js, world.js and render.js implement the state machine, physics, route graph, traffic AI, collisions and rendering; dist/index.html is a self-contained build and the repository also contains an iOS wrapper. The cited recent gameplay commit contains an exact Co-Authored-By: Claude Opus 5 trailer and a browser focus test. Count one newly found browser game with fresh qualifying gameplay evidence.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 420000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for pseudo-3D Canvas rendering, traffic and pedestrian state machines, collision physics, particle effects, WebAudio and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "The project has a complete route-based racing loop, substantial world simulation, self-contained build, screenshots, mobile wrapper and direct recent Opus gameplay evidence.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
