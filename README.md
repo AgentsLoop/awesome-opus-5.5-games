@@ -23,7 +23,7 @@ The source of truth is [games.json](games.json). It was last verified on **2026-
 
 Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
 
-Browse [publication-date rankings](rankings/README.md) for daily, weekly, and monthly reports. These reports exclude games without a reliable publication or qualifying evidence date.
+Browse [publication-date rankings](rankings/README.md) for daily, weekly, and monthly reports. These reports exclude games without a reliable publication or qualifying evidence date. The audit keeps repository creation dates separate from publication dates.
 
 ## Collection at a glance
 
@@ -36,6 +36,8 @@ Browse [publication-date rankings](rankings/README.md) for daily, weekly, and mo
 | Non-browser engine game units | **250** |
 | Game units with screenshot links | **121** |
 | Game units with direct prompt links | **17** |
+| Game units with exact publication dates | **286** (151 repositories) |
+| Game units with repository creation dates | **741** (510 repositories) |
 
 ## Verification snapshot
 
@@ -80,12 +82,12 @@ The list contains **741** game units from **510** qualifying repositories. The d
 | 7 | [**Grand Theft Astra**](games/grand-theft-astra/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-12 |
 | 8 | [**Just Five More Minutes**](games/just-five-more-minutes/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
 | 9 | [**Knife Dodge**](games/knife-dodge/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-10 |
-| 10 | [**Space Showdown**](games/space-showdown/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
-| 11 | [**THE LONG SILENCE**](games/the-long-silence/readme.md) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 | 2026-09-09 |
-| 12 | [**The Simpsons: Hit & Run — Browser Reconstruction**](games/the-simpsons-hit-run-browser-reconstruction/readme.md) | ⭐ **9.5** | GPT-6 Astra | 2026-09-09 |
-| 13 | [**The Wandering Inn RPG**](games/the-wandering-inn-rpg/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-10 |
-| 14 | [**Wild Haggis Survivors**](games/wild-haggis-survivors/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
-| 15 | [**Wolfsbane**](games/wolfsbane/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
+| 10 | [**THE LONG SILENCE**](games/the-long-silence/readme.md) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 | 2026-09-09 |
+| 11 | [**The Simpsons: Hit & Run — Browser Reconstruction**](games/the-simpsons-hit-run-browser-reconstruction/readme.md) | ⭐ **9.5** | GPT-6 Astra | 2026-09-09 |
+| 12 | [**The Wandering Inn RPG**](games/the-wandering-inn-rpg/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-10 |
+| 13 | [**Wild Haggis Survivors**](games/wild-haggis-survivors/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
+| 14 | [**Wolfsbane**](games/wolfsbane/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
+| 15 | [**Battle City**](games/battle-city-nickblack1919-battle-city/readme.md) | ⭐ **9.4** | Claude Opus 5 | 2026-09-12 |
 
 ## Top games this month
 
@@ -102,17 +104,17 @@ The list contains **741** game units from **510** qualifying repositories. The d
 | 7 | [**Grand Theft Astra**](games/grand-theft-astra/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-12 |
 | 8 | [**Just Five More Minutes**](games/just-five-more-minutes/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
 | 9 | [**Knife Dodge**](games/knife-dodge/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-10 |
-| 10 | [**Space Showdown**](games/space-showdown/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
-| 11 | [**SUNBREAK — Downhill Club**](games/sunbreak-downhill-club/readme.md) | ⭐ **9.5** | GPT-6 Astra | 2026-09-09 |
-| 12 | [**THE LONG SILENCE**](games/the-long-silence/readme.md) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 | 2026-09-09 |
-| 13 | [**The Simpsons: Hit & Run — Browser Reconstruction**](games/the-simpsons-hit-run-browser-reconstruction/readme.md) | ⭐ **9.5** | GPT-6 Astra | 2026-09-09 |
-| 14 | [**The Wandering Inn RPG**](games/the-wandering-inn-rpg/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-10 |
-| 15 | [**Wild Haggis Survivors**](games/wild-haggis-survivors/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
-| 16 | [**Wolfsbane**](games/wolfsbane/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
-| 17 | [**Aeterna Chronicle**](games/aeterna-chronicle/readme.md) | ⭐ **9.4** | Claude Opus 4.8 | 2026-09-10 |
-| 18 | [**Battle City**](games/battle-city-nickblack1919-battle-city/readme.md) | ⭐ **9.4** | Claude Opus 5 | 2026-09-12 |
-| 19 | [**Beyond Boring: Death March**](games/beyond-boring-death-march/readme.md) | ⭐ **9.4** | Claude Fable 5 | 2026-09-10 |
-| 20 | [**Breakneck Baseball**](games/breakneck-baseball/readme.md) | ⭐ **9.4** | Claude Fable 5 | 2026-09-10 |
+| 10 | [**SUNBREAK — Downhill Club**](games/sunbreak-downhill-club/readme.md) | ⭐ **9.5** | GPT-6 Astra | 2026-09-09 |
+| 11 | [**THE LONG SILENCE**](games/the-long-silence/readme.md) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 | 2026-09-09 |
+| 12 | [**The Simpsons: Hit & Run — Browser Reconstruction**](games/the-simpsons-hit-run-browser-reconstruction/readme.md) | ⭐ **9.5** | GPT-6 Astra | 2026-09-09 |
+| 13 | [**The Wandering Inn RPG**](games/the-wandering-inn-rpg/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | 2026-09-10 |
+| 14 | [**Wild Haggis Survivors**](games/wild-haggis-survivors/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
+| 15 | [**Wolfsbane**](games/wolfsbane/readme.md) | ⭐ **9.5** | Claude Fable 5 | 2026-09-10 |
+| 16 | [**Battle City**](games/battle-city-nickblack1919-battle-city/readme.md) | ⭐ **9.4** | Claude Opus 5 | 2026-09-12 |
+| 17 | [**Beyond Boring: Death March**](games/beyond-boring-death-march/readme.md) | ⭐ **9.4** | Claude Fable 5 | 2026-09-10 |
+| 18 | [**Breakneck Baseball**](games/breakneck-baseball/readme.md) | ⭐ **9.4** | Claude Fable 5 | 2026-09-10 |
+| 19 | [**Ghost Guild**](games/ghost-guild/readme.md) | ⭐ **9.4** | Claude Opus 5 | 2026-09-10 |
+| 20 | [**Gravity Box — Campaign 100**](games/gravity-box-campaign-100/readme.md) | ⭐ **9.4** | GPT-6 Astra, GPT-5.6 Sol | 2026-09-10 |
 
 ## Top-rated picks
 

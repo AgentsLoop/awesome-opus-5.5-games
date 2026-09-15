@@ -1,7 +1,7 @@
 {
   "target": 900,
   "started_with": 30,
-  "updated_on": "2026-09-10",
+  "updated_on": "2026-09-15",
   "constraints": {
     "product": "Actual game or playable game prototype",
     "development_method": "Creator, curator, or repository evidence for GPT-6 Astra, Claude Opus, or Claude Fable; retain Gauntlet Loop evidence where present",
@@ -1061,7 +1061,7 @@
       "source": "Critique gate: X cross-author model search",
       "query_key": "critique|x-search|Astra|Claude Opus|Claude Fable|game|playable|demo",
       "status": "completed",
-      "score_10": 7.0,
+      "score_10": 7,
       "decision": "drop-primary-rotation",
       "note": "The critique rated the method 7/10. Repository and live-demo verification were strong, but both additions came through one X account, the sample was small, and the search did not demonstrate broad repeatability. Keep the two verified games, but do not use this query as a primary rotation without a diversity test.",
       "criteria": {
@@ -1131,7 +1131,7 @@
       "source": "Critique gate: controlled direct-link search",
       "query_key": "critique|x-search|direct-link|Astra|Claude Opus|Claude Fable|Latest",
       "status": "completed",
-      "score_10": 4.0,
+      "score_10": 4,
       "decision": "drop-primary-rotation",
       "note": "The critique rated the pass 4/10. It controlled false positives well, but five posts produced no new game, all relevant hits pointed to an already rejected toolkit, and source reliability was limited to X leads. Keep the negative result, but stop repeating this query family.",
       "criteria": {
@@ -1169,7 +1169,7 @@
       "source": "Critique gate: X playable-claim search",
       "query_key": "critique|x-search|play-now|playable-demo|play-here|github.com",
       "status": "completed",
-      "score_10": 5.0,
+      "score_10": 5,
       "decision": "drop-primary-rotation",
       "note": "The critique rated the empty result 5/10. The query was repeatable and had better noise control, but the three required phrases plus a GitHub link created low recall and yielded no candidates. Do not infer absence from the empty X result.",
       "criteria": {
@@ -1260,7 +1260,7 @@
       "source": "Critique gate: Claude Fable README search",
       "query_key": "critique|gh-repos|Claude Fable|game|in:readme|pushed:2026-09-02..2026-09-09",
       "status": "completed",
-      "score_10": 6.0,
+      "score_10": 6,
       "decision": "drop-primary-rotation",
       "note": "After duplicate reconciliation, correct the initial critique result: the search found an already recorded repository and added zero new game units. It improved the existing record with direct per-game links and confirmed strong source/provenance evidence, but its observed discovery yield was zero.",
       "criteria": {
@@ -1300,7 +1300,7 @@
       "source": "Critique gate: Fable alias search",
       "query_key": "critique|gh-repos|Fable|game|in:readme|pushed:2026-09-02..2026-09-09",
       "status": "completed",
-      "score_10": 4.0,
+      "score_10": 4,
       "decision": "drop-primary-rotation",
       "note": "The critique rated the alias query 4/10. GitHub was a reliable source, but the word Fable strongly matched the unrelated F# ecosystem, produced no new game repository, and had weak false-positive control. Keep the Claude-qualified query and do not repeat this alias alone.",
       "criteria": {
@@ -1361,7 +1361,7 @@
       "requested_limit": 100,
       "received_count": 2,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "new_verified_repositories": 0,
       "new_game_units": 0,
       "note": "The owner/repository form returned the same two internal files as the full-URL search. No external list or new game repository was indexed. Treat both forms as equivalent for this seed and switch to another source family.",
@@ -1394,7 +1394,7 @@
       "source": "Critique gate: Fable gameplay README search",
       "query_key": "critique|gh-repos|Fable|gameplay|in:readme|pushed:2026-09-02..2026-09-09",
       "status": "completed",
-      "score_10": 6.0,
+      "score_10": 6,
       "decision": "drop-primary-rotation",
       "note": "The critique rated the search 6/10. It had strong false-positive control and clear README-backed exclusions, but found zero new independent games. Do not repeat this wording without a changed partition.",
       "criteria": {
@@ -1415,7 +1415,7 @@
       "source": "Critique gate: explicit Fable 5.1 attribution search",
       "query_key": "critique|gh-repos|Fable 5.1|in:readme|pushed:2026-09-02..2026-09-09|sort:updated",
       "status": "completed",
-      "score_10": 4.0,
+      "score_10": 4,
       "decision": "drop-primary-rotation",
       "note": "The critique rated the unfiltered exact-attribution search 4/10. Query repeatability was strong, but it returned no unseen accessible game repository and was dominated by tools, skills, documentation, catalogs and infrastructure. Keep the attribution term, but add a game-specific qualifier before repeating.",
       "criteria": {
@@ -1458,7 +1458,7 @@
       "source": "Critique gate: Fable 5.1 game search",
       "query_key": "critique|gh-repos|Fable 5.1|game|in:readme|pushed:2026-09-02..2026-09-09|sort:updated",
       "status": "completed",
-      "score_10": 8.0,
+      "score_10": 8,
       "decision": "keep-primary-rotation",
       "note": "The critique rated the game-specific exact search 8/10. It found one new repository with strong README evidence for a Unity game, native/WebGL builds, tests and direct Fable 5.1 gauntlet attribution. Yield was low, but false-positive control and repeatability were good. Keep the method with non-overlapping date partitions and stable repository IDs.",
       "criteria": {
@@ -1529,7 +1529,7 @@
       "received_count": 1,
       "unseen_count": 0,
       "new_verified_repositories": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "new_game_units": 0,
       "note": "The owner/repository form returned the same self-reference as the full URL search. No external list or new game repository was indexed. Mark both AOT incoming-link forms as exhausted for this seed.",
       "next_experiments": [
@@ -1542,7 +1542,7 @@
       "source": "Critique gate: direct API Fable 5.1 date partition",
       "query_key": "critique|gh-api-repos|Fable 5.1|game|in:readme|pushed:2026-08-25..2026-09-01",
       "status": "completed",
-      "score_10": 3.0,
+      "score_10": 3,
       "decision": "drop-primary-rotation",
       "note": "The critique rated this audit 3/10. It found zero new game units, repeated three known projects, exposed unreliable CLI date filtering, and returned a benchmark false positive. Keep REST API date partitions only as a secondary audit after adding stronger game-type filters and manual verification.",
       "criteria": {
@@ -1563,7 +1563,7 @@
       "source": "Critique gate: AOT incoming-link pair",
       "query_key": "critique|gh-code|Ashen-Skool/Aot-Fable-5.1|full-url+owner-form",
       "status": "completed",
-      "score_10": 3.0,
+      "score_10": 3,
       "decision": "drop-primary-rotation",
       "note": "Both exact incoming-link forms scored 3/10. They were repeatable and had strong false-positive control, but returned only the repository's own README, with no external source or new game. Keep them only as a low-cost identity preflight before broader reverse-link methods.",
       "criteria": {
@@ -1639,7 +1639,7 @@
       "source": "Critique gate: Astra catalog expansion",
       "query_key": "critique|gh-readme|magiccreator-ai/awesome-gpt-6-astra|games",
       "status": "completed",
-      "score_10": 8.0,
+      "score_10": 8,
       "decision": "keep-primary-rotation",
       "note": "The critique rated the method 8/10. It found three new game units in one repository, with strong false-positive control and useful browser verification. Keep list expansion, but treat catalog entries as leads and require direct source provenance plus stronger runtime evidence before counting.",
       "criteria": {
@@ -1715,7 +1715,7 @@
       "source": "Critique gate: archorfight catalog audit",
       "query_key": "critique|gh-readme|archorfight/awesome-gpt-6-astra|games+community",
       "status": "completed",
-      "score_10": 2.0,
+      "score_10": 2,
       "decision": "drop-primary-rotation",
       "note": "The catalog audit scored 2/10. It found no new direct GitHub game repository, repeated known projects, and provided only weak X/Reddit leads. Keep it only as a low-value community-signal reference.",
       "criteria": {
@@ -1817,7 +1817,7 @@
       "source": "Critique gate: fresh Astra repository window and canonical-link correction",
       "query_key": "critique|gh-repos|GPT-6 Astra|game|in:readme|pushed:2026-09-09..2026-09-10|canonical-link",
       "status": "completed",
-      "score_10": 8.0,
+      "score_10": 8,
       "decision": "keep-primary-rotation",
       "note": "The pass scored 8/10. It found AZURA and SEABRIGHT directly and CityMaker through a distinct catalog, while correctly rejecting the stale 404 alias. Keep the method, but treat pushed dates as activity dates rather than creation dates and label catalog-derived discoveries separately.",
       "criteria": {
@@ -1881,7 +1881,7 @@
       "source": "Critique gate: exact September 8 REST batch",
       "query_key": "critique|gh-api-repos|GPT-6 Astra|game|in:readme|pushed:2026-09-08..2026-09-08",
       "status": "completed",
-      "score_10": 8.0,
+      "score_10": 8,
       "decision": "keep-primary-rotation",
       "note": "The pass scored 8/10. It found three unseen playable projects from twelve unseen candidates and maintained strong false-positive control. Verification quality was high because the results had repository source and public builds or strong native evidence. Little Flock remains account-gated, so it is weaker for independent live checking. Reuse the method with a fixed evidence matrix and record one rejection reason for each unseen candidate.",
       "criteria": {
@@ -2593,7 +2593,7 @@
       "new_game_units": 2,
       "new_rejected": 2,
       "unseen_count": 4,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/NeoAiLabs/sidescroller",
         "https://github.com/aaronshaver/dig-deep-descent"
@@ -2617,7 +2617,7 @@
       "new_game_units": 0,
       "new_rejected": 1,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "rejected_repositories": [
         "https://github.com/waynchi/gamedevbench"
       ],
@@ -2636,7 +2636,7 @@
       "new_game_units": 1,
       "new_rejected": 3,
       "unseen_count": 4,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/berlinbrown/vanus-toy-sim-gpt"
       ],
@@ -2692,7 +2692,7 @@
       "new_game_units": 1,
       "new_rejected": 0,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku"
       ],
@@ -2733,7 +2733,7 @@
       "new_game_units": 1,
       "new_rejected": 0,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/SlickAmogus/silent-hill-decomp"
       ],
@@ -2774,7 +2774,7 @@
       "new_game_units": 0,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [
         "https://github.com/joozio/wiz-experiments"
@@ -2838,7 +2838,7 @@
       "new_game_units": 1,
       "new_rejected": 0,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/snek-git/mineclaude"
       ],
@@ -2879,7 +2879,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "note": "The GitHub repository index returned zero matches for this exact attribution phrase. Treat this as an indexing result, not proof that no such games exist. Change the source family or use a different direct build phrase; do not repeat cosmetic variants indefinitely.",
       "next_experiments": [
         "Switch to a reverse-link or curated-list source",
@@ -2918,7 +2918,7 @@
       "new_game_units": 0,
       "new_rejected": 3,
       "unseen_count": 3,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "rejected_repositories": [
         "https://github.com/jgough-essextec/DnD-Forge",
         "https://github.com/GrantAbell/LinCaster",
@@ -2963,7 +2963,7 @@
       "new_game_units": 3,
       "new_rejected": 3,
       "unseen_count": 8,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/claudio41cg-max/rio-rush-cross",
         "https://github.com/JaCoderX/Branch-Zero",
@@ -2994,7 +2994,7 @@
       "new_game_units": 0,
       "new_rejected": 2,
       "unseen_count": 2,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "rejected_repositories": [
         "https://github.com/yangqiong/gpt6-astra-3d",
         "https://github.com/xianyu110/awesome-gpt-6-astra"
@@ -3014,7 +3014,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 6,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "confirmed_existing_repositories": [
         "https://github.com/Hiraeth010/blackwater",
         "https://github.com/LucasMarquesShiva/the-free-game",
@@ -3139,7 +3139,7 @@
       "new_game_units": 0,
       "new_rejected": 1,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "rejected_repositories": [
         "https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files"
       ],
@@ -3191,7 +3191,7 @@
       "new_game_units": 3,
       "new_rejected": 1,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/buildfastwithai/gen-ai-experiments"
       ],
@@ -3288,7 +3288,7 @@
       "new_game_units": 5,
       "new_rejected": 0,
       "unseen_count": 5,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/ehewlett3/AI-Choose-Now",
         "https://github.com/UniverseKing4/arena-shooter-3d",
@@ -3490,7 +3490,7 @@
       "new_game_units": 0,
       "new_rejected": 3,
       "unseen_count": 3,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "rejected_repositories": [
         "https://github.com/JBuildr/MKW-Quest3",
         "https://github.com/stevemaughan/fable51-chess-24hrs",
@@ -3533,7 +3533,7 @@
       "new_game_units": 1,
       "new_rejected": 2,
       "unseen_count": 3,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Hiberius/couples-card-game"
       ],
@@ -3581,7 +3581,7 @@
       "new_game_units": 1,
       "new_rejected": 0,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/mrfqcentic/blender-roblox-experiment"
       ],
@@ -3625,7 +3625,7 @@
       "new_game_units": 0,
       "new_rejected": 2,
       "unseen_count": 8,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/sorrycc/fable-arcade"
       ],
@@ -3730,7 +3730,7 @@
       "new_game_units": 3,
       "new_rejected": 8,
       "unseen_count": 11,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/boobcactus/fw16-pongwars",
         "https://github.com/petersomerville/mysnowboard",
@@ -3788,7 +3788,7 @@
       "new_game_units": 2,
       "new_rejected": 4,
       "unseen_count": 6,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/echosoar/raft",
         "https://github.com/dmbartles/math-defense-the-last-frontier"
@@ -3840,7 +3840,7 @@
       "new_game_units": 0,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "rejected_repositories": [
         "https://github.com/makseq/freewill"
       ],
@@ -3877,8 +3877,8 @@
         "Inspect direct links one at a time",
         "Preserve strict authorship and game-loop checks"
       ]
-    }
-    ,{
+    },
+    {
       "source": "Claude Opus game code-search with native-engine triage",
       "query_key": "Claude Opus 4.6 game",
       "status": "completed",
@@ -3887,7 +3887,7 @@
       "new_game_units": 3,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Vadaski/pixel-tactical-shooter",
         "https://github.com/Nakamuro-unl/GodotActionGame",
@@ -3921,7 +3921,7 @@
       "new_game_units": 7,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/vi-o-al-ai/claude_playground"
       ],
@@ -3953,7 +3953,7 @@
       "new_game_units": 7,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Jaxsbr/toy-box-siege",
         "https://github.com/rickymetz/wordgirl",
@@ -3991,7 +3991,7 @@
       "new_game_units": 5,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/liuyixuan5678/offline-games",
         "https://github.com/wodud1378/PVP-Tetris",
@@ -4027,7 +4027,7 @@
       "new_game_units": 1,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/dnd-side-project/dnd-14th-6-frontend"
       ],
@@ -4059,7 +4059,7 @@
       "new_game_units": 2,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/PizzaDAO/pizza-chef",
         "https://github.com/srpatatas/produsa"
@@ -4093,7 +4093,7 @@
       "new_game_units": 2,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/kevicency/KumoWare"
       ],
@@ -4125,7 +4125,7 @@
       "new_game_units": 3,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/MahoHayashi/UnityPuzzle",
         "https://github.com/Ares2023/BlindArena",
@@ -4163,7 +4163,7 @@
       "new_game_units": 7,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/quangpham2803/Basketball-Game",
         "https://github.com/bccdon/musicGameUnity",
@@ -4202,7 +4202,7 @@
       "new_game_units": 0,
       "new_rejected": 7,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [],
       "rejected_repositories": [
         "https://github.com/adaybekovt-boop/Make-your-ai-UE5-",
@@ -4242,7 +4242,7 @@
       "new_game_units": 9,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/crcknaka/euc-lean-too-much",
         "https://github.com/TanBuiDev/fieldrunners2-remake",
@@ -4283,7 +4283,7 @@
       "new_game_units": 10,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Goodest-ai/chess-bot",
         "https://github.com/thanhkaist/tiny-baby-snake",
@@ -4328,7 +4328,7 @@
       "new_game_units": 5,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Jinchaosss/cat-dog-queue",
         "https://github.com/Jinchaosss/slide-jigsaw",
@@ -4368,7 +4368,7 @@
       "new_game_units": 4,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Stephenson-Software/Frog-Hopper-2D",
         "https://github.com/carlosbravoa/SDL-skyroads",
@@ -4405,7 +4405,7 @@
       "new_game_units": 9,
       "new_rejected": 4,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/NaoyaNakagawa0124/auto-dev-projects",
         "https://github.com/Afillex/merchants-keep",
@@ -4449,7 +4449,7 @@
       "new_game_units": 9,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Corttezz/card-game-love2d",
         "https://github.com/NAMYUNWOO/dotpio",
@@ -4493,7 +4493,7 @@
       "new_game_units": 4,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Vineethk08/mind-the-tower-defold",
         "https://github.com/SkipSupreme/rummy-500",
@@ -4530,7 +4530,7 @@
       "new_game_units": 9,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/kglazier/Ages-Of-Aether-Native",
         "https://github.com/maweis1981/rust_bevy_lua_game",
@@ -4574,7 +4574,7 @@
       "new_game_units": 7,
       "new_rejected": 5,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/oh-ashen-one/Opus-5-Three-Games",
         "https://github.com/moeiscool/MaskGame",
@@ -4618,7 +4618,7 @@
       "new_game_units": 3,
       "new_rejected": 1,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/tsunejui/farm-game",
         "https://github.com/dainedwards/DwarfMiner",
@@ -4659,7 +4659,7 @@
       "new_game_units": 1,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/sly-the-fox/geometry-quest"
       ],
@@ -4691,7 +4691,7 @@
       "new_game_units": 10,
       "new_rejected": 2,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/aalicia1208/stride-n-conquer",
         "https://github.com/mcarthey/CascadeGame",
@@ -4737,7 +4737,7 @@
       "new_game_units": 6,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/thanhkaist/tiny-baby-snake",
         "https://github.com/chrissfoss-nor/8ballpool",
@@ -4776,7 +4776,7 @@
       "new_game_units": 3,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/GeorgeCottrell/SpaceShowdown",
         "https://github.com/vidalmatheus/pyKombat",
@@ -4812,7 +4812,7 @@
       "new_game_units": 5,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Karanvir1729/ninja-knife-dodge"
       ],
@@ -4846,7 +4846,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -4915,7 +4915,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [
         "https://github.com/Karanvir1729/ninja-knife-dodge"
       ],
@@ -4949,7 +4949,7 @@
       "new_game_units": 2,
       "new_rejected": 3,
       "unseen_count": 5,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/nodeJayS/idle-game",
         "https://github.com/Raynos/kami-kakushi"
@@ -4988,7 +4988,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5020,7 +5020,7 @@
       "new_game_units": 3,
       "new_rejected": 0,
       "unseen_count": 3,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/wicanr2/u5-cht",
         "https://github.com/wicanr2/kinginformation-dq3-re",
@@ -5090,7 +5090,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5122,7 +5122,7 @@
       "new_game_units": 2,
       "new_rejected": 3,
       "unseen_count": 5,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Kizunad/Bong",
         "https://github.com/hynding/breakneck-baseball"
@@ -5161,7 +5161,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5193,7 +5193,7 @@
       "new_game_units": 0,
       "new_rejected": 3,
       "unseen_count": 3,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [],
       "rejected_repositories": [
         "https://github.com/igrdevelop/job-hunter",
@@ -5229,7 +5229,7 @@
       "new_game_units": 0,
       "new_rejected": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5261,7 +5261,7 @@
       "new_game_units": 0,
       "new_rejected": 3,
       "unseen_count": 3,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [],
       "rejected_repositories": [
         "https://github.com/edneyreis999/Jonny",
@@ -5332,7 +5332,7 @@
       "new_rejected": 0,
       "new_game_units": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5364,7 +5364,7 @@
       "new_game_units": 1,
       "new_rejected": 0,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/oivindth/wolfsbane"
       ],
@@ -5398,7 +5398,7 @@
       "new_game_units": 2,
       "new_rejected": 2,
       "unseen_count": 4,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/nansu0425/nan2026-game-src",
         "https://github.com/Assassin29092005/GAME_CORE"
@@ -5436,7 +5436,7 @@
       "new_rejected": 0,
       "new_game_units": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5468,7 +5468,7 @@
       "new_rejected": 0,
       "new_game_units": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5592,7 +5592,7 @@
       "new_rejected": 3,
       "new_game_units": 1,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/vreddi/kaijudo"
       ],
@@ -5630,7 +5630,7 @@
       "new_rejected": 0,
       "new_game_units": 7,
       "unseen_count": 5,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/gww1981/gomoku-game",
         "https://github.com/Kyoril/mmo",
@@ -5668,7 +5668,7 @@
       "new_rejected": 0,
       "new_game_units": 2,
       "unseen_count": 2,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/influenza-dotcom/3D-RPG",
         "https://github.com/phirogue/SparkyGames"
@@ -5703,7 +5703,7 @@
       "new_rejected": 0,
       "new_game_units": 2,
       "unseen_count": 2,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/Giftedx/ha-ggis-hub",
         "https://github.com/Giftedx/just-five-more-minutes"
@@ -5738,7 +5738,7 @@
       "new_rejected": 0,
       "new_game_units": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5770,7 +5770,7 @@
       "new_rejected": 0,
       "new_game_units": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5802,7 +5802,7 @@
       "new_rejected": 0,
       "new_game_units": 0,
       "unseen_count": 0,
-      "overlap_ratio": 1.0,
+      "overlap_ratio": 1,
       "accepted_repositories": [],
       "rejected_repositories": [],
       "held_repositories": [],
@@ -5834,7 +5834,7 @@
       "new_rejected": 2,
       "new_game_units": 1,
       "unseen_count": 1,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/moorestech/moorestech"
       ],
@@ -5871,7 +5871,7 @@
       "new_rejected": 2,
       "new_game_units": 4,
       "unseen_count": 4,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [
         "https://github.com/GabrielGLevine/wandering-inn-rpg",
         "https://github.com/moura-code/ghost-guild",
@@ -5950,7 +5950,7 @@
       "new_rejected": 5,
       "new_game_units": 0,
       "unseen_count": 0,
-      "overlap_ratio": 0.0,
+      "overlap_ratio": 0,
       "accepted_repositories": [],
       "rejected_repositories": [
         "https://github.com/discover3d/PrestonRigsby__The-Remainder",
@@ -8245,10 +8245,43 @@
       },
       "critique_note": "The accepted set uses direct GitHub README evidence and an explicit 15-game threshold. Mixed resource catalogs and short lists were rejected instead of inflating the index.",
       "critic": "manual conservative score after serial README audit"
+    },
+    {
+      "source": "GitHub GraphQL repository and release metadata",
+      "query": "qualifying games: repository creation dates plus first public release",
+      "status": "completed",
+      "checked_at": "2026-09-15T10:12:28Z",
+      "repositories_scanned_serially": 510,
+      "publication_dates_added": 12,
+      "repository_creation_dates_added": 254,
+      "records_with_publication_dates_after_pass": 151,
+      "records_with_repository_creation_dates_after_pass": 510,
+      "unknown_date_statuses_after_pass": 0,
+      "note": "Use published_on only for recorded publication or release evidence. Keep repository_created_at as audit context, classify repository-created-only records separately, and preserve one existing date from an unavailable repository as recorded_without_live_source.",
+      "accepted_repositories": [
+        "All existing qualifying game repositories received date metadata where GitHub exposed it."
+      ],
+      "rejected_repositories": [],
+      "next_experiments": [
+        "Trace creator posts and live demos for the 358 repository-created-only records before promoting their dates to published_on.",
+        "Keep daily rankings limited to publication or qualifying gameplay-evidence dates."
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The pass completed date metadata coverage without treating repository creation or curation verification as publication. Release URLs are retained as direct evidence, while remaining records are explicitly separated in the audit.",
+      "critic": "manual conservative score after serial metadata audit"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 728 across 552 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 741 across 510 qualifying repositories",
     "The 2026-09-10..2026-09-12 serial commit-search batch added 30 game units from 11 repositories",
     "Per-game notes now cover 728 counted units as 692 named notes; 249 note rows have screenshot sources and 443 retain placeholders",
     "The serial README image scan found 142 candidate image URLs across 61 repositories after filtering obvious non-game assets",
@@ -8257,6 +8290,7 @@
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
-    "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"
+    "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects",
+    "Date enrichment completed: 151 records have recorded publication or release dates, all 510 qualifying repositories have repository creation metadata, and no qualifying record remains unclassified."
   ]
 }

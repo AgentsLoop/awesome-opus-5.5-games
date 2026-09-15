@@ -2103,3 +2103,7 @@ Regenerate the README with date-ranked **Top games today**, **Top games this wee
 Scan each qualifying repository that has no `screenshot_urls` record. Read its README serially, resolve relative Markdown and HTML image links against the README URL, and reject badges, logos, icons, navigation artwork, diagrams, progress sheets and donation buttons. Save the surviving URLs in `research/screenshot-discoveries.json`.
 
 Create `games/<slug>/readme.md` for every named game unit. Link the repository, model evidence, gameplay source and screenshot sources. Use a local placeholder SVG only when no reliable source image remains. Treat a README image as a source asset, not as proof that the game was played.
+
+### Publication-date enrichment audit
+
+Run GitHub metadata collection serially through bounded GraphQL batches. Fetch repository creation timestamps for every qualifying repository and inspect the first public release when available. Store `published_on` only for an explicit publication or release signal. Store `repository_created_at` separately, label repository-created-only records, preserve inaccessible-repository dates as recorded without live source, and leave no record with an unclassified date status. Regenerate the ranking reports and validate both the dataset and date audit after the pass.

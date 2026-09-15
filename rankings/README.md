@@ -24,10 +24,10 @@
 
 | Date signal | Records | Game units | Meaning |
 | --- | ---: | ---: | --- |
-| Explicit publication date | 139 | 272 | `published_on` |
-| Publication or qualifying evidence date | 143 | 276 | `published_on`, `recent_game_evidence_on`, or `fresh_activity_date` |
-| Date unknown for ranking | 367 | 465 | Exclude from date rankings |
-| Repository creation metadata | 254 | 390 | Audit context only; not publication |
+| Explicit publication date | 151 | 286 | `published_on` |
+| Publication or qualifying evidence date | 155 | 290 | `published_on`, `recent_game_evidence_on`, or `fresh_activity_date` |
+| Date unknown for ranking | 355 | 451 | Exclude from date rankings |
+| Repository creation metadata | 510 | 741 | Audit context only; not publication |
 
 ## Date policy
 
