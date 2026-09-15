@@ -131,7 +131,12 @@ function unitRows(record) {
   });
 }
 
-const games = records.filter((record) => record.is_independent_game && Number(record.counted_game_units ?? 1) > 0);
+const lowQualityThreshold = 7;
+const games = records.filter((record) => (
+  record.is_independent_game
+  && Number(record.counted_game_units ?? 1) > 0
+  && Number(record.quality_estimate_10 ?? 0) >= lowQualityThreshold
+));
 const rows = games.flatMap((record) => unitRows(record).map((unit) => ({
   ...unit,
   dateInfo: dateInfo(record),
