@@ -2076,14 +2076,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Stephenson-Software/Frog-Hopper-2D/commit/96eae9c7701f31ba18c7c4c067ab01e90905e47b",
     "screenshot_urls": [],
-    "technology": ["SDL2", "C++", "Native desktop"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "SDL2",
+      "C++",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Frog Hopper"],
+    "contained_games": [
+      "Frog Hopper"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for SDL game Co-Authored-By Claude Opus", "https://github.com/Stephenson-Software/Frog-Hopper-2D"],
+    "discovery_sources": [
+      "GitHub commit search for SDL game Co-Authored-By Claude Opus",
+      "https://github.com/Stephenson-Software/Frog-Hopper-2D"
+    ],
     "verification_notes": "The README describes a complete 2D Frogger-style game: cross traffic lanes and reach the pond, with frog movement, cars, collision, win/lose screens, assets and a Makefile build. The cited commit shows a direct Claude Opus 5 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2108,14 +2119,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/carlosbravoa/SDL-skyroads/commit/49d34ddb72861befee7e6238aeefedd4dc3a6a27",
     "screenshot_urls": [],
-    "technology": ["SDL2", "C++17", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "SDL2",
+      "C++17",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["SDL Skyroads"],
+    "contained_games": [
+      "SDL Skyroads"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for SDL game Co-Authored-By Claude Opus", "https://github.com/carlosbravoa/SDL-skyroads"],
+    "discovery_sources": [
+      "GitHub commit search for SDL game Co-Authored-By Claude Opus",
+      "https://github.com/carlosbravoa/SDL-skyroads"
+    ],
     "verification_notes": "The README describes a native C++17 SDL2 reimplementation of SkyRoads with deterministic ship simulation, menus, software renderer, HUD, audio and equivalence tests. Original game data is user-supplied, so classify it as data-gated rather than directly runnable from the repository. The cited commit shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2139,15 +2161,29 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/mariotaku/FruitNinja/commit/cf122460af20120b3d6ece014f34b74b7e4930a2",
-    "screenshot_urls": ["https://github.com/mariotaku/FruitNinja/blob/main/docs/screenshots/arcade-wide.png"],
-    "technology": ["SDL2", "C++11", "Native desktop", "Web"],
-    "model_family": ["Claude Opus 4.8"],
+    "screenshot_urls": [
+      "https://github.com/mariotaku/FruitNinja/blob/main/docs/screenshots/arcade-wide.png"
+    ],
+    "technology": [
+      "SDL2",
+      "C++11",
+      "Native desktop",
+      "Web"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Fruit Ninja"],
+    "contained_games": [
+      "Fruit Ninja"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for SDL game Co-Authored-By Claude Opus", "https://github.com/mariotaku/FruitNinja"],
+    "discovery_sources": [
+      "GitHub commit search for SDL game Co-Authored-By Claude Opus",
+      "https://github.com/mariotaku/FruitNinja"
+    ],
     "verification_notes": "The README describes a native C++11 reverse-engineered Fruit Ninja port with arcade mode, fruit slicing, combo/frenzy behavior, 60 Hz simulation, settings, desktop/web targets and screenshots. The repository requires the user's own game data to run. The cited commit shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2171,15 +2207,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/pocketgeek/tak-engine/commit/669970adec1d5c0d16f8ac67c8f18f4115bfeed3",
-    "screenshot_urls": ["https://github.com/pocketgeek/tak-engine/blob/main/docs/img/ingame.jpg"],
-    "technology": ["SDL2", "C++20", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "screenshot_urls": [
+      "https://github.com/pocketgeek/tak-engine/blob/main/docs/img/ingame.jpg"
+    ],
+    "technology": [
+      "SDL2",
+      "C++20",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["TAK Engine"],
+    "contained_games": [
+      "TAK Engine"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for SDL game Co-Authored-By Claude Opus", "https://github.com/pocketgeek/tak-engine"],
+    "discovery_sources": [
+      "GitHub commit search for SDL game Co-Authored-By Claude Opus",
+      "https://github.com/pocketgeek/tak-engine"
+    ],
     "verification_notes": "The README describes a cross-platform C++20/SDL2 recreation of Total Annihilation: Kingdoms with single-player and multiplayer lobby flow, campaign, AI, units, maps, deterministic lockstep and a full retail-style HUD. It includes in-game screenshots and extensive client/gameplay source. The cited commit shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2204,14 +2253,28 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/NaoyaNakagawa0124/auto-dev-projects/commit/cdda4207959660c3db687c13869548e46123b742",
     "screenshot_urls": [],
-    "technology": ["raylib", "C", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "raylib",
+      "C",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 4,
-    "contained_games": ["Tenaoshi", "Namioto", "TsunDoku", "RonriRoom"],
+    "contained_games": [
+      "Tenaoshi",
+      "Namioto",
+      "TsunDoku",
+      "RonriRoom"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for raylib game Co-Authored-By Claude Opus", "https://github.com/NaoyaNakagawa0124/auto-dev-projects"],
+    "discovery_sources": [
+      "GitHub commit search for raylib game Co-Authored-By Claude Opus",
+      "https://github.com/NaoyaNakagawa0124/auto-dev-projects"
+    ],
     "verification_notes": "This monorepo contains four distinct Raylib C games, each with its own README and source: Tenaoshi neighborhood renovation, Namioto breathing/ocean meditation, TsunDoku book-stacking puzzle and RonriRoom office escape logic puzzle. Each has a main entrypoint and tests. The four cited game commits show direct Claude Opus 4.6 trailers. Count four game units, not one repository.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2234,14 +2297,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Afillex/merchants-keep/commit/5a5203cad5b169bd6e8ecaf4ef61ed3519ac8a53",
     "screenshot_urls": [],
-    "technology": ["raylib", "C99", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "raylib",
+      "C99",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Merchant's Keep"],
+    "contained_games": [
+      "Merchant's Keep"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for raylib game Co-Authored-By Claude Opus", "https://github.com/Afillex/merchants-keep"],
+    "discovery_sources": [
+      "GitHub commit search for raylib game Co-Authored-By Claude Opus",
+      "https://github.com/Afillex/merchants-keep"
+    ],
     "verification_notes": "The README describes a 2D merchant trading game with a simulated economy, traders, haggling, event cards, reputation, balance and save file. The C99 source uses Raylib and separates game loop, economy, traders, cards and state modules. The cited commit shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2263,15 +2337,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/mokguylee-prog/dogfighter/commit/50ae20e5a14b2707dbc585c8745cbe8031f944c8",
-    "screenshot_urls": ["https://github.com/mokguylee-prog/dogfighter/blob/main/img/screenshot.png"],
-    "technology": ["raylib 5.5", "C", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "screenshot_urls": [
+      "https://github.com/mokguylee-prog/dogfighter/blob/main/img/screenshot.png"
+    ],
+    "technology": [
+      "raylib 5.5",
+      "C",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["DogFighter"],
+    "contained_games": [
+      "DogFighter"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for raylib game Co-Authored-By Claude Opus", "https://github.com/mokguylee-prog/dogfighter"],
+    "discovery_sources": [
+      "GitHub commit search for raylib game Co-Authored-By Claude Opus",
+      "https://github.com/mokguylee-prog/dogfighter"
+    ],
     "verification_notes": "The README describes a 3D wireframe paper-airplane 1v1 combat game with AI pursuit, shooting, bullets, explosion particles, HUD, radar and joystick/keyboard controls. The repository contains Raylib C source and a gameplay screenshot. The cited commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2294,15 +2381,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/ferranrigual/raylib-clicker/commit/d84c0142bd0547dc5f8cf7afc73a4219b24981a9",
-    "screenshot_urls": ["https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png"],
-    "technology": ["raylib Python bindings", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "screenshot_urls": [
+      "https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png"
+    ],
+    "technology": [
+      "raylib Python bindings",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Energy Clicker"],
+    "contained_games": [
+      "Energy Clicker"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for raylib game Co-Authored-By Claude Opus", "https://github.com/ferranrigual/raylib-clicker"],
+    "discovery_sources": [
+      "GitHub commit search for raylib game Co-Authored-By Claude Opus",
+      "https://github.com/ferranrigual/raylib-clicker"
+    ],
     "verification_notes": "The README describes a Raylib Python clicker game about building an energy economy: click to generate energy, buy and upgrade coal, oil, gas, solar, wind, hydro and nuclear sources, and reduce pollution. The repository includes Python game entrypoints and early/mid-game screenshots. The cited commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2324,15 +2424,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/binRick/scumm-game/commit/12159c5193f97f3d52a4faca18183a9cc377d69c",
-    "screenshot_urls": ["https://github.com/binRick/scumm-game/blob/main/docs/screenshot.png"],
-    "technology": ["raylib", "C", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
+    "screenshot_urls": [
+      "https://github.com/binRick/scumm-game/blob/main/docs/screenshot.png"
+    ],
+    "technology": [
+      "raylib",
+      "C",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["SCUMM Game"],
+    "contained_games": [
+      "SCUMM Game"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for raylib game Co-Authored-By Claude Opus", "https://github.com/binRick/scumm-game"],
+    "discovery_sources": [
+      "GitHub commit search for raylib game Co-Authored-By Claude Opus",
+      "https://github.com/binRick/scumm-game"
+    ],
     "verification_notes": "The README describes a Raylib SCUMM-style point-and-click adventure with a walkable dock, Dijkstra pathing, animated sprites, look/use/pick-up verbs, walk-behind foregrounds, live editors and a sprite browser. The repository contains C source and a screenshot. The cited commit shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2356,14 +2469,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/nhannht/caro-game/commit/f8e79aa58a2ceab3a37b21ccf1422cacf875fa90",
     "screenshot_urls": [],
-    "technology": ["raylib", "C++14", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "raylib",
+      "C++14",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Caro / Gomoku"],
+    "contained_games": [
+      "Caro / Gomoku"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for raylib game Co-Authored-By Claude Opus", "https://github.com/nhannht/caro-game"],
+    "discovery_sources": [
+      "GitHub commit search for raylib game Co-Authored-By Claude Opus",
+      "https://github.com/nhannht/caro-game"
+    ],
     "verification_notes": "The README identifies a C++14 Caro/Gomoku game built with Raylib for an OOP class. The committed project has CMake configuration, a Raylib C++ main implementation and a large AI/game source commit. The cited commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2388,14 +2512,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Corttezz/card-game-love2d/commit/7aba2cf4fd429193de5ae329c99b4e904126b47c",
     "screenshot_urls": [],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Card Game"],
+    "contained_games": [
+      "Card Game"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/Corttezz/card-game-love2d"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/Corttezz/card-game-love2d"
+    ],
     "verification_notes": "The README describes a strategic card game inspired by Balatro: defeat enemies through stages using attack, defense and passive Joker cards. Source includes game core, player, enemy, card types, decks, events, biomes, achievements and UI. The cited commit page shows a direct Claude Fable 5 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2420,14 +2555,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/NAMYUNWOO/dotpio/commit/285238d9ce9292df540ad11aeeae0d1d226c5fa7",
     "screenshot_urls": [],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Dotpio"],
+    "contained_games": [
+      "Dotpio"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/NAMYUNWOO/dotpio"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/NAMYUNWOO/dotpio"
+    ],
     "verification_notes": "The repository contains a LÖVE game entrypoint, map and tile systems, player, enemies, enemy AI, combat, inventory, items, portals, field of view, HUD, stats and lootbox UI. The cited commit is titled as a Love2D roguelike game and shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2450,15 +2596,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/ETdoFresh/asteroids-love2d/commit/d86d2e6e60fde9cf08ec8e76a98f7f60a36fba27",
-    "screenshot_urls": ["https://github.com/ETdoFresh/asteroids-love2d/blob/main/screenshot.png"],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "screenshot_urls": [
+      "https://github.com/ETdoFresh/asteroids-love2d/blob/main/screenshot.png"
+    ],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Asteroids"],
+    "contained_games": [
+      "Asteroids"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/ETdoFresh/asteroids-love2d"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/ETdoFresh/asteroids-love2d"
+    ],
     "verification_notes": "The README identifies a classic Asteroids game built with LÖVE 2D and documents the LÖVE 11.4+ run path. The repository contains conf.lua, main.lua and a gameplay screenshot. The cited commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2483,14 +2642,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/rhowell/voidash/commit/42e8ff9cbf578096f0b4cf9531f05a5d0578d1a8",
     "screenshot_urls": [],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Voidash"],
+    "contained_games": [
+      "Voidash"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/rhowell/voidash"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/rhowell/voidash"
+    ],
     "verification_notes": "The README describes a neon arena survival game: dash through enemies, chain kills for combo multipliers, survive waves and use temporary invulnerability. Source contains player, enemies, grid, particles, camera, audio, UI and main loop. The cited commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2515,14 +2685,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/TiagoBonamigo/TetrisLove2D/commit/254b26e2ea1befca98801e6d3225f87ba22f9678",
     "screenshot_urls": [],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["TetrisLove2D"],
+    "contained_games": [
+      "TetrisLove2D"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/TiagoBonamigo/TetrisLove2D"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/TiagoBonamigo/TetrisLove2D"
+    ],
     "verification_notes": "The README describes an NES-faithful Tetris clone with 60 Hz timing, rotation system, DAS input, gravity curve, scoring and palette cycling. Source contains board, piece, game state, input, renderer, scoring, audio and title/playing states. The cited commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2546,15 +2727,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/JohnVonDrashek/ora-et-labora/commit/37121ab50d102942a5c80d90d5b87b73202fb05a",
-    "screenshot_urls": ["https://github.com/JohnVonDrashek/ora-et-labora/blob/main/screenshot.png"],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "screenshot_urls": [
+      "https://github.com/JohnVonDrashek/ora-et-labora/blob/main/screenshot.png"
+    ],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Ora et Labora"],
+    "contained_games": [
+      "Ora et Labora"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/JohnVonDrashek/ora-et-labora"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/JohnVonDrashek/ora-et-labora"
+    ],
     "verification_notes": "The README describes a monastery management simulator with monks, illuminated manuscripts, ale, sacred music, patrons, an abbey, renown and procedural graphics/audio. Source contains game, data, market, office, project, save, staff and UI systems. The cited commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2579,14 +2773,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/kurtmc/ball-game/commit/c10cc42c628b9df7fd616bd739ad8efe3d8b09f4",
     "screenshot_urls": [],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Ballz"],
+    "contained_games": [
+      "Ballz"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/kurtmc/ball-game"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/kurtmc/ball-game"
+    ],
     "verification_notes": "The cited commit implements a LÖVE 2D Ballz brick-breaker game. The repository has a configured entrypoint plus aiming, ball, chaos, grid, physics, particles, scaling, state and UI modules. The cited commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2609,14 +2814,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Johnesco/pinball/commit/27901fa5e3ef5080e2216c027fd3e119745729ca",
     "screenshot_urls": [],
-    "technology": ["LÖVE 2D", "Lua", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
+    "technology": [
+      "LÖVE 2D",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Pachinko Builder"],
+    "contained_games": [
+      "Pachinko Builder"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/Johnesco/pinball"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/Johnesco/pinball"
+    ],
     "verification_notes": "The cited commit is titled Pachinko Builder and the repository contains a LÖVE configuration and main game loop. Count one native physics arcade game. The cited commit shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2640,15 +2856,29 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/chongdashu/love2d-pocket-bomber-game/commit/1cf66e2fdbbb7f5e81d51703b2155c834ca77b8b",
-    "screenshot_urls": ["https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/docs/preview.gif"],
-    "technology": ["LÖVE 2D 11.5", "Lua", "Native desktop", "iOS"],
-    "model_family": ["Claude Opus 4.5"],
+    "screenshot_urls": [
+      "https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/docs/preview.gif"
+    ],
+    "technology": [
+      "LÖVE 2D 11.5",
+      "Lua",
+      "Native desktop",
+      "iOS"
+    ],
+    "model_family": [
+      "Claude Opus 4.5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Pocket Bomber"],
+    "contained_games": [
+      "Pocket Bomber"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Love2D game Co-Authored-By Claude Opus", "https://github.com/chongdashu/love2d-pocket-bomber-game"],
+    "discovery_sources": [
+      "GitHub commit search for Love2D game Co-Authored-By Claude Opus",
+      "https://github.com/chongdashu/love2d-pocket-bomber-game"
+    ],
     "verification_notes": "The README describes a complete Love2D Bomberman-style action game with five levels, three enemy types, bombs, explosions, high scores, touch controls and iOS deployment. Source contains player, bombs, enemies, explosions, grid, levels, game states, save, UI and touch controls. The repository includes a preview GIF and the cited commit shows a direct Claude Opus 4.5 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2676,14 +2906,26 @@
       "https://github.com/Vineethk08/mind-the-tower-defold/blob/main/screenshots/gameplay.png",
       "https://github.com/Vineethk08/mind-the-tower-defold/blob/main/screenshots/menu.png"
     ],
-    "technology": ["Defold", "Lua", "Native desktop", "Mobile"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Defold",
+      "Lua",
+      "Native desktop",
+      "Mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Mind The Tower"],
+    "contained_games": [
+      "Mind The Tower"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Defold game Co-Authored-By Claude Opus", "https://github.com/Vineethk08/mind-the-tower-defold"],
+    "discovery_sources": [
+      "GitHub commit search for Defold game Co-Authored-By Claude Opus",
+      "https://github.com/Vineethk08/mind-the-tower-defold"
+    ],
     "verification_notes": "The Defold README describes a memory and block-stacking game: memorize a star location, catch and stack falling blocks, climb, score or lose, and replay. The repository contains game.project, collection, player, block, star, controller and HUD scripts plus gameplay screenshots. The cited commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2708,14 +2950,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/SkipSupreme/rummy-500/commit/d2492afada71e880de7778fcd29eb9c94049e59b",
     "screenshot_urls": [],
-    "technology": ["Defold", "Lua", "Native desktop", "Mobile"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Defold",
+      "Lua",
+      "Native desktop",
+      "Mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Rummy 500"],
+    "contained_games": [
+      "Rummy 500"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Defold game Co-Authored-By Claude Opus", "https://github.com/SkipSupreme/rummy-500"],
+    "discovery_sources": [
+      "GitHub commit search for Defold game Co-Authored-By Claude Opus",
+      "https://github.com/SkipSupreme/rummy-500"
+    ],
     "verification_notes": "The Defold project contains a game project, collection, GUI/game scripts, full Rummy 500 rules, deck, hand, meld detection and validation, AI player, game engine, shared state and full-game tests. The cited game-controller commit shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2740,14 +2994,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/ErrorSoul/soliter/commit/c04a4621b2c91fd877a02c26fe3e3039d0c24672",
     "screenshot_urls": [],
-    "technology": ["Defold", "Lua", "Native desktop", "Mobile"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Defold",
+      "Lua",
+      "Native desktop",
+      "Mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Soliter"],
+    "contained_games": [
+      "Soliter"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Defold game Co-Authored-By Claude Opus", "https://github.com/ErrorSoul/soliter"],
+    "discovery_sources": [
+      "GitHub commit search for Defold game Co-Authored-By Claude Opus",
+      "https://github.com/ErrorSoul/soliter"
+    ],
     "verification_notes": "The Defold project contains game.project, main collections, card game objects, tableau/free-cell/flower slots, game manager, tutorial, UI and solver tests. The source implements the solitaire board, moves, deal, win and replay state. The cited commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2772,14 +3038,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/aniche/ourcade-defold/commit/8754c32bb529b69f66fd5f6ab30118da94b6e8a3",
     "screenshot_urls": [],
-    "technology": ["Defold", "Lua", "Native mobile"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Defold",
+      "Lua",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Ourcade"],
+    "contained_games": [
+      "Ourcade"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Defold game Co-Authored-By Claude Opus", "https://github.com/aniche/ourcade-defold"],
+    "discovery_sources": [
+      "GitHub commit search for Defold game Co-Authored-By Claude Opus",
+      "https://github.com/aniche/ourcade-defold"
+    ],
     "verification_notes": "The Defold project contains a main collection, player and enemy scripts, game-over and menu UI, remote player, street objects, controls, room flow and Android release artifacts. The cited commit page shows a direct Claude Opus 4.6 trailer. Count the project as one native mobile beat-em-up game.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2804,14 +3081,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/kglazier/Ages-Of-Aether-Native/commit/dbb8473b6129186e61c26334d8017cc3404353a3",
     "screenshot_urls": [],
-    "technology": ["Bevy 0.15", "Rust", "Native desktop", "Android"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Bevy 0.15",
+      "Rust",
+      "Native desktop",
+      "Android"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Ages of Aether Native"],
+    "contained_games": [
+      "Ages of Aether Native"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/kglazier/Ages-Of-Aether-Native"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/kglazier/Ages-Of-Aether-Native"
+    ],
     "verification_notes": "The Bevy native port has a completed tower-defense core loop: enemy spawning and waypoint movement, tower placement and targeting, projectiles, damage, gold, lives, waves, win/lose conditions and replay. The cited commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2836,14 +3125,27 @@
     "live_demo_url": "https://maweis.com/rust_bevy_lua_game/",
     "evidence_url": "https://github.com/maweis1981/rust_bevy_lua_game/commit/b2ee1a6db3da379cf124253d77c339038634fbc6",
     "screenshot_urls": [],
-    "technology": ["Bevy 0.19", "Rust", "Lua 5.4", "Native desktop", "WebAssembly"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Bevy 0.19",
+      "Rust",
+      "Lua 5.4",
+      "Native desktop",
+      "WebAssembly"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Hollow Lullaby"],
+    "contained_games": [
+      "Hollow Lullaby"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/maweis1981/rust_bevy_lua_game"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/maweis1981/rust_bevy_lua_game"
+    ],
     "verification_notes": "The README identifies Hollow Lullaby as a Rust/Bevy game with Lua game logic, desktop, iOS and WebAssembly targets. The repository includes multiple playable packs, Lua game scripts, real audio and a published browser build. The cited commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2868,14 +3170,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/zhubby/Shogun/commit/bcc6932a632987b8885059389e249707f5243e7c",
     "screenshot_urls": [],
-    "technology": ["Bevy 0.18", "Rust", "egui", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
+    "technology": [
+      "Bevy 0.18",
+      "Rust",
+      "egui",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Shogun"],
+    "contained_games": [
+      "Shogun"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/zhubby/Shogun"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/zhubby/Shogun"
+    ],
     "verification_notes": "The README describes a turn-based Three Kingdoms strategy game. Source includes city management, officers, combat, diplomacy, commands, scenarios, history database, save system, technology, map boundaries, AI and Bevy/egui screens. The cited commit page shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2900,14 +3214,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Baz-Studios-LLC/wriftheart/commit/789150805ee0f016a54772529b9ace07d124d606",
     "screenshot_urls": [],
-    "technology": ["Bevy", "Rust", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Bevy",
+      "Rust",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["WriftHeart"],
+    "contained_games": [
+      "WriftHeart"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/Baz-Studios-LLC/wriftheart"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/Baz-Studios-LLC/wriftheart"
+    ],
     "verification_notes": "The README describes an 8-bit native action-adventure RPG with a ten-shard quest, far lands, combat, bosses, towns, characters, items, achievements and a release command. Source contains hero, mobs, attacks, battles, bosses, interiors, quests and save systems. The cited commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2932,14 +3257,26 @@
     "live_demo_url": "https://aliasing.pages.dev",
     "screenshot_urls": [],
     "evidence_url": "https://github.com/taearls/bevy-2d-rpg-game/commit/a5606ad28eb0a33d5609763be8cea0f7ecaf2b1e",
-    "technology": ["Bevy 0.19", "Rust", "Native desktop", "WebAssembly"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Bevy 0.19",
+      "Rust",
+      "Native desktop",
+      "WebAssembly"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Aliasing"],
+    "contained_games": [
+      "Aliasing"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/taearls/bevy-2d-rpg-game"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/taearls/bevy-2d-rpg-game"
+    ],
     "verification_notes": "The README describes a turn-based RPG vertical slice with main menu, overworld, random encounters, battle, persistent damage, victory, defeat and restart. Source includes maps, characters, combat, battle state, game over and UI. The cited commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2964,14 +3301,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Eric-lab-star/voxelcraft/commit/364a4d3d73f51ed49bed229a1f9a17c37416c49b",
     "screenshot_urls": [],
-    "technology": ["Bevy", "Rust", "wgpu", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Bevy",
+      "Rust",
+      "wgpu",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Voxelcraft"],
+    "contained_games": [
+      "Voxelcraft"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/Eric-lab-star/voxelcraft"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/Eric-lab-star/voxelcraft"
+    ],
     "verification_notes": "The README describes a Minecraft-like voxel sandbox with procedural terrain, first-person movement, AABB collision, digging, building, block targeting, chunked meshing, ambient occlusion, water, clouds and day/night. Source includes world, player, interaction, chunks, mesh, particles and save systems. The cited commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -2995,15 +3344,30 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/nschmeller/holdfast/commit/ad5d59b537802831f85c610fef9282fab53a0cbb",
-    "screenshot_urls": ["https://github.com/nschmeller/holdfast/blob/main/docs/ux-critique/12-results.jpg"],
-    "technology": ["Bevy 0.19", "Rust", "Native desktop", "WebAssembly", "iOS"],
-    "model_family": ["Claude Opus 5"],
+    "screenshot_urls": [
+      "https://github.com/nschmeller/holdfast/blob/main/docs/ux-critique/12-results.jpg"
+    ],
+    "technology": [
+      "Bevy 0.19",
+      "Rust",
+      "Native desktop",
+      "WebAssembly",
+      "iOS"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["HOLDFAST"],
+    "contained_games": [
+      "HOLDFAST"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/nschmeller/holdfast"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/nschmeller/holdfast"
+    ],
     "verification_notes": "The README describes a 3D survival command roguelite with five worlds, threat control, squad building, forts, enemies, weapons, pickups, upgrades, save state and a web/desktop/iOS release path. Source includes combat, allies, enemies, forts, worlds, weapons, progress, HUD and tests. The cited commit page shows a direct Claude Opus 5 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -3028,14 +3392,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/jjgarcianorway/protocol-play/commit/8d0ac48b2d3ca6f903b6eadf4b872ecb181c5fec",
     "screenshot_urls": [],
-    "technology": ["Bevy 0.18", "Rust", "Native desktop", "WebAssembly"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Bevy 0.18",
+      "Rust",
+      "Native desktop",
+      "WebAssembly"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Protocol Play"],
+    "contained_games": [
+      "Protocol Play"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/jjgarcianorway/protocol-play"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/jjgarcianorway/protocol-play"
+    ],
     "verification_notes": "The README describes a tile puzzle game with 149 levels across 13 chapters, colored bots, turns, arrows, teleports, bouncers, painters, switches, doors, speed control, path sharing and an AI narrator. Source includes board, bots, puzzle scenes, levels, game state and tests. The cited commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -3058,14 +3434,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/steve-berlin/roller/commit/5cd6e1c13fbe5cbc3a17e45e8d69c1c7d2cd70b6",
     "screenshot_urls": [],
-    "technology": ["Bevy", "Rust", "Avian physics", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
+    "technology": [
+      "Bevy",
+      "Rust",
+      "Avian physics",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Roller"],
+    "contained_games": [
+      "Roller"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Bevy game Co-Authored-By Claude Opus", "https://github.com/steve-berlin/roller"],
+    "discovery_sources": [
+      "GitHub commit search for Bevy game Co-Authored-By Claude Opus",
+      "https://github.com/steve-berlin/roller"
+    ],
     "verification_notes": "The README describes a 3D physics game: roll a sphere around a walled arena, collect ten spinning gold cubes, persist the best time, respawn after falling and restart runs. The source is a complete single-file Bevy/Avian game. The cited commit page shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -9820,15 +10208,15 @@
         "quality_estimate_10": 8.5
       },
       {
-      "name": "Cinder Yard",
-      "flops_estimate_raw": 1200000000,
-      "quality_estimate_10": 8.5
-    },
-    {
-      "name": "VOIDWRENCH",
-      "flops_estimate_raw": 1600000000,
-      "quality_estimate_10": 8.5
-    }
+        "name": "Cinder Yard",
+        "flops_estimate_raw": 1200000000,
+        "quality_estimate_10": 8.5
+      },
+      {
+        "name": "VOIDWRENCH",
+        "flops_estimate_raw": 1600000000,
+        "quality_estimate_10": 8.5
+      }
     ]
   },
   {
@@ -11020,14 +11408,97 @@
     "counted_game_units": 8,
     "is_independent_game": true,
     "contained_game_estimates": [
-      {"name": "Flappy Skies", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 220000000, "quality_estimate_10": 7.8},
-      {"name": "World 1-1", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 240000000, "quality_estimate_10": 8.0},
-      {"name": "Frostline Kart", "technology": ["HTML", "JavaScript", "Three.js", "WebGL", "Browser"], "flops_estimate_raw": 2200000000, "quality_estimate_10": 8.5},
-      {"name": "Robo Tennis", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 260000000, "quality_estimate_10": 7.8},
-      {"name": "Rail Rush", "technology": ["HTML", "JavaScript", "Three.js", "WebGL", "Browser"], "flops_estimate_raw": 1900000000, "quality_estimate_10": 8.3},
-      {"name": "Crossy Farm", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 230000000, "quality_estimate_10": 7.8},
-      {"name": "Hollowmere", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 320000000, "quality_estimate_10": 8.1},
-      {"name": "Fable Theft Auto 5.1", "technology": ["HTML", "JavaScript", "Three.js", "WebGL", "Browser"], "flops_estimate_raw": 2600000000, "quality_estimate_10": 8.6}
+      {
+        "name": "Flappy Skies",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Canvas",
+          "Browser"
+        ],
+        "flops_estimate_raw": 220000000,
+        "quality_estimate_10": 7.8
+      },
+      {
+        "name": "World 1-1",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Canvas",
+          "Browser"
+        ],
+        "flops_estimate_raw": 240000000,
+        "quality_estimate_10": 8.0
+      },
+      {
+        "name": "Frostline Kart",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "flops_estimate_raw": 2200000000,
+        "quality_estimate_10": 8.5
+      },
+      {
+        "name": "Robo Tennis",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Canvas",
+          "Browser"
+        ],
+        "flops_estimate_raw": 260000000,
+        "quality_estimate_10": 7.8
+      },
+      {
+        "name": "Rail Rush",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "flops_estimate_raw": 1900000000,
+        "quality_estimate_10": 8.3
+      },
+      {
+        "name": "Crossy Farm",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Canvas",
+          "Browser"
+        ],
+        "flops_estimate_raw": 230000000,
+        "quality_estimate_10": 7.8
+      },
+      {
+        "name": "Hollowmere",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Canvas",
+          "Browser"
+        ],
+        "flops_estimate_raw": 320000000,
+        "quality_estimate_10": 8.1
+      },
+      {
+        "name": "Fable Theft Auto 5.1",
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "flops_estimate_raw": 2600000000,
+        "quality_estimate_10": 8.6
+      }
     ],
     "prompt_urls": [
       "https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird",
@@ -12965,7 +13436,9 @@
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-09-05T20:57:45Z",
-    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-max-codex-trashketball"],
+    "discovery_sources": [
+      "https://github.com/swathidbhat/gpt6-astra-max-codex-trashketball"
+    ],
     "verification_notes": "The repository name identifies a GPT-6 Astra Max Codex build. The README documents a playable first-person Three.js paper-toss game with two modeled rooms, scoring, controls, fixed-step physics, tests and build instructions.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -12983,15 +13456,27 @@
     "repository_id": 1358556806,
     "github_url": "https://github.com/swathidbhat/gpt6-astra-high-codex-trashketball",
     "evidence_url": "https://github.com/swathidbhat/gpt6-astra-high-codex-trashketball",
-    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
-    "model_family": ["GPT-6 Astra"],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Trashketball (High)"],
+    "contained_games": [
+      "Trashketball (High)"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-09-05T21:00:25Z",
-    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-high-codex-trashketball"],
+    "discovery_sources": [
+      "https://github.com/swathidbhat/gpt6-astra-high-codex-trashketball"
+    ],
     "verification_notes": "The repository name identifies a GPT-6 Astra High Codex build. Its README documents a playable Three.js paper-toss game with two rooms, scoring, controls, physics and tests.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -13008,15 +13493,27 @@
     "repository_id": 1358556623,
     "github_url": "https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball",
     "evidence_url": "https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball",
-    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
-    "model_family": ["GPT-6 Astra"],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Trashketball (Ultra)"],
+    "contained_games": [
+      "Trashketball (Ultra)"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-09-05T21:00:06Z",
-    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball"],
+    "discovery_sources": [
+      "https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball"
+    ],
     "verification_notes": "The repository name identifies a GPT-6 Astra Ultra Codex build. Its README documents a playable first-person Three.js paper-toss game with two modeled rooms, scoring, controls, and verification commands.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -13033,15 +13530,27 @@
     "repository_id": 1357813970,
     "github_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball",
     "evidence_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball",
-    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
-    "model_family": ["GPT-6 Astra"],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Trashketball (Extra High)"],
+    "contained_games": [
+      "Trashketball (Extra High)"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-09-05T04:09:10Z",
-    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball"],
+    "discovery_sources": [
+      "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball"
+    ],
     "verification_notes": "The repository name identifies a GPT-6 Astra Extra High Codex build. The repository contains a Next/Vite app, game components, physics libraries, tests and public runtime assets for the Trashketball paper-toss game.",
     "model_evidence": "creator-reported",
     "flops_estimate_raw": 1700000000,
@@ -13057,15 +13566,27 @@
     "repository_id": 1357980268,
     "github_url": "https://github.com/swathidbhat/gpt6-astra-medium-codex-trashketball-2",
     "evidence_url": "https://github.com/swathidbhat/gpt6-astra-medium-codex-trashketball-2",
-    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
-    "model_family": ["GPT-6 Astra"],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Trashketball (Medium 2)"],
+    "contained_games": [
+      "Trashketball (Medium 2)"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-09-05T08:25:49Z",
-    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-medium-codex-trashketball-2"],
+    "discovery_sources": [
+      "https://github.com/swathidbhat/gpt6-astra-medium-codex-trashketball-2"
+    ],
     "verification_notes": "The repository name identifies a GPT-6 Astra Medium Codex build. It contains an app page, a dedicated trash-game module, Three.js dependencies, tests and public assets for the paper-toss game.",
     "model_evidence": "creator-reported",
     "flops_estimate_raw": 1300000000,
@@ -13081,15 +13602,27 @@
     "repository_id": 1357959455,
     "github_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball-2",
     "evidence_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball-2",
-    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
-    "model_family": ["GPT-6 Astra"],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Trashketball (Extra High 2)"],
+    "contained_games": [
+      "Trashketball (Extra High 2)"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-09-05T07:58:47Z",
-    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball-2"],
+    "discovery_sources": [
+      "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball-2"
+    ],
     "verification_notes": "The repository name identifies a GPT-6 Astra Extra High Codex build. Its README documents a playable Three.js paper-toss game with two environments, controls, fixed-step physics, procedural assets, tests and build commands.",
     "model_evidence": "creator-reported",
     "flops_estimate_raw": 1800000000,
@@ -16765,43 +17298,84 @@
     "contained_game_estimates": [
       {
         "name": "In a Nutshell",
-        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Vite",
+          "Canvas",
+          "Browser"
+        ],
         "flops_estimate_raw": 250000000,
         "quality_estimate_10": 7.8
       },
       {
         "name": "Solitaire",
-        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Vite",
+          "Canvas",
+          "Browser"
+        ],
         "flops_estimate_raw": 250000000,
         "quality_estimate_10": 7.8
       },
       {
         "name": "Space Invaders",
-        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Vite",
+          "Canvas",
+          "Browser"
+        ],
         "flops_estimate_raw": 400000000,
         "quality_estimate_10": 8.0
       },
       {
         "name": "Splendor",
-        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Vite",
+          "Canvas",
+          "Browser"
+        ],
         "flops_estimate_raw": 350000000,
         "quality_estimate_10": 8.3
       },
       {
         "name": "Sudoku",
-        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Vite",
+          "Canvas",
+          "Browser"
+        ],
         "flops_estimate_raw": 220000000,
         "quality_estimate_10": 7.9
       },
       {
         "name": "Tic Tac Toe",
-        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "technology": [
+          "HTML",
+          "JavaScript",
+          "Vite",
+          "Canvas",
+          "Browser"
+        ],
         "flops_estimate_raw": 180000000,
         "quality_estimate_10": 7.5
       },
       {
         "name": "Zombie Lane Runner",
-        "technology": ["Godot 4.6", "GDScript", "Web export", "Browser"],
+        "technology": [
+          "Godot 4.6",
+          "GDScript",
+          "Web export",
+          "Browser"
+        ],
         "flops_estimate_raw": 800000000,
         "quality_estimate_10": 8.4
       }
@@ -16910,11 +17484,66 @@
       "Serpentine"
     ],
     "contained_game_estimates": [
-      {"name": "Polygram", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.1},
-      {"name": "Crosshatch", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.2},
-      {"name": "Pierglass", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 160000000, "quality_estimate_10": 8.0},
-      {"name": "Doublet", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.1},
-      {"name": "Serpentine", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.1}
+      {
+        "name": "Polygram",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "PWA",
+          "Browser"
+        ],
+        "flops_estimate_raw": 180000000,
+        "quality_estimate_10": 8.1
+      },
+      {
+        "name": "Crosshatch",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "PWA",
+          "Browser"
+        ],
+        "flops_estimate_raw": 180000000,
+        "quality_estimate_10": 8.2
+      },
+      {
+        "name": "Pierglass",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "PWA",
+          "Browser"
+        ],
+        "flops_estimate_raw": 160000000,
+        "quality_estimate_10": 8.0
+      },
+      {
+        "name": "Doublet",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "PWA",
+          "Browser"
+        ],
+        "flops_estimate_raw": 180000000,
+        "quality_estimate_10": 8.1
+      },
+      {
+        "name": "Serpentine",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "PWA",
+          "Browser"
+        ],
+        "flops_estimate_raw": 180000000,
+        "quality_estimate_10": 8.1
+      }
     ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
@@ -17547,13 +18176,21 @@
     "contained_game_estimates": [
       {
         "name": "Blackjack!",
-        "technology": ["Godot 4.6", "GDScript", "Native"],
+        "technology": [
+          "Godot 4.6",
+          "GDScript",
+          "Native"
+        ],
         "flops_estimate_raw": 350000000,
         "quality_estimate_10": 8.3
       },
       {
         "name": "Stack!",
-        "technology": ["Godot 4.6", "GDScript", "Native"],
+        "technology": [
+          "Godot 4.6",
+          "GDScript",
+          "Native"
+        ],
         "flops_estimate_raw": 500000000,
         "quality_estimate_10": 8.2
       }
@@ -18428,14 +19065,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Goodest-ai/chess-bot/commit/e04fcb2bb6865e7f2c395ab5dadf7e4bed2d2931",
     "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Pygame Chess Bot"],
+    "contained_games": [
+      "Pygame Chess Bot"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/Goodest-ai/chess-bot"],
+    "discovery_sources": [
+      "GitHub commit search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/Goodest-ai/chess-bot"
+    ],
     "verification_notes": "The initial commit is titled pygame chess bot and contains ChessMain UI, ChessEngine move generation and piece image assets. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18458,14 +19106,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/alanwengyh-art/2048/commit/e4286a7b57a5fcd352f5e9d1dcf1f5ebd203a22e",
     "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["2048"],
+    "contained_games": [
+      "2048"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/alanwengyh-art/2048"],
+    "discovery_sources": [
+      "GitHub commit search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/alanwengyh-art/2048"
+    ],
     "verification_notes": "The cited commit adds a 2048 game with Pygame and a project README. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18489,14 +19148,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/wshen-ai/game-wuzi/commit/e0992df90d41729650a73dc1a152a0d3ee79af19",
     "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Gomoku"],
+    "contained_games": [
+      "Gomoku"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/wshen-ai/game-wuzi"],
+    "discovery_sources": [
+      "GitHub commit search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/wshen-ai/game-wuzi"
+    ],
     "verification_notes": "The initial commit is titled Gomoku game with pygame and contains a 15x15 board, win detection, AI, renderer, UI and main entrypoint. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18519,14 +19189,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/401367513/Claud-/commit/db9d9c68498c74d5db02551505940c1c6a98cbe5",
     "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Battle City"],
+    "contained_games": [
+      "Battle City"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/401367513/Claud-"],
+    "discovery_sources": [
+      "GitHub commit search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/401367513/Claud-"
+    ],
     "verification_notes": "The cited commit adds a classic Battle City tank game built with Pygame, with a README, requirements and main Python entrypoint. The commit page shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18549,15 +19230,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/thequantummenece/Critical_Hit/commit/9f2fc6bde5edb7d20c0104a1cfec115e6320c990",
-    "screenshot_urls": ["https://github.com/thequantummenece/Critical_Hit/tree/main/assets/arenas"],
-    "technology": ["Pygame-ce", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "screenshot_urls": [
+      "https://github.com/thequantummenece/Critical_Hit/tree/main/assets/arenas"
+    ],
+    "technology": [
+      "Pygame-ce",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["CRITICAL HIT"],
+    "contained_games": [
+      "CRITICAL HIT"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/thequantummenece/Critical_Hit"],
+    "discovery_sources": [
+      "GitHub commit search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/thequantummenece/Critical_Hit"
+    ],
     "verification_notes": "The initial commit is titled CRITICAL HIT — 2D fighting game in Python/pygame-ce. It contains a 10-fighter roster, arcade/VS CPU/local/online modes, fighter/AI/combat/moves/projectile source, scenes, arenas, audio, netcode and tests. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18580,14 +19274,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/tzelynn/chikichase/commit/41133644497c51e423da47d0a3adff68f652e9db",
     "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Chiki Chase"],
+    "contained_games": [
+      "Chiki Chase"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/tzelynn/chikichase"],
+    "discovery_sources": [
+      "GitHub commit search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/tzelynn/chikichase"
+    ],
     "verification_notes": "The cited commit is titled commit game assets, original pygame source, and lockfile. It includes pygame_corn_chase.py, game assets and web-runtime support. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18610,15 +19315,28 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/PrathyayPGM-ALT/Time-Traveller-s-Dilemma/commit/c811de94311ad3dce5ad17b08e1ed292195b4edf",
-    "screenshot_urls": ["https://github.com/PrathyayPGM-ALT/Time-Traveller-s-Dilemma/blob/main/promo/cover.png"],
-    "technology": ["Pygame-ce", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "screenshot_urls": [
+      "https://github.com/PrathyayPGM-ALT/Time-Traveller-s-Dilemma/blob/main/promo/cover.png"
+    ],
+    "technology": [
+      "Pygame-ce",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Time Traveller's Dilemma"],
+    "contained_games": [
+      "Time Traveller's Dilemma"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/PrathyayPGM-ALT/Time-Traveller-s-Dilemma"],
+    "discovery_sources": [
+      "GitHub commit search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/PrathyayPGM-ALT/Time-Traveller-s-Dilemma"
+    ],
     "verification_notes": "The cited commit is titled full game source and describes a Pygame-ce narrative time-travel game with procedural eras, deduction puzzles, persistent soul save and achievements. Source includes main, player, world, world generation, flow, dialogue, scenes, cutscenes, sound, UI, textures, promo art and smoke tests. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18641,14 +19359,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Jinchaosss/cat-dog-queue/commit/331534fe0a0a2378c03ac37525c05503ab354626",
     "screenshot_urls": [],
-    "technology": ["Cocos Creator 4", "TypeScript", "Native mobile"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Cocos Creator 4",
+      "TypeScript",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Cat Dog Queue"],
+    "contained_games": [
+      "Cat Dog Queue"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Cocos game Co-Authored-By Claude Opus", "https://github.com/Jinchaosss/cat-dog-queue"],
+    "discovery_sources": [
+      "GitHub commit search for Cocos game Co-Authored-By Claude Opus",
+      "https://github.com/Jinchaosss/cat-dog-queue"
+    ],
     "verification_notes": "The initial commit describes a Cocos Creator 4 puzzle game and includes a main scene and CatDogQueue TypeScript controller. The commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18672,14 +19401,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Jinchaosss/slide-jigsaw/commit/b3ea9599939f114022fee1bbb688577f8e696c94",
     "screenshot_urls": [],
-    "technology": ["Cocos Creator 4", "TypeScript", "Native mobile"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Cocos Creator 4",
+      "TypeScript",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Slide Jigsaw"],
+    "contained_games": [
+      "Slide Jigsaw"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Cocos game Co-Authored-By Claude Opus", "https://github.com/Jinchaosss/slide-jigsaw"],
+    "discovery_sources": [
+      "GitHub commit search for Cocos game Co-Authored-By Claude Opus",
+      "https://github.com/Jinchaosss/slide-jigsaw"
+    ],
     "verification_notes": "The initial commit describes a Cocos Creator 4 sliding jigsaw puzzle game and includes a main scene, puzzle controller/model/configuration, daily puzzle menu, rewards and UI helpers. The commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18702,14 +19442,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/windy341524-glitch/twelve-fate-cocos/commit/61db09f167e5ad18567c33235b29530c53f4e53e",
     "screenshot_urls": [],
-    "technology": ["Cocos Creator 3.8.8", "TypeScript", "Native mobile"],
-    "model_family": ["Claude Opus 4.7"],
+    "technology": [
+      "Cocos Creator 3.8.8",
+      "TypeScript",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Twelve Fate"],
+    "contained_games": [
+      "Twelve Fate"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Cocos game Co-Authored-By Claude Opus", "https://github.com/windy341524-glitch/twelve-fate-cocos"],
+    "discovery_sources": [
+      "GitHub commit search for Cocos game Co-Authored-By Claude Opus",
+      "https://github.com/windy341524-glitch/twelve-fate-cocos"
+    ],
     "verification_notes": "The initial commit describes a Cocos Creator 3.8.8 WeChat mini game with event flow, resource management, oracle/diary AI generation, achievements and multiple endings. Source includes a scene, game bootstrap/state, event/choice/diary/oracle/resource/ending systems and UI views. The commit page shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18733,14 +19484,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Jinchaosss/association-sort-cocos/commit/1dd654364826e8a70f7dd9d32236bc6942114eb2",
     "screenshot_urls": [],
-    "technology": ["Cocos Creator 4", "TypeScript", "Native mobile"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Cocos Creator 4",
+      "TypeScript",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Association Sort"],
+    "contained_games": [
+      "Association Sort"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Cocos game Co-Authored-By Claude Opus", "https://github.com/Jinchaosss/association-sort-cocos"],
+    "discovery_sources": [
+      "GitHub commit search for Cocos game Co-Authored-By Claude Opus",
+      "https://github.com/Jinchaosss/association-sort-cocos"
+    ],
     "verification_notes": "The initial commit describes a Cocos Creator 4 association-sorting puzzle game with level progression, daily puzzles and coin/stamina systems. Source includes Game and MainMenu scenes, controllers, level configuration/data, level select, model and daily puzzle generation. The commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18763,14 +19525,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Jinchaosss/find-panda/commit/e3959b1b54db83e86dec0d8b589bfb3953313258",
     "screenshot_urls": [],
-    "technology": ["Cocos Creator 4", "TypeScript", "Native mobile"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "Cocos Creator 4",
+      "TypeScript",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Find Panda"],
+    "contained_games": [
+      "Find Panda"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Cocos game Co-Authored-By Claude Opus", "https://github.com/Jinchaosss/find-panda"],
+    "discovery_sources": [
+      "GitHub commit search for Cocos game Co-Authored-By Claude Opus",
+      "https://github.com/Jinchaosss/find-panda"
+    ],
     "verification_notes": "The initial commit describes a Cocos Creator 4 Find Panda puzzle game with 12 levels and tap/drag interaction. Source includes a main scene and FindPanda TypeScript controller. The commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18794,14 +19567,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/tsunejui/farm-game/commit/6987c1309339e3b79aa34c00140c2e34044ab12f",
     "screenshot_urls": [],
-    "technology": ["MonoGame", ".NET 9", "C#", "Native desktop"],
-    "model_family": ["Claude Opus 4.6"],
+    "technology": [
+      "MonoGame",
+      ".NET 9",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["FarmGame"],
+    "contained_games": [
+      "FarmGame"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for MonoGame game Co-Authored-By Claude Opus", "https://github.com/tsunejui/farm-game"],
+    "discovery_sources": [
+      "GitHub commit search for MonoGame game Co-Authored-By Claude Opus",
+      "https://github.com/tsunejui/farm-game"
+    ],
     "verification_notes": "The initial commit describes a Stardew Valley-inspired 2D farming game with tile-map rendering, player movement and a camera system. Source includes Player, Camera2D, Game1, map generation, tile map/types and project/Content pipeline files. The commit page shows a direct Claude Opus 4.6 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18825,14 +19610,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/dainedwards/DwarfMiner/commit/e85ac99df950bb56df8f58584fffb70d72a4b5fd",
     "screenshot_urls": [],
-    "technology": ["MonoGame", "C#", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
+    "technology": [
+      "MonoGame",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["DwarfMiner"],
+    "contained_games": [
+      "DwarfMiner"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for MonoGame game Co-Authored-By Claude Opus", "https://github.com/dainedwards/DwarfMiner"],
+    "discovery_sources": [
+      "GitHub commit search for MonoGame game Co-Authored-By Claude Opus",
+      "https://github.com/dainedwards/DwarfMiner"
+    ],
     "verification_notes": "The cited commit describes a procedural pixel-rendered mining game with a polar tile planet, dwarf player, titan boss, ore/biome world generation and crafting. Source includes player, creature, projectile, titan, renderer, lighting, particles, crafting, save, physics, planet, tiles and world generation. The commit page shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18856,14 +19652,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/duke1937/Cracked/commit/d9e87bbaa98f7b2771e9baef002fef1374ed73b",
     "screenshot_urls": [],
-    "technology": ["MonoGame", ".NET", "C#", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "MonoGame",
+      ".NET",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["CRACKED"],
+    "contained_games": [
+      "CRACKED"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for MonoGame game Co-Authored-By Claude Opus", "https://github.com/duke1937/Cracked"],
+    "discovery_sources": [
+      "GitHub commit search for MonoGame game Co-Authored-By Claude Opus",
+      "https://github.com/duke1937/Cracked"
+    ],
     "verification_notes": "The cited commit describes a self-contained endless egg-money game with egg purchases, conveyor movement, hatching and passive chicken income. Source includes game, world, entities, egg types, layout and graphics. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18886,14 +19694,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/parkjongbin0520-spec/hypeJumper/commit/c0ce3d1e66744d148f1fa1c81155dbfe90f73d18",
     "screenshot_urls": [],
-    "technology": ["MonoGame", ".NET 10", "C#", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "MonoGame",
+      ".NET 10",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["HypeJumper"],
+    "contained_games": [
+      "HypeJumper"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for MonoGame game Co-Authored-By Claude Opus", "https://github.com/parkjongbin0520-spec/hypeJumper"],
+    "discovery_sources": [
+      "GitHub commit search for MonoGame game Co-Authored-By Claude Opus",
+      "https://github.com/parkjongbin0520-spec/hypeJumper"
+    ],
     "verification_notes": "The cited commit ports a Pygame prototype to a C#/.NET 10 MonoGame solution and preserves movement feel. Source includes core player, enemy, hazards, jump pads, moving platforms, springs, triggers, input buffer, tile map, scene, DesktopGL platform layer and xUnit tests. The commit page shows a direct Claude Opus 4.8 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18917,14 +19737,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/3disturbed/UltraDarkNative/commit/9b210c44bac6053f5d1c6d5828d3766f6557f581",
     "screenshot_urls": [],
-    "technology": ["MonoGame", "C#", "Native desktop"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "MonoGame",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["UltraDarkNative"],
+    "contained_games": [
+      "UltraDarkNative"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for MonoGame game Co-Authored-By Claude Opus", "https://github.com/3disturbed/UltraDarkNative"],
+    "discovery_sources": [
+      "GitHub commit search for MonoGame game Co-Authored-By Claude Opus",
+      "https://github.com/3disturbed/UltraDarkNative"
+    ],
     "verification_notes": "The cited commit is titled MonoGame client with vector renderer, prediction, input and a playable listen server. Source includes client world/game client, demo pilot, desktop input, game actions, arena renderer/view, glow/particle layers, vector canvas and desktop game host. The commit page shows a direct Claude Opus 5 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18948,14 +19779,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/DevDNE/MonoGame.GameFramework/commit/56783a8c9a820e34ca3101a0067304ebe0c26d86",
     "screenshot_urls": [],
-    "technology": ["MonoGame", "C#", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
+    "technology": [
+      "MonoGame",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["BattleGrid"],
+    "contained_games": [
+      "BattleGrid"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for MonoGame game Co-Authored-By Claude Opus", "https://github.com/DevDNE/MonoGame.GameFramework"],
+    "discovery_sources": [
+      "GitHub commit search for MonoGame game Co-Authored-By Claude Opus",
+      "https://github.com/DevDNE/MonoGame.GameFramework"
+    ],
     "verification_notes": "The cited commit renames the repository's game demo to BattleGrid and contains gameplay source for player, enemy player, gameboard, projectile, health UI, game rules, battle/debug states, content and Game1. Count BattleGrid as the explicit playable game inside the framework repository, not the framework itself. The commit page shows a direct Claude Opus 4.7 trailer.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -18980,14 +19822,25 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/nodeJayS/idle-game/commit/4fd9bb3051c6acf83f406e201f3c784a5585ee53",
     "screenshot_urls": [],
-    "technology": ["Unity", "C#", "Native desktop"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "Unity",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Idle ARPG"],
+    "contained_games": [
+      "Idle ARPG"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Go game Co-Authored-By Claude Fable", "https://github.com/nodeJayS/idle-game"],
+    "discovery_sources": [
+      "GitHub code search for Go game Co-Authored-By Claude Fable",
+      "https://github.com/nodeJayS/idle-game"
+    ],
     "verification_notes": "The public repository describes a low-poly 3D idle ARPG with a three-hero party, auto-cleared dungeons, monsters, loot, equipment, progression and offline accrual. The Unity client contains Bootstrap, CombatView and DungeonRenderer, while the engine-independent GameCore contains combat, dungeon, inventory, loot, progression, save and test systems. The cited commit includes a direct Claude Opus 5 trailer and verifies the source in Play. Count the repository as one game.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19012,14 +19865,27 @@
     "live_demo_url": "https://raynos.github.io/kami-kakushi/",
     "evidence_url": "https://github.com/Raynos/kami-kakushi/blob/main/project/archive/fable-2026-07-07-storywave-game.md",
     "screenshot_urls": [],
-    "technology": ["TypeScript", "Vite", "HTML/CSS", "Browser"],
-    "model_family": ["Claude Opus", "Claude Fable 5"],
+    "technology": [
+      "TypeScript",
+      "Vite",
+      "HTML/CSS",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus",
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["KamiKakushi — An Incremental RPG"],
+    "contained_games": [
+      "KamiKakushi — An Incremental RPG"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Go game Co-Authored-By Claude Fable", "https://github.com/Raynos/kami-kakushi"],
+    "discovery_sources": [
+      "GitHub code search for Go game Co-Authored-By Claude Fable",
+      "https://github.com/Raynos/kami-kakushi"
+    ],
     "verification_notes": "The public repository is an incremental RPG with story, campaign, quests, areas, equipment, crafting, combat, economy and autoplay systems. It includes a Vite build, a live GitHub Pages deployment, TypeScript application code, core game simulation, tests, linting, type checking and end-to-end checks. The archived build plan records the shipped game rewrite and identifies Opus as the primary executor with Fable-grade implementation work. Count the shipped browser game as one unit.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -19044,14 +19910,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/wicanr2/u5-cht/commit/acbc49511f7b20538b386546987a32c52792c1d6",
     "screenshot_urls": [],
-    "technology": ["Go", "Ebitengine", "Native desktop", "WebAssembly"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "Go",
+      "Ebitengine",
+      "Native desktop",
+      "WebAssembly"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Ultima V: Warriors of Destiny — Traditional Chinese Remake"],
+    "contained_games": [
+      "Ultima V: Warriors of Destiny — Traditional Chinese Remake"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Ebiten game Co-Authored-By Claude Opus", "https://github.com/wicanr2/u5-cht"],
+    "discovery_sources": [
+      "GitHub code search for Ebiten game Co-Authored-By Claude Opus",
+      "https://github.com/wicanr2/u5-cht"
+    ],
     "verification_notes": "The public README describes a from-scratch Go/Ebitengine remake of Ultima V with a playable mainline, opening, world map, 32 locations, dialogue, shops, combat, magic, dungeons, music and the complete shrine-to-Shadowlords campaign. The repository contains the game entry point, combat scene, renderer, scene-map data, tests, cross-platform packaging and WebAssembly support. The cited commit carries a direct Claude Opus 5 co-author trailer. Count the remake as one game.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19076,14 +19954,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/wicanr2/kinginformation-dq3-re/blob/main/dq3_remake/WORKLIST.md",
     "screenshot_urls": [],
-    "technology": ["Go", "Ebitengine", "Native desktop", "Android"],
-    "model_family": ["Claude Opus 4.8"],
+    "technology": [
+      "Go",
+      "Ebitengine",
+      "Native desktop",
+      "Android"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Dragon Quest III — Ebitengine Remake"],
+    "contained_games": [
+      "Dragon Quest III — Ebitengine Remake"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Ebiten game Co-Authored-By Claude Opus", "https://github.com/wicanr2/kinginformation-dq3-re"],
+    "discovery_sources": [
+      "GitHub code search for Ebiten game Co-Authored-By Claude Opus",
+      "https://github.com/wicanr2/kinginformation-dq3-re"
+    ],
     "verification_notes": "The repository contains a Go/Ebitengine remake with a desktop release, Android target, world map, battle system, item and party flows, title scenes, game packs, release assets, tests and a 93/93 game-tester gate documented in the worklist. The current worklist records the project's Claude Opus 4.8 commit convention and the active Ebitengine production path. Count the remake as one game, not as separate platform builds.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19108,14 +19998,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/adsouza/africa2ice/commit/7efa26d13f0319f59da6fe317dbdd3ccb0867fe",
     "screenshot_urls": [],
-    "technology": ["Go", "Ebitengine", "Native desktop", "WebAssembly"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "Go",
+      "Ebitengine",
+      "Native desktop",
+      "WebAssembly"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Africa 2 Ice: Paleolithic Dispersal"],
+    "contained_games": [
+      "Africa 2 Ice: Paleolithic Dispersal"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Ebiten game Co-Authored-By Claude Opus", "https://github.com/adsouza/africa2ice"],
+    "discovery_sources": [
+      "GitHub code search for Ebiten game Co-Authored-By Claude Opus",
+      "https://github.com/adsouza/africa2ice"
+    ],
     "verification_notes": "The public README describes a turn-based eco-strategy game about human dispersal from East Africa during the last ice age. Source contains deterministic simulation, climate map, bands, passages, campaign timeline, task panel, Field Notes, filesystem/IndexedDB saves, native/browser release gates, tests and Ebitengine rendering. The cited commit adds a playable map-rendering feature and carries a direct Claude Opus 5 co-author trailer. Count the original game as one unit.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19141,14 +20043,28 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Kizunad/Bong/commit/3ec765b4138f5d82479ef3eaf9c8b5009d2068d3",
     "screenshot_urls": [],
-    "technology": ["Minecraft", "Rust", "Valence", "Bevy 0.14 ECS", "Fabric", "Native desktop"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "Minecraft",
+      "Rust",
+      "Valence",
+      "Bevy 0.14 ECS",
+      "Fabric",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Bong — 末法残土"],
+    "contained_games": [
+      "Bong — 末法残土"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Bevy game Co-Authored-By Claude Fable", "https://github.com/Kizunad/Bong"],
+    "discovery_sources": [
+      "GitHub code search for Bevy game Co-Authored-By Claude Fable",
+      "https://github.com/Kizunad/Bong"
+    ],
     "verification_notes": "The public repository describes an AI-native Xianxia survival sandbox running on Minecraft. It provides a Rust Valence/Bevy 0.14 server, a Fabric client, cultivation, combat, production, economy, NPC, spirit-qi physics, HUD, skills, animation, particles and a server/client build path. The cited commit carries a direct Claude Opus 5 model trailer. Count the Minecraft game as one native game, not as a separate server and client.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19177,14 +20093,29 @@
       "https://github.com/hynding/breakneck-baseball/blob/main/docs/agent/playtest/2026-08-21/23-live-gameplay.png",
       "https://github.com/hynding/breakneck-baseball/blob/main/docs/agent/playtest/2026-08-21/24-perfect-contact-callout.png"
     ],
-    "technology": ["Rust", "Bevy 0.15", "Rapier", "wgpu", "WebAssembly", "Native desktop", "3D baseball"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "Rust",
+      "Bevy 0.15",
+      "Rapier",
+      "wgpu",
+      "WebAssembly",
+      "Native desktop",
+      "3D baseball"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Breakneck Baseball"],
+    "contained_games": [
+      "Breakneck Baseball"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Bevy game Co-Authored-By Claude Fable", "https://github.com/hynding/breakneck-baseball"],
+    "discovery_sources": [
+      "GitHub code search for Bevy game Co-Authored-By Claude Fable",
+      "https://github.com/hynding/breakneck-baseball"
+    ],
     "verification_notes": "The README documents a playable Rust/Bevy/Rapier 3D baseball game with native desktop and browser WASM builds, one-player versus CPU and two-player modes, nine-inning or shortened games, five pitches, Magnus-effect ball flight, steals and pickoffs, tag-ups, double plays, dropped third strike, HBP, caught pops, multiple cameras, synthesized audio, team/field themes, substitutions, settings, pause and a live GitHub Pages demo. The source is separated into pure rules, gameplay simulation, presentation and shell/meta layers with dedicated tests; the repository also contains dated playtest screenshots. The inspected gameplay history contains exact Co-Authored-By: Claude Fable trailers on runner, camera, input, audio, fielding and rules work. Count the current baseball game once.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19209,14 +20140,28 @@
     "live_demo_url": "https://oivindth.github.io/wolfsbane/",
     "evidence_url": "https://github.com/oivindth/wolfsbane/commit/c3ef891e48a1c5f4a063627e9dd85fd1ae2ee007",
     "screenshot_urls": [],
-    "technology": ["Babylon.js", "Havok", "Svelte 5", "TypeScript", "Vite", "Browser"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "Babylon.js",
+      "Havok",
+      "Svelte 5",
+      "TypeScript",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Wolfsbane"],
+    "contained_games": [
+      "Wolfsbane"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Babylon.js game Co-Authored-By Claude Fable", "https://github.com/oivindth/wolfsbane"],
+    "discovery_sources": [
+      "GitHub code search for Babylon.js game Co-Authored-By Claude Fable",
+      "https://github.com/oivindth/wolfsbane"
+    ],
     "verification_notes": "The public repository is a browser third-person action RPG inspired by The Witcher 3. It documents WASD movement, sprint stamina, dodge i-frames, light and heavy attacks, signs, lock-on, wolf combat, respawn and camera orbit. Source includes the game loop, player controller, test zone, Babylon/Havok setup, Vitest tests, Svelte HUD, Vite build and GitHub Pages deployment. The cited gameplay commit carries a direct Claude Fable 5 trailer. The live demo returned HTTP 200. Count the browser game as one unit.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19240,15 +20185,31 @@
     ],
     "live_demo_url": "https://nansu0425.github.io/nan2026-game/",
     "evidence_url": "https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/SUBMISSION_AI_USAGE.md",
-    "screenshot_urls": ["https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg"],
-    "technology": ["Unity", "C#", "WebGL", "Browser"],
-    "model_family": ["Claude Opus 5", "Claude Fable 5", "Claude Opus 4.8"],
+    "screenshot_urls": [
+      "https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg"
+    ],
+    "technology": [
+      "Unity",
+      "C#",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5",
+      "Claude Fable 5",
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["The Fallen Citadel"],
+    "contained_games": [
+      "The Fallen Citadel"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Unreal game Co-Authored-By Claude Fable", "https://github.com/nansu0425/nan2026-game-src"],
+    "discovery_sources": [
+      "GitHub code search for Unreal game Co-Authored-By Claude Fable",
+      "https://github.com/nansu0425/nan2026-game-src"
+    ],
     "verification_notes": "The public source mirror documents a 3-D quarter-view hack-and-slash roguelike made in Unity WebGL for the Next AI Network 2026 hackathon. The live GitHub Pages build returned HTTP 200. The README and source include player classes, combat, boss AI, enemies, augments, stages, VFX, audio and WebGL delivery. The AI-usage document identifies Claude Opus 5 as the primary coding model with Fable 5 and Opus 4.8 support, records 112 game sessions, and reports Unity play-mode, build and deployment verification. The mirror omits licensed binary assets and does not build alone; count the playable deployed game as one unit.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -19273,14 +20234,26 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/Assassin29092005/GAME_CORE/commit/ec26751337114d6ef6d8b766f06599df3b3354b1",
     "screenshot_urls": [],
-    "technology": ["Unreal Engine 5.8", "C++", "Python", "Native desktop"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "Unreal Engine 5.8",
+      "C++",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["GAME_CORE — Adaptive Boss Arena"],
+    "contained_games": [
+      "GAME_CORE — Adaptive Boss Arena"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub code search for Unreal game Co-Authored-By Claude Fable", "https://github.com/Assassin29092005/GAME_CORE"],
+    "discovery_sources": [
+      "GitHub code search for Unreal game Co-Authored-By Claude Fable",
+      "https://github.com/Assassin29092005/GAME_CORE"
+    ],
     "verification_notes": "The public repository is an Unreal Engine 5.8 combat game with a player hero, boss arena, adaptive reinforcement-learning boss AI, combat state, damage, lock-on, minions, overworld, login/telemetry and game-feel systems. The C++ source and Unreal project file are present, Python supplies the RL training and inference bridge, and NEXTSTEP documents the build, cook, smoke and in-world fight checks. The cited commit includes a direct Claude Fable 5 trailer. Count the native boss-arena game as one unit.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
@@ -19308,11 +20281,22 @@
       "https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/bothy-idle.png",
       "https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/door-launch.png"
     ],
-    "technology": ["Rust", "WebAssembly", "TypeScript", "Canvas2D", "Vite", "Browser"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "Rust",
+      "WebAssembly",
+      "TypeScript",
+      "Canvas2D",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["ha·ggis Hub"],
+    "contained_games": [
+      "ha·ggis Hub"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "discovery_sources": [
@@ -19349,11 +20333,22 @@
       "https://github.com/Giftedx/just-five-more-minutes/blob/master/docs/screenshots/ui-mmo-full.png",
       "https://github.com/Giftedx/just-five-more-minutes/blob/master/docs/screenshots/ui-score.png"
     ],
-    "technology": ["Three.js", "Canvas2D", "TypeScript", "Vite", "Web Audio API", "Browser"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "Three.js",
+      "Canvas2D",
+      "TypeScript",
+      "Vite",
+      "Web Audio API",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Just Five More Minutes"],
+    "contained_games": [
+      "Just Five More Minutes"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "discovery_sources": [
@@ -19388,11 +20383,21 @@
       "https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png",
       "https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/issue-1101-wide-screen-hud/skit-wide.png"
     ],
-    "technology": ["Unity", "C#", ".NET", "Native desktop"],
-    "model_family": ["Claude Opus 5", "Claude Fable 5.1"],
+    "technology": [
+      "Unity",
+      "C#",
+      ".NET",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5",
+      "Claude Fable 5.1"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["moorestech"],
+    "contained_games": [
+      "moorestech"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "discovery_sources": [
@@ -19427,11 +20432,21 @@
       "https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/docs/steam/screenshots/03_combat.png",
       "https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/docs/steam/screenshots/04_garden.png"
     ],
-    "technology": ["Godot 4.7", "GDScript", "Pixel art", "Web export", "Native desktop"],
-    "model_family": ["Claude Fable 5.1"],
+    "technology": [
+      "Godot 4.7",
+      "GDScript",
+      "Pixel art",
+      "Web export",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["The Wandering Inn RPG"],
+    "contained_games": [
+      "The Wandering Inn RPG"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-10",
     "discovery_sources": [
@@ -19467,11 +20482,20 @@
       "https://github.com/moura-code/ghost-guild/blob/main/art_previews/fungal_deep.png",
       "https://github.com/moura-code/ghost-guild/blob/main/art_previews/the_kiln.png"
     ],
-    "technology": ["Godot 4", "GDScript", "3D", "Native desktop"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "Godot 4",
+      "GDScript",
+      "3D",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Ghost Guild"],
+    "contained_games": [
+      "Ghost Guild"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "discovery_sources": [
@@ -19503,11 +20527,20 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/JoseTomanan/hooper-game/commit/f42f928d9385dee2e218dcf6a19a82354d6f7c36",
     "screenshot_urls": [],
-    "technology": ["Godot 4 .NET", "C#", "GDScript", "Native desktop"],
-    "model_family": ["Codex Opus 4.8"],
+    "technology": [
+      "Godot 4 .NET",
+      "C#",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Codex Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Hooper"],
+    "contained_games": [
+      "Hooper"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "discovery_sources": [
@@ -19542,11 +20575,20 @@
       "https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/_planning/hub_day_with_jishuang_v3.png",
       "https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/animations/enemies_spine/stone_demon/stone_demon.png"
     ],
-    "technology": ["Godot", "GDScript", "2D", "Native desktop"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "2D",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["AIGameTest2 — Taoist card roguelite"],
+    "contained_games": [
+      "AIGameTest2 — Taoist card roguelite"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "discovery_sources": [
@@ -19583,11 +20625,21 @@
       "https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/SourceAssets/cinematics-review/intro-gate-Main50-20260909T050722047734Z-inside.png",
       "https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/SourceAssets/enclosure-review/enclosure-runtime-Candidate48-20260909T122513830311Z__A_asis__overview.png"
     ],
-    "technology": ["Unreal Engine 5.8.2", "C++", "Blueprints", "Native Windows"],
-    "model_family": ["Claude Fable 5.1", "Claude Opus 5"],
+    "technology": [
+      "Unreal Engine 5.8.2",
+      "C++",
+      "Blueprints",
+      "Native Windows"
+    ],
+    "model_family": [
+      "Claude Fable 5.1",
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Third Beis HaMikdash"],
+    "contained_games": [
+      "Third Beis HaMikdash"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "repository_created_at": "2026-08-31T18:25:07Z",
@@ -19626,11 +20678,23 @@
       "https://github.com/transitive-bullshit/ai-safety-doom/blob/main/docs/images/paperclip.jpg",
       "https://github.com/transitive-bullshit/ai-safety-doom/blob/main/docs/images/boss.jpg"
     ],
-    "technology": ["Next.js", "React", "TypeScript", "Three.js 0.185.1", "WebGL", "Browser"],
-    "model_family": ["GPT-6 Astra", "Codex"],
+    "technology": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Three.js 0.185.1",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra",
+      "Codex"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["P(DOOM)"],
+    "contained_games": [
+      "P(DOOM)"
+    ],
     "verification_status": "verified_live",
     "verified_on": "2026-09-10",
     "repository_created_at": "2026-09-05T08:13:40Z",
@@ -19665,11 +20729,22 @@
     "live_demo_url": "https://hamilton-junior.github.io/osrs-tower-defense/",
     "evidence_url": "https://github.com/hamilton-junior/osrs-tower-defense/commit/331b546afbf9ea67388df492d7664e25ab765ac3",
     "screenshot_urls": [],
-    "technology": ["Next.js", "React", "TypeScript", "Canvas 2D", "Web Audio", "Browser"],
-    "model_family": ["Claude Opus 5"],
+    "technology": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Canvas 2D",
+      "Web Audio",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["OSRS Tower Defense"],
+    "contained_games": [
+      "OSRS Tower Defense"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "repository_created_at": "2026-02-20T05:58:55Z",
@@ -19703,11 +20778,22 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/TinycellCorp/Parkour/commit/f26ca9fcae29b6c130cae7f56b70356afa25918",
     "screenshot_urls": [],
-    "technology": ["Cocos Creator 2.4.13", "TypeScript", "DragonBones", "Custom 2D physics", "WeChat/Alipay/QQ mini-games", "Native editor project"],
-    "model_family": ["Claude Opus 4.5"],
+    "technology": [
+      "Cocos Creator 2.4.13",
+      "TypeScript",
+      "DragonBones",
+      "Custom 2D physics",
+      "WeChat/Alipay/QQ mini-games",
+      "Native editor project"
+    ],
+    "model_family": [
+      "Claude Opus 4.5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Parkour Hero (49FriendRunner)"],
+    "contained_games": [
+      "Parkour Hero (49FriendRunner)"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "repository_created_at": "2025-11-17T05:33:02Z",
@@ -19741,11 +20827,21 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/grgrwlkr/SimCity/commit/7fc290811853e2d196146d7cfad256d98ec420f7",
     "screenshot_urls": [],
-    "technology": ["Bevy 0.19", "Rust", "ECS", "Native desktop"],
-    "model_family": ["Claude Fable 5", "Claude Opus 4.8"],
+    "technology": [
+      "Bevy 0.19",
+      "Rust",
+      "ECS",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5",
+      "Claude Opus 4.8"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["SimCity (Bevy)"],
+    "contained_games": [
+      "SimCity (Bevy)"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "repository_created_at": "2025-12-12T21:33:35Z",
@@ -19779,11 +20875,22 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/leynos/lille/commit/8f92e6e1a3626d09e73491b5efc8f085a559f24d",
     "screenshot_urls": [],
-    "technology": ["Bevy 0.17", "Rust", "ECS", "Real-time strategy", "Native desktop"],
-    "model_family": ["Claude Fable 5", "Claude Opus 4.5"],
+    "technology": [
+      "Bevy 0.17",
+      "Rust",
+      "ECS",
+      "Real-time strategy",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5",
+      "Claude Opus 4.5"
+    ],
     "method_evidence": "confirmed",
     "game_count": 1,
-    "contained_games": ["Lille"],
+    "contained_games": [
+      "Lille"
+    ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "repository_created_at": "2025-01-17T23:11:03Z",
@@ -22053,6 +23160,50 @@
     "flops_estimate_basis": "Static estimate for Phaser Canvas2D rendering, animated sprites, timed enemy waves, collision, projectiles, pickups, HUD and level-up state; not measured hardware throughput.",
     "quality_estimate_10": 9.2,
     "quality_estimate_basis": "The project has a clear playable loop, self-contained build target, documented runtime checks across viewports, substantial game source and exact Opus attribution on gameplay implementation.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Battle City",
+    "github_url": "https://github.com/yumo-zs/tank-battle",
+    "game_links": [
+      "https://github.com/yumo-zs/tank-battle/blob/main/README.md",
+      "https://github.com/yumo-zs/tank-battle/blob/main/index.html",
+      "https://github.com/yumo-zs/tank-battle/blob/main/game.js",
+      "https://github.com/yumo-zs/tank-battle/blob/main/style.css"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/yumo-zs/tank-battle/commit/b4014790104d47001c03cfe1856bb43761a36fbd",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML5 Canvas",
+      "JavaScript ES6+",
+      "CSS3",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Battle City"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-15",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, committer-date 2026-09-13..2026-09-15",
+      "https://github.com/yumo-zs/tank-battle"
+    ],
+    "verification_notes": "The repository is a new HTML5 Canvas Battle City game. Its README documents a runnable index.html entry point, movement, shooting, pause/restart controls, a base-defense objective, enemy types, destructible terrain, power-ups, progression, score persistence and Web Audio. The source tree contains index.html, game.js and style.css. The cited creation commit contains an exact Co-Authored-By: Claude Opus 5 trailer. Count one browser game unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas tile rendering, collision checks, enemy AI, bullets, effects, audio and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "The project has a complete browser entry point, documented controls and objective, multiple enemy and terrain systems, progression, persistence and direct Opus attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   }
