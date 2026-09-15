@@ -5,6 +5,8 @@ const errors = [];
 const urls = new Set();
 const required = ['name', 'github_url', 'evidence_url', 'technology', 'model_family', 'verification_status', 'verified_on', 'verification_notes'];
 const evidenceLevels = new Set(['confirmed', 'confirmed_at_repository_level', 'confirmed_supporting_game_code', 'creator-reported', 'directory-method', 'repository/topic trail', 'inferred']);
+const qualityCategories = new Set(['curated_games', 'bad_games', 'other_non_games']);
+const lowQualityThreshold = 7;
 const fail = (index, message) => errors.push(`record ${index + 1}: ${message}`);
 
 for (const [index, record] of records.entries()) {
@@ -26,6 +28,13 @@ for (const [index, record] of records.entries()) {
   if (record.contained_games?.length > 1 && record.contained_games.length !== record.counted_game_units) fail(index, 'contained_games must match counted_game_units when individual games are listed');
   if (!Number.isFinite(record.quality_estimate_10) || record.quality_estimate_10 < 0 || record.quality_estimate_10 > 10) fail(index, 'quality_estimate_10 must be between 0 and 10');
   if (!Number.isFinite(record.flops_estimate_raw) || record.flops_estimate_raw <= 0) fail(index, 'flops_estimate_raw must be positive');
+  if (!Object.hasOwn(record, 'prompt')) fail(index, 'missing prompt field');
+  if (!qualityCategories.has(record.quality_category)) fail(index, `invalid quality_category: ${record.quality_category}`);
+  if (record.is_independent_game && (typeof record.prompt !== 'string' || !record.prompt.trim())) fail(index, 'independent game prompt must be non-empty');
+  if (!record.is_independent_game && record.prompt !== null) fail(index, 'non-game prompt must be null');
+  if (record.is_independent_game && record.quality_estimate_10 < lowQualityThreshold && record.quality_category !== 'bad_games') fail(index, 'low-quality game must be in bad_games category');
+  if (record.is_independent_game && record.quality_estimate_10 >= lowQualityThreshold && record.quality_category !== 'curated_games') fail(index, 'curated game must be in curated_games category');
+  if (!record.is_independent_game && record.quality_category !== 'other_non_games') fail(index, 'non-game must be in other_non_games category');
 }
 
 const active = records.filter((record) => record.is_independent_game && record.counted_game_units > 0);
