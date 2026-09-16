@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/INONONO66/tarkov-customs](https://github.com/INONONO66/tarkov-customs)
 - **Evidence:** [direct model evidence](https://github.com/INONONO66/tarkov-customs)
+- **Live demo:** [open demo](https://inonono66.github.io/tarkov-customs/)
 
 ## Screenshots
 

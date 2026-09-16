@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/e01-ai/starfall](https://github.com/e01-ai/starfall)
 - **Evidence:** [directory-method model evidence](https://github.com/e01-ai/starfall/blob/main/prompt.md)
+- **Live demo:** [open demo](https://e01.ai/starfall/)
 
 ## Screenshots
 

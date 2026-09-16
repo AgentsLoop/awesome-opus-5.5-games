@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/sytaylor/nerd-of-duty](https://github.com/sytaylor/nerd-of-duty)
 - **Evidence:** [creator-reported model evidence](https://github.com/sytaylor/nerd-of-duty)
+- **Live demo:** [open demo](https://nerd-of-duty.vercel.app)
 
 ## Screenshots
 

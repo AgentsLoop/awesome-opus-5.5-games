@@ -12,6 +12,8 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/dan-lee-odinson/failure-is-not-an-option](https://github.com/dan-lee-odinson/failure-is-not-an-option)
 - **Evidence:** [direct model evidence](https://github.com/dan-lee-odinson/failure-is-not-an-option#failure-is-not-an-option)
+- **Live demo:** [open demo](https://finaogame.com)
+- **Additional live link:** [open demo](https://finaogame.com/demo/)
 
 ## Screenshots
 

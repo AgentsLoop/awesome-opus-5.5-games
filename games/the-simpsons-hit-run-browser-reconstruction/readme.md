@@ -23,6 +23,8 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 3](https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/waterfront.jpg)
 - [screenshot 4](https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/kwik-e-mart.jpg)
 
+- [screenshot 5](https://github.com/Vheissu/hit-and-run-web/blob/HEAD/docs/media/trailer-poster.jpg)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

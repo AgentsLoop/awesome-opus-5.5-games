@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Nipale-ai/blocks-openworld](https://github.com/Nipale-ai/blocks-openworld)
 - **Evidence:** [direct model evidence](https://github.com/Nipale-ai/blocks-openworld)
+- **Live demo:** [open demo](https://nipale-ai.github.io/blocks-openworld/spiel/)
 
 ## Screenshots
 

@@ -20,6 +20,9 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 1](https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/title.jpg)
 - [screenshot 2](https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/race.jpg)
 
+- [screenshot 3](https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/character-select.jpg)
+- [screenshot 4](https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/track-select.jpg)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

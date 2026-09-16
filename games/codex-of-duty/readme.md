@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/luongnv89/codex-of-duty](https://github.com/luongnv89/codex-of-duty)
 - **Evidence:** [creator-reported model evidence](https://github.com/luongnv89/codex-of-duty)
+- **Live demo:** [open demo](https://luongnv89.github.io/codex-of-duty/)
 
 ## Screenshots
 

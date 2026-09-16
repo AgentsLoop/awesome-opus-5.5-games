@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/mike-snodgrass/text-adventure-game](https://github.com/mike-snodgrass/text-adventure-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/mike-snodgrass/text-adventure-game)
+- **Live demo:** [open demo](https://mike-snodgrass.github.io/text-adventure-game/)
 
 ## Screenshots
 

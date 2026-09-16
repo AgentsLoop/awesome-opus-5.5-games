@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/endurovojta173/Sonar_Maze_Profiq_Contest](https://github.com/endurovojta173/Sonar_Maze_Profiq_Contest)
 - **Evidence:** [creator-reported model evidence](https://github.com/endurovojta173/Sonar_Maze_Profiq_Contest/blob/main/README.md)
+- **Live demo:** [open demo](https://endurovojta173.github.io/Sonar_Maze_Profiq_Contest/)
 
 ## Screenshots
 

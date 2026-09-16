@@ -19,6 +19,10 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/docs/preview.gif)
 
+## Videos
+
+- [YouTube gameplay video](https://www.youtube.com/watch?v=B8cRapWSGeI)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

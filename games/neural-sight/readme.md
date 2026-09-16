@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/monstercameron/Neural-Sight](https://github.com/monstercameron/Neural-Sight)
 - **Evidence:** [direct model evidence](https://github.com/monstercameron/Neural-Sight#built-to-play-with)
+- **Live demo:** [open demo](https://monstercameron.github.io/Neural-Sight/experiment.html)
 - **Live demo:** [open demo](https://monstercameron.github.io/Neural-Sight/)
 
 ## Screenshots

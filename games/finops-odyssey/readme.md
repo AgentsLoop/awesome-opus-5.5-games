@@ -12,6 +12,9 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/chfinops/finops-odyssey](https://github.com/chfinops/finops-odyssey)
 - **Evidence:** [direct model evidence](https://github.com/chfinops/finops-odyssey/commit/7f0caf56b69ef8149ed6af5d379eceef98546ab0)
+- **Live demo:** [open demo](https://finops-odyssey.vercel.app/)
+- **Additional live link:** [open demo](https://finops-odyssey.vercel.app/ch-booth-display.html)
+- **Additional live link:** [open demo](https://finops-odyssey.vercel.app/ch-booth-staff.html)
 - **Live demo:** [open demo](https://finops-odyssey.vercel.app/game.html)
 
 ## Screenshots

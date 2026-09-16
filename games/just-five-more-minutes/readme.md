@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Giftedx/just-five-more-minutes](https://github.com/Giftedx/just-five-more-minutes)
 - **Evidence:** [direct model evidence](https://github.com/Giftedx/just-five-more-minutes/commit/32d1eeacf551c0d2e8f9536732cc03c44eb7ed45)
+- **Live demo:** [open demo](https://just-five-more-minutes.pages.dev/)
 - **Live demo:** [open demo](https://ha.ggis.xyz/just-five-more-minutes/)
 
 ## Screenshots

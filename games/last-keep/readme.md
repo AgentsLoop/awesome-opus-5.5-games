@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/pawanp3/renderwolf-fable5-chart-toppers](https://github.com/pawanp3/renderwolf-fable5-chart-toppers)
 - **Evidence:** [direct model evidence](https://github.com/pawanp3/renderwolf-fable5-chart-toppers)
+- **Live demo:** [open demo](https://pawanp3.github.io/renderwolf-fable5-chart-toppers/)
 
 ## Screenshots
 

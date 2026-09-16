@@ -19,6 +19,8 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/saleebm/PenguinSlide/blob/main/android-libgdx/assets/sprites/penguin_slide.png)
 
+- [screenshot 2](https://github.com/saleebm/PenguinSlide/blob/HEAD/screenshot.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/kolatts/beyond-boring-the-game](https://github.com/kolatts/beyond-boring-the-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/kolatts/beyond-boring-the-game)
+- **Live demo:** [open demo](https://kolatts.github.io/beyond-boring-the-game/)
 
 ## Screenshots
 

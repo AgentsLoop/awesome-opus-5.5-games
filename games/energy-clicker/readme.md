@@ -19,6 +19,8 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png)
 
+- [screenshot 2](https://github.com/ferranrigual/raylib-clicker/blob/HEAD/screenshots/early_game.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

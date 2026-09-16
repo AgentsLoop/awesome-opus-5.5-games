@@ -20,6 +20,10 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 1](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png)
 - [screenshot 2](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/play-report.png)
 
+## Videos
+
+- [YouTube gameplay video](https://www.youtube.com/watch?v=DQfL_l5lRpk)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

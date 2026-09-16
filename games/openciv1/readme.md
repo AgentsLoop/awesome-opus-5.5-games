@@ -20,6 +20,9 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 1](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif)
 - [screenshot source 2](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md)
 
+- [screenshot 2](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png)
+- [screenshot 3](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/15_FOUND_CITY_pair.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

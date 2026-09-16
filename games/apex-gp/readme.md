@@ -22,6 +22,8 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 3](https://github.com/jolbol1/apex-gp/blob/main/docs/img/ship-beauty.jpg)
 - [screenshot 4](https://github.com/jolbol1/apex-gp/blob/main/docs/img/ship-cockpit.jpg)
 
+- [screenshot 5](https://github.com/jolbol1/apex-gp/blob/HEAD/docs/img/ship-wide.jpg)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **directory-method model evidence**.

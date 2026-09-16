@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/marius4lui/NULLSPACE](https://github.com/marius4lui/NULLSPACE)
 - **Evidence:** [direct model evidence](https://github.com/marius4lui/NULLSPACE#current-state)
+- **Live demo:** [open demo](https://github.marius4lui.dev/NULLSPACE/)
 
 ## Screenshots
 

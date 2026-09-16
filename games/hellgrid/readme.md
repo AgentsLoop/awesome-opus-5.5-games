@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/markcastle/hellgrid](https://github.com/markcastle/hellgrid)
 - **Evidence:** [creator-reported model evidence](https://github.com/markcastle/hellgrid/blob/master/README.md)
+- **Live demo:** [open demo](https://hellgrid.pages.dev/)
 
 ## Screenshots
 

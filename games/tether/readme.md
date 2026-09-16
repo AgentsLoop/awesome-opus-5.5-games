@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Barabosik/tether-demo](https://github.com/Barabosik/tether-demo)
 - **Evidence:** [creator-reported model evidence](https://github.com/Barabosik/tether-demo)
+- **Live demo:** [open demo](https://barabosik.github.io/tether-demo)
 
 ## Screenshots
 

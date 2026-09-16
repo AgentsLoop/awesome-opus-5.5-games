@@ -22,6 +22,10 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 3](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/cutscene.png)
 - [screenshot 4](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/fire.png)
 
+## Videos
+
+- [YouTube gameplay video](https://www.youtube.com/watch?v=D1ZPGGbrBQs)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **creator-reported model evidence**.

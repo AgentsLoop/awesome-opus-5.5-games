@@ -12,6 +12,8 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/justinw916-sketch/claude-zombies](https://github.com/justinw916-sketch/claude-zombies)
 - **Evidence:** [creator-reported model evidence](https://github.com/justinw916-sketch/claude-zombies)
+- **Live demo:** [open demo](https://zombies.jwhitton.com/)
+- **Additional live link:** [open demo](https://claude-zombies.pages.dev/)
 
 ## Screenshots
 

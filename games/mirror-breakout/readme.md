@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo](https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo)
 - **Evidence:** [creator-reported model evidence](https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo/blob/main/README.md)
+- **Live demo:** [open demo](https://claude.ai/public/artifacts/0648b320-04c3-47f0-876a-7fa3b5c2bf03)
 
 ## Screenshots
 

@@ -12,6 +12,8 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Arnie016/flight-simulator-fable5](https://github.com/Arnie016/flight-simulator-fable5)
 - **Evidence:** [creator-reported model evidence](https://github.com/Arnie016/flight-simulator-fable5/blob/main/README.md)
+- **Live demo:** [open demo](https://flight-sim-sandy.vercel.app)
+- **Additional live link:** [open demo](https://arnie016.github.io/flight-simulator-fable5/)
 
 ## Screenshots
 

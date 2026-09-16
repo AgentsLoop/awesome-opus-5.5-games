@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/winchxyz/celadon](https://github.com/winchxyz/celadon)
 - **Evidence:** [creator-reported model evidence](https://github.com/winchxyz/celadon/blob/main/README.md)
+- **Live demo:** [open demo](https://winchxyz.github.io/celadon/)
 
 ## Screenshots
 

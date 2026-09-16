@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/GOROman/calude-famicom-game](https://github.com/GOROman/calude-famicom-game)
 - **Evidence:** [direct model evidence](https://github.com/GOROman/calude-famicom-game)
+- **Live demo:** [open demo](https://goroman.github.io/cluade-famicom-emu/)
 - **Live demo:** [open demo](https://goroman.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/GOROman/calude-famicom-game/main/roms/50-coin-shine.nes)
 
 ## Screenshots

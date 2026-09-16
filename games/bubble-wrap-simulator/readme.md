@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/finktheartist/bubble-wrap-simulator](https://github.com/finktheartist/bubble-wrap-simulator)
 - **Evidence:** [creator-reported model evidence](https://github.com/finktheartist/bubble-wrap-simulator)
+- **Live demo:** [open demo](https://bubble-wrap-simulator.vercel.app)
 
 ## Screenshots
 

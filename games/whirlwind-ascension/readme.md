@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/dylanhsieh/whirlwind-ascension](https://github.com/dylanhsieh/whirlwind-ascension)
 - **Evidence:** [creator-reported model evidence](https://github.com/dylanhsieh/whirlwind-ascension)
+- **Live demo:** [open demo](https://dylanhsieh.github.io/whirlwind-ascension/)
 
 ## Screenshots
 

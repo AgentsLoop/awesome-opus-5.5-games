@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Ninaji/Frosty-Tatics](https://github.com/Ninaji/Frosty-Tatics)
 - **Evidence:** [creator-reported model evidence](https://github.com/Ninaji/Frosty-Tatics/blob/main/README.md)
+- **Live demo:** [open demo](https://ninaji.github.io/Frosty-Tatics/)
 
 ## Screenshots
 

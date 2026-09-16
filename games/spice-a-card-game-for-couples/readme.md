@@ -22,6 +22,14 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/levels.png)
 - [screenshot 3](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png)
 
+- [screenshot 4](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png)
+- [screenshot 5](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-play.png)
+- [screenshot 6](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-install.png)
+- [screenshot 7](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-deck.png)
+- [screenshot 8](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-privacy.png)
+- [screenshot 9](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-build.png)
+- [screenshot 10](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-content.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/erictfree/DECWAR](https://github.com/erictfree/DECWAR)
 - **Evidence:** [direct model evidence](https://github.com/erictfree/DECWAR#status-playable-alpha)
+- **Live demo:** [open demo](https://decwar.org)
 
 ## Screenshots
 

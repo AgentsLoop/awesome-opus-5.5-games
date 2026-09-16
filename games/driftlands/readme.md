@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/DEADover/DRIFTLANDS](https://github.com/DEADover/DRIFTLANDS)
 - **Evidence:** [directory-method model evidence](https://github.com/DEADover/DRIFTLANDS)
+- **Live demo:** [open demo](https://deadover.github.io/DRIFTLANDS/)
 
 ## Screenshots
 

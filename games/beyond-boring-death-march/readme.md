@@ -20,6 +20,12 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/kolatts/beyond-boring-death-march/blob/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170/docs/screenshots/title.png)
 
+- [screenshot 2](https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/trail.png)
+- [screenshot 3](https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/loop-builder.png)
+- [screenshot 4](https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/night-watch.png)
+- [screenshot 5](https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/cab-crossing.png)
+- [screenshot 6](https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/death.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

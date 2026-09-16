@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/lifeofnicolas/bomberman-clone](https://github.com/lifeofnicolas/bomberman-clone)
 - **Evidence:** [creator-reported model evidence](https://github.com/lifeofnicolas/bomberman-clone)
+- **Live demo:** [open demo](https://lifeofnicolas.github.io/bomberman-clone/)
 
 ## Screenshots
 

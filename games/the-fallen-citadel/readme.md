@@ -20,6 +20,10 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg)
 
+## Videos
+
+- [YouTube gameplay video](https://youtu.be/fBrRWKRPV-A)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **creator-reported model evidence**.

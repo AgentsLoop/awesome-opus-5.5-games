@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/evan-thedev/ink-rogue](https://github.com/evan-thedev/ink-rogue)
 - **Evidence:** [creator-reported model evidence](https://github.com/evan-thedev/ink-rogue)
+- **Live demo:** [open demo](https://evan-thedev.github.io/ink-rogue/)
 
 ## Screenshots
 

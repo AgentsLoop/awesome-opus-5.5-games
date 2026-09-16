@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/codersusu/game-city-skylines](https://github.com/codersusu/game-city-skylines)
 - **Evidence:** [direct model evidence](https://github.com/codersusu/game-city-skylines#key-features)
+- **Live demo:** [open demo](https://codersusu.github.io/game-city-skylines/)
 
 ## Screenshots
 

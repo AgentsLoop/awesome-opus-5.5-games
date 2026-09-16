@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/brynary/claude-of-duty](https://github.com/brynary/claude-of-duty)
 - **Evidence:** [creator-reported model evidence](https://github.com/brynary/claude-of-duty)
+- **Live demo:** [open demo](https://brynary.github.io/claude-of-duty/?bot=push&skill=average&seed=1337&run=90&quality=high&autostart=1&perf=1)
 
 ## Screenshots
 

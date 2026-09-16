@@ -22,6 +22,33 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 3](https://github.com/wicanr2/u5-cht/blob/main/docs/screenshots/01-world.png)
 - [screenshot 4](https://github.com/wicanr2/u5-cht/blob/main/docs/screenshots/02-town.png)
 
+- [screenshot 5](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/03-talk.png)
+- [screenshot 6](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/04-shop.png)
+- [screenshot 7](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/05-combat.png)
+- [screenshot 8](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/06-dungeon.png)
+- [screenshot 9](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/07-peer.png)
+- [screenshot 10](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/08-word.png)
+- [screenshot 11](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/09-shadowlord.png)
+- [screenshot 12](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/13-cell.png)
+- [screenshot 13](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/11-codex.png)
+- [screenshot 14](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/12-throne.png)
+- [screenshot 15](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/10-blackthorn.png)
+- [screenshot 16](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/15-night.png)
+- [screenshot 17](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/16-night-torch.png)
+- [screenshot 18](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/20-lighthouse.png)
+- [screenshot 19](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/19-credits.png)
+- [screenshot 20](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/17-guard.png)
+- [screenshot 21](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/21-sandalwood.png)
+- [screenshot 22](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/14-shrine-room.png)
+- [screenshot 23](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/22-quit.png)
+- [screenshot 24](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/25-ui-modern.png)
+- [screenshot 25](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/24-menu.png)
+- [screenshot 26](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/23-help.png)
+
+## Videos
+
+- [YouTube gameplay video](https://youtu.be/cDEtMMKk5vE)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

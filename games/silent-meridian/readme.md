@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/stackloomdev/silent-meridian](https://github.com/stackloomdev/silent-meridian)
 - **Evidence:** [direct model evidence](https://github.com/stackloomdev/silent-meridian#silent-meridian)
+- **Live demo:** [open demo](https://silent-meridian.stackloom.org/)
 
 ## Screenshots
 

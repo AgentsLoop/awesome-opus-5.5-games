@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/threapchills/MagicCarpetWizard](https://github.com/threapchills/MagicCarpetWizard)
 - **Evidence:** [creator-reported model evidence](https://github.com/threapchills/MagicCarpetWizard)
+- **Live demo:** [open demo](https://threapchills.github.io/MagicCarpetWizard/)
 
 ## Screenshots
 

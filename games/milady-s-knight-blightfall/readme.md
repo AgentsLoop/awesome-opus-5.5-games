@@ -17,6 +17,10 @@
 
 No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
+## Videos
+
+- [YouTube gameplay video](https://youtu.be/LOhfqjmasi0?si=tdgg3XWfNvRXQkSV)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

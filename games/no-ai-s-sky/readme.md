@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/jesuscurreripa/noaissky](https://github.com/jesuscurreripa/noaissky)
 - **Evidence:** [creator-reported model evidence](https://github.com/jesuscurreripa/noaissky/blob/main/README.md)
+- **Live demo:** [open demo](https://noaissky.vercel.app)
 
 ## Screenshots
 

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/aieo-product/fableDemoGame](https://github.com/aieo-product/fableDemoGame)
 - **Evidence:** [creator-reported model evidence](https://github.com/aieo-product/fableDemoGame/blob/main/README.md)
+- **Live demo:** [open demo](https://fable-katamari.pages.dev)
 
 ## Screenshots
 

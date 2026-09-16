@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/markstent/snaketris](https://github.com/markstent/snaketris)
 - **Evidence:** [creator-reported model evidence](https://github.com/markstent/snaketris/blob/main/README.md)
+- **Live demo:** [open demo](https://markstent.github.io/snaketris/)
 
 ## Screenshots
 

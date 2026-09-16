@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/karamvirr/fable5-canvas-game](https://github.com/karamvirr/fable5-canvas-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/karamvirr/fable5-canvas-game)
+- **Live demo:** [open demo](https://karamvirr.github.io/fable5-canvas-game/)
 
 ## Screenshots
 

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/sajalrajhans1/Sunset-Down](https://github.com/sajalrajhans1/Sunset-Down)
 - **Evidence:** [creator-reported model evidence](https://github.com/sajalrajhans1/Sunset-Down/blob/main/README.md)
+- **Live demo:** [open demo](https://sunset-down.vercel.app/)
 
 ## Screenshots
 

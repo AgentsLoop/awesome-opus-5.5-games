@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Alex-Caian/abstracts](https://github.com/Alex-Caian/abstracts)
 - **Evidence:** [creator-reported model evidence](https://github.com/Alex-Caian/abstracts/blob/main/README.md)
+- **Live demo:** [open demo](https://alex-caian.github.io/abstracts/)
 
 ## Screenshots
 

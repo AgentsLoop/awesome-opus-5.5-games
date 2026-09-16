@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/taozhuo/operation-blackout](https://github.com/taozhuo/operation-blackout)
 - **Evidence:** [creator-reported model evidence](https://github.com/taozhuo/operation-blackout)
+- **Live demo:** [open demo](https://taozhuo.github.io/operation-blackout/)
 
 ## Screenshots
 

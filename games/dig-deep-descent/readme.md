@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/aaronshaver/dig-deep-descent](https://github.com/aaronshaver/dig-deep-descent)
 - **Evidence:** [direct model evidence](https://github.com/aaronshaver/dig-deep-descent#status-update-2026-09-05)
+- **Live demo:** [open demo](https://aaronshaver.github.io/dig-deep-descent/)
 
 ## Screenshots
 

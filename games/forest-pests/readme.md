@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/fjzeit/forest-pests](https://github.com/fjzeit/forest-pests)
 - **Evidence:** [creator-reported model evidence](https://github.com/fjzeit/forest-pests)
+- **Live demo:** [open demo](https://fjzeit.github.io/arcade/forest-pests/)
 
 ## Screenshots
 

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/GaintEnemyCrabBurger/reigns-ceo](https://github.com/GaintEnemyCrabBurger/reigns-ceo)
 - **Evidence:** [direct model evidence](https://github.com/GaintEnemyCrabBurger/reigns-ceo#-gpt-6-astra-)
+- **Live demo:** [open demo](https://gaintenemycrabburger.github.io/reigns-ceo/)
 - **Live demo:** [open demo](https://gaintenemycrabburger.github.io/reigns-ceo/gpt-6-astra/)
 
 ## Screenshots

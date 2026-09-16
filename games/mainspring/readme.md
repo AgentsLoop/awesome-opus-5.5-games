@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Kelevera/mainspring](https://github.com/Kelevera/mainspring)
 - **Evidence:** [creator-reported model evidence](https://github.com/Kelevera/mainspring/blob/main/README.md)
+- **Live demo:** [open demo](https://kelevera.github.io/mainspring/)
 
 ## Screenshots
 

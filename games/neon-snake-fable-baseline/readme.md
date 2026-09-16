@@ -12,6 +12,10 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/kinncj/neon-snake](https://github.com/kinncj/neon-snake)
 - **Evidence:** [direct model evidence](https://github.com/kinncj/neon-snake#the-game)
+- **Live demo:** [open demo](https://kinncj.github.io/neon-snake/opencode/)
+- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/pi-agent/)
+- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/claude-code-qwen3.8/)
+- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/)
 - **Live demo:** [open demo](https://kinncj.github.io/neon-snake/claude-code-fable/)
 
 ## Screenshots

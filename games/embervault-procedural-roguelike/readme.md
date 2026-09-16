@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/pyros-projects/Trial](https://github.com/pyros-projects/Trial)
 - **Evidence:** [direct model evidence](https://github.com/pyros-projects/Trial#what-you-can-do)
+- **Live demo:** [open demo](https://trial-by-pyro.netlify.app/)
 
 ## Screenshots
 

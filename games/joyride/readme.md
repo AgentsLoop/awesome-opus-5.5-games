@@ -12,6 +12,8 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/nitzangames/joyride](https://github.com/nitzangames/joyride)
 - **Evidence:** [direct model evidence](https://github.com/nitzangames/joyride)
+- **Live demo:** [open demo](https://nitzan.games/experiments/one-shot-gta/fable-xhigh/index.html)
+- **Additional live link:** [open demo](https://nitzan.games/OneShotGTA.html)
 
 ## Screenshots
 

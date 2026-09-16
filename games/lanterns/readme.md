@@ -21,6 +21,8 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/kamwoh/yume/blob/master/docs/media/sokoban.gif)
 - [screenshot 3](https://github.com/kamwoh/yume/blob/master/docs/media/lanterns.gif)
 
+- [screenshot 4](https://github.com/kamwoh/yume/blob/HEAD/docs/media/forest_scene.gif)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/erekjiang/call-of-duty-opus5](https://github.com/erekjiang/call-of-duty-opus5)
 - **Evidence:** [repository-topic model evidence](https://github.com/erekjiang/call-of-duty-opus5)
+- **Live demo:** [open demo](https://call-of-duty-opus5.vercel.app)
 
 ## Screenshots
 

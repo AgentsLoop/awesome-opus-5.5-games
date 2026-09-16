@@ -19,6 +19,10 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/amsminn/gpt-6-astra-smash-karts/blob/main/docs/media/gameplay.gif)
 
+## Videos
+
+- [YouTube gameplay video](https://youtu.be/3laRe_z_gbI)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **creator-reported model evidence**.

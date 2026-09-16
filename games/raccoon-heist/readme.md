@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/simonw/raccoon-heist](https://github.com/simonw/raccoon-heist)
 - **Evidence:** [creator-reported model evidence](https://github.com/simonw/raccoon-heist)
+- **Live demo:** [open demo](https://simonw.github.io/raccoon-heist/)
 
 ## Screenshots
 

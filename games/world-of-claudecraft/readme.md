@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/levy-street/world-of-claudecraft](https://github.com/levy-street/world-of-claudecraft)
 - **Evidence:** [creator-reported model evidence](https://github.com/levy-street/world-of-claudecraft)
+- **Live demo:** [open demo](https://worldofclaudecraft.com/)
 
 ## Screenshots
 
@@ -21,6 +22,14 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/levy-street/world-of-claudecraft/blob/main/docs/screenshots/guild-muster-mounted.jpg)
 - [screenshot 3](https://github.com/levy-street/world-of-claudecraft/blob/main/docs/screenshots/mirefen-marsh-night.jpg)
 - [screenshot 4](https://github.com/levy-street/world-of-claudecraft/blob/main/docs/screenshots/dungeon-spellfire.jpg)
+
+- [screenshot 5](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/live-world-crowd.jpg)
+- [screenshot 6](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/amberfall-road.jpg)
+- [screenshot 7](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/palmreach-rift-warnings.jpg)
+- [screenshot 8](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/frostveil-reach-village.jpg)
+- [screenshot 9](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-vale_clear.jpg)
+- [screenshot 10](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-marsh_rain.jpg)
+- [screenshot 11](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg)
 
 ## Model attribution
 

@@ -12,6 +12,8 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/burakTanBilgi/deck-shenanigans](https://github.com/burakTanBilgi/deck-shenanigans)
 - **Evidence:** [creator-reported model evidence](https://github.com/burakTanBilgi/deck-shenanigans)
+- **Live demo:** [open demo](https://deck-shenanigans.vercel.app)
+- **Additional live link:** [open demo](https://deck-shenanigans.vercel.app/deck)
 
 ## Screenshots
 
@@ -21,6 +23,8 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/burakTanBilgi/deck-shenanigans/blob/main/docs/screenshots/theme-picker.webp)
 - [screenshot 3](https://github.com/burakTanBilgi/deck-shenanigans/blob/main/docs/screenshots/deck-teletext.webp)
 - [screenshot 4](https://github.com/burakTanBilgi/deck-shenanigans/blob/main/docs/screenshots/deck-deco-seance.webp)
+
+- [screenshot 5](https://github.com/burakTanBilgi/deck-shenanigans/blob/HEAD/docs/screenshots/deck-riso-noir.webp)
 
 ## Model attribution
 

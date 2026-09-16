@@ -22,6 +22,10 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 3](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_living.png)
 - [screenshot 4](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_study.png)
 
+- [screenshot 5](https://github.com/lucas-wyd/False-Ritual/blob/HEAD/art/reference/qa/carter/dusk_kitchen.png)
+- [screenshot 6](https://github.com/lucas-wyd/False-Ritual/blob/HEAD/art/reference/qa/carter/dusk_emma.png)
+- [screenshot 7](https://github.com/lucas-wyd/False-Ritual/blob/HEAD/art/reference/qa/carter/dusk_daniel.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

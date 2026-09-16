@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/joozio/dungeon-of-opus](https://github.com/joozio/dungeon-of-opus)
 - **Evidence:** [direct model evidence](https://github.com/joozio/dungeon-of-opus#features)
+- **Live demo:** [open demo](https://wiz.jock.pl/experiments/dungeon-of-opus)
 
 ## Screenshots
 

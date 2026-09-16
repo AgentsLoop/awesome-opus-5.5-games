@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/danmana/sakura-idle](https://github.com/danmana/sakura-idle)
 - **Evidence:** [direct model evidence](https://github.com/danmana/sakura-idle)
+- **Live demo:** [open demo](https://sakura-idle.vercel.app)
 
 ## Screenshots
 

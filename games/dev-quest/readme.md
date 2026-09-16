@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/agutierrezclab/dev-quest](https://github.com/agutierrezclab/dev-quest)
 - **Evidence:** [creator-reported model evidence](https://github.com/agutierrezclab/dev-quest)
+- **Live demo:** [open demo](https://dev-quest-nu.vercel.app/)
 
 ## Screenshots
 
@@ -21,6 +22,8 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/agutierrezclab/dev-quest/blob/main/docs/screens/title.png)
 - [screenshot 3](https://github.com/agutierrezclab/dev-quest/blob/main/docs/screens/wave1_pr.png)
 - [screenshot 4](https://github.com/agutierrezclab/dev-quest/blob/main/docs/screens/dialog_juan.png)
+
+- [screenshot 5](https://github.com/agutierrezclab/dev-quest/blob/HEAD/docs/screens/wave4_deploy.png)
 
 ## Model attribution
 

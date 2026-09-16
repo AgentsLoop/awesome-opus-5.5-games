@@ -22,6 +22,9 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/budget.png)
 - [screenshot 3](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/traffic.png)
 
+- [screenshot 4](https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/closeup.png)
+- [screenshot 5](https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/welcome.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

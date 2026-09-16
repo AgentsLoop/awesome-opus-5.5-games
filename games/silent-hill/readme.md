@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp)
 - **Evidence:** [direct model evidence](https://github.com/SlickAmogus/silent-hill-decomp#features)
+- **Live demo:** [open demo](https://sh1pc.com/)
 
 ## Screenshots
 

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Nipale-ai/fable-5-1-one-prompt-game](https://github.com/Nipale-ai/fable-5-1-one-prompt-game)
 - **Evidence:** [direct model evidence](https://github.com/Nipale-ai/fable-5-1-one-prompt-game#what-it-built-itself)
+- **Live demo:** [open demo](https://nipale-ai.github.io/fable-5-1-one-prompt-game/)
 - **Live demo:** [open demo](https://nipale-ai.github.io/fable-5-1-one-prompt-game/fable/)
 
 ## Screenshots

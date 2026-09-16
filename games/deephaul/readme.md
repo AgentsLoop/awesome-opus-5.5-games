@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/TESTYEE-09/Deephaul-opus5-](https://github.com/TESTYEE-09/Deephaul-opus5-)
 - **Evidence:** [repository-topic model evidence](https://github.com/TESTYEE-09/Deephaul-opus5-)
+- **Live demo:** [open demo](https://testyee-09.github.io/Deephaul-opus5-/)
 
 ## Screenshots
 

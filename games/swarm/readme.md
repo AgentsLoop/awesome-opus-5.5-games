@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/shironagasu-ai/claude-fable5-3D-games](https://github.com/shironagasu-ai/claude-fable5-3D-games)
 - **Evidence:** [direct model evidence](https://github.com/shironagasu-ai/claude-fable5-3D-games)
+- **Live demo:** [open demo](https://shironagasu-ai.github.io/claude-fable5-3D-games/games/swarm/)
 
 ## Screenshots
 

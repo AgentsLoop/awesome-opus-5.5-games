@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/LeiGaoRobot/emberlight](https://github.com/LeiGaoRobot/emberlight)
 - **Evidence:** [creator-reported model evidence](https://github.com/LeiGaoRobot/emberlight/blob/main/README.md)
+- **Live demo:** [open demo](https://leigaorobot.github.io/emberlight/)
 
 ## Screenshots
 

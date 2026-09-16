@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/dylanhsieh/neon-precinct](https://github.com/dylanhsieh/neon-precinct)
 - **Evidence:** [directory-method model evidence](https://github.com/dylanhsieh/neon-precinct)
+- **Live demo:** [open demo](https://dylanhsieh.github.io/neon-precinct/)
 
 ## Screenshots
 

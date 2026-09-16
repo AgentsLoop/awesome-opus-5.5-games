@@ -22,6 +22,8 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/gameplay.png)
 - [screenshot 3](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/loadout.png)
 
+- [screenshot 4](https://github.com/Giftedx/wild-haggis-survivors/blob/HEAD/assets/screens/run-start.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

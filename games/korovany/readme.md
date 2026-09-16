@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/yunit00/game-corovans](https://github.com/yunit00/game-corovans)
 - **Evidence:** [creator-reported model evidence](https://github.com/yunit00/game-corovans/blob/main/README.md)
+- **Live demo:** [open demo](https://yunit00.github.io/game-corovans/)
 
 ## Screenshots
 
@@ -21,6 +22,9 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/yunit00/game-corovans/blob/main/docs/screenshots/02-caravan.jpg)
 - [screenshot 3](https://github.com/yunit00/game-corovans/blob/main/docs/screenshots/03-raid.jpg)
 - [screenshot 4](https://github.com/yunit00/game-corovans/blob/main/docs/screenshots/04-crossbow.jpg)
+
+- [screenshot 5](https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/05-world-map.jpg)
+- [screenshot 6](https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/06-mountains.jpg)
 
 ## Model attribution
 

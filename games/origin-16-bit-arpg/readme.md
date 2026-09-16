@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/DFarm6/origin-16bit-arpg](https://github.com/DFarm6/origin-16bit-arpg)
 - **Evidence:** [creator-reported model evidence](https://github.com/DFarm6/origin-16bit-arpg)
+- **Live demo:** [open demo](https://dfarm6.github.io/origin-16bit-arpg/)
 
 ## Screenshots
 

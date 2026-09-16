@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/bridge-mind/apex-formula](https://github.com/bridge-mind/apex-formula)
 - **Evidence:** [direct model evidence](https://github.com/bridge-mind/apex-formula)
+- **Live demo:** [open demo](https://bridge-mind.github.io/apex-formula/)
 
 ## Screenshots
 

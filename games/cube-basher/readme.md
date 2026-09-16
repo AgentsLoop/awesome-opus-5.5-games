@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/mreflow/cube-basher](https://github.com/mreflow/cube-basher)
 - **Evidence:** [creator-reported model evidence](https://github.com/mreflow/cube-basher/blob/main/README.md)
+- **Live demo:** [open demo](https://mreflow.github.io/cube-basher/)
 
 ## Screenshots
 

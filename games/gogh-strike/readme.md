@@ -12,6 +12,8 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/petergpt/gogh-strike](https://github.com/petergpt/gogh-strike)
 - **Evidence:** [creator-reported model evidence](https://github.com/petergpt/gogh-strike)
+- **Live demo:** [open demo](https://gogh-strike.surge.sh/)
+- **Additional live link:** [open demo](https://gogh-strike.petergostev.chatgpt.site/)
 
 ## Screenshots
 

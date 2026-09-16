@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/nunoamorim99/AstroHop](https://github.com/nunoamorim99/AstroHop)
 - **Evidence:** [creator-reported model evidence](https://github.com/nunoamorim99/AstroHop)
+- **Live demo:** [open demo](https://nunoamorim99.github.io/AstroHop/)
 
 ## Screenshots
 

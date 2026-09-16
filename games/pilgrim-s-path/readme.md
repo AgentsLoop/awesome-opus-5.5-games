@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/beneisenberg/pilgrims-path](https://github.com/beneisenberg/pilgrims-path)
 - **Evidence:** [creator-reported model evidence](https://github.com/beneisenberg/pilgrims-path/blob/main/README.md)
+- **Live demo:** [open demo](https://beneisenberg.github.io/pilgrims-path/)
 
 ## Screenshots
 

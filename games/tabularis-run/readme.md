@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/TabularisDB/game](https://github.com/TabularisDB/game)
 - **Evidence:** [creator-reported model evidence](https://github.com/TabularisDB/game)
+- **Live demo:** [open demo](https://game.tabularis.dev)
 
 ## Screenshots
 

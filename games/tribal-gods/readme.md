@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/br3nt/tribal-gods](https://github.com/br3nt/tribal-gods)
 - **Evidence:** [creator-reported model evidence](https://github.com/br3nt/tribal-gods/blob/main/README.md)
+- **Live demo:** [open demo](https://br3nt.github.io/tribal-gods/)
 
 ## Screenshots
 

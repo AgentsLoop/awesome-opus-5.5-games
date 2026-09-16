@@ -19,6 +19,10 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/mariotaku/FruitNinja/blob/main/docs/screenshots/arcade-wide.png)
 
+- [screenshot 2](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu.png)
+- [screenshot 3](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/arcade-frenzy.png)
+- [screenshot 4](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu-wide.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

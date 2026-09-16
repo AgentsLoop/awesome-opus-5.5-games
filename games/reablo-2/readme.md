@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/oeo/reablo-2](https://github.com/oeo/reablo-2)
 - **Evidence:** [direct model evidence](https://github.com/oeo/reablo-2)
+- **Live demo:** [open demo](https://diablo-2-web.fly.dev/)
 
 ## Screenshots
 

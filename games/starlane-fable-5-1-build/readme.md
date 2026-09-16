@@ -21,6 +21,22 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/10-combat-incoming-fire.png)
 - [screenshot 3](https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/04-run-over-summary.png)
 
+- [screenshot 4](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/01-drydock-hangar.png)
+- [screenshot 5](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/02-lane-flight.png)
+- [screenshot 6](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/09-emergency-warp-revive.png)
+- [screenshot 7](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/05-hangar-after-run.png)
+- [screenshot 8](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/06-shipyard.png)
+- [screenshot 9](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/07-loadout.png)
+- [screenshot 10](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/08-missions.png)
+- [screenshot 11](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/01-launch.png)
+- [screenshot 12](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/02-after-play.png)
+- [screenshot 13](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/03-lane-flight.png)
+- [screenshot 14](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/04-combat-carrier.png)
+- [screenshot 15](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/05-weapon-drop-spread.png)
+- [screenshot 16](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/06-formation-and-pickups.png)
+- [screenshot 17](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/07-run-summary-death.png)
+- [screenshot 18](https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/08-shield-broken-hazard.png)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

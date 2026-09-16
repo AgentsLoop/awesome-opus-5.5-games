@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Ayi1337/gpt6-astra-one-shot-games](https://github.com/Ayi1337/gpt6-astra-one-shot-games)
 - **Evidence:** [direct model evidence](https://github.com/Ayi1337/gpt6-astra-one-shot-games#-01--)
+- **Live demo:** [open demo](https://mosswing-quiet-flight.jack-514.chatgpt.site/)
 
 ## Screenshots
 

@@ -22,6 +22,17 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 3](https://github.com/trieuwu/Gnivol/blob/main/imgs/loadingScreen2.png)
 - [screenshot 4](https://github.com/trieuwu/Gnivol/blob/main/imgs/inGame1.png)
 
+- [screenshot 5](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/calling.png)
+- [screenshot 6](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/overlayRefridgerator.png)
+- [screenshot 7](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/optional.png)
+- [screenshot 8](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/youDie.png)
+- [screenshot 9](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/horror.png)
+- [screenshot 10](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/minigame2.png)
+
+## Videos
+
+- [YouTube gameplay video](https://www.youtube.com/watch?v=RPquHDUQExM)
+
 ## Model attribution
 
 Open the evidence link above. Evidence grade: **direct model evidence**.

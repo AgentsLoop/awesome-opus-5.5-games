@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/dgahagan/THORNMERE](https://github.com/dgahagan/THORNMERE)
 - **Evidence:** [creator-reported model evidence](https://github.com/dgahagan/THORNMERE/blob/main/README.md)
+- **Live demo:** [open demo](https://dgahagan.github.io/THORNMERE/)
 
 ## Screenshots
 
@@ -21,6 +22,11 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/dgahagan/THORNMERE/blob/main/docs/screenshots/town-street.png)
 - [screenshot 3](https://github.com/dgahagan/THORNMERE/blob/main/docs/screenshots/signboard.png)
 - [screenshot 4](https://github.com/dgahagan/THORNMERE/blob/main/docs/screenshots/dungeon-corridor.png)
+
+- [screenshot 5](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/combat.png)
+- [screenshot 6](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/adventurers-hall.png)
+- [screenshot 7](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/automap.png)
+- [screenshot 8](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/riddle-door.png)
 
 ## Model attribution
 

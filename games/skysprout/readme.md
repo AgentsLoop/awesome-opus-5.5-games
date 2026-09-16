@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/DUBSOpenHub/skysprout](https://github.com/DUBSOpenHub/skysprout)
 - **Evidence:** [direct model evidence](https://github.com/DUBSOpenHub/skysprout#skysprout)
+- **Live demo:** [open demo](https://dubsopenhub.github.io/skysprout/)
 
 ## Screenshots
 

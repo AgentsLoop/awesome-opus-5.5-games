@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/StarKnightt/operation-ironhold](https://github.com/StarKnightt/operation-ironhold)
 - **Evidence:** [creator-reported model evidence](https://github.com/StarKnightt/operation-ironhold)
+- **Live demo:** [open demo](https://starknightt.github.io/operation-ironhold/)
 
 ## Screenshots
 

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/TonyDowney/kindle](https://github.com/TonyDowney/kindle)
 - **Evidence:** [creator-reported model evidence](https://github.com/TonyDowney/kindle)
+- **Live demo:** [open demo](https://tonydowney.github.io/kindle/)
 
 ## Screenshots
 
@@ -21,6 +22,10 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 2](https://github.com/TonyDowney/kindle/blob/main/docs/shots/02-night.jpg)
 - [screenshot 3](https://github.com/TonyDowney/kindle/blob/main/docs/shots/03-mountain.jpg)
 - [screenshot 4](https://github.com/TonyDowney/kindle/blob/main/docs/shots/04-beacon-dark.jpg)
+
+- [screenshot 5](https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/05-beacon-lit.jpg)
+- [screenshot 6](https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/06-call.jpg)
+- [screenshot 7](https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/08-dawn.jpg)
 
 ## Model attribution
 

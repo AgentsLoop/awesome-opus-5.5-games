@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/LucasMarquesShiva/the-free-game](https://github.com/LucasMarquesShiva/the-free-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/LucasMarquesShiva/the-free-game/blob/main/README.md)
+- **Live demo:** [open demo](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)
 
 ## Screenshots
 

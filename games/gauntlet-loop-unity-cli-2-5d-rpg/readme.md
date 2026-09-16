@@ -12,12 +12,17 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/az9713/gauntlet-loop-unity-cli-demo](https://github.com/az9713/gauntlet-loop-unity-cli-demo)
 - **Evidence:** [directory-method model evidence](https://github.com/az9713/gauntlet-loop-unity-cli-demo)
+- **Live demo:** [open demo](https://claude.ai/code/artifact/f009240e-e3f7-4a28-99f4-6d23643b19a5)
 
 ## Screenshots
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
 - [screenshot 1](https://github.com/az9713/gauntlet-loop-unity-cli-demo/blob/main/demo.gif)
+
+## Videos
+
+- [YouTube gameplay video](https://www.youtube.com/watch?v=BDkrIUU0XCE&t=602s)
 
 ## Model attribution
 

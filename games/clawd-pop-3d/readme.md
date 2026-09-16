@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/VibezZzCoder/clawd-pop](https://github.com/VibezZzCoder/clawd-pop)
 - **Evidence:** [creator-reported model evidence](https://github.com/VibezZzCoder/clawd-pop)
+- **Live demo:** [open demo](https://vibezzzcoder.github.io/clawd-pop/)
 
 ## Screenshots
 

@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/sorrycc/fable-arcade](https://github.com/sorrycc/fable-arcade)
 - **Evidence:** [direct model evidence](https://github.com/sorrycc/fable-arcade#games)
+- **Live demo:** [open demo](https://sorrycc.github.io/fable-arcade/games/mario-1-1/)
 
 ## Screenshots
 

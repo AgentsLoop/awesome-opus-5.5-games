@@ -12,6 +12,7 @@
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/jason-c-dev/iridium-reach-demo](https://github.com/jason-c-dev/iridium-reach-demo)
 - **Evidence:** [directory-method model evidence](https://github.com/jason-c-dev/iridium-reach-demo)
+- **Live demo:** [open demo](https://jason-c-dev.github.io/iridium-reach-demo/)
 
 ## Screenshots
 
