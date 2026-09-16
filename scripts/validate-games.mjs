@@ -8,6 +8,15 @@ const evidenceLevels = new Set(['confirmed', 'confirmed_at_repository_level', 'c
 const qualityCategories = new Set(['curated_games', 'bad_games', 'other_non_games']);
 const lowQualityThreshold = 7;
 const fail = (index, message) => errors.push(`record ${index + 1}: ${message}`);
+const urlFields = ['live_demo_urls', 'screenshot_urls', 'youtube_urls'];
+const canonicalUrl = (value) => {
+  try {
+    const url = new URL(value);
+    return `${url.protocol}//${url.host}${url.pathname.replace(/\/+$/, '') || '/'}${url.search}`;
+  } catch {
+    return value;
+  }
+};
 
 for (const [index, record] of records.entries()) {
   for (const field of required) {
@@ -29,6 +38,17 @@ for (const [index, record] of records.entries()) {
   if (!Number.isFinite(record.quality_estimate_10) || record.quality_estimate_10 < 0 || record.quality_estimate_10 > 10) fail(index, 'quality_estimate_10 must be between 0 and 10');
   if (!Number.isFinite(record.flops_estimate_raw) || record.flops_estimate_raw <= 0) fail(index, 'flops_estimate_raw must be positive');
   if (!Object.hasOwn(record, 'prompt')) fail(index, 'missing prompt field');
+  for (const field of urlFields) {
+    if (record[field] === undefined) continue;
+    if (!Array.isArray(record[field])) {
+      fail(index, `${field} must be an array when present`);
+      continue;
+    }
+    const values = record[field];
+    if (values.some((value) => typeof value !== 'string' || !/^https:\/\/.+/.test(value))) fail(index, `${field} must contain HTTPS URLs`);
+    if (new Set(values.map(canonicalUrl)).size !== values.length) fail(index, `${field} contains duplicate URLs`);
+  }
+  if (record.youtube_urls?.some((url) => !/(?:youtube\.com\/watch\?|youtu\.be\/)/i.test(url))) fail(index, 'youtube_urls must contain YouTube video URLs');
   if (!qualityCategories.has(record.quality_category)) fail(index, `invalid quality_category: ${record.quality_category}`);
   if (record.is_independent_game && (typeof record.prompt !== 'string' || !record.prompt.trim())) fail(index, 'independent game prompt must be non-empty');
   if (!record.is_independent_game && record.prompt !== null) fail(index, 'non-game prompt must be null');

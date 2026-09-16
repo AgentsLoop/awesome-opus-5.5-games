@@ -15,3 +15,8 @@
 - Mark projects found in Reddit, X, itch.io, or other sources in `discovery_sources`.
 - Keep `games.json` valid JSON.
 - Update existing records instead of creating duplicates.
+- Mirror every verified README link refresh into the matching `games.json` record in the same change.
+- Keep `live_demo_url` as the backward-compatible primary URL; store every additional verified playable URL in `live_demo_urls` and deduplicate the arrays.
+- Store verified YouTube gameplay links in a `youtube_urls` array and keep every verified screenshot link in `screenshot_urls`.
+- Reject dead, placeholder, documentation, development-only, and unrelated author links before recording them.
+- Run `node scripts/validate-games.mjs` after every dataset edit and keep the note generator aligned with every media field.

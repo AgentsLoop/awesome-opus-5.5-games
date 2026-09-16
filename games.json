@@ -189,7 +189,9 @@
     "evidence_url": "https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472",
     "screenshot_urls": [
       "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif",
-      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md"
+      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md",
+      "https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png",
+      "https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/15_FOUND_CITY_pair.png"
     ],
     "technology": [
       "C++17",
@@ -719,7 +721,8 @@
     "screenshot_urls": [
       "https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/main-menu.png",
       "https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/gameplay.png",
-      "https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/loadout.png"
+      "https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/loadout.png",
+      "https://github.com/Giftedx/wild-haggis-survivors/blob/HEAD/assets/screens/run-start.png"
     ],
     "technology": [
       "Phaser 4",
@@ -1261,7 +1264,12 @@
     "live_demo_url": "https://kolatts.github.io/beyond-boring-death-march/",
     "evidence_url": "https://github.com/kolatts/beyond-boring-death-march/commit/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170",
     "screenshot_urls": [
-      "https://github.com/kolatts/beyond-boring-death-march/blob/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170/docs/screenshots/title.png"
+      "https://github.com/kolatts/beyond-boring-death-march/blob/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170/docs/screenshots/title.png",
+      "https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/cab-crossing.png",
+      "https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/death.png",
+      "https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/loop-builder.png",
+      "https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/night-watch.png",
+      "https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/trail.png"
     ],
     "technology": [
       "Phaser 3",
@@ -2468,7 +2476,10 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/mariotaku/FruitNinja/commit/cf122460af20120b3d6ece014f34b74b7e4930a2",
     "screenshot_urls": [
-      "https://github.com/mariotaku/FruitNinja/blob/main/docs/screenshots/arcade-wide.png"
+      "https://github.com/mariotaku/FruitNinja/blob/main/docs/screenshots/arcade-wide.png",
+      "https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/arcade-frenzy.png",
+      "https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu-wide.png",
+      "https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu.png"
     ],
     "technology": [
       "SDL2",
@@ -2726,7 +2737,8 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/ferranrigual/raylib-clicker/commit/d84c0142bd0547dc5f8cf7afc73a4219b24981a9",
     "screenshot_urls": [
-      "https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png"
+      "https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png",
+      "https://github.com/ferranrigual/raylib-clicker/blob/HEAD/screenshots/early_game.png"
     ],
     "technology": [
       "raylib Python bindings",
@@ -3313,7 +3325,10 @@
     "prompt": "Rebuild \"Pocket Bomber\" as a complete, playable game using LÖVE 2D 11.5, Lua, Native desktop, iOS.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README describes a complete Love2D Bomberman-style action game with five levels, three enemy types, bombs, explosions, high scores, touch controls and iOS deployment. Source contains player, bombs, enemies, explosions, grid, levels, game states, save, UI and touch controls. The repository includes a preview GIF and the cited commit shows a direct Claude Opus 4.5 trailer.\n\nUse Claude Opus 4.5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=B8cRapWSGeI"
+    ]
   },
   {
     "name": "Mind The Tower",
@@ -4376,7 +4391,13 @@
     "prompt": "Rebuild \"Warehouse FPS\" as a complete, playable game using Three.js, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The repository is a recipe plus a real Warehouse FPS example; GAME.md contains the adapted Claude of Duty Gauntlet prompt.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/404-Repo/404-game-recipe/tree/main/example/warehouse-fps and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/404-Repo/404-game-recipe/tree/main/example/warehouse-fps",
-    "quality_category": "bad_games"
+    "quality_category": "bad_games",
+    "live_demo_url": "https://404-repo.github.io/warehouse-fps/",
+    "screenshot_urls": [
+      "https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-after.png",
+      "https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-before.png",
+      "https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/verify-sheet.png"
+    ]
   },
   {
     "name": "Sunset Flap",
@@ -4923,7 +4944,12 @@
     "prompt": "Rebuild \"Fable Flight\" as a complete, playable game using HTML, JavaScript, Three.js.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README, single-file source, and live page contain a scored browser flight trainer with voice instructor, circuits, terrain, night flying, and failures; description attributes it to Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Arnie016/flight-simulator-fable5/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Arnie016/flight-simulator-fable5/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://arnie016.github.io/flight-simulator-fable5/",
+      "https://flight-sim-sandy.vercel.app"
+    ],
+    "live_demo_url": "https://arnie016.github.io/flight-simulator-fable5/"
   },
   {
     "name": "Neon Arena",
@@ -5003,7 +5029,8 @@
     "prompt": "Rebuild \"Tether\" as a complete, playable game using HTML, JavaScript, Canvas 2D.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable grapple-swing precision platformer with 19 levels, three worlds, bosses, and GitHub Pages; creator Reddit source attributes the game to Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Barabosik/tether-demo and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Barabosik/tether-demo",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://barabosik.github.io/tether-demo"
   },
   {
     "name": "Farm Game",
@@ -5239,7 +5266,8 @@
     "prompt": "Rebuild \"DRIFTLANDS\" as a complete, playable game using Three.js, JavaScript, Vite.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable 2.5-D rally game; README records 27 Gauntlet Loop rounds and links to the live deployment.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/DEADover/DRIFTLANDS and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/DEADover/DRIFTLANDS",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://deadover.github.io/DRIFTLANDS/"
   },
   {
     "name": "Origin 16-bit ARPG",
@@ -5277,7 +5305,8 @@
     "prompt": "Rebuild \"Origin 16-bit ARPG\" as a complete, playable game using HTML, JavaScript, Canvas 2D.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable browser action RPG with classes, combat, skills, items, bosses, quests, and GitHub Pages deployment; README names Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/DFarm6/origin-16bit-arpg and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/DFarm6/origin-16bit-arpg",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://dfarm6.github.io/origin-16bit-arpg/"
   },
   {
     "name": "VESPER: The Hollow Earth",
@@ -5491,7 +5520,8 @@
     "prompt": "Rebuild \"Starfall Scavenger\" as a complete, playable game using Canvas 2D, JavaScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable browser roguelite survivors game with four-act campaign, bosses, upgrades, controls, GitHub Pages play link, and explicit Opus 5 repository attribution.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Hanazar-Games/claude-opus5-aigc-webgame-project and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Hanazar-Games/claude-opus5-aigc-webgame-project",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://hanazar-games.github.io/claude-opus5-aigc-webgame-project/"
   },
   {
     "name": "Super Fable Bros. — World 1-1",
@@ -5574,7 +5604,8 @@
     "prompt": "Rebuild \"CUSTOMS — Escape Raid\" as a complete, playable game using HTML, JavaScript, Canvas 2D.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable extraction shooter with hideout, raid, AI, ballistics, extraction, persistence, controls, tests, and explicit Fable 5.1 authorship.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/INONONO66/tarkov-customs and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/INONONO66/tarkov-customs",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://inonono66.github.io/tarkov-customs/"
   },
   {
     "name": "Dragon Quest-style RPG Game 3",
@@ -5847,7 +5878,8 @@
     "prompt": "Rebuild \"Mainspring\" as a complete, playable game using JavaScript, HTML, Canvas.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README, src, tests, and build files contain a playable clockwork engine-building roguelike with gear-loop rules and progression; README attributes it to Claude Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Kelevera/mainspring/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Kelevera/mainspring/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://kelevera.github.io/mainspring/"
   },
   {
     "name": "Claude of Tanks",
@@ -6262,7 +6294,17 @@
     "prompt": "Rebuild \"Embervale\" as a complete, playable game using HTML5 Canvas, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Complete Zelda-like browser action adventure with controls, story, screenshots, and playable GitHub Pages build; README attributes it to Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/NicholasAryelFerreira/embervale and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/NicholasAryelFerreira/embervale",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://nicholasaryelferreira.github.io/embervale/",
+    "screenshot_urls": [
+      "https://github.com/NicholasAryelFerreira/embervale/blob/HEAD/screenshots/05-shop.png",
+      "https://github.com/NicholasAryelFerreira/embervale/blob/HEAD/screenshots/06-graveyard-secret.png",
+      "https://github.com/NicholasAryelFerreira/embervale/blob/HEAD/screenshots/07-dark-halls.png",
+      "https://github.com/NicholasAryelFerreira/embervale/blob/HEAD/screenshots/08-royal-slime.png",
+      "https://github.com/NicholasAryelFerreira/embervale/blob/HEAD/screenshots/09-gloom-knight.png",
+      "https://github.com/NicholasAryelFerreira/embervale/blob/HEAD/screenshots/10-fairy-spring.png",
+      "https://github.com/NicholasAryelFerreira/embervale/blob/HEAD/screenshots/11-victory.png"
+    ]
   },
   {
     "name": "Frosty Tactics",
@@ -6301,7 +6343,8 @@
     "prompt": "Rebuild \"Frosty Tactics\" as a complete, playable game using HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and browser source contain a playable tactics game with the Runic Blade theme; README names Fable 5 in the project title and description.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Ninaji/Frosty-Tatics/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Ninaji/Frosty-Tatics/blob/main/README.md",
-    "quality_category": "bad_games"
+    "quality_category": "bad_games",
+    "live_demo_url": "https://ninaji.github.io/Frosty-Tatics/"
   },
   {
     "name": "BLOCKS",
@@ -6340,7 +6383,8 @@
     "prompt": "Rebuild \"BLOCKS\" as a complete, playable game using Three.js, JavaScript, WebGL, Blender.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable third-person open-world browser game with vehicles, shooting, police chase, missions, controls, tests, and explicit Fable 5.1 build history.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Nipale-ai/blocks-openworld and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Nipale-ai/blocks-openworld",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://nipale-ai.github.io/blocks-openworld/spiel/"
   },
   {
     "name": "NEON WARDEN",
@@ -6392,7 +6436,11 @@
     "prompt": "Rebuild \"NEON WARDEN\" as a complete, playable game using Three.js, GLTFLoader, WebGL, HTML, JavaScript, Blender, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README documents a self-contained 3D browser game with a floating arena, mech movement, mouse aiming, cannon fire, phase dash, ten hostile waves, cores, upgrades, generated assets, audio and video. It explicitly identifies Claude Fable 5.1, a one-prompt 24-minute build, Three.js/GLTFLoader/UnrealBloom, Playwright wave tests and a public demo. Browser verification opened the game, showed the deploy screen and started Wave 1 with hull, hostiles, score, cores, controls and objective HUD.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Nipale-ai/fable-5-1-one-prompt-game/tree/main/fable and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "source_linked_plus_reverse_engineered",
     "prompt_evidence_url": "https://github.com/Nipale-ai/fable-5-1-one-prompt-game/tree/main/fable",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://nipale-ai.github.io/fable-5-1-one-prompt-game/fable/",
+      "https://nipale-ai.github.io/fable-5-1-one-prompt-game/"
+    ]
   },
   {
     "name": "NeonBeat",
@@ -6470,7 +6518,10 @@
     "prompt": "Rebuild \"Fable City GTA\" as a complete, playable game using Three.js, Vite, TypeScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable GTA-style 3D browser driving and mayhem game with source controls and Three.js stack; repository description names Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Octavious/Fable5_GTA and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Octavious/Fable5_GTA",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=18jSTSfxMWQ"
+    ]
   },
   {
     "name": "COD Fable",
@@ -6622,7 +6673,10 @@
     "prompt": "Rebuild \"Steamed Hams: The Game\" as a complete, playable game using Python, Pygame.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and Python source contain an NES-style platformer with levels and controls; repository name and description identify Claude Opus 4.6.\n\nUse Claude Opus 4.6 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=D1ZPGGbrBQs"
+    ]
   },
   {
     "name": "VibePinball",
@@ -6817,7 +6871,8 @@
     "prompt": "Rebuild \"Operation Ironhold\" as a complete, playable game using Three.js, HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this as a Gauntlet Loop game. The README verifies a single-file browser FPS with gameplay controls.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/StarKnightt/operation-ironhold and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/StarKnightt/operation-ironhold",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://starknightt.github.io/operation-ironhold/"
   },
   {
     "name": "Claude of Duty — Student-Thiago fork",
@@ -6895,7 +6950,8 @@
     "prompt": "Rebuild \"Deephaul\" as a complete, playable game using Three.js, TypeScript, Node.js, WebRTC.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable cooperative first-person scavenging game with seven moons, creatures, quota loop, browser deployment, tests, and Opus 5 in the repository identity.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/TESTYEE-09/Deephaul-opus5- and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/TESTYEE-09/Deephaul-opus5-",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://testyee-09.github.io/Deephaul-opus5-/"
   },
   {
     "name": "Tabularis Run",
@@ -6933,7 +6989,8 @@
     "prompt": "Rebuild \"Tabularis Run\" as a complete, playable game using Canvas 2D, Web Audio API, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable browser platformer with controls and a Super Mario-style loop; README documents a Fable 5 build and source/blog evidence.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/TabularisDB/game and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/TabularisDB/game",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://game.tabularis.dev"
   },
   {
     "name": "Afterglow",
@@ -7145,7 +7202,13 @@
     "prompt": "Rebuild \"KINDLE\" as a complete, playable game using WebGL2, HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this as a Gauntlet Loop game. The README verifies a playable WebGL2 tiny-planet exploration game with controls.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/TonyDowney/kindle and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/TonyDowney/kindle",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://tonydowney.github.io/kindle/",
+    "screenshot_urls": [
+      "https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/05-beacon-lit.jpg",
+      "https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/06-call.jpg",
+      "https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/08-dawn.jpg"
+    ]
   },
   {
     "name": "VoxelCraft",
@@ -7302,7 +7365,8 @@
     "prompt": "Rebuild \"Clawd Pop 3D\" as a complete, playable game using Three.js, JavaScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this as a Gauntlet Loop game. The README verifies a public-beta 3-D FPS with playable controls.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/VibezZzCoder/clawd-pop and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/VibezZzCoder/clawd-pop",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://vibezzzcoder.github.io/clawd-pop/"
   },
   {
     "name": "3D Game Vision Benchmark",
@@ -7497,7 +7561,11 @@
     "prompt": "Rebuild \"DEV QUEST\" as a complete, playable game using Phaser, JavaScript, Canvas 2D.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable Phaser action game with four waves, bosses, skills, controls, screenshots, and explicit Claude Fable 5.1 build attribution.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/agutierrezclab/dev-quest and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/agutierrezclab/dev-quest",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://dev-quest-nu.vercel.app/",
+    "screenshot_urls": [
+      "https://github.com/agutierrezclab/dev-quest/blob/HEAD/docs/screens/wave4_deploy.png"
+    ]
   },
   {
     "name": "Claude of Duty — aheermohsinse fork",
@@ -7576,7 +7644,8 @@
     "prompt": "Rebuild \"Fable Katamari\" as a complete, playable game using JavaScript, Vite, Three.js.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README, source, docs, and live app describe a playable browser Katamari-style game with object absorption and world-scale progression; README identifies Fable 5 as the builder.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/aieo-product/fableDemoGame/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/aieo-product/fableDemoGame/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://fable-katamari.pages.dev"
   },
   {
     "name": "ASHFALL",
@@ -7746,7 +7815,8 @@
     "prompt": "Rebuild \"Age of Ops (Age of Ops, Gran Mayhem)\" as a complete, playable game using HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README names two dated games, Age of Ops and Gran Mayhem; both have separate browser source folders and a live games page, and the repository attributes them to one Claude Fable prompt.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/antebm/fabled-games/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/antebm/fabled-games/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://antebm.github.io/fabled-games/"
   },
   {
     "name": "Sudoku",
@@ -8017,7 +8087,11 @@
     "prompt": "Rebuild \"Gauntlet Loop × Unity CLI — 2.5D RPG\" as a complete, playable game using Unity, C#.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable 2.5-D village RPG with a gameplay video, source, 17 build rounds, and five harsh-critic passes.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/az9713/gauntlet-loop-unity-cli-demo and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/az9713/gauntlet-loop-unity-cli-demo",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://claude.ai/code/artifact/f009240e-e3f7-4a28-99f4-6d23643b19a5",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=BDkrIUU0XCE&t=602s"
+    ]
   },
   {
     "name": "Ember Tactics",
@@ -8096,7 +8170,8 @@
     "prompt": "Rebuild \"Pilgrim's Path\" as a complete, playable game using HTML, JavaScript, Canvas.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README, index.html, and live page implement a playable 2D study game with questions and progression; README says it was designed with Claude Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/beneisenberg/pilgrims-path/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/beneisenberg/pilgrims-path/blob/main/README.md",
-    "quality_category": "bad_games"
+    "quality_category": "bad_games",
+    "live_demo_url": "https://beneisenberg.github.io/pilgrims-path/"
   },
   {
     "name": "FireRed RPG",
@@ -8173,7 +8248,8 @@
     "prompt": "Rebuild \"Tribal Gods\" as a complete, playable game using TypeScript, Three.js.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README, SPEC.md, source, and live page describe a playable Three.js god game with terrain, simulation, camera, and animation; README identifies Claude Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/br3nt/tribal-gods/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/br3nt/tribal-gods/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://br3nt.github.io/tribal-gods/"
   },
   {
     "name": "Apex Formula",
@@ -8211,7 +8287,8 @@
     "prompt": "Rebuild \"Apex Formula\" as a complete, playable game using Three.js, TypeScript, WebGL.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Full browser Formula 1 game with circuits, AI, physics, race weekend, tests, and explicit Fable 5.1 plus sub-agent attribution.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/bridge-mind/apex-formula and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/bridge-mind/apex-formula",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://bridge-mind.github.io/apex-formula/"
   },
   {
     "name": "Turbo Kart Rush",
@@ -8298,7 +8375,8 @@
     "prompt": "Rebuild \"Claude of Duty\" as a complete, playable game using Three.js, TypeScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this as a Gauntlet Loop game. The README specifies a runnable Three.js FPS, controls, enemies, waves, and deterministic AI game runs.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/brynary/claude-of-duty and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/brynary/claude-of-duty",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://brynary.github.io/claude-of-duty/?bot=push&skill=average&seed=1337&run=90&quality=high&autostart=1&perf=1"
   },
   {
     "name": "Deck Shenanigans",
@@ -8337,7 +8415,15 @@
     "prompt": "Rebuild \"Deck Shenanigans\" as a complete, playable game using TypeScript, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Repository description and TypeScript source contain a playable card-guessing game written by Claude Code with Claude Opus 5.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/burakTanBilgi/deck-shenanigans and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/burakTanBilgi/deck-shenanigans",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://deck-shenanigans.vercel.app",
+      "https://deck-shenanigans.vercel.app/deck"
+    ],
+    "live_demo_url": "https://deck-shenanigans.vercel.app",
+    "screenshot_urls": [
+      "https://github.com/burakTanBilgi/deck-shenanigans/blob/HEAD/docs/screenshots/deck-riso-noir.webp"
+    ]
   },
   {
     "name": "Perielio",
@@ -8568,7 +8654,12 @@
     "prompt": "Rebuild \"Dune Browser Game\" as a complete, playable game using Three.js, React, TypeScript, Vite.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Real browser strategy game with live GitHub Pages links; repo contains a game-specific Gauntlet Loop operating prompt and completion evidence.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/cocodedk/Dune-Browser-Game/blob/main/docs/PRD/game-completion/09-gauntlet-prompt.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/cocodedk/Dune-Browser-Game/blob/main/docs/PRD/game-completion/09-gauntlet-prompt.md",
-    "quality_category": "bad_games"
+    "quality_category": "bad_games",
+    "live_demo_urls": [
+      "https://cocodedk.github.io/Dune-Browser-Game/",
+      "https://cocodedk.github.io/Dune-Browser-Game/fa/"
+    ],
+    "live_demo_url": "https://cocodedk.github.io/Dune-Browser-Game/"
   },
   {
     "name": "Coro Solto",
@@ -8645,7 +8736,8 @@
     "prompt": "Rebuild \"Sakura — Petals of the Everblossom\" as a complete, playable game using Three.js, JavaScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this game. The README confirms a Claude subagent-and-critic build process and a playable browser idle game with progression, upgrades, events, and controls.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/danmana/sakura-idle and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/danmana/sakura-idle",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://sakura-idle.vercel.app"
   },
   {
     "name": "Claude of Duty — dataops95 fork",
@@ -8763,7 +8855,14 @@
     "prompt": "Rebuild \"THORNMERE: The Founding Song\" as a complete, playable game using JavaScript, Canvas, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README, src, data, tests, and live HTML implement a playable first-person dungeon crawler with maze rendering, enemies, items, and audio; README attributes it to Claude Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/dgahagan/THORNMERE/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/dgahagan/THORNMERE/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://dgahagan.github.io/THORNMERE/",
+    "screenshot_urls": [
+      "https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/adventurers-hall.png",
+      "https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/automap.png",
+      "https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/combat.png",
+      "https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/riddle-door.png"
+    ]
   },
   {
     "name": "Claude of Duty — doctadg fork",
@@ -8956,7 +9055,8 @@
     "prompt": "Rebuild \"Neon Precinct\" as a complete, playable game using Three.js, JavaScript, WebGL.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable first-person cyberpunk exploration game; README links the build to a blind-critic Gauntlet Loop and records the score.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/dylanhsieh/neon-precinct and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/dylanhsieh/neon-precinct",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://dylanhsieh.github.io/neon-precinct/"
   },
   {
     "name": "Whirlwind Ascension",
@@ -8995,7 +9095,8 @@
     "prompt": "Rebuild \"Whirlwind Ascension\" as a complete, playable game using Three.js, HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this as a Gauntlet Loop game. The README verifies a browser isometric action-RPG with movement and combat controls.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/dylanhsieh/whirlwind-ascension and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/dylanhsieh/whirlwind-ascension",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://dylanhsieh.github.io/whirlwind-ascension/"
   },
   {
     "name": "GemMatch",
@@ -9071,7 +9172,8 @@
     "prompt": "Rebuild \"Starfall\" as a complete, playable game using Three.js, TypeScript, Vite.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable Homeworld-style browser RTS; repo prompt adapts Matt Shumer's one-shot prompt with fan-out agents and critic loops.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/e01-ai/starfall/blob/main/prompt.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/e01-ai/starfall/blob/main/prompt.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://e01.ai/starfall/"
   },
   {
     "name": "Sands of the Restless",
@@ -9188,7 +9290,8 @@
     "prompt": "Rebuild \"Sonar Maze\" as a complete, playable game using HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and HTML source contain a playable maze game where the player uses sonar to navigate and avoid enemies; README says Claude Opus 5 created it from one prompt.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/endurovojta173/Sonar_Maze_Profiq_Contest/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/endurovojta173/Sonar_Maze_Profiq_Contest/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://endurovojta173.github.io/Sonar_Maze_Profiq_Contest/"
   },
   {
     "name": "Claude of Duty — Remake",
@@ -9265,7 +9368,8 @@
     "prompt": "Rebuild \"Operation Blackout\" as a complete, playable game using Three.js, WebGL, JavaScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable browser FPS with controls, weapons, AI, procedural PBR pipeline, tests, and Opus 5 repository identity.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/erekjiang/call-of-duty-opus5 and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/erekjiang/call-of-duty-opus5",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://call-of-duty-opus5.vercel.app"
   },
   {
     "name": "DUSTMAKER",
@@ -9419,7 +9523,8 @@
     "prompt": "Rebuild \"Ink Rogue\" as a complete, playable game using Canvas 2D, HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable 2D class roguelike with four classes, rooms, enemies, upgrades, skills, controls, mobile UI, and Fable 5.1 attribution.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/evan-thedev/ink-rogue and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/evan-thedev/ink-rogue",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://evan-thedev.github.io/ink-rogue/"
   },
   {
     "name": "Bubble Wrap Simulator",
@@ -9459,7 +9564,8 @@
     "prompt": "Rebuild \"Bubble Wrap Simulator\" as a complete, playable game using Three.js, React, Rapier, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable first-person Three.js simulator with nine tools, targets, physics, controls, gameplay recording, and catalog-linked Astra discovery.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/finktheartist/bubble-wrap-simulator and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/finktheartist/bubble-wrap-simulator",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://bubble-wrap-simulator.vercel.app"
   },
   {
     "name": "Forest Pests",
@@ -9498,7 +9604,8 @@
     "prompt": "Rebuild \"Forest Pests\" as a complete, playable game using TypeScript, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Repository description and TypeScript source contain a Space Invaders-inspired game written by Claude Opus 4.5.\n\nUse Claude Opus 4.5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/fjzeit/forest-pests and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/fjzeit/forest-pests",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://fjzeit.github.io/arcade/forest-pests/"
   },
   {
     "name": "Clay Kart",
@@ -9802,7 +9909,8 @@
     "prompt": "Rebuild \"Iridium Reach\" as a complete, playable game using Three.js, JavaScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Repository README explicitly says the cockpit space-shooter was built by an AI-agent Gauntlet Loop and provides a playable demo.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/jason-c-dev/iridium-reach-demo and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/jason-c-dev/iridium-reach-demo",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://jason-c-dev.github.io/iridium-reach-demo/"
   },
   {
     "name": "Trading Card Game Fable5",
@@ -9896,7 +10004,8 @@
     "prompt": "Rebuild \"No AI's Sky\" as a complete, playable game using Three.js, Vite, JavaScript, WebGL.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and creator Reddit post describe a playable browser experiment with procedural universes, flight, atmospheric landing, on-foot exploration, scanning, optional combat, and a live demo. The creator directly reports building it with GPT-6 Astra and Three.js; the Reddit post was published today.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/jesuscurreripa/noaissky/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/jesuscurreripa/noaissky/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://noaissky.vercel.app"
   },
   {
     "name": "Verdium Storm",
@@ -10047,7 +10156,10 @@
     "prompt": "Rebuild \"APEX GP\" as a complete, playable game using Three.js, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable procedural Formula 1 racing game; README reports 137 agents, blind critics, and ten Gauntlet Loop rounds.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/jolbol1/apex-gp and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/jolbol1/apex-gp",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "screenshot_urls": [
+      "https://github.com/jolbol1/apex-gp/blob/HEAD/docs/img/ship-wide.jpg"
+    ]
   },
   {
     "name": "Claude of Duty: Strike of the Boney Biker Bros",
@@ -10160,7 +10272,12 @@
     "prompt": "Rebuild \"Claude\\Zombies\" as a complete, playable game using Three.js, TypeScript, WebGL2, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this game. The README verifies a public, round-based browser zombie-survival FPS with combat, currency, upgrades, controls, rules, and a live demo.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/justinw916-sketch/claude-zombies and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/justinw916-sketch/claude-zombies",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://claude-zombies.pages.dev/",
+      "https://zombies.jwhitton.com/"
+    ],
+    "live_demo_url": "https://claude-zombies.pages.dev/"
   },
   {
     "name": "Vibe Pixel Rally",
@@ -10239,7 +10356,8 @@
     "prompt": "Rebuild \"Emberwood\" as a complete, playable game using HTML, Canvas, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Repository description and single-file Canvas source contain a playable Zelda-like top-down adventure with no external assets; description attributes it to Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/karamvirr/fable5-canvas-game and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/karamvirr/fable5-canvas-game",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://karamvirr.github.io/fable5-canvas-game/"
   },
   {
     "name": "Hollow Pines",
@@ -10468,7 +10586,8 @@
     "prompt": "Rebuild \"Beyond Boring: The Game\" as a complete, playable game using Three.js, TypeScript, Vite.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable browser voxel platformer with eight levels, controls, Three.js/Vite source, and explicit single-prompt Fable 5 attribution.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/kolatts/beyond-boring-the-game and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/kolatts/beyond-boring-the-game",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://kolatts.github.io/beyond-boring-the-game/"
   },
   {
     "name": "Fable Sandbox",
@@ -10695,7 +10814,17 @@
     "prompt": "Rebuild \"World of ClaudeCraft\" as a complete, playable game using Three.js, JavaScript, WebGL.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Complete browser MMO with quests, classes, dungeons, raids, Three.js, and live site; Reddit creator source attributes it to Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/levy-street/world-of-claudecraft and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/levy-street/world-of-claudecraft",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://worldofclaudecraft.com/",
+    "screenshot_urls": [
+      "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/amberfall-road.jpg",
+      "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/frostveil-reach-village.jpg",
+      "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/live-world-crowd.jpg",
+      "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/palmreach-rift-warnings.jpg",
+      "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-marsh_rain.jpg",
+      "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg",
+      "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-vale_clear.jpg"
+    ]
   },
   {
     "name": "Bomberman Clone",
@@ -10733,7 +10862,8 @@
     "prompt": "Rebuild \"Bomberman Clone\" as a complete, playable game using HTML5 Canvas, JavaScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable browser Bomberman game with campaign and versus modes, touch controls, PWA support, and Fable 5.1 repository attribution.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/lifeofnicolas/bomberman-clone and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/lifeofnicolas/bomberman-clone",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://lifeofnicolas.github.io/bomberman-clone/"
   },
   {
     "name": "Grid Wars",
@@ -10851,7 +10981,8 @@
     "prompt": "Rebuild \"Codex of Duty\" as a complete, playable game using Three.js, Rapier, JavaScript, WebGL2.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this as a Gauntlet Loop game. The README verifies a public Three.js FPS with game objectives, tactical AI, weapons, controls, and a live GitHub Pages build.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/luongnv89/codex-of-duty and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/luongnv89/codex-of-duty",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://luongnv89.github.io/codex-of-duty/"
   },
   {
     "name": "Flappy Bird Opus 4.7",
@@ -11086,7 +11217,11 @@
     "prompt": "Rebuild \"Leonida Stories 3D\" as a complete, playable game using Three.js, JavaScript, Cannon-es, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable open-world browser crime game with vehicle physics, missions, AI, wanted system, controls, tests, and explicit Fable 5.1 attribution.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/marvijo-code/leonida-stories-3d and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/marvijo-code/leonida-stories-3d",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=DnnMnQjyBkg",
+      "https://www.youtube.com/watch?v=hhbCLvs7ZP0"
+    ]
   },
   {
     "name": "Claude of Duty — matheusinhofreitas fork",
@@ -11295,7 +11430,8 @@
     "prompt": "Rebuild \"The Mysterious Castle\" as a complete, playable game using HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and browser source contain a playable text adventure with branching choices; repository description identifies Claude Opus as the creation tool.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/mike-snodgrass/text-adventure-game and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/mike-snodgrass/text-adventure-game",
-    "quality_category": "bad_games"
+    "quality_category": "bad_games",
+    "live_demo_url": "https://mike-snodgrass.github.io/text-adventure-game/"
   },
   {
     "name": "ZOF//DUTY",
@@ -11411,7 +11547,8 @@
     "prompt": "Rebuild \"Cube Basher\" as a complete, playable game using HTML, JavaScript, Three.js.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and index.html contain a playable 3D survivors-like game with weapons, enemies, bosses, controls, and progression; README attributes the build to Claude Fable.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/mreflow/cube-basher/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/mreflow/cube-basher/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://mreflow.github.io/cube-basher/"
   },
   {
     "name": "Koroba 006",
@@ -11643,7 +11780,12 @@
     "prompt": "Rebuild \"Joyride\" as a complete, playable game using Three.js, JavaScript, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable open-world driving sandbox with vehicle theft, traffic, crash loop, physics, controls, capture harness, and explicit Fable 5.1 build record.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/nitzangames/joyride and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/nitzangames/joyride",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://nitzan.games/OneShotGTA.html",
+      "https://nitzan.games/experiments/one-shot-gta/fable-xhigh/index.html"
+    ],
+    "live_demo_url": "https://nitzan.games/OneShotGTA.html"
   },
   {
     "name": "AstroHop",
@@ -11683,7 +11825,8 @@
     "prompt": "Rebuild \"AstroHop\" as a complete, playable game using JavaScript, Phaser 3, Vite.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Repository description identifies a playable Phaser platformer and a Claude Fable 5 capability experiment; source and Vite files were present at verification.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/nunoamorim99/AstroHop and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/nunoamorim99/AstroHop",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://nunoamorim99.github.io/AstroHop/"
   },
   {
     "name": "AstraCraft",
@@ -11796,7 +11939,8 @@
     "prompt": "Rebuild \"Reablo 2\" as a complete, playable game using TypeScript, Canvas 2D, Bun, WebSocket.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable browser action RPG with accounts, characters, items, combat, co-op, tests, and explicit one-shot Claude Fable 5.1 history.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/oeo/reablo-2 and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/oeo/reablo-2",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://diablo-2-web.fly.dev/"
   },
   {
     "name": "Murmur",
@@ -11966,7 +12110,8 @@
     "prompt": "Rebuild \"Renderwolf Chart Toppers (Purrfect Logic, Combo Grid, Carnival Cannon Crush, Slide & Exit, Starlight Peaks, Star Gulp, Vector Vacate, Perfect Season Draft, Bluff Circle, Drift Away Arrows, Sudden Death Strikers, Last Keep, Seaside Scoop, Circle Down, Blocky Obby Dash)\" as a complete, playable game using HTML, JavaScript, Canvas 2D.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README documents fifteen touch-first playable web prototypes and states that Claude Fable 5 generated the game code.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/pawanp3/renderwolf-fable5-chart-toppers and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/pawanp3/renderwolf-fable5-chart-toppers",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://pawanp3.github.io/renderwolf-fable5-chart-toppers/"
   },
   {
     "name": "Gogh Strike",
@@ -12005,7 +12150,12 @@
     "prompt": "Rebuild \"Gogh Strike\" as a complete, playable game using Three.js, WebGL, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable six-versus-six browser shooter with bots, weapons, controls, screenshots, and live demo; Astra attribution is recorded in the catalog trail.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/petergpt/gogh-strike and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/petergpt/gogh-strike",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://gogh-strike.petergostev.chatgpt.site/",
+      "https://gogh-strike.surge.sh/"
+    ],
+    "live_demo_url": "https://gogh-strike.petergostev.chatgpt.site/"
   },
   {
     "name": "Claude of Duty — playdrop-ai fork",
@@ -12238,7 +12388,8 @@
     "prompt": "Rebuild \"Sunset Hollow\" as a complete, playable game using TypeScript, Three.js, Vite.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and TypeScript source contain a playable browser zombie-wave survival game with objectives, waves, and controls; repository description names Claude Opus 5.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/sajalrajhans1/Sunset-Down/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/sajalrajhans1/Sunset-Down/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://sunset-down.vercel.app/"
   },
   {
     "name": "Pocket Soccer",
@@ -12514,7 +12665,17 @@
     "prompt": "Rebuild \"Claude Fable 5 3D Games (Star Runner, Airlock Escape, Cargo Crane, Aurora Sea, Swarm, Drone Arena, Flip Wall)\" as a complete, playable game using Three.js, cannon-es, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Repository README identifies seven browser-playable games, Three.js/cannon-es implementation, tests, and Fable-only development.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/shironagasu-ai/claude-fable5-3D-games and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/shironagasu-ai/claude-fable5-3D-games",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/airlock-escape/",
+      "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/aurora-sea/",
+      "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/cargo-crane/",
+      "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/drone-arena/",
+      "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/flip-wall/",
+      "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/star-runner/",
+      "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/swarm/"
+    ],
+    "live_demo_url": "https://shironagasu-ai.github.io/claude-fable5-3D-games/games/airlock-escape/"
   },
   {
     "name": "Claude Fable5 Games",
@@ -12825,7 +12986,8 @@
     "prompt": "Rebuild \"Raccoon Heist\" as a complete, playable game using HTML, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Repository source contains a playable browser game; the repository description says it was a Fable 5 one-shot experiment.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/simonw/raccoon-heist and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/simonw/raccoon-heist",
-    "quality_category": "bad_games"
+    "quality_category": "bad_games",
+    "live_demo_url": "https://simonw.github.io/raccoon-heist/"
   },
   {
     "name": "Gura Gura Iseki",
@@ -13203,7 +13365,8 @@
     "prompt": "Rebuild \"Fable Arcade (Flappy Skies, World 1-1, Frostline Kart, Robo Tennis, Rail Rush, Crossy Farm, Hollowmere, Fable Theft Auto 5.1)\" as a complete, playable game using HTML, JavaScript, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The repository README lists eight separate single-file HTML games, each with its own folder, source index.html, model/date/prompt README, GitHub Pages play URL and game-specific mechanics. The README states that each game was generated one-shot by Claude Fable 5.1 or later. The repository tree contains all eight game folders, so count eight game units under one canonical repository.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "source_linked_plus_reverse_engineered",
     "prompt_evidence_url": "https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://sorrycc.github.io/fable-arcade/games/flappy-bird/"
   },
   {
     "name": "Last Beacon",
@@ -13358,7 +13521,8 @@
     "prompt": "Rebuild \"Nerd of Duty\" as a complete, playable game using Three.js, JavaScript, WebGL2.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this game. The README verifies a runnable browser FPS with a custom wave loop, scoring, character jobs, persistent scores, controls, and a public demo.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/sytaylor/nerd-of-duty and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/sytaylor/nerd-of-duty",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://nerd-of-duty.vercel.app"
   },
   {
     "name": "Car Game at Sunset",
@@ -13437,7 +13601,8 @@
     "prompt": "Rebuild \"Operation Blackout\" as a complete, playable game using Three.js, WebGL2, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The SomethingBig games directory reports this as a Gauntlet Loop game. The README verifies a playable browser FPS with controls and gameplay state.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/taozhuo/operation-blackout and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/taozhuo/operation-blackout",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://taozhuo.github.io/operation-blackout/"
   },
   {
     "name": "Mirror Breakout",
@@ -13477,7 +13642,8 @@
     "prompt": "Rebuild \"Mirror Breakout\" as a complete, playable game using HTML, Canvas, JavaScript.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and single-file source contain a playable Canvas Breakout variant generated one-shot by Claude Opus 4.7.\n\nUse Claude Opus 4.7 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://claude.ai/public/artifacts/0648b320-04c3-47f0-876a-7fa3b5c2bf03"
   },
   {
     "name": "Landlord: London 2026",
@@ -13710,7 +13876,8 @@
     "prompt": "Rebuild \"A Thousand Skies\" as a complete, playable game using Three.js, Vite, WebGL, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Playable endless 3D carpet-flying arcade game with combat, bosses, races, controls, tests, and repository description naming GPT-6 Astra.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/threapchills/MagicCarpetWizard and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/threapchills/MagicCarpetWizard",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://threapchills.github.io/MagicCarpetWizard/"
   },
   {
     "name": "Claude of Duty — vikasprogrammer fork",
@@ -13944,7 +14111,8 @@
     "prompt": "Rebuild \"Celadon: The Long Ash\" as a complete, playable game using JavaScript, WebGL, Canvas.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README, source, and browser entry point contain a playable 3D pottery game with clay, glaze, kiln, and computed textures; repository description attributes it to Claude Opus 5.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/winchxyz/celadon/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/winchxyz/celadon/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://winchxyz.github.io/celadon/"
   },
   {
     "name": "3DFPS",
@@ -14382,7 +14550,12 @@
     "prompt": "Rebuild \"Korovany\" as a complete, playable game using HTML, JavaScript, Three.js.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and browser source contain a playable 3D action game with an elf, village, raids, skeleton ambushes, and a mountain-fort villain; README identifies it as a Fable 5 experiment.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/yunit00/game-corovans/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/yunit00/game-corovans/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://yunit00.github.io/game-corovans/",
+    "screenshot_urls": [
+      "https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/05-world-map.jpg",
+      "https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/06-mountains.jpg"
+    ]
   },
   {
     "name": "Super Haaland Quest",
@@ -14539,7 +14712,8 @@
     "prompt": "Rebuild \"HELLGRID\" as a complete, playable game using HTML, JavaScript, Three.js.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and single-file source contain a playable Doom-style first-person shooter with procedural textures, sprites, audio, levels, and Three.js; README attributes it to Claude Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/markcastle/hellgrid/blob/master/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/markcastle/hellgrid/blob/master/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://hellgrid.pages.dev/"
   },
   {
     "name": "The Fable Forge",
@@ -14617,7 +14791,8 @@
     "prompt": "Rebuild \"Abstracts\" as a complete, playable game using JavaScript, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and browser source contain a playable summoning card game where concepts take form; repository description says it was created with Claude Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Alex-Caian/abstracts/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Alex-Caian/abstracts/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://alex-caian.github.io/abstracts/"
   },
   {
     "name": "Snaketris",
@@ -14656,7 +14831,8 @@
     "prompt": "Rebuild \"Snaketris\" as a complete, playable game using JavaScript, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README and browser source contain a hybrid Snake/Tetris game designed by Claude Fable 5.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/markstent/snaketris/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/markstent/snaketris/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://markstent.github.io/snaketris/"
   },
   {
     "name": "Gorillas",
@@ -14863,7 +15039,10 @@
     "prompt": "Rebuild \"GPT-6 Astra × Smash Karts\" as a complete, playable game using Three.js, React, TypeScript, Vite, WebSocket, Node.js, Web Audio API.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README documents a playable multiplayer 3D kart battle with up to eight players, eleven weapons, bot practice, controls, source paths, tests, gameplay preview, and explicit gpt-6-astra attribution plus a public Codex trajectory.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/amsminn/gpt-6-astra-smash-karts/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/amsminn/gpt-6-astra-smash-karts/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://youtu.be/3laRe_z_gbI"
+    ]
   },
   {
     "name": "FACET FIGHTER — PlayStation 1",
@@ -14959,7 +15138,8 @@
     "prompt": "Rebuild \"The Free Game\" as a complete, playable game using Godot 4.7.2, GDScript, Web export, 3D simulation.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README documents a playable medieval village-building game with roads, autonomous workers, production chains, browser export, controls, source, tests, and local run instructions. The creator X post explicitly says the project is being built with GPT ASTRA and links the public GitHub repository.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/LucasMarquesShiva/the-free-game/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/LucasMarquesShiva/the-free-game/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://vale-dos-vinhedos.lucas579686.chatgpt.site/"
   },
   {
     "name": "SUNBREAK — Downhill Club",
@@ -15063,7 +15243,8 @@
     "prompt": "Rebuild \"Emberlight\" as a complete, playable game using Three.js, JavaScript, WebGL, Blender, Web Audio API, GitHub Pages.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: README documents a playable survivors-like with a public GitHub Pages build, Three.js runtime, procedurally generated world, combat, weather, weapons, talents, bosses, controls, offline build, debug simulation hooks, and an eight-to-ten-minute survival simulation. It explicitly attributes the project to GPT-6 Astra + Blender + Godot; the shipped runtime is Three.js, so it belongs in the browser category.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/LeiGaoRobot/emberlight/blob/main/README.md and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/LeiGaoRobot/emberlight/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://leigaorobot.github.io/emberlight/"
   },
   {
     "name": "bannzai/godotpractice — nine Godot games",
@@ -15786,7 +15967,8 @@
       "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/homer-and-marge.jpg",
       "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/downtown.jpg",
       "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/waterfront.jpg",
-      "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/kwik-e-mart.jpg"
+      "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/kwik-e-mart.jpg",
+      "https://github.com/Vheissu/hit-and-run-web/blob/HEAD/docs/media/trailer-poster.jpg"
     ],
     "technology": [
       "TypeScript",
@@ -16071,7 +16253,11 @@
     "prompt": "Rebuild \"CALUDE KODO (狩人行動)\" as a complete, playable game using 6502 Assembly, C, cc65, NES / Famicom, WASM emulator, Native console.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The repository contains a real side-scrolling Famicom action game built from scratch in 6502 assembly, a game.nes ROM, source, four stages, controls, a browser-playable WASM emulator, build instructions, automated verification notes and three committed screenshots. The README says it was developed with Claude Code (Fable 5). The creator's X post links the repository and presents the game as an AI-built Famicom project. Classified under Non-Browser Engines.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/GOROman/calude-famicom-game and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/GOROman/calude-famicom-game",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://goroman.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/GOROman/calude-famicom-game/main/roms/50-coin-shine.nes",
+      "https://goroman.github.io/cluade-famicom-emu/"
+    ]
   },
   {
     "name": "VECTOR RUSH",
@@ -16303,7 +16489,8 @@
     "prompt": "Rebuild \"SEABRIGHT — A Coastal City Builder\" as a complete, playable game using Unity 6.0.0f1, C#, Native macOS, Metal.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly describes a playable Unity demo built with Codex and GPT-6 Astra. The repository contains a Unity scene, C# simulation, runtime UI, traffic and pedestrian systems, shaders, audio, save/load, build scripts, screenshots and acceptance reports. The committed native macOS playtest passed with road construction, zoning, growth, save/load, moving vehicles and pedestrians, progression from 24 to 609 residents, and a working stadium; the report recorded 118 mean FPS on Apple M5 Pro at 1600×1000. Classified under Non-Browser Engines. No public browser build was claimed.\n\nUse GPT-6 Astra, Codex only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/codersusu/game-city-skylines#key-features and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/codersusu/game-city-skylines#key-features",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://codersusu.github.io/game-city-skylines/"
   },
   {
     "name": "CityMaker — 3D Landmark 2048",
@@ -16574,7 +16761,11 @@
     "prompt": "Rebuild \"Neural Sight\" as a complete, playable game using PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly describes a playable first-person browser game built over roughly 24 hours with GPT-6 Astra. It documents captured Gaussian-splat worlds, movement, shooting, recoil, reloads, aim, crouch, jump, balls and an experimental zombie encounter. The repository contains a substantial PlayCanvas/WebGPU implementation with movement, ballistics, collisions, weapon state, levels, audio, HUD and zombie systems, plus a public GitHub Pages deployment. Browser verification opened the live launcher, showed level selection, WebGPU scene canvases, load controls, session controls and keyboard/mouse gameplay instructions; the build entered its scene-loading flow. Classified under Browser Games.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/monstercameron/Neural-Sight#built-to-play-with and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/monstercameron/Neural-Sight#built-to-play-with",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://monstercameron.github.io/Neural-Sight/",
+      "https://monstercameron.github.io/Neural-Sight/experiment.html"
+    ]
   },
   {
     "name": "Mangoidiots Solitaire",
@@ -16795,7 +16986,8 @@
     "prompt": "Rebuild \"NULLSPACE\" as a complete, playable game using Godot 4.7.2, GDScript, Blender, GLB/glTF, Native Linux, Windows export, Android preview.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly credits GPT-6 Astra through Codex and identifies NULLSPACE as a single-player first-person survival-horror game. It contains a Godot 4.7.2 project, original environment and creature assets, pistol and flashlight systems, rooms, circuits, threat AI, native playtest instructions and a v0.3 beta release with Linux, Windows and Android packages. The repository includes performance measurements, native QA/playtest documents and committed environment evidence. The release is a native game, so classify it under Non-Browser Engines; no public browser build is claimed.\n\nUse GPT-6 Astra, Codex only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/marius4lui/NULLSPACE/releases/tag/v0.3 and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/marius4lui/NULLSPACE/releases/tag/v0.3",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://github.marius4lui.dev/NULLSPACE/"
   },
   {
     "name": "Neon Drift",
@@ -16895,7 +17087,11 @@
     "prompt": "Rebuild \"Reigns CEO — GPT 6 Astra Founder\" as a complete, playable game using HTML, CSS, JavaScript, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README provides a dedicated GPT-6 Astra version and source path, separate from the original and Claude versions. It describes a playable founder decision game with 78 short cards, four resource meters, swiping decisions, business events, cooling redraws and continuing runs. Browser verification opened the public Astra build and showed the four resource bars, run state, founder story and Start button. Count only the GPT-6 Astra version, not the other variants.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/GaintEnemyCrabBurger/reigns-ceo/tree/main/game/versions/v5-sixthirty and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/GaintEnemyCrabBurger/reigns-ceo/tree/main/game/versions/v5-sixthirty",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://gaintenemycrabburger.github.io/reigns-ceo/gpt-6-astra/",
+      "https://gaintenemycrabburger.github.io/reigns-ceo/"
+    ]
   },
   {
     "name": "DECWAR",
@@ -16943,7 +17139,8 @@
     "prompt": "Rebuild \"DECWAR\" as a complete, playable game using TypeScript, Node.js, TCP/Telnet, Terminal, Native server.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly credits OpenAI GPT-6 Astra and describes a playable multiplayer space-battle game ported to TypeScript. The game has shared real-time galaxies, Federation/Empire ships, scanning, navigation, phasers, torpedoes, planet capture, construction, messaging, scoring and a Romulan opponent. The repository contains the Node.js/Telnet runtime, preserved source provenance, two game variants, persistence and automated multiplayer Telnet tests. It has no browser build; classify it under Non-Browser Engines as a native terminal/server game.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/erictfree/DECWAR#status-playable-alpha and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/erictfree/DECWAR#status-playable-alpha",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://decwar.org"
   },
   {
     "name": "False Ritual",
@@ -16962,7 +17159,10 @@
       "https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_exterior_front.png",
       "https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_dining.png",
       "https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_living.png",
-      "https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_study.png"
+      "https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_study.png",
+      "https://github.com/lucas-wyd/False-Ritual/blob/HEAD/art/reference/qa/carter/dusk_daniel.png",
+      "https://github.com/lucas-wyd/False-Ritual/blob/HEAD/art/reference/qa/carter/dusk_emma.png",
+      "https://github.com/lucas-wyd/False-Ritual/blob/HEAD/art/reference/qa/carter/dusk_kitchen.png"
     ],
     "technology": [
       "Godot 4.3",
@@ -17059,7 +17259,10 @@
     "prompt": "Rebuild \"Robo Open\" as a complete, playable game using Unity 6.0.5.7f1, C#, URP 17.5.0, Blender, Native Windows.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README identifies Robo Open as a playable Windows tennis prototype built with Unity and a largely autonomous Codex/GPT-6 Astra workflow. It documents serving, volleys, power/lob returns, net/out/double-bounce rules, scoring, CPU opponent, practice and competitive modes, persistent learning reports and a published Windows release. The repository contains the Unity project, C# controller, editable Blender assets, build scripts, tests, screenshots and validation receipts. The README states that no browser build is included. Classify under Non-Browser Engines.\n\nUse GPT-6 Astra, Codex only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/az9713/gpt-6-astra-tennis-game#play-on-windows and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/az9713/gpt-6-astra-tennis-game#play-on-windows",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=DQfL_l5lRpk"
+    ]
   },
   {
     "name": "Agentic APAR Demo",
@@ -17268,7 +17471,10 @@
     "prompt": "Rebuild \"Donify\" as a complete, playable game using Unreal Engine 5.8.1, C++, Vulkan, Native Linux.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly credits GPT-6 Astra after approximately five hours of iteration. It documents a native Unreal Engine 5.8.1 drone flight simulator with stabilized six-degree-of-freedom flight, rotor physics, battery simulation, waypoint missions, telemetry cockpit, aerial map, weather, audio and indoor village flight. The repository contains modular C++ Unreal source, runtime asset setup, screenshots, a recorded native 4K gameplay demo, a v0.8.0-alpha.1 source release and 23 validation markers covering dynamics and integration scenarios. Classify under Non-Browser Engines; no browser build is claimed.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/w4coder/donify#gameplay and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/w4coder/donify#gameplay",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=UHJMg_nACbE"
+    ]
   },
   {
     "name": "7 Minutes — City Crisis",
@@ -17483,7 +17689,8 @@
     "prompt": "Rebuild \"GPT-6 Astra One-Shot Games — Melon Lab and Mosswing (Melon Lab — 瓜体实验室, Mosswing)\" as a complete, playable game using HTML, CSS, JavaScript, Canvas 2D, Three.js, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README documents two separate one-shot games and preserves each prompt, HTML artifact and source directory. Melon Lab is a semi-fluid fruit-merging game with gravity, elasticity, aim, drop, stir, energy, score, pause and restart. Mosswing is a 3D one-tap flight game with gaps, gravity, score and one-collision failure. Both README sections attribute the experiments to GPT-6 Astra, and both public demos were opened: Melon Lab showed its fruit pool, score, next fruit, physics modes, energy and controls; Mosswing showed the game canvas, score, best score, start button and one-collision instructions. Count two game units under one repository, not the prompts separately.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://melon-game.jack-514.chatgpt.site/"
   },
   {
     "name": "LASTLIGHT",
@@ -17579,7 +17786,10 @@
     "prompt": "Rebuild \"Milady's Knight: Blightfall\" as a complete, playable game using Godot 4.5.1, GDScript, Native desktop.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly credits Astra GPT-6 and describes a playable Godot 4.5.1 2D action-platformer vertical slice. The repository contains project.godot, scenes, GDScript gameplay systems, assets, a gate-and-coin objective, two routes, slimes, sword combat, movement mechanics, persistence, launch scripts and 150 passing engine-level tests. It provides no hosted browser build or packaged export, so classify it under Non-Browser Engines and do not claim live browser verification.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/crousty24-bit/Milady-s-Knight-godot#miladys-knight-blightfall and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/crousty24-bit/Milady-s-Knight-godot#miladys-knight-blightfall",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://youtu.be/LOhfqjmasi0?si=tdgg3XWfNvRXQkSV"
+    ]
   },
   {
     "name": "Last Metro",
@@ -17752,7 +17962,8 @@
     "prompt": "Rebuild \"Silent Meridian\" as a complete, playable game using HTML, CSS, JavaScript, WebGL, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly credits GPT-6 Astra in Codex and documents an original bilingual browser puzzle game with four playable chapters, thirteen puzzles, two time states, two endings, autosave, keyboard/touch controls, optional WebGL depth effects and reduced-motion support. The repository contains HTML/CSS/JavaScript source, game and puzzle rules, chapter progression, local assets, tests, build scripts and screenshots. The public live demo opened at its observatory title screen with the chapter count, puzzle count and Enter button. Count one browser game unit.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/stackloomdev/silent-meridian#silent-meridian and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/stackloomdev/silent-meridian#silent-meridian",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://silent-meridian.stackloom.org/"
   },
   {
     "name": "Bad Idea",
@@ -17807,7 +18018,8 @@
     "github_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option",
     "evidence_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option#failure-is-not-an-option",
     "live_demo_urls": [
-      "https://finaogame.com/demo/"
+      "https://finaogame.com/demo/",
+      "https://finaogame.com"
     ],
     "screenshot_urls": [
       "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/main/docs/media/phase4d-title.png"
@@ -17852,7 +18064,8 @@
     "prompt": "Rebuild \"Failure is Not an Option\" as a complete, playable game using TypeScript, Vite, HTML/CSS, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README identifies a playable browser narrative strategy game and provides a public demo. It credits GPT-6 Astra with design, content and independent review, and Claude Code with the schema, simulation core, application and tests. The repository contains TypeScript simulation and renderer code, a complete Gemini VIII chapter, preparation and return decisions, causal debrief, Gemini IX-A planning, saves, validation, Vitest coverage, Playwright tests and deploy workflows. The public demo opened at its BEGIN screen. Count one browser game unit and preserve the split model attribution.\n\nUse GPT-6 Astra, Claude Code only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/dan-lee-odinson/failure-is-not-an-option#failure-is-not-an-option and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option#failure-is-not-an-option",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://finaogame.com/demo/"
   },
   {
     "name": "SkySprout",
@@ -17908,7 +18121,8 @@
     "prompt": "Rebuild \"SkySprout\" as a complete, playable game using HTML, CSS, JavaScript, Canvas 2D, Web Audio, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly credits GPT-6 Astra in GitHub Copilot CLI and states that SkySprout is an original playable browser platformer, not a video or mockup. It documents three complete worlds, nine collectibles, enemies, power-ups, checkpoints, lives, keyboard/touch controls, Canvas/Web Audio runtime code, engine tests and complete input-driven playthroughs. The public GitHub Pages build opened its title screen, world progress, game canvas, controls and Let's play button. Count one browser game unit.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/DUBSOpenHub/skysprout#skysprout and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/DUBSOpenHub/skysprout#skysprout",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://dubsopenhub.github.io/skysprout/"
   },
   {
     "name": "Choplifter — Rescue Operations",
@@ -17962,7 +18176,11 @@
     "prompt": "Rebuild \"Choplifter — Rescue Operations\" as a complete, playable game using JavaScript, Phaser, HTML/CSS, Canvas, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The repository preserves four browser-game attempts from one Choplifter brief. Count only the dedicated GPT-6 Astra directory, which contains index.html, package metadata, source game and mission files, a build path and the public Rescue Operations demo. The README documents a complete helicopter loop: fly, free 64 hostages, land nearby, load up to 16 people and return east to the home pad. The live demo opened its pilot briefing, mission objectives, rescue counters, control instructions and START MISSION button. Exclude the GPT-5.3 Codex, GPT-5.4 and GPT-5.6 Sol variants from the Astra count.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/danielpradilla/choplifter/tree/main/choplifter-6-astra and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/danielpradilla/choplifter/tree/main/choplifter-6-astra",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://www.danielpradilla.info/projects/choplifter/choplifter-6-astra/",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=2KDxRSeDKy8"
+    ]
   },
   {
     "name": "Trial GPT-6 Astra Game Builds",
@@ -18054,7 +18272,8 @@
     "prompt": "Rebuild \"Trial GPT-6 Astra Game Builds (BLACKLINE — Stealth Heist, ECHO / SHIFT — Rhythm Bullet Hell, AERIS — Drone Racing, Embervault — Procedural Roguelike, ECHO — Echo Loop Puzzler)\" as a complete, playable game using HTML, CSS, JavaScript, Canvas 2D, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: Trial is a benchmark repository, but its GPT-6 Astra results contain five separate source-backed browser games, each with a direct index.html artifact, validation record, game-specific source or embedded engine, screenshots and independent browser or engine evidence. BLACKLINE has stealth, perception, gadgets, guards, extraction, replay and export/import. ECHO / SHIFT has rhythm combat, bullets, bosses, patterns, replay and a 50-second encounter. AERIS has three flight modes, eight ordered checkpoints, collisions, recoveries, ghost replay and a completed race. Embervault has a three-floor turn-based roguelike with combat, items, enemies, save/replay, victory and death. ECHO has six cooperative echo-puzzle chambers, physics, hazards, editor, replay and campaign victory. Count these five game units under one repository; do not count the other Trial results because they are laboratories, studios, simulations or non-game apps. Classify under Browser Games.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/10-stealth-heist and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/10-stealth-heist",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://trial-by-pyro.netlify.app/"
   },
   {
     "name": "Wilderness",
@@ -18206,7 +18425,8 @@
     "prompt": "Rebuild \"Dig: Deep Descent\" as a complete, playable game using JavaScript, Canvas 2D, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly states that GPT-6 Astra High updated version 0.3.0 and lists new gameplay systems: orbital shop, ship upgrades, progression contracts, hazards, animated mining, permadeath, portable saves and a procedural soundtrack. The repository contains the bundled browser game, direct-file launch instructions, a public GitHub Pages deployment, mining, energy and heat management, hazards, upgrades, contracts, black boxes and tests for gameplay and offline launch.\n\nUse GPT-6 Astra only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/aaronshaver/dig-deep-descent/blob/main/index.html and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/aaronshaver/dig-deep-descent/blob/main/index.html",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://aaronshaver.github.io/dig-deep-descent/"
   },
   {
     "name": "VANUS // Steel Horizon",
@@ -18374,7 +18594,8 @@
     "prompt": "Rebuild \"Silent Hill — Native PC Port\" as a complete, playable game using C, C++, PsyCross, SDL2, OpenAL, Native Windows, Native Linux, Native macOS.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly says the native PC port is heavily AI-assisted with Claude Opus 4.6, Claude Opus 4.7 and the newer Fable model. It documents a fully playable start-to-finish Silent Hill port with every map, boss, cutscene, ending and system, plus native Windows/Linux/macOS builds, alternate cameras, combat, AI, saves, mod support and tests. The repository contains the port source and build instructions. A legally obtained original PlayStation disc is required; no game data is included. Classify it under Non-Browser Engines.\n\nUse Claude Opus 4.6, Claude Opus 4.7, Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/SlickAmogus/silent-hill-decomp/tree/pc-port/pc_port and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/SlickAmogus/silent-hill-decomp/tree/pc-port/pc_port",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://sh1pc.com"
   },
   {
     "name": "Dungeon of Opus",
@@ -18428,7 +18649,8 @@
     "prompt": "Rebuild \"Dungeon of Opus\" as a complete, playable game using React, TypeScript, Tailwind CSS, Vite, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README explicitly says Claude Opus 4.6 built the complete roguelike in one file. It documents procedural dungeons, turn-based combat, seven enemy types, inventory, fog of war, multiple floors, permadeath and a final boss. The repository contains the React/TypeScript source, local Vite launch instructions and a public live demo. The game is source-backed and directly attributed, not a prompt-only catalog entry.\n\nUse Claude Opus 4.6 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/joozio/dungeon-of-opus/tree/main/src and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/joozio/dungeon-of-opus/tree/main/src",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_url": "https://wiz.jock.pl/experiments/dungeon-of-opus"
   },
   {
     "name": "MineClaude",
@@ -18495,7 +18717,9 @@
     "evidence_url": "https://github.com/claudio41cg-max/rio-rush-cross#play",
     "screenshot_urls": [
       "https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/title.jpg",
-      "https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/race.jpg"
+      "https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/race.jpg",
+      "https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/character-select.jpg",
+      "https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/track-select.jpg"
     ],
     "technology": [
       "TypeScript",
@@ -18960,7 +19184,9 @@
     "screenshot_urls": [
       "https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/overview.png",
       "https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/budget.png",
-      "https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/traffic.png"
+      "https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/traffic.png",
+      "https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/closeup.png",
+      "https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/welcome.png"
     ],
     "technology": [
       "TypeScript",
@@ -19224,7 +19450,14 @@
     "prompt": "Rebuild \"Neon Snake — Fable baseline\" as a complete, playable game using Phaser 4, TypeScript, Tone.js, Canvas, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The repository contains four independent builds of one game specification. Count only the claude-code-fable baseline because it explicitly credits Claude Fable 5.1. The baseline has a live GitHub Pages build, a pure-integer deterministic snake simulation, five levels, combo progression, five palettes, five lo-fi tracks, i18n, quality tiers, replayable input logs, Playwright gates and documented playtest artifacts. The other three Qwen/opencode builds are excluded from this model-scoped count.\n\nUse Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/kinncj/neon-snake/tree/main/claude-code-fable and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/kinncj/neon-snake/tree/main/claude-code-fable",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://kinncj.github.io/neon-snake/claude-code-fable/",
+      "https://kinncj.github.io/neon-snake/",
+      "https://kinncj.github.io/neon-snake/claude-code-qwen3.8/",
+      "https://kinncj.github.io/neon-snake/opencode/",
+      "https://kinncj.github.io/neon-snake/pi-agent/"
+    ]
   },
   {
     "name": "SPICE — a card game for couples",
@@ -19239,7 +19472,14 @@
     "screenshot_urls": [
       "https://github.com/Hiberius/couples-card-game/blob/main/docs/media/phones.png",
       "https://github.com/Hiberius/couples-card-game/blob/main/docs/media/levels.png",
-      "https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png"
+      "https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png",
+      "https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png",
+      "https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-build.png",
+      "https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-content.png",
+      "https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-deck.png",
+      "https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-install.png",
+      "https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-play.png",
+      "https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-privacy.png"
     ],
     "technology": [
       "HTML",
@@ -19296,7 +19536,22 @@
     "screenshot_urls": [
       "https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/03-wave-1-incoming.png",
       "https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/10-combat-incoming-fire.png",
-      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/04-run-over-summary.png"
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/04-run-over-summary.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/01-drydock-hangar.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/02-lane-flight.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/05-hangar-after-run.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/06-shipyard.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/07-loadout.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/08-missions.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/fable-assets/09-emergency-warp-revive.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/01-launch.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/02-after-play.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/03-lane-flight.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/04-combat-carrier.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/05-weapon-drop-spread.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/06-formation-and-pickups.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/07-run-summary-death.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/HEAD/glm-assets/08-shield-broken-hazard.png"
     ],
     "technology": [
       "Roblox Engine",
@@ -19515,7 +19770,14 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/trieuwu/Gnivol#2-gi%E1%BB%9Bi-thi%E1%BB%87u-d%E1%BB%B1-%C3%A1n",
-    "screenshot_urls": [],
+    "screenshot_urls": [
+      "https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/calling.png",
+      "https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/horror.png",
+      "https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/minigame2.png",
+      "https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/optional.png",
+      "https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/overlayRefridgerator.png",
+      "https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/youDie.png"
+    ],
     "technology": [
       "Java",
       "LibGDX",
@@ -19556,7 +19818,10 @@
     "prompt": "Rebuild \"Reverse Loving — Gnivol\" as a complete, playable game using Java, LibGDX, Desktop export, Native platform.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README identifies Reverse Loving — Gnivol as a 2D point-and-click meta-horror game built with Java and LibGDX. It documents a playable demo, story-driven choices, Reality Stability state, fourth-wall interactions with the operating system, persistent memory and an approximately one-eighth implemented story. The project credits Claude Opus 4.6 Extended among its AI-assisted development tools. Classify it as a non-browser engine game.\n\nUse Claude Opus 4.6 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/trieuwu/Gnivol and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/trieuwu/Gnivol",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://www.youtube.com/watch?v=RPquHDUQExM"
+    ]
   },
   {
     "name": "Raft",
@@ -20693,7 +20958,13 @@
     "prompt": "Rebuild \"FinOps Odyssey\" as a complete, playable game using HTML, JavaScript, Canvas, Supabase, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The README describes an 8-bit space arcade game where players pilot a rocket, dodge cloud waste, answer FinOps decisions, collect a combo and reach a win state. The cited commit moves the 2,932-line game into game.html and carries Claude Opus 4.8 attribution. The recorded Vercel URL is the live game path. Track this as Opus 4.8, separately from Opus 4.6 results.\n\nUse Claude Opus 4.8 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/chfinops/finops-odyssey/blob/main/game.html and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/chfinops/finops-odyssey/blob/main/game.html",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://finops-odyssey.vercel.app/game.html",
+      "https://finops-odyssey.vercel.app/",
+      "https://finops-odyssey.vercel.app/ch-booth-display.html",
+      "https://finops-odyssey.vercel.app/ch-booth-staff.html"
+    ]
   },
   {
     "name": "Orvit Timed Tech Quiz",
@@ -21861,7 +22132,8 @@
     "live_demo_url": null,
     "evidence_url": "https://github.com/saleebm/PenguinSlide/commit/f5a28b05dcf1187011984a77c702814495f61b2d",
     "screenshot_urls": [
-      "https://github.com/saleebm/PenguinSlide/blob/main/android-libgdx/assets/sprites/penguin_slide.png"
+      "https://github.com/saleebm/PenguinSlide/blob/main/android-libgdx/assets/sprites/penguin_slide.png",
+      "https://github.com/saleebm/PenguinSlide/blob/HEAD/screenshot.png"
     ],
     "technology": [
       "libGDX",
@@ -22874,7 +23146,30 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/wicanr2/u5-cht/commit/acbc49511f7b20538b386546987a32c52792c1d6",
-    "screenshot_urls": [],
+    "screenshot_urls": [
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/03-talk.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/04-shop.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/05-combat.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/06-dungeon.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/07-peer.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/08-word.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/09-shadowlord.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/10-blackthorn.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/11-codex.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/12-throne.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/13-cell.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/14-shrine-room.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/15-night.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/16-night-torch.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/17-guard.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/19-credits.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/20-lighthouse.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/21-sandalwood.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/22-quit.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/23-help.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/24-menu.png",
+      "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/25-ui-modern.png"
+    ],
     "technology": [
       "Go",
       "Ebitengine",
@@ -22911,7 +23206,10 @@
     "prompt": "Rebuild \"Ultima V: Warriors of Destiny — Traditional Chinese Remake\" as a complete, playable game using Go, Ebitengine, Native desktop, WebAssembly.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The public README describes a from-scratch Go/Ebitengine remake of Ultima V with a playable mainline, opening, world map, 32 locations, dialogue, shops, combat, magic, dungeons, music and the complete shrine-to-Shadowlords campaign. The repository contains the game entry point, combat scene, renderer, scene-map data, tests, cross-platform packaging and WebAssembly support. The cited commit carries a direct Claude Opus 5 co-author trailer. Count the remake as one game.\n\nUse Claude Opus 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/wicanr2/u5-cht/blob/main/cmd/u5cht/main.go and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/wicanr2/u5-cht/blob/main/cmd/u5cht/main.go",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://youtu.be/cDEtMMKk5vE"
+    ]
   },
   {
     "name": "Dragon Quest III — Ebitengine Remake",
@@ -22924,7 +23222,41 @@
     ],
     "live_demo_url": null,
     "evidence_url": "https://github.com/wicanr2/kinginformation-dq3-re/blob/main/dq3_remake/WORKLIST.md",
-    "screenshot_urls": [],
+    "screenshot_urls": [
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/courage_cave_blue_orb_obtained.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/dhama_menu.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/dhama_reclass_success.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_guard_visible_block.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_invisibility_pass.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_push_puzzle_before.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_push_puzzle_solved.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/final_key_obtained.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/gaia_sword_obtained.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ghost_ship_loves_memory_chest.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ghost_ship_overworld.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_battle.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_post.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_second_battle.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_purple_orb_obtained.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/lancel_courage_trial_prompt.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/merchant_revolution_yellow_orb_obtained.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/merchant_settlement_first_offer.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/olivia_cape_memory_reunion.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/pirates_red_orb_hidden_entrance.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/pirates_red_orb_obtained.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ship_first_sailing.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_dark_lamp_night.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_dark_lamp_obtained.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_final_key_door_closed.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_final_key_door_open.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_green_orb_dialogue.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/thirsty_pitcher_revealed.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/ending_the_end_runtime.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/merchant_settlement_handler41_dialogue.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/merchant_settlement_handler41_shop.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/party_field_hud.png",
+      "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/title_attract_warrior.png"
+    ],
     "technology": [
       "Go",
       "Ebitengine",
@@ -23227,7 +23559,10 @@
     "prompt": "Rebuild \"The Fallen Citadel\" as a complete, playable game using Unity, C#, WebGL, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The public source mirror documents a 3-D quarter-view hack-and-slash roguelike made in Unity WebGL for the Next AI Network 2026 hackathon. The live GitHub Pages build returned HTTP 200. The README and source include player classes, combat, boss AI, enemies, augments, stages, VFX, audio and WebGL delivery. The AI-usage document identifies Claude Opus 5 as the primary coding model with Fable 5 and Opus 4.8 support, records 112 game sessions, and reports Unity play-mode, build and deployment verification. The mirror omits licensed binary assets and does not build alone; count the playable deployed game as one unit.\n\nUse Claude Opus 5, Claude Fable 5, Claude Opus 4.8 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Characters/PlayerCharacterHost.cs and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Characters/PlayerCharacterHost.cs",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "youtube_urls": [
+      "https://youtu.be/fBrRWKRPV-A"
+    ]
   },
   {
     "name": "GAME_CORE — Adaptive Boss Arena",
@@ -23391,7 +23726,11 @@
     "prompt": "Rebuild \"Just Five More Minutes\" as a complete, playable game using Three.js, Canvas2D, TypeScript, Vite, Web Audio API, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The creator profile links this public repository as a playable browser game. The README documents a Three.js first-person bedroom, a Canvas2D Mudwick Online mini-MMO, seeded simulation, combat, gathering, fishing, chores, inspections, five-night persistence and keyboard/mouse controls. The repository contains the host, simulation, renderer, tests, screenshots and live deployments. The cited commit contains a direct Claude Fable 5 trailer. Count the integrated bedroom/MMO game as one browser unit.\n\nUse Claude Fable 5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Giftedx/just-five-more-minutes/blob/master/src/game.ts and keep the implementation scope consistent with the observed game.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Giftedx/just-five-more-minutes/blob/master/src/game.ts",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://ha.ggis.xyz/just-five-more-minutes/",
+      "https://just-five-more-minutes.pages.dev/"
+    ]
   },
   {
     "name": "moorestech",
@@ -24642,7 +24981,9 @@
     "screenshot_urls": [
       "https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif",
       "https://github.com/kamwoh/yume/blob/master/docs/media/sokoban.gif",
-      "https://github.com/kamwoh/yume/blob/master/docs/media/lanterns.gif"
+      "https://github.com/kamwoh/yume/blob/master/docs/media/lanterns.gif",
+      "https://github.com/kamwoh/yume/blob/HEAD/docs/media/forest_scene.gif",
+      "https://github.com/kamwoh/yume/blob/HEAD/docs/media/racing.gif"
     ],
     "technology": [
       "Godot 4",

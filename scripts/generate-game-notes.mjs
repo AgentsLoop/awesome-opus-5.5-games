@@ -126,6 +126,10 @@ function sourceScreenshots(record) {
   return [...new Set([...direct, ...discovered])].filter(Boolean);
 }
 
+function sourceLiveDemos(record) {
+  return [...new Set([record.live_demo_url, ...(record.live_demo_urls ?? [])])].filter(Boolean);
+}
+
 function readExistingSlugs() {
   const byGame = new Map();
   const entries = fs.existsSync(gamesDir) ? fs.readdirSync(gamesDir, { withFileTypes: true }) : [];
@@ -184,6 +188,7 @@ function writeNote(row) {
   const ranks = topKey.get(key) ?? {};
   const rankText = Object.entries(ranks).map(([period, rank]) => `**${period}** (#${rank})`).join(', ');
   const screenshots = sourceScreenshots(record);
+  const liveDemos = sourceLiveDemos(record);
   const placeholderName = `${row.slug}-placeholder.svg`;
   if (!screenshots.length) fs.writeFileSync(path.join(directory, placeholderName), placeholderSvg(row));
 
@@ -202,7 +207,10 @@ function writeNote(row) {
   output += `- **Verified:** ${esc(record.verified_on)}\n`;
   output += `- **Repository:** [${record.github_url}](${record.github_url})\n`;
   output += `- **Evidence:** [${evidenceLabel[evidenceText(record)] ?? 'model evidence'}](${record.evidence_url})\n`;
-  if (record.live_demo_url) output += `- **Live demo:** [open demo](${record.live_demo_url})\n`;
+  liveDemos.forEach((url, index) => {
+    const label = index === 0 ? 'Live demo' : 'Additional live link';
+    output += `- **${label}:** [open demo](${url})\n`;
+  });
   output += `\n`;
   output += `## Screenshots\n\n`;
   if (screenshots.length) {
@@ -213,6 +221,11 @@ function writeNote(row) {
     });
   } else {
     output += `No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.\n`;
+  }
+  const videos = [...new Set(record.youtube_urls ?? [])].filter(Boolean);
+  if (videos.length) {
+    output += `\n## Videos\n\n`;
+    videos.forEach((url) => { output += `- [YouTube gameplay video](${url})\n`; });
   }
   output += `\n## Model attribution\n\n`;
   output += `Open the evidence link above. Evidence grade: **${esc(evidenceLabel[evidenceText(record)] ?? evidenceText(record))}**.\n\n`;
