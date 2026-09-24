@@ -1,7 +1,7 @@
 {
   "target": 900,
   "started_with": 30,
-  "updated_on": "2026-09-15",
+  "updated_on": "2026-09-24",
   "constraints": {
     "product": "Actual game or playable game prototype",
     "development_method": "Creator, curator, or repository evidence for GPT-6 Astra, Claude Opus, or Claude Fable; retain Gauntlet Loop evidence where present",
@@ -8327,6 +8327,40 @@
       "new_verified": 18,
       "new_game_units": 30,
       "note": "This pass reached the requested thirty new counted units. Multi-game repositories were kept as one canonical record and counted only after separate game pages or source units showed input, rules/objectives, state transitions and completion/failure. Repository creation dates remain separate from recent gameplay-evidence dates. Tres Space Shooter is explicitly labeled repository-level model evidence because its exact Opus trailers are on release/deploy work rather than every gameplay commit."
+    },
+    {
+      "source": "GitHub repository search and Reddit creator post — Opus 5.5 release week",
+      "query_key": "repo-search:opus-5.5:created:2026-09-17..2026-09-23:serial-plus-reddit",
+      "status": "completed",
+      "date_window": "2026-09-17..2026-09-23",
+      "search_policy": "serial repository and web searches; inspect source gameplay and explicit model attribution; treat creation separately from publication",
+      "new_verified_repositories": 14,
+      "new_game_units": 16,
+      "accepted_repositories": [
+        "https://github.com/bridge-mind/claude-opus-5.5-zombies-game",
+        "https://github.com/bridge-mind/turbo-kart-rally",
+        "https://github.com/OminousIndustries/OpusSkate",
+        "https://github.com/riba2534/claude-opus-5-5-demo",
+        "https://github.com/JaredTate/tatertotsflightsim",
+        "https://github.com/Wimmboo2/Terrabrowser",
+        "https://github.com/eddyacthergal/super-wouf-kart",
+        "https://github.com/vcahlik/palmera-bay",
+        "https://github.com/vasu-devs/FishSlop_Opus5.5",
+        "https://github.com/inteligenciamilgrau/carrinho_opus55",
+        "https://github.com/GatoArtStudio/f1-opus-5.5",
+        "https://github.com/KJLKurt/waterslide-game-opus-5.5",
+        "https://github.com/Maoku/Opus55CatgirlPachi",
+        "https://github.com/MattiTynka/JEV-RTS"
+      ],
+      "rejected_candidates": [
+        "https://github.com/vasu-devs/DOOM_Opus5.5 — inspected game commit credits Opus 5, not Opus 5.5",
+        "https://github.com/HasoSchno70/Drachenhauch — game engine and examples, not one standalone game",
+        "https://github.com/ben-hockley/Mario-Kart-Opus-5.5 — source game, but model evidence only in repository name so far",
+        "https://github.com/Isusun/rpg_opus55_3 — game title/repository name alone does not establish model attribution",
+        "https://github.com/Yunado/pelican-bike-opus5.5 — standalone HTML game, but attribution and relationship to independently listed Pelican Bike remain unclear",
+        "https://github.com/Nipale-ai/opus-5-5-overnight-builds — mixed game and visual demo collection not yet inspected per unit"
+      ],
+      "note": "Opus 5.5 became available 2026-09-22. Save 16 source-verified game units from 14 repositories created 2026-09-22..23. Preserve direct source and evidence links in a separate Markdown index. HTTP reachability is not a playtest; published_on remains unset where no publication event was verified."
     }
   ],
   "frontier": [
