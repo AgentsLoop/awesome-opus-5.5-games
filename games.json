@@ -28440,5 +28440,171 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/inteligenciamilgrau/carrinho_opus55/blob/main/index.html",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "Web Grand Prix",
+    "repository_id": "R_kgDOUmdnBA",
+    "github_url": "https://github.com/GatoArtStudio/f1-opus-5.5",
+    "game_links": [
+      "https://github.com/GatoArtStudio/f1-opus-5.5/blob/main/README.md",
+      "https://github.com/GatoArtStudio/f1-opus-5.5/blob/main/src/race/application/race-session.ts",
+      "https://github.com/GatoArtStudio/f1-opus-5.5/blob/main/src/race-car/domain/race-car.ts",
+      "https://github.com/GatoArtStudio/f1-opus-5.5/blob/main/src/race-results/domain/classification.ts"
+    ],
+    "live_demo_url": "https://f1-demo.gatoartstudio.com/",
+    "live_demo_urls": [
+      "https://f1-demo.gatoartstudio.com/"
+    ],
+    "evidence_url": "https://github.com/GatoArtStudio/f1-opus-5.5",
+    "screenshot_urls": [],
+    "technology": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Three.js",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Web Grand Prix"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T00:34:08Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/GatoArtStudio/f1-opus-5.5"
+    ],
+    "verification_notes": "F1-style browser race with player controls, AI rivals, 6–8 km circuits, weather, tyres, pit stops, lap/race classification and results. Creator repository description says it was produced using Opus 5.5. Demo returned HTTP 200; no interactive playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Subjective source-based estimate from controls, game state and completeness; no runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Web Grand Prix using Next.js 16, React 19, TypeScript, Three.js, Browser. F1-style browser race with player controls, AI rivals, 6–8 km circuits, weather, tyres, pit stops, lap/race classification and results. Creator repository description says it was produced using Opus 5.5. Demo returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/GatoArtStudio/f1-opus-5.5/blob/main/README.md",
+    "quality_category": "curated_games"
+  },
+  {
+    "name": "Slide Rush",
+    "repository_id": "R_kgDOUmerIg",
+    "github_url": "https://github.com/KJLKurt/waterslide-game-opus-5.5",
+    "game_links": [
+      "https://github.com/KJLKurt/waterslide-game-opus-5.5/blob/main/README.md",
+      "https://github.com/KJLKurt/waterslide-game-opus-5.5/blob/main/src/App.js",
+      "https://github.com/KJLKurt/waterslide-game-opus-5.5/blob/main/src/sim/Racer.js"
+    ],
+    "live_demo_url": "https://kjlkurt.github.io/waterslide-game-opus-5.5/",
+    "live_demo_urls": [
+      "https://kjlkurt.github.io/waterslide-game-opus-5.5/"
+    ],
+    "evidence_url": "https://github.com/KJLKurt/waterslide-game-opus-5.5/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "Vite",
+      "JavaScript",
+      "PWA",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Slide Rush"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T00:54:05Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/KJLKurt/waterslide-game-opus-5.5"
+    ],
+    "verification_notes": "3D waterslide race with steering/jump input, 12 AI rivals, shortcut, finish and falling-out states, practice checkpoints, and saved results. README explicitly records Model: opus-5.5. Demo returned HTTP 200; no interactive playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Subjective source-based estimate from controls, game state and completeness; no runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Slide Rush using Three.js, Vite, JavaScript, PWA, Browser. 3D waterslide race with steering/jump input, 12 AI rivals, shortcut, finish and falling-out states, practice checkpoints, and saved results. README explicitly records Model: opus-5.5. Demo returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/KJLKurt/waterslide-game-opus-5.5/blob/main/README.md",
+    "quality_category": "curated_games"
+  },
+  {
+    "name": "Catgirl Pachinko",
+    "repository_id": "R_kgDOUnXXMQ",
+    "github_url": "https://github.com/Maoku/Opus55CatgirlPachi",
+    "game_links": [
+      "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/README.md",
+      "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/src/app/GameLoop.ts",
+      "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/src/app/PlayController.ts",
+      "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/src/app/input.ts"
+    ],
+    "live_demo_url": "https://maoku.github.io/Opus55CatgirlPachi/",
+    "live_demo_urls": [
+      "https://maoku.github.io/Opus55CatgirlPachi/"
+    ],
+    "evidence_url": "https://github.com/Maoku/Opus55CatgirlPachi/commit/659a821f86",
+    "screenshot_urls": [
+      "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/Opus55CatgirlPachi.jpg"
+    ],
+    "technology": [
+      "TypeScript",
+      "WebGL2",
+      "Rapier 2D",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Catgirl Pachinko"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T12:59:22Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/Maoku/Opus55CatgirlPachi"
+    ],
+    "verification_notes": "Playable browser pachinko with ball physics, prize pockets, payout/odds rules, editor, autoplay and results. Game commits explicitly credit Opus 5.5. Demo returned HTTP 200; no interactive playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 8.3,
+    "quality_estimate_basis": "Subjective source-based estimate from controls, game state and completeness; no runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Catgirl Pachinko using TypeScript, WebGL2, Rapier 2D, Vite, Browser. Playable browser pachinko with ball physics, prize pockets, payout/odds rules, editor, autoplay and results. Game commits explicitly credit Opus 5.5. Demo returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/README.md",
+    "quality_category": "curated_games"
   }
 ]
