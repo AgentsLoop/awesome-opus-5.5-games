@@ -27905,5 +27905,222 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/README.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "Dead Signal: Exclusion Zone",
+    "repository_id": "R_kgDOUmD3Bw",
+    "github_url": "https://github.com/bridge-mind/claude-opus-5.5-zombies-game",
+    "game_links": [
+      "https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/README.md",
+      "https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/src/core/Game.ts",
+      "https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/src/mission/Mission.ts",
+      "https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/src/player/Player.ts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "TypeScript",
+      "Vite",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Dead Signal: Exclusion Zone"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": null,
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/bridge-mind/claude-opus-5.5-zombies-game"
+    ],
+    "verification_notes": "First-person extraction-survival shooter with keyboard/mouse input, fixed-tick game loop, zombie AI, weapons, two contracts, upgrades, helicopter extraction, and failure on death or timeout. The README explicitly credits Claude Opus 5.5.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Substantial FPS systems, enemy AI, mission state, tests, and playable source; no runtime playtest performed.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build Dead Signal: Exclusion Zone as a playable game using Three.js, TypeScript, Vite, WebGL, Browser. First-person extraction-survival shooter with keyboard/mouse input, fixed-tick game loop, zombie AI, weapons, two contracts, upgrades, helicopter extraction, and failure on death or timeout. The README explicitly credits Claude Opus 5.5. Preserve controls, game state, objective, failure and restart behavior shown in the source. This is a source-derived reconstruction prompt, not the original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/README.md",
+    "quality_category": "curated_games"
+  },
+  {
+    "name": "Turbo Kart Rally",
+    "repository_id": "R_kgDOUmB3cg",
+    "github_url": "https://github.com/bridge-mind/turbo-kart-rally",
+    "game_links": [
+      "https://github.com/bridge-mind/turbo-kart-rally/blob/main/README.md",
+      "https://github.com/bridge-mind/turbo-kart-rally/blob/main/index.html",
+      "https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/main.js",
+      "https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/race.js",
+      "https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/kart.js"
+    ],
+    "live_demo_url": "https://bridge-mind.github.io/turbo-kart-rally/",
+    "evidence_url": "https://github.com/bridge-mind/turbo-kart-rally/blob/main/README.md",
+    "screenshot_urls": [
+      "https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg"
+    ],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Turbo Kart Rally"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": null,
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/bridge-mind/turbo-kart-rally"
+    ],
+    "verification_notes": "Arcade 3D kart racer with steering and drifting input, seven AI rivals, laps, items, race state, finish results, and procedural assets. README gives the original prompt and attributes five Claude Opus 5.5 sub-agents.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "Complete source, race loop, AI, items, controls, screenshots and HTTP-reachable demo; no runtime playtest performed.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build Turbo Kart Rally as a playable game using Three.js, JavaScript, WebGL, Browser. Arcade 3D kart racer with steering and drifting input, seven AI rivals, laps, items, race state, finish results, and procedural assets. README gives the original prompt and attributes five Claude Opus 5.5 sub-agents. Preserve controls, game state, objective, failure and restart behavior shown in the source. This is a source-derived reconstruction prompt, not the original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/bridge-mind/turbo-kart-rally/blob/main/README.md",
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://bridge-mind.github.io/turbo-kart-rally/"
+    ]
+  },
+  {
+    "name": "OpusSkate",
+    "repository_id": "R_kgDOUmXmdQ",
+    "github_url": "https://github.com/OminousIndustries/OpusSkate",
+    "game_links": [
+      "https://github.com/OminousIndustries/OpusSkate/blob/main/README.md",
+      "https://github.com/OminousIndustries/OpusSkate/blob/main/skate.cpp"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/OminousIndustries/OpusSkate/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "C++17",
+      "SDL2",
+      "OpenGL",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "OpusSkate"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": null,
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/OminousIndustries/OpusSkate"
+    ],
+    "verification_notes": "Single-file C++ skating game with SDL input, ride/air/grind/manual/bail states, ollie and tricks, combo scoring, and collectible letters. README and repository description credit Opus 5.5. Build requires SDL2/OpenGL; compilation not tested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 7.7,
+    "quality_estimate_basis": "Source contains a real input and scoring loop but no tested binary or public demo.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build OpusSkate as a playable game using C++17, SDL2, OpenGL, Native desktop. Single-file C++ skating game with SDL input, ride/air/grind/manual/bail states, ollie and tricks, combo scoring, and collectible letters. README and repository description credit Opus 5.5. Build requires SDL2/OpenGL; compilation not tested. Preserve controls, game state, objective, failure and restart behavior shown in the source. This is a source-derived reconstruction prompt, not the original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/OminousIndustries/OpusSkate/blob/main/README.md",
+    "quality_category": "curated_games"
+  },
+  {
+    "name": "Claude Opus 5.5 one-shot Three.js games",
+    "repository_id": "R_kgDOUm01kA",
+    "github_url": "https://github.com/riba2534/claude-opus-5-5-demo",
+    "game_links": [
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/README.md",
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/pelican-bike/src/main.js",
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/cf-transport-ship/src/game.js",
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/qq-speed/src/main.js"
+    ],
+    "live_demo_url": "https://claude-opus-5-5.riba2534.cn/",
+    "evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "esbuild",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 3,
+    "contained_games": [
+      "Pelican Bike",
+      "CF Transport Ship",
+      "QQ Speed"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": null,
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/riba2534/claude-opus-5-5-demo"
+    ],
+    "verification_notes": "Three distinct source games: coastal cycling with fish and achievements; FPS ship-map bot combat; multi-track drifting racer. Each has input, game state and goals. README explicitly attributes all three to Claude Opus 5.5 and links separate deployments; each URL returned HTTP 200. No runtime playtest performed.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Three independent game implementations, separate source directories and reachable deployments; source-verified but not interactively playtested.",
+    "counted_game_units": 3,
+    "is_independent_game": true,
+    "prompt": "Build Pelican Bike, CF Transport Ship, QQ Speed as separate playable games using Three.js, JavaScript, esbuild, WebGL, Browser. Three distinct source games: coastal cycling with fish and achievements; FPS ship-map bot combat; multi-track drifting racer. Each has input, game state and goals. README explicitly attributes all three to Claude Opus 5.5 and links separate deployments; each URL returned HTTP 200. No runtime playtest performed. Preserve controls, game state, objective, failure and restart behavior shown in the source. This is a source-derived reconstruction prompt, not the original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/README.md",
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://claude-opus-5-5.riba2534.cn/",
+      "https://claude-opus-5-5-cf-transport-ship.pages.dev/",
+      "https://claude-opus-5-5-qqfeiche3d.pages.dev/"
+    ]
   }
 ]
