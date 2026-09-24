@@ -1,6 +1,6 @@
 # Top Games This Month
 
-> Rank games dated from **2026-09-01** through **2026-09-15**.
+> Rank games dated from **2026-09-01** through **2026-09-24**.
 
 ## Coverage
 
@@ -31,5 +31,5 @@
 - Keep repository creation dates in the audit file only.
 - Keep this report generated; do not edit it manually.
 
-Period: **2026-09-01 through 2026-09-15**
-As of: **2026-09-15**
+Period: **2026-09-01 through 2026-09-24**
+As of: **2026-09-24**

@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-15",
+  "generated_on": "2026-09-24",
   "records": [
     {
       "game": "The Nine Lives of Ash",
@@ -8328,6 +8328,198 @@
       "published_date_confidence": "exact",
       "repository_created_at": "2025-12-09T19:57:45Z",
       "verified_on": "2026-09-15"
+    },
+    {
+      "game": "Dead Signal: Exclusion Zone",
+      "repository_url": "https://github.com/bridge-mind/claude-opus-5.5-zombies-game",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-22T17:55:29Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Turbo Kart Rally",
+      "repository_url": "https://github.com/bridge-mind/turbo-kart-rally",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-22T17:36:26Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "OpusSkate",
+      "repository_url": "https://github.com/OminousIndustries/OpusSkate",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-22T22:09:18Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Pelican Bike",
+      "repository_url": "https://github.com/riba2534/claude-opus-5-5-demo",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T06:31:00Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "CF Transport Ship",
+      "repository_url": "https://github.com/riba2534/claude-opus-5-5-demo",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T06:31:00Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "QQ Speed",
+      "repository_url": "https://github.com/riba2534/claude-opus-5-5-demo",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T06:31:00Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Tater's Flight Sim",
+      "repository_url": "https://github.com/JaredTate/tatertotsflightsim",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T04:57:54Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Terrabrowser",
+      "repository_url": "https://github.com/Wimmboo2/Terrabrowser",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T08:46:29Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Wouf Kart",
+      "repository_url": "https://github.com/eddyacthergal/super-wouf-kart",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T08:38:49Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Palmera Bay",
+      "repository_url": "https://github.com/vcahlik/palmera-bay",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T20:10:15Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Fishslop",
+      "repository_url": "https://github.com/vasu-devs/FishSlop_Opus5.5",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-22T20:06:26Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Turbo Coin Rush 3D",
+      "repository_url": "https://github.com/inteligenciamilgrau/carrinho_opus55",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-22T23:40:44Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Web Grand Prix",
+      "repository_url": "https://github.com/GatoArtStudio/f1-opus-5.5",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T00:34:08Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Slide Rush",
+      "repository_url": "https://github.com/KJLKurt/waterslide-game-opus-5.5",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T00:54:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Catgirl Pachinko",
+      "repository_url": "https://github.com/Maoku/Opus55CatgirlPachi",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T12:59:22Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Twilight Crossing — Neural RTS",
+      "repository_url": "https://github.com/MattiTynka/JEV-RTS",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T11:43:53Z",
+      "verified_on": "2026-09-24"
     }
   ]
 }
