@@ -15,6 +15,63 @@
 
 ---
 
+## Top games by screenshot
+
+One screenshot from each of the 30 highest-rated games with a usable verified screenshot. Select a thumbnail or title to open the game's Markdown page.
+
+<table>
+<tr>
+<td align="center" width="33%"><a href="games/commander-simulator/readme.md"><img src="assets/screenshot-gallery/01.webp" alt="Commander Simulator screenshot" width="100%"></a><br><a href="games/commander-simulator/readme.md"><strong>Commander Simulator</strong></a> · ⭐ 9.7</td>
+<td align="center" width="33%"><a href="games/unfit-for-print/readme.md"><img src="assets/screenshot-gallery/02.webp" alt="Unfit for Print screenshot" width="100%"></a><br><a href="games/unfit-for-print/readme.md"><strong>Unfit for Print</strong></a> · ⭐ 9.7</td>
+<td align="center" width="33%"><a href="games/chess3dastra/readme.md"><img src="assets/screenshot-gallery/03.webp" alt="chess3dastra screenshot" width="100%"></a><br><a href="games/chess3dastra/readme.md"><strong>chess3dastra</strong></a> · ⭐ 9.6</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/just-five-more-minutes/readme.md"><img src="assets/screenshot-gallery/04.webp" alt="Just Five More Minutes screenshot" width="100%"></a><br><a href="games/just-five-more-minutes/readme.md"><strong>Just Five More Minutes</strong></a> · ⭐ 9.5</td>
+<td align="center" width="33%"><a href="games/sunbreak-downhill-club/readme.md"><img src="assets/screenshot-gallery/05.webp" alt="SUNBREAK — Downhill Club screenshot" width="100%"></a><br><a href="games/sunbreak-downhill-club/readme.md"><strong>SUNBREAK — Downhill Club</strong></a> · ⭐ 9.5</td>
+<td align="center" width="33%"><a href="games/the-simpsons-hit-run-browser-reconstruction/readme.md"><img src="assets/screenshot-gallery/06.webp" alt="The Simpsons: Hit &amp; Run — Browser Reconstruction screenshot" width="100%"></a><br><a href="games/the-simpsons-hit-run-browser-reconstruction/readme.md"><strong>The Simpsons: Hit &amp; Run — Browser Reconstruction</strong></a> · ⭐ 9.5</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/the-wandering-inn-rpg/readme.md"><img src="assets/screenshot-gallery/07.webp" alt="The Wandering Inn RPG screenshot" width="100%"></a><br><a href="games/the-wandering-inn-rpg/readme.md"><strong>The Wandering Inn RPG</strong></a> · ⭐ 9.5</td>
+<td align="center" width="33%"><a href="games/wild-haggis-survivors/readme.md"><img src="assets/screenshot-gallery/08.webp" alt="Wild Haggis Survivors screenshot" width="100%"></a><br><a href="games/wild-haggis-survivors/readme.md"><strong>Wild Haggis Survivors</strong></a> · ⭐ 9.5</td>
+<td align="center" width="33%"><a href="games/beyond-boring-death-march/readme.md"><img src="assets/screenshot-gallery/09.webp" alt="Beyond Boring: Death March screenshot" width="100%"></a><br><a href="games/beyond-boring-death-march/readme.md"><strong>Beyond Boring: Death March</strong></a> · ⭐ 9.4</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/breakneck-baseball/readme.md"><img src="assets/screenshot-gallery/10.webp" alt="Breakneck Baseball screenshot" width="100%"></a><br><a href="games/breakneck-baseball/readme.md"><strong>Breakneck Baseball</strong></a> · ⭐ 9.4</td>
+<td align="center" width="33%"><a href="games/ghost-guild/readme.md"><img src="assets/screenshot-gallery/11.webp" alt="Ghost Guild screenshot" width="100%"></a><br><a href="games/ghost-guild/readme.md"><strong>Ghost Guild</strong></a> · ⭐ 9.4</td>
+<td align="center" width="33%"><a href="games/sunward/readme.md"><img src="assets/screenshot-gallery/12.webp" alt="Sunward screenshot" width="100%"></a><br><a href="games/sunward/readme.md"><strong>Sunward</strong></a> · ⭐ 9.4</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/the-fallen-citadel/readme.md"><img src="assets/screenshot-gallery/13.webp" alt="The Fallen Citadel screenshot" width="100%"></a><br><a href="games/the-fallen-citadel/readme.md"><strong>The Fallen Citadel</strong></a> · ⭐ 9.4</td>
+<td align="center" width="33%"><a href="games/ultima-v-warriors-of-destiny-traditional-chinese-remake/readme.md"><img src="assets/screenshot-gallery/14.webp" alt="Ultima V: Warriors of Destiny — Traditional Chinese Remake screenshot" width="100%"></a><br><a href="games/ultima-v-warriors-of-destiny-traditional-chinese-remake/readme.md"><strong>Ultima V: Warriors of Destiny — Traditional Chinese Remake</strong></a> · ⭐ 9.4</td>
+<td align="center" width="33%"><a href="games/dragon-quest-iii-ebitengine-remake/readme.md"><img src="assets/screenshot-gallery/15.webp" alt="Dragon Quest III — Ebitengine Remake screenshot" width="100%"></a><br><a href="games/dragon-quest-iii-ebitengine-remake/readme.md"><strong>Dragon Quest III — Ebitengine Remake</strong></a> · ⭐ 9.3</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/nullspace/readme.md"><img src="assets/screenshot-gallery/16.webp" alt="NULLSPACE screenshot" width="100%"></a><br><a href="games/nullspace/readme.md"><strong>NULLSPACE</strong></a> · ⭐ 9.3</td>
+<td align="center" width="33%"><a href="games/outrun-bangkok-hidden-stage-ice-run/readme.md"><img src="assets/screenshot-gallery/17.webp" alt="OutRun Bangkok — Hidden Stage: Ice Run screenshot" width="100%"></a><br><a href="games/outrun-bangkok-hidden-stage-ice-run/readme.md"><strong>OutRun Bangkok — Hidden Stage: Ice Run</strong></a> · ⭐ 9.3</td>
+<td align="center" width="33%"><a href="games/p-doom/readme.md"><img src="assets/screenshot-gallery/18.webp" alt="P(DOOM) screenshot" width="100%"></a><br><a href="games/p-doom/readme.md"><strong>P(DOOM)</strong></a> · ⭐ 9.3</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/pirateseas/readme.md"><img src="assets/screenshot-gallery/19.webp" alt="PirateSeas screenshot" width="100%"></a><br><a href="games/pirateseas/readme.md"><strong>PirateSeas</strong></a> · ⭐ 9.3</td>
+<td align="center" width="33%"><a href="games/rift-chess/readme.md"><img src="assets/screenshot-gallery/20.webp" alt="Rift Chess screenshot" width="100%"></a><br><a href="games/rift-chess/readme.md"><strong>Rift Chess</strong></a> · ⭐ 9.3</td>
+<td align="center" width="33%"><a href="games/robo-open/readme.md"><img src="assets/screenshot-gallery/21.webp" alt="Robo Open screenshot" width="100%"></a><br><a href="games/robo-open/readme.md"><strong>Robo Open</strong></a> · ⭐ 9.3</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/the-nine-lives-of-ash/readme.md"><img src="assets/screenshot-gallery/22.webp" alt="The Nine Lives of Ash screenshot" width="100%"></a><br><a href="games/the-nine-lives-of-ash/readme.md"><strong>The Nine Lives of Ash</strong></a> · ⭐ 9.3</td>
+<td align="center" width="33%"><a href="games/turbo-kart-rally/readme.md"><img src="assets/screenshot-gallery/23.webp" alt="Turbo Kart Rally screenshot" width="100%"></a><br><a href="games/turbo-kart-rally/readme.md"><strong>Turbo Kart Rally</strong></a> · ⭐ 9.3</td>
+<td align="center" width="33%"><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><img src="assets/screenshot-gallery/24.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><strong>Turbo Kart Rush</strong></a> · ⭐ 9.3</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/windy-10v10-ai/readme.md"><img src="assets/screenshot-gallery/25.webp" alt="Windy 10v10 AI screenshot" width="100%"></a><br><a href="games/windy-10v10-ai/readme.md"><strong>Windy 10v10 AI</strong></a> · ⭐ 9.3</td>
+<td align="center" width="33%"><a href="games/holdfast/readme.md"><img src="assets/screenshot-gallery/26.webp" alt="HOLDFAST screenshot" width="100%"></a><br><a href="games/holdfast/readme.md"><strong>HOLDFAST</strong></a> · ⭐ 9.2</td>
+<td align="center" width="33%"><a href="games/neural-sight/readme.md"><img src="assets/screenshot-gallery/27.webp" alt="Neural Sight screenshot" width="100%"></a><br><a href="games/neural-sight/readme.md"><strong>Neural Sight</strong></a> · ⭐ 9.2</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/pulsebreak/readme.md"><img src="assets/screenshot-gallery/28.webp" alt="PULSEBREAK screenshot" width="100%"></a><br><a href="games/pulsebreak/readme.md"><strong>PULSEBREAK</strong></a> · ⭐ 9.2</td>
+<td align="center" width="33%"><a href="games/tater-s-flight-sim/readme.md"><img src="assets/screenshot-gallery/29.webp" alt="Tater's Flight Sim screenshot" width="100%"></a><br><a href="games/tater-s-flight-sim/readme.md"><strong>Tater's Flight Sim</strong></a> · ⭐ 9.2</td>
+<td align="center" width="33%"><a href="games/third-beis-hamikdash/readme.md"><img src="assets/screenshot-gallery/30.webp" alt="Third Beis HaMikdash screenshot" width="100%"></a><br><a href="games/third-beis-hamikdash/readme.md"><strong>Third Beis HaMikdash</strong></a> · ⭐ 9.2</td>
+</tr>
+</table>
+
 ## Top games today
 
 > Rank the highest-rated repositories verified in this curation run on **2026-09-24**.

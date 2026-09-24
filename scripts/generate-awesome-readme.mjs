@@ -163,6 +163,23 @@ if (fs.existsSync(gamesDirectory)) {
   }
 }
 const gameNoteUrl = (row) => gameNoteLinks.get(`${row.record.github_url}\n${row.name}`) ?? row.record.github_url;
+const html = (value) => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+const gallery = JSON.parse(fs.readFileSync('assets/screenshot-gallery/gallery.json', 'utf8'));
+const screenshotGallery = () => {
+  let text = `## Top games by screenshot\n\n`;
+  text += `One screenshot from each of the 30 highest-rated games with a usable verified screenshot. Select a thumbnail or title to open the game's Markdown page.\n\n`;
+  text += `<table>\n`;
+  for (let index = 0; index < gallery.length; index += 3) {
+    text += `<tr>\n`;
+    for (const item of gallery.slice(index, index + 3)) {
+      const detailUrl = gameNoteLinks.get(`${item.github_url}\n${item.name}`);
+      if (!detailUrl) throw new Error(`Missing Markdown game page for gallery item: ${item.name}`);
+      text += `<td align="center" width="33%"><a href="${html(detailUrl)}"><img src="${html(item.thumbnail)}" alt="${html(item.name)} screenshot" width="100%"></a><br><a href="${html(detailUrl)}"><strong>${html(item.name)}</strong></a> · ⭐ ${Number(item.rating).toFixed(1)}</td>\n`;
+    }
+    text += `</tr>\n`;
+  }
+  return `${text}</table>\n\n`;
+};
 const periodTable = (title, description, items) => {
   let text = `## ${title}\n\n> ${description}\n\n`;
   if (!items.length) return `${text}_No verified entries match this period yet._\n\n`;
@@ -195,6 +212,7 @@ output += `[![Forks](https://img.shields.io/github/forks/AgentsLoop/awesome-opus
 output += `> **A curated field guide to games attributed to GPT-6 Astra, Claude Opus, or Claude Fable.**<br />\n`;
 output += `> Every listed unit maps to a qualifying GitHub source repository. The model-evidence grade is visible on every entry.\n\n`;
 output += `</div>\n\n---\n\n`;
+output += screenshotGallery();
 output += periodTable('Top games today', `Rank the highest-rated repositories verified in this curation run on **${today}**.`, topToday);
 output += periodTable('Top games this week', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${weekStart}** through **${today}**.`, topWeek);
 output += periodTable('Top games this month', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${monthStart}** through **${today}**.`, topMonth);
