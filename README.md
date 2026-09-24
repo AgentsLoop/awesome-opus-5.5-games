@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🎮 Awesome AI-Built Games
+# 🎮 Awesome OPUS 5.5 Games
 
 ### 746 curated game units. 504 qualifying source repositories.
 
 [![Games](https://img.shields.io/badge/GAMES-746-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-504-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-211-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
-[![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
+[![Stars](https://img.shields.io/github/stars/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/AgentsLoop/awesome-opus-5.5-games/stargazers) [![Forks](https://img.shields.io/github/forks/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/AgentsLoop/awesome-opus-5.5-games/forks)
 
 > **A curated field guide to games attributed to GPT-6 Astra, Claude Opus, or Claude Fable.**<br />
 > Every listed unit maps to a qualifying GitHub source repository. The model-evidence grade is visible on every entry.
@@ -982,4 +982,4 @@ Primary GitHub repository evidence is preferred. Creator reports and repository 
 
 ## Star this collection
 
-If source-backed AI game history should stay searchable, [**star the repository**](https://github.com/agents-dev/find-games-last-week-made-with).
+If source-backed AI game history should stay searchable, [**star the repository**](https://github.com/AgentsLoop/awesome-opus-5.5-games).
