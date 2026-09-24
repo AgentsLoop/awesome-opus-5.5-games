@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.2/10
+- **Screenshot rating:** 6.6/10 ([rated image](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/clinic_area.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** Phaser 3, TypeScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 360,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository has a clearly documented educational game, many direct gameplay scenes, seven gameplay captures, a structured data model and exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/DSXiangLi/tcm_odyssey](https://github.com/DSXiangLi/tcm_odyssey)
 - **Evidence:** [direct model evidence](https://github.com/DSXiangLi/tcm_odyssey/commit/bf02fd08c267dd0b7887dae436454a77bb6f6ae9)
@@ -32,16 +35,13 @@ The README describes a 2D pixel-art traditional Chinese medicine learning game w
 ### Gameplay source
 
 - [https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/main.ts](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/main.ts)
-- [https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/scenes/TownOutdoorScene.ts](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/scenes/TownOutdoorScene.ts)
-- [https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/scenes/DiagnosisScene.ts](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/scenes/DiagnosisScene.ts)
-- [https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/scenes/DecoctionScene.ts](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/scenes/DecoctionScene.ts)
-- [https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/entities/Player.ts](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/src/entities/Player.ts)
 - [https://github.com/DSXiangLi/tcm_odyssey/commit/bf02fd08c267dd0b7887dae436454a77bb6f6ae9](https://github.com/DSXiangLi/tcm_odyssey/commit/bf02fd08c267dd0b7887dae436454a77bb6f6ae9)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Opus; https://github.com/DSXiangLi/tcm_odyssey
 
 [Back to the awesome list](../../README.md)

@@ -6,9 +6,12 @@
 
 ## At a glance
 
-- **Score:** 9.0/10
+- **Score:** 9.1/10
+- **Screenshot rating:** 7.7/10 ([rated image](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, CSS, JavaScript, Canvas 2D, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from five distinct game artifacts with direct source folders, extensive agent-authored validation, browser interaction logs, screenshots and complete or near-complete gameplay loops; repository is a benchmark collection rather than a single game.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/pyros-projects/Trial](https://github.com/pyros-projects/Trial)
 - **Evidence:** [direct model evidence](https://github.com/pyros-projects/Trial#what-you-can-do)
@@ -19,10 +22,6 @@
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
 - [screenshot 1](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png)
-- [screenshot 2](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/12-rhythm-bullet-hell/evidence/screenshots/24-final-desktop-gameplay.png)
-- [screenshot 3](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/13-drone-racing/evidence/finished-race-final.png)
-- [screenshot 4](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/16-procedural-roguelike/evidence/screenshots/23-chronicle.png)
-- [screenshot 5](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/17-echo-loop-puzzler/evidence/screenshots/42-final-desktop.png)
 
 ## Model attribution
 
@@ -35,16 +34,13 @@ Trial is a benchmark repository, but its GPT-6 Astra results contain five separa
 ### Gameplay source
 
 - [https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/10-stealth-heist](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/10-stealth-heist)
-- [https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/12-rhythm-bullet-hell](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/12-rhythm-bullet-hell)
-- [https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/13-drone-racing](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/13-drone-racing)
-- [https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/16-procedural-roguelike](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/16-procedural-roguelike)
-- [https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/17-echo-loop-puzzler](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/17-echo-loop-puzzler)
 - [https://github.com/pyros-projects/Trial#what-you-can-do](https://github.com/pyros-projects/Trial#what-you-can-do)
 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 5
+- **Counted units in repository:** 5
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

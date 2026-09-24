@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 6.7/10 ([rated image](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark/blob/main/docs/screenshots/015-arcade-champion.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** C, PSn00bSDK, PlayStation 1, GitHub Actions, DuckStation
+- **Estimated FP32 operations/s at 60 FPS:** 20,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong primary-source attribution, original game code, native build and release artifacts, controls, tests, screenshots, and documented emulator play verification.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark)
 - **Evidence:** [creator-reported model evidence](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark/blob/main/README.md)
@@ -34,7 +37,8 @@ README identifies GPT-6 Astra development and provides original PS1 fighting-gam
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark; https://x.com/GOROman/status/2096010653853221064
 - **Screenshot discovery:** README image scan from the game repository
 

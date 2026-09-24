@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 8.1/10 ([rated image](https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/closeup.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** TypeScript, Vite, Canvas 2D, Docker, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live demo, source, screenshots, extensive simulation loop, economy, services, disasters, progression, saves and direct Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Rapsody09/buildyourtown](https://github.com/Rapsody09/buildyourtown)
 - **Evidence:** [direct model evidence](https://github.com/Rapsody09/buildyourtown#jouer)
@@ -21,7 +24,6 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 1](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/overview.png)
 - [screenshot 2](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/budget.png)
 - [screenshot 3](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/traffic.png)
-
 - [screenshot 4](https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/closeup.png)
 - [screenshot 5](https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/welcome.png)
 
@@ -36,13 +38,13 @@ The README provides a live demo and Docker run instructions for an isometric cit
 ### Gameplay source
 
 - [https://github.com/Rapsody09/buildyourtown](https://github.com/Rapsody09/buildyourtown)
-- [https://buildyourtown.com](https://buildyourtown.com)
 - [https://github.com/Rapsody09/buildyourtown#jouer](https://github.com/Rapsody09/buildyourtown#jouer)
 
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: Claude Fable 5.1 game in:readme; https://github.com/Rapsody09/buildyourtown
 
 [Back to the awesome list](../../README.md)

@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 9.5/10
+- **Screenshot rating:** 8.6/10 ([rated image](https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, HTML, Three.js, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).

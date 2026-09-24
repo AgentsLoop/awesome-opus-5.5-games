@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 9.8/10 ([rated image](https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** Three.js, JavaScript, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).

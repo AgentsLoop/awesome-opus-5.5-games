@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.4/10
+- **Screenshot rating:** 3.0/10 ([rated image](https://github.com/ben-gy/lastlight/blob/main/public/og.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** TypeScript, Vite, Canvas 2D, DOM/CSS HUD, WebRTC, Trystero, Browser multiplayer
+- **Estimated FP32 operations/s at 60 FPS:** 720,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete documented settlement-survival loop with spatial warmth economy, workers, scouting, three modes, same-seed multiplayer, live demo, screenshot asset, extensive tests and exact Opus attribution on the initial gameplay commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ben-gy/lastlight](https://github.com/ben-gy/lastlight)
 - **Evidence:** [direct model evidence](https://github.com/ben-gy/lastlight/commit/b41bb5533b2cdd3900788a8a80481f78a94fb44f)
@@ -31,19 +34,13 @@ The README documents Lastlight as a playable browser settlement-survival game on
 ### Gameplay source
 
 - [https://github.com/ben-gy/lastlight#readme](https://github.com/ben-gy/lastlight#readme)
-- [https://lastlight.benrichardson.dev](https://lastlight.benrichardson.dev)
-- [https://github.com/ben-gy/lastlight/blob/main/src/game.ts](https://github.com/ben-gy/lastlight/blob/main/src/game.ts)
-- [https://github.com/ben-gy/lastlight/blob/main/src/hex.ts](https://github.com/ben-gy/lastlight/blob/main/src/hex.ts)
-- [https://github.com/ben-gy/lastlight/blob/main/src/modes.ts](https://github.com/ben-gy/lastlight/blob/main/src/modes.ts)
-- [https://github.com/ben-gy/lastlight/blob/main/src/race.ts](https://github.com/ben-gy/lastlight/blob/main/src/race.ts)
-- [https://github.com/ben-gy/lastlight/blob/main/src/render.ts](https://github.com/ben-gy/lastlight/blob/main/src/render.ts)
-- [https://github.com/ben-gy/lastlight/tree/main/tests](https://github.com/ben-gy/lastlight/tree/main/tests)
 - [https://github.com/ben-gy/lastlight/commit/b41bb5533b2cdd3900788a8a80481f78a94fb44f](https://github.com/ben-gy/lastlight/commit/b41bb5533b2cdd3900788a8a80481f78a94fb44f)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** Reverse-link from ben-gy/gh-game-factory index; GitHub commit search for Co-Authored-By Claude Opus game; https://github.com/ben-gy/lastlight
 
 [Back to the awesome list](../../README.md)

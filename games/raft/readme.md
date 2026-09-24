@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.4/10
+- **Screenshot rating:** 6.9/10 ([rated image](https://github.com/echosoar/raft/blob/main/image.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** HTML, JavaScript, Three.js, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Opus attribution, single-file source, live build, screenshot and a clear survival, collection and construction loop with multi-level structures.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/echosoar/raft](https://github.com/echosoar/raft)
 - **Evidence:** [direct model evidence](https://github.com/echosoar/raft#raft)
@@ -36,7 +39,8 @@ The README explicitly says this is a single-file 3D game written entirely with C
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** Reverse-link expansion from https://github.com/jphein/opus; https://github.com/echosoar/raft
 
 [Back to the awesome list](../../README.md)

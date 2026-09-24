@@ -1,212 +1,212 @@
 [
   {
-    "name": "Commander Simulator",
-    "github_url": "https://github.com/tuitamogamer-gpt/mtg-commander-simulator",
-    "rating": 9.7,
-    "source_url": "https://github.com/tuitamogamer-gpt/mtg-commander-simulator/blob/main/assets/menu/command-table-preview.jpg",
+    "name": "Turbo Kart Rally",
+    "github_url": "https://github.com/bridge-mind/turbo-kart-rally",
+    "screenshot_rating_10": 9.8,
+    "source_url": "https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg",
     "thumbnail": "assets/screenshot-gallery/01.webp"
   },
   {
-    "name": "Unfit for Print",
-    "github_url": "https://github.com/PPO-GG/unfit-for-print",
-    "rating": 9.7,
-    "source_url": "https://github.com/PPO-GG/unfit-for-print/blob/main/.github/assets/ingame.webp",
+    "name": "Kart Royale",
+    "github_url": "https://github.com/ryancampbell/kart-royale",
+    "screenshot_rating_10": 9.5,
+    "source_url": "https://github.com/ryancampbell/kart-royale/blob/main/docs/hero-drift.png",
     "thumbnail": "assets/screenshot-gallery/02.webp"
   },
   {
-    "name": "chess3dastra",
-    "github_url": "https://github.com/yortch/chess3dastra",
-    "rating": 9.6,
-    "source_url": "https://github.com/yortch/chess3dastra/blob/main/docs/screenshots/3d-dark.png",
+    "name": "Nerd of Duty",
+    "github_url": "https://github.com/sytaylor/nerd-of-duty",
+    "screenshot_rating_10": 9.4,
+    "source_url": "https://github.com/sytaylor/nerd-of-duty/blob/nerdcon/docs/hero.png",
     "thumbnail": "assets/screenshot-gallery/03.webp"
   },
   {
-    "name": "Just Five More Minutes",
-    "github_url": "https://github.com/Giftedx/just-five-more-minutes",
-    "rating": 9.5,
-    "source_url": "https://github.com/Giftedx/just-five-more-minutes/blob/master/docs/screenshots/parity-3d.png",
+    "name": "VECTOR RUSH",
+    "github_url": "https://github.com/ToBeWin/vector-rush",
+    "screenshot_rating_10": 9.3,
+    "source_url": "https://github.com/ToBeWin/vector-rush/blob/main/docs/media/gameplay.gif",
     "thumbnail": "assets/screenshot-gallery/04.webp"
+  },
+  {
+    "name": "Turbo Kart Grand Prix",
+    "github_url": "https://github.com/Franklin-C/turbo-kart-grand-prix",
+    "screenshot_rating_10": 9.2,
+    "source_url": "https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg",
+    "thumbnail": "assets/screenshot-gallery/05.webp"
+  },
+  {
+    "name": "Iridium Reach",
+    "github_url": "https://github.com/jason-c-dev/iridium-reach-demo",
+    "screenshot_rating_10": 9.0,
+    "source_url": "https://github.com/jason-c-dev/iridium-reach-demo/blob/main/screenshots/low-altitude-combat.png",
+    "thumbnail": "assets/screenshot-gallery/06.webp"
+  },
+  {
+    "name": "Silent Meridian",
+    "github_url": "https://github.com/stackloomdev/silent-meridian",
+    "screenshot_rating_10": 9.0,
+    "source_url": "https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png",
+    "thumbnail": "assets/screenshot-gallery/07.webp"
+  },
+  {
+    "name": "World of ClaudeCraft",
+    "github_url": "https://github.com/levy-street/world-of-claudecraft",
+    "screenshot_rating_10": 9.0,
+    "source_url": "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg",
+    "thumbnail": "assets/screenshot-gallery/08.webp"
+  },
+  {
+    "name": "KINDLE",
+    "github_url": "https://github.com/TonyDowney/kindle",
+    "screenshot_rating_10": 8.9,
+    "source_url": "https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/06-call.jpg",
+    "thumbnail": "assets/screenshot-gallery/09.webp"
   },
   {
     "name": "SUNBREAK — Downhill Club",
     "github_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game",
-    "rating": 9.5,
+    "screenshot_rating_10": 8.9,
     "source_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game/blob/main/media/SUNBREAK-showcase-poster.jpg",
-    "thumbnail": "assets/screenshot-gallery/05.webp"
-  },
-  {
-    "name": "The Simpsons: Hit & Run — Browser Reconstruction",
-    "github_url": "https://github.com/Vheissu/hit-and-run-web",
-    "rating": 9.5,
-    "source_url": "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/homer-and-marge.jpg",
-    "thumbnail": "assets/screenshot-gallery/06.webp"
-  },
-  {
-    "name": "The Wandering Inn RPG",
-    "github_url": "https://github.com/GabrielGLevine/wandering-inn-rpg",
-    "rating": 9.5,
-    "source_url": "https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/docs/steam/screenshots/03_combat.png",
-    "thumbnail": "assets/screenshot-gallery/07.webp"
-  },
-  {
-    "name": "Wild Haggis Survivors",
-    "github_url": "https://github.com/Giftedx/wild-haggis-survivors",
-    "rating": 9.5,
-    "source_url": "https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/gameplay.png",
-    "thumbnail": "assets/screenshot-gallery/08.webp"
-  },
-  {
-    "name": "Beyond Boring: Death March",
-    "github_url": "https://github.com/kolatts/beyond-boring-death-march",
-    "rating": 9.4,
-    "source_url": "https://github.com/kolatts/beyond-boring-death-march/blob/HEAD/docs/screenshots/cab-crossing.png",
-    "thumbnail": "assets/screenshot-gallery/09.webp"
-  },
-  {
-    "name": "Breakneck Baseball",
-    "github_url": "https://github.com/hynding/breakneck-baseball",
-    "rating": 9.4,
-    "source_url": "https://github.com/hynding/breakneck-baseball/blob/main/docs/agent/playtest/2026-08-21/23-live-gameplay.png",
     "thumbnail": "assets/screenshot-gallery/10.webp"
   },
   {
-    "name": "Ghost Guild",
-    "github_url": "https://github.com/moura-code/ghost-guild",
-    "rating": 9.4,
-    "source_url": "https://github.com/moura-code/ghost-guild/blob/main/art_previews/catacombs.png",
+    "name": "Fishslop",
+    "github_url": "https://github.com/vasu-devs/FishSlop_Opus5.5",
+    "screenshot_rating_10": 8.8,
+    "source_url": "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png",
     "thumbnail": "assets/screenshot-gallery/11.webp"
   },
   {
-    "name": "Sunward",
-    "github_url": "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra",
-    "rating": 9.4,
-    "source_url": "https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/docs/images/driving.png",
+    "name": "OVERRUN: Dockyard Nine",
+    "github_url": "https://github.com/alesha-pro/bench-portal",
+    "screenshot_rating_10": 8.8,
+    "source_url": "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp",
     "thumbnail": "assets/screenshot-gallery/12.webp"
   },
   {
-    "name": "The Fallen Citadel",
-    "github_url": "https://github.com/nansu0425/nan2026-game-src",
-    "rating": 9.4,
-    "source_url": "https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg",
+    "name": "Little Flock · 小羊慢慢",
+    "github_url": "https://github.com/songkeys/little-flock",
+    "screenshot_rating_10": 8.7,
+    "source_url": "https://github.com/songkeys/little-flock/blob/main/docs/demo-poster.jpg",
     "thumbnail": "assets/screenshot-gallery/13.webp"
   },
   {
-    "name": "Ultima V: Warriors of Destiny — Traditional Chinese Remake",
-    "github_url": "https://github.com/wicanr2/u5-cht",
-    "rating": 9.4,
-    "source_url": "https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/05-combat.png",
+    "name": "Turbo Kart Rush",
+    "github_url": "https://github.com/bridge-mind/turbo-kart-rush",
+    "screenshot_rating_10": 8.7,
+    "source_url": "https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg",
     "thumbnail": "assets/screenshot-gallery/14.webp"
-  },
-  {
-    "name": "Dragon Quest III — Ebitengine Remake",
-    "github_url": "https://github.com/wicanr2/kinginformation-dq3-re",
-    "rating": 9.3,
-    "source_url": "https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ghost_ship_overworld.png",
-    "thumbnail": "assets/screenshot-gallery/15.webp"
-  },
-  {
-    "name": "NULLSPACE",
-    "github_url": "https://github.com/marius4lui/NULLSPACE",
-    "rating": 9.3,
-    "source_url": "https://github.com/marius4lui/NULLSPACE/blob/main/docs/images/environment-preview.png",
-    "thumbnail": "assets/screenshot-gallery/16.webp"
-  },
-  {
-    "name": "OutRun Bangkok — Hidden Stage: Ice Run",
-    "github_url": "https://github.com/donsinp-design/Out",
-    "rating": 9.3,
-    "source_url": "https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/screenshot-stage1.png",
-    "thumbnail": "assets/screenshot-gallery/17.webp"
-  },
-  {
-    "name": "P(DOOM)",
-    "github_url": "https://github.com/transitive-bullshit/ai-safety-doom",
-    "rating": 9.3,
-    "source_url": "https://github.com/transitive-bullshit/ai-safety-doom/blob/main/docs/images/arrival.jpg",
-    "thumbnail": "assets/screenshot-gallery/18.webp"
-  },
-  {
-    "name": "PirateSeas",
-    "github_url": "https://github.com/AndreiBesliu/PirateSeas",
-    "rating": 9.3,
-    "source_url": "https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png",
-    "thumbnail": "assets/screenshot-gallery/19.webp"
-  },
-  {
-    "name": "Rift Chess",
-    "github_url": "https://github.com/HaileyStorm/rift-chess",
-    "rating": 9.3,
-    "source_url": "https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png",
-    "thumbnail": "assets/screenshot-gallery/20.webp"
-  },
-  {
-    "name": "Robo Open",
-    "github_url": "https://github.com/az9713/gpt-6-astra-tennis-game",
-    "rating": 9.3,
-    "source_url": "https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png",
-    "thumbnail": "assets/screenshot-gallery/21.webp"
-  },
-  {
-    "name": "The Nine Lives of Ash",
-    "github_url": "https://github.com/phirogue/SparkyGames",
-    "rating": 9.3,
-    "source_url": "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/battle.png",
-    "thumbnail": "assets/screenshot-gallery/22.webp"
-  },
-  {
-    "name": "Turbo Kart Rally",
-    "github_url": "https://github.com/bridge-mind/turbo-kart-rally",
-    "rating": 9.3,
-    "source_url": "https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg",
-    "thumbnail": "assets/screenshot-gallery/23.webp"
   },
   {
     "name": "Turbo Kart Rush",
     "github_url": "https://github.com/claudio41cg-max/rio-rush-cross",
-    "rating": 9.3,
-    "source_url": "https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/race.jpg",
-    "thumbnail": "assets/screenshot-gallery/24.webp"
-  },
-  {
-    "name": "Windy 10v10 AI",
-    "github_url": "https://github.com/windy10v10ai/game",
-    "rating": 9.3,
-    "source_url": "https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png",
-    "thumbnail": "assets/screenshot-gallery/25.webp"
-  },
-  {
-    "name": "HOLDFAST",
-    "github_url": "https://github.com/nschmeller/holdfast",
-    "rating": 9.2,
-    "source_url": "https://github.com/nschmeller/holdfast/blob/main/docs/ux-critique/12-results.jpg",
-    "thumbnail": "assets/screenshot-gallery/26.webp"
+    "screenshot_rating_10": 8.7,
+    "source_url": "https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/track-select.jpg",
+    "thumbnail": "assets/screenshot-gallery/15.webp"
   },
   {
     "name": "Neural Sight",
     "github_url": "https://github.com/monstercameron/Neural-Sight",
-    "rating": 9.2,
+    "screenshot_rating_10": 8.6,
     "source_url": "https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg",
-    "thumbnail": "assets/screenshot-gallery/27.webp"
+    "thumbnail": "assets/screenshot-gallery/16.webp"
   },
   {
-    "name": "PULSEBREAK",
-    "github_url": "https://github.com/xindomusic/pulsebreak",
-    "rating": 9.2,
-    "source_url": "https://github.com/xindomusic/pulsebreak/blob/main/docs/images/combat.png",
-    "thumbnail": "assets/screenshot-gallery/28.webp"
+    "name": "Rally Navigator",
+    "github_url": "https://github.com/swan4er/opus-100-projects",
+    "screenshot_rating_10": 8.6,
+    "source_url": "https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg",
+    "thumbnail": "assets/screenshot-gallery/17.webp"
+  },
+  {
+    "name": "Rogue Squadron — The Battle of Yavin",
+    "github_url": "https://github.com/PhiloLabs/fable51-worlds",
+    "screenshot_rating_10": 8.6,
+    "source_url": "https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif",
+    "thumbnail": "assets/screenshot-gallery/18.webp"
+  },
+  {
+    "name": "Clawd Pop 3D",
+    "github_url": "https://github.com/VibezZzCoder/clawd-pop",
+    "screenshot_rating_10": 8.5,
+    "source_url": "https://github.com/VibezZzCoder/clawd-pop/blob/main/media/clawd-pop-3d-gameplay.png",
+    "thumbnail": "assets/screenshot-gallery/19.webp"
+  },
+  {
+    "name": "LUMA — The Garden of Light",
+    "github_url": "https://github.com/TetsuakiBaba/2DAction.bench",
+    "screenshot_rating_10": 8.3,
+    "source_url": "https://github.com/TetsuakiBaba/2DAction.bench/blob/main/GPT6-Astra/screenshot.png",
+    "thumbnail": "assets/screenshot-gallery/20.webp"
+  },
+  {
+    "name": "Barista Shift",
+    "github_url": "https://github.com/swan4er/opus-100-projects",
+    "screenshot_rating_10": 8.2,
+    "source_url": "https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/preview.jpg",
+    "thumbnail": "assets/screenshot-gallery/21.webp"
+  },
+  {
+    "name": "Operation Ironhold",
+    "github_url": "https://github.com/StarKnightt/operation-ironhold",
+    "screenshot_rating_10": 8.2,
+    "source_url": "https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/gameplay.jpg",
+    "thumbnail": "assets/screenshot-gallery/22.webp"
+  },
+  {
+    "name": "Saber / Descent",
+    "github_url": "https://github.com/Vheissu/saber-battle",
+    "screenshot_rating_10": 8.2,
+    "source_url": "https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png",
+    "thumbnail": "assets/screenshot-gallery/23.webp"
   },
   {
     "name": "Tater's Flight Sim",
     "github_url": "https://github.com/JaredTate/tatertotsflightsim",
-    "rating": 9.2,
+    "screenshot_rating_10": 8.2,
     "source_url": "https://github.com/JaredTate/tatertotsflightsim/blob/main/docs/screenshots/a10-burning-convoy.jpg",
+    "thumbnail": "assets/screenshot-gallery/24.webp"
+  },
+  {
+    "name": "BuildYourTown",
+    "github_url": "https://github.com/Rapsody09/buildyourtown",
+    "screenshot_rating_10": 8.1,
+    "source_url": "https://github.com/Rapsody09/buildyourtown/blob/HEAD/docs/screenshots/closeup.png",
+    "thumbnail": "assets/screenshot-gallery/25.webp"
+  },
+  {
+    "name": "DRIFTLANDS",
+    "github_url": "https://github.com/DEADover/DRIFTLANDS",
+    "screenshot_rating_10": 8.0,
+    "source_url": "https://github.com/DEADover/DRIFTLANDS/blob/main/docs/banner.jpg",
+    "thumbnail": "assets/screenshot-gallery/26.webp"
+  },
+  {
+    "name": "Night Museum",
+    "github_url": "https://github.com/swan4er/opus-100-projects",
+    "screenshot_rating_10": 8.0,
+    "source_url": "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg",
+    "thumbnail": "assets/screenshot-gallery/27.webp"
+  },
+  {
+    "name": "P(DOOM)",
+    "github_url": "https://github.com/transitive-bullshit/ai-safety-doom",
+    "screenshot_rating_10": 8.0,
+    "source_url": "https://github.com/transitive-bullshit/ai-safety-doom/blob/main/docs/images/boss.jpg",
+    "thumbnail": "assets/screenshot-gallery/28.webp"
+  },
+  {
+    "name": "Vespertine",
+    "github_url": "https://github.com/sunkencity999/vespertine",
+    "screenshot_rating_10": 8.0,
+    "source_url": "https://github.com/sunkencity999/vespertine/blob/main/assets/wallpapers/night-1-the-shallow-drift.png",
     "thumbnail": "assets/screenshot-gallery/29.webp"
   },
   {
-    "name": "Third Beis HaMikdash",
-    "github_url": "https://github.com/ShmuelSokol/3rdbhmk",
-    "rating": 9.2,
-    "source_url": "https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/SourceAssets/cinematics-review/intro-gate-Main50-20260909T050722047734Z-approach.png",
+    "name": "Beach Volley FPS",
+    "github_url": "https://github.com/teoobarca/beach-volley-fps",
+    "screenshot_rating_10": 7.9,
+    "source_url": "https://github.com/teoobarca/beach-volley-fps/blob/main/docs/shots/broadcast-wide.png",
     "thumbnail": "assets/screenshot-gallery/30.webp"
   }
 ]

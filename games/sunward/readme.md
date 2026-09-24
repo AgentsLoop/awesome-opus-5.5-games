@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.4/10
+- **Screenshot rating:** 7.8/10 ([rated image](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/docs/images/driving.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Unity 6000.6, C#, Native macOS, Apple Silicon
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The project has a public playable release, substantial open-world racing scope, Unity source, screenshots, validation reports and explicit GPT-6 Astra attribution; attribution is creator-reported.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/yjrocks712/Sunward-by-GPT-6-Astra](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra)
 - **Evidence:** [creator-reported model evidence](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra)
@@ -32,16 +35,13 @@ The repository was created on 2026-09-14 and explicitly attributes Sunward to GP
 ### Gameplay source
 
 - [https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/README.md](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/README.md)
-- [https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/releases/tag/v0.1.0](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/releases/tag/v0.1.0)
-- [https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scripts/ArcadeCar.cs](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scripts/ArcadeCar.cs)
-- [https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scripts/FestivalSession.cs](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scripts/FestivalSession.cs)
-- [https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scenes/Sunward.unity](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/blob/main/Assets/Sunward/Scenes/Sunward.unity)
 - [https://github.com/yjrocks712/Sunward-by-GPT-6-Astra](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search for GPT-6 Astra created 2026-09-13..2026-09-15; https://github.com/yjrocks712/Sunward-by-GPT-6-Astra
 
 [Back to the awesome list](../../README.md)

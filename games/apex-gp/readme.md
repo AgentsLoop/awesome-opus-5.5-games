@@ -2,13 +2,16 @@
 
 > Verified game note.
 
-![APEX GP screenshot](https://raw.githubusercontent.com/jolbol1/apex-gp/main/docs/img/ship-hud.jpg)
+![APEX GP screenshot](https://raw.githubusercontent.com/jolbol1/apex-gp/HEAD/docs/img/ship-wide.jpg)
 
 ## At a glance
 
 - **Score:** 7.0/10
+- **Screenshot rating:** 7.5/10 ([rated image](https://github.com/jolbol1/apex-gp/blob/HEAD/docs/img/ship-wide.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/jolbol1/apex-gp](https://github.com/jolbol1/apex-gp)
 - **Evidence:** [directory-method model evidence](https://github.com/jolbol1/apex-gp)
@@ -17,12 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/jolbol1/apex-gp/blob/main/docs/img/ship-hud.jpg)
-- [screenshot 2](https://github.com/jolbol1/apex-gp/blob/main/docs/img/ship-grid.jpg)
-- [screenshot 3](https://github.com/jolbol1/apex-gp/blob/main/docs/img/ship-beauty.jpg)
-- [screenshot 4](https://github.com/jolbol1/apex-gp/blob/main/docs/img/ship-cockpit.jpg)
-
-- [screenshot 5](https://github.com/jolbol1/apex-gp/blob/HEAD/docs/img/ship-wide.jpg)
+- [screenshot 1](https://github.com/jolbol1/apex-gp/blob/HEAD/docs/img/ship-wide.jpg)
 
 ## Model attribution
 
@@ -39,7 +37,8 @@ Playable procedural Formula 1 racing game; README reports 137 agents, blind crit
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/jolbol1/apex-gp
 - **Screenshot discovery:** README image scan from the game repository
 

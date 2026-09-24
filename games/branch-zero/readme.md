@@ -2,25 +2,22 @@
 
 > Verified game note.
 
-![Branch Zero screenshot](https://raw.githubusercontent.com/JaCoderX/Branch-Zero/main/docs/media/readme/01_lobby.jpg)
+![Branch Zero screenshot placeholder](branch-zero-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 8.3/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Godot 4.5.2, GDScript, Godot Web export, TypeScript, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Fable attribution, complete Godot source and build instructions, walkable 3D scene, NPC/task loop and live-chain interaction evidence; public hosted demo was not supplied.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/JaCoderX/Branch-Zero](https://github.com/JaCoderX/Branch-Zero)
 - **Evidence:** [direct model evidence](https://github.com/JaCoderX/Branch-Zero#status)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/JaCoderX/Branch-Zero/blob/main/docs/media/readme/01_lobby.jpg)
-- [screenshot 2](https://github.com/JaCoderX/Branch-Zero/blob/main/docs/media/readme/02_account_opening.jpg)
-- [screenshot 3](https://github.com/JaCoderX/Branch-Zero/blob/main/docs/media/readme/03_counter.jpg)
-- [screenshot 4](https://github.com/JaCoderX/Branch-Zero/blob/main/docs/media/readme/04_vault.jpg)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -38,8 +35,8 @@ The README explicitly credits Claude Code with Fable 5.1 construction. The repos
 ## Verification notes
 
 - **Status:** verified_source_and_build_instructions
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=Fable+5.1+game+in%3Areadme+pushed%3A2026-09-09..2026-09-10; https://github.com/JaCoderX/Branch-Zero
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

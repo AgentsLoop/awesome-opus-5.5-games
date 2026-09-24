@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.9/10
+- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6
 - **Technology:** React, TypeScript, Three.js, Vite, glTF, WebGL 2, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 6,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete timed flight loop, six-axis controls, physical aperture scoring, collision and cooldown rules, combo multipliers, touch controls, shared leaderboard, source tests, deployment checks and successful browser verification.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/565353780/fly-around-sculpture](https://github.com/565353780/fly-around-sculpture)
 - **Evidence:** [direct model evidence](https://github.com/565353780/fly-around-sculpture#%E6%93%8D%E4%BD%9C%E4%B8%8E%E8%AE%A1%E5%88%86)
@@ -36,7 +39,8 @@ The README explicitly identifies a React/TypeScript/Three.js browser flight game
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/565353780/fly-around-sculpture; https://api.github.com/search/repositories?q=GPT6+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 8.3/10
+- **Screenshot rating:** 7.2/10 ([rated image](https://github.com/Maoku/Opus55CatgirlPachi/blob/main/Opus55CatgirlPachi.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** TypeScript, WebGL2, Rapier 2D, Vite, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).

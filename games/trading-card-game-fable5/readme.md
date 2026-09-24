@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.5/10
+- **Screenshot rating:** 6.2/10 ([rated image](https://github.com/jbrwilkinson/Trading-Card-Game-Fable5/blob/main/docs/images/Screenshot2026-07-13.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/jbrwilkinson/Trading-Card-Game-Fable5](https://github.com/jbrwilkinson/Trading-Card-Game-Fable5)
 - **Evidence:** [creator-reported model evidence](https://github.com/jbrwilkinson/Trading-Card-Game-Fable5)
@@ -34,7 +37,8 @@ Playable Lord of the Rings/Hobbit-inspired trading-card game start; README state
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/jbrwilkinson/Trading-Card-Game-Fable5
 - **Screenshot discovery:** README image scan from the game repository
 

@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 5.8/10 ([rated image](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra, Codex
 - **Technology:** Unity 6.0.5.7f1, C#, URP 17.5.0, Blender, Native Windows
+- **Estimated FP32 operations/s at 60 FPS:** 6,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete tennis match loop, serving, rallies, CPU opponent, scoring, practice modes, learning reports, source project, published Windows release, 156 validation checks and explicit GPT-6 Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/az9713/gpt-6-astra-tennis-game](https://github.com/az9713/gpt-6-astra-tennis-game)
 - **Evidence:** [direct model evidence](https://github.com/az9713/gpt-6-astra-tennis-game#play-on-windows)
@@ -39,7 +42,8 @@ The README identifies Robo Open as a playable Windows tennis prototype built wit
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/az9713/gpt-6-astra-tennis-game; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+Unity+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

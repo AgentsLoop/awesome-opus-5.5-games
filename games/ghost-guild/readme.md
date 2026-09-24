@@ -1,14 +1,17 @@
 # Ghost Guild
 
-> Verified game note.
+> Top-list entry: **this month** (#20).
 
 ![Ghost Guild screenshot](https://raw.githubusercontent.com/moura-code/ghost-guild/main/art_previews/catacombs.png)
 
 ## At a glance
 
 - **Score:** 9.4/10
+- **Screenshot rating:** 6.5/10 ([rated image](https://github.com/moura-code/ghost-guild/blob/main/art_previews/the_kiln.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Godot 4, GDScript, 3D, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Deep native Godot roguelite codebase with authored combat/economy systems, art previews, tests and exact Opus 5 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/moura-code/ghost-guild](https://github.com/moura-code/ghost-guild)
 - **Evidence:** [direct model evidence](https://github.com/moura-code/ghost-guild/commit/abf6538c97e6e948117a16600ccd6dab25ec9749)
@@ -32,16 +35,13 @@ The public repository is a Godot 4 card-combat incremental roguelite with a proj
 ### Gameplay source
 
 - [https://github.com/moura-code/ghost-guild/blob/main/project.godot](https://github.com/moura-code/ghost-guild/blob/main/project.godot)
-- [https://github.com/moura-code/ghost-guild/blob/main/game/game.gd](https://github.com/moura-code/ghost-guild/blob/main/game/game.gd)
-- [https://github.com/moura-code/ghost-guild/blob/main/game/crawl.tscn](https://github.com/moura-code/ghost-guild/blob/main/game/crawl.tscn)
-- [https://github.com/moura-code/ghost-guild/blob/main/core/combat/combat_engine.gd](https://github.com/moura-code/ghost-guild/blob/main/core/combat/combat_engine.gd)
-- [https://github.com/moura-code/ghost-guild/blob/main/core/run/run_engine.gd](https://github.com/moura-code/ghost-guild/blob/main/core/run/run_engine.gd)
 - [https://github.com/moura-code/ghost-guild/commit/abf6538c97e6e948117a16600ccd6dab25ec9749](https://github.com/moura-code/ghost-guild/commit/abf6538c97e6e948117a16600ccd6dab25ec9749)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Fable; https://github.com/moura-code/ghost-guild
 
 [Back to the awesome list](../../README.md)

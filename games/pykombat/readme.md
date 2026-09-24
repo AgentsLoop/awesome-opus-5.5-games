@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.5/10
+- **Screenshot rating:** 7.0/10 ([rated image](https://github.com/vidalmatheus/pyKombat/blob/master/res/Screenshot.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Pygame, Python, pygbag, WebAssembly, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,400,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository has a real Pygame fighting game with local and browser run paths, a live demo, screenshots and explicit Claude Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/vidalmatheus/pyKombat](https://github.com/vidalmatheus/pyKombat)
 - **Evidence:** [direct model evidence](https://github.com/vidalmatheus/pyKombat/commit/47cea3b9cbc291c42607f981e29f6eef726b25ca)
@@ -32,14 +35,13 @@ The README identifies pyKombat as a Pygame game with a browser build powered by 
 ### Gameplay source
 
 - [https://github.com/vidalmatheus/pyKombat/blob/47cea3b9cbc291c42607f981e29f6eef726b25ca/main.py](https://github.com/vidalmatheus/pyKombat/blob/47cea3b9cbc291c42607f981e29f6eef726b25ca/main.py)
-- [https://github.com/vidalmatheus/pyKombat/tree/47cea3b9cbc291c42607f981e29f6eef726b25ca/src](https://github.com/vidalmatheus/pyKombat/tree/47cea3b9cbc291c42607f981e29f6eef726b25ca/src)
-- [https://github.com/vidalmatheus/pyKombat/blob/47cea3b9cbc291c42607f981e29f6eef726b25ca/README.md](https://github.com/vidalmatheus/pyKombat/blob/47cea3b9cbc291c42607f981e29f6eef726b25ca/README.md)
 - [https://github.com/vidalmatheus/pyKombat/commit/47cea3b9cbc291c42607f981e29f6eef726b25ca](https://github.com/vidalmatheus/pyKombat/commit/47cea3b9cbc291c42607f981e29f6eef726b25ca)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for pygame game Co-Authored-By Claude Fable; https://github.com/vidalmatheus/pyKombat
 
 [Back to the awesome list](../../README.md)

@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 5.6/10 ([rated image](https://raw.githubusercontent.com/ayanamirei404/Pac_man_3d/main/%E6%BC%94%E7%A4%BA%E7%85%A7%E7%89%87/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202026-06-04%20192312.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** Godot, GDScript, Jolt Physics, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a substantial 3D chase game with procedural levels, multi-state ghost AI, survival systems, mobile controls and a gameplay recording, with direct Claude Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ayanamirei404/Pac_man_3d](https://github.com/ayanamirei404/Pac_man_3d)
 - **Evidence:** [direct model evidence](https://github.com/ayanamirei404/Pac_man_3d/commit/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c)
@@ -30,15 +33,13 @@ The README identifies a Godot 4.6 3D maze chase game and documents movement, fla
 ### Gameplay source
 
 - [https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/project.godot](https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/project.godot)
-- [https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/scene/main_scene.tscn](https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/scene/main_scene.tscn)
-- [https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/scene/player_3d.gd](https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/scene/player_3d.gd)
-- [https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/ghost/ghost.gd](https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/ghost/ghost.gd)
 - [https://github.com/ayanamirei404/Pac_man_3d/commit/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c](https://github.com/ayanamirei404/Pac_man_3d/commit/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Godot game Co-Authored-By Claude Opus; https://github.com/ayanamirei404/Pac_man_3d
 
 [Back to the awesome list](../../README.md)

@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.0/10
+- **Screenshot rating:** 8.0/10 ([rated image](https://github.com/DEADover/DRIFTLANDS/blob/main/docs/banner.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, JavaScript, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/DEADover/DRIFTLANDS](https://github.com/DEADover/DRIFTLANDS)
 - **Evidence:** [directory-method model evidence](https://github.com/DEADover/DRIFTLANDS)
@@ -35,7 +38,8 @@ Playable 2.5-D rally game; README records 27 Gauntlet Loop rounds and links to t
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/DEADover/DRIFTLANDS
 
 [Back to the awesome list](../../README.md)

@@ -123,10 +123,9 @@ function isImage(url) {
 }
 
 function sourceScreenshots(record, row = null) {
-  const unitScreenshots = row?.name ? record.contained_game_screenshots?.[row.name] : undefined;
-  const direct = unitScreenshots ?? record.screenshot_urls ?? [];
-  const discovered = screenshotDiscoveries.screenshots?.[record.github_url]?.screenshots ?? [];
-  return [...new Set([...direct, ...discovered])].filter(Boolean);
+  const hasUnitMapping = Boolean(row?.name && record.contained_game_screenshots);
+  const direct = hasUnitMapping ? (record.contained_game_screenshots[row.name] ?? []) : (record.screenshot_urls ?? []);
+  return [...new Set(direct)].filter(Boolean);
 }
 
 function sourceLiveDemos(record, row = null) {
@@ -217,6 +216,11 @@ function writeNote(row) {
   }
   output += `## At a glance\n\n`;
   output += `- **Score:** ${Number(rating(row)).toFixed(1)}/10\n`;
+  const screenshotRating = row.estimate?.screenshot_rating_10 ?? (record.contained_game_screenshots ? undefined : record.screenshot_rating_10);
+  const screenshotEvidence = row.estimate?.screenshot_rating_evidence_url ?? (record.contained_game_screenshots ? undefined : record.screenshot_rating_evidence_url);
+  if (screenshots.length && Number.isFinite(screenshotRating) && screenshotEvidence) {
+    output += `- **Screenshot rating:** ${Number(screenshotRating).toFixed(1)}/10 ([rated image](${screenshotEvidence})). Treat this as visual review only; do not infer a playtest.\n`;
+  }
   output += `- **Model:** ${esc(modelText(record, row.estimate))}\n`;
   output += `- **Technology:** ${esc((row.estimate?.technology ?? record.technology ?? []).join(', ') || 'Browser')}\n`;
   if (Number.isFinite(flops)) output += `- **Estimated FP32 operations/s at 60 FPS:** ${Number(flops).toLocaleString('en-US')} (${esc(flopsConfidence)} confidence; static estimate, not measured).\n`;
@@ -260,7 +264,7 @@ function writeNote(row) {
   output += `- **Counted units in repository:** ${record.counted_game_units}\n`;
   output += `- **Units covered by this note:** ${row.unitCount}\n`;
   if (record.discovery_sources?.length) output += `- **Discovery:** ${record.discovery_sources.join('; ')}\n`;
-  if ((screenshotDiscoveries.screenshots?.[record.github_url]?.screenshots ?? []).length) output += `- **Screenshot discovery:** ${esc(screenshotDiscoveries.screenshots[record.github_url].method ?? 'repository README source scan')}\n`;
+  if (record.screenshot_urls?.length && (screenshotDiscoveries.screenshots?.[record.github_url]?.screenshots ?? []).length) output += `- **Screenshot discovery:** ${esc(screenshotDiscoveries.screenshots[record.github_url].method ?? 'repository README source scan')}\n`;
   output += `\n[Back to the awesome list](../../README.md)\n`;
   fs.writeFileSync(readmePath, output);
   return true;

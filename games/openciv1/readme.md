@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 4.8/10 ([rated image](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** C++17, SDL2, Custom engine, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a substantial native strategy game rewrite with documented mechanics, direct C++ source, automated tests, gameplay comparison evidence and exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/wicanr2/civ1_cht](https://github.com/wicanr2/civ1_cht)
 - **Evidence:** [direct model evidence](https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472)
@@ -19,9 +22,8 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif)
 - [screenshot source 2](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md)
-
-- [screenshot 2](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png)
-- [screenshot 3](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/15_FOUND_CITY_pair.png)
+- [screenshot 3](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png)
+- [screenshot 4](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/15_FOUND_CITY_pair.png)
 
 ## Model attribution
 
@@ -34,15 +36,13 @@ The README describes a C++17/SDL2 native rewrite of Civilization 1 with eight ci
 ### Gameplay source
 
 - [https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/main.cpp](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/main.cpp)
-- [https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/game/MainCode.cpp](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/game/MainCode.cpp)
-- [https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/game/MapManagement.cpp](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/game/MapManagement.cpp)
-- [https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/platform/SdlPresenter.cpp](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/platform/SdlPresenter.cpp)
 - [https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472](https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for C++ game Co-Authored-By Claude Opus; https://github.com/wicanr2/civ1_cht
 
 [Back to the awesome list](../../README.md)

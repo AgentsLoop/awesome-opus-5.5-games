@@ -2,22 +2,22 @@
 
 > Verified game note.
 
-![Gorillas screenshot](https://github.com/user-attachments/assets/6ff6c384-8aba-4686-a69f-423fd484a77e)
+![Gorillas screenshot placeholder](gorillas-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/aarongarciah/gorillas](https://github.com/aarongarciah/gorillas)
 - **Evidence:** [creator-reported model evidence](https://github.com/aarongarciah/gorillas/blob/main/README.md)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot source 1](https://github.com/user-attachments/assets/6ff6c384-8aba-4686-a69f-423fd484a77e)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -34,8 +34,8 @@ README and browser source contain a playable MS-DOS Gorillas-style game made in 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/aarongarciah/gorillas
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

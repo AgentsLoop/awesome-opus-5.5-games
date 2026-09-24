@@ -2,22 +2,22 @@
 
 > Verified game note.
 
-![Coro Solto screenshot](https://raw.githubusercontent.com/corosolto/client/main/public/og-image.jpg)
+![Coro Solto screenshot placeholder](coro-solto-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, JavaScript, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/corosolto/client](https://github.com/corosolto/client)
 - **Evidence:** [directory-method model evidence](https://github.com/corosolto/client/blob/main/.claude/skills/gauntlet-fps/SKILL.md)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/corosolto/client/blob/main/public/og-image.jpg)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -34,8 +34,8 @@ Playable Brazilian-factions browser FPS; repo's game-specific skill explicitly d
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/corosolto/client
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

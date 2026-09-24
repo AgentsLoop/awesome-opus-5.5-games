@@ -2,13 +2,16 @@
 
 > Verified game note.
 
-![Side-scrolling Shooter screenshot](https://raw.githubusercontent.com/mohi-devhub/claude-games/main/assets/dino.gif)
+![Side-scrolling Shooter screenshot](https://raw.githubusercontent.com/mohi-devhub/claude-games/main/assets/shooter.gif)
 
 ## At a glance
 
 - **Score:** 8.9/10
+- **Screenshot rating:** 4.2/10 ([rated image](https://github.com/mohi-devhub/claude-games/blob/main/assets/shooter.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** TypeScript, React/TSX, Claude Code function hooks, Interactive terminal
+- **Estimated FP32 operations/s at 60 FPS:** 120,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The new repository contains four separately implemented games with source modules, controls, tests, demo assets and Claude-related repository evidence; method attribution is creator-reported for the current set.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/mohi-devhub/claude-games](https://github.com/mohi-devhub/claude-games)
 - **Evidence:** [creator-reported model evidence](https://github.com/mohi-devhub/claude-games/commit/e8b658d16f54483a652d8322a6c8498cd48b6fad)
@@ -17,8 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif)
-- [screenshot 2](https://github.com/mohi-devhub/claude-games/blob/main/assets/shooter.gif)
+- [screenshot 1](https://github.com/mohi-devhub/claude-games/blob/main/assets/shooter.gif)
 
 ## Model attribution
 
@@ -30,16 +32,14 @@ The repository was created on 2026-09-14 and its README identifies four current 
 
 ### Gameplay source
 
-- [https://github.com/mohi-devhub/claude-games/blob/main/README.md](https://github.com/mohi-devhub/claude-games/blob/main/README.md)
-- [https://github.com/mohi-devhub/claude-games/tree/main/hooks/boards](https://github.com/mohi-devhub/claude-games/tree/main/hooks/boards)
-- [https://github.com/mohi-devhub/claude-games/tree/main/hooks/games](https://github.com/mohi-devhub/claude-games/tree/main/hooks/games)
-- [https://github.com/mohi-devhub/claude-games/tree/main/tests](https://github.com/mohi-devhub/claude-games/tree/main/tests)
+- [https://github.com/mohi-devhub/claude-games/blob/main/hooks/boards/shooter.tsx](https://github.com/mohi-devhub/claude-games/blob/main/hooks/boards/shooter.tsx)
 - [https://github.com/mohi-devhub/claude-games/commit/e8b658d16f54483a652d8322a6c8498cd48b6fad](https://github.com/mohi-devhub/claude-games/commit/e8b658d16f54483a652d8322a6c8498cd48b6fad)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 4
+- **Counted units in repository:** 4
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search for Claude game created 2026-09-13..2026-09-15; https://github.com/mohi-devhub/claude-games
 
 [Back to the awesome list](../../README.md)

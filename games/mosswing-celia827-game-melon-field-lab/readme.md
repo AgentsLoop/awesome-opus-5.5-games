@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.1/10
+- **Screenshot rating:** 6.9/10 ([rated image](https://github.com/celia827/Game-Melon-Field-Lab/blob/master/mosswing/src/design/play-mobile.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, JavaScript, Canvas 2D, Three.js, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from two complete one-shot game artifacts with distinct mechanics, prompts, source trees and standalone HTML files; reduced for no hosted demo and limited automated evidence.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/celia827/Game-Melon-Field-Lab](https://github.com/celia827/Game-Melon-Field-Lab)
 - **Evidence:** [direct model evidence](https://github.com/celia827/Game-Melon-Field-Lab#-gpt-6-astra-one-shot-)
@@ -29,14 +32,14 @@ The README explicitly attributes two one-shot experiments to GPT-6 Astra and pre
 
 ### Gameplay source
 
-- [https://github.com/celia827/Game-Melon-Field-Lab/tree/master/melon-lab](https://github.com/celia827/Game-Melon-Field-Lab/tree/master/melon-lab)
 - [https://github.com/celia827/Game-Melon-Field-Lab/tree/master/mosswing](https://github.com/celia827/Game-Melon-Field-Lab/tree/master/mosswing)
 - [https://github.com/celia827/Game-Melon-Field-Lab#-gpt-6-astra-one-shot-](https://github.com/celia827/Game-Melon-Field-Lab#-gpt-6-astra-one-shot-)
 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 2
+- **Counted units in repository:** 2
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6%22+playable+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

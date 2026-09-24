@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.7/10
+- **Screenshot rating:** 5.6/10 ([rated image](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/_planning/hub_day_with_jishuang_v3.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Godot, GDScript, 2D, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 950,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large source-verified Godot roguelite with combat, cards, rewards, events, assets and exact Fable 5 attribution; no public demo or polished README was found.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/archer47-qingmei/AIGameTest2](https://github.com/archer47-qingmei/AIGameTest2)
 - **Evidence:** [direct model evidence](https://github.com/archer47-qingmei/AIGameTest2/commit/e89397577783f9de7ae469d689d741cb1dff175b)
@@ -31,16 +34,13 @@ The public Godot repository contains a card-based Taoist roguelite with a game m
 ### Gameplay source
 
 - [https://github.com/archer47-qingmei/AIGameTest2/blob/master/GameManager.gd](https://github.com/archer47-qingmei/AIGameTest2/blob/master/GameManager.gd)
-- [https://github.com/archer47-qingmei/AIGameTest2/blob/master/CombatEngine.gd](https://github.com/archer47-qingmei/AIGameTest2/blob/master/CombatEngine.gd)
-- [https://github.com/archer47-qingmei/AIGameTest2/blob/master/RewardEngine.gd](https://github.com/archer47-qingmei/AIGameTest2/blob/master/RewardEngine.gd)
-- [https://github.com/archer47-qingmei/AIGameTest2/blob/master/_combat_v3_new_anims.tscn](https://github.com/archer47-qingmei/AIGameTest2/blob/master/_combat_v3_new_anims.tscn)
-- [https://github.com/archer47-qingmei/AIGameTest2/blob/master/MapGenerator.gd](https://github.com/archer47-qingmei/AIGameTest2/blob/master/MapGenerator.gd)
 - [https://github.com/archer47-qingmei/AIGameTest2/commit/e89397577783f9de7ae469d689d741cb1dff175b](https://github.com/archer47-qingmei/AIGameTest2/commit/e89397577783f9de7ae469d689d741cb1dff175b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Fable; https://github.com/archer47-qingmei/AIGameTest2
 
 [Back to the awesome list](../../README.md)

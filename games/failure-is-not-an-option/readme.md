@@ -2,24 +2,24 @@
 
 > Verified game note.
 
-![Failure is Not an Option screenshot](https://raw.githubusercontent.com/dan-lee-odinson/failure-is-not-an-option/main/docs/media/phase4d-title.png)
+![Failure is Not an Option screenshot placeholder](failure-is-not-an-option-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 9.0/10
 - **Model:** GPT-6 Astra, Claude Code
 - **Technology:** TypeScript, Vite, HTML/CSS, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a public live demo, complete chapter flow, meaningful decisions, alternate outcomes, validation, browser tests, save/import checks and explicit Astra contribution; reduced slightly for demo scope rather than full release.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/dan-lee-odinson/failure-is-not-an-option](https://github.com/dan-lee-odinson/failure-is-not-an-option)
 - **Evidence:** [direct model evidence](https://github.com/dan-lee-odinson/failure-is-not-an-option#failure-is-not-an-option)
-- **Live demo:** [open demo](https://finaogame.com)
-- **Additional live link:** [open demo](https://finaogame.com/demo/)
+- **Live demo:** [open demo](https://finaogame.com/demo/)
+- **Additional live link:** [open demo](https://finaogame.com)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/main/docs/media/phase4d-title.png)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -36,7 +36,8 @@ The README identifies a playable browser narrative strategy game and provides a 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6%22+playable+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

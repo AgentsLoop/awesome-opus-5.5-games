@@ -2,13 +2,16 @@
 
 > Verified game note.
 
-![Deck Shenanigans screenshot](https://raw.githubusercontent.com/burakTanBilgi/deck-shenanigans/main/docs/screenshots/game-teletext.webp)
+![Deck Shenanigans screenshot](https://raw.githubusercontent.com/burakTanBilgi/deck-shenanigans/HEAD/docs/screenshots/deck-riso-noir.webp)
 
 ## At a glance
 
 - **Score:** 7.0/10
+- **Screenshot rating:** 6.2/10 ([rated image](https://github.com/burakTanBilgi/deck-shenanigans/blob/HEAD/docs/screenshots/deck-riso-noir.webp)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** TypeScript, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Actual game source and direct model attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/burakTanBilgi/deck-shenanigans](https://github.com/burakTanBilgi/deck-shenanigans)
 - **Evidence:** [creator-reported model evidence](https://github.com/burakTanBilgi/deck-shenanigans)
@@ -19,12 +22,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/burakTanBilgi/deck-shenanigans/blob/main/docs/screenshots/game-teletext.webp)
-- [screenshot 2](https://github.com/burakTanBilgi/deck-shenanigans/blob/main/docs/screenshots/theme-picker.webp)
-- [screenshot 3](https://github.com/burakTanBilgi/deck-shenanigans/blob/main/docs/screenshots/deck-teletext.webp)
-- [screenshot 4](https://github.com/burakTanBilgi/deck-shenanigans/blob/main/docs/screenshots/deck-deco-seance.webp)
-
-- [screenshot 5](https://github.com/burakTanBilgi/deck-shenanigans/blob/HEAD/docs/screenshots/deck-riso-noir.webp)
+- [screenshot 1](https://github.com/burakTanBilgi/deck-shenanigans/blob/HEAD/docs/screenshots/deck-riso-noir.webp)
 
 ## Model attribution
 
@@ -41,7 +39,8 @@ Repository description and TypeScript source contain a playable card-guessing ga
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/burakTanBilgi/deck-shenanigans
 - **Screenshot discovery:** README image scan from the game repository
 

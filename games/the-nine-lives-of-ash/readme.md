@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 5.0/10 ([rated image](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/02_title.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Godot 4, GDScript, Native desktop, Native mobile
+- **Estimated FP32 operations/s at 60 FPS:** 360,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The project has a documented playable prologue, separate combat and minigame systems, tests, screenshot evidence, native targets and exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/phirogue/SparkyGames](https://github.com/phirogue/SparkyGames)
 - **Evidence:** [direct model evidence](https://github.com/phirogue/SparkyGames/commit/3b370c0e21522c2fc496295e25e650443a070aac)
@@ -31,16 +34,13 @@ The README describes a playable Godot 4 roguelite card game for iOS and Android,
 ### Gameplay source
 
 - [https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.tscn](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.tscn)
-- [https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.gd](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.gd)
-- [https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/battle.gd](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/battle.gd)
-- [https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/core/combat_state.gd](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/core/combat_state.gd)
-- [https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/minigames/crossing_screen.gd](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/minigames/crossing_screen.gd)
 - [https://github.com/phirogue/SparkyGames/commit/3b370c0e21522c2fc496295e25e650443a070aac](https://github.com/phirogue/SparkyGames/commit/3b370c0e21522c2fc496295e25e650443a070aac)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Opus 5; https://github.com/phirogue/SparkyGames
 
 [Back to the awesome list](../../README.md)

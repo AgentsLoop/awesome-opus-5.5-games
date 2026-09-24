@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 7.2/10 ([rated image](https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, HTML, Canvas 2D, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 150,000,000 (low confidence; static estimate, not measured).

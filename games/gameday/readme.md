@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 4.5/10 ([rated image](https://github.com/WallyMagill/gameday/blob/main/docs/tour.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Rust, Ratatui, Crossterm, Native desktop, Terminal sports game
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The project has a polished documented game loop, nine leagues, multiple viewing modes, persistent preferences, offline cache behavior, tests, screenshots/GIF evidence and exact Fable attribution on a gameplay feature commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/WallyMagill/gameday](https://github.com/WallyMagill/gameday)
 - **Evidence:** [direct model evidence](https://github.com/WallyMagill/gameday/commit/41846f88c74679e4abf2aff125a7c1173f805bbc)
@@ -31,16 +34,13 @@ The README documents a runnable terminal sports board game with nine leagues, li
 ### Gameplay source
 
 - [https://github.com/WallyMagill/gameday#readme](https://github.com/WallyMagill/gameday#readme)
-- [https://github.com/WallyMagill/gameday/blob/main/Cargo.toml](https://github.com/WallyMagill/gameday/blob/main/Cargo.toml)
-- [https://github.com/WallyMagill/gameday/tree/main/src](https://github.com/WallyMagill/gameday/tree/main/src)
-- [https://github.com/WallyMagill/gameday/tree/main/tests](https://github.com/WallyMagill/gameday/tree/main/tests)
-- [https://github.com/WallyMagill/gameday/blob/main/docs/demo.gif](https://github.com/WallyMagill/gameday/blob/main/docs/demo.gif)
 - [https://github.com/WallyMagill/gameday/commit/41846f88c74679e4abf2aff125a7c1173f805bbc](https://github.com/WallyMagill/gameday/commit/41846f88c74679e4abf2aff125a7c1173f805bbc)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Rust game Co-Authored-By Claude Fable; https://github.com/WallyMagill/gameday
 
 [Back to the awesome list](../../README.md)

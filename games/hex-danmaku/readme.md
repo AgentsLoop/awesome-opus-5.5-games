@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.2/10
+- **Screenshot rating:** 5.8/10 ([rated image](https://github.com/macjoocan/hex-danmaku/blob/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e/assets/fantasy/forest-sanctuary.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** React 18 UMD, Babel, JavaScript, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 120,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete browser bullet-hell game with multiple modes, stage progression, boss systems, RPG content, local persistence, substantial art pipeline and extensive automated tests, with exact Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/macjoocan/hex-danmaku](https://github.com/macjoocan/hex-danmaku)
 - **Evidence:** [direct model evidence](https://github.com/macjoocan/hex-danmaku/commit/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e)
@@ -30,15 +33,13 @@ The README explicitly describes a turn-based hex bullet-hell game and identifies
 ### Gameplay source
 
 - [https://github.com/macjoocan/hex-danmaku/blob/main/Hex%20Danmaku.html](https://github.com/macjoocan/hex-danmaku/blob/main/Hex%20Danmaku.html)
-- [https://github.com/macjoocan/hex-danmaku/blob/main/engine.jsx](https://github.com/macjoocan/hex-danmaku/blob/main/engine.jsx)
-- [https://github.com/macjoocan/hex-danmaku/blob/main/stages.jsx](https://github.com/macjoocan/hex-danmaku/blob/main/stages.jsx)
-- [https://github.com/macjoocan/hex-danmaku/blob/main/app.jsx](https://github.com/macjoocan/hex-danmaku/blob/main/app.jsx)
 - [https://github.com/macjoocan/hex-danmaku/commit/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e](https://github.com/macjoocan/hex-danmaku/commit/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Fable; GitHub code search for C++ game Co-Authored-By Claude Fable; https://github.com/macjoocan/hex-danmaku
 
 [Back to the awesome list](../../README.md)

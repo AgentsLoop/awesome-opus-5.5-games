@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.5/10
+- **Screenshot rating:** 5.5/10 ([rated image](https://github.com/TabularisDB/game/blob/main/docs/demo.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Canvas 2D, Web Audio API, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/TabularisDB/game](https://github.com/TabularisDB/game)
 - **Evidence:** [creator-reported model evidence](https://github.com/TabularisDB/game)
@@ -35,7 +38,8 @@ Playable browser platformer with controls and a Super Mario-style loop; README d
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/TabularisDB/game
 - **Screenshot discovery:** README image scan from the game repository
 

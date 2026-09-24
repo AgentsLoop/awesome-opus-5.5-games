@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 5.7/10 ([rated image](https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Dota 2 Source 2, Dota 2 Workshop Tools, VScript TypeScript, Lua, Panorama React, Native game platform, PVE custom game
+- **Estimated FP32 operations/s at 60 FPS:** 5,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Published custom game with large Source 2 content and VScript codebase, PVE gameplay, custom heroes/abilities, AI systems, Panorama HUD, Steam Workshop distribution and exact Opus attribution on player-facing gameplay changes.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/windy10v10ai/game](https://github.com/windy10v10ai/game)
 - **Evidence:** [direct model evidence](https://github.com/windy10v10ai/game/commit/838c513c67e511d925791288359cc79c1ebcae4a)
@@ -31,18 +34,13 @@ The README identifies this repository as a published PVE Dota 2 custom game and 
 ### Gameplay source
 
 - [https://github.com/windy10v10ai/game#readme](https://github.com/windy10v10ai/game#readme)
-- [https://steamcommunity.com/sharedfiles/filedetails/?id=2307479570](https://steamcommunity.com/sharedfiles/filedetails/?id=2307479570)
-- [https://github.com/windy10v10ai/game/tree/develop/game/scripts/npc](https://github.com/windy10v10ai/game/tree/develop/game/scripts/npc)
-- [https://github.com/windy10v10ai/game/tree/develop/game/scripts/vscripts](https://github.com/windy10v10ai/game/tree/develop/game/scripts/vscripts)
-- [https://github.com/windy10v10ai/game/tree/develop/src/vscripts](https://github.com/windy10v10ai/game/tree/develop/src/vscripts)
-- [https://github.com/windy10v10ai/game/tree/develop/src/panorama](https://github.com/windy10v10ai/game/tree/develop/src/panorama)
-- [https://github.com/windy10v10ai/game/blob/develop/content/maps/dota.vmap](https://github.com/windy10v10ai/game/blob/develop/content/maps/dota.vmap)
 - [https://github.com/windy10v10ai/game/commit/838c513c67e511d925791288359cc79c1ebcae4a](https://github.com/windy10v10ai/game/commit/838c513c67e511d925791288359cc79c1ebcae4a)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Co-Authored-By Claude Opus game; https://github.com/windy10v10ai/game; https://steamcommunity.com/sharedfiles/filedetails/?id=2307479570
 
 [Back to the awesome list](../../README.md)

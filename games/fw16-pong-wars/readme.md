@@ -2,22 +2,22 @@
 
 > Verified game note.
 
-![FW16 Pong Wars screenshot](https://github.com/user-attachments/assets/85d59a7b-30c6-42e0-a397-b23e60094e47)
+![FW16 Pong Wars screenshot placeholder](fw16-pong-wars-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 7.8/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Rust, Native desktop, Windows, Framework Laptop 16 LED Matrix
+- **Estimated FP32 operations/s at 60 FPS:** 120,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct game source, release artifacts, clear controls and configuration, real hardware target, screenshot and explicit Opus build credit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/boobcactus/fw16-pongwars](https://github.com/boobcactus/fw16-pongwars)
 - **Evidence:** [direct model evidence](https://github.com/boobcactus/fw16-pongwars#usage)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot source 1](https://github.com/user-attachments/assets/85d59a7b-30c6-42e0-a397-b23e60094e47)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -30,13 +30,13 @@ The README documents a real Rust Pong Wars game with one- or two-module play, co
 ### Gameplay source
 
 - [https://github.com/boobcactus/fw16-pongwars](https://github.com/boobcactus/fw16-pongwars)
-- [https://github.com/boobcactus/fw16-pongwars/releases](https://github.com/boobcactus/fw16-pongwars/releases)
 - [https://github.com/boobcactus/fw16-pongwars#usage](https://github.com/boobcactus/fw16-pongwars#usage)
 
 ## Verification notes
 
 - **Status:** verified_source_and_release
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search: "Claude Opus 4.6" game; https://github.com/boobcactus/fw16-pongwars
 
 [Back to the awesome list](../../README.md)

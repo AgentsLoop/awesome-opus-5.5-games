@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.5/10
+- **Screenshot rating:** 6.1/10 ([rated image](https://github.com/user-attachments/assets/06a3e8c9-91fc-4db3-96b3-7ce5e02aa878)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** HTML, Canvas, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, adventure mechanics, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/karamvirr/fable5-canvas-game](https://github.com/karamvirr/fable5-canvas-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/karamvirr/fable5-canvas-game)
@@ -38,7 +41,8 @@ Repository description and single-file Canvas source contain a playable Zelda-li
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/karamvirr/fable5-canvas-game
 - **Screenshot discovery:** README image scan from the game repository
 

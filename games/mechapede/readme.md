@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.8/10
+- **Screenshot rating:** 6.4/10 ([rated image](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio API, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete arcade loop, public deployment, source-level game systems, browser and stress tests, audio, controls, score/wave state and successful live-build verification.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/davbachman/Mechapede](https://github.com/davbachman/Mechapede)
 - **Evidence:** [direct model evidence](https://github.com/davbachman/Mechapede#mechapede)
@@ -35,7 +38,8 @@ The README explicitly credits GPT-6 Astra and describes a mechanical Centipede-s
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/davbachman/Mechapede; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme+pushed%3A2026-09-08..2026-09-08
 
 [Back to the awesome list](../../README.md)

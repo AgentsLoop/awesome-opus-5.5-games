@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.2/10
+- **Screenshot rating:** 6.7/10 ([rated image](https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/SourceAssets/cinematics-review/intro-gate-Main50-20260909T050722047734Z-inside.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1, Claude Opus 5
 - **Technology:** Unreal Engine 5.8.2, C++, Blueprints, Native Windows
+- **Estimated FP32 operations/s at 60 FPS:** 12,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Downloadable native Unreal walkthrough with substantial authored world content, first-person walking and flight modes, interactable systems, crowd behavior, save/load, runtime evidence, release documentation and exact Fable/Opus attribution. The score is reduced for documented visual and packaged-input limitations.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ShmuelSokol/3rdbhmk](https://github.com/ShmuelSokol/3rdbhmk)
 - **Evidence:** [direct model evidence](https://github.com/ShmuelSokol/3rdbhmk/commit/45218d02d7cd6d1cee6cc881f19c3aeee25c2f41)
@@ -32,17 +35,13 @@ The public repository contains a real Unreal Engine project and a downloadable W
 ### Gameplay source
 
 - [https://github.com/ShmuelSokol/3rdbhmk/releases/tag/walkthrough-09-preview](https://github.com/ShmuelSokol/3rdbhmk/releases/tag/walkthrough-09-preview)
-- [https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/DOWNLOAD.md](https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/DOWNLOAD.md)
-- [https://github.com/ShmuelSokol/3rdbhmk/tree/main/unreal/MikdashCourtyardV3](https://github.com/ShmuelSokol/3rdbhmk/tree/main/unreal/MikdashCourtyardV3)
-- [https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/MikdashCourtyardV3.uproject](https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/MikdashCourtyardV3.uproject)
-- [https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset](https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset)
-- [https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/Content/FirstPerson/Lvl_FirstPerson.umap](https://github.com/ShmuelSokol/3rdbhmk/blob/main/unreal/MikdashCourtyardV3/Content/FirstPerson/Lvl_FirstPerson.umap)
 - [https://github.com/ShmuelSokol/3rdbhmk/commit/45218d02d7cd6d1cee6cc881f19c3aeee25c2f41](https://github.com/ShmuelSokol/3rdbhmk/commit/45218d02d7cd6d1cee6cc881f19c3aeee25c2f41)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Unreal game Claude Fable; https://github.com/ShmuelSokol/3rdbhmk
 
 [Back to the awesome list](../../README.md)

@@ -2,26 +2,22 @@
 
 > Verified game note.
 
-![Lanterns screenshot](https://raw.githubusercontent.com/kamwoh/yume/master/docs/media/doomarena.gif)
+![Lanterns screenshot placeholder](lanterns-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 9.1/10
 - **Model:** Claude Opus 4.8, Claude Opus 4
 - **Technology:** Godot 4, JSON world model, GDScript engine, Native desktop, 3D FPS arena shooter, 2D Sokoban puzzle, 3D third-person collection game
+- **Estimated FP32 operations/s at 60 FPS:** 5,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Three source-complete committed Godot games with fresh-clone launch scenes, dedicated world data, gameplay rules, assets, tests, screenshots and exact Opus implementation history; engine-only and visual-test demos are excluded.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/kamwoh/yume](https://github.com/kamwoh/yume)
 - **Evidence:** [direct model evidence](https://github.com/kamwoh/yume/commit/11df7cf1a0e29ec63b2f3ffe45ba14b57d623b33)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif)
-- [screenshot 2](https://github.com/kamwoh/yume/blob/master/docs/media/sokoban.gif)
-- [screenshot 3](https://github.com/kamwoh/yume/blob/master/docs/media/lanterns.gif)
-
-- [screenshot 4](https://github.com/kamwoh/yume/blob/HEAD/docs/media/forest_scene.gif)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -33,20 +29,14 @@ The README identifies three committed demos that run on a fresh clone: doomarena
 
 ### Gameplay source
 
-- [https://github.com/kamwoh/yume/blob/master/README.md](https://github.com/kamwoh/yume/blob/master/README.md)
-- [https://github.com/kamwoh/yume/blob/master/godot/scenes/doomarena3d.tscn](https://github.com/kamwoh/yume/blob/master/godot/scenes/doomarena3d.tscn)
-- [https://github.com/kamwoh/yume/blob/master/godot/scenes/sokoban_2d.tscn](https://github.com/kamwoh/yume/blob/master/godot/scenes/sokoban_2d.tscn)
 - [https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn](https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn)
-- [https://github.com/kamwoh/yume/tree/master/godot/data/demo_doomarena3d](https://github.com/kamwoh/yume/tree/master/godot/data/demo_doomarena3d)
-- [https://github.com/kamwoh/yume/tree/master/godot/data/demo_sokoban](https://github.com/kamwoh/yume/tree/master/godot/data/demo_sokoban)
-- [https://github.com/kamwoh/yume/tree/master/godot/data/demo_lanterns](https://github.com/kamwoh/yume/tree/master/godot/data/demo_lanterns)
-- [https://github.com/kamwoh/yume/tree/master/docs/media](https://github.com/kamwoh/yume/tree/master/docs/media)
 - [https://github.com/kamwoh/yume/commit/11df7cf1a0e29ec63b2f3ffe45ba14b57d623b33](https://github.com/kamwoh/yume/commit/11df7cf1a0e29ec63b2f3ffe45ba14b57d623b33)
 
 ## Verification notes
 
 - **Status:** verified_source_and_screenshots
-- **Counted units:** 3
+- **Counted units in repository:** 3
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Opus 4.8; https://github.com/kamwoh/yume
 
 [Back to the awesome list](../../README.md)

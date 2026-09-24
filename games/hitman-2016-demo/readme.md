@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.0/10
+- **Screenshot rating:** 5.5/10 ([rated image](https://github.com/user-attachments/assets/dd5df4bd-be28-445c-ac73-51690bca9050)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.5
 - **Technology:** JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable Three.js demo evidence and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/EricSpencer00/oneshot-hm2016](https://github.com/EricSpencer00/oneshot-hm2016)
 - **Evidence:** [creator-reported model evidence](https://github.com/EricSpencer00/oneshot-hm2016)
@@ -37,7 +40,8 @@ Repository screenshot, README text, and Three.js source identify a playable stea
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/EricSpencer00/oneshot-hm2016
 - **Screenshot discovery:** README image scan from the game repository
 

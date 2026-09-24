@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 7.2/10 ([rated image](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Phaser, TypeScript, Vite, IndexedDB, Service Worker, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete Klondike rules loop, solvable difficulty modes, hints, undo, auto-finish, scoring, history, offline saves, responsive input, original themes, tests, screenshots, deployment and explicit GPT-6 Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/venkatarangan/mangoidiots-solitaire](https://github.com/venkatarangan/mangoidiots-solitaire)
 - **Evidence:** [direct model evidence](https://github.com/venkatarangan/mangoidiots-solitaire#features)
@@ -37,7 +40,8 @@ The README explicitly states that GPT-6 Astra generated the offline-first Draw 1
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/venkatarangan/mangoidiots-solitaire; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme+pushed%3A2026-09-08..2026-09-08
 
 [Back to the awesome list](../../README.md)

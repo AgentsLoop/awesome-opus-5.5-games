@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.6/10
+- **Screenshot rating:** 3.5/10 ([rated image](https://github.com/PizzaDAO/pizza-chef/blob/main/public/sprites/pizza-mafia.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** React, TypeScript, Vite, Canvas, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 750,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete arcade loop, substantial tested source, levels, bosses, power-ups, stores, score flow and direct Opus gameplay commit attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/PizzaDAO/pizza-chef](https://github.com/PizzaDAO/pizza-chef)
 - **Evidence:** [direct model evidence](https://github.com/PizzaDAO/pizza-chef/commit/4726f6bef14b809f5d34171fe158d80c884d8a36)
@@ -35,7 +38,8 @@ The repository contains a complete pizza-kitchen arcade game with customers, piz
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus 4.6; https://github.com/PizzaDAO/pizza-chef
 
 [Back to the awesome list](../../README.md)

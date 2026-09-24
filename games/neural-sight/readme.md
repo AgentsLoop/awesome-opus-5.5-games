@@ -7,13 +7,16 @@
 ## At a glance
 
 - **Score:** 9.2/10
+- **Screenshot rating:** 8.6/10 ([rated image](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 8,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete first-person movement and shooting loop, multiple captured levels, WebGPU rendering, generated weapon footage, collision and reload systems, optional zombie encounter, public deployment, source breadth and successful live launcher verification.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/monstercameron/Neural-Sight](https://github.com/monstercameron/Neural-Sight)
 - **Evidence:** [direct model evidence](https://github.com/monstercameron/Neural-Sight#built-to-play-with)
-- **Live demo:** [open demo](https://monstercameron.github.io/Neural-Sight/experiment.html)
 - **Live demo:** [open demo](https://monstercameron.github.io/Neural-Sight/)
+- **Additional live link:** [open demo](https://monstercameron.github.io/Neural-Sight/experiment.html)
 
 ## Screenshots
 
@@ -38,7 +41,8 @@ The README explicitly describes a playable first-person browser game built over 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/monstercameron/Neural-Sight; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme+pushed%3A2026-09-08..2026-09-08
 
 [Back to the awesome list](../../README.md)

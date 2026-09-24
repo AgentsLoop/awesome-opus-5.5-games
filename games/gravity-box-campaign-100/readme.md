@@ -2,13 +2,16 @@
 
 > Verified game note.
 
-![Gravity Box — Campaign 100 screenshot](https://raw.githubusercontent.com/nghienvothuat-a11y/GravityBox/main/Docs/Verification/Campaign100/Previews/C010.png)
+![Gravity Box — Campaign 100 screenshot](https://raw.githubusercontent.com/nghienvothuat-a11y/GravityBox/main/Docs/Images/Level16/Coop16BothOut.png)
 
 ## At a glance
 
 - **Score:** 9.4/10
+- **Screenshot rating:** 5.3/10 ([rated image](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra, GPT-5.6 Sol
 - **Technology:** Unity 6000.3.19f1, C#, Rigidbody physics, Native Android, Native macOS, Windows editor
+- **Estimated FP32 operations/s at 60 FPS:** 5,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a large 100-level campaign, 10 bosses, physics labs, water/mercury/cooperative mechanics, Android build evidence, native screenshots, validators, solvability tests and explicit GPT-6 Astra level attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/nghienvothuat-a11y/GravityBox](https://github.com/nghienvothuat-a11y/GravityBox)
 - **Evidence:** [direct model evidence](https://github.com/nghienvothuat-a11y/GravityBox#ch%E1%BA%A1y-v%C3%A0-quan-s%C3%A1t)
@@ -17,10 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C010.png)
-- [screenshot 2](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C050.png)
-- [screenshot 3](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Mac/C100.png)
-- [screenshot 4](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)
+- [screenshot 1](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)
 
 ## Model attribution
 
@@ -37,7 +37,8 @@ The README describes a Unity physics-puzzle game with a 100-level campaign, 10 c
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/nghienvothuat-a11y/GravityBox; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+Unity+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

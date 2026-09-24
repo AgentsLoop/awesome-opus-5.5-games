@@ -2,13 +2,16 @@
 
 > Verified game note.
 
-![Korovany screenshot](https://raw.githubusercontent.com/yunit00/game-corovans/main/docs/screenshots/01-village.jpg)
+![Korovany screenshot](https://raw.githubusercontent.com/yunit00/game-corovans/HEAD/docs/screenshots/05-world-map.jpg)
 
 ## At a glance
 
 - **Score:** 7.5/10
+- **Screenshot rating:** 6.5/10 ([rated image](https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/05-world-map.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable Three.js source, action loop, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/yunit00/game-corovans](https://github.com/yunit00/game-corovans)
 - **Evidence:** [creator-reported model evidence](https://github.com/yunit00/game-corovans/blob/main/README.md)
@@ -18,13 +21,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/yunit00/game-corovans/blob/main/docs/screenshots/01-village.jpg)
-- [screenshot 2](https://github.com/yunit00/game-corovans/blob/main/docs/screenshots/02-caravan.jpg)
-- [screenshot 3](https://github.com/yunit00/game-corovans/blob/main/docs/screenshots/03-raid.jpg)
-- [screenshot 4](https://github.com/yunit00/game-corovans/blob/main/docs/screenshots/04-crossbow.jpg)
-
-- [screenshot 5](https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/05-world-map.jpg)
-- [screenshot 6](https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/06-mountains.jpg)
+- [screenshot 1](https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/05-world-map.jpg)
+- [screenshot 2](https://github.com/yunit00/game-corovans/blob/HEAD/docs/screenshots/06-mountains.jpg)
 
 ## Model attribution
 
@@ -41,7 +39,8 @@ README and browser source contain a playable 3D action game with an elf, village
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/yunit00/game-corovans
 - **Screenshot discovery:** README image scan from the game repository
 

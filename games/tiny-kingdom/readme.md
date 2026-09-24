@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.5/10
+- **Screenshot rating:** 6.8/10 ([rated image](https://github.com/user-attachments/assets/e33f77c2-b1c6-47a1-8592-5c25fc5724bc)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** JavaScript, Phaser 3, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable Phaser project, RTS rules, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/theniki/Tiny-Kingdom](https://github.com/theniki/Tiny-Kingdom)
 - **Evidence:** [creator-reported model evidence](https://github.com/theniki/Tiny-Kingdom/blob/main/README.md)
@@ -34,7 +37,8 @@ README and Phaser source contain a playable browser mini-RTS against an AI rival
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/theniki/Tiny-Kingdom
 - **Screenshot discovery:** README image scan from the game repository
 

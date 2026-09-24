@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 8.0/10 ([rated image](https://github.com/transitive-bullshit/ai-safety-doom/blob/main/docs/images/boss.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra, Codex
 - **Technology:** Next.js, React, TypeScript, Three.js 0.185.1, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete live browser shooter with a clear objective, multiple weapons, enemy types, difficulty modes, level systems, original presentation, screenshots, extensive automated tests and explicit GPT-6 Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/transitive-bullshit/ai-safety-doom](https://github.com/transitive-bullshit/ai-safety-doom)
 - **Evidence:** [creator-reported model evidence](https://github.com/transitive-bullshit/ai-safety-doom#credits)
@@ -33,17 +36,13 @@ The README explicitly credits GPT-6 Astra with Codex, Three.js, TypeScript and N
 ### Gameplay source
 
 - [https://p-doom.transitivebullsh.it](https://p-doom.transitivebullsh.it)
-- [https://github.com/transitive-bullshit/ai-safety-doom/blob/main/components/game/game-shell.tsx](https://github.com/transitive-bullshit/ai-safety-doom/blob/main/components/game/game-shell.tsx)
-- [https://github.com/transitive-bullshit/ai-safety-doom/blob/main/lib/game/runtime.ts](https://github.com/transitive-bullshit/ai-safety-doom/blob/main/lib/game/runtime.ts)
-- [https://github.com/transitive-bullshit/ai-safety-doom/blob/main/lib/game/level.ts](https://github.com/transitive-bullshit/ai-safety-doom/blob/main/lib/game/level.ts)
-- [https://github.com/transitive-bullshit/ai-safety-doom/blob/main/lib/game/model.ts](https://github.com/transitive-bullshit/ai-safety-doom/blob/main/lib/game/model.ts)
-- [https://github.com/transitive-bullshit/ai-safety-doom/tree/main/tests](https://github.com/transitive-bullshit/ai-safety-doom/tree/main/tests)
 - [https://github.com/transitive-bullshit/ai-safety-doom#credits](https://github.com/transitive-bullshit/ai-safety-doom#credits)
 
 ## Verification notes
 
 - **Status:** verified_live
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Unity game GPT-6 Astra; https://github.com/transitive-bullshit/ai-safety-doom
 
 [Back to the awesome list](../../README.md)

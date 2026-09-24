@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.5/10
+- **Screenshot rating:** 7.8/10 ([rated image](https://github.com/binRick/scumm-game/blob/main/docs/screenshot.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** raylib, C, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Distinct adventure game with pathfinding, interactions, animated sprites, editors and screenshot evidence.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/binRick/scumm-game](https://github.com/binRick/scumm-game)
 - **Evidence:** [direct model evidence](https://github.com/binRick/scumm-game/commit/12159c5193f97f3d52a4faca18183a9cc377d69c)
@@ -30,13 +33,13 @@ The README describes a Raylib SCUMM-style point-and-click adventure with a walka
 ### Gameplay source
 
 - [https://github.com/binRick/scumm-game/blob/main/README.md](https://github.com/binRick/scumm-game/blob/main/README.md)
-- [https://github.com/binRick/scumm-game/blob/main/src/main.c](https://github.com/binRick/scumm-game/blob/main/src/main.c)
 - [https://github.com/binRick/scumm-game/commit/12159c5193f97f3d52a4faca18183a9cc377d69c](https://github.com/binRick/scumm-game/commit/12159c5193f97f3d52a4faca18183a9cc377d69c)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for raylib game Co-Authored-By Claude Opus; https://github.com/binRick/scumm-game
 
 [Back to the awesome list](../../README.md)

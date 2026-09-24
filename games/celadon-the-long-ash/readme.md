@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.0/10
+- **Screenshot rating:** 6.7/10 ([rated image](https://github.com/winchxyz/celadon/blob/master/docs/wheel.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** JavaScript, WebGL, Canvas
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, unusual mechanics, and direct model attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/winchxyz/celadon](https://github.com/winchxyz/celadon)
 - **Evidence:** [creator-reported model evidence](https://github.com/winchxyz/celadon/blob/main/README.md)
@@ -38,7 +41,8 @@ README, source, and browser entry point contain a playable 3D pottery game with 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/winchxyz/celadon
 - **Screenshot discovery:** README image scan from the game repository
 

@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.6/10
+- **Screenshot rating:** 6.4/10 ([rated image](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, CSS, JavaScript ES modules, PWA, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live demo, clear turn-based rules, large content set, progressive difficulty, pass rule, custom decks, offline behavior, screenshots and explicit Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Hiberius/couples-card-game](https://github.com/Hiberius/couples-card-game)
 - **Evidence:** [direct model evidence](https://github.com/Hiberius/couples-card-game#how-it-plays)
@@ -21,14 +24,13 @@ Use the source screenshot links below. The list records these assets from the ga
 - [screenshot 1](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/phones.png)
 - [screenshot 2](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/levels.png)
 - [screenshot 3](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png)
-
 - [screenshot 4](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png)
-- [screenshot 5](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-play.png)
-- [screenshot 6](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-install.png)
+- [screenshot 5](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-build.png)
+- [screenshot 6](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-content.png)
 - [screenshot 7](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-deck.png)
-- [screenshot 8](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-privacy.png)
-- [screenshot 9](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-build.png)
-- [screenshot 10](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-content.png)
+- [screenshot 8](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-install.png)
+- [screenshot 9](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-play.png)
+- [screenshot 10](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-privacy.png)
 
 ## Model attribution
 
@@ -41,13 +43,13 @@ The repository README links a live offline PWA and documents a complete two-play
 ### Gameplay source
 
 - [https://github.com/Hiberius/couples-card-game](https://github.com/Hiberius/couples-card-game)
-- [https://couples-card-game.hiberius.workers.dev](https://couples-card-game.hiberius.workers.dev)
 - [https://github.com/Hiberius/couples-card-game#how-it-plays](https://github.com/Hiberius/couples-card-game#how-it-plays)
 
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: Claude Fable 5.1 playable game in:readme; https://github.com/Hiberius/couples-card-game
 
 [Back to the awesome list](../../README.md)

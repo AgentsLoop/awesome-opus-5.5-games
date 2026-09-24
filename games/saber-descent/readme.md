@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 8.2/10 ([rated image](https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** TypeScript, Three.js, WebGL2, Vite, Blender, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 6,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete multi-depth crawler with combat depth, enemy behaviors, progression, portals, live deployment, tests, screenshots and direct model attribution in both creator post and README.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Vheissu/saber-battle](https://github.com/Vheissu/saber-battle)
 - **Evidence:** [direct model evidence](https://github.com/Vheissu/saber-battle)
@@ -38,7 +41,8 @@ The creator's X post says the dungeon crawler used GPT-6 Astra and that the code
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://x.com/CtrlAltDwayne/status/2096365441472209227; https://github.com/Vheissu/saber-battle
 
 [Back to the awesome list](../../README.md)

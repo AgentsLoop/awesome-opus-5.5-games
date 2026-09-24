@@ -5,9 +5,9 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - **Counted game units:** 792
 - **Named game notes:** 756
 - **Aggregate notes:** 1 (some repositories document several units without separate names)
-- **Rows with screenshot sources:** 281
-- **Placeholder thumbnails:** 475
-- **Notes written in this run:** 37
+- **Rows with screenshot sources:** 175
+- **Placeholder thumbnails:** 581
+- **Notes written in this run:** 186
 
 ## Today
 

@@ -2,13 +2,15 @@
 
 > Verified game note.
 
-![Raccoon Heist screenshot](https://raw.githubusercontent.com/simonw/raccoon-heist/3b11a53de3e98093c962cc504cc5b1691687d240/IMG_7212.jpeg)
+![Raccoon Heist screenshot placeholder](raccoon-heist-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 6.5/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 350,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source and direct method statement, with limited documentation. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/simonw/raccoon-heist](https://github.com/simonw/raccoon-heist)
 - **Evidence:** [creator-reported model evidence](https://github.com/simonw/raccoon-heist)
@@ -16,10 +18,7 @@
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://raw.githubusercontent.com/simonw/raccoon-heist/3b11a53de3e98093c962cc504cc5b1691687d240/IMG_7212.jpeg)
-- [screenshot 2](https://raw.githubusercontent.com/simonw/raccoon-heist/3b11a53de3e98093c962cc504cc5b1691687d240/IMG_7213.jpeg)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -36,8 +35,8 @@ Repository source contains a playable browser game; the repository description s
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/simonw/raccoon-heist
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

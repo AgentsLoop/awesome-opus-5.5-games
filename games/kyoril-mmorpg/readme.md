@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 7.6/10 ([rated image](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/screenshots/char_select.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Custom C++ engine, C++, OpenGL, MySQL, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a real custom-engine MMORPG prototype with native client code, world-state systems, gameplay screenshots, build instructions and exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Kyoril/mmo](https://github.com/Kyoril/mmo)
 - **Evidence:** [direct model evidence](https://github.com/Kyoril/mmo/commit/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0)
@@ -32,15 +35,13 @@ The repository description and README identify a playable MMORPG prototype with 
 ### Gameplay source
 
 - [https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/client.cpp](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/client.cpp)
-- [https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/game_states/world_state.cpp](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/game_states/world_state.cpp)
-- [https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/ui/world_frame.cpp](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/ui/world_frame.cpp)
-- [https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/shared/game/game.cpp](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/shared/game/game.cpp)
 - [https://github.com/Kyoril/mmo/commit/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0](https://github.com/Kyoril/mmo/commit/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for C++ game Co-Authored-By Claude Opus; https://github.com/Kyoril/mmo
 
 [Back to the awesome list](../../README.md)

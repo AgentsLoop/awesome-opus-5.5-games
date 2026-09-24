@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 8.8/10 ([rated image](https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** Three.js, TypeScript, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 1,400,000,000 (low confidence; static estimate, not measured).

@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 9.2/10
+- **Screenshot rating:** 8.2/10 ([rated image](https://github.com/JaredTate/tatertotsflightsim/blob/main/docs/screenshots/a10-burning-convoy.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** Three.js, TypeScript, Vite, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).

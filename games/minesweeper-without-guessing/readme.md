@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 9.2/10
+- **Screenshot rating:** 6.8/10 ([rated image](https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, HTML, Canvas 2D, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 190,000,000 (low confidence; static estimate, not measured).

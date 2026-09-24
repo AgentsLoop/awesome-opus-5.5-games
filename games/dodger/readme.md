@@ -2,13 +2,15 @@
 
 > Verified game note.
 
-![Dodger screenshot](https://raw.githubusercontent.com/hokita/mouse2/main/docs/screenshots/menu.png)
+![Dodger screenshot placeholder](dodger-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 9.0/10
 - **Model:** Claude Fable 5
 - **Technology:** Phaser 3, TypeScript, Vite, Firebase Hosting, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 380,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains five independently selectable games, direct scene implementations, extensive tests, screenshots and a live Firebase build with exact Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/hokita/mouse2](https://github.com/hokita/mouse2)
 - **Evidence:** [direct model evidence](https://github.com/hokita/mouse2/commit/48f4f442562d651138c170069cf774210338ab2a)
@@ -16,11 +18,7 @@
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/hokita/mouse2/blob/main/docs/screenshots/menu.png)
-- [screenshot 2](https://github.com/hokita/mouse2/blob/main/docs/screenshots/big-bite-fight.png)
-- [screenshot 3](https://github.com/hokita/mouse2/blob/main/docs/screenshots/sigil-battle.png)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -32,18 +30,14 @@ The README is intentionally minimal, but the repository contains a menu with fiv
 
 ### Gameplay source
 
-- [https://github.com/hokita/mouse2/blob/main/src/games.ts](https://github.com/hokita/mouse2/blob/main/src/games.ts)
 - [https://github.com/hokita/mouse2/blob/main/src/scenes/GameScene.ts](https://github.com/hokita/mouse2/blob/main/src/scenes/GameScene.ts)
-- [https://github.com/hokita/mouse2/blob/main/src/scenes/CarScene.ts](https://github.com/hokita/mouse2/blob/main/src/scenes/CarScene.ts)
-- [https://github.com/hokita/mouse2/blob/main/src/scenes/FishScene.ts](https://github.com/hokita/mouse2/blob/main/src/scenes/FishScene.ts)
-- [https://github.com/hokita/mouse2/blob/main/src/scenes/BiteScene.ts](https://github.com/hokita/mouse2/blob/main/src/scenes/BiteScene.ts)
-- [https://github.com/hokita/mouse2/blob/main/src/scenes/QuestScene.ts](https://github.com/hokita/mouse2/blob/main/src/scenes/QuestScene.ts)
 - [https://github.com/hokita/mouse2/commit/48f4f442562d651138c170069cf774210338ab2a](https://github.com/hokita/mouse2/commit/48f4f442562d651138c170069cf774210338ab2a)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 5
+- **Counted units in repository:** 5
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Fable; https://github.com/hokita/mouse2
 
 [Back to the awesome list](../../README.md)

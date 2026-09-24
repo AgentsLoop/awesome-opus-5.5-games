@@ -1,14 +1,17 @@
 # Haynes Quest
 
-> Top-list entry: **today** (#7).
+> Verified game note.
 
 ![Haynes Quest screenshot](https://raw.githubusercontent.com/thaynes43/haynes-quest/main/docs/assets/media/bestie-pink/v001/browser-beauty.png)
 
 ## At a glance
 
 - **Score:** 9.4/10
+- **Screenshot rating:** 5.8/10 ([rated image](https://github.com/thaynes43/haynes-quest/blob/main/docs/assets/media/bestie-pink/v001/browser-beauty.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** TypeScript, React, Three.js, WebGL, Browser, Private preview
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a documented two-chapter playable release, separate movement and combat systems, browser UI, server-owned progression, automated keyboard/touch journeys and exact Fable attribution on gameplay work.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/thaynes43/haynes-quest](https://github.com/thaynes43/haynes-quest)
 - **Evidence:** [direct model evidence](https://github.com/thaynes43/haynes-quest/commit/9ccc7a8d89210f6da9ba12e031e124eade52ba6b)
@@ -30,17 +33,13 @@ The README describes a private browser adventure with two playable chapters, equ
 ### Gameplay source
 
 - [https://github.com/thaynes43/haynes-quest#readme](https://github.com/thaynes43/haynes-quest#readme)
-- [https://github.com/thaynes43/haynes-quest/tree/main/src/game](https://github.com/thaynes43/haynes-quest/tree/main/src/game)
-- [https://github.com/thaynes43/haynes-quest/blob/main/src/game/obby.ts](https://github.com/thaynes43/haynes-quest/blob/main/src/game/obby.ts)
-- [https://github.com/thaynes43/haynes-quest/blob/main/src/game/combat.ts](https://github.com/thaynes43/haynes-quest/blob/main/src/game/combat.ts)
-- [https://github.com/thaynes43/haynes-quest/blob/main/src/client/GameScreen.tsx](https://github.com/thaynes43/haynes-quest/blob/main/src/client/GameScreen.tsx)
-- [https://github.com/thaynes43/haynes-quest/blob/main/tests/e2e/journey.mjs](https://github.com/thaynes43/haynes-quest/blob/main/tests/e2e/journey.mjs)
 - [https://github.com/thaynes43/haynes-quest/commit/9ccc7a8d89210f6da9ba12e031e124eade52ba6b](https://github.com/thaynes43/haynes-quest/commit/9ccc7a8d89210f6da9ba12e031e124eade52ba6b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Fable, 2026-09-10..2026-09-12; https://github.com/thaynes43/haynes-quest
 
 [Back to the awesome list](../../README.md)

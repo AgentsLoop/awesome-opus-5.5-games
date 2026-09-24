@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 9.0/10 ([rated image](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, CSS, JavaScript, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a public live build with four chapters, thirteen puzzles, two time states, progression, saves, bilingual UI, tests, accessibility support, original assets and direct Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/stackloomdev/silent-meridian](https://github.com/stackloomdev/silent-meridian)
 - **Evidence:** [direct model evidence](https://github.com/stackloomdev/silent-meridian#silent-meridian)
@@ -36,7 +39,8 @@ The README explicitly credits GPT-6 Astra in Codex and documents an original bil
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6%22+playable+game+in%3Areadme; https://github.com/MartinDelophy/awesome-gpt-6-astra; https://x.com/kepochnik/status/2097286217641697459
 
 [Back to the awesome list](../../README.md)

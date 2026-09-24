@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.0/10
+- **Screenshot rating:** 7.0/10 ([rated image](https://github.com/Alex-Caian/abstracts/blob/main/screenshots/abstracts1.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 350,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Actual card-game source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Alex-Caian/abstracts](https://github.com/Alex-Caian/abstracts)
 - **Evidence:** [creator-reported model evidence](https://github.com/Alex-Caian/abstracts/blob/main/README.md)
@@ -35,7 +38,8 @@ README and browser source contain a playable summoning card game where concepts 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Alex-Caian/abstracts
 - **Screenshot discovery:** README image scan from the game repository
 

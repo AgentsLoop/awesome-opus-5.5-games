@@ -2,22 +2,22 @@
 
 > Verified game note.
 
-![JUNKRUN screenshot](https://raw.githubusercontent.com/CoreyTrombley/JunkDrive/main/README.md)
+![JUNKRUN screenshot placeholder](junkrun-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 9.4/10
 - **Model:** Claude Fable 5
 - **Technology:** TypeScript, Preact, Vite, Canvas 2D, Web Audio API, Browser/PWA
+- **Estimated FP32 operations/s at 60 FPS:** 420,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The project has a complete documented idle/trading loop, deep progression, procedural sectors, offline persistence, mobile/PWA delivery, tests, self-contained build and exact Fable attribution on a gameplay feature commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/CoreyTrombley/JunkDrive](https://github.com/CoreyTrombley/JunkDrive)
 - **Evidence:** [direct model evidence](https://github.com/CoreyTrombley/JunkDrive/commit/0962b66dd4620295b35da0ea24e5b667e212cb4b)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot source 1](https://github.com/CoreyTrombley/JunkDrive/blob/main/README.md)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -30,17 +30,13 @@ The README documents JUNKRUN as a playable mobile-first idle/trading hybrid. The
 ### Gameplay source
 
 - [https://github.com/CoreyTrombley/JunkDrive#readme](https://github.com/CoreyTrombley/JunkDrive#readme)
-- [https://github.com/CoreyTrombley/JunkDrive/blob/main/src/app.tsx](https://github.com/CoreyTrombley/JunkDrive/blob/main/src/app.tsx)
-- [https://github.com/CoreyTrombley/JunkDrive/tree/main/src/engine](https://github.com/CoreyTrombley/JunkDrive/tree/main/src/engine)
-- [https://github.com/CoreyTrombley/JunkDrive/tree/main/src/components](https://github.com/CoreyTrombley/JunkDrive/tree/main/src/components)
-- [https://github.com/CoreyTrombley/JunkDrive/tree/main/src/engine/__tests__](https://github.com/CoreyTrombley/JunkDrive/tree/main/src/engine/__tests__)
-- [https://github.com/CoreyTrombley/JunkDrive/blob/main/dist/index.html](https://github.com/CoreyTrombley/JunkDrive/blob/main/dist/index.html)
 - [https://github.com/CoreyTrombley/JunkDrive/commit/0962b66dd4620295b35da0ea24e5b667e212cb4b](https://github.com/CoreyTrombley/JunkDrive/commit/0962b66dd4620295b35da0ea24e5b667e212cb4b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Rust game Co-Authored-By Claude Fable; https://github.com/CoreyTrombley/JunkDrive
 
 [Back to the awesome list](../../README.md)

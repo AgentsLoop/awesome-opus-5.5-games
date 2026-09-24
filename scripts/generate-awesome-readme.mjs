@@ -52,6 +52,8 @@ function units(record) {
       gameLink: record.game_links?.[0],
       demoLink: record.live_demo_url,
       screenshot_urls: record.screenshot_urls ?? [],
+      screenshot_rating_10: record.screenshot_rating_10,
+      screenshot_rating_evidence_url: record.screenshot_rating_evidence_url,
       prompt: record.prompt_note_enabled ? record.prompt : '',
       evidenceUrl: record.evidence_url,
       model_family: record.model_family,
@@ -75,7 +77,9 @@ function units(record) {
       technology: estimate.technology ?? record.technology,
       gameLink: gameLinks[index],
       demoLink: demos[index],
-      screenshot_urls: record.contained_game_screenshots?.[name] ?? record.screenshot_urls ?? [],
+      screenshot_urls: record.contained_game_screenshots ? (record.contained_game_screenshots[name] ?? []) : (record.screenshot_urls ?? []),
+      screenshot_rating_10: estimate.screenshot_rating_10 ?? (record.contained_game_screenshots ? undefined : record.screenshot_rating_10),
+      screenshot_rating_evidence_url: estimate.screenshot_rating_evidence_url ?? (record.contained_game_screenshots ? undefined : record.screenshot_rating_evidence_url),
       prompt: estimate.prompt ?? (record.prompt_note_enabled ? record.prompt : ''),
       evidenceUrl: estimate.evidence_url ?? record.evidence_url,
       model_family: estimate.model_family ?? record.model_family,
@@ -115,6 +119,7 @@ const iconLinks = (row) => {
   const directPrompts = row.record.prompt_urls ?? [];
   const prompt = directPrompts[0] ?? (row.prompt ? `${gameNoteUrl(row)}#reverse-engineered-prompt` : '');
   return [
+    Number.isFinite(row.screenshot_rating_10) ? `📸 **${Number(row.screenshot_rating_10).toFixed(1)}/10**` : '',
     screenshots[0] ? `[screenshot](${screenshots[0]})` : '',
     screenshots.length > 1 ? `+${screenshots.length - 1} more screenshots in data` : '',
     prompt ? `[prompt](${prompt})` : '',
@@ -184,14 +189,14 @@ const html = (value) => String(value ?? '').replaceAll('&', '&amp;').replaceAll(
 const gallery = JSON.parse(fs.readFileSync('assets/screenshot-gallery/gallery.json', 'utf8'));
 const screenshotGallery = () => {
   let text = `## Top games by screenshot\n\n`;
-  text += `One screenshot from each of the 30 highest-rated games with a usable verified screenshot. Select a thumbnail or title to open the game's Markdown page.\n\n`;
+  text += `Rank 30 games by **manual screenshot rating**, not source-quality score. Review composition, scene detail, visual coherence, and readable gameplay across the linked images. Reward polished stylized art as well as realism; discount title cards, menus, concept art, and frames that do not show play. This is a visual impression, not a runtime playtest or proof of AAA production quality. Select a thumbnail or title to open the game's Markdown page.\n\n`;
   text += `<table>\n`;
   for (let index = 0; index < gallery.length; index += 3) {
     text += `<tr>\n`;
     for (const item of gallery.slice(index, index + 3)) {
       const detailUrl = gameNoteLinks.get(`${item.github_url}\n${item.name}`);
       if (!detailUrl) throw new Error(`Missing Markdown game page for gallery item: ${item.name}`);
-      text += `<td align="center" width="33%"><a href="${html(detailUrl)}"><img src="${html(item.thumbnail)}" alt="${html(item.name)} screenshot" width="100%"></a><br><a href="${html(detailUrl)}"><strong>${html(item.name)}</strong></a> · ⭐ ${Number(item.rating).toFixed(1)}</td>\n`;
+      text += `<td align="center" width="33%"><a href="${html(detailUrl)}"><img src="${html(item.thumbnail)}" alt="${html(item.name)} screenshot" width="100%"></a><br><a href="${html(detailUrl)}"><strong>${html(item.name)}</strong></a> · 📸 ${Number(item.screenshot_rating_10).toFixed(1)}/10</td>\n`;
     }
     text += `</tr>\n`;
   }
@@ -284,7 +289,7 @@ output += `- Select a game title to open its local per-game note in [games/](gam
 output += `- Select the repository link inside the note to open the canonical GitHub source.\n`;
 output += `- Select **files** to inspect linked gameplay source. Select **play** for a published demo.\n`;
 output += `- Read the evidence grade before relying on a model-attribution claim. The rating is a curation aid, not a benchmark.\n\n`;
-output += `Each compact row shows **rating**, **model**, **technology**, **model-evidence grade**, and relevant source links. FLOPS estimates remain in the dataset but are omitted here because they are static, low-confidence estimates.\n\n`;
+output += `Each compact row shows **source-quality rating**, **model**, **technology**, **model-evidence grade**, and relevant source links. Rows with usable screenshots also show a separate 📸 **screenshot rating**. FLOPS estimates remain in the dataset but are omitted here because they are static, low-confidence estimates.\n\n`;
 
 for (const [title, group] of groups) {
   output += `## ${title}\n\n`;

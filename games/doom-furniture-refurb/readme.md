@@ -2,25 +2,22 @@
 
 > Verified game note.
 
-![Doom Furniture Refurb screenshot](https://github.com/MrCrayfish/MrCrayfishFurnitureMod-Refurbished/assets/4958241/cb5e85cd-ee66-49d5-89aa-8f145e79b7f3)
+![Doom Furniture Refurb screenshot placeholder](doom-furniture-refurb-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 6.5/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Java, Minecraft mod
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Actual game source and direct attribution, with limited public documentation. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/cbx-nz/mrcrayfishfurniturerefurb-doom](https://github.com/cbx-nz/mrcrayfishfurniturerefurb-doom)
 - **Evidence:** [creator-reported model evidence](https://github.com/cbx-nz/mrcrayfishfurniturerefurb-doom)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot source 1](https://github.com/MrCrayfish/MrCrayfishFurnitureMod-Refurbished/assets/4958241/cb5e85cd-ee66-49d5-89aa-8f145e79b7f3)
-- [screenshot source 2](https://github.com/MrCrayfish/MrCrayfishFurnitureMod-Refurbished/assets/4958241/980cc39e-8a23-4aa1-a15d-5fc16a1fc3e4)
-- [screenshot source 3](https://github.com/MrCrayfish/MrCrayfishFurnitureMod-Refurbished/assets/4958241/3068bff9-49f0-4dfc-9348-0d3aa1543444)
-- [screenshot source 4](https://github.com/MrCrayfish/MrCrayfishFurnitureMod-Refurbished/assets/4958241/27591fbc-b53a-4149-842d-967d25a63ec0)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -37,8 +34,8 @@ Repository description and Java source contain a Doom-style game experiment and 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/cbx-nz/mrcrayfishfurniturerefurb-doom
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

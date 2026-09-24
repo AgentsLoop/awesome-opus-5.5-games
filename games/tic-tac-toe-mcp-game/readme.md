@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.6/10
+- **Screenshot rating:** 5.9/10 ([rated image](https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/docs/media/game.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** TypeScript, React, Vite, MCP Apps, Docker, Native web UI
+- **Estimated FP32 operations/s at 60 FPS:** 90,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete networked game with server-enforced rules, matchmaking, invites, rematches, a polished widget and a public MCP endpoint, supported by screenshots and exact recent model trailers.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/worgho2/tic-tac-toe-mcp-game](https://github.com/worgho2/tic-tac-toe-mcp-game)
 - **Evidence:** [direct model evidence](https://github.com/worgho2/tic-tac-toe-mcp-game/commit/0f29b0b7f5bb68b17422bcdd3ea7130497f9312d)
@@ -31,15 +34,13 @@ The README documents a real two-player tic-tac-toe game rendered inside Claude, 
 ### Gameplay source
 
 - [https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/README.md](https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/README.md)
-- [https://github.com/worgho2/tic-tac-toe-mcp-game/tree/main/src/server/game](https://github.com/worgho2/tic-tac-toe-mcp-game/tree/main/src/server/game)
-- [https://github.com/worgho2/tic-tac-toe-mcp-game/tree/main/src/app/screens](https://github.com/worgho2/tic-tac-toe-mcp-game/tree/main/src/app/screens)
-- [https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/docs/media/game.png](https://github.com/worgho2/tic-tac-toe-mcp-game/blob/main/docs/media/game.png)
 - [https://github.com/worgho2/tic-tac-toe-mcp-game/commit/0f29b0b7f5bb68b17422bcdd3ea7130497f9312d](https://github.com/worgho2/tic-tac-toe-mcp-game/commit/0f29b0b7f5bb68b17422bcdd3ea7130497f9312d)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Claude Fable 5.1 dated 2026-09-13..2026-09-15; https://github.com/worgho2/tic-tac-toe-mcp-game
 
 [Back to the awesome list](../../README.md)

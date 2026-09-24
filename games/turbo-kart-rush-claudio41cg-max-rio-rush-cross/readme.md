@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 8.7/10 ([rated image](https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/track-select.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** TypeScript, Three.js 0.185, WebGL2, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 4,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong direct Fable attribution, complete source tree, documented racing loop, AI opponents, item interactions, screenshots and a public playable deployment.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/claudio41cg-max/rio-rush-cross](https://github.com/claudio41cg-max/rio-rush-cross)
 - **Evidence:** [direct model evidence](https://github.com/claudio41cg-max/rio-rush-cross#play)
@@ -19,7 +22,6 @@ Use the source screenshot links below. The list records these assets from the ga
 
 - [screenshot 1](https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/title.jpg)
 - [screenshot 2](https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/race.jpg)
-
 - [screenshot 3](https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/character-select.jpg)
 - [screenshot 4](https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/track-select.jpg)
 
@@ -34,13 +36,13 @@ The README explicitly says five Claude Fable 5.1 sub-agents built the game from 
 ### Gameplay source
 
 - [https://github.com/claudio41cg-max/rio-rush-cross](https://github.com/claudio41cg-max/rio-rush-cross)
-- [https://bridge-mind.github.io/turbo-kart-rush/](https://bridge-mind.github.io/turbo-kart-rush/)
 - [https://github.com/claudio41cg-max/rio-rush-cross#play](https://github.com/claudio41cg-max/rio-rush-cross#play)
 
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo_link
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=Fable+5.1+game+in%3Areadme+pushed%3A2026-09-09..2026-09-10; https://github.com/claudio41cg-max/rio-rush-cross
 
 [Back to the awesome list](../../README.md)

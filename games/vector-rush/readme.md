@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 9.3/10 ([rated image](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/gameplay.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Godot 4.7.2, GDScript, Blender, Native macOS, WebGL2, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,400,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete racing loop with three tracks, AI opponents, drift/nitro mechanics, medal progression, native release, web export, tests, screenshots and direct creator/model attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/ToBeWin/vector-rush](https://github.com/ToBeWin/vector-rush)
 - **Evidence:** [direct model evidence](https://github.com/ToBeWin/vector-rush)
@@ -39,7 +42,8 @@ The X post explicitly says GPT-6 Astra made VECTOR RUSH with Godot and Blender a
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://x.com/AIDREAMMAN/status/2096284215126229146; https://github.com/ToBeWin/vector-rush
 
 [Back to the awesome list](../../README.md)

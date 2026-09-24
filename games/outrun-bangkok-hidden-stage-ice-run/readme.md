@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 7.6/10 ([rated image](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/screenshot-stage1.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** HTML5 Canvas, JavaScript, WebAudio, Browser, iOS WebView wrapper
+- **Estimated FP32 operations/s at 60 FPS:** 420,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The project has a complete route-based racing loop, substantial world simulation, self-contained build, screenshots, mobile wrapper and direct recent Opus gameplay evidence.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/donsinp-design/Out](https://github.com/donsinp-design/Out)
 - **Evidence:** [direct model evidence](https://github.com/donsinp-design/Out/commit/d2109e4c14a47aafcec77e328f70835d190ef882)
@@ -31,16 +34,13 @@ The repository contains a complete pseudo-3D arcade racer. The README documents 
 ### Gameplay source
 
 - [https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/README.md](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/README.md)
-- [https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/game.js](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/game.js)
-- [https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/track.js](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/track.js)
-- [https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/world.js](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/src/world.js)
-- [https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/index.html](https://github.com/donsinp-design/Out/blob/claude/outrun-bangkok-version-dymbxr/dist/index.html)
 - [https://github.com/donsinp-design/Out/commit/d2109e4c14a47aafcec77e328f70835d190ef882](https://github.com/donsinp-design/Out/commit/d2109e4c14a47aafcec77e328f70835d190ef882)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus, committer-date 2026-09-13..2026-09-15; https://github.com/donsinp-design/Out
 
 [Back to the awesome list](../../README.md)

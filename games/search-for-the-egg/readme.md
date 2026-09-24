@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 3.5/10 ([rated image](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/Search_For_The_Egg_Claude_Code_Build_Pack/classes.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Roblox, Luau, Rojo, Roblox Studio
+- **Estimated FP32 operations/s at 60 FPS:** 380,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The project has a substantial Roblox vertical slice, client/server gameplay systems, tests, Studio verification and direct recent Opus evidence.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/khaielwork6-stack/Search-For-The-Egg](https://github.com/khaielwork6-stack/Search-For-The-Egg)
 - **Evidence:** [direct model evidence](https://github.com/khaielwork6-stack/Search-For-The-Egg/commit/1cf570e10c7d616d68c3c2a969ef0355a459c6d3)
@@ -31,16 +34,13 @@ The repository contains a Roblox first-person collection and hidden-object game.
 ### Gameplay source
 
 - [https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/README.md](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/README.md)
-- [https://github.com/khaielwork6-stack/Search-For-The-Egg/tree/main/src/server/Services](https://github.com/khaielwork6-stack/Search-For-The-Egg/tree/main/src/server/Services)
-- [https://github.com/khaielwork6-stack/Search-For-The-Egg/tree/main/src/client/Controllers](https://github.com/khaielwork6-stack/Search-For-The-Egg/tree/main/src/client/Controllers)
-- [https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/default.project.json](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/default.project.json)
-- [https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/docs/STUDIO_VERIFICATION.md](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/docs/STUDIO_VERIFICATION.md)
 - [https://github.com/khaielwork6-stack/Search-For-The-Egg/commit/1cf570e10c7d616d68c3c2a969ef0355a459c6d3](https://github.com/khaielwork6-stack/Search-For-The-Egg/commit/1cf570e10c7d616d68c3c2a969ef0355a459c6d3)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus, committer-date 2026-09-13..2026-09-15; https://github.com/khaielwork6-stack/Search-For-The-Egg
 
 [Back to the awesome list](../../README.md)

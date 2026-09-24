@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 7.5/10 ([rated image](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Unreal Engine 5.8.1, C++, Vulkan, Native Linux
+- **Estimated FP32 operations/s at 60 FPS:** 9,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete flight and waypoint loop, stabilized controls, cockpit telemetry, weather/audio, indoor passages, native 4K gameplay evidence, source release and 23 validation markers with explicit GPT-6 Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/w4coder/donify](https://github.com/w4coder/donify)
 - **Evidence:** [direct model evidence](https://github.com/w4coder/donify#gameplay)
@@ -39,7 +42,8 @@ The README explicitly credits GPT-6 Astra after approximately five hours of iter
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/w4coder/donify; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+Unreal+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

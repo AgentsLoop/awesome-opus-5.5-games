@@ -2,13 +2,15 @@
 
 > Verified game note.
 
-![AstroHop screenshot](https://raw.githubusercontent.com/nunoamorim99/AstroHop/main/docs/screenshot.png)
+![AstroHop screenshot placeholder](astrohop-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, Phaser 3, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable Phaser source, clear platformer loop, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/nunoamorim99/AstroHop](https://github.com/nunoamorim99/AstroHop)
 - **Evidence:** [creator-reported model evidence](https://github.com/nunoamorim99/AstroHop)
@@ -16,9 +18,7 @@
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/nunoamorim99/AstroHop/blob/main/docs/screenshot.png)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -35,8 +35,8 @@ Repository description identifies a playable Phaser platformer and a Claude Fabl
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/nunoamorim99/AstroHop
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

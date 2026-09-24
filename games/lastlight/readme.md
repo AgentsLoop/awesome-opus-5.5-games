@@ -2,24 +2,22 @@
 
 > Verified game note.
 
-![LASTLIGHT screenshot](https://raw.githubusercontent.com/bitofastickler/one-prompt-two-worlds/main/assets/cover.svg)
+![LASTLIGHT screenshot placeholder](lastlight-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 8.8/10
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio API, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete five-tide arcade loop with boss, two protected resources, upgrades, salvage, difficulty modes, local launch package, validation record and explicit GPT-6 Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/bitofastickler/one-prompt-two-worlds](https://github.com/bitofastickler/one-prompt-two-worlds)
 - **Evidence:** [direct model evidence](https://github.com/bitofastickler/one-prompt-two-worlds#pick-your-world)
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/bitofastickler/one-prompt-two-worlds/blob/main/assets/cover.svg)
-- [screenshot 2](https://github.com/bitofastickler/one-prompt-two-worlds/blob/main/assets/lastlight.svg)
-- [screenshot 3](https://github.com/bitofastickler/one-prompt-two-worlds/blob/main/assets/lancer.svg)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -37,8 +35,8 @@ The repository is a two-world case study, but only LASTLIGHT is counted because 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/bitofastickler/one-prompt-two-worlds; https://api.github.com/search/repositories?q=%22GPT-6%22+playable+game+in%3Areadme
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

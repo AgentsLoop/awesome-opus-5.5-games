@@ -48,6 +48,24 @@ for (const [index, record] of records.entries()) {
     if (values.some((value) => typeof value !== 'string' || !/^https:\/\/.+/.test(value))) fail(index, `${field} must contain HTTPS URLs`);
     if (new Set(values.map(canonicalUrl)).size !== values.length) fail(index, `${field} contains duplicate URLs`);
   }
+  if (record.screenshot_urls?.length && record.is_independent_game && !Number.isFinite(record.screenshot_rating_10)) {
+    fail(index, 'game with screenshots must have screenshot_rating_10');
+  }
+  if (record.screenshot_rating_10 !== undefined) {
+    if (!Number.isFinite(record.screenshot_rating_10) || record.screenshot_rating_10 < 0 || record.screenshot_rating_10 > 10) fail(index, 'screenshot_rating_10 must be between 0 and 10');
+    if (!record.screenshot_urls?.includes(record.screenshot_rating_evidence_url)) fail(index, 'screenshot rating evidence must be a recorded screenshot');
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(record.screenshot_rating_on ?? '')) fail(index, 'screenshot_rating_on is not YYYY-MM-DD');
+  }
+  for (const [unitIndex, name] of (record.contained_games ?? []).entries()) {
+    const screenshots = record.contained_game_screenshots?.[name] ?? [];
+    const estimate = record.contained_game_estimates?.[unitIndex] ?? {};
+    if (screenshots.length && !Number.isFinite(estimate.screenshot_rating_10)) fail(index, `${name} has screenshots but no screenshot rating`);
+    if (estimate.screenshot_rating_10 !== undefined) {
+      if (!Number.isFinite(estimate.screenshot_rating_10) || estimate.screenshot_rating_10 < 0 || estimate.screenshot_rating_10 > 10) fail(index, `${name} screenshot rating must be between 0 and 10`);
+      if (!screenshots.includes(estimate.screenshot_rating_evidence_url)) fail(index, `${name} screenshot rating evidence is not assigned to this game`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(estimate.screenshot_rating_on ?? '')) fail(index, `${name} screenshot_rating_on is not YYYY-MM-DD`);
+    }
+  }
   if (record.youtube_urls?.some((url) => !/(?:youtube\.com\/watch\?|youtu\.be\/)/i.test(url))) fail(index, 'youtube_urls must contain YouTube video URLs');
   if (!qualityCategories.has(record.quality_category)) fail(index, `invalid quality_category: ${record.quality_category}`);
   if (record.is_independent_game && (typeof record.prompt !== 'string' || !record.prompt.trim())) fail(index, 'independent game prompt must be non-empty');

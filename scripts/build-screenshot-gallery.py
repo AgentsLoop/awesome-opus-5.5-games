@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build one compact screenshot thumbnail per highest-rated eligible game."""
+"""Build thumbnails for the highest manually rated game screenshots."""
 
 import json
 from io import BytesIO
@@ -14,32 +14,6 @@ ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "assets" / "screenshot-gallery"
 LIMIT = 30
 SIZE = (480, 270)
-RASTER_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".avif"}
-PREFERRED = ("gameplay", "in-game", "ingame", "combat", "race", "driving", "world", "screenshot")
-DISFAVORED = ("title", "main-menu", "main_menu", "poster", "og.png")
-# These records have only a render, an almost blank frame, or a marketing card,
-# not a legible screenshot of the game itself.
-EXCLUDED_REPOSITORIES = {
-    "https://github.com/nghienvothuat-a11y/GravityBox",
-    "https://github.com/thaynes43/haynes-quest",
-    "https://github.com/ben-gy/lastlight",
-    "https://github.com/moorestech/moorestech",
-    "https://github.com/ben-gy/scrapwall",
-    "https://github.com/macjoocan/hex-danmaku",
-}
-
-
-def source_priority(url):
-    name = urlsplit(url).path.rsplit("/", 1)[-1].lower()
-    if "report" in name:
-        return 3
-    if any(word in name for word in PREFERRED):
-        return 0
-    if any(word in name for word in DISFAVORED):
-        return 2
-    return 1
-
-
 def downloadable_url(source):
     parts = urlsplit(source)
     if parts.netloc == "github.com" and "/blob/" in parts.path:
@@ -67,38 +41,45 @@ def thumbnail(source):
 
 
 records = json.loads((ROOT / "games.json").read_text())
-ranked = sorted(
-    (record for record in records if record.get("is_independent_game")
-     and record.get("counted_game_units", 0) > 0
-     and record.get("quality_estimate_10", 0) >= 7
-     and record.get("screenshot_urls")
-     and record["github_url"] not in EXCLUDED_REPOSITORIES),
-    key=lambda record: (-record["quality_estimate_10"], record["name"].casefold()),
-)
+ranked = []
+for record in records:
+    if not record.get("is_independent_game") or record.get("counted_game_units", 0) < 1:
+        continue
+    if record.get("quality_estimate_10", 0) < 7:
+        continue
+    names = record.get("contained_games", [])
+    estimates = record.get("contained_game_estimates", [])
+    if record.get("counted_game_units", 1) > 1 and len(names) == record["counted_game_units"]:
+        for index, name in enumerate(names):
+            estimate = estimates[index] if index < len(estimates) else {}
+            source = estimate.get("screenshot_rating_evidence_url")
+            score = estimate.get("screenshot_rating_10")
+            screenshots = record.get("contained_game_screenshots", {}).get(name, [])
+            if source and source in screenshots and isinstance(score, (int, float)):
+                ranked.append((name, record["github_url"], score, source))
+    else:
+        source = record.get("screenshot_rating_evidence_url")
+        score = record.get("screenshot_rating_10")
+        if source and source in record.get("screenshot_urls", []) and isinstance(score, (int, float)):
+            ranked.append((record["name"], record["github_url"], score, source))
+ranked.sort(key=lambda item: (-item[2], item[0].casefold()))
 OUTPUT.mkdir(parents=True, exist_ok=True)
 gallery = []
-for record in ranked:
-    candidates = sorted(
-        (url for url in record["screenshot_urls"]
-         if Path(urlsplit(url).path).suffix.lower() in RASTER_EXTENSIONS),
-        key=source_priority,
-    )
-    for source in candidates:
-        try:
-            image = thumbnail(source)
-            filename = f"{len(gallery) + 1:02d}.webp"
-            image.save(OUTPUT / filename, "WEBP", quality=82, method=6)
-            gallery.append({
-                "name": record["name"],
-                "github_url": record["github_url"],
-                "rating": record["quality_estimate_10"],
-                "source_url": source,
-                "thumbnail": f"assets/screenshot-gallery/{filename}",
-            })
-            print(f"{len(gallery):02d}. {record['name']} -> {filename}")
-            break
-        except (OSError, ValueError, UnidentifiedImageError) as error:
-            print(f"Skip {record['name']}: {error}")
+for name, github_url, score, source in ranked:
+    try:
+        image = thumbnail(source)
+        filename = f"{len(gallery) + 1:02d}.webp"
+        image.save(OUTPUT / filename, "WEBP", quality=82, method=6)
+        gallery.append({
+            "name": name,
+            "github_url": github_url,
+            "screenshot_rating_10": score,
+            "source_url": source,
+            "thumbnail": f"assets/screenshot-gallery/{filename}",
+        })
+        print(f"{len(gallery):02d}. {name} -> {filename}")
+    except (OSError, ValueError, UnidentifiedImageError) as error:
+        print(f"Skip {name}: {error}")
     if len(gallery) == LIMIT:
         break
 

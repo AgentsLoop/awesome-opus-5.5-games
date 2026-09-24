@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.0/10
+- **Screenshot rating:** 6.7/10 ([rated image](https://github.com/markstent/snaketris/blob/main/screenshot.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, original rules, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/markstent/snaketris](https://github.com/markstent/snaketris)
 - **Evidence:** [creator-reported model evidence](https://github.com/markstent/snaketris/blob/main/README.md)
@@ -35,7 +38,8 @@ README and browser source contain a hybrid Snake/Tetris game designed by Claude 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/markstent/snaketris
 - **Screenshot discovery:** README image scan from the game repository
 

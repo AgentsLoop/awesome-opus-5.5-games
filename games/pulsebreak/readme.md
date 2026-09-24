@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.2/10
+- **Screenshot rating:** 7.3/10 ([rated image](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/combat.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra, Codex
 - **Technology:** Godot 4.7.2, GDScript, Godot Mobile renderer, Native macOS, Metal
+- **Estimated FP32 operations/s at 60 FPS:** 2,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete six-minute roguelite loop, boss, upgrades, practice mode, saves, native packaging, tests, four review/fix cycles, automated winning run, screenshots and explicit GPT-6 Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/xindomusic/pulsebreak](https://github.com/xindomusic/pulsebreak)
 - **Evidence:** [direct model evidence](https://github.com/xindomusic/pulsebreak#the-game)
@@ -37,7 +40,8 @@ The README explicitly credits GPT-6 Astra inside Codex for a native Godot 4.7.2 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/xindomusic/pulsebreak
 
 [Back to the awesome list](../../README.md)

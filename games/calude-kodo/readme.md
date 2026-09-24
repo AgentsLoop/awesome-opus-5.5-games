@@ -7,13 +7,16 @@
 ## At a glance
 
 - **Score:** 8.5/10
+- **Screenshot rating:** 6.6/10 ([rated image](https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** 6502 Assembly, C, cc65, NES / Famicom, WASM emulator, Native console
+- **Estimated FP32 operations/s at 60 FPS:** 5,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete side-scrolling action loop, four stages, native ROM, source and build chain, browser emulator, controls, screenshots and direct Fable 5 attribution in the README plus creator-linked X evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/GOROman/calude-famicom-game](https://github.com/GOROman/calude-famicom-game)
 - **Evidence:** [direct model evidence](https://github.com/GOROman/calude-famicom-game)
-- **Live demo:** [open demo](https://goroman.github.io/cluade-famicom-emu/)
 - **Live demo:** [open demo](https://goroman.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/GOROman/calude-famicom-game/main/roms/50-coin-shine.nes)
+- **Additional live link:** [open demo](https://goroman.github.io/cluade-famicom-emu/)
 
 ## Screenshots
 
@@ -38,7 +41,8 @@ The repository contains a real side-scrolling Famicom action game built from scr
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://x.com/GOROman/status/2093108358349992084; https://github.com/GOROman/calude-famicom-game
 
 [Back to the awesome list](../../README.md)

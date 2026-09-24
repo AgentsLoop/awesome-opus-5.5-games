@@ -7,6 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
+- **Screenshot rating:** 8.8/10 ([rated image](https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, Three.js, WebGL, Web Audio, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).

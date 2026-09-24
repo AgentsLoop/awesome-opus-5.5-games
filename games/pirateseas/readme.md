@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5, Claude Fable 5.1
 - **Technology:** Unreal Engine 5.7, C++, Chaos Physics, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial source-complete Unreal game with a documented sailing/combat loop, native C++ gameplay classes, AI, physical ballistics, damage zones, islands, measured scenarios, screenshots and direct model attribution.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/AndreiBesliu/PirateSeas](https://github.com/AndreiBesliu/PirateSeas)
 - **Evidence:** [direct model evidence](https://github.com/AndreiBesliu/PirateSeas/commit/3dadae58813538994eaa19b76499ba65298e3e36)
@@ -30,14 +33,13 @@ The repository is a newly created Unreal Engine 5.7 C++ pirate sailing combat ga
 ### Gameplay source
 
 - [https://github.com/AndreiBesliu/PirateSeas/blob/main/README.md](https://github.com/AndreiBesliu/PirateSeas/blob/main/README.md)
-- [https://github.com/AndreiBesliu/PirateSeas/blob/main/DEVLOG.md](https://github.com/AndreiBesliu/PirateSeas/blob/main/DEVLOG.md)
 - [https://github.com/AndreiBesliu/PirateSeas/commit/3dadae58813538994eaa19b76499ba65298e3e36](https://github.com/AndreiBesliu/PirateSeas/commit/3dadae58813538994eaa19b76499ba65298e3e36)
-- [https://github.com/AndreiBesliu/PirateSeas/tree/main/Source/PirateSeas](https://github.com/AndreiBesliu/PirateSeas/tree/main/Source/PirateSeas)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search for Opus created 2026-09-13..2026-09-15; https://github.com/AndreiBesliu/PirateSeas
 
 [Back to the awesome list](../../README.md)

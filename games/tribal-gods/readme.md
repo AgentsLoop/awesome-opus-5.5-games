@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.0/10
+- **Screenshot rating:** 6.2/10 ([rated image](https://github.com/br3nt/tribal-gods/blob/main/docs/hero.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** TypeScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 3,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Documented design, source, deployment, simulation, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/br3nt/tribal-gods](https://github.com/br3nt/tribal-gods)
 - **Evidence:** [creator-reported model evidence](https://github.com/br3nt/tribal-gods/blob/main/README.md)
@@ -35,7 +38,8 @@ README, SPEC.md, source, and live page describe a playable Three.js god game wit
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/br3nt/tribal-gods
 - **Screenshot discovery:** README image scan from the game repository
 

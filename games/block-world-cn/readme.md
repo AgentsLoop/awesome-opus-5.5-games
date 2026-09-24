@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.5/10
+- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Luanti 5.17.0, Mineclonia, Lua, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a downloadable native release, real survival loop, save support, engine integration, controls, tests and explicit Astra test attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/vvvvvvvvvashhh/block-world-cn](https://github.com/vvvvvvvvvashhh/block-world-cn)
 - **Evidence:** [direct model evidence](https://github.com/vvvvvvvvvashhh/block-world-cn)
@@ -35,7 +38,8 @@ The repository description identifies a GPT-6 Astra test. The README documents a
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/vvvvvvvvvashhh/block-world-cn
 
 [Back to the awesome list](../../README.md)

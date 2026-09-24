@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 7.5/10
+- **Screenshot rating:** 7.7/10 ([rated image](https://github.com/finktheartist/bubble-wrap-simulator/blob/main/docs/gameplay-poster.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, React, Rapier, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 1,300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/finktheartist/bubble-wrap-simulator](https://github.com/finktheartist/bubble-wrap-simulator)
 - **Evidence:** [creator-reported model evidence](https://github.com/finktheartist/bubble-wrap-simulator)
@@ -35,7 +38,8 @@ Playable first-person Three.js simulator with nine tools, targets, physics, cont
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/finktheartist/bubble-wrap-simulator; https://github.com/magiccreator-ai/awesome-gpt-6-astra
 - **Screenshot discovery:** README image scan from the game repository
 

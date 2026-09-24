@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 6.5/10 ([rated image](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/ancient_library.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Phaser 3, React 19, JavaScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 480,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository documents a substantial educational RPG, includes direct exploration and battle source, multiple world screenshots, extensive systems and exact Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/theshumba/gogo-arabic](https://github.com/theshumba/gogo-arabic)
 - **Evidence:** [direct model evidence](https://github.com/theshumba/gogo-arabic/commit/fb12686f27611212e4f9e3604d313bb81907adf0)
@@ -31,15 +34,13 @@ The README describes an Arabic-learning RPG with exploration, quests and turn-ba
 ### Gameplay source
 
 - [https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/scenes/WorldScene.js](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/scenes/WorldScene.js)
-- [https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/scenes/BattleScene.js](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/scenes/BattleScene.js)
-- [https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/systems/PlayerController.js](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/systems/PlayerController.js)
-- [https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/systems/DialogueEngine.js](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/systems/DialogueEngine.js)
 - [https://github.com/theshumba/gogo-arabic/commit/fb12686f27611212e4f9e3604d313bb81907adf0](https://github.com/theshumba/gogo-arabic/commit/fb12686f27611212e4f9e3604d313bb81907adf0)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Fable; https://github.com/theshumba/gogo-arabic
 
 [Back to the awesome list](../../README.md)

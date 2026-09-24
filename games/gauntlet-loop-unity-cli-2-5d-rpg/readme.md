@@ -2,13 +2,15 @@
 
 > Verified game note.
 
-![Gauntlet Loop × Unity CLI — 2.5D RPG screenshot](https://raw.githubusercontent.com/az9713/gauntlet-loop-unity-cli-demo/main/demo.gif)
+![Gauntlet Loop × Unity CLI — 2.5D RPG screenshot placeholder](gauntlet-loop-unity-cli-2-5d-rpg-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** Unity, C#
+- **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/az9713/gauntlet-loop-unity-cli-demo](https://github.com/az9713/gauntlet-loop-unity-cli-demo)
 - **Evidence:** [directory-method model evidence](https://github.com/az9713/gauntlet-loop-unity-cli-demo)
@@ -16,9 +18,7 @@
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/az9713/gauntlet-loop-unity-cli-demo/blob/main/demo.gif)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Videos
 
@@ -39,8 +39,8 @@ Playable 2.5-D village RPG with a gameplay video, source, 17 build rounds, and f
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/az9713/gauntlet-loop-unity-cli-demo
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

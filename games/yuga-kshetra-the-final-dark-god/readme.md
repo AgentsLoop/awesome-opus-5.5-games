@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 5.2/10 ([rated image](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/Screenshots/day4.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** C++, SFML 2.6, OpenGL, GLM, CMake, Native desktop, Voxel survival-extraction game
+- **Estimated FP32 operations/s at 60 FPS:** 6,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete native voxel game with a documented extraction loop, procedural terrain, survival resources, crafting, combat, multiple enemy AI systems, dynamic difficulty, save progression, assets, shaders and dated screenshots.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God)
 - **Evidence:** [direct model evidence](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/commit/1329b50b68454ab89edeafd16d708053dc5b666d)
@@ -30,17 +33,13 @@ The repository contains a C++/SFML/OpenGL native first-person voxel survival-ext
 ### Gameplay source
 
 - [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/README.md](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/README.md)
-- [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/CMakeLists.txt](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/CMakeLists.txt)
-- [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source)
-- [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source/Entity](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source/Entity)
-- [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source/Item](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source/Item)
-- [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Screenshots](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Screenshots)
 - [https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/commit/1329b50b68454ab89edeafd16d708053dc5b666d](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/commit/1329b50b68454ab89edeafd16d708053dc5b666d)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for SFML game Co-Authored-By Claude Opus; https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God
 
 [Back to the awesome list](../../README.md)

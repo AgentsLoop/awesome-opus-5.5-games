@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.0/10
+- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku/blob/main/docs/original_preview.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** C++, C++20, C17, Win32, Direct2D, DirectWrite, XAudio2, Native Windows
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Astra attribution, native source, strategy gameplay systems, campaign validation and ROM-differential tests; reduced because the required original ROM and packaged executable are not included.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/eric-wen-dev-it/AdvancedDaisenryaku](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku)
 - **Evidence:** [direct model evidence](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku#目前可以做什麼)
@@ -35,7 +38,8 @@ The README explicitly credits a GPT-6 Astra High native port milestone. It docum
 ## Verification notes
 
 - **Status:** verified_source_build_requires_original_rom
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+C%2B%2B+game+in%3Areadme; https://github.com/eric-wen-dev-it/AdvancedDaisenryaku
 
 [Back to the awesome list](../../README.md)

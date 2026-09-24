@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.5/10
+- **Screenshot rating:** 7.1/10 ([rated image](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/title.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Canvas 2D, JavaScript, Web Audio API, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete platforming loop, enemies, power-ups, level finish, source-only build, scripted full run, screenshots, public demo and direct one-shot Fable 5.1 attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/INONONO66/fable-5.1-mario](https://github.com/INONONO66/fable-5.1-mario)
 - **Evidence:** [direct model evidence](https://github.com/INONONO66/fable-5.1-mario#features)
@@ -37,7 +40,8 @@ Playable one-file platform game with level, physics, enemies, power-ups, control
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/INONONO66/fable-5.1-mario
 
 [Back to the awesome list](../../README.md)

@@ -2,13 +2,15 @@
 
 > Verified game note.
 
-![Wythoff's Queen screenshot](https://raw.githubusercontent.com/patricker/treant/master/docs/static/img/wordmark.svg)
+![Wythoff's Queen screenshot placeholder](wythoff-s-queen-placeholder.svg)
 
 ## At a glance
 
 - **Score:** 9.6/10
 - **Model:** Claude Fable 5
 - **Technology:** Rust, WebAssembly, TypeScript, React, SVG, Browser arcade
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live, source-complete arcade with 67 separately registered and playable game definitions, Rust engines, tests, custom boards, AI difficulty, mobile UI and exact Fable gameplay commits. Individual games are small board-game experiences rather than large 3D productions.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/patricker/treant](https://github.com/patricker/treant)
 - **Evidence:** [direct model evidence](https://github.com/patricker/treant/commit/68aff75c3204e0b362625e4fb72a01f72cd13fad)
@@ -16,9 +18,7 @@
 
 ## Screenshots
 
-Use the source screenshot links below. The list records these assets from the game repository or a related source.
-
-- [screenshot 1](https://github.com/patricker/treant/blob/master/docs/static/img/wordmark.svg)
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
 
 ## Model attribution
 
@@ -30,18 +30,14 @@ The repository contains a real browser arcade, not only an MCTS library: docs/sr
 
 ### Gameplay source
 
-- [https://github.com/patricker/treant/blob/master/README.md](https://github.com/patricker/treant/blob/master/README.md)
-- [https://github.com/patricker/treant/blob/master/GAME-IDEAS.md](https://github.com/patricker/treant/blob/master/GAME-IDEAS.md)
-- [https://github.com/patricker/treant/blob/master/docs/src/components/arcade/games/index.ts](https://github.com/patricker/treant/blob/master/docs/src/components/arcade/games/index.ts)
-- [https://github.com/patricker/treant/tree/master/docs/src/components/arcade/games](https://github.com/patricker/treant/tree/master/docs/src/components/arcade/games)
-- [https://github.com/patricker/treant/tree/master/treant-wasm/src](https://github.com/patricker/treant/tree/master/treant-wasm/src)
+- [https://github.com/patricker/treant/blob/master/docs/src/components/arcade/games/wythoff.tsx](https://github.com/patricker/treant/blob/master/docs/src/components/arcade/games/wythoff.tsx)
 - [https://github.com/patricker/treant/commit/68aff75c3204e0b362625e4fb72a01f72cd13fad](https://github.com/patricker/treant/commit/68aff75c3204e0b362625e4fb72a01f72cd13fad)
 
 ## Verification notes
 
 - **Status:** verified_live_and_source
-- **Counted units:** 68
+- **Counted units in repository:** 68
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Odin game Co-Authored-By Claude Fable; https://github.com/patricker/treant
-- **Screenshot discovery:** README image scan from the game repository
 
 [Back to the awesome list](../../README.md)

@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.3/10
+- **Screenshot rating:** 3.0/10 ([rated image](https://github.com/ben-gy/scrapwall/blob/main/public/og.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** TypeScript, Vite, Canvas 2D, Weighted-Dijkstra pathfinding, WebRTC, Trystero, Browser multiplayer
+- **Estimated FP32 operations/s at 60 FPS:** 780,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete documented defense loop with economy, pathfinding, three modes, co-op networking, host transfer, rematch, live demo, screenshot asset, balance simulation, tests and exact Opus attribution on the initial gameplay commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ben-gy/scrapwall](https://github.com/ben-gy/scrapwall)
 - **Evidence:** [direct model evidence](https://github.com/ben-gy/scrapwall/commit/1d1fcf4436d75948caf5ff03970f102d4035ed58)
@@ -31,18 +34,13 @@ The README documents Scrapwall as a playable co-op grid base-defense game. It in
 ### Gameplay source
 
 - [https://github.com/ben-gy/scrapwall#readme](https://github.com/ben-gy/scrapwall#readme)
-- [https://scrapwall.benrichardson.dev](https://scrapwall.benrichardson.dev)
-- [https://github.com/ben-gy/scrapwall/blob/main/src/game.ts](https://github.com/ben-gy/scrapwall/blob/main/src/game.ts)
-- [https://github.com/ben-gy/scrapwall/blob/main/src/net-game.ts](https://github.com/ben-gy/scrapwall/blob/main/src/net-game.ts)
-- [https://github.com/ben-gy/scrapwall/blob/main/src/render.ts](https://github.com/ben-gy/scrapwall/blob/main/src/render.ts)
-- [https://github.com/ben-gy/scrapwall/blob/main/src/modes.ts](https://github.com/ben-gy/scrapwall/blob/main/src/modes.ts)
-- [https://github.com/ben-gy/scrapwall/tree/main/tests](https://github.com/ben-gy/scrapwall/tree/main/tests)
 - [https://github.com/ben-gy/scrapwall/commit/1d1fcf4436d75948caf5ff03970f102d4035ed58](https://github.com/ben-gy/scrapwall/commit/1d1fcf4436d75948caf5ff03970f102d4035ed58)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** Reverse-link from ben-gy/gh-game-factory index; GitHub commit search for Co-Authored-By Claude Opus game; https://github.com/ben-gy/scrapwall
 
 [Back to the awesome list](../../README.md)

@@ -3,6 +3,7 @@
 ## Wiki
 
 - Read [Scraping skills](wiki/scraping-skills.md) before selecting a skill for web or GitHub collection work.
+- Read [Screenshot ratings](wiki/screenshot-ratings.md) before rating or ranking game images.
 
 ## Game collections
 

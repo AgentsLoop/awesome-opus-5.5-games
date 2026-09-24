@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.4/10
+- **Screenshot rating:** 5.0/10 ([rated image](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5, Claude Fable 5, Claude Opus 4.8
 - **Technology:** Unity, C#, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 4,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable Unity WebGL hackathon game with a live build, substantial combat and boss systems, documented AI workflow, screenshots and runtime/build verification.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/nansu0425/nan2026-game-src](https://github.com/nansu0425/nan2026-game-src)
 - **Evidence:** [creator-reported model evidence](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/SUBMISSION_AI_USAGE.md)
@@ -35,14 +38,13 @@ The public source mirror documents a 3-D quarter-view hack-and-slash roguelike m
 ### Gameplay source
 
 - [https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Characters/PlayerCharacterHost.cs](https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Characters/PlayerCharacterHost.cs)
-- [https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Combat/DarkKnightPrimaryAttackCombat.cs](https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Combat/DarkKnightPrimaryAttackCombat.cs)
-- [https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Enemies/EnemyController.cs](https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Enemies/EnemyController.cs)
 - [https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/SUBMISSION_AI_USAGE.md](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/SUBMISSION_AI_USAGE.md)
 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Unreal game Co-Authored-By Claude Fable; https://github.com/nansu0425/nan2026-game-src
 
 [Back to the awesome list](../../README.md)

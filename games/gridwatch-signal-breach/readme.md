@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.1/10
+- **Screenshot rating:** 5.4/10 ([rated image](https://github.com/remeadows/gridwatch-signal-breach/blob/main/src/assets/board/phase6/gw-phase6-core-board-v1.webp)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Vite, TypeScript, HTML5 Canvas 2D, Cloudflare Pages, Native web
+- **Estimated FP32 operations/s at 60 FPS:** 320,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial source-complete tower-defense game with deterministic replay validation, multiple campaigns, typed simulation/render separation, public deployment, screenshots and recent exact Fable attribution.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/remeadows/gridwatch-signal-breach](https://github.com/remeadows/gridwatch-signal-breach)
 - **Evidence:** [direct model evidence](https://github.com/remeadows/gridwatch-signal-breach/commit/7609592f1d278117c7302cbea7b2e4cc8975cfa2)
@@ -31,15 +34,13 @@ The README identifies GridWatch: Signal Breach as a static browser-playable cybe
 ### Gameplay source
 
 - [https://github.com/remeadows/gridwatch-signal-breach/blob/main/README.md](https://github.com/remeadows/gridwatch-signal-breach/blob/main/README.md)
-- [https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/sim](https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/sim)
-- [https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/input](https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/input)
-- [https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/render](https://github.com/remeadows/gridwatch-signal-breach/tree/main/src/render)
 - [https://github.com/remeadows/gridwatch-signal-breach/commit/7609592f1d278117c7302cbea7b2e4cc8975cfa2](https://github.com/remeadows/gridwatch-signal-breach/commit/7609592f1d278117c7302cbea7b2e4cc8975cfa2)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Claude Fable 5.1 dated 2026-09-13..2026-09-15; https://github.com/remeadows/gridwatch-signal-breach
 
 [Back to the awesome list](../../README.md)

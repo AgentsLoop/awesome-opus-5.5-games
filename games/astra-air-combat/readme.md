@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 7.3/10 ([rated image](https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/cockpit-rain-high.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** TypeScript, Three.js, WebGL, Vite, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 4,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a live deployment, substantial flight and combat loop, deterministic simulation, AI, weapons, weather, source organization, tests, build checks and explicit Astra attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/FLYING37520/astra-air-combat](https://github.com/FLYING37520/astra-air-combat)
 - **Evidence:** [direct model evidence](https://github.com/FLYING37520/astra-air-combat)
@@ -36,7 +39,8 @@ The repository description identifies this as a GPT-6 Astra game demo. The READM
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/FLYING37520/astra-air-combat
 
 [Back to the awesome list](../../README.md)

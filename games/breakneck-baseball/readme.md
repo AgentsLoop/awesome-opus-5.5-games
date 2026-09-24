@@ -1,14 +1,17 @@
 # Breakneck Baseball
 
-> Top-list entry: **this month** (#20).
+> Top-list entry: **this month** (#19).
 
 ![Breakneck Baseball screenshot](https://raw.githubusercontent.com/hynding/breakneck-baseball/main/docs/agent/playtest/2026-08-21/23-live-gameplay.png)
 
 ## At a glance
 
 - **Score:** 9.4/10
+- **Screenshot rating:** 5.5/10 ([rated image](https://github.com/hynding/breakneck-baseball/blob/main/docs/agent/playtest/2026-08-21/23-live-gameplay.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Rust, Bevy 0.15, Rapier, wgpu, WebAssembly, Native desktop, 3D baseball
+- **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete sports game with a clear nine-inning loop, CPU/2P modes, advanced baseball rules, physics, cameras, settings, persistence, native/WASM builds, live demo, playtest screenshots, tests and repeated exact Fable gameplay trailers.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/hynding/breakneck-baseball](https://github.com/hynding/breakneck-baseball)
 - **Evidence:** [direct model evidence](https://github.com/hynding/breakneck-baseball/commit/d8984ba5dc60f7ea79f83cafde662ecde9cda1d6)
@@ -32,16 +35,13 @@ The README documents a playable Rust/Bevy/Rapier 3D baseball game with native de
 ### Gameplay source
 
 - [https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs)
-- [https://github.com/hynding/breakneck-baseball/blob/main/src/game/core/rules/mod.rs](https://github.com/hynding/breakneck-baseball/blob/main/src/game/core/rules/mod.rs)
-- [https://github.com/hynding/breakneck-baseball/blob/main/src/game/sim/flow/mod.rs](https://github.com/hynding/breakneck-baseball/blob/main/src/game/sim/flow/mod.rs)
-- [https://github.com/hynding/breakneck-baseball/blob/main/src/game/present/mod.rs](https://github.com/hynding/breakneck-baseball/blob/main/src/game/present/mod.rs)
-- [https://github.com/hynding/breakneck-baseball/blob/main/tests/e2e_full_game.rs](https://github.com/hynding/breakneck-baseball/blob/main/tests/e2e_full_game.rs)
 - [https://github.com/hynding/breakneck-baseball/commit/d8984ba5dc60f7ea79f83cafde662ecde9cda1d6](https://github.com/hynding/breakneck-baseball/commit/d8984ba5dc60f7ea79f83cafde662ecde9cda1d6)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Bevy game Co-Authored-By Claude Fable; https://github.com/hynding/breakneck-baseball
 
 [Back to the awesome list](../../README.md)

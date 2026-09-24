@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 7.8/10 ([rated image](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/01-starter-settlement.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra, Codex
 - **Technology:** Unity 6.0.0f1, C#, Native macOS, Metal
+- **Estimated FP32 operations/s at 60 FPS:** 4,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete city-builder progression loop, native build, Unity scene and C# source, 15/15 simulation acceptance checks, standalone runtime playtest, save/load, screenshots, audio tests and explicit GPT-6 Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/codersusu/game-city-skylines](https://github.com/codersusu/game-city-skylines)
 - **Evidence:** [direct model evidence](https://github.com/codersusu/game-city-skylines#key-features)
@@ -38,7 +41,8 @@ The README explicitly describes a playable Unity demo built with Codex and GPT-6
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/codersusu/game-city-skylines
 
 [Back to the awesome list](../../README.md)

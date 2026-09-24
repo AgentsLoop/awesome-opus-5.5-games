@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.9/10
+- **Screenshot rating:** 6.3/10 ([rated image](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/docs/preview.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.5
 - **Technology:** LÖVE 2D 11.5, Lua, Native desktop, iOS
+- **Estimated FP32 operations/s at 60 FPS:** 700,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete multi-level game with enemies, bombs, levels, mobile controls, preview and direct Opus 4.5 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/chongdashu/love2d-pocket-bomber-game](https://github.com/chongdashu/love2d-pocket-bomber-game)
 - **Evidence:** [direct model evidence](https://github.com/chongdashu/love2d-pocket-bomber-game/commit/1cf66e2fdbbb7f5e81d51703b2155c834ca77b8b)
@@ -34,15 +37,13 @@ The README describes a complete Love2D Bomberman-style action game with five lev
 ### Gameplay source
 
 - [https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/README.md](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/README.md)
-- [https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/src/states/playing.lua](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/src/states/playing.lua)
-- [https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/src/player.lua](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/src/player.lua)
-- [https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/src/level.lua](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/src/level.lua)
 - [https://github.com/chongdashu/love2d-pocket-bomber-game/commit/1cf66e2fdbbb7f5e81d51703b2155c834ca77b8b](https://github.com/chongdashu/love2d-pocket-bomber-game/commit/1cf66e2fdbbb7f5e81d51703b2155c834ca77b8b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Love2D game Co-Authored-By Claude Opus; https://github.com/chongdashu/love2d-pocket-bomber-game
 
 [Back to the awesome list](../../README.md)

@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.8/10
+- **Screenshot rating:** 7.1/10 ([rated image](https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, Rapier, TypeScript, Web Audio API, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 3,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Fable attribution, source, documented score/survival loop, dynamic traffic, damage model, rounds, newspaper feedback and build instructions.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/thevangelist/elk-dismount](https://github.com/thevangelist/elk-dismount)
 - **Evidence:** [direct model evidence](https://github.com/thevangelist/elk-dismount#what-the-paper-prints)
@@ -35,7 +38,8 @@ The README explicitly says the game was built as a Claude Fable 5.1 test and doc
 ## Verification notes
 
 - **Status:** verified_source_and_run_instructions
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: "Claude Fable 5.1" built game in:readme; https://github.com/thevangelist/elk-dismount
 
 [Back to the awesome list](../../README.md)

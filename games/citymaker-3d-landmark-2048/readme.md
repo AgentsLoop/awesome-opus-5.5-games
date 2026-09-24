@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 5.7/10 ([rated image](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, TypeScript, React, Vite, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete 2048 game loop, twelve-city progression, 132 original procedural models, source and creation record, screenshots, public deployment, save/history systems and successful browser play-state verification.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/derek-wangpch/OpenCityMaker](https://github.com/derek-wangpch/OpenCityMaker)
 - **Evidence:** [direct model evidence](https://github.com/derek-wangpch/OpenCityMaker#play)
@@ -37,7 +40,8 @@ The canonical repository is derek-wangpch/OpenCityMaker; the stale derek-wang/Op
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/MartinDelophy/awesome-gpt-6-astra; https://github.com/derek-wangpch/OpenCityMaker
 
 [Back to the awesome list](../../README.md)

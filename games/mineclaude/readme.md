@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 9.0/10
+- **Screenshot rating:** 6.3/10 ([rated image](https://github.com/snek-git/mineclaude/blob/master/assets/screenshots/screenshot2.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** Rust, Bevy 0.18, WGSL, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 5,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong direct attribution, large native source base, complete survival loop, screenshots, gameplay systems and documented human playtesting; no packaged release was supplied.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/snek-git/mineclaude](https://github.com/snek-git/mineclaude)
 - **Evidence:** [direct model evidence](https://github.com/snek-git/mineclaude#what-is-this)
@@ -36,7 +39,8 @@ The README explicitly says MineClaude was built entirely by Claude Opus 4.6 usin
 ## Verification notes
 
 - **Status:** verified_source_build_instructions
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22built+entirely+by+Claude+Opus+4.6%22+game+in%3Areadme; https://github.com/snek-git/mineclaude
 
 [Back to the awesome list](../../README.md)

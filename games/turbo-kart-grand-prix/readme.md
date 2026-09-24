@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.5/10
+- **Screenshot rating:** 9.2/10 ([rated image](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, JavaScript, WebGL, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 2,400,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete multi-lap race loop, seven AI opponents, item systems, drift and boost mechanics, live demo, automated tests, gameplay capture, screenshots and direct creator/model attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Franklin-C/turbo-kart-grand-prix](https://github.com/Franklin-C/turbo-kart-grand-prix)
 - **Evidence:** [direct model evidence](https://github.com/Franklin-C/turbo-kart-grand-prix)
@@ -38,7 +41,8 @@ The creator's X post explicitly says Claude Fable 5.1 one-shotted this Mario Kar
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://x.com/Franklin_Eh/status/2095136760678244497; https://github.com/Franklin-C/turbo-kart-grand-prix
 
 [Back to the awesome list](../../README.md)

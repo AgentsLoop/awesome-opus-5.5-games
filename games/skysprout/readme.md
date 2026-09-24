@@ -7,8 +7,11 @@
 ## At a glance
 
 - **Score:** 8.9/10
+- **Screenshot rating:** 6.7/10 ([rated image](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-meadow.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, CSS, JavaScript, Canvas 2D, Web Audio, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a live three-world platformer with collectibles, enemies, power-ups, checkpoints, responsive input, tests, complete recorded playthroughs and explicit Astra attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/DUBSOpenHub/skysprout](https://github.com/DUBSOpenHub/skysprout)
 - **Evidence:** [direct model evidence](https://github.com/DUBSOpenHub/skysprout#skysprout)
@@ -37,7 +40,8 @@ The README explicitly credits GPT-6 Astra in GitHub Copilot CLI and states that 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)
