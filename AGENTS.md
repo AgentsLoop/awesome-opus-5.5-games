@@ -10,6 +10,12 @@
 - Record its source link, counted game entries, count method, and verification date.
 - Keep collection repositories out of `games.json` unless they also contain a playable game.
 
+## AI game generators
+
+- Add AI game generators encountered during other research to `ai-game-generators.md` after verifying a primary source claims playable-game creation.
+- Record the tool link, creation capability, access or export limits, primary evidence link, and verification date.
+- Keep generator-only tools out of `games.json` unless their repository also contains a playable game.
+
 ## Game link collection
 
 - Save every verified GitHub game repository link in `games.json`.
