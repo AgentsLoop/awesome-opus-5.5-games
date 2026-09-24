@@ -28121,6 +28121,11 @@
       "https://claude-opus-5-5.riba2534.cn/",
       "https://claude-opus-5-5-cf-transport-ship.pages.dev/",
       "https://claude-opus-5-5-qqfeiche3d.pages.dev/"
+    ],
+    "contained_game_links": [
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/pelican-bike/src/main.js",
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/cf-transport-ship/src/game.js",
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/qq-speed/src/main.js"
     ]
   },
   {
