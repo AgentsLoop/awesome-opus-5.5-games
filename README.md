@@ -15,50 +15,6 @@
 
 ---
 
-## What is this?
-
-This is a curated index of playable game units with public GitHub source and evidence that connects them to GPT-6 Astra, Claude Opus, or Claude Fable. “Curated” does not mean every attribution has the same strength: the per-entry evidence grade states whether the model claim is direct, creator-reported, repository-level, or inferred.
-
-The source of truth is [games.json](games.json). It was last verified on **2026-09-24**.
-
-Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
-
-Browse [AI game generators and engines](ai-game-generators.md) for tools that build or edit playable games from prompts.
-
-Browse [Claude Opus 5.5 release-week games](opus-5.5-games.md) for direct source and model-evidence links.
-
-Browse [publication-date rankings](rankings/README.md) for daily, weekly, and monthly reports. These reports exclude games without a reliable publication or qualifying evidence date. The audit keeps repository creation dates separate from publication dates.
-
-Every game record includes a source-derived reconstruction prompt. Records with original prompt links retain those links; records without them are marked as reverse-engineered rather than presented as the original prompt.
-
-## Collection at a glance
-
-| Signal | Result |
-| --- | ---: |
-| Counted game units | **746** |
-| Qualifying source repositories | **504** |
-| Dataset records, including related or excluded records | **584** |
-| Low-quality game units moved to bad-games.md | **28** (28 repositories) |
-| Other non-game records moved to other.md | **52** |
-| WebGL-family game units, across all categories | **211** |
-| Non-browser engine game units | **255** |
-| Game units with screenshot links | **139** |
-| Game units with direct prompt links | **17** |
-| Game units with source-derived prompt fields | **746** |
-| Game units with exact publication dates | **286** (151 repositories) |
-| Game units with repository creation dates | **746** (504 repositories) |
-
-## Verification snapshot
-
-The list contains **746** game units from **504** qualifying repositories. The dataset also retains **80** related or excluded records for audit history. Each row uses one of these model-evidence grades.
-
-| Grade | Meaning | Game units |
-| --- | --- | ---: |
-| ✓ Direct | A public primary source directly attributes the listed model. | **503** |
-| ≈ Creator report | The creator attributes the listed model. | **199** |
-| △ Repository trail | A repository, directory, or topic trail supports the model claim. | **42** |
-| ? Inferred | The model attribution is inferred and should be independently checked. | **2** |
-
 ## Top games today
 
 > Rank the highest-rated repositories verified in this curation run on **2026-09-24**.
@@ -145,6 +101,50 @@ The list contains **746** game units from **504** qualifying repositories. The d
 | [**Just Five More Minutes**](games/just-five-more-minutes/readme.md) | ⭐ **9.5** | Claude Fable 5 | [✓ direct model evidence](https://github.com/Giftedx/just-five-more-minutes/commit/32d1eeacf551c0d2e8f9536732cc03c44eb7ed45) |
 | [**Knife Dodge**](games/knife-dodge/readme.md) | ⭐ **9.5** | Claude Fable 5.1 | [✓ direct model evidence](https://github.com/Karanvir1729/ninja-knife-dodge/commit/0283ea60e91257905f1fc93ff4e1a548db3be078) |
 | [**Space Showdown**](games/space-showdown/readme.md) | ⭐ **9.5** | Claude Fable 5 | [✓ direct model evidence](https://github.com/GeorgeCottrell/SpaceShowdown/commit/073601b42e8a45123c955ab21ba55656924dc1d0) |
+
+## What is this?
+
+This is a curated index of playable game units with public GitHub source and evidence that connects them to GPT-6 Astra, Claude Opus, or Claude Fable. “Curated” does not mean every attribution has the same strength: the per-entry evidence grade states whether the model claim is direct, creator-reported, repository-level, or inferred.
+
+The source of truth is [games.json](games.json). It was last verified on **2026-09-24**.
+
+Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
+
+Browse [AI game generators and engines](ai-game-generators.md) for tools that build or edit playable games from prompts.
+
+Browse [Claude Opus 5.5 release-week games](opus-5.5-games.md) for direct source and model-evidence links.
+
+Browse [publication-date rankings](rankings/README.md) for daily, weekly, and monthly reports. These reports exclude games without a reliable publication or qualifying evidence date. The audit keeps repository creation dates separate from publication dates.
+
+Every game record includes a source-derived reconstruction prompt. Records with original prompt links retain those links; records without them are marked as reverse-engineered rather than presented as the original prompt.
+
+## Collection at a glance
+
+| Signal | Result |
+| --- | ---: |
+| Counted game units | **746** |
+| Qualifying source repositories | **504** |
+| Dataset records, including related or excluded records | **584** |
+| Low-quality game units moved to bad-games.md | **28** (28 repositories) |
+| Other non-game records moved to other.md | **52** |
+| WebGL-family game units, across all categories | **211** |
+| Non-browser engine game units | **255** |
+| Game units with screenshot links | **139** |
+| Game units with direct prompt links | **17** |
+| Game units with source-derived prompt fields | **746** |
+| Game units with exact publication dates | **286** (151 repositories) |
+| Game units with repository creation dates | **746** (504 repositories) |
+
+## Verification snapshot
+
+The list contains **746** game units from **504** qualifying repositories. The dataset also retains **80** related or excluded records for audit history. Each row uses one of these model-evidence grades.
+
+| Grade | Meaning | Game units |
+| --- | --- | ---: |
+| ✓ Direct | A public primary source directly attributes the listed model. | **503** |
+| ≈ Creator report | The creator attributes the listed model. | **199** |
+| △ Repository trail | A repository, directory, or topic trail supports the model claim. | **42** |
+| ? Inferred | The model attribution is inferred and should be independently checked. | **2** |
 
 ## Screenshot spotlight
 
