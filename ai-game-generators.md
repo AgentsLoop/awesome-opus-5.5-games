@@ -21,6 +21,12 @@ Use this directory to find tools that create or edit playable games with AI. Kee
 | [GDevelop AI Agent](https://gdevelop.io/) | Ask the agent to create or modify objects, events, and behaviors in an existing 2D/3D project. | Export through GDevelop. Build features iteratively; do not present the agent as a reliable one-click whole-game generator. | [Agent guide](https://gdevelop.io/blog/make-games-with-ai-agent-gdevelop-automated-prompt) |
 | [Buildbox 4](https://www.buildbox.com/) | Prompt for assets, scenes, level edits, mechanics, and nodes inside a visual game editor. | Use the desktop editor to finish and export a game; distinguish assisted authoring from one-prompt completion. | [Buildbox 4 announcement](https://www.buildbox.com/buildbox-4-is-now-available-make-games-with-ai/) · [mechanics guide](https://www.buildbox.com/getting-started-with-buildbox-4-creating-game-mechanics-and-nodes-using-ai/) |
 
+## AI-game discovery and remix
+
+| Tool | What it offers | Output and limits | Primary evidence |
+| --- | --- | --- | --- |
+| [OmGithub](https://omgithub.com/) | Discover and play open-source games associated with AI-created projects; game pages offer a Remix action. | Link to hosted playable builds and GitHub source. Treat AI-assisted creation, remix output, export, and access requirements as unverified; do not classify it as a game engine. | [Game directory](https://omgithub.com/) · [game page with Remix action](https://omgithub.com/codewithdivyasree/neon-drift) |
+
 ## Limited-access or unverified availability
 
 | Tool | Claim | Access caveat | Primary evidence |
