@@ -4,6 +4,12 @@
 
 - Read [Scraping skills](wiki/scraping-skills.md) before selecting a skill for web or GitHub collection work.
 
+## Game collections
+
+- Add every verified game collection or awesome list you find to `awesomelists.md`.
+- Record its source link, counted game entries, count method, and verification date.
+- Keep collection repositories out of `games.json` unless they also contain a playable game.
+
 ## Game link collection
 
 - Save every verified GitHub game repository link in `games.json`.
