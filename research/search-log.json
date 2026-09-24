@@ -8361,19 +8361,51 @@
         "https://github.com/Nipale-ai/opus-5-5-overnight-builds — mixed game and visual demo collection not yet inspected per unit"
       ],
       "note": "Opus 5.5 became available 2026-09-22. Save 16 source-verified game units from 14 repositories created 2026-09-22..23. Preserve direct source and evidence links in a separate Markdown index. HTTP reachability is not a playtest; published_on remains unset where no publication event was verified."
+    },
+    {
+      "source": "Reverse-link expansion from an Opus 5.5 games showcase and fresh GitHub collection",
+      "query_key": "reverse-link:frontier-games:opus-5.5:2026-09-22..2026-09-23:serial",
+      "status": "completed",
+      "date_window": "2026-09-17..2026-09-24",
+      "search_policy": "Serial inspection only. Confirm creator/model evidence at the source repository, inspect each game folder and entry point, and check each public playable URL individually.",
+      "new_verified_repositories": 2,
+      "new_game_units": 18,
+      "accepted_repositories": [
+        "https://github.com/swan4er/opus-100-projects",
+        "https://github.com/alesha-pro/bench-portal"
+      ],
+      "counted_units": [
+        {
+          "repository": "https://github.com/swan4er/opus-100-projects",
+          "count": 17,
+          "method": "Ten source-documented games with real mechanics plus seven playable neural-network games. Each has a dedicated README and index.html; all 17 Pages URLs returned HTTP 200."
+        },
+        {
+          "repository": "https://github.com/alesha-pro/bench-portal",
+          "count": 1,
+          "method": "Add only OVERRUN — Dockyard Nine; its manifest names Claude Opus 5.5 and the September 22 commit adds its standalone source folder. Do not count the surrounding catalog."
+        }
+      ],
+      "rejected_candidates": [
+        "https://github.com/swan4er/opus-100-projects/tree/main/032-self-writing-game — a game-generation tool with sample games, not a game unit itself",
+        "https://github.com/swan4er/opus-100-projects/tree/main/045-living-city — an open-ended city simulator without a player goal or completion loop",
+        "https://github.com/swan4er/opus-100-projects/tree/main/048-say-it-3d — a creative scene-building diorama, not a goal-driven game",
+        "https://github.com/swan4er/opus-100-projects/tree/main/120-one-line-cartoon — an interactive cartoon maker/player, not a game"
+      ],
+      "note": "The 17-game repository states that Claude Opus 5.5 assembled the projects in one autonomous run on 2026-09-23; classify that as repository-level model evidence. Distinguish the seven games that optionally use DeepSeek at runtime. Together with the earlier 16 release-week game units, the separate Opus list now has 34 source-verified units across 16 canonical repositories. HTTP 200 confirms availability only, not a fresh gameplay test."
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 741 across 510 qualifying repositories",
+    "Target: 900 independently counted game units; current: 792 across 533 qualifying repositories",
     "The 2026-09-10..2026-09-12 serial commit-search batch added 30 game units from 11 repositories",
-    "Per-game notes now cover 728 counted units as 692 named notes; 249 note rows have screenshot sources and 443 retain placeholders",
+    "Per-game notes now cover 792 counted units as 756 named notes; 281 note rows have screenshot sources and 475 use placeholders.",
     "The serial README image scan found 142 candidate image URLs across 61 repositories after filtering obvious non-game assets",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
-    "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
+    "High-yield Opus 5.5 pass: reverse-link a showcase to a dated multi-game repository, then verify every contained game and separate authoring-model evidence from runtime AI.",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects",
-    "Date enrichment completed: 151 records have recorded publication or release dates, all 510 qualifying repositories have repository creation metadata, and no qualifying record remains unclassified."
+    "Date enrichment completed: 152 curated records have exact publication dates covering 287 game units; all 533 qualifying repositories have creation metadata. Store mixed-repository publication dates at the individual game-unit level."
   ]
 }

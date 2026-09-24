@@ -7,6 +7,6 @@
   <circle cx="180" cy="620" r="230" fill="#06b6d4" opacity=".18"/>
   <text x="80" y="300" fill="#fff" font-family="Arial,sans-serif" font-size="58" font-weight="700">VOIDRUNNER: Orbital Combat League</text>
   <text x="84" y="365" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="28">Screenshot source pending</text>
-  <text x="84" y="425" fill="#bae6fd" font-family="Arial,sans-serif" font-size="22">GPT-6 Astra, Claude Fable 5.1</text>
+  <text x="84" y="425" fill="#bae6fd" font-family="Arial,sans-serif" font-size="22">GPT-6 Astra</text>
   <text x="84" y="650" fill="#94a3b8" font-family="Arial,sans-serif" font-size="18">Open the repository and source links in this note.</text>
 </svg>

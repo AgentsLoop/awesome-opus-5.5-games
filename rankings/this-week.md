@@ -4,13 +4,24 @@
 
 ## Coverage
 
-- Ranked rows: **0**
-- Counted game units represented: **0**
+- Ranked rows: **10**
+- Counted game units represented: **10**
 - Use the date basis shown in each row. Do not interpret repository creation or curation verification as publication.
 
 ## Ranking
 
-_No games have a reliable publication or qualifying evidence date in this period._
+| Rank | Game | Score | Date basis | Model | Technology | Links |
+| ---: | --- | ---: | --- | --- | --- | --- |
+| 1 | **Barista Shift** | ⭐ **9.5** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Three.js, WebGL, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/103-barista-shift/) |
+| 2 | **Rally Navigator** | ⭐ **9.5** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Three.js, WebGL, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/038-rally-navigator/) |
+| 3 | **Chess with Character** | ⭐ **9.4** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Three.js, WebGL, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/101-chess-characters/) |
+| 4 | **The Precinct Officer** | ⭐ **9.4** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Three.js, WebGL, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/027-uchastkovy-rpg/) |
+| 5 | **Interrogation** | ⭐ **9.3** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Three.js, WebGL, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/054-interrogation/) |
+| 6 | **Mafia** | ⭐ **9.3** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Three.js, WebGL, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/064-ai-mafia/) |
+| 7 | **Night Museum** | ⭐ **9.3** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Canvas 2D, Raycasting, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/037-night-museum/) |
+| 8 | **Alchemy Automaton** | ⭐ **9.2** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Canvas 2D, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/109-alchemy-automaton/) |
+| 9 | **Deeper** | ⭐ **9.2** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Canvas 2D, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/060-deeper-roguelike/) |
+| 10 | **Gravity Golf** | ⭐ **9.2** | 2026-09-23 · recent_game_evidence | Claude Opus 5.5 | JavaScript, HTML, Canvas 2D, Browser | [source](https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/index.html) · [evidence](https://github.com/swan4er/opus-100-projects/blob/main/README.md) · [play](https://swan4er.github.io/opus-100-projects/096-gravity-golf/) |
 
 
 ## Date policy

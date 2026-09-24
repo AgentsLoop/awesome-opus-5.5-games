@@ -34,9 +34,9 @@ const dateOffset = (date, days) => {
   value.setUTCDate(value.getUTCDate() + days);
   return value.toISOString().slice(0, 10);
 };
-const modelText = (record) => (record.model_family ?? []).join(', ') || 'Unspecified';
+const modelText = (record, unit = null) => (unit?.model_family ?? record.model_family ?? []).join(', ') || 'Unspecified';
 const technologyText = (technology) => (technology ?? []).join(', ') || 'Browser';
-const evidenceText = (record) => record.model_evidence ?? record.method_evidence ?? 'unknown';
+const evidenceText = (record, unit = null) => unit?.model_evidence ?? record.model_evidence ?? record.method_evidence ?? 'unknown';
 const evidenceRank = {
   confirmed: 5,
   confirmed_at_repository_level: 4,
@@ -56,27 +56,33 @@ function nonGitHubSource(record, predicate = () => true) {
   return (record.discovery_sources ?? []).find((source) => usableUrl(source) && predicate(source) && !source.includes('github.com')) ?? '';
 }
 
-function evidenceSource(record) {
-  return usableUrl(record.evidence_url) ? record.evidence_url : repositorySource(record);
+function evidenceSource(record, unit = null) {
+  const unitSource = unit?.evidence_url;
+  return usableUrl(unitSource) ? unitSource : (usableUrl(record.evidence_url) ? record.evidence_url : repositorySource(record));
 }
 
-function dateInfo(record) {
-  const published = validDate(record.published_on) ? {
-    date: record.published_on,
-    published_date_type: record.published_date_type ?? 'published',
-    published_date_source: usableUrl(record.published_date_source) ? record.published_date_source : (nonGitHubSource(record) || evidenceSource(record)),
-    published_date_confidence: record.published_date_confidence ?? 'exact',
+function dateInfo(record, unit = null) {
+  const publishedOn = unit?.published_on ?? record.published_on;
+  const publishedType = unit?.published_date_type ?? record.published_date_type;
+  const publishedSource = unit?.published_date_source ?? record.published_date_source;
+  const publishedConfidence = unit?.published_date_confidence ?? record.published_date_confidence;
+  const recentEvidenceOn = unit?.recent_game_evidence_on ?? record.recent_game_evidence_on;
+  const published = validDate(publishedOn) ? {
+    date: publishedOn,
+    published_date_type: publishedType ?? 'published',
+    published_date_source: usableUrl(publishedSource) ? publishedSource : (nonGitHubSource(record) || evidenceSource(record, unit)),
+    published_date_confidence: publishedConfidence ?? 'exact',
   } : null;
-  const recentEvidence = validDate(record.recent_game_evidence_on) ? {
-    date: record.recent_game_evidence_on,
+  const recentEvidence = validDate(recentEvidenceOn) ? {
+    date: recentEvidenceOn,
     published_date_type: 'recent_game_evidence',
-    published_date_source: evidenceSource(record),
+    published_date_source: evidenceSource(record, unit),
     published_date_confidence: 'exact',
   } : null;
   const freshActivity = validDate(record.fresh_activity_date) ? {
     date: record.fresh_activity_date,
     published_date_type: 'repository_activity',
-    published_date_source: nonGitHubSource(record, (source) => source.includes('gharchive')) || evidenceSource(record),
+    published_date_source: nonGitHubSource(record, (source) => source.includes('gharchive')) || evidenceSource(record, unit),
     published_date_confidence: 'exact',
   } : null;
   const repositoryCreated = validDate(record.repository_created_at?.slice(0, 10)) ? {
@@ -126,6 +132,7 @@ function unitRows(record) {
       technology: estimate.technology ?? record.technology,
       gameLink: gameLinks[index],
       demoLink: demos[index] ?? record.live_demo_url,
+      estimate,
       record,
     };
   });
@@ -139,7 +146,7 @@ const games = records.filter((record) => (
 ));
 const rows = games.flatMap((record) => unitRows(record).map((unit) => ({
   ...unit,
-  dateInfo: dateInfo(record),
+  dateInfo: dateInfo(record, unit.estimate),
   key: `${record.github_url}\n${unit.name}`,
 })));
 const totalUnits = rows.reduce((sum, row) => sum + row.unitCount, 0);
@@ -149,7 +156,7 @@ function rank(items) {
   return [...items]
     .sort((a, b) => (
       b.rating - a.rating
-      || (evidenceRank[evidenceText(b.record)] ?? 0) - (evidenceRank[evidenceText(a.record)] ?? 0)
+      || (evidenceRank[evidenceText(b.record, b.estimate)] ?? 0) - (evidenceRank[evidenceText(a.record, a.estimate)] ?? 0)
       || Number(Boolean(b.record.live_demo_url || b.record.live_demo_urls?.length)) - Number(Boolean(a.record.live_demo_url || a.record.live_demo_urls?.length))
       || a.name.localeCompare(b.name)
       || a.record.github_url.localeCompare(b.record.github_url)
@@ -170,17 +177,17 @@ function table(items) {
   if (!items.length) return '_No games have a reliable publication or qualifying evidence date in this period._\n';
   let text = '| Rank | Game | Score | Date basis | Model | Technology | Links |\n| ---: | --- | ---: | --- | --- | --- | --- |\n';
   items.forEach((row, index) => {
-    const links = [link('source', row.record.github_url), link('evidence', row.dateInfo.published_date_source), link('play', row.demoLink)].filter(Boolean).join(' · ');
-    text += `| ${index + 1} | **${escapeMarkdown(row.name)}** | ⭐ **${row.rating.toFixed(1)}** | ${row.dateInfo.date} · ${row.dateInfo.published_date_type} | ${escapeMarkdown(modelText(row.record))} | ${escapeMarkdown(technologyText(row.technology))} | ${links} |\n`;
+    const links = [link('source', row.gameLink ?? row.record.github_url), link('evidence', row.dateInfo.published_date_source), link('play', row.demoLink)].filter(Boolean).join(' · ');
+    text += `| ${index + 1} | **${escapeMarkdown(row.name)}** | ⭐ **${row.rating.toFixed(1)}** | ${row.dateInfo.date} · ${row.dateInfo.published_date_type} | ${escapeMarkdown(modelText(row.record, row.estimate))} | ${escapeMarkdown(technologyText(row.technology))} | ${links} |\n`;
   });
   return text;
 }
 
 function coverage() {
-  const datedRecords = new Set(games.filter((record) => dateInfo(record).has_publication_or_evidence_date).map((record) => record.github_url)).size;
+  const datedRecords = new Set(rows.filter((row) => row.dateInfo.has_publication_or_evidence_date).map((row) => row.record.github_url)).size;
   const datedUnits = rows.filter((row) => row.dateInfo.has_publication_or_evidence_date).reduce((sum, row) => sum + row.unitCount, 0);
-  const publishedRecords = games.filter((record) => validDate(record.published_on)).length;
-  const publishedUnits = rows.filter((row) => validDate(row.record.published_on)).reduce((sum, row) => sum + row.unitCount, 0);
+  const publishedRecords = new Set(rows.filter((row) => validDate(row.estimate?.published_on ?? row.record.published_on)).map((row) => row.record.github_url)).size;
+  const publishedUnits = rows.filter((row) => validDate(row.estimate?.published_on ?? row.record.published_on)).reduce((sum, row) => sum + row.unitCount, 0);
   const unknownRecords = games.length - datedRecords;
   const unknownUnits = totalUnits - datedUnits;
   const repositoryDateRecords = games.filter((record) => validDate(record.repository_created_at?.slice(0, 10))).length;
@@ -218,7 +225,7 @@ const audit = rows.map((row) => ({
   game: row.name,
   repository_url: row.record.github_url,
   counted_game_units: row.unitCount,
-  published_on: row.record.published_on ?? null,
+  published_on: row.estimate?.published_on ?? row.record.published_on ?? null,
   published_date_type: row.dateInfo.published_date_type,
   published_date: row.dateInfo.date,
   published_date_source: row.dateInfo.published_date_source || null,

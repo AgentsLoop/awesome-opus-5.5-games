@@ -1,6 +1,6 @@
 # Turbo Kart Rally
 
-> Top-list entry: **today** (#1), **this week** (#1).
+> Top-list entry: **today** (#2), **this week** (#2).
 
 ![Turbo Kart Rally screenshot](https://raw.githubusercontent.com/bridge-mind/turbo-kart-rally/main/docs/screenshots/race.jpg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** Claude Opus 5.5
 - **Technology:** Three.js, JavaScript, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete source, race loop, AI, items, controls, screenshots and HTTP-reachable demo; no runtime playtest performed.
 - **Verified:** 2026-09-24
 - **Repository:** [https://github.com/bridge-mind/turbo-kart-rally](https://github.com/bridge-mind/turbo-kart-rally)
 - **Evidence:** [creator-reported model evidence](https://github.com/bridge-mind/turbo-kart-rally/blob/main/README.md)
@@ -31,15 +33,20 @@ Arcade 3D kart racer with steering and drifting input, seven AI rivals, laps, it
 ### Gameplay source
 
 - [https://github.com/bridge-mind/turbo-kart-rally/blob/main/README.md](https://github.com/bridge-mind/turbo-kart-rally/blob/main/README.md)
-- [https://github.com/bridge-mind/turbo-kart-rally/blob/main/index.html](https://github.com/bridge-mind/turbo-kart-rally/blob/main/index.html)
-- [https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/main.js](https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/main.js)
-- [https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/race.js](https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/race.js)
-- [https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/kart.js](https://github.com/bridge-mind/turbo-kart-rally/blob/main/src/kart.js)
+
+## Reverse-engineered prompt
+
+Reconstruct this prompt from the verified source; it is not an original prompt transcript. See [prompt evidence](https://github.com/bridge-mind/turbo-kart-rally/blob/main/README.md).
+
+```text
+Build Turbo Kart Rally as a playable game using Three.js, JavaScript, WebGL, Browser. Arcade 3D kart racer with steering and drifting input, seven AI rivals, laps, items, race state, finish results, and procedural assets. README gives the original prompt and attributes five Claude Opus 5.5 sub-agents. Preserve controls, game state, objective, failure and restart behavior shown in the source. This is a source-derived reconstruction prompt, not the original prompt.
+```
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24; https://github.com/bridge-mind/turbo-kart-rally
 
 [Back to the awesome list](../../README.md)

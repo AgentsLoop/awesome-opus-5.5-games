@@ -57,3 +57,13 @@ Extract screenshots only from repository README or source assets. Record the ima
 ### Add an uncertainty budget
 
 Require a written caveat whenever a record uses inferred prompts, repository-level model evidence, static FLOPS estimates, old repositories or an untested demo. Surface these caveats in the per-game notes and rankings.
+
+
+## Opus 5.5 collection expansion — 2026-09-24
+
+- Follow a verified showcase to its linked multi-game repository; do not stop at single-repository search results.
+- Read the collection-level creator statement, then verify each candidate folder's README, controls, gameplay loop, source entry point, and direct demo.
+- Count distinct games, not repositories. Keep one canonical dataset record and store each game's source, demo, screenshot, prompt, quality estimate, and low-confidence FLOPS estimate separately.
+- Separate the authoring model from any optional runtime dialogue model. Mark repository-wide authorship as repository-level evidence.
+- Reject generators, open-ended simulations without a player goal, scene-making toys, and cartoon makers even when a collection files them under a game label.
+- Treat sequential HTTP 200 checks as availability evidence, not as interactive playtests.

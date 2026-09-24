@@ -2115,3 +2115,18 @@ Run the GitHub commit and repository queries serially for `2026-09-13..2026-09-1
 Add 30 counted units from 18 repositories. Strong multi-game sources included [Airgap](https://github.com/JakeAve/airgap) with seven browser games and [Top-10 Tension](https://github.com/cuongluu8/tenable) with four football-trivia modes. Fresh single-game additions included [PirateSeas](https://github.com/AndreiBesliu/PirateSeas), [GridWatch: Signal Breach](https://github.com/remeadows/gridwatch-signal-breach), [Tic-Tac-Toe MCP Game](https://github.com/worgho2/tic-tac-toe-mcp-game), [Mystic Onslaught](https://github.com/KAOSN00B/MysticOnslaught), [120 Dispatch Desk](https://github.com/1989-12-13/BuddyGame), and [Tres Space Shooter](https://github.com/SilvioDoMine/tres-spaceshooter).
 
 Reject real games without qualifying model attribution, catalogs, engine benchmarks, visual scenes, tooling, and incomplete prototypes. Keep repository creation timestamps separate from current gameplay-evidence dates. Label repository-level model evidence instead of upgrading it to direct gameplay attribution.
+
+
+## Opus 5.5 collection reverse-link — 2026-09-24
+
+Follow the direct project link in [frontier-games](https://github.com/theolundqvist/frontier-games) to [Opus 100 Projects](https://github.com/swan4er/opus-100-projects). Read its root README for the 2026-09-23 Opus 5.5 creation claim. Inspect each candidate folder serially. Check the local README, entry-point source, declared controls/objective, screenshot asset, and published page.
+
+Count ten games with real mechanics and seven playable neural-network games. Exclude the generator, freeform city simulator, scene-making diorama, and cartoon creator. Note that seven game projects optionally use DeepSeek at runtime; do not confuse that with the Opus 5.5 authoring claim. The 17 direct game pages all returned HTTP 200, which verifies availability only. A second serial check verified the September 22 [OVERRUN addition](https://github.com/alesha-pro/bench-portal/commit/30037f2602b662650b19edc47178e09550966ea5); count that one source game rather than the portal catalog.
+
+### Critique
+
+Rate this path **8.7/10** for yield and **8/10** for evidence. The collection yielded 17 playable game units from one repository, and the existing portal contributed one game. The root creator statement is repository-level rather than per-game commit attribution. Keep source and direct-demo checks, label model evidence at the proper level, and do not treat page reachability as a playtest.
+
+### Next experiment
+
+Search verified showcase repositories and creator posts for linked project collections. Expand each source repository only after checking its folder boundaries. Stop when the requested count is reached; preserve all additional independently verified games in the dataset without inflating the named list with tools or visual-only projects.

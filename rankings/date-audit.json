@@ -4331,7 +4331,7 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-08-01T21:25:20Z",
-      "verified_on": "2026-09-09"
+      "verified_on": "2026-09-24"
     },
     {
       "game": "VOIDBOUND: The Choir of Ash",
@@ -4343,7 +4343,7 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-08-01T21:25:20Z",
-      "verified_on": "2026-09-09"
+      "verified_on": "2026-09-24"
     },
     {
       "game": "Onslaught",
@@ -4355,7 +4355,19 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-08-01T21:25:20Z",
-      "verified_on": "2026-09-09"
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "OVERRUN: Dockyard Nine",
+      "repository_url": "https://github.com/alesha-pro/bench-portal",
+      "counted_game_units": 1,
+      "published_on": "2026-09-22",
+      "published_date_type": "external_source",
+      "published_date": "2026-09-22",
+      "published_date_source": "https://github.com/alesha-pro/bench-portal/commit/30037f2602b662650b19edc47178e09550966ea5",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-08-01T21:25:20Z",
+      "verified_on": "2026-09-24"
     },
     {
       "game": "AZURA — L'île aux toits d'argile",
@@ -8519,6 +8531,210 @@
       "published_date_source": null,
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-09-23T11:43:53Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Chess: Machine Thoughts",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Prism",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Khrushchev Apartment Renovation",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "The Precinct Officer",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Night Museum",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Rally Navigator",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Twilight",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Interrogation",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Deeper",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Mafia",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Long Road",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Minesweeper Without Guessing",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Deduction",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Gravity Golf",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Chess with Character",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Barista Shift",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
+      "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Alchemy Automaton",
+      "repository_url": "https://github.com/swan4er/opus-100-projects",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "recent_game_evidence",
+      "published_date": "2026-09-23",
+      "published_date_source": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+      "published_date_confidence": "exact",
+      "repository_created_at": "2026-09-23T21:15:05Z",
       "verified_on": "2026-09-24"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-09-12",
+  "checked_on": "2026-09-24",
   "pending": [
     {
       "game_name": "Yakko Kart",
@@ -920,6 +920,22 @@
       "repository": "https://github.com/windvill/Astra-",
       "source": "GitHub commit search for game Astra, 2026-09-10..2026-09-12",
       "reason": "Astra is a real browser action-survival game, but the repository name is the game title and no public repository or commit evidence attributes it to GPT-6 Astra, Claude Opus, or Claude Fable. Do not treat the word Astra alone as model evidence."
+    },
+    {
+      "repository": "https://github.com/swan4er/opus-100-projects/tree/main/032-self-writing-game",
+      "reason": "This is a game-generation tool that can produce playable examples, not a standalone game unit."
+    },
+    {
+      "repository": "https://github.com/swan4er/opus-100-projects/tree/main/045-living-city",
+      "reason": "This is an open-ended city simulation and interactive life-sim without a clear player objective or completion loop; exclude it from the game count."
+    },
+    {
+      "repository": "https://github.com/swan4er/opus-100-projects/tree/main/048-say-it-3d",
+      "reason": "This is a creative scene-building diorama/editor with no game objective or win/loss loop."
+    },
+    {
+      "repository": "https://github.com/swan4er/opus-100-projects/tree/main/120-one-line-cartoon",
+      "reason": "This is an interactive cartoon creator/player, not a playable game."
     }
   ]
 }

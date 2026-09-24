@@ -4,6 +4,7 @@ import path from 'node:path';
 const root = process.cwd();
 const gamesDir = path.join(root, 'games');
 const refreshNotes = process.env.REFRESH_GAME_NOTES === '1';
+const refreshRepositories = new Set((process.env.REFRESH_GAME_NOTES_FOR ?? '').split(',').map((value) => value.trim()).filter(Boolean));
 const records = JSON.parse(fs.readFileSync(path.join(root, 'games.json'), 'utf8'));
 const discoveryPath = path.join(root, 'research', 'screenshot-discoveries.json');
 const screenshotDiscoveries = fs.existsSync(discoveryPath)
@@ -16,8 +17,8 @@ const htmlEsc = (value) => String(value ?? '')
   .replaceAll('<', '&lt;')
   .replaceAll('>', '&gt;')
   .replaceAll('"', '&quot;');
-const modelText = (record) => (record.model_family ?? []).join(', ') || 'Unspecified';
-const evidenceText = (record) => record.model_evidence ?? record.method_evidence ?? 'unknown';
+const modelText = (record, estimate = null) => (estimate?.model_family ?? record.model_family ?? []).join(', ') || 'Unspecified';
+const evidenceText = (record, estimate = null) => estimate?.model_evidence ?? record.model_evidence ?? record.method_evidence ?? 'unknown';
 const evidenceLabel = {
   confirmed: 'direct model evidence',
   confirmed_at_repository_level: 'repository-level model evidence',
@@ -48,6 +49,7 @@ function expand(record) {
     unitIndex,
     unitCount: 1,
     gameLink: links[unitIndex],
+    estimate: record.contained_game_estimates?.[unitIndex] ?? null,
     record,
   }));
 }
@@ -66,7 +68,7 @@ const today = new Date().toISOString().slice(0, 10);
 const weekStart = dateOffset(today, -6);
 const monthStart = `${today.slice(0, 8)}01`;
 const recentDate = (record) => record.recent_game_evidence_on ?? record.published_on ?? record.verified_on ?? '';
-const rating = (row) => row.record.quality_estimate_10 ?? 0;
+const rating = (row) => row.estimate?.quality_estimate_10 ?? row.record.quality_estimate_10 ?? 0;
 const ranked = [...rows].sort((a, b) => rating(b) - rating(a) || a.name.localeCompare(b.name));
 const uniqueRepositories = (items, limit = Number.POSITIVE_INFINITY) => {
   const seen = new Set();
@@ -120,14 +122,22 @@ function isImage(url) {
   return /\.(avif|gif|jpe?g|png|svg|webp)(?:[?#].*)?$/i.test(url);
 }
 
-function sourceScreenshots(record) {
-  const direct = record.screenshot_urls ?? [];
+function sourceScreenshots(record, row = null) {
+  const unitScreenshots = row?.name ? record.contained_game_screenshots?.[row.name] : undefined;
+  const direct = unitScreenshots ?? record.screenshot_urls ?? [];
   const discovered = screenshotDiscoveries.screenshots?.[record.github_url]?.screenshots ?? [];
   return [...new Set([...direct, ...discovered])].filter(Boolean);
 }
 
-function sourceLiveDemos(record) {
+function sourceLiveDemos(record, row = null) {
+  if (row && Array.isArray(record.live_demo_urls) && record.live_demo_urls.length === record.counted_game_units) {
+    return [record.live_demo_urls[row.unitIndex]].filter(Boolean);
+  }
   return [...new Set([record.live_demo_url, ...(record.live_demo_urls ?? [])])].filter(Boolean);
+}
+
+function sourcePrompt(row) {
+  return row.estimate?.prompt ?? (row.record.prompt_note_enabled ? row.record.prompt : '');
 }
 
 function readExistingSlugs() {
@@ -161,7 +171,7 @@ for (const row of rows) {
 
 function placeholderSvg(row) {
   const title = htmlEsc(row.name).slice(0, 42);
-  const model = htmlEsc(modelText(row.record)).slice(0, 42);
+  const model = htmlEsc(modelText(row.record, row.estimate)).slice(0, 42);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
   <title id="title">${title} placeholder</title>
   <desc id="desc">Screenshot pending for ${title}</desc>
@@ -182,13 +192,18 @@ function writeNote(row) {
   const directory = path.join(gamesDir, row.slug);
   fs.mkdirSync(directory, { recursive: true });
   const readmePath = path.join(directory, 'readme.md');
-  if (fs.existsSync(readmePath) && !refreshNotes) return false;
+  if (fs.existsSync(readmePath) && !refreshNotes && !refreshRepositories.has(record.github_url)) return false;
 
   const key = `${record.github_url}\n${row.name}`;
   const ranks = topKey.get(key) ?? {};
   const rankText = Object.entries(ranks).map(([period, rank]) => `**${period}** (#${rank})`).join(', ');
-  const screenshots = sourceScreenshots(record);
-  const liveDemos = sourceLiveDemos(record);
+  const screenshots = sourceScreenshots(record, row);
+  const liveDemos = sourceLiveDemos(record, row);
+  const prompt = sourcePrompt(row);
+  const evidenceUrl = row.estimate?.evidence_url ?? record.evidence_url;
+  const evidenceGrade = evidenceText(record, row.estimate);
+  const flops = row.estimate?.flops_estimate_raw ?? record.flops_estimate_raw;
+  const flopsConfidence = row.estimate?.flops_estimate_confidence ?? record.flops_estimate_confidence ?? 'low';
   const placeholderName = `${row.slug}-placeholder.svg`;
   if (!screenshots.length) fs.writeFileSync(path.join(directory, placeholderName), placeholderSvg(row));
 
@@ -202,11 +217,13 @@ function writeNote(row) {
   }
   output += `## At a glance\n\n`;
   output += `- **Score:** ${Number(rating(row)).toFixed(1)}/10\n`;
-  output += `- **Model:** ${esc(modelText(record))}\n`;
-  output += `- **Technology:** ${esc((record.technology ?? []).join(', ') || 'Browser')}\n`;
+  output += `- **Model:** ${esc(modelText(record, row.estimate))}\n`;
+  output += `- **Technology:** ${esc((row.estimate?.technology ?? record.technology ?? []).join(', ') || 'Browser')}\n`;
+  if (Number.isFinite(flops)) output += `- **Estimated FP32 operations/s at 60 FPS:** ${Number(flops).toLocaleString('en-US')} (${esc(flopsConfidence)} confidence; static estimate, not measured).\n`;
+  if (row.estimate?.quality_estimate_basis ?? record.quality_estimate_basis) output += `- **Rating basis:** ${esc(row.estimate?.quality_estimate_basis ?? record.quality_estimate_basis)}\n`;
   output += `- **Verified:** ${esc(record.verified_on)}\n`;
   output += `- **Repository:** [${record.github_url}](${record.github_url})\n`;
-  output += `- **Evidence:** [${evidenceLabel[evidenceText(record)] ?? 'model evidence'}](${record.evidence_url})\n`;
+  output += `- **Evidence:** [${evidenceLabel[evidenceGrade] ?? 'model evidence'}](${evidenceUrl})\n`;
   liveDemos.forEach((url, index) => {
     const label = index === 0 ? 'Live demo' : 'Additional live link';
     output += `- **${label}:** [open demo](${url})\n`;
@@ -228,14 +245,20 @@ function writeNote(row) {
     videos.forEach((url) => { output += `- [YouTube gameplay video](${url})\n`; });
   }
   output += `\n## Model attribution\n\n`;
-  output += `Open the evidence link above. Evidence grade: **${esc(evidenceLabel[evidenceText(record)] ?? evidenceText(record))}**.\n\n`;
+  output += `Open the evidence link above. Evidence grade: **${esc(evidenceLabel[evidenceGrade] ?? evidenceGrade)}**.\n\n`;
   output += `## Source description\n\n${esc(record.verification_notes ?? 'Inspect the repository README and gameplay source for the verified scope.')}\n\n`;
   output += `### Gameplay source\n\n`;
-  const links = [...new Set([...(record.game_links ?? []), record.evidence_url])].filter(Boolean);
+  const links = [...new Set([row.gameLink, evidenceUrl, record.evidence_url])].filter(Boolean);
   links.forEach((url) => { output += `- [${url}](${url})\n`; });
+  if (prompt) {
+    output += `\n## Reverse-engineered prompt\n\n`;
+    output += `Reconstruct this prompt from the verified source; it is not an original prompt transcript. See [prompt evidence](${row.estimate?.prompt_evidence_url ?? record.prompt_evidence_url ?? evidenceUrl}).\n\n`;
+    output += `\`\`\`text\n${prompt.replaceAll('```', "'''\n")}\n\`\`\`\n`;
+  }
   output += `\n## Verification notes\n\n`;
   output += `- **Status:** ${esc(record.verification_status)}\n`;
-  output += `- **Counted units:** ${record.counted_game_units}\n`;
+  output += `- **Counted units in repository:** ${record.counted_game_units}\n`;
+  output += `- **Units covered by this note:** ${row.unitCount}\n`;
   if (record.discovery_sources?.length) output += `- **Discovery:** ${record.discovery_sources.join('; ')}\n`;
   if ((screenshotDiscoveries.screenshots?.[record.github_url]?.screenshots ?? []).length) output += `- **Screenshot discovery:** ${esc(screenshotDiscoveries.screenshots[record.github_url].method ?? 'repository README source scan')}\n`;
   output += `\n[Back to the awesome list](../../README.md)\n`;
@@ -244,7 +267,7 @@ function writeNote(row) {
 }
 
 const created = rows.filter(writeNote).length;
-const screenshotRows = rows.filter((row) => sourceScreenshots(row.record).length).length;
+const screenshotRows = rows.filter((row) => sourceScreenshots(row.record, row).length).length;
 const placeholderRows = rows.length - screenshotRows;
 const countedUnits = rows.reduce((total, row) => total + row.unitCount, 0);
 const aggregateRows = rows.filter((row) => row.unitCount > 1).length;

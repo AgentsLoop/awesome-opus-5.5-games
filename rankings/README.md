@@ -4,7 +4,7 @@
 
 ## Current reports
 
-- [Top games this week](this-week.md) — **0** ranked rows.
+- [Top games this week](this-week.md) — **10** ranked rows.
 - [Top games this month](this-month.md) — **10** ranked rows.
 - [Date audit data](date-audit.json) — normalized date fields for every curated game unit.
 
@@ -16,18 +16,18 @@
 | 2026-09-19 | 0 | 0 | [Open report](daily/2026-09-19.md) |
 | 2026-09-20 | 0 | 0 | [Open report](daily/2026-09-20.md) |
 | 2026-09-21 | 0 | 0 | [Open report](daily/2026-09-21.md) |
-| 2026-09-22 | 0 | 0 | [Open report](daily/2026-09-22.md) |
-| 2026-09-23 | 0 | 0 | [Open report](daily/2026-09-23.md) |
+| 2026-09-22 | 1 | 1 | [Open report](daily/2026-09-22.md) |
+| 2026-09-23 | 10 | 10 | [Open report](daily/2026-09-23.md) |
 | 2026-09-24 | 0 | 0 | [Open report](daily/2026-09-24.md) |
 
 ## Date coverage
 
 | Date signal | Records | Game units | Meaning |
 | --- | ---: | ---: | --- |
-| Explicit publication date | 151 | 286 | `published_on` |
-| Publication or qualifying evidence date | 163 | 307 | `published_on`, `recent_game_evidence_on`, or `fresh_activity_date` |
-| Date unknown for ranking | 341 | 439 | Exclude from date rankings |
-| Repository creation metadata | 504 | 746 | Audit context only; not publication |
+| Explicit publication date | 152 | 287 | `published_on` |
+| Publication or qualifying evidence date | 165 | 325 | `published_on`, `recent_game_evidence_on`, or `fresh_activity_date` |
+| Date unknown for ranking | 340 | 439 | Exclude from date rankings |
+| Repository creation metadata | 505 | 764 | Audit context only; not publication |
 
 ## Date policy
 

@@ -14,8 +14,8 @@ const compactTechText = (record, technology = null) => {
   const values = technology ?? record.technology ?? [];
   return values.length > 5 ? `${values.slice(0, 5).join(', ')}, +${values.length - 5} more` : values.join(', ') || 'Browser';
 };
-const modelText = (record) => (record.model_family ?? []).join(', ') || 'Unspecified';
-const evidenceText = (record) => record.model_evidence ?? record.method_evidence ?? 'unknown';
+const modelText = (record, unit = null) => (unit?.model_family ?? record.model_family ?? []).join(', ') || 'Unspecified';
+const evidenceText = (record, unit = null) => unit?.model_evidence ?? record.model_evidence ?? record.method_evidence ?? 'unknown';
 const evidenceMeta = {
   confirmed: { label: 'direct model evidence', icon: '✓' },
   confirmed_at_repository_level: { label: 'repository-level model evidence', icon: '✓' },
@@ -26,7 +26,7 @@ const evidenceMeta = {
   inferred: { label: 'inferred model evidence', icon: '?' },
   unknown: { label: 'unclassified model evidence', icon: '?' },
 };
-const evidence = (record) => evidenceMeta[evidenceText(record)] ?? evidenceMeta.unknown;
+const evidence = (record, unit = null) => evidenceMeta[evidenceText(record, unit)] ?? evidenceMeta.unknown;
 
 function category(record, gameName, technology = null) {
   const text = `${gameName} ${record.name} ${record.verification_notes ?? ''} ${techText(record, technology)}`.toLowerCase();
@@ -51,6 +51,13 @@ function units(record) {
       technology: record.technology,
       gameLink: record.game_links?.[0],
       demoLink: record.live_demo_url,
+      screenshot_urls: record.screenshot_urls ?? [],
+      prompt: record.prompt_note_enabled ? record.prompt : '',
+      evidenceUrl: record.evidence_url,
+      model_family: record.model_family,
+      model_evidence: record.model_evidence ?? record.method_evidence,
+      published_on: record.published_on,
+      recent_game_evidence_on: record.recent_game_evidence_on,
       unitCount: target,
       aggregateLabel: names[0] ?? `${target} documented game units`,
       record,
@@ -59,6 +66,7 @@ function units(record) {
   while (names.length < target) names.push(record.name);
   const estimates = record.contained_game_estimates ?? [];
   const gameLinks = record.contained_game_links ?? record.game_links ?? [];
+  const demos = record.live_demo_urls ?? [record.live_demo_url];
   return names.slice(0, target).map((name, index) => {
     const estimate = estimates[index] ?? {};
     return {
@@ -66,7 +74,15 @@ function units(record) {
       rating: estimate.quality_estimate_10 ?? record.quality_estimate_10 ?? 0,
       technology: estimate.technology ?? record.technology,
       gameLink: gameLinks[index],
-      demoLink: (record.live_demo_urls ?? [record.live_demo_url])[index],
+      demoLink: demos[index],
+      screenshot_urls: record.contained_game_screenshots?.[name] ?? record.screenshot_urls ?? [],
+      prompt: estimate.prompt ?? (record.prompt_note_enabled ? record.prompt : ''),
+      evidenceUrl: estimate.evidence_url ?? record.evidence_url,
+      model_family: estimate.model_family ?? record.model_family,
+      model_evidence: estimate.model_evidence ?? record.model_evidence ?? record.method_evidence,
+      estimate,
+      published_on: estimate.published_on,
+      recent_game_evidence_on: estimate.recent_game_evidence_on,
       unitCount: 1,
       record,
     };
@@ -87,21 +103,22 @@ const repoCount = games.length;
 const badRows = badGameRecords.flatMap(units);
 const badCount = unitTotal(badRows);
 const hasDate = (value) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value);
-const publicationDateRecords = games.filter((record) => hasDate(record.published_on));
+const publicationDateRecords = games.filter((record) => hasDate(record.published_on) || record.contained_game_estimates?.some((estimate) => hasDate(estimate.published_on)));
 const repositoryDateRecords = games.filter((record) => hasDate(record.repository_created_at?.slice(0, 10)));
-const publicationDateUnits = unitTotal(rows.filter((row) => hasDate(row.record.published_on)));
+const publicationDateUnits = unitTotal(rows.filter((row) => hasDate(row.published_on ?? row.record.published_on)));
 const repositoryDateUnits = unitTotal(rows.filter((row) => hasDate(row.record.repository_created_at?.slice(0, 10))));
 const totalRecordCount = allRecords.length;
 const relatedRecordCount = totalRecordCount - repoCount;
 const verifiedOn = allRecords.map((record) => record.verified_on).filter(Boolean).sort().at(-1) ?? 'unknown';
-const iconLinks = (record) => {
-  const screenshots = record.screenshot_urls ?? [];
-  const prompts = record.prompt_urls ?? [];
+const iconLinks = (row) => {
+  const screenshots = row.screenshot_urls ?? [];
+  const directPrompts = row.record.prompt_urls ?? [];
+  const prompt = directPrompts[0] ?? (row.prompt ? `${gameNoteUrl(row)}#reverse-engineered-prompt` : '');
   return [
     screenshots[0] ? `[screenshot](${screenshots[0]})` : '',
     screenshots.length > 1 ? `+${screenshots.length - 1} more screenshots in data` : '',
-    prompts[0] ? `[prompt](${prompts[0]})` : '',
-    prompts.length > 1 ? `+${prompts.length - 1} more prompts in data` : '',
+    prompt ? `[prompt](${prompt})` : '',
+    directPrompts.length > 1 ? `+${directPrompts.length - 1} more prompts in data` : '',
   ].filter(Boolean).join(' · ');
 };
 const categoryIcons = {
@@ -128,7 +145,7 @@ const dateOffset = (date, days) => {
   value.setUTCDate(value.getUTCDate() + days);
   return value.toISOString().slice(0, 10);
 };
-const recentDate = (record) => record.recent_game_evidence_on ?? record.published_on ?? record.verified_on ?? '';
+const recentDate = (row) => row.recent_game_evidence_on ?? row.published_on ?? row.record.recent_game_evidence_on ?? row.record.published_on ?? '';
 const uniqueRanked = (predicate, limit) => {
   const seen = new Set();
   return rankedRows.filter((row) => {
@@ -142,11 +159,11 @@ const topToday = uniqueRanked((row) => row.record.verified_on === today, 10);
 const weekStart = dateOffset(today, -6);
 const monthStart = `${today.slice(0, 8)}01`;
 const topWeek = uniqueRanked((row) => {
-  const date = recentDate(row.record);
+  const date = recentDate(row);
   return date >= weekStart && date <= today;
 }, 15);
 const topMonth = uniqueRanked((row) => {
-  const date = recentDate(row.record);
+  const date = recentDate(row);
   return date >= monthStart && date <= today;
 }, 20);
 const gameNoteLinks = new Map();
@@ -180,12 +197,14 @@ const screenshotGallery = () => {
   }
   return `${text}</table>\n\n`;
 };
-const periodTable = (title, description, items) => {
+const periodTable = (title, description, items, period) => {
   let text = `## ${title}\n\n> ${description}\n\n`;
   if (!items.length) return `${text}_No verified entries match this period yet._\n\n`;
-  text += `| Rank | Game | Score | Model | Verified date |\n| ---: | --- | ---: | --- | --- |\n`;
+  const dateHeading = period === 'today' ? 'Verified date' : 'Evidence date';
+  text += `| Rank | Game | Score | Model | ${dateHeading} |\n| ---: | --- | ---: | --- | --- |\n`;
   items.forEach((row, index) => {
-    text += `| ${index + 1} | [**${esc(row.name)}**](${gameNoteUrl(row)}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record))} | ${esc(row.record.verified_on ?? recentDate(row.record))} |\n`;
+    const date = period === 'today' ? row.record.verified_on : recentDate(row);
+    text += `| ${index + 1} | [**${esc(row.name)}**](${gameNoteUrl(row)}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record, row))} | ${esc(date)} |\n`;
   });
   return `${text}\n`;
 };
@@ -193,9 +212,9 @@ const threeCount = unitTotal(rows.filter((row) => /three\.js|threejs|webgl|webgp
 const nonBrowserCount = unitTotal(rows.filter((row) => row.category === 'Non-Browser Engines'));
 const directPromptCount = unitTotal(rows.filter((row) => row.record.prompt_urls?.length));
 const promptFieldCount = unitTotal(rows.filter((row) => row.record.prompt));
-const screenshotCount = unitTotal(rows.filter((row) => row.record.screenshot_urls?.length));
+const screenshotCount = unitTotal(rows.filter((row) => row.screenshot_urls?.length));
 const evidenceCounts = rows.reduce((counts, row) => {
-  const key = evidenceText(row.record);
+  const key = evidenceText(row.record, row);
   counts[key] = (counts[key] ?? 0) + row.unitCount;
   return counts;
 }, {});
@@ -212,14 +231,14 @@ output += `[![Forks](https://img.shields.io/github/forks/AgentsLoop/awesome-opus
 output += `> **A curated field guide to games attributed to GPT-6 Astra, Claude Opus, or Claude Fable.**<br />\n`;
 output += `> Every listed unit maps to a qualifying GitHub source repository. The model-evidence grade is visible on every entry.\n\n`;
 output += `</div>\n\n---\n\n`;
+output += periodTable('Top games today', `Rank the highest-rated repositories verified in this curation run on **${today}**.`, topToday, 'today');
+output += periodTable('Top games this week', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${weekStart}** through **${today}**.`, topWeek, 'week');
+output += periodTable('Top games this month', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${monthStart}** through **${today}**.`, topMonth, 'month');
 output += screenshotGallery();
-output += periodTable('Top games today', `Rank the highest-rated repositories verified in this curation run on **${today}**.`, topToday);
-output += periodTable('Top games this week', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${weekStart}** through **${today}**.`, topWeek);
-output += periodTable('Top games this month', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${monthStart}** through **${today}**.`, topMonth);
 output += `## Top-rated picks\n\n`;
 output += `> **Start here. These projects have the strongest combined evidence, scope, and source quality. Ratings do not replace evidence grades.**\n\n`;
 output += `| Game | Score | Built with | Evidence |\n| --- | ---: | --- | --- |\n`;
-for (const row of topPicks) output += `| [**${esc(row.name)}**](${gameNoteUrl(row)}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record))} | [${evidence(row.record).icon} ${esc(evidence(row.record).label)}](${row.record.evidence_url}) |\n`;
+for (const row of topPicks) output += `| [**${esc(row.name)}**](${gameNoteUrl(row)}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record, row))} | [${evidence(row.record, row).icon} ${esc(evidence(row.record, row).label)}](${row.evidenceUrl}) |\n`;
 output += `\n`;
 output += `## What is this?\n\n`;
 output += `This is a curated index of playable game units with public GitHub source and evidence that connects them to GPT-6 Astra, Claude Opus, or Claude Fable. “Curated” does not mean every attribution has the same strength: the per-entry evidence grade states whether the model claim is direct, creator-reported, repository-level, or inferred.\n\n`;
@@ -228,7 +247,7 @@ output += `Browse [the awesome-list index](awesomelists.md) for verified game ca
 output += `Browse [AI game generators and engines](ai-game-generators.md) for tools that build or edit playable games from prompts.\n\n`;
 output += `Browse [Claude Opus 5.5 release-week games](opus-5.5-games.md) for direct source and model-evidence links.\n\n`;
 output += `Browse [publication-date rankings](rankings/README.md) for daily, weekly, and monthly reports. These reports exclude games without a reliable publication or qualifying evidence date. The audit keeps repository creation dates separate from publication dates.\n\n`;
-output += `Every game record includes a source-derived reconstruction prompt. Records with original prompt links retain those links; records without them are marked as reverse-engineered rather than presented as the original prompt.\n\n`;
+output += `The dataset stores source-derived reconstruction prompts without presenting them as original transcripts. Newly expanded Opus 5.5 entries link to their per-game prompt notes.\n\n`;
 output += `## Collection at a glance\n\n`;
 output += `| Signal | Result |\n| --- | ---: |\n`;
 output += `| Counted game units | **${count}** |\n`;
@@ -251,8 +270,8 @@ output += `| ≈ Creator report | The creator attributes the listed model. | **$
 output += `| △ Repository trail | A repository, directory, or topic trail supports the model claim. | **${evidenceCount('directory-method') + evidenceCount('repository/topic trail')}** |\n`;
 output += `| ? Inferred | The model attribution is inferred and should be independently checked. | **${evidenceCount('inferred') + evidenceCount('unknown')}** |\n\n`;
 if (screenshotCount) {
-  const shot = rows.find((row) => row.record.screenshot_urls?.length);
-  const image = shot.record.screenshot_urls[0].replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
+  const shot = rows.find((row) => row.screenshot_urls?.length);
+  const image = shot.screenshot_urls[0].replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
   output += `## Screenshot spotlight\n\n<div align="center">\n\n[<img src="${image}" alt="${esc(shot.name)} screenshot" width="760" />](${gameNoteUrl(shot)})\n\n**${esc(shot.name)}** — source and screenshot linked in the dataset.\n\n</div>\n\n`;
 }
 output += `## Game library\n\n> **Browse curated game units by category.**\n\n`;
@@ -272,11 +291,11 @@ for (const [title, group] of groups) {
   output += `> ${categoryIcons[title]} **${unitTotal(group)} curated game units. Ranked by evidence-based quality score.**\n\n`;
   for (const row of group) {
     const r = row.record;
-    const extra = iconLinks(r);
+    const extra = iconLinks(row);
     const directLinks = [row.gameLink ? `[files](${row.gameLink})` : '', row.demoLink ? `[play](${row.demoLink})` : ''].filter(Boolean).join(' · ');
-    const grade = evidence(r);
+  const grade = evidence(r, row);
     const aggregate = row.aggregateLabel ? ` · **${row.unitCount} documented units:** ${esc(row.aggregateLabel)}` : '';
-    output += `- [**${esc(row.name)}**](${gameNoteUrl(row)}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(compactTechText(r, row.technology))} · [${grade.icon} ${grade.label}](${r.evidence_url})${aggregate}${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
+    output += `- [**${esc(row.name)}**](${gameNoteUrl(row)}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r, row))} · ${esc(compactTechText(r, row.technology))} · [${grade.icon} ${grade.label}](${row.evidenceUrl})${aggregate}${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
   }
   output += `\n[Back to game library](#game-library)\n\n`;
 }
@@ -314,7 +333,7 @@ badMarkdown += `| Game | Score | Model | Technology | Reason | Links |\n| --- | 
 for (const row of badRows) {
   const record = row.record;
   const links = [link('GitHub', record.github_url), record.evidence_url ? link('evidence', record.evidence_url) : ''].filter(Boolean).join(' · ');
-  badMarkdown += `| **${esc(row.name)}** | ${Number(row.rating).toFixed(1)} | ${esc(modelText(record))} | ${esc(techText(record, row.technology))} | ${short(record.quality_estimate_basis)} | ${links} |\n`;
+  badMarkdown += `| **${esc(row.name)}** | ${Number(row.rating).toFixed(1)} | ${esc(modelText(record, row))} | ${esc(techText(record, row.technology))} | ${short(record.quality_estimate_basis)} | ${links} |\n`;
 }
 badMarkdown += `\nDo not use this category as a quality recommendation. Re-run the prompt and quality review workflow after materially improving a source repository.\n`;
 fs.writeFileSync('bad-games.md', badMarkdown);

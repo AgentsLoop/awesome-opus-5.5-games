@@ -16313,19 +16313,23 @@
     "quality_category": "curated_games"
   },
   {
-    "name": "Alesha Benchmark Portal — Astra/Fable Games",
+    "name": "Alesha Benchmark Portal — Astra/Fable/Opus Games",
     "repository_id": 1319633145,
     "github_url": "https://github.com/alesha-pro/bench-portal",
     "evidence_url": "https://github.com/alesha-pro/bench-portal#readme",
     "game_links": [
       "https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra",
       "https://github.com/alesha-pro/bench-portal/tree/main/games/voidbound-choir-of-ash",
-      "https://github.com/alesha-pro/bench-portal/tree/main/games/onslaught-fable-5.1"
+      "https://github.com/alesha-pro/bench-portal/tree/main/games/onslaught-fable-5.1",
+      "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/game.json",
+      "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/index.html",
+      "https://github.com/alesha-pro/bench-portal/commit/30037f2602b662650b19edc47178e09550966ea5"
     ],
     "live_demo_urls": [
       "https://alesha-pro.github.io/bench-portal/games/voidrunner-astra/",
       "https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/",
-      "https://alesha-pro.github.io/bench-portal/games/onslaught-fable-5.1/"
+      "https://alesha-pro.github.io/bench-portal/games/onslaught-fable-5.1/",
+      "https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html"
     ],
     "technology": [
       "Three.js",
@@ -16337,17 +16341,19 @@
     ],
     "model_family": [
       "GPT-6 Astra",
-      "Claude Fable 5.1"
+      "Claude Fable 5.1",
+      "Claude Opus 5.5"
     ],
     "method_evidence": "creator-reported",
-    "game_count": 3,
+    "game_count": 4,
     "contained_games": [
       "VOIDRUNNER: Orbital Combat League",
       "VOIDBOUND: The Choir of Ash",
-      "Onslaught"
+      "Onslaught",
+      "OVERRUN: Dockyard Nine"
     ],
     "verification_status": "verified",
-    "verified_on": "2026-09-09",
+    "verified_on": "2026-09-24",
     "repository_created_at": "2026-08-01T21:25:20Z",
     "discovery_sources": [
       "https://github.com/magiccreator-ai/awesome-gpt-6-astra",
@@ -16355,39 +16361,101 @@
       "https://x.com/superalesha/status/2095988972879335792",
       "https://github.com/alesha-pro/bench-portal"
     ],
-    "verification_notes": "The repository is a static portal that also contains self-contained game source, not a catalog-only link list. Its tree contains separate index.html and game.json files for VOIDRUNNER, VOIDBOUND and Onslaught. The game metadata identifies the Astra or Fable build, and the curated Astra source links the creator posts and exact game directories. Browser verification loaded and started all three public demos: VOIDRUNNER reached lap 01 with hull, weapons and controls HUD; VOIDBOUND reached Wave 01 with health, abilities and ten enemies remaining; Onslaught reached its FPS HUD with weapons, ammunition and deployment state. The non-game RIG showcase folders were excluded.",
+    "verification_notes": "The repository is a static portal that also contains self-contained game source, not a catalog-only link list. Its tree contains separate index.html and game.json files for VOIDRUNNER, VOIDBOUND and Onslaught. The game metadata identifies the Astra or Fable build, and the curated Astra source links the creator posts and exact game directories. Browser verification loaded and started all three public demos: VOIDRUNNER reached lap 01 with hull, weapons and controls HUD; VOIDBOUND reached Wave 01 with health, abilities and ten enemies remaining; Onslaught reached its FPS HUD with weapons, ammunition and deployment state. The non-game RIG showcase folders were excluded. The repository later added OVERRUN — Dockyard Nine: its game.json explicitly identifies Claude Opus 5.5, and commit 30037f2602b662650b19edc47178e09550966ea5 added the shooter on 2026-09-22. The game directory contains a runnable index.html, Three.js/WebGL source and cover.webp; the GitHub Pages game URL returned HTTP 200. Count this one new Opus 5.5 game, not the surrounding portal/catalog entries.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
-    "flops_estimate_raw": 5000000000,
+    "flops_estimate_raw": 4800000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static workload estimate for three separate Three.js/WebGL game builds with procedural geometry, shaders, combat or racing logic, particles, AI, audio and HUD; not measured hardware throughput.",
+    "flops_estimate_basis": "Mean static estimate across the four named browser games, including the Opus 5.5 FPS addition; the individual low-confidence estimates are in contained_game_estimates. Not measured device performance.",
     "quality_estimate_10": 8.5,
-    "quality_estimate_basis": "Evidence-based estimate from three self-contained game directories, direct creator/model attribution, public demos, source files, game metadata and successful browser start-state verification for all three units.",
-    "counted_game_units": 3,
+    "quality_estimate_basis": "Four distinct playable browser games with source directories and public builds. The Opus 5.5 addition is a first-person horde shooter with multiple weapons, pickups, escalating waves and a dated source commit; quality remains a subjective source-based estimate, not a fresh playtest.",
+    "counted_game_units": 4,
     "is_independent_game": true,
     "contained_game_estimates": [
       {
         "name": "VOIDRUNNER: Orbital Combat League",
         "flops_estimate_raw": 5500000000,
-        "quality_estimate_10": 8.7
+        "quality_estimate_10": 8.7,
+        "model_family": [
+          "GPT-6 Astra"
+        ],
+        "quality_estimate_basis": "Playable orbital racing/combat game with a working HUD, lap progression, weapons and a publicly verified start state; subjective source-based score, not a new playtest."
       },
       {
         "name": "VOIDBOUND: The Choir of Ash",
         "flops_estimate_raw": 5200000000,
-        "quality_estimate_10": 8.6
+        "quality_estimate_10": 8.6,
+        "model_family": [
+          "GPT-6 Astra"
+        ],
+        "quality_estimate_basis": "Playable dark-fantasy arena with wave progression, health, abilities and enemy defeat feedback; subjective source-based score, not a new playtest."
       },
       {
         "name": "Onslaught",
         "flops_estimate_raw": 4300000000,
-        "quality_estimate_10": 8.2
+        "quality_estimate_10": 8.2,
+        "model_family": [
+          "Claude Fable 5.1"
+        ],
+        "quality_estimate_basis": "Playable FPS with weapon/ammo HUD and deployment state; score reflects a smaller verified loop than the other portal games, not a fresh playtest."
+      },
+      {
+        "name": "OVERRUN: Dockyard Nine",
+        "quality_estimate_10": 8.5,
+        "quality_estimate_basis": "Substantial first-person horde-shooter loop with multiple weapons, grenades, melee, explosive props, ammo collection, escalating waves and procedural audiovisual work; source inspection confirms structure, not a fresh playtest.",
+        "flops_estimate_raw": 4200000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static estimate for Three.js/WebGL industrial arena rendering, first-person combat, enemy waves, procedural textures and audio; not measured device performance.",
+        "technology": [
+          "JavaScript",
+          "Three.js",
+          "WebGL",
+          "Web Audio",
+          "Browser"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/alesha-pro/bench-portal/commit/30037f2602b662650b19edc47178e09550966ea5",
+        "published_on": "2026-09-22",
+        "published_date_source": "https://github.com/alesha-pro/bench-portal/commit/30037f2602b662650b19edc47178e09550966ea5",
+        "published_date_type": "external_source",
+        "published_date_confidence": "exact",
+        "prompt": "Rebuild “OVERRUN: Dockyard Nine” as a browser first-person horde shooter using Three.js, WebGL, JavaScript and Web Audio. Defend an industrial dockyard against escalating waves of combat synthetics. Provide an assault rifle, pump shotgun and marksman rifle; grenades, melee attacks and explosive barrels; ammunition pickups; increasingly difficult enemy waves; clear HUD, damage and survival feedback. Use generated textures and synthesized audio as the source does. The repository manifest identifies Claude Opus 5.5 and the game-add commit is dated 2026-09-22. This is a source-based reconstruction prompt, not the original prompt.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/game.json",
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "recent_game_evidence_on": "2026-09-22"
       }
     ],
-    "publication_date_status": "repository_created_only",
-    "prompt": "Rebuild \"Alesha Benchmark Portal — Astra/Fable Games (VOIDRUNNER: Orbital Combat League, VOIDBOUND: The Choir of Ash, Onslaught)\" as a complete, playable game using Three.js, WebGL2, GLSL, JavaScript, Web Audio, Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The repository is a static portal that also contains self-contained game source, not a catalog-only link list. Its tree contains separate index.html and game.json files for VOIDRUNNER, VOIDBOUND and Onslaught. The game metadata identifies the Astra or Fable build, and the curated Astra source links the creator posts and exact game directories. Browser verification loaded and started all three public demos: VOIDRUNNER reached lap 01 with hull, weapons and controls HUD; VOIDBOUND reached Wave 01 with health, abilities and ten enemies remaining; Onslaught reached its FPS HUD with weapons, ammunition and deployment state. The non-game RIG showcase folders were excluded.\n\nUse GPT-6 Astra, Claude Fable 5.1 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra and keep the implementation scope consistent with the observed game.",
+    "publication_date_status": "mixed_by_game",
+    "prompt": "Rebuild the four separate playable games in this repository rather than merging them into one title: VOIDRUNNER: Orbital Combat League, VOIDBOUND: The Choir of Ash, Onslaught, OVERRUN: Dockyard Nine. Preserve each game's distinct controls, objectives, mechanics, and feedback. The new Opus 5.5 title, OVERRUN: Dockyard Nine, is a first-person horde shooter with three firearms, grenades, melee, explosive barrels, ammunition pickups and escalating synthetic enemy waves. Use the per-game prompts in contained_game_estimates for source-backed reconstructions. Attribute creator model only as each evidence record supports.",
     "prompt_origin": "reverse_engineered_from_source",
-    "prompt_evidence_url": "https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra",
-    "quality_category": "curated_games"
+    "prompt_evidence_url": "https://github.com/alesha-pro/bench-portal/commit/30037f2602b662650b19edc47178e09550966ea5",
+    "quality_category": "curated_games",
+    "contained_game_links": [
+      "https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra",
+      "https://github.com/alesha-pro/bench-portal/tree/main/games/voidbound-choir-of-ash",
+      "https://github.com/alesha-pro/bench-portal/tree/main/games/onslaught-fable-5.1",
+      "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/game.json",
+      "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/index.html",
+      "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/index.html"
+    ],
+    "live_demo_url": "https://alesha-pro.github.io/bench-portal/games/voidrunner-astra/",
+    "screenshot_urls": [
+      "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp"
+    ],
+    "contained_game_screenshots": {
+      "VOIDRUNNER: Orbital Combat League": [],
+      "VOIDBOUND: The Choir of Ash": [],
+      "Onslaught": [],
+      "OVERRUN: Dockyard Nine": [
+        "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp"
+      ]
+    },
+    "prompt_note_enabled": true
   },
   {
     "name": "AZURA — L'île aux toits d'argile",
@@ -27956,7 +28024,8 @@
     "prompt": "Build Dead Signal: Exclusion Zone as a playable game using Three.js, TypeScript, Vite, WebGL, Browser. First-person extraction-survival shooter with keyboard/mouse input, fixed-tick game loop, zombie AI, weapons, two contracts, upgrades, helicopter extraction, and failure on death or timeout. The README explicitly credits Claude Opus 5.5. Preserve controls, game state, objective, failure and restart behavior shown in the source. This is a source-derived reconstruction prompt, not the original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Turbo Kart Rally",
@@ -28013,7 +28082,8 @@
     "quality_category": "curated_games",
     "live_demo_urls": [
       "https://bridge-mind.github.io/turbo-kart-rally/"
-    ]
+    ],
+    "prompt_note_enabled": true
   },
   {
     "name": "OpusSkate",
@@ -28062,7 +28132,8 @@
     "prompt": "Build OpusSkate as a playable game using C++17, SDL2, OpenGL, Native desktop. Single-file C++ skating game with SDL input, ride/air/grind/manual/bail states, ollie and tricks, combo scoring, and collectible letters. README and repository description credit Opus 5.5. Build requires SDL2/OpenGL; compilation not tested. Preserve controls, game state, objective, failure and restart behavior shown in the source. This is a source-derived reconstruction prompt, not the original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/OminousIndustries/OpusSkate/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Claude Opus 5.5 one-shot Three.js games",
@@ -28109,7 +28180,7 @@
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
-    "quality_estimate_10": 9.0,
+    "quality_estimate_10": 9,
     "quality_estimate_basis": "Three independent game implementations, separate source directories and reachable deployments; source-verified but not interactively playtested.",
     "counted_game_units": 3,
     "is_independent_game": true,
@@ -28126,6 +28197,69 @@
       "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/pelican-bike/src/main.js",
       "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/cf-transport-ship/src/game.js",
       "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/qq-speed/src/main.js"
+    ],
+    "prompt_note_enabled": true,
+    "contained_game_estimates": [
+      {
+        "name": "Pelican Bike",
+        "quality_estimate_10": 8.9,
+        "quality_estimate_basis": "Coastal cycling game with movement, collectible fish and achievements, documented standalone source and public demo; not freshly playtested.",
+        "flops_estimate_raw": 1100000000,
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/README.md",
+        "prompt": "Rebuild Pelican Bike as a playable browser cycling game using Three.js and JavaScript. Preserve the coastal ride, keyboard/touch movement, fish collectibles, achievement progression and reset/restart behavior shown in the dedicated source folder. Attribute the implementation to Claude Opus 5.5 only as reported by the repository README; do not present this reconstruction as the original prompt.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/pelican-bike/src/main.js"
+      },
+      {
+        "name": "CF Transport Ship",
+        "quality_estimate_10": 9,
+        "quality_estimate_basis": "First-person ship-map combat loop with bots, weapons, movement and goals, documented source and public deployment; not freshly playtested.",
+        "flops_estimate_raw": 1800000000,
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/README.md",
+        "prompt": "Rebuild CF Transport Ship as a playable first-person browser combat game using Three.js and JavaScript. Preserve the transport-ship arena, movement and aim controls, bot opponents, weapon handling, damage/death and round progression described by the dedicated game source. Attribute the implementation to Claude Opus 5.5 only as reported by the repository README; do not present this reconstruction as the original prompt.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/cf-transport-ship/src/game.js"
+      },
+      {
+        "name": "QQ Speed",
+        "quality_estimate_10": 9.1,
+        "quality_estimate_basis": "Three-track drifting racer with driving controls and race progression, documented source and public deployment; not freshly playtested.",
+        "flops_estimate_raw": 1600000000,
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/README.md",
+        "prompt": "Rebuild QQ Speed as a playable Three.js browser racing game. Preserve its multiple tracks, accelerate/brake/steer controls, drifting, race state, opponents and finish/results flow described by the dedicated game source. Attribute the implementation to Claude Opus 5.5 only as reported by the repository README; do not present this reconstruction as the original prompt.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/qq-speed/src/main.js"
+      }
     ]
   },
   {
@@ -28180,7 +28314,8 @@
     "prompt": "Build a playable Tater's Flight Sim using Three.js, TypeScript, Vite, WebGL, Browser. Flight-combat simulator with four aircraft, throttle and flight controls, stalls and crashes, AI targets, guns and missiles, kills, and missions/target ranges. An exact Opus 5.5 trailer appears on a gameplay bug-fix commit. README contains screenshots; no runtime test performed. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/JaredTate/tatertotsflightsim/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Terrabrowser",
@@ -28234,7 +28369,8 @@
     "quality_category": "curated_games",
     "live_demo_urls": [
       "https://terrabrowser.vercel.app"
-    ]
+    ],
+    "prompt_note_enabled": true
   },
   {
     "name": "Wouf Kart",
@@ -28286,7 +28422,8 @@
     "prompt": "Build a playable Wouf Kart using Angular 22, Three.js, TypeScript, WebGL, Browser. Dog-themed kart racer with one garden circuit, three-lap race against seven AI drivers, drifting, items, rankings and finish results. Repository description attributes it to Opus 5.5; source and README prove gameplay. No live demo or runtime playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/eddyacthergal/super-wouf-kart/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Palmera Bay",
@@ -28340,7 +28477,8 @@
     "quality_category": "curated_games",
     "live_demo_urls": [
       "https://cahlik.net/palmera-bay/"
-    ]
+    ],
+    "prompt_note_enabled": true
   },
   {
     "name": "Fishslop",
@@ -28396,7 +28534,8 @@
     "quality_category": "curated_games",
     "live_demo_urls": [
       "https://vasu-devs.github.io/FishSlop_Opus5.5/"
-    ]
+    ],
+    "prompt_note_enabled": true
   },
   {
     "name": "Turbo Coin Rush 3D",
@@ -28444,7 +28583,8 @@
     "prompt": "Build a playable Turbo Coin Rush 3D using Three.js, JavaScript, WebGL, Browser. Single-file 3D car game with player-versus-AI and AI-versus-AI modes, coin goal, score, wins, cameras and turbo. Commit explicitly credits Claude Opus 5.5. Source verified; no public demo or runtime playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/inteligenciamilgrau/carrinho_opus55/blob/main/index.html",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Web Grand Prix",
@@ -28492,14 +28632,15 @@
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
-    "quality_estimate_10": 9.0,
+    "quality_estimate_10": 9,
     "quality_estimate_basis": "Subjective source-based estimate from controls, game state and completeness; no runtime playtest.",
     "counted_game_units": 1,
     "is_independent_game": true,
     "prompt": "Build a playable Web Grand Prix using Next.js 16, React 19, TypeScript, Three.js, Browser. F1-style browser race with player controls, AI rivals, 6–8 km circuits, weather, tyres, pit stops, lap/race classification and results. Creator repository description says it was produced using Opus 5.5. Demo returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/GatoArtStudio/f1-opus-5.5/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Slide Rush",
@@ -28546,14 +28687,15 @@
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
-    "quality_estimate_10": 9.0,
+    "quality_estimate_10": 9,
     "quality_estimate_basis": "Subjective source-based estimate from controls, game state and completeness; no runtime playtest.",
     "counted_game_units": 1,
     "is_independent_game": true,
     "prompt": "Build a playable Slide Rush using Three.js, Vite, JavaScript, PWA, Browser. 3D waterslide race with steering/jump input, 12 AI rivals, shortcut, finish and falling-out states, practice checkpoints, and saved results. README explicitly records Model: opus-5.5. Demo returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/KJLKurt/waterslide-game-opus-5.5/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Catgirl Pachinko",
@@ -28610,7 +28752,8 @@
     "prompt": "Build a playable Catgirl Pachinko using TypeScript, WebGL2, Rapier 2D, Vite, Browser. Playable browser pachinko with ball physics, prize pockets, payout/odds rules, editor, autoplay and results. Game commits explicitly credit Opus 5.5. Demo returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/README.md",
-    "quality_category": "curated_games"
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
   },
   {
     "name": "Twilight Crossing — Neural RTS",
@@ -28659,13 +28802,577 @@
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Static guess for a Three.js RTS scene and simulation; not measured.",
-    "quality_estimate_10": 8.0,
+    "quality_estimate_10": 8,
     "quality_estimate_basis": "Source contains units, economic state, combat and win condition, but setup needs external assets and an API key; source-only quality estimate.",
     "counted_game_units": 1,
     "is_independent_game": true,
     "prompt": "Port a playable real-time strategy game to the browser with Three.js. Preserve workers, resource gathering, faction combat, orders, and victory state. Add optional JEV-classifier unit decisions through a user-provided OpenRouter key and load art from a local asset pack. This is reconstructed from source and creator report, not the original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/MattiTynka/JEV-RTS/blob/main/v/1b428e053cf5/src/sim/world.js",
+    "quality_category": "curated_games",
+    "prompt_note_enabled": true
+  },
+  {
+    "name": "Claude Opus 5.5 Browser Games — 17 Projects",
+    "repository_id": 1384209622,
+    "github_url": "https://github.com/swan4er/opus-100-projects",
+    "game_links": [
+      "https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/004-khrushchev-renovation/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/051-twilight-platformer/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/index.html"
+    ],
+    "contained_game_links": [
+      "https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/004-khrushchev-renovation/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/051-twilight-platformer/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/index.html",
+      "https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/index.html"
+    ],
+    "live_demo_url": "https://swan4er.github.io/opus-100-projects/002-chess-mind/",
+    "live_demo_urls": [
+      "https://swan4er.github.io/opus-100-projects/002-chess-mind/",
+      "https://swan4er.github.io/opus-100-projects/021-prism-puzzle/",
+      "https://swan4er.github.io/opus-100-projects/004-khrushchev-renovation/",
+      "https://swan4er.github.io/opus-100-projects/027-uchastkovy-rpg/",
+      "https://swan4er.github.io/opus-100-projects/037-night-museum/",
+      "https://swan4er.github.io/opus-100-projects/038-rally-navigator/",
+      "https://swan4er.github.io/opus-100-projects/051-twilight-platformer/",
+      "https://swan4er.github.io/opus-100-projects/054-interrogation/",
+      "https://swan4er.github.io/opus-100-projects/060-deeper-roguelike/",
+      "https://swan4er.github.io/opus-100-projects/064-ai-mafia/",
+      "https://swan4er.github.io/opus-100-projects/071-long-road/",
+      "https://swan4er.github.io/opus-100-projects/089-logic-minesweeper/",
+      "https://swan4er.github.io/opus-100-projects/093-deduction/",
+      "https://swan4er.github.io/opus-100-projects/096-gravity-golf/",
+      "https://swan4er.github.io/opus-100-projects/101-chess-characters/",
+      "https://swan4er.github.io/opus-100-projects/103-barista-shift/",
+      "https://swan4er.github.io/opus-100-projects/109-alchemy-automaton/"
+    ],
+    "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+    "screenshot_urls": [
+      "https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/004-khrushchev-renovation/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/051-twilight-platformer/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/preview.jpg",
+      "https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/preview.jpg"
+    ],
+    "contained_game_screenshots": {
+      "Chess: Machine Thoughts": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/preview.jpg"
+      ],
+      "Prism": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/preview.jpg"
+      ],
+      "Khrushchev Apartment Renovation": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/004-khrushchev-renovation/preview.jpg"
+      ],
+      "The Precinct Officer": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/preview.jpg"
+      ],
+      "Night Museum": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg"
+      ],
+      "Rally Navigator": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg"
+      ],
+      "Twilight": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/051-twilight-platformer/preview.jpg"
+      ],
+      "Interrogation": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/preview.jpg"
+      ],
+      "Deeper": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/preview.jpg"
+      ],
+      "Mafia": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/preview.jpg"
+      ],
+      "Long Road": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/preview.jpg"
+      ],
+      "Minesweeper Without Guessing": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/preview.jpg"
+      ],
+      "Deduction": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/preview.jpg"
+      ],
+      "Gravity Golf": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/preview.jpg"
+      ],
+      "Chess with Character": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/preview.jpg"
+      ],
+      "Barista Shift": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/preview.jpg"
+      ],
+      "Alchemy Automaton": [
+        "https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/preview.jpg"
+      ]
+    },
+    "technology": [
+      "JavaScript",
+      "HTML",
+      "Three.js",
+      "WebGL",
+      "Canvas 2D",
+      "SVG",
+      "Web Worker",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed_at_repository_level",
+    "game_count": 17,
+    "contained_games": [
+      "Chess: Machine Thoughts",
+      "Prism",
+      "Khrushchev Apartment Renovation",
+      "The Precinct Officer",
+      "Night Museum",
+      "Rally Navigator",
+      "Twilight",
+      "Interrogation",
+      "Deeper",
+      "Mafia",
+      "Long Road",
+      "Minesweeper Without Guessing",
+      "Deduction",
+      "Gravity Golf",
+      "Chess with Character",
+      "Barista Shift",
+      "Alchemy Automaton"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "Chess: Machine Thoughts",
+        "original_title": "Шахматы: мысли машины",
+        "quality_estimate_10": 8.8,
+        "quality_estimate_basis": "Complete legal chess, a working alpha-beta opponent, candidate evaluations, principal-variation visualization, timing controls and perft validation.",
+        "flops_estimate_raw": 100000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Complete legal chess, a working alpha-beta opponent, candidate evaluations, principal-variation visualization, timing controls and perft validation.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "SVG",
+          "Web Worker",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Chess: Machine Thoughts\" as a separate, playable browser game using JavaScript, HTML, SVG, Web Worker, Browser. Preserve the observed gameplay: A complete chess engine with legal moves, perft-tested rules, candidate move evaluation and principal-variation ghost pieces. Support human-vs-engine sides, self-play, time controls, undo, board flip and new games.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/README.md and https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/README.md"
+      },
+      {
+        "name": "Prism",
+        "original_title": "Призма",
+        "quality_estimate_10": 9.1,
+        "quality_estimate_basis": "Twenty-four deterministic levels, a solver that verifies solutions, color-dependent optics, useful hints and persistent progress.",
+        "flops_estimate_raw": 150000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Twenty-four deterministic levels, a solver that verifies solutions, color-dependent optics, useful hints and persistent progress.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Prism\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Browser. Preserve the observed gameplay: A 24-level optics puzzle. Place and rotate mirrors, glass, prisms and filters to route the correct light colors to every target; include deterministic solvable boards, hints, undo/reset, level selection and saved progress.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/README.md and https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/021-prism-puzzle/README.md"
+      },
+      {
+        "name": "Khrushchev Apartment Renovation",
+        "original_title": "Хрущёвка. Ремонт под ключ",
+        "quality_estimate_10": 9.2,
+        "quality_estimate_basis": "Multi-room first-person work tasks, tool switching, persistent visible workmanship defects, schedule pressure, optional risk mechanics and an inspection/payment finale.",
+        "flops_estimate_raw": 950000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Multi-room first-person work tasks, tool switching, persistent visible workmanship defects, schedule pressure, optional risk mechanics and an inspection/payment finale.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Khrushchev Apartment Renovation\" as a separate, playable browser game using JavaScript, HTML, Three.js, WebGL, Browser. Preserve the observed gameplay: A first-person renovation time-management game. Move through a 1970s apartment, select tools, lay wallpaper and tile, paint and repair plumbing, handle optional beer/smoking choices with gameplay consequences, then face the owner’s defect inspection and payment decision at 18:00.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/004-khrushchev-renovation/README.md and https://github.com/swan4er/opus-100-projects/blob/main/004-khrushchev-renovation/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/004-khrushchev-renovation/README.md"
+      },
+      {
+        "name": "The Precinct Officer",
+        "original_title": "Участковый",
+        "quality_estimate_10": 9.4,
+        "quality_estimate_basis": "Explorable isometric setting, location-driven conversations, clues and cases, visible d20 checks, constrained accusations and a complete mystery loop.",
+        "flops_estimate_raw": 900000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Explorable isometric setting, location-driven conversations, clues and cases, visible d20 checks, constrained accusations and a complete mystery loop.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"The Precinct Officer\" as a separate, playable browser game using JavaScript, HTML, Three.js, WebGL, Browser. Preserve the observed gameplay: An isometric investigative RPG in a fairy-tale village. Travel between locations, question residents, collect clues and side cases, resolve uncertain actions with a visible d20 roll, and accuse a suspect using evidence; include a playable offline dialogue mode.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/README.md and https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/027-uchastkovy-rpg/README.md"
+      },
+      {
+        "name": "Night Museum",
+        "original_title": "Ночной музей",
+        "quality_estimate_10": 9.3,
+        "quality_estimate_basis": "Clear timed objective, seven recoverable items, UV clue mechanic, map, mobile controls, replay variation and a defined completion state.",
+        "flops_estimate_raw": 300000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Clear timed objective, seven recoverable items, UV clue mechanic, map, mobile controls, replay variation and a defined completion state.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Raycasting",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Night Museum\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Raycasting, Browser. Preserve the observed gameplay: A first-person raycaster stealth/exploration game. Find seven stolen paintings and return each to its frame before dawn; use a flashlight and limited UV light to reveal the thief’s varnish footprints, inspect the floor plan, and replay with randomized paintings and hiding places.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/README.md and https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/README.md"
+      },
+      {
+        "name": "Rally Navigator",
+        "original_title": "Штурман",
+        "quality_estimate_10": 9.5,
+        "quality_estimate_basis": "A complete 4.1 km route, responsive arcade handling, pace target, checkpoint progression, recovery penalty and scored finish analysis.",
+        "flops_estimate_raw": 1200000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. A complete 4.1 km route, responsive arcade handling, pace target, checkpoint progression, recovery penalty and scored finish analysis.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Rally Navigator\" as a separate, playable browser game using JavaScript, HTML, Three.js, WebGL, Browser. Preserve the observed gameplay: A 3D gravel rally game. Steer, accelerate, brake and handbrake through a 4.1 km forest stage with three checkpoints, racing against a pace target; recover from off-road mistakes with a time penalty and receive a finish review. Choose among co-driver personalities.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/README.md and https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/README.md"
+      },
+      {
+        "name": "Twilight",
+        "original_title": "Сумерки",
+        "quality_estimate_10": 9,
+        "quality_estimate_basis": "Three distinct platforming levels, variable-height jumps, lantern checkpoints, collectibles, mobile controls and a clear final destination.",
+        "flops_estimate_raw": 180000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Three distinct platforming levels, variable-height jumps, lantern checkpoints, collectibles, mobile controls and a clear final destination.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Twilight\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Browser. Preserve the observed gameplay: A three-level wordless platformer. Run and jump through field, forest and lighthouse stages, use the lantern to create respawn checkpoints, collect fireflies to brighten it, and complete the climb to the beacon.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/051-twilight-platformer/README.md and https://github.com/swan4er/opus-100-projects/blob/main/051-twilight-platformer/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/051-twilight-platformer/README.md"
+      },
+      {
+        "name": "Interrogation",
+        "original_title": "Допрос",
+        "quality_estimate_10": 9.3,
+        "quality_estimate_basis": "Coherent case-generation and interrogation loop, evidence timing, memory of suspect claims, stress feedback, a deadline and an explanatory ending.",
+        "flops_estimate_raw": 650000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Coherent case-generation and interrogation loop, evidence timing, memory of suspect claims, stress feedback, a deadline and an explanatory ending.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Interrogation\" as a separate, playable browser game using JavaScript, HTML, Three.js, WebGL, Browser. Preserve the observed gameplay: A noir deduction game. Generate or select a case, question a suspect, present evidence at the right moment, track a four-pillar lie structure, and decide whether to accuse or release before the 45-minute timer ends; reveal a transcript and explanation at the finale.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/README.md and https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/054-interrogation/README.md"
+      },
+      {
+        "name": "Deeper",
+        "original_title": "Глубже",
+        "quality_estimate_10": 9.2,
+        "quality_estimate_basis": "Ten-floor progression, turn-based combat, distinct enemy behavior, consumable inventory, final boss objective and run-aware death epilogue.",
+        "flops_estimate_raw": 210000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Ten-floor progression, turn-based combat, distinct enemy behavior, consumable inventory, final boss objective and run-aware death epilogue.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Deeper\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Browser. Preserve the observed gameplay: A ten-floor roguelike dungeon. Explore turn by turn, fight enemies, manage potions and scrolls, descend through stairs, defeat the Depth Guardian and retrieve the Heart of Depths; generate an epitaph from the run after death.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/README.md and https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/060-deeper-roguelike/README.md"
+      },
+      {
+        "name": "Mafia",
+        "original_title": "Мафия",
+        "quality_estimate_10": 9.3,
+        "quality_estimate_basis": "Secret roles, asymmetric night actions, discussion, voting, player role choice and playable fallback dialogue establish the full social-deduction loop.",
+        "flops_estimate_raw": 550000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Secret roles, asymmetric night actions, discussion, voting, player role choice and playable fallback dialogue establish the full social-deduction loop.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Mafia\" as a separate, playable browser game using JavaScript, HTML, Three.js, WebGL, Browser. Preserve the observed gameplay: A social-deduction game for the player and seven AI neighbors. Choose civilian, commissioner or mafia; question other players, discuss and vote during the day, then conduct the mafia attack or commissioner investigation at night, with offline scripted dialogue fallback.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/README.md and https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/064-ai-mafia/README.md"
+      },
+      {
+        "name": "Long Road",
+        "original_title": "Дальняя дорога",
+        "quality_estimate_10": 8.9,
+        "quality_estimate_basis": "Responsive driving controls, branching route selection, traffic/road hazards, changing seasonal stages and a completion summary.",
+        "flops_estimate_raw": 180000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Responsive driving controls, branching route selection, traffic/road hazards, changing seasonal stages and a completion summary.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Pseudo-3D",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Long Road\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Pseudo-3D, Browser. Preserve the observed gameplay: A pseudo-3D road-racing trip across four seasons. Accelerate, brake and steer, choose branches to change the route and scenery, overtake traffic, avoid leaving the road, and reach a finish summary.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/README.md and https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/README.md"
+      },
+      {
+        "name": "Minesweeper Without Guessing",
+        "original_title": "Сапёр без угадывания",
+        "quality_estimate_10": 9.2,
+        "quality_estimate_basis": "Three neighborhood systems, difficulty selection, solver-backed no-guess boards, explainable hints, mobile input and loss analysis.",
+        "flops_estimate_raw": 190000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Three neighborhood systems, difficulty selection, solver-backed no-guess boards, explainable hints, mobile input and loss analysis.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Minesweeper Without Guessing\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Browser. Preserve the observed gameplay: A minesweeper puzzle with square, hexagonal and triangular neighborhoods across three difficulty levels. Reveal cells and flag mines; generate boards proven solvable before play, and provide a hint journal explaining safe/mine deductions.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/README.md and https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/089-logic-minesweeper/README.md"
+      },
+      {
+        "name": "Deduction",
+        "original_title": "Дедукция",
+        "quality_estimate_10": 8.9,
+        "quality_estimate_basis": "Variable puzzle sizes, unique solutions, stateful grid deductions, explainable hints, automatic exclusion and error repair.",
+        "flops_estimate_raw": 120000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Variable puzzle sizes, unique solutions, stateful grid deductions, explainable hints, automatic exclusion and error repair.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Deduction\" as a separate, playable browser game using JavaScript, HTML, CSS, Browser. Preserve the observed gameplay: An Einstein-style logic-grid game with four, five or six houses. Mark exclusions or assert placements, apply clues and automatic elimination, use stepwise explanations and undo, and solve each uniquely determined puzzle without guessing.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/README.md and https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/README.md"
+      },
+      {
+        "name": "Gravity Golf",
+        "original_title": "Гравитационный гольф",
+        "quality_estimate_10": 9.2,
+        "quality_estimate_basis": "Twenty solver-checked levels, orbital gravity, trajectory preview, adjustable launches, attempt-based stars and persistent progress.",
+        "flops_estimate_raw": 250000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Twenty solver-checked levels, orbital gravity, trajectory preview, adjustable launches, attempt-based stars and persistent progress.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Gravity Golf\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Browser. Preserve the observed gameplay: A 20-level orbital physics puzzle. Sling-launch a probe and use planetary gravity to send it through a wormhole, preview trajectories, adjust launch angle and force, and earn stars based on attempts while saving progress.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/README.md and https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/096-gravity-golf/README.md"
+      },
+      {
+        "name": "Chess with Character",
+        "original_title": "Шахматы с характером",
+        "quality_estimate_10": 9.4,
+        "quality_estimate_basis": "Complete chess rules plus character-specific refusal and persuasion mechanics, trust tracking, prepared scenario, responsive interaction and replay.",
+        "flops_estimate_raw": 650000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Complete chess rules plus character-specific refusal and persuasion mechanics, trust tracking, prepared scenario, responsive interaction and replay.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Chess with Character\" as a separate, playable browser game using JavaScript, HTML, Three.js, WebGL, Browser. Preserve the observed gameplay: A complete 3D chess game with full chess rules and characterful pieces. Command white pieces; when a piece refuses a dangerous move, persuade, promise, flatter, threaten, force or cancel it while managing its trust; include a prepared pawn-for-queen puzzle and replay.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/README.md and https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/101-chess-characters/README.md"
+      },
+      {
+        "name": "Barista Shift",
+        "original_title": "Смена",
+        "quality_estimate_10": 9.5,
+        "quality_estimate_basis": "Detailed tactile preparation steps, order/customer feedback, optional risk activities, escalating boss pressure, timed secret-shopper objective and end-of-shift results.",
+        "flops_estimate_raw": 850000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Detailed tactile preparation steps, order/customer feedback, optional risk activities, escalating boss pressure, timed secret-shopper objective and end-of-shift results.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Three.js",
+          "WebGL",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Barista Shift\" as a separate, playable browser game using JavaScript, HTML, Three.js, WebGL, Browser. Preserve the observed gameplay: A first-person coffee-kiosk shift from 06:00 to 09:00. Fulfill multi-step customer orders by grinding, tamping, brewing, steaming and pouring; mistakes and improvised ingredients affect reviews, while breaks, smoking and beer affect time/behavior. Identify the secret shopper and receive a shift receipt at 09:00.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/README.md and https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/README.md"
+      },
+      {
+        "name": "Alchemy Automaton",
+        "original_title": "Алхимический автомат",
+        "quality_estimate_10": 9.2,
+        "quality_estimate_basis": "Eight tasks, an instruction-programming system, simulation/step controls, collision validation, error feedback and a working reference solution.",
+        "flops_estimate_raw": 130000000,
+        "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+        "flops_estimate_confidence": "low",
+        "flops_estimate_basis": "Static, hardware-independent workload estimate for this source-backed game and its described scene/simulation; not measured device performance. Eight tasks, an instruction-programming system, simulation/step controls, collision validation, error feedback and a working reference solution.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_evidence": "confirmed_at_repository_level",
+        "evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
+        "prompt": "Rebuild \"Alchemy Automaton\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Browser. Preserve the observed gameplay: A programmable logic puzzle with eight molecular-assembly tasks. Place and rotate mechanical arms and atoms on a hex grid, program repeatable pickup/drop/rotation instructions, then run or step the automaton and correct collisions or invalid outputs.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/README.md and https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/index.html.",
+        "prompt_origin": "reverse_engineered_from_source",
+        "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/109-alchemy-automaton/README.md"
+      }
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T21:15:05Z",
+    "recent_game_evidence_on": "2026-09-23",
+    "discovery_sources": [
+      "https://github.com/theolundqvist/frontier-games",
+      "https://github.com/swan4er/opus-100-projects"
+    ],
+    "verification_notes": "The collection README states that Claude Opus 5.5 assembled the projects in one autonomous run on 2026-09-23. Count 17 actual browser games: ten entries under “Games with real mechanics” plus seven playable projects under “Games with neural network” (apartment renovation, precinct RPG, rally, interrogation, mafia, character chess and barista shift). Exclude the game generator, open-ended city simulator, scene-making diorama and one-line cartoon. Each counted folder has its own README and index.html; all 17 public GitHub Pages URLs returned HTTP 200. A 200 response confirms availability only; it is not a fresh interactive playtest. Several games optionally use DeepSeek via BYOK at runtime; Claude Opus 5.5 is the documented creator, not the runtime dialogue model.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed_at_repository_level",
+    "flops_estimate_raw": 444705882,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Mean of the 17 separate static workload estimates in contained_game_estimates; hardware-independent approximation, not measured performance.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Average of 17 subjective source-based per-game estimates. The set contains distinct, self-contained games with documented controls/objectives and in-repository runnable source. Scores are not playtest results.",
+    "counted_game_units": 17,
+    "is_independent_game": true,
+    "publication_date_status": "repository_created_only",
+    "prompt": "Treat this repository as a collection of 17 separate playable browser games, not as one blended game. Reconstruct each individual game according to its source-specific prompt in contained_game_estimates. Preserve the distinct controls, mechanics, goals, level progression and endings documented in each folder. Attribute authorship to Claude Opus 5.5 based on the repository-level creator statement; distinguish that from optional DeepSeek runtime dialogue in seven projects.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/README.md",
     "quality_category": "curated_games"
   }
 ]
