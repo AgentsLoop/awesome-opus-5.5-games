@@ -28606,5 +28606,61 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/Maoku/Opus55CatgirlPachi/blob/main/README.md",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "Twilight Crossing — Neural RTS",
+    "repository_id": "R_kgDOUn_XXg",
+    "github_url": "https://github.com/MattiTynka/JEV-RTS",
+    "game_links": [
+      "https://github.com/MattiTynka/JEV-RTS/blob/main/index.html",
+      "https://github.com/MattiTynka/JEV-RTS/blob/main/v/1b428e053cf5/src/sim/world.js",
+      "https://github.com/MattiTynka/JEV-RTS/blob/main/v/1b428e053cf5/app.js"
+    ],
+    "live_demo_url": "https://mattitynka.github.io/JEV-RTS/",
+    "live_demo_urls": [
+      "https://mattitynka.github.io/JEV-RTS/"
+    ],
+    "evidence_url": "https://www.reddit.com/r/ClaudeCode/comments/1wo8492/prompts_and_jevcontolled_rts_game_ported_and/",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser",
+      "JEV classifier",
+      "OpenRouter"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Twilight Crossing — Neural RTS"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T11:43:53Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "Reddit creator post 2026-09-23",
+      "https://www.reddit.com/r/ClaudeCode/comments/1wo8492/prompts_and_jevcontolled_rts_game_ported_and/",
+      "https://github.com/MattiTynka/JEV-RTS"
+    ],
+    "verification_notes": "Creator reports porting the Unity RTS to the web with Opus 5.5. The source includes RTS simulation, worker gathering, attack, enemy factions, health and winner state. The deployed page returned HTTP 200. Playing with visuals requires downloading the separate original StudioIgor asset pack; neural commands require a user-provided OpenRouter key and may incur cost. No interactive playtest performed.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static guess for a Three.js RTS scene and simulation; not measured.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Source contains units, economic state, combat and win condition, but setup needs external assets and an API key; source-only quality estimate.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Port a playable real-time strategy game to the browser with Three.js. Preserve workers, resource gathering, faction combat, orders, and victory state. Add optional JEV-classifier unit decisions through a user-provided OpenRouter key and load art from a local asset pack. This is reconstructed from source and creator report, not the original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/MattiTynka/JEV-RTS/blob/main/v/1b428e053cf5/src/sim/world.js",
+    "quality_category": "curated_games"
   }
 ]
