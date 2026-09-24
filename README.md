@@ -23,6 +23,8 @@ The source of truth is [games.json](games.json). It was last verified on **2026-
 
 Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
 
+Browse [AI game generators and engines](ai-game-generators.md) for tools that build or edit playable games from prompts.
+
 Browse [publication-date rankings](rankings/README.md) for daily, weekly, and monthly reports. These reports exclude games without a reliable publication or qualifying evidence date. The audit keeps repository creation dates separate from publication dates.
 
 Every game record includes a source-derived reconstruction prompt. Records with original prompt links retain those links; records without them are marked as reverse-engineered rather than presented as the original prompt.
