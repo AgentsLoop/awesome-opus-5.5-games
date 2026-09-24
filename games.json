@@ -27936,7 +27936,7 @@
     ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-24",
-    "repository_created_at": null,
+    "repository_created_at": "2026-09-22T17:55:29Z",
     "publication_date_status": "repository_created_only",
     "discovery_sources": [
       "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
@@ -27990,7 +27990,7 @@
     ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-24",
-    "repository_created_at": null,
+    "repository_created_at": "2026-09-22T17:36:26Z",
     "publication_date_status": "repository_created_only",
     "discovery_sources": [
       "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
@@ -28042,7 +28042,7 @@
     ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-24",
-    "repository_created_at": null,
+    "repository_created_at": "2026-09-22T22:09:18Z",
     "publication_date_status": "repository_created_only",
     "discovery_sources": [
       "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
@@ -28096,7 +28096,7 @@
     ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-24",
-    "repository_created_at": null,
+    "repository_created_at": "2026-09-23T06:31:00Z",
     "publication_date_status": "repository_created_only",
     "discovery_sources": [
       "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
@@ -28122,5 +28122,323 @@
       "https://claude-opus-5-5-cf-transport-ship.pages.dev/",
       "https://claude-opus-5-5-qqfeiche3d.pages.dev/"
     ]
+  },
+  {
+    "name": "Tater's Flight Sim",
+    "repository_id": "R_kgDOUmuDrA",
+    "github_url": "https://github.com/JaredTate/tatertotsflightsim",
+    "game_links": [
+      "https://github.com/JaredTate/tatertotsflightsim/blob/main/README.md",
+      "https://github.com/JaredTate/tatertotsflightsim/blob/main/src/game/app.ts",
+      "https://github.com/JaredTate/tatertotsflightsim/blob/main/src/game/loop.ts",
+      "https://github.com/JaredTate/tatertotsflightsim/blob/main/src/game/systems/missiles.ts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/JaredTate/tatertotsflightsim/commit/61ad8f7a6",
+    "screenshot_urls": [
+      "https://github.com/JaredTate/tatertotsflightsim/blob/main/docs/screenshots/a10-burning-convoy.jpg"
+    ],
+    "technology": [
+      "Three.js",
+      "TypeScript",
+      "Vite",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Tater's Flight Sim"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T04:57:54Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/JaredTate/tatertotsflightsim"
+    ],
+    "verification_notes": "Flight-combat simulator with four aircraft, throttle and flight controls, stalls and crashes, AI targets, guns and missiles, kills, and missions/target ranges. An exact Opus 5.5 trailer appears on a gameplay bug-fix commit. README contains screenshots; no runtime test performed.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Source contains controls and stateful gameplay; quality is a subjective source-based estimate, not a runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Tater's Flight Sim using Three.js, TypeScript, Vite, WebGL, Browser. Flight-combat simulator with four aircraft, throttle and flight controls, stalls and crashes, AI targets, guns and missiles, kills, and missions/target ranges. An exact Opus 5.5 trailer appears on a gameplay bug-fix commit. README contains screenshots; no runtime test performed. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/JaredTate/tatertotsflightsim/blob/main/README.md",
+    "quality_category": "curated_games"
+  },
+  {
+    "name": "Terrabrowser",
+    "repository_id": "R_kgDOUnApRA",
+    "github_url": "https://github.com/Wimmboo2/Terrabrowser",
+    "game_links": [
+      "https://github.com/Wimmboo2/Terrabrowser/blob/main/README.md",
+      "https://github.com/Wimmboo2/Terrabrowser/blob/main/src/main.js",
+      "https://github.com/Wimmboo2/Terrabrowser/blob/main/src/player.js",
+      "https://github.com/Wimmboo2/Terrabrowser/blob/main/src/enemies.js"
+    ],
+    "live_demo_url": "https://terrabrowser.vercel.app",
+    "evidence_url": "https://github.com/Wimmboo2/Terrabrowser/commit/53eb19ba3401ac79d6c44455789ee998b9930c06",
+    "screenshot_urls": [],
+    "technology": [
+      "JavaScript",
+      "Canvas 2D",
+      "Web Audio",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Terrabrowser"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T08:46:29Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/Wimmboo2/Terrabrowser"
+    ],
+    "verification_notes": "Browser sandbox action-adventure with movement, mining, crafting, combat, bosses, progression, world generation and saves. Gameplay commit has an exact Claude Opus 5.5 trailer. Live URL returned HTTP 200; no runtime playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Source contains controls and stateful gameplay; quality is a subjective source-based estimate, not a runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Terrabrowser using JavaScript, Canvas 2D, Web Audio, Browser. Browser sandbox action-adventure with movement, mining, crafting, combat, bosses, progression, world generation and saves. Gameplay commit has an exact Claude Opus 5.5 trailer. Live URL returned HTTP 200; no runtime playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/Wimmboo2/Terrabrowser/blob/main/README.md",
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://terrabrowser.vercel.app"
+    ]
+  },
+  {
+    "name": "Wouf Kart",
+    "repository_id": "R_kgDOUnAASw",
+    "github_url": "https://github.com/eddyacthergal/super-wouf-kart",
+    "game_links": [
+      "https://github.com/eddyacthergal/super-wouf-kart/blob/main/README.md",
+      "https://github.com/eddyacthergal/super-wouf-kart/blob/main/src/app/features/race/race-page.ts",
+      "https://github.com/eddyacthergal/super-wouf-kart/blob/main/src/game/core/kart-state.ts",
+      "https://github.com/eddyacthergal/super-wouf-kart/blob/main/src/game/ai/ai-controller.ts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/eddyacthergal/super-wouf-kart",
+    "screenshot_urls": [],
+    "technology": [
+      "Angular 22",
+      "Three.js",
+      "TypeScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Wouf Kart"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T08:38:49Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/eddyacthergal/super-wouf-kart"
+    ],
+    "verification_notes": "Dog-themed kart racer with one garden circuit, three-lap race against seven AI drivers, drifting, items, rankings and finish results. Repository description attributes it to Opus 5.5; source and README prove gameplay. No live demo or runtime playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 8.9,
+    "quality_estimate_basis": "Source contains controls and stateful gameplay; quality is a subjective source-based estimate, not a runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Wouf Kart using Angular 22, Three.js, TypeScript, WebGL, Browser. Dog-themed kart racer with one garden circuit, three-lap race against seven AI drivers, drifting, items, rankings and finish results. Repository description attributes it to Opus 5.5; source and README prove gameplay. No live demo or runtime playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/eddyacthergal/super-wouf-kart/blob/main/README.md",
+    "quality_category": "curated_games"
+  },
+  {
+    "name": "Palmera Bay",
+    "repository_id": "R_kgDOUoBQvg",
+    "github_url": "https://github.com/vcahlik/palmera-bay",
+    "game_links": [
+      "https://github.com/vcahlik/palmera-bay/blob/master/README.md",
+      "https://github.com/vcahlik/palmera-bay/blob/master/src/main.js",
+      "https://github.com/vcahlik/palmera-bay/blob/master/src/car.js",
+      "https://github.com/vcahlik/palmera-bay/blob/master/src/world.js"
+    ],
+    "live_demo_url": "https://cahlik.net/palmera-bay/",
+    "evidence_url": "https://github.com/vcahlik/palmera-bay/blob/master/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Palmera Bay"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-23T20:10:15Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/vcahlik/palmera-bay"
+    ],
+    "verification_notes": "Playable free-roam driving prototype with keyboard controls, a fast convertible, coastal city, road reset, camera options, nitro and procedural audio. Creator README explicitly attributes Claude Opus 5.5. No opponents or win objective; classify as a driving game prototype, not a racing game. Live URL returned HTTP 200; no interactive playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Source contains controls and stateful gameplay; quality is a subjective source-based estimate, not a runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Palmera Bay using Three.js, JavaScript, WebGL, Browser. Playable free-roam driving prototype with keyboard controls, a fast convertible, coastal city, road reset, camera options, nitro and procedural audio. Creator README explicitly attributes Claude Opus 5.5. No opponents or win objective; classify as a driving game prototype, not a racing game. Live URL returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/vcahlik/palmera-bay/blob/master/README.md",
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://cahlik.net/palmera-bay/"
+    ]
+  },
+  {
+    "name": "Fishslop",
+    "repository_id": "R_kgDOUmQgnA",
+    "github_url": "https://github.com/vasu-devs/FishSlop_Opus5.5",
+    "game_links": [
+      "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/README.md",
+      "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/src/main.ts",
+      "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/src/core/sim.ts",
+      "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/src/core/economy.ts"
+    ],
+    "live_demo_url": "https://vasu-devs.github.io/FishSlop_Opus5.5/",
+    "evidence_url": "https://github.com/vasu-devs/FishSlop_Opus5.5/commit/a59efa14768c7a8bf3bd35fc68b16268df91cd57",
+    "screenshot_urls": [
+      "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png"
+    ],
+    "technology": [
+      "Three.js",
+      "TypeScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Fishslop"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-22T20:06:26Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/vasu-devs/FishSlop_Opus5.5"
+    ],
+    "verification_notes": "Underwater reef-keeping game with submarine movement, fish feeding, coin collection, upgrade economy, sonar discovery and progression tiers. Game repository has exact Opus 5.5 trailers. Source demo returned HTTP 200; no interactive playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Source contains controls and stateful gameplay; quality is a subjective source-based estimate, not a runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Fishslop using Three.js, TypeScript, WebGL, Browser. Underwater reef-keeping game with submarine movement, fish feeding, coin collection, upgrade economy, sonar discovery and progression tiers. Game repository has exact Opus 5.5 trailers. Source demo returned HTTP 200; no interactive playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/README.md",
+    "quality_category": "curated_games",
+    "live_demo_urls": [
+      "https://vasu-devs.github.io/FishSlop_Opus5.5/"
+    ]
+  },
+  {
+    "name": "Turbo Coin Rush 3D",
+    "repository_id": "R_kgDOUmbcUA",
+    "github_url": "https://github.com/inteligenciamilgrau/carrinho_opus55",
+    "game_links": [
+      "https://github.com/inteligenciamilgrau/carrinho_opus55/blob/main/index.html"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/inteligenciamilgrau/carrinho_opus55/commit/cebd0908b7f7d0345f5113fdf23e44be0d28f096",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Turbo Coin Rush 3D"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-24",
+    "repository_created_at": "2026-09-22T23:40:44Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
+      "https://github.com/inteligenciamilgrau/carrinho_opus55"
+    ],
+    "verification_notes": "Single-file 3D car game with player-versus-AI and AI-versus-AI modes, coin goal, score, wins, cameras and turbo. Commit explicitly credits Claude Opus 5.5. Source verified; no public demo or runtime playtest.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload guess from source technology and scope; not measured hardware throughput.",
+    "quality_estimate_10": 8.1,
+    "quality_estimate_basis": "Source contains controls and stateful gameplay; quality is a subjective source-based estimate, not a runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a playable Turbo Coin Rush 3D using Three.js, JavaScript, WebGL, Browser. Single-file 3D car game with player-versus-AI and AI-versus-AI modes, coin goal, score, wins, cameras and turbo. Commit explicitly credits Claude Opus 5.5. Source verified; no public demo or runtime playtest. Preserve the observed controls, state transitions, goals and feedback. This is reconstructed from source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/inteligenciamilgrau/carrinho_opus55/blob/main/index.html",
+    "quality_category": "curated_games"
   }
 ]
