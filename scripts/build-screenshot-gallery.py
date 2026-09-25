@@ -3,6 +3,8 @@
 
 import json
 import argparse
+import hashlib
+from io import BytesIO
 from pathlib import Path
 
 from PIL import Image
@@ -61,8 +63,11 @@ gallery = []
 for name, github_url, score, source in ranked:
     try:
         image = thumbnail(source, refresh=args.refresh, offline=args.offline)
-        filename = f"{len(gallery) + 1:02d}.webp"
-        image.save(OUTPUT / filename, "WEBP", quality=82, method=6)
+        encoded = BytesIO()
+        image.save(encoded, "WEBP", quality=82, method=6)
+        data = encoded.getvalue()
+        filename = f"{hashlib.sha256(data).hexdigest()[:20]}.webp"
+        (OUTPUT / filename).write_bytes(data)
         gallery.append({
             "name": name,
             "github_url": github_url,

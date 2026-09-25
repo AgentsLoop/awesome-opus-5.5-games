@@ -2,6 +2,7 @@
 """Validate per-image reviews and optionally recheck every source image online."""
 
 import argparse
+import hashlib
 import json
 import math
 import re
@@ -12,6 +13,22 @@ from screenshot_media import ROOT, cached_image
 
 
 KINDS = {"gameplay", "interface", "title_or_menu", "promotional", "asset"}
+
+
+def validate_thumbnail_assets(gallery, root):
+    errors = []
+    for item in gallery:
+        thumbnail = item.get("thumbnail", "")
+        match = re.fullmatch(r"assets/screenshot-gallery/([0-9a-f]{20})\.webp", thumbnail)
+        if not match:
+            errors.append(f"Gallery thumbnail is not content-addressed: {thumbnail}")
+            continue
+        path = root / thumbnail
+        if not path.is_file():
+            errors.append(f"Missing gallery thumbnail: {thumbnail}")
+        elif hashlib.sha256(path.read_bytes()).hexdigest()[:20] != match.group(1):
+            errors.append(f"Gallery thumbnail hash differs from filename: {thumbnail}")
+    return errors
 
 
 def validate(records, reviews, gallery):
@@ -102,6 +119,7 @@ def main():
         raise SystemExit("Unsupported screenshot review schema")
     gallery = json.loads((ROOT / "assets" / "screenshot-gallery" / "gallery.json").read_text())
     errors, expected = validate(records, document["reviews"], gallery)
+    errors.extend(validate_thumbnail_assets(gallery, ROOT))
     if args.online:
         with ThreadPoolExecutor(max_workers=args.workers) as executor:
             futures = {executor.submit(cached_image, url, refresh=True): url for url in expected}

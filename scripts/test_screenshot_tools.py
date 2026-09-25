@@ -1,5 +1,6 @@
 import importlib.util
 import io
+import hashlib
 import tempfile
 import unittest
 from pathlib import Path
@@ -62,6 +63,21 @@ class ScreenshotToolTests(unittest.TestCase):
         review = {"repository_url": record["github_url"], "url": url, "score_10": 7.0, "image_kind": "gameplay", "reason": "Readable action with coherent color and composition.", "reviewed_on": "2026-09-25", "rating_method": "manual_visual_review"}
         errors, _ = VALIDATOR.validate([record], [review], [])
         self.assertTrue(any("Game score differs" in error for error in errors))
+
+    def test_gallery_thumbnail_requires_matching_content_hash(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            folder = root / "assets" / "screenshot-gallery"
+            folder.mkdir(parents=True)
+            data = b"thumbnail image bytes"
+            digest = hashlib.sha256(data).hexdigest()[:20]
+            thumbnail = f"assets/screenshot-gallery/{digest}.webp"
+            path = root / thumbnail
+            path.write_bytes(data)
+            gallery = [{"thumbnail": thumbnail}]
+            self.assertEqual(VALIDATOR.validate_thumbnail_assets(gallery, root), [])
+            path.write_bytes(b"changed image bytes")
+            self.assertTrue(any("hash differs" in error for error in VALIDATOR.validate_thumbnail_assets(gallery, root)))
 
 
 if __name__ == "__main__":

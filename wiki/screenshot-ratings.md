@@ -9,4 +9,5 @@
 - Rebuild the gallery, game notes, and README after changing screenshot fields. Run `node scripts/validate-games.mjs`.
 - Run `python3 scripts/validate-screenshots.py` to check review coverage and score consistency. Add `--online` to refetch links and reject missing files, wrong media types, and invalid images.
 - Run `python3 scripts/build-screenshot-gallery.py` to reuse verified images cached under ignored `work/screenshot-cache/`. Add `--refresh` to refetch or `--offline` to require a cache hit.
+- Keep gallery thumbnail filenames content-hashed. Regenerate the README after rebuilding thumbnails so browsers request new URLs when the displayed images change.
 - Run `python3 scripts/match-submitted-screenshot.py /absolute/image/path --fetch-missing` to find likely indexed sources. Verify the repository and original URL before attributing a submitted image. Treat similarity as a candidate, not proof.
