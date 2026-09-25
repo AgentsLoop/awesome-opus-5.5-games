@@ -1,6 +1,6 @@
 # Claude Opus 5.5 games
 
-Browse **46 curated game units** from **23 source repositories** attributed to Claude Opus 5.5. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
+Browse **47 curated game units** from **24 source repositories** attributed to Claude Opus 5.5. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
 
 [Back to all models](../README.md#browse-by-model) · [Source data](../games.json)
 
@@ -50,7 +50,7 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **9 game units**
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **1 game units**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **10 game units**
-- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **2 game units**
+- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **3 game units**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **17 game units**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **1 game units**
 
@@ -103,6 +103,7 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 ## Strategy, Simulation, and Sports
 
 - [**Fall Line**](../games/fall-line/readme.md) — ⭐ **9.0/10** · Claude Opus 5.5 · Three.js, JavaScript, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/README.md) · [files](https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/fall-line/index.html) · [play](https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/) · 📸 **8.7/10** · [screenshot](https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/vorschau-fall-line.jpg)
+- [**GunBros**](https://github.com/skelzer/gunbros-public) — ⭐ **8.0/10** · Claude Opus 5.5, Claude Fable 5.1 · TypeScript, Canvas 2D, Vite, Node.js, WebSocket, +1 more · [≈ creator-reported model evidence](https://github.com/skelzer/gunbros-public#how-it-was-made) · [files](https://github.com/skelzer/gunbros-public/blob/main/packages/shared/src/rules/turn.ts) · [play](https://gunbros.luquematte.com/)
 - [**Twilight Crossing — Neural RTS**](../games/twilight-crossing-neural-rts/readme.md) — ⭐ **8.0/10** · Claude Opus 5.5 · Three.js, JavaScript, WebGL, Browser, JEV classifier, +1 more · [≈ creator-reported model evidence](https://www.reddit.com/r/ClaudeCode/comments/1wo8492/prompts_and_jevcontolled_rts_game_ported_and/) · [files](https://github.com/MattiTynka/JEV-RTS/blob/main/index.html) · [play](https://mattitynka.github.io/JEV-RTS/) · [prompt](../games/twilight-crossing-neural-rts/readme.md#reverse-engineered-prompt)
 
 [Back to game library](#game-library)

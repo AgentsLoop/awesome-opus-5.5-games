@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI Games
 
-### 776 curated game units. 512 qualifying source repositories.
+### 777 curated game units. 513 qualifying source repositories.
 
-[![Games](https://img.shields.io/badge/GAMES-776-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#browse-by-model) [![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-512-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-229-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#collection-at-a-glance)
+[![Games](https://img.shields.io/badge/GAMES-777-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#browse-by-model) [![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-513-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-229-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#collection-at-a-glance)
 
 [![Stars](https://img.shields.io/github/stars/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/AgentsLoop/awesome-opus-5.5-games/stargazers) [![Forks](https://img.shields.io/github/forks/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/AgentsLoop/awesome-opus-5.5-games/forks)
 
@@ -79,12 +79,12 @@ Select a model to browse its ranked games and screenshots. Count each multi-mode
 | Model | Game units | Source repositories |
 | --- | ---: | ---: |
 | [Claude Fable 5](models/claude-fable-5.md) | **205** | 97 |
+| [Claude Fable 5.1](models/claude-fable-5-1.md) | **126** | 58 |
 | [Claude Opus 5](models/claude-opus-5.md) | **126** | 111 |
-| [Claude Fable 5.1](models/claude-fable-5-1.md) | **125** | 57 |
 | [GPT-6 Astra](models/gpt-6-astra.md) | **107** | 79 |
 | [Claude Opus 4.6](models/claude-opus-4-6.md) | **83** | 69 |
 | [Claude Opus 4.8](models/claude-opus-4-8.md) | **67** | 53 |
-| [Claude Opus 5.5](models/claude-opus-5-5.md) | **46** | 23 |
+| [Claude Opus 5.5](models/claude-opus-5-5.md) | **47** | 24 |
 | [Claude Opus 4.7](models/claude-opus-4-7.md) | **25** | 25 |
 | [Claude Opus 4.5](models/claude-opus-4-5.md) | **13** | 13 |
 | [Codex](models/codex.md) | **7** | 7 |
@@ -107,8 +107,9 @@ Select a model to browse its ranked games and screenshots. Count each multi-mode
 | 3 | [**Fall Line**](games/fall-line/readme.md) | ⭐ **9.0** | Claude Opus 5.5 | 2026-09-25 |
 | 4 | [**QQ Speed**](games/qq-speed-xiiyioozzz-opus55-3d-games/readme.md) | ⭐ **9.0** | Claude Opus 5.5 | 2026-09-25 |
 | 5 | [**Nova Lancer**](games/nova-lancer/readme.md) | ⭐ **8.7** | Claude Opus 5.5 | 2026-09-25 |
-| 6 | [**Neon Siege**](games/neon-siege/readme.md) | ⭐ **8.0** | Claude Opus 5.5 | 2026-09-25 |
-| 7 | [**Pixel Art 3D — Stone Meadow**](games/pixel-art-3d-stone-meadow/readme.md) | ⭐ **7.5** | Claude Opus 5.5 | 2026-09-25 |
+| 6 | [**GunBros**](https://github.com/skelzer/gunbros-public) | ⭐ **8.0** | Claude Opus 5.5, Claude Fable 5.1 | 2026-09-25 |
+| 7 | [**Neon Siege**](games/neon-siege/readme.md) | ⭐ **8.0** | Claude Opus 5.5 | 2026-09-25 |
+| 8 | [**Pixel Art 3D — Stone Meadow**](games/pixel-art-3d-stone-meadow/readme.md) | ⭐ **7.5** | Claude Opus 5.5 | 2026-09-25 |
 
 ## Top games this week
 
@@ -190,27 +191,27 @@ The dataset stores source-derived reconstruction prompts without presenting them
 
 | Signal | Result |
 | --- | ---: |
-| Counted game units | **776** |
-| Qualifying source repositories | **512** |
-| Dataset records, including related or excluded records | **592** |
+| Counted game units | **777** |
+| Qualifying source repositories | **513** |
+| Dataset records, including related or excluded records | **593** |
 | Low-quality game units moved to bad-games.md | **28** (28 repositories) |
 | Other non-game records moved to other.md | **52** |
 | WebGL-family game units, across all categories | **229** |
 | Non-browser engine game units | **255** |
 | Game units with screenshot links | **181** |
 | Game units with direct prompt links | **17** |
-| Game units with source-derived prompt fields | **776** |
+| Game units with source-derived prompt fields | **777** |
 | Game units with exact publication dates | **287** (152 repositories) |
-| Game units with repository creation dates | **776** (512 repositories) |
+| Game units with repository creation dates | **777** (513 repositories) |
 
 ## Verification snapshot
 
-The list contains **776** game units from **512** qualifying repositories. The dataset also retains **80** related or excluded records for audit history. Each row uses one of these model-evidence grades.
+The list contains **777** game units from **513** qualifying repositories. The dataset also retains **80** related or excluded records for audit history. Each row uses one of these model-evidence grades.
 
 | Grade | Meaning | Game units |
 | --- | --- | ---: |
 | ✓ Direct | A public primary source directly attributes the listed model. | **520** |
-| ≈ Creator report | The creator attributes the listed model. | **212** |
+| ≈ Creator report | The creator attributes the listed model. | **213** |
 | △ Repository trail | A repository, directory, or topic trail supports the model claim. | **42** |
 | ? Inferred | The model attribution is inferred and should be independently checked. | **2** |
 
