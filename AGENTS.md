@@ -33,3 +33,9 @@
 - Store verified YouTube gameplay links in a `youtube_urls` array and keep every verified screenshot link in `screenshot_urls`.
 - Reject dead, placeholder, documentation, development-only, and unrelated author links before recording them.
 - Run `node scripts/validate-games.mjs` after every dataset edit and keep the note generator aligned with every media field.
+
+## Git delivery
+
+- Verify and commit every completed change.
+- Push every completed commit to `origin` before reporting completion.
+- Inspect `~/.config/gh/hosts.yml` and `git remote -v` before remote GitHub actions. Use the intended account and ask if it is ambiguous.
