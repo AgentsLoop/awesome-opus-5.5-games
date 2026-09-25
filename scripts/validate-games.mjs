@@ -3,7 +3,7 @@ import fs from 'node:fs';
 const records = JSON.parse(fs.readFileSync('games.json', 'utf8'));
 const errors = [];
 const urls = new Set();
-const required = ['name', 'github_url', 'evidence_url', 'technology', 'model_family', 'verification_status', 'verified_on', 'verification_notes'];
+const required = ['name', 'github_url', 'added_to_repo_on', 'evidence_url', 'technology', 'model_family', 'verification_status', 'verified_on', 'verification_notes'];
 const evidenceLevels = new Set(['confirmed', 'confirmed_at_repository_level', 'confirmed_supporting_game_code', 'creator-reported', 'directory-method', 'repository/topic trail', 'inferred']);
 const qualityCategories = new Set(['curated_games', 'bad_games', 'other_non_games']);
 const lowQualityThreshold = 7;
@@ -24,6 +24,7 @@ for (const [index, record] of records.entries()) {
     if (value === undefined || value === null || value === '' || (Array.isArray(value) && value.length === 0)) fail(index, `missing ${field}`);
   }
   if (!/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(record.github_url ?? '')) fail(index, `github_url is not a canonical repository URL: ${record.github_url}`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.added_to_repo_on ?? '')) fail(index, 'added_to_repo_on is not YYYY-MM-DD');
   if (!/^https:\/\/.+/.test(record.evidence_url ?? '')) fail(index, 'evidence_url must be a public HTTPS URL');
   if (urls.has(record.github_url)) fail(index, `duplicate github_url: ${record.github_url}`);
   urls.add(record.github_url);

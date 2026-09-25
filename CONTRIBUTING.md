@@ -18,7 +18,7 @@ Do not submit catalogs, skills, game generators, screenshots, visual scenes with
 
 ## Update the dataset
 
-Keep one record per repository in `games.json`. Update an existing record when the repository already exists. Set `is_independent_game` and `counted_game_units` only when the game qualifies for the published list. Keep related or rejected records out of the counted units.
+Keep one record per repository in `games.json`. Set `added_to_repo_on` to the UTC date the repository first enters the dataset, and preserve it when updating the record. Update an existing record when the repository already exists. Set `is_independent_game` and `counted_game_units` only when the game qualifies for the published list. Keep related or rejected records out of the counted units.
 
 ## Verify the change
 
@@ -30,7 +30,7 @@ node scripts/generate-awesome-readme.mjs
 git diff --check
 ```
 
-Include the generated README and all affected `models/*.md` pages with the dataset update. Do not edit generated counts or model pages by hand.
+Include the generated README, `latest-games.md`, and all affected `models/*.md` pages with the dataset update. Do not edit generated counts or generated pages by hand.
 
 ## Generate per-game notes
 

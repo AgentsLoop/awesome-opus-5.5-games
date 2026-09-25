@@ -176,6 +176,8 @@ The source of truth is [games.json](games.json). It was last verified on **2026-
 
 Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
 
+Browse [latest game additions by date](latest-games.md) to compare each source repository's creation time with the date this collection first recorded it.
+
 Browse [AI game generators and engines](ai-game-generators.md) for tools that build or edit playable games from prompts.
 
 Browse [Claude Opus 5.5 release-week games](opus-5.5-games.md) for direct source and model-evidence links.
