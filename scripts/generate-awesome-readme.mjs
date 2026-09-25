@@ -250,6 +250,7 @@ output += `[![Forks](https://img.shields.io/github/forks/AgentsLoop/awesome-opus
 output += `> **A curated field guide to games attributed to GPT-6 Astra, Claude Opus, or Claude Fable.**<br />\n`;
 output += `> Every listed unit maps to a qualifying GitHub source repository. The model-evidence grade is visible on every entry.\n\n`;
 output += `</div>\n\n---\n\n`;
+output += screenshotGallery();
 output += `## Browse by model\n\n`;
 output += `Select a model to browse its ranked games and screenshots. Count each multi-model game on every matching model page; do not sum these counts for a collection total. Keep broad and unspecified model labels separate from versioned labels.\n\n`;
 output += `| Model | Game units | Source repositories |\n| --- | ---: | ---: |\n`;
@@ -258,7 +259,6 @@ output += `\n`;
 output += periodTable('Top games today', `Rank the highest-rated repositories verified in this curation run on **${today}**.`, topToday, 'today');
 output += periodTable('Top games this week', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${weekStart}** through **${today}**.`, topWeek, 'week');
 output += periodTable('Top games this month', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${monthStart}** through **${today}**.`, topMonth, 'month');
-output += screenshotGallery();
 output += `## Top-rated picks\n\n`;
 output += `> **Start here. These projects have the strongest combined evidence, scope, and source quality. Ratings do not replace evidence grades.**\n\n`;
 output += `| Game | Score | Built with | Evidence |\n| --- | ---: | --- | --- |\n`;
@@ -294,11 +294,6 @@ output += `| ✓ Direct | A public primary source directly attributes the listed
 output += `| ≈ Creator report | The creator attributes the listed model. | **${evidenceCount('creator-reported')}** |\n`;
 output += `| △ Repository trail | A repository, directory, or topic trail supports the model claim. | **${evidenceCount('directory-method') + evidenceCount('repository/topic trail')}** |\n`;
 output += `| ? Inferred | The model attribution is inferred and should be independently checked. | **${evidenceCount('inferred') + evidenceCount('unknown')}** |\n\n`;
-if (screenshotCount) {
-  const shot = rows.find((row) => row.screenshot_urls?.length);
-  const image = shot.screenshot_urls[0].replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
-  output += `## Screenshot spotlight\n\n<div align="center">\n\n[<img src="${image}" alt="${esc(shot.name)} screenshot" width="760" />](${gameNoteUrl(shot)})\n\n**${esc(shot.name)}** — source and screenshot linked in the dataset.\n\n</div>\n\n`;
-}
 output += `## More records\n\n`;
 output += `- ⚠️ [Bad games](bad-games.md) — **${badCount}** low-quality game units excluded from the curated library\n`;
 output += `- 📦 [Other](other.md) — **${otherRecords.length}** related, derivative, forked, or non-game records\n`;

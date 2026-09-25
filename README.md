@@ -15,6 +15,63 @@
 
 ---
 
+## Top games by screenshot
+
+Rank 30 games by the score of each game's best manually reviewed screenshot, not by source-quality score. Review composition, scene detail, visual coherence, and readable gameplay. Reward polished stylized art as well as realism; discount title cards, menus, concept art, and frames that do not show play. Treat this as a visual impression, not a runtime playtest or proof of AAA production quality. Select a thumbnail or title to inspect every image's score, rating method, and reason on the game's Markdown page. Secondary images use relative frame adjustments, not independent manual reviews.
+
+<table>
+<tr>
+<td align="center" width="33%"><a href="games/turbo-kart-rally/readme.md"><img src="assets/screenshot-gallery/af622dcb092094e3714d.webp" alt="Turbo Kart Rally screenshot" width="100%"></a><br><a href="games/turbo-kart-rally/readme.md"><strong>Turbo Kart Rally</strong></a> · 📸 9.8/10</td>
+<td align="center" width="33%"><a href="games/neural-sight/readme.md"><img src="assets/screenshot-gallery/8ca7ff6be9f7049a6a20.webp" alt="Neural Sight screenshot" width="100%"></a><br><a href="games/neural-sight/readme.md"><strong>Neural Sight</strong></a> · 📸 9.7/10</td>
+<td align="center" width="33%"><a href="games/kart-royale/readme.md"><img src="assets/screenshot-gallery/d3edfd1489519599dab1.webp" alt="Kart Royale screenshot" width="100%"></a><br><a href="games/kart-royale/readme.md"><strong>Kart Royale</strong></a> · 📸 9.5/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/nerd-of-duty/readme.md"><img src="assets/screenshot-gallery/7404208d6fa4f1d25fa3.webp" alt="Nerd of Duty screenshot" width="100%"></a><br><a href="games/nerd-of-duty/readme.md"><strong>Nerd of Duty</strong></a> · 📸 9.4/10</td>
+<td align="center" width="33%"><a href="games/vector-rush/readme.md"><img src="assets/screenshot-gallery/f7c65413469cc3ed4957.webp" alt="VECTOR RUSH screenshot" width="100%"></a><br><a href="games/vector-rush/readme.md"><strong>VECTOR RUSH</strong></a> · 📸 9.3/10</td>
+<td align="center" width="33%"><a href="games/turbo-kart-grand-prix/readme.md"><img src="assets/screenshot-gallery/2b1c9971dba6afd1f149.webp" alt="Turbo Kart Grand Prix screenshot" width="100%"></a><br><a href="games/turbo-kart-grand-prix/readme.md"><strong>Turbo Kart Grand Prix</strong></a> · 📸 9.2/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/iridium-reach/readme.md"><img src="assets/screenshot-gallery/b36a65f19763eef9996c.webp" alt="Iridium Reach screenshot" width="100%"></a><br><a href="games/iridium-reach/readme.md"><strong>Iridium Reach</strong></a> · 📸 9.0/10</td>
+<td align="center" width="33%"><a href="games/silent-meridian/readme.md"><img src="assets/screenshot-gallery/8f78adf07befca27d8d2.webp" alt="Silent Meridian screenshot" width="100%"></a><br><a href="games/silent-meridian/readme.md"><strong>Silent Meridian</strong></a> · 📸 9.0/10</td>
+<td align="center" width="33%"><a href="games/world-of-claudecraft/readme.md"><img src="assets/screenshot-gallery/4e1fe8975ce4f5a706c1.webp" alt="World of ClaudeCraft screenshot" width="100%"></a><br><a href="games/world-of-claudecraft/readme.md"><strong>World of ClaudeCraft</strong></a> · 📸 9.0/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/kindle/readme.md"><img src="assets/screenshot-gallery/b716bad3761ea33c82a3.webp" alt="KINDLE screenshot" width="100%"></a><br><a href="games/kindle/readme.md"><strong>KINDLE</strong></a> · 📸 8.9/10</td>
+<td align="center" width="33%"><a href="games/sunbreak-downhill-club/readme.md"><img src="assets/screenshot-gallery/998c5701729a62b2db68.webp" alt="SUNBREAK — Downhill Club screenshot" width="100%"></a><br><a href="games/sunbreak-downhill-club/readme.md"><strong>SUNBREAK — Downhill Club</strong></a> · 📸 8.9/10</td>
+<td align="center" width="33%"><a href="games/fishslop/readme.md"><img src="assets/screenshot-gallery/652a1f43b845fd465366.webp" alt="Fishslop screenshot" width="100%"></a><br><a href="games/fishslop/readme.md"><strong>Fishslop</strong></a> · 📸 8.8/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/overrun-dockyard-nine/readme.md"><img src="assets/screenshot-gallery/16748b2bf38ecd961a13.webp" alt="OVERRUN: Dockyard Nine screenshot" width="100%"></a><br><a href="games/overrun-dockyard-nine/readme.md"><strong>OVERRUN: Dockyard Nine</strong></a> · 📸 8.8/10</td>
+<td align="center" width="33%"><a href="games/fall-line/readme.md"><img src="assets/screenshot-gallery/f58302eedb91a7814d13.webp" alt="Fall Line screenshot" width="100%"></a><br><a href="games/fall-line/readme.md"><strong>Fall Line</strong></a> · 📸 8.7/10</td>
+<td align="center" width="33%"><a href="games/little-flock/readme.md"><img src="assets/screenshot-gallery/e04cbc0555bab07439f3.webp" alt="Little Flock · 小羊慢慢 screenshot" width="100%"></a><br><a href="games/little-flock/readme.md"><strong>Little Flock · 小羊慢慢</strong></a> · 📸 8.7/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/the-hourglass-city/readme.md"><img src="assets/screenshot-gallery/17eeb1044113a6222925.webp" alt="The Hourglass City screenshot" width="100%"></a><br><a href="games/the-hourglass-city/readme.md"><strong>The Hourglass City</strong></a> · 📸 8.7/10</td>
+<td align="center" width="33%"><a href="games/turbo-kart-rush/readme.md"><img src="assets/screenshot-gallery/9854dd97f2fd98c64bd5.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
+<td align="center" width="33%"><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><img src="assets/screenshot-gallery/eadd4f2689da0830911f.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/rally-navigator/readme.md"><img src="assets/screenshot-gallery/ecde3d80dbddabe2047e.webp" alt="Rally Navigator screenshot" width="100%"></a><br><a href="games/rally-navigator/readme.md"><strong>Rally Navigator</strong></a> · 📸 8.6/10</td>
+<td align="center" width="33%"><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><img src="assets/screenshot-gallery/c50db70a0af420897375.webp" alt="Rogue Squadron — The Battle of Yavin screenshot" width="100%"></a><br><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><strong>Rogue Squadron — The Battle of Yavin</strong></a> · 📸 8.6/10</td>
+<td align="center" width="33%"><a href="games/clawd-pop-3d/readme.md"><img src="assets/screenshot-gallery/6863d9b6c3fc888ee518.webp" alt="Clawd Pop 3D screenshot" width="100%"></a><br><a href="games/clawd-pop-3d/readme.md"><strong>Clawd Pop 3D</strong></a> · 📸 8.5/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/the-black-sedan/readme.md"><img src="assets/screenshot-gallery/1ef10431f5871382b13e.webp" alt="The Black Sedan screenshot" width="100%"></a><br><a href="games/the-black-sedan/readme.md"><strong>The Black Sedan</strong></a> · 📸 8.5/10</td>
+<td align="center" width="33%"><a href="games/luma-the-garden-of-light/readme.md"><img src="assets/screenshot-gallery/6c03951027fb17bec627.webp" alt="LUMA — The Garden of Light screenshot" width="100%"></a><br><a href="games/luma-the-garden-of-light/readme.md"><strong>LUMA — The Garden of Light</strong></a> · 📸 8.3/10</td>
+<td align="center" width="33%"><a href="games/barista-shift/readme.md"><img src="assets/screenshot-gallery/2ef55baa6e5e29a61725.webp" alt="Barista Shift screenshot" width="100%"></a><br><a href="games/barista-shift/readme.md"><strong>Barista Shift</strong></a> · 📸 8.2/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/nova-lancer/readme.md"><img src="assets/screenshot-gallery/e14915351639c0dca8a2.webp" alt="Nova Lancer screenshot" width="100%"></a><br><a href="games/nova-lancer/readme.md"><strong>Nova Lancer</strong></a> · 📸 8.2/10</td>
+<td align="center" width="33%"><a href="games/operation-ironhold/readme.md"><img src="assets/screenshot-gallery/22a7987f9c6b65b5d8a1.webp" alt="Operation Ironhold screenshot" width="100%"></a><br><a href="games/operation-ironhold/readme.md"><strong>Operation Ironhold</strong></a> · 📸 8.2/10</td>
+<td align="center" width="33%"><a href="games/saber-descent/readme.md"><img src="assets/screenshot-gallery/f0d031497f8777d4a229.webp" alt="Saber / Descent screenshot" width="100%"></a><br><a href="games/saber-descent/readme.md"><strong>Saber / Descent</strong></a> · 📸 8.2/10</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="games/tater-s-flight-sim/readme.md"><img src="assets/screenshot-gallery/af3f32934824f5faa83c.webp" alt="Tater's Flight Sim screenshot" width="100%"></a><br><a href="games/tater-s-flight-sim/readme.md"><strong>Tater's Flight Sim</strong></a> · 📸 8.2/10</td>
+<td align="center" width="33%"><a href="games/buildyourtown/readme.md"><img src="assets/screenshot-gallery/6de63bab6a1abdca5369.webp" alt="BuildYourTown screenshot" width="100%"></a><br><a href="games/buildyourtown/readme.md"><strong>BuildYourTown</strong></a> · 📸 8.1/10</td>
+<td align="center" width="33%"><a href="games/driftlands/readme.md"><img src="assets/screenshot-gallery/0e9ad41d0a535a98d32a.webp" alt="DRIFTLANDS screenshot" width="100%"></a><br><a href="games/driftlands/readme.md"><strong>DRIFTLANDS</strong></a> · 📸 8.0/10</td>
+</tr>
+</table>
+
 ## Browse by model
 
 Select a model to browse its ranked games and screenshots. Count each multi-model game on every matching model page; do not sum these counts for a collection total. Keep broad and unspecified model labels separate from versioned labels.
@@ -89,63 +146,6 @@ Select a model to browse its ranked games and screenshots. Count each multi-mode
 | 19 | [**Explottens: Survival**](games/explottens-survival/readme.md) | ⭐ **9.2** | Claude Opus 5 | 2026-09-11 |
 | 20 | [**Mystic Onslaught**](games/mystic-onslaught/readme.md) | ⭐ **9.2** | Claude Fable 5 | 2026-09-15 |
 
-## Top games by screenshot
-
-Rank 30 games by the score of each game's best manually reviewed screenshot, not by source-quality score. Review composition, scene detail, visual coherence, and readable gameplay. Reward polished stylized art as well as realism; discount title cards, menus, concept art, and frames that do not show play. Treat this as a visual impression, not a runtime playtest or proof of AAA production quality. Select a thumbnail or title to inspect every image's score, rating method, and reason on the game's Markdown page. Secondary images use relative frame adjustments, not independent manual reviews.
-
-<table>
-<tr>
-<td align="center" width="33%"><a href="games/turbo-kart-rally/readme.md"><img src="assets/screenshot-gallery/af622dcb092094e3714d.webp" alt="Turbo Kart Rally screenshot" width="100%"></a><br><a href="games/turbo-kart-rally/readme.md"><strong>Turbo Kart Rally</strong></a> · 📸 9.8/10</td>
-<td align="center" width="33%"><a href="games/neural-sight/readme.md"><img src="assets/screenshot-gallery/8ca7ff6be9f7049a6a20.webp" alt="Neural Sight screenshot" width="100%"></a><br><a href="games/neural-sight/readme.md"><strong>Neural Sight</strong></a> · 📸 9.7/10</td>
-<td align="center" width="33%"><a href="games/kart-royale/readme.md"><img src="assets/screenshot-gallery/d3edfd1489519599dab1.webp" alt="Kart Royale screenshot" width="100%"></a><br><a href="games/kart-royale/readme.md"><strong>Kart Royale</strong></a> · 📸 9.5/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/nerd-of-duty/readme.md"><img src="assets/screenshot-gallery/7404208d6fa4f1d25fa3.webp" alt="Nerd of Duty screenshot" width="100%"></a><br><a href="games/nerd-of-duty/readme.md"><strong>Nerd of Duty</strong></a> · 📸 9.4/10</td>
-<td align="center" width="33%"><a href="games/vector-rush/readme.md"><img src="assets/screenshot-gallery/f7c65413469cc3ed4957.webp" alt="VECTOR RUSH screenshot" width="100%"></a><br><a href="games/vector-rush/readme.md"><strong>VECTOR RUSH</strong></a> · 📸 9.3/10</td>
-<td align="center" width="33%"><a href="games/turbo-kart-grand-prix/readme.md"><img src="assets/screenshot-gallery/2b1c9971dba6afd1f149.webp" alt="Turbo Kart Grand Prix screenshot" width="100%"></a><br><a href="games/turbo-kart-grand-prix/readme.md"><strong>Turbo Kart Grand Prix</strong></a> · 📸 9.2/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/iridium-reach/readme.md"><img src="assets/screenshot-gallery/b36a65f19763eef9996c.webp" alt="Iridium Reach screenshot" width="100%"></a><br><a href="games/iridium-reach/readme.md"><strong>Iridium Reach</strong></a> · 📸 9.0/10</td>
-<td align="center" width="33%"><a href="games/silent-meridian/readme.md"><img src="assets/screenshot-gallery/8f78adf07befca27d8d2.webp" alt="Silent Meridian screenshot" width="100%"></a><br><a href="games/silent-meridian/readme.md"><strong>Silent Meridian</strong></a> · 📸 9.0/10</td>
-<td align="center" width="33%"><a href="games/world-of-claudecraft/readme.md"><img src="assets/screenshot-gallery/4e1fe8975ce4f5a706c1.webp" alt="World of ClaudeCraft screenshot" width="100%"></a><br><a href="games/world-of-claudecraft/readme.md"><strong>World of ClaudeCraft</strong></a> · 📸 9.0/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/kindle/readme.md"><img src="assets/screenshot-gallery/b716bad3761ea33c82a3.webp" alt="KINDLE screenshot" width="100%"></a><br><a href="games/kindle/readme.md"><strong>KINDLE</strong></a> · 📸 8.9/10</td>
-<td align="center" width="33%"><a href="games/sunbreak-downhill-club/readme.md"><img src="assets/screenshot-gallery/998c5701729a62b2db68.webp" alt="SUNBREAK — Downhill Club screenshot" width="100%"></a><br><a href="games/sunbreak-downhill-club/readme.md"><strong>SUNBREAK — Downhill Club</strong></a> · 📸 8.9/10</td>
-<td align="center" width="33%"><a href="games/fishslop/readme.md"><img src="assets/screenshot-gallery/652a1f43b845fd465366.webp" alt="Fishslop screenshot" width="100%"></a><br><a href="games/fishslop/readme.md"><strong>Fishslop</strong></a> · 📸 8.8/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/overrun-dockyard-nine/readme.md"><img src="assets/screenshot-gallery/16748b2bf38ecd961a13.webp" alt="OVERRUN: Dockyard Nine screenshot" width="100%"></a><br><a href="games/overrun-dockyard-nine/readme.md"><strong>OVERRUN: Dockyard Nine</strong></a> · 📸 8.8/10</td>
-<td align="center" width="33%"><a href="games/fall-line/readme.md"><img src="assets/screenshot-gallery/f58302eedb91a7814d13.webp" alt="Fall Line screenshot" width="100%"></a><br><a href="games/fall-line/readme.md"><strong>Fall Line</strong></a> · 📸 8.7/10</td>
-<td align="center" width="33%"><a href="games/little-flock/readme.md"><img src="assets/screenshot-gallery/e04cbc0555bab07439f3.webp" alt="Little Flock · 小羊慢慢 screenshot" width="100%"></a><br><a href="games/little-flock/readme.md"><strong>Little Flock · 小羊慢慢</strong></a> · 📸 8.7/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/the-hourglass-city/readme.md"><img src="assets/screenshot-gallery/17eeb1044113a6222925.webp" alt="The Hourglass City screenshot" width="100%"></a><br><a href="games/the-hourglass-city/readme.md"><strong>The Hourglass City</strong></a> · 📸 8.7/10</td>
-<td align="center" width="33%"><a href="games/turbo-kart-rush/readme.md"><img src="assets/screenshot-gallery/9854dd97f2fd98c64bd5.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
-<td align="center" width="33%"><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><img src="assets/screenshot-gallery/eadd4f2689da0830911f.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/rally-navigator/readme.md"><img src="assets/screenshot-gallery/ecde3d80dbddabe2047e.webp" alt="Rally Navigator screenshot" width="100%"></a><br><a href="games/rally-navigator/readme.md"><strong>Rally Navigator</strong></a> · 📸 8.6/10</td>
-<td align="center" width="33%"><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><img src="assets/screenshot-gallery/c50db70a0af420897375.webp" alt="Rogue Squadron — The Battle of Yavin screenshot" width="100%"></a><br><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><strong>Rogue Squadron — The Battle of Yavin</strong></a> · 📸 8.6/10</td>
-<td align="center" width="33%"><a href="games/clawd-pop-3d/readme.md"><img src="assets/screenshot-gallery/6863d9b6c3fc888ee518.webp" alt="Clawd Pop 3D screenshot" width="100%"></a><br><a href="games/clawd-pop-3d/readme.md"><strong>Clawd Pop 3D</strong></a> · 📸 8.5/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/the-black-sedan/readme.md"><img src="assets/screenshot-gallery/1ef10431f5871382b13e.webp" alt="The Black Sedan screenshot" width="100%"></a><br><a href="games/the-black-sedan/readme.md"><strong>The Black Sedan</strong></a> · 📸 8.5/10</td>
-<td align="center" width="33%"><a href="games/luma-the-garden-of-light/readme.md"><img src="assets/screenshot-gallery/6c03951027fb17bec627.webp" alt="LUMA — The Garden of Light screenshot" width="100%"></a><br><a href="games/luma-the-garden-of-light/readme.md"><strong>LUMA — The Garden of Light</strong></a> · 📸 8.3/10</td>
-<td align="center" width="33%"><a href="games/barista-shift/readme.md"><img src="assets/screenshot-gallery/2ef55baa6e5e29a61725.webp" alt="Barista Shift screenshot" width="100%"></a><br><a href="games/barista-shift/readme.md"><strong>Barista Shift</strong></a> · 📸 8.2/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/nova-lancer/readme.md"><img src="assets/screenshot-gallery/e14915351639c0dca8a2.webp" alt="Nova Lancer screenshot" width="100%"></a><br><a href="games/nova-lancer/readme.md"><strong>Nova Lancer</strong></a> · 📸 8.2/10</td>
-<td align="center" width="33%"><a href="games/operation-ironhold/readme.md"><img src="assets/screenshot-gallery/22a7987f9c6b65b5d8a1.webp" alt="Operation Ironhold screenshot" width="100%"></a><br><a href="games/operation-ironhold/readme.md"><strong>Operation Ironhold</strong></a> · 📸 8.2/10</td>
-<td align="center" width="33%"><a href="games/saber-descent/readme.md"><img src="assets/screenshot-gallery/f0d031497f8777d4a229.webp" alt="Saber / Descent screenshot" width="100%"></a><br><a href="games/saber-descent/readme.md"><strong>Saber / Descent</strong></a> · 📸 8.2/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/tater-s-flight-sim/readme.md"><img src="assets/screenshot-gallery/af3f32934824f5faa83c.webp" alt="Tater's Flight Sim screenshot" width="100%"></a><br><a href="games/tater-s-flight-sim/readme.md"><strong>Tater's Flight Sim</strong></a> · 📸 8.2/10</td>
-<td align="center" width="33%"><a href="games/buildyourtown/readme.md"><img src="assets/screenshot-gallery/6de63bab6a1abdca5369.webp" alt="BuildYourTown screenshot" width="100%"></a><br><a href="games/buildyourtown/readme.md"><strong>BuildYourTown</strong></a> · 📸 8.1/10</td>
-<td align="center" width="33%"><a href="games/driftlands/readme.md"><img src="assets/screenshot-gallery/0e9ad41d0a535a98d32a.webp" alt="DRIFTLANDS screenshot" width="100%"></a><br><a href="games/driftlands/readme.md"><strong>DRIFTLANDS</strong></a> · 📸 8.0/10</td>
-</tr>
-</table>
-
 ## Top-rated picks
 
 > **Start here. These projects have the strongest combined evidence, scope, and source quality. Ratings do not replace evidence grades.**
@@ -213,16 +213,6 @@ The list contains **776** game units from **512** qualifying repositories. The d
 | ≈ Creator report | The creator attributes the listed model. | **212** |
 | △ Repository trail | A repository, directory, or topic trail supports the model claim. | **42** |
 | ? Inferred | The model attribution is inferred and should be independently checked. | **2** |
-
-## Screenshot spotlight
-
-<div align="center">
-
-[<img src="https://raw.githubusercontent.com/phirogue/SparkyGames/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/02_title.png" alt="The Nine Lives of Ash screenshot" width="760" />](games/the-nine-lives-of-ash/readme.md)
-
-**The Nine Lives of Ash** — source and screenshot linked in the dataset.
-
-</div>
 
 ## More records
 
