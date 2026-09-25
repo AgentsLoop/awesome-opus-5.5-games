@@ -30,7 +30,7 @@ node scripts/generate-awesome-readme.mjs
 git diff --check
 ```
 
-Include the generated README update with the dataset update. Do not edit generated counts by hand.
+Include the generated README and all affected `models/*.md` pages with the dataset update. Do not edit generated counts or model pages by hand.
 
 ## Generate per-game notes
 

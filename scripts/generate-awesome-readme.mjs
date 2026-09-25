@@ -185,6 +185,20 @@ if (fs.existsSync(gamesDirectory)) {
   }
 }
 const gameNoteUrl = (row) => gameNoteLinks.get(`${row.record.github_url}\n${row.name}`) ?? row.record.github_url;
+const pageGameUrl = (row, prefix = '') => {
+  const url = gameNoteUrl(row);
+  return url.startsWith('games/') ? `${prefix}${url}` : url;
+};
+const rowModels = (row) => [...new Set(row.model_family?.length ? row.model_family : ['Unspecified'])];
+const modelGroups = new Map();
+for (const row of rows) {
+  for (const model of rowModels(row)) {
+    if (!modelGroups.has(model)) modelGroups.set(model, []);
+    modelGroups.get(model).push(row);
+  }
+}
+const modelSlug = (model) => model.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const modelPages = [...modelGroups].sort(([a, aRows], [b, bRows]) => unitTotal(bRows) - unitTotal(aRows) || a.localeCompare(b));
 const html = (value) => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const gallery = JSON.parse(fs.readFileSync('assets/screenshot-gallery/gallery.json', 'utf8'));
 const screenshotGallery = () => {
@@ -226,16 +240,21 @@ const evidenceCounts = rows.reduce((counts, row) => {
 const evidenceCount = (key) => evidenceCounts[key] ?? 0;
 
 let output = `<div align="center">\n\n`;
-output += `# 🎮 Awesome OPUS 5.5 Games\n\n`;
+output += `# 🎮 Awesome AI Games\n\n`;
 output += `### ${count} curated game units. ${repoCount} qualifying source repositories.\n\n`;
-output += `[![Games](https://img.shields.io/badge/GAMES-${count}-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) `;
+output += `[![Games](https://img.shields.io/badge/GAMES-${count}-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#browse-by-model) `;
 output += `[![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-${repoCount}-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) `;
-output += `[![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-${threeCount}-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)\n\n`;
+output += `[![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-${threeCount}-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#collection-at-a-glance)\n\n`;
 output += `[![Stars](https://img.shields.io/github/stars/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/AgentsLoop/awesome-opus-5.5-games/stargazers) `;
 output += `[![Forks](https://img.shields.io/github/forks/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/AgentsLoop/awesome-opus-5.5-games/forks)\n\n`;
 output += `> **A curated field guide to games attributed to GPT-6 Astra, Claude Opus, or Claude Fable.**<br />\n`;
 output += `> Every listed unit maps to a qualifying GitHub source repository. The model-evidence grade is visible on every entry.\n\n`;
 output += `</div>\n\n---\n\n`;
+output += `## Browse by model\n\n`;
+output += `Select a model to browse its ranked games and screenshots. Count each multi-model game on every matching model page; do not sum these counts for a collection total. Keep broad and unspecified model labels separate from versioned labels.\n\n`;
+output += `| Model | Game units | Source repositories |\n| --- | ---: | ---: |\n`;
+for (const [model, modelRows] of modelPages) output += `| [${esc(model)}](models/${modelSlug(model)}.md) | **${unitTotal(modelRows)}** | ${new Set(modelRows.map((row) => row.record.github_url)).size} |\n`;
+output += `\n`;
 output += periodTable('Top games today', `Rank the highest-rated repositories verified in this curation run on **${today}**.`, topToday, 'today');
 output += periodTable('Top games this week', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${weekStart}** through **${today}**.`, topWeek, 'week');
 output += periodTable('Top games this month', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${monthStart}** through **${today}**.`, topMonth, 'month');
@@ -279,30 +298,69 @@ if (screenshotCount) {
   const image = shot.screenshot_urls[0].replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
   output += `## Screenshot spotlight\n\n<div align="center">\n\n[<img src="${image}" alt="${esc(shot.name)} screenshot" width="760" />](${gameNoteUrl(shot)})\n\n**${esc(shot.name)}** — source and screenshot linked in the dataset.\n\n</div>\n\n`;
 }
-output += `## Game library\n\n> **Browse curated game units by category.**\n\n`;
-output += `Jump to a category:\n\n`;
-for (const [title, group] of groups) output += `- ${categoryIcons[title]} [${title}](#${slug(title)}) — **${unitTotal(group)} game units**\n`;
+output += `## More records\n\n`;
 output += `- ⚠️ [Bad games](bad-games.md) — **${badCount}** low-quality game units excluded from the curated library\n`;
 output += `- 📦 [Other](other.md) — **${otherRecords.length}** related, derivative, forked, or non-game records\n`;
-output += `\n### How to use this guide\n\n`;
+output += `\n## How to use this guide\n\n`;
 output += `- Select a game title to open its local per-game note in [games/](games/).\n`;
 output += `- Select the repository link inside the note to open the canonical GitHub source.\n`;
 output += `- Select **files** to inspect linked gameplay source. Select **play** for a published demo.\n`;
 output += `- Read the evidence grade before relying on a model-attribution claim. The rating is a curation aid, not a benchmark.\n\n`;
 output += `Each compact row shows **source-quality rating**, **model**, **technology**, **model-evidence grade**, and relevant source links. Rows with usable screenshots also show a separate 📸 **screenshot rating**. FLOPS estimates remain in the dataset but are omitted here because they are static, low-confidence estimates.\n\n`;
 
-for (const [title, group] of groups) {
-  output += `## ${title}\n\n`;
-  output += `> ${categoryIcons[title]} **${unitTotal(group)} curated game units. Ranked by evidence-based quality score.**\n\n`;
-  for (const row of group) {
-    const r = row.record;
-    const extra = iconLinks(row);
-    const directLinks = [row.gameLink ? `[files](${row.gameLink})` : '', row.demoLink ? `[play](${row.demoLink})` : ''].filter(Boolean).join(' · ');
-  const grade = evidence(r, row);
-    const aggregate = row.aggregateLabel ? ` · **${row.unitCount} documented units:** ${esc(row.aggregateLabel)}` : '';
-    output += `- [**${esc(row.name)}**](${gameNoteUrl(row)}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r, row))} · ${esc(compactTechText(r, row.technology))} · [${grade.icon} ${grade.label}](${row.evidenceUrl})${aggregate}${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
+const modelsDirectory = path.join(process.cwd(), 'models');
+fs.mkdirSync(modelsDirectory, { recursive: true });
+const expectedModelFiles = new Set();
+for (const [model, modelRows] of modelPages) {
+  const filename = `${modelSlug(model)}.md`;
+  expectedModelFiles.add(filename);
+  const modelGroupsByCategory = new Map();
+  for (const row of modelRows) {
+    if (!modelGroupsByCategory.has(row.category)) modelGroupsByCategory.set(row.category, []);
+    modelGroupsByCategory.get(row.category).push(row);
   }
-  output += `\n[Back to game library](#game-library)\n\n`;
+  let page = `# ${model} games\n\n`;
+  page += `Browse **${unitTotal(modelRows)} curated game units** from **${new Set(modelRows.map((row) => row.record.github_url)).size} source repositories** attributed to ${model}. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.\n\n`;
+  page += `[Back to all models](../README.md#browse-by-model) · [Source data](../games.json)\n\n`;
+  page += `## Top-rated games\n\n| Game | Score | Evidence |\n| --- | ---: | --- |\n`;
+  for (const row of [...modelRows].sort((a, b) => b.rating - a.rating || a.name.localeCompare(b.name)).slice(0, 10)) {
+    const grade = evidence(row.record, row);
+    page += `| [${esc(row.name)}](${pageGameUrl(row, '../')}) | ⭐ ${Number(row.rating).toFixed(1)} | [${grade.icon} ${grade.label}](${row.evidenceUrl}) |\n`;
+  }
+  page += `\n`;
+  const modelGallery = gallery.filter((item) => modelRows.some((row) => row.record.github_url === item.github_url && row.name === item.name));
+  if (modelGallery.length) {
+    page += `## Screenshot highlights\n\n`;
+    page += `Inspect these manually rated screenshots. Treat the scores as visual impressions, not runtime playtests.\n\n<table>\n`;
+    for (let index = 0; index < modelGallery.length; index += 3) {
+      page += `<tr>\n`;
+      for (const item of modelGallery.slice(index, index + 3)) {
+        const detailUrl = gameNoteLinks.get(`${item.github_url}\n${item.name}`);
+        if (!detailUrl) throw new Error(`Missing Markdown game page for gallery item: ${item.name}`);
+        page += `<td align="center" width="33%"><a href="../${html(detailUrl)}"><img src="../${html(item.thumbnail)}" alt="${html(item.name)} screenshot" width="100%"></a><br><a href="../${html(detailUrl)}"><strong>${html(item.name)}</strong></a> · 📸 ${Number(item.screenshot_rating_10).toFixed(1)}/10</td>\n`;
+      }
+      page += `</tr>\n`;
+    }
+    page += `</table>\n\n`;
+  }
+  page += `## Game library\n\n`;
+  for (const [title, group] of modelGroupsByCategory) page += `- ${categoryIcons[title]} [${title}](#${slug(title)}) — **${unitTotal(group)} game units**\n`;
+  page += `\n`;
+  for (const [title, group] of modelGroupsByCategory) {
+    page += `## ${title}\n\n`;
+    for (const row of group.sort((a, b) => b.rating - a.rating || a.name.localeCompare(b.name))) {
+      const grade = evidence(row.record, row);
+      const extra = iconLinks(row).replaceAll('(games/', '(../games/');
+      const directLinks = [row.gameLink ? `[files](${row.gameLink})` : '', row.demoLink ? `[play](${row.demoLink})` : ''].filter(Boolean).join(' · ');
+      const aggregate = row.aggregateLabel ? ` · **${row.unitCount} documented units:** ${esc(row.aggregateLabel)}` : '';
+      page += `- [**${esc(row.name)}**](${pageGameUrl(row, '../')}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(row.record, row))} · ${esc(compactTechText(row.record, row.technology))} · [${grade.icon} ${grade.label}](${row.evidenceUrl})${aggregate}${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
+    }
+    page += `\n[Back to game library](#game-library)\n\n`;
+  }
+  fs.writeFileSync(path.join(modelsDirectory, filename), page);
+}
+for (const filename of fs.readdirSync(modelsDirectory)) {
+  if (filename.endsWith('.md') && !expectedModelFiles.has(filename)) fs.unlinkSync(path.join(modelsDirectory, filename));
 }
 
 output += `## Method\n\n> **Proof over promises. Repository evidence decides what gets counted.**\n\n`;
@@ -312,7 +370,7 @@ output += `- Place native-engine games in the dedicated non-browser section.\n`;
 output += `- Record model evidence as direct, creator-reported, repository-level, directory/topic trail, or inferred. Link every grade to its public evidence URL. Do not present weaker evidence as direct confirmation.\n`;
 output += `- Treat source inspection as proof that the code exists. Treat it separately from runtime playtesting.\n`;
 output += `- Do not count catalogs, skills, screenshots, visual-only scenes, empty repositories, unchanged forks, or prompt-only projects.\n`;
-output += `- Keep source records in [games.json](games.json). Keep rejected candidates in [research/candidates.json](research/candidates.json). Run the validator and regenerate this README after each dataset edit.\n`;
+output += `- Keep source records in [games.json](games.json). Keep rejected candidates in [research/candidates.json](research/candidates.json). Run the validator and regenerate the README and model pages after each dataset edit.\n`;
 output += `\n## Rating and data notes\n\n`;
 output += `The **0–10 rating** uses source completeness, playable mechanics, scope, tests or deployment, and model-evidence strength. It is a curation estimate, not a review score or performance benchmark. The dataset keeps a FLOPS field as a low-confidence static FP32-work estimate at 60 FPS; it is not measured device performance or model-training compute.\n\n`;
 output += `## Per-game notes\n\n`;
@@ -320,7 +378,7 @@ output += `Open the [games/](games/) directory or the [per-game notes index](gam
 output += `## Ranking reports\n\n`;
 output += `Open [rankings/](rankings/README.md) for generated top games this week, top games this month, and daily rankings for the last seven dates. Read each row's date basis before treating it as a publication date.\n\n`;
 output += `## Contributing\n\n`;
-output += `Follow [the contribution guide](CONTRIBUTING.md). Provide the canonical repository, model-evidence URL, playable-source path, and evidence notes. Validate the dataset and regenerate this README before opening a pull request.\n\n`;
+output += `Follow [the contribution guide](CONTRIBUTING.md). Provide the canonical repository, model-evidence URL, playable-source path, and evidence notes. Validate the dataset and regenerate the README and model pages before opening a pull request.\n\n`;
 output += `## Sources and limitations\n\n`;
 output += `Primary GitHub repository evidence is preferred. Creator reports and repository trails are useful discovery evidence but are not equivalent to direct model attribution. A source inspection confirms that code exists; it does not claim that a current live demo was playtested unless the record states it. This project follows the practical principle in [Google’s AI-search guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide): publish clear, original, useful, crawlable information instead of special markup or artificial content tricks.\n\n`;
 output += `## Star this collection\n\n`;
