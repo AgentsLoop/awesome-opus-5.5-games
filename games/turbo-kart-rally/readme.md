@@ -1,13 +1,13 @@
 # Turbo Kart Rally
 
-> Top-list entry: **today** (#2), **this week** (#2).
+> Top-list entry: **this week** (#2).
 
 ![Turbo Kart Rally screenshot](https://raw.githubusercontent.com/bridge-mind/turbo-kart-rally/main/docs/screenshots/race.jpg)
 
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 9.8/10 ([rated image](https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 9.8/10 ([manually reviewed image](https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** Three.js, JavaScript, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg)
+- [screenshot 1](https://github.com/bridge-mind/turbo-kart-rally/blob/main/docs/screenshots/race.jpg) — 📸 9.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

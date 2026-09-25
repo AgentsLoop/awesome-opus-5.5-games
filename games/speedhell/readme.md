@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** JavaScript, HTML Canvas
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/jacobv25/speedhell](https://github.com/jacobv25/speedhell)
 - **Evidence:** [directory-method model evidence](https://github.com/jacobv25/speedhell)
@@ -32,7 +34,8 @@ Playable browser bullet-hell shmup; README documents builder/fresh blind-critic 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/jacobv25/speedhell
 
 [Back to the awesome list](../../README.md)

@@ -10,6 +10,7 @@ const discoveryPath = path.join(root, 'research', 'screenshot-discoveries.json')
 const screenshotDiscoveries = fs.existsSync(discoveryPath)
   ? JSON.parse(fs.readFileSync(discoveryPath, 'utf8'))
   : {};
+const screenshotReviews = new Map(JSON.parse(fs.readFileSync(path.join(root, 'research', 'screenshot-reviews.json'), 'utf8')).reviews.map((review) => [review.url, review]));
 
 const esc = (value) => String(value ?? '').replaceAll('|', '\\|').replaceAll('\n', ' ').trim();
 const htmlEsc = (value) => String(value ?? '')
@@ -219,7 +220,7 @@ function writeNote(row) {
   const screenshotRating = row.estimate?.screenshot_rating_10 ?? (record.contained_game_screenshots ? undefined : record.screenshot_rating_10);
   const screenshotEvidence = row.estimate?.screenshot_rating_evidence_url ?? (record.contained_game_screenshots ? undefined : record.screenshot_rating_evidence_url);
   if (screenshots.length && Number.isFinite(screenshotRating) && screenshotEvidence) {
-    output += `- **Screenshot rating:** ${Number(screenshotRating).toFixed(1)}/10 ([rated image](${screenshotEvidence})). Treat this as visual review only; do not infer a playtest.\n`;
+    output += `- **Screenshot rating:** ${Number(screenshotRating).toFixed(1)}/10 ([manually reviewed image](${screenshotEvidence})). Treat this as visual review only; do not infer a playtest.\n`;
   }
   output += `- **Model:** ${esc(modelText(record, row.estimate))}\n`;
   output += `- **Technology:** ${esc((row.estimate?.technology ?? record.technology ?? []).join(', ') || 'Browser')}\n`;
@@ -238,7 +239,10 @@ function writeNote(row) {
     output += `Use the source screenshot links below. The list records these assets from the game repository or a related source.\n\n`;
     screenshots.forEach((url, index) => {
       const label = isImage(url) ? `screenshot ${index + 1}` : `screenshot source ${index + 1}`;
-      output += `- [${label}](${url})\n`;
+      const review = screenshotReviews.get(url);
+      if (!review) throw new Error(`Missing screenshot review: ${url}`);
+      const method = review.rating_method === 'manual_visual_review' ? 'manual visual review' : 'relative frame adjustment';
+      output += `- [${label}](${url}) — 📸 ${Number(review.score_10).toFixed(1)}/10 · ${method} · ${esc(review.reason)}\n`;
     });
   } else {
     output += `No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.\n`;

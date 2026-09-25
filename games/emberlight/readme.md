@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, JavaScript, WebGL, Blender, Web Audio API, GitHub Pages
+- **Estimated FP32 operations/s at 60 FPS:** 3,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable public build, substantial combat loop, procedural content, source, simulation hooks, controls, performance evidence, and explicit model attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/LeiGaoRobot/emberlight](https://github.com/LeiGaoRobot/emberlight)
 - **Evidence:** [creator-reported model evidence](https://github.com/LeiGaoRobot/emberlight/blob/main/README.md)
@@ -33,7 +35,8 @@ README documents a playable survivors-like with a public GitHub Pages build, Thr
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/LeiGaoRobot/emberlight; https://x.com/op7418/status/2096949703829295484
 
 [Back to the awesome list](../../README.md)

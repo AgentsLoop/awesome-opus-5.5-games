@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Fable 5
 - **Technology:** C++, raylib 5.5, Emscripten, Native desktop and web
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large source-complete roguelite with a documented gameplay loop, multiple classes and bosses, procedural rooms, persistent progression, custom tools, native and web builds, public itch.io page and direct Fable-attributed gameplay systems.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/KAOSN00B/MysticOnslaught](https://github.com/KAOSN00B/MysticOnslaught)
 - **Evidence:** [direct model evidence](https://github.com/KAOSN00B/MysticOnslaught/commit/b5c7a873c0708727201e03129deb29da904f640e)
@@ -29,14 +31,13 @@ The README and source describe a playable top-down action roguelite with real-ti
 ### Gameplay source
 
 - [https://github.com/KAOSN00B/MysticOnslaught/blob/master/README.md](https://github.com/KAOSN00B/MysticOnslaught/blob/master/README.md)
-- [https://github.com/KAOSN00B/MysticOnslaught/tree/master/TestGame](https://github.com/KAOSN00B/MysticOnslaught/tree/master/TestGame)
-- [https://kaosn00b.itch.io/mystic-onslaught](https://kaosn00b.itch.io/mystic-onslaught)
 - [https://github.com/KAOSN00B/MysticOnslaught/commit/b5c7a873c0708727201e03129deb29da904f640e](https://github.com/KAOSN00B/MysticOnslaught/commit/b5c7a873c0708727201e03129deb29da904f640e)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub game commit search dated 2026-09-13..2026-09-15; https://github.com/KAOSN00B/MysticOnslaught; https://kaosn00b.itch.io/mystic-onslaught
 
 [Back to the awesome list](../../README.md)

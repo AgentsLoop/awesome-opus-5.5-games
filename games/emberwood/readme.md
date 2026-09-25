@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.5/10
-- **Screenshot rating:** 6.1/10 ([rated image](https://github.com/user-attachments/assets/06a3e8c9-91fc-4db3-96b3-7ce5e02aa878)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.1/10 ([manually reviewed image](https://github.com/user-attachments/assets/06a3e8c9-91fc-4db3-96b3-7ce5e02aa878)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** HTML, Canvas, JavaScript
 - **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
@@ -21,10 +21,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot source 1](https://github.com/user-attachments/assets/06a3e8c9-91fc-4db3-96b3-7ce5e02aa878)
-- [screenshot source 2](https://github.com/user-attachments/assets/9f85a371-eb11-426f-bec3-e68c8c771287)
-- [screenshot source 3](https://github.com/user-attachments/assets/d7444b9b-9ddb-41d9-9919-71538c711fdb)
-- [screenshot source 4](https://github.com/user-attachments/assets/358e26b0-dab2-4f50-9e0c-e40ee48f42f4)
+- [screenshot source 1](https://github.com/user-attachments/assets/06a3e8c9-91fc-4db3-96b3-7ce5e02aa878) — 📸 6.1/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot source 2](https://github.com/user-attachments/assets/9f85a371-eb11-426f-bec3-e68c8c771287) — 📸 5.7/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot source 3](https://github.com/user-attachments/assets/d7444b9b-9ddb-41d9-9919-71538c711fdb) — 📸 5.7/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot source 4](https://github.com/user-attachments/assets/358e26b0-dab2-4f50-9e0c-e40ee48f42f4) — 📸 5.7/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

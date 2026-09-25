@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Opus 4.7
 - **Technology:** MonoGame, C#, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable BattleGrid game source is explicit inside a framework repository, with game states, entities, rules, content and direct Opus 4.7 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/DevDNE/MonoGame.GameFramework](https://github.com/DevDNE/MonoGame.GameFramework)
 - **Evidence:** [direct model evidence](https://github.com/DevDNE/MonoGame.GameFramework/commit/56783a8c9a820e34ca3101a0067304ebe0c26d86)
@@ -28,14 +30,13 @@ The cited commit renames the repository's game demo to BattleGrid and contains g
 ### Gameplay source
 
 - [https://github.com/DevDNE/MonoGame.GameFramework/blob/56783a8c9a820e34ca3101a0067304ebe0c26d86/src/MonoGame.GameFramework.BattleGrid/GameStates/BattleState.cs](https://github.com/DevDNE/MonoGame.GameFramework/blob/56783a8c9a820e34ca3101a0067304ebe0c26d86/src/MonoGame.GameFramework.BattleGrid/GameStates/BattleState.cs)
-- [https://github.com/DevDNE/MonoGame.GameFramework/blob/56783a8c9a820e34ca3101a0067304ebe0c26d86/src/MonoGame.GameFramework.BattleGrid/Components/Entities/Player.cs](https://github.com/DevDNE/MonoGame.GameFramework/blob/56783a8c9a820e34ca3101a0067304ebe0c26d86/src/MonoGame.GameFramework.BattleGrid/Components/Entities/Player.cs)
-- [https://github.com/DevDNE/MonoGame.GameFramework/blob/56783a8c9a820e34ca3101a0067304ebe0c26d86/src/MonoGame.GameFramework.BattleGrid/Game1.cs](https://github.com/DevDNE/MonoGame.GameFramework/blob/56783a8c9a820e34ca3101a0067304ebe0c26d86/src/MonoGame.GameFramework.BattleGrid/Game1.cs)
 - [https://github.com/DevDNE/MonoGame.GameFramework/commit/56783a8c9a820e34ca3101a0067304ebe0c26d86](https://github.com/DevDNE/MonoGame.GameFramework/commit/56783a8c9a820e34ca3101a0067304ebe0c26d86)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for MonoGame game Co-Authored-By Claude Opus; https://github.com/DevDNE/MonoGame.GameFramework
 
 [Back to the awesome list](../../README.md)

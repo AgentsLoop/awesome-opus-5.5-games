@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 5.1/10 ([rated image](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/menu.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.1/10 ([manually reviewed image](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/menu.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** Pygame, Python, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
@@ -20,9 +20,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/menu.png)
-- [screenshot 2](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/gameplay.png)
-- [screenshot 3](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/howtoplay.png)
+- [screenshot 1](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/menu.png) — 📸 5.1/10 · manual visual review · Use this frame for the game-level score. Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 2](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/gameplay.png) — 📸 4.7/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 3](https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/howtoplay.png) — 📸 4.7/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

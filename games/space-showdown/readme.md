@@ -1,6 +1,6 @@
 # Space Showdown
 
-> Top-list entry: **this week** (#10), **this month** (#10).
+> Verified game note.
 
 ![Space Showdown screenshot placeholder](space-showdown-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.5/10
 - **Model:** Claude Fable 5
 - **Technology:** Pygame, Python, SDL2, C, Native desktop, Native Wii
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a substantial, documented arcade game with multiple enemy/boss systems, procedural assets/audio, tests, headless commands and a native Wii port, plus direct Claude Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/GeorgeCottrell/SpaceShowdown](https://github.com/GeorgeCottrell/SpaceShowdown)
 - **Evidence:** [direct model evidence](https://github.com/GeorgeCottrell/SpaceShowdown/commit/073601b42e8a45123c955ab21ba55656924dc1d0)
@@ -28,15 +30,13 @@ The README identifies Space Showdown as a complete Pygame arcade space shooter a
 ### Gameplay source
 
 - [https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/space_showdown.py](https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/space_showdown.py)
-- [https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/spaceshowdown/game.py](https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/spaceshowdown/game.py)
-- [https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/spaceshowdown/world.py](https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/spaceshowdown/world.py)
-- [https://github.com/GeorgeCottrell/SpaceShowdown/tree/073601b42e8a45123c955ab21ba55656924dc1d0/wii/game](https://github.com/GeorgeCottrell/SpaceShowdown/tree/073601b42e8a45123c955ab21ba55656924dc1d0/wii/game)
 - [https://github.com/GeorgeCottrell/SpaceShowdown/commit/073601b42e8a45123c955ab21ba55656924dc1d0](https://github.com/GeorgeCottrell/SpaceShowdown/commit/073601b42e8a45123c955ab21ba55656924dc1d0)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for pygame game Co-Authored-By Claude Fable; https://github.com/GeorgeCottrell/SpaceShowdown
 
 [Back to the awesome list](../../README.md)

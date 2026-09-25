@@ -9,6 +9,8 @@
 - **Score:** 7.8/10
 - **Model:** Claude Opus 4.6
 - **Technology:** PHP, Laravel, Laravel AI SDK, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Explicit D&D game concept, game-session state, encounters, inventory, health/energy and direct Opus game-engine commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/SethSharp/codeverse](https://github.com/SethSharp/codeverse)
 - **Evidence:** [direct model evidence](https://github.com/SethSharp/codeverse/commit/15d034371a8cbe2b76a82d3905349335051e9d70)
@@ -33,7 +35,8 @@ The README describes a D&D-style game powered by an AI Dungeon Master. The cited
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus 4.6; https://github.com/SethSharp/codeverse
 
 [Back to the awesome list](../../README.md)

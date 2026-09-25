@@ -9,14 +9,16 @@
 - **Score:** 8.7/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Phaser 4, TypeScript, Tone.js, Canvas, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live demo, five-level progression, deterministic simulation, tests, playtest evidence, direct model attribution and clear separation from non-Fable comparison builds.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/kinncj/neon-snake](https://github.com/kinncj/neon-snake)
 - **Evidence:** [direct model evidence](https://github.com/kinncj/neon-snake#the-game)
-- **Live demo:** [open demo](https://kinncj.github.io/neon-snake/opencode/)
-- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/pi-agent/)
-- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/claude-code-qwen3.8/)
-- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/)
 - **Live demo:** [open demo](https://kinncj.github.io/neon-snake/claude-code-fable/)
+- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/)
+- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/claude-code-qwen3.8/)
+- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/opencode/)
+- **Additional live link:** [open demo](https://kinncj.github.io/neon-snake/pi-agent/)
 
 ## Screenshots
 
@@ -33,13 +35,13 @@ The repository contains four independent builds of one game specification. Count
 ### Gameplay source
 
 - [https://github.com/kinncj/neon-snake/tree/main/claude-code-fable](https://github.com/kinncj/neon-snake/tree/main/claude-code-fable)
-- [https://kinncj.github.io/neon-snake/claude-code-fable/](https://kinncj.github.io/neon-snake/claude-code-fable/)
 - [https://github.com/kinncj/neon-snake#the-game](https://github.com/kinncj/neon-snake#the-game)
 
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: "Claude Fable 5.1" built game in:readme; https://github.com/kinncj/neon-snake
 
 [Back to the awesome list](../../README.md)

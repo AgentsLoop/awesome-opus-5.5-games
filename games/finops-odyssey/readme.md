@@ -9,13 +9,15 @@
 - **Score:** 8.6/10
 - **Model:** Claude Opus 4.8
 - **Technology:** HTML, JavaScript, Canvas, Supabase, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live game, substantial source, clear arcade loop, quiz decisions, combo/win state and direct Opus 4.8 game-file commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/chfinops/finops-odyssey](https://github.com/chfinops/finops-odyssey)
 - **Evidence:** [direct model evidence](https://github.com/chfinops/finops-odyssey/commit/7f0caf56b69ef8149ed6af5d379eceef98546ab0)
-- **Live demo:** [open demo](https://finops-odyssey.vercel.app/)
+- **Live demo:** [open demo](https://finops-odyssey.vercel.app/game.html)
+- **Additional live link:** [open demo](https://finops-odyssey.vercel.app/)
 - **Additional live link:** [open demo](https://finops-odyssey.vercel.app/ch-booth-display.html)
 - **Additional live link:** [open demo](https://finops-odyssey.vercel.app/ch-booth-staff.html)
-- **Live demo:** [open demo](https://finops-odyssey.vercel.app/game.html)
 
 ## Screenshots
 
@@ -37,7 +39,8 @@ The README describes an 8-bit space arcade game where players pilot a rocket, do
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus 4.6; https://github.com/chfinops/finops-odyssey
 
 [Back to the awesome list](../../README.md)

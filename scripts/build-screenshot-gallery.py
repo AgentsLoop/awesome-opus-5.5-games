@@ -2,45 +2,38 @@
 """Build thumbnails for the highest manually rated game screenshots."""
 
 import json
-from io import BytesIO
+import argparse
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
-from urllib.request import Request, urlopen
 
-from PIL import Image, ImageOps, UnidentifiedImageError
+from PIL import Image
+
+from screenshot_media import cached_image
 
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "assets" / "screenshot-gallery"
 LIMIT = 30
 SIZE = (480, 270)
-def downloadable_url(source):
-    parts = urlsplit(source)
-    if parts.netloc == "github.com" and "/blob/" in parts.path:
-        return urlunsplit((parts.scheme, parts.netloc, parts.path, "raw=1", ""))
-    return source
 
 
-def thumbnail(source):
-    request = Request(downloadable_url(source), headers={"User-Agent": "awesome-opus-5.5-games-gallery"})
-    with urlopen(request, timeout=25) as response:
-        if not response.headers.get("Content-Type", "").lower().startswith("image/"):
-            raise ValueError("URL did not return an image")
-        data = response.read(15_000_001)
-    if len(data) > 15_000_000:
-        raise ValueError("image exceeds 15 MB")
-    with Image.open(BytesIO(data)) as image:
-        if image.width < 320 or image.height < 180:
-            raise ValueError(f"image is too small ({image.width}x{image.height})")
-        image.seek(0)
-        image = ImageOps.exif_transpose(image).convert("RGBA")
+def thumbnail(source, *, refresh=False, offline=False):
+    image_path, meta = cached_image(source, refresh=refresh, offline=offline)
+    if meta["width"] < 320 or meta["height"] < 180:
+        raise ValueError(f"image is too small ({meta['width']}x{meta['height']})")
+    with Image.open(image_path) as cached:
+        image = cached.convert("RGBA")
         image.thumbnail(SIZE, Image.Resampling.LANCZOS)
         canvas = Image.new("RGB", SIZE, "#111827")
         canvas.paste(image, ((SIZE[0] - image.width) // 2, (SIZE[1] - image.height) // 2), image)
         return canvas
 
 
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--refresh", action="store_true", help="Refetch source images even when cached")
+parser.add_argument("--offline", action="store_true", help="Use only already cached images")
+args = parser.parse_args()
 records = json.loads((ROOT / "games.json").read_text())
+reviews = {item["url"]: item for item in json.loads((ROOT / "research" / "screenshot-reviews.json").read_text())["reviews"]}
 ranked = []
 for record in records:
     if not record.get("is_independent_game") or record.get("counted_game_units", 0) < 1:
@@ -55,19 +48,19 @@ for record in records:
             source = estimate.get("screenshot_rating_evidence_url")
             score = estimate.get("screenshot_rating_10")
             screenshots = record.get("contained_game_screenshots", {}).get(name, [])
-            if source and source in screenshots and isinstance(score, (int, float)):
+            if source and source in screenshots and source in reviews and score == reviews[source]["score_10"]:
                 ranked.append((name, record["github_url"], score, source))
     else:
         source = record.get("screenshot_rating_evidence_url")
         score = record.get("screenshot_rating_10")
-        if source and source in record.get("screenshot_urls", []) and isinstance(score, (int, float)):
+        if source and source in record.get("screenshot_urls", []) and source in reviews and score == reviews[source]["score_10"]:
             ranked.append((record["name"], record["github_url"], score, source))
 ranked.sort(key=lambda item: (-item[2], item[0].casefold()))
 OUTPUT.mkdir(parents=True, exist_ok=True)
 gallery = []
 for name, github_url, score, source in ranked:
     try:
-        image = thumbnail(source)
+        image = thumbnail(source, refresh=args.refresh, offline=args.offline)
         filename = f"{len(gallery) + 1:02d}.webp"
         image.save(OUTPUT / filename, "WEBP", quality=82, method=6)
         gallery.append({
@@ -78,7 +71,7 @@ for name, github_url, score, source in ranked:
             "thumbnail": f"assets/screenshot-gallery/{filename}",
         })
         print(f"{len(gallery):02d}. {name} -> {filename}")
-    except (OSError, ValueError, UnidentifiedImageError) as error:
+    except (OSError, ValueError) as error:
         print(f"Skip {name}: {error}")
     if len(gallery) == LIMIT:
         break

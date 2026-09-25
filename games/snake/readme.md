@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** Three.js, JavaScript, Canvas 2D
+- **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/shironagasu-ai/claude-fable5-games](https://github.com/shironagasu-ai/claude-fable5-games)
 - **Evidence:** [repository-topic model evidence](https://github.com/shironagasu-ai/claude-fable5-games)
@@ -32,7 +34,8 @@ Repository contains six game folders, a browser collection README, vendored Thre
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 6
+- **Counted units in repository:** 6
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/shironagasu-ai/claude-fable5-games
 
 [Back to the awesome list](../../README.md)

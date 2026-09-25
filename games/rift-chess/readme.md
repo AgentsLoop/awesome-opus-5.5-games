@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 7.9/10 ([rated image](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.9/10 ([manually reviewed image](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, TypeScript, Vite, WebGL, Electron, Browser, Windows
 - **Estimated FP32 operations/s at 60 FPS:** 3,500,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)
+- [screenshot 1](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png) — 📸 7.9/10 · manual visual review · Use this frame for the game-level score. Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
 
 ## Model attribution
 

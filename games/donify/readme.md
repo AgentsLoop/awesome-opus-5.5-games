@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
-- **Screenshot rating:** 7.5/10 ([rated image](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.5/10 ([manually reviewed image](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Unreal Engine 5.8.1, C++, Vulkan, Native Linux
 - **Estimated FP32 operations/s at 60 FPS:** 9,000,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg)
-- [screenshot 2](https://github.com/w4coder/donify/blob/main/docs/media/indoor-flight.png)
+- [screenshot 1](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg) — 📸 7.5/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/w4coder/donify/blob/main/docs/media/indoor-flight.png) — 📸 7.1/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Videos
 

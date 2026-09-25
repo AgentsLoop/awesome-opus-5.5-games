@@ -1,6 +1,6 @@
 # Explottens: Survival
 
-> Top-list entry: **today** (#9).
+> Verified game note.
 
 ![Explottens: Survival screenshot placeholder](explottens-survival-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Opus 5
 - **Technology:** TypeScript, Phaser 3, Canvas2D, Playable ad, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The project has a clear playable loop, self-contained build target, documented runtime checks across viewports, substantial game source and exact Opus attribution on gameplay implementation.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/Werplay/playable-explottens-survivor](https://github.com/Werplay/playable-explottens-survivor)
 - **Evidence:** [direct model evidence](https://github.com/Werplay/playable-explottens-survivor/commit/eb0183f356fc23283704b5f0d1d2882838a02155)
@@ -28,15 +30,13 @@ The README documents a self-contained Phaser 3 playable ad with drag movement, a
 ### Gameplay source
 
 - [https://github.com/Werplay/playable-explottens-survivor#readme](https://github.com/Werplay/playable-explottens-survivor#readme)
-- [https://github.com/Werplay/playable-explottens-survivor/blob/master/src/GameScene.ts](https://github.com/Werplay/playable-explottens-survivor/blob/master/src/GameScene.ts)
-- [https://github.com/Werplay/playable-explottens-survivor/blob/master/src/Hud.ts](https://github.com/Werplay/playable-explottens-survivor/blob/master/src/Hud.ts)
-- [https://github.com/Werplay/playable-explottens-survivor/blob/master/src/data.ts](https://github.com/Werplay/playable-explottens-survivor/blob/master/src/data.ts)
 - [https://github.com/Werplay/playable-explottens-survivor/commit/eb0183f356fc23283704b5f0d1d2882838a02155](https://github.com/Werplay/playable-explottens-survivor/commit/eb0183f356fc23283704b5f0d1d2882838a02155)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12; https://github.com/Werplay/playable-explottens-survivor
 
 [Back to the awesome list](../../README.md)

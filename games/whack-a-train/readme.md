@@ -9,6 +9,8 @@
 - **Score:** 7.9/10
 - **Model:** Claude Opus 4.6
 - **Technology:** HTML, JavaScript, Canvas, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Standalone playable source, launcher integration, touch-oriented game design and direct Opus game-addition commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/wsc226/Games](https://github.com/wsc226/Games)
 - **Evidence:** [direct model evidence](https://github.com/wsc226/Games/commit/2e8831885fc50d06638ea6a564adab19f2959857)
@@ -33,7 +35,8 @@ The repository is a launcher with standalone HTML games. The cited commit adds s
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus 4.6; https://github.com/wsc226/Games
 
 [Back to the awesome list](../../README.md)

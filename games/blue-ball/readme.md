@@ -9,6 +9,8 @@
 - **Score:** 8.9/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Python, PyGame, Pymunk, Native desktop, 2D physics platformer, Genetic-algorithm AI
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete native 2D platformer with multiple play modes, physics levels, hazards, checkpoints, race ghosts, AI training, audio, deterministic world logic and tests.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/daviddgonzalez/BlueBall](https://github.com/daviddgonzalez/BlueBall)
 - **Evidence:** [direct model evidence](https://github.com/daviddgonzalez/BlueBall/commit/74576376b357ce2d12eafa904b3d8fcf04f7511f)
@@ -28,17 +30,13 @@ The README provides a direct python main.py play command for a PyGame and Pymunk
 ### Gameplay source
 
 - [https://github.com/daviddgonzalez/BlueBall/blob/master/README.md](https://github.com/daviddgonzalez/BlueBall/blob/master/README.md)
-- [https://github.com/daviddgonzalez/BlueBall/blob/master/main.py](https://github.com/daviddgonzalez/BlueBall/blob/master/main.py)
-- [https://github.com/daviddgonzalez/BlueBall/tree/master/src/blueball/scenes](https://github.com/daviddgonzalez/BlueBall/tree/master/src/blueball/scenes)
-- [https://github.com/daviddgonzalez/BlueBall/tree/master/src/blueball/levels](https://github.com/daviddgonzalez/BlueBall/tree/master/src/blueball/levels)
-- [https://github.com/daviddgonzalez/BlueBall/blob/master/src/blueball/world.py](https://github.com/daviddgonzalez/BlueBall/blob/master/src/blueball/world.py)
-- [https://github.com/daviddgonzalez/BlueBall/tree/master/tests](https://github.com/daviddgonzalez/BlueBall/tree/master/tests)
 - [https://github.com/daviddgonzalez/BlueBall/commit/74576376b357ce2d12eafa904b3d8fcf04f7511f](https://github.com/daviddgonzalez/BlueBall/commit/74576376b357ce2d12eafa904b3d8fcf04f7511f)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Pygame game Co-Authored-By Claude Opus; https://github.com/daviddgonzalez/BlueBall
 
 [Back to the awesome list](../../README.md)

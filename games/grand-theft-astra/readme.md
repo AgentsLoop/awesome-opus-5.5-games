@@ -1,6 +1,6 @@
 # Grand Theft Astra
 
-> Top-list entry: **today** (#5), **this week** (#7), **this month** (#7).
+> Top-list entry: **this month** (#8).
 
 ![Grand Theft Astra screenshot placeholder](grand-theft-astra-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.5/10
 - **Model:** Claude Fable 5.1
 - **Technology:** TypeScript, React, React Three Fiber, WebGL, Cloudflare Workers, Browser multiplayer
+- **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Broad source-complete 3D multiplayer prototype with authored environment, movement, vehicles, missions, combat, persistence, server validation, tests and exact Fable attribution on player-facing work.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/angelaborowski/grand-theft-astra](https://github.com/angelaborowski/grand-theft-astra)
 - **Evidence:** [direct model evidence](https://github.com/angelaborowski/grand-theft-astra/commit/c5e718d48430f9bd97e006c7bacd6d7eeb45ef7)
@@ -28,17 +30,13 @@ The README describes a multiplayer browser-game prototype set in a 3D Red Square
 ### Gameplay source
 
 - [https://github.com/angelaborowski/grand-theft-astra#readme](https://github.com/angelaborowski/grand-theft-astra#readme)
-- [https://github.com/angelaborowski/grand-theft-astra/tree/main/apps/web/src/features/game](https://github.com/angelaborowski/grand-theft-astra/tree/main/apps/web/src/features/game)
-- [https://github.com/angelaborowski/grand-theft-astra/blob/main/apps/web/src/features/game/components/game.tsx](https://github.com/angelaborowski/grand-theft-astra/blob/main/apps/web/src/features/game/components/game.tsx)
-- [https://github.com/angelaborowski/grand-theft-astra/blob/main/apps/web/src/features/game/components/stunt-course.tsx](https://github.com/angelaborowski/grand-theft-astra/blob/main/apps/web/src/features/game/components/stunt-course.tsx)
-- [https://github.com/angelaborowski/grand-theft-astra/blob/main/packages/core/src/gameplay-v2.ts](https://github.com/angelaborowski/grand-theft-astra/blob/main/packages/core/src/gameplay-v2.ts)
-- [https://github.com/angelaborowski/grand-theft-astra/tree/main/apps/server/tests](https://github.com/angelaborowski/grand-theft-astra/tree/main/apps/server/tests)
 - [https://github.com/angelaborowski/grand-theft-astra/commit/c5e718d48430f9bd97e006c7bacd6d7eeb45ef7](https://github.com/angelaborowski/grand-theft-astra/commit/c5e718d48430f9bd97e006c7bacd6d7eeb45ef7)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Astra/Fable, 2026-09-10..2026-09-12; https://github.com/angelaborowski/grand-theft-astra
 
 [Back to the awesome list](../../README.md)

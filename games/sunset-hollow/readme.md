@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5
 - **Technology:** TypeScript, Three.js, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, clear survival loop, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/sajalrajhans1/Sunset-Down](https://github.com/sajalrajhans1/Sunset-Down)
 - **Evidence:** [creator-reported model evidence](https://github.com/sajalrajhans1/Sunset-Down/blob/main/README.md)
@@ -33,7 +35,8 @@ README and TypeScript source contain a playable browser zombie-wave survival gam
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/sajalrajhans1/Sunset-Down
 
 [Back to the awesome list](../../README.md)

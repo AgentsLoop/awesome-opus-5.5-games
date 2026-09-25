@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.0/10
-- **Screenshot rating:** 9.0/10 ([rated image](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 9.0/10 ([manually reviewed image](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Three.js, JavaScript, WebGL
 - **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
@@ -21,13 +21,13 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/amberfall-road.jpg)
-- [screenshot 2](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/frostveil-reach-village.jpg)
-- [screenshot 3](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/live-world-crowd.jpg)
-- [screenshot 4](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/palmreach-rift-warnings.jpg)
-- [screenshot 5](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-marsh_rain.jpg)
-- [screenshot 6](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg)
-- [screenshot 7](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-vale_clear.jpg)
+- [screenshot 1](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/amberfall-road.jpg) — 📸 8.6/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 2](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/frostveil-reach-village.jpg) — 📸 8.6/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 3](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/live-world-crowd.jpg) — 📸 8.6/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 4](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/palmreach-rift-warnings.jpg) — 📸 8.6/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 5](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-marsh_rain.jpg) — 📸 8.6/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 6](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg) — 📸 9.0/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 7](https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-vale_clear.jpg) — 📸 8.6/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

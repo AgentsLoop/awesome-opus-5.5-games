@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** Claude Fable 5
 - **Technology:** Phaser 3, JavaScript, Vite, Netlify, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 360,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository documents a feature-complete tactical roguelike, exposes a live build, includes direct engine and scene source, extensive tests and exact Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/virtu333/rogue-emblem](https://github.com/virtu333/rogue-emblem)
 - **Evidence:** [direct model evidence](https://github.com/virtu333/rogue-emblem/commit/d90705c46e2cf707f0b5779a99ee01d702e0423b)
@@ -29,15 +31,13 @@ The README identifies a browser tactical RPG with a full roguelike run loop, fou
 ### Gameplay source
 
 - [https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/main.js](https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/main.js)
-- [https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/engine/Combat.js](https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/engine/Combat.js)
-- [https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/scenes/BattleScene.js](https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/scenes/BattleScene.js)
-- [https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/scenes/NodeMapScene.js](https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/scenes/NodeMapScene.js)
 - [https://github.com/virtu333/rogue-emblem/commit/d90705c46e2cf707f0b5779a99ee01d702e0423b](https://github.com/virtu333/rogue-emblem/commit/d90705c46e2cf707f0b5779a99ee01d702e0423b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Fable; https://github.com/virtu333/rogue-emblem
 
 [Back to the awesome list](../../README.md)

@@ -189,7 +189,7 @@ const html = (value) => String(value ?? '').replaceAll('&', '&amp;').replaceAll(
 const gallery = JSON.parse(fs.readFileSync('assets/screenshot-gallery/gallery.json', 'utf8'));
 const screenshotGallery = () => {
   let text = `## Top games by screenshot\n\n`;
-  text += `Rank 30 games by **manual screenshot rating**, not source-quality score. Review composition, scene detail, visual coherence, and readable gameplay across the linked images. Reward polished stylized art as well as realism; discount title cards, menus, concept art, and frames that do not show play. This is a visual impression, not a runtime playtest or proof of AAA production quality. Select a thumbnail or title to open the game's Markdown page.\n\n`;
+  text += `Rank 30 games by the score of each game's best manually reviewed screenshot, not by source-quality score. Review composition, scene detail, visual coherence, and readable gameplay. Reward polished stylized art as well as realism; discount title cards, menus, concept art, and frames that do not show play. Treat this as a visual impression, not a runtime playtest or proof of AAA production quality. Select a thumbnail or title to inspect every image's score, rating method, and reason on the game's Markdown page. Secondary images use relative frame adjustments, not independent manual reviews.\n\n`;
   text += `<table>\n`;
   for (let index = 0; index < gallery.length; index += 3) {
     text += `<tr>\n`;

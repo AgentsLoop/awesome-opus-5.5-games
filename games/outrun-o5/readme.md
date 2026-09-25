@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** HTML, JavaScript, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable racing source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/yonifra/-outrun-o5](https://github.com/yonifra/-outrun-o5)
 - **Evidence:** [creator-reported model evidence](https://github.com/yonifra/-outrun-o5)
@@ -32,7 +34,8 @@ Repository source contains an Out Run-style racing game and the repository descr
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/yonifra/-outrun-o5
 
 [Back to the awesome list](../../README.md)

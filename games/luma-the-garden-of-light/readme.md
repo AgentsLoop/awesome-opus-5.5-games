@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 8.3/10 ([rated image](https://github.com/TetsuakiBaba/2DAction.bench/blob/main/GPT6-Astra/screenshot.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.3/10 ([manually reviewed image](https://github.com/TetsuakiBaba/2DAction.bench/blob/main/GPT6-Astra/screenshot.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, Vanilla JavaScript, Canvas 2D, Web Audio API
 - **Estimated FP32 operations/s at 60 FPS:** 320,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/TetsuakiBaba/2DAction.bench/blob/main/GPT6-Astra/screenshot.png)
+- [screenshot 1](https://github.com/TetsuakiBaba/2DAction.bench/blob/main/GPT6-Astra/screenshot.png) — 📸 8.3/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

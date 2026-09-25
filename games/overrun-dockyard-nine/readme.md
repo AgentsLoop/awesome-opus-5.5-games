@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 8.8/10 ([rated image](https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.8/10 ([manually reviewed image](https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, Three.js, WebGL, Web Audio, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp)
+- [screenshot 1](https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp) — 📸 8.8/10 · manual visual review · Use this frame for the game-level score. Shows a staged or promotional view; discount uncertainty about in-game rendering. The frame has strong visible polish.
 
 ## Model attribution
 

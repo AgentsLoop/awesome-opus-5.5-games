@@ -1,6 +1,6 @@
 # Aeterna Chronicle
 
-> Top-list entry: **this month** (#17).
+> Verified game note.
 
 ![Aeterna Chronicle screenshot placeholder](aeterna-chronicle-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.4/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Phaser 3, TypeScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository documents a large RPG vertical slice with many systems and regions, provides direct scene/combat source and exact Opus attribution, although a public live demo was not found.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/crisious/aeterna-chronicle-web](https://github.com/crisious/aeterna-chronicle-web)
 - **Evidence:** [direct model evidence](https://github.com/crisious/aeterna-chronicle-web/commit/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148)
@@ -28,15 +30,13 @@ The README describes a PC browser real-time semi-automatic ATB RPG built with Ph
 ### Gameplay source
 
 - [https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/main.ts](https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/main.ts)
-- [https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/scenes/WorldScene.ts](https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/scenes/WorldScene.ts)
-- [https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/scenes/BattleScene.ts](https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/scenes/BattleScene.ts)
-- [https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/combat/CombatManager.ts](https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/combat/CombatManager.ts)
 - [https://github.com/crisious/aeterna-chronicle-web/commit/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148](https://github.com/crisious/aeterna-chronicle-web/commit/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Opus; https://github.com/crisious/aeterna-chronicle-web
 
 [Back to the awesome list](../../README.md)

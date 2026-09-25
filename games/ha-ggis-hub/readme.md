@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.9/10
-- **Screenshot rating:** 7.4/10 ([rated image](https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/bothy-idle.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.4/10 ([manually reviewed image](https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/bothy-idle.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Rust, WebAssembly, TypeScript, Canvas2D, Vite, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
@@ -21,8 +21,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/bothy-idle.png)
-- [screenshot 2](https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/door-launch.png)
+- [screenshot 1](https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/bothy-idle.png) — 📸 7.4/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/Giftedx/ha-ggis-hub/blob/main/assets/screens/door-launch.png) — 📸 7.0/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

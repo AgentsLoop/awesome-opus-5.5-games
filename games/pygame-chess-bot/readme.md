@@ -9,6 +9,8 @@
 - **Score:** 7.9/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Pygame, Python, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 350,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Dedicated chess UI and move-generation source with direct Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Goodest-ai/chess-bot](https://github.com/Goodest-ai/chess-bot)
 - **Evidence:** [direct model evidence](https://github.com/Goodest-ai/chess-bot/commit/e04fcb2bb6865e7f2c395ab5dadf7e4bed2d2931)
@@ -28,13 +30,13 @@ The initial commit is titled pygame chess bot and contains ChessMain UI, ChessEn
 ### Gameplay source
 
 - [https://github.com/Goodest-ai/chess-bot/blob/main/Chess/ChessMain.py](https://github.com/Goodest-ai/chess-bot/blob/main/Chess/ChessMain.py)
-- [https://github.com/Goodest-ai/chess-bot/blob/main/Chess/ChessEngine.py](https://github.com/Goodest-ai/chess-bot/blob/main/Chess/ChessEngine.py)
 - [https://github.com/Goodest-ai/chess-bot/commit/e04fcb2bb6865e7f2c395ab5dadf7e4bed2d2931](https://github.com/Goodest-ai/chess-bot/commit/e04fcb2bb6865e7f2c395ab5dadf7e4bed2d2931)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Pygame game Co-Authored-By Claude Opus; https://github.com/Goodest-ai/chess-bot
 
 [Back to the awesome list](../../README.md)

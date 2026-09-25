@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 280,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete playable loop, two evolutions, battle system, controls, accessibility details, browser validation and explicit Astra build separation.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim](https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim)
 - **Evidence:** [direct model evidence](https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim/tree/main/astra-build)
@@ -32,7 +34,8 @@ The repository description identifies a GPT-6 Astra versus Opus 5 build comparis
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim
 
 [Back to the awesome list](../../README.md)

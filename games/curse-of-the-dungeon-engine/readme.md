@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** Claude Opus 5
 - **Technology:** C++17, SDL2, Custom C++ engine, Native desktop, Nintendo Switch, First-person dungeon crawler
+- **Estimated FP32 operations/s at 60 FPS:** 9,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large source-complete native dungeon crawler with multiple classes, loot, procedural worlds, tactical AI, local and online multiplayer, Switch target, asset set, tests and repeated exact Opus gameplay commits.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/edrethardo/game](https://github.com/edrethardo/game)
 - **Evidence:** [direct model evidence](https://github.com/edrethardo/game/commit/8148119d359e264f39f0c1d047389c3830c38fc1)
@@ -28,16 +30,13 @@ The README and source describe a native first-person dungeon crawler with eight 
 ### Gameplay source
 
 - [https://github.com/edrethardo/game/blob/master/README.md](https://github.com/edrethardo/game/blob/master/README.md)
-- [https://github.com/edrethardo/game/tree/master/src/game](https://github.com/edrethardo/game/tree/master/src/game)
-- [https://github.com/edrethardo/game/tree/master/src/world](https://github.com/edrethardo/game/tree/master/src/world)
-- [https://github.com/edrethardo/game/blob/master/src/engine/engine.cpp](https://github.com/edrethardo/game/blob/master/src/engine/engine.cpp)
-- [https://github.com/edrethardo/game/tree/master/tests/game](https://github.com/edrethardo/game/tree/master/tests/game)
 - [https://github.com/edrethardo/game/commit/8148119d359e264f39f0c1d047389c3830c38fc1](https://github.com/edrethardo/game/commit/8148119d359e264f39f0c1d047389c3830c38fc1)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for SDL game Co-Authored-By Claude Opus; https://github.com/edrethardo/game
 
 [Back to the awesome list](../../README.md)

@@ -1,0 +1,44 @@
+name: Screenshot audit
+
+on:
+  pull_request:
+    paths:
+      - games.json
+      - research/screenshot-reviews.json
+      - scripts/*screenshot*.py
+      - scripts/build-screenshot-gallery.py
+      - assets/screenshot-gallery/**
+      - .github/workflows/screenshot-audit.yml
+  push:
+    paths:
+      - games.json
+      - research/screenshot-reviews.json
+      - scripts/*screenshot*.py
+      - scripts/build-screenshot-gallery.py
+      - assets/screenshot-gallery/**
+      - .github/workflows/screenshot-audit.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'Pillow==11.3.0'
+      - uses: actions/cache@v6
+        with:
+          path: work/screenshot-cache
+          key: screenshot-cache-${{ runner.os }}-${{ hashFiles('games.json') }}
+          restore-keys: screenshot-cache-${{ runner.os }}-
+      - run: node scripts/validate-games.mjs
+      - run: python scripts/validate-screenshots.py
+      - run: python -m unittest discover -s scripts -p 'test_screenshot_*.py'
+      - run: python scripts/validate-screenshots.py --online
+      - run: python scripts/build-screenshot-gallery.py --offline
+      - run: git diff --exit-code -- assets/screenshot-gallery

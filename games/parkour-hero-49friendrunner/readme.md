@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Opus 4.5
 - **Technology:** Cocos Creator 2.4.13, TypeScript, DragonBones, Custom 2D physics, WeChat/Alipay/QQ mini-games, Native editor project
+- **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large source-complete Cocos endless runner with player and pet systems, buffs, multiple game modes, custom physics, extensive assets and exact Opus 4.5 gameplay commits. No public hosted demo was available for verification.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/TinycellCorp/Parkour](https://github.com/TinycellCorp/Parkour)
 - **Evidence:** [direct model evidence](https://github.com/TinycellCorp/Parkour/commit/f26ca9fcae29b6c130cae7f56b70356afa25918)
@@ -28,16 +30,13 @@ The repository contains a complete Cocos Creator 2.4.13 2D endless-runner projec
 ### Gameplay source
 
 - [https://github.com/TinycellCorp/Parkour/tree/main/assets/Game](https://github.com/TinycellCorp/Parkour/tree/main/assets/Game)
-- [https://github.com/TinycellCorp/Parkour/blob/main/assets/Game/Script/game/Game.ts](https://github.com/TinycellCorp/Parkour/blob/main/assets/Game/Script/game/Game.ts)
-- [https://github.com/TinycellCorp/Parkour/blob/main/assets/Game/Script/game/Player.ts](https://github.com/TinycellCorp/Parkour/blob/main/assets/Game/Script/game/Player.ts)
-- [https://github.com/TinycellCorp/Parkour/blob/main/assets/Game/Script/game/behaviors](https://github.com/TinycellCorp/Parkour/blob/main/assets/Game/Script/game/behaviors)
-- [https://github.com/TinycellCorp/Parkour/blob/main/CLAUDE.md](https://github.com/TinycellCorp/Parkour/blob/main/CLAUDE.md)
 - [https://github.com/TinycellCorp/Parkour/commit/f26ca9fcae29b6c130cae7f56b70356afa25918](https://github.com/TinycellCorp/Parkour/commit/f26ca9fcae29b6c130cae7f56b70356afa25918)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Cocos game Co-Authored-By Claude Opus; https://github.com/TinycellCorp/Parkour
 
 [Back to the awesome list](../../README.md)

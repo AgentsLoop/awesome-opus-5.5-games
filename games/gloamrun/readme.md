@@ -9,6 +9,8 @@
 - **Score:** 9.4/10
 - **Model:** Claude Opus 4.8
 - **Technology:** TypeScript, Vite, Canvas 2D, WebRTC, Trystero, Procedural audio, Browser multiplayer
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete documented dungeon-crawl loop with procedural escalation, combat, upgrades, co-op revival, host transfer, rematch, live demo, strong tests and exact Opus attribution on multiplayer/gameplay systems.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ben-gy/gloamrun](https://github.com/ben-gy/gloamrun)
 - **Evidence:** [direct model evidence](https://github.com/ben-gy/gloamrun/commit/d1fee2534b09c3409ed2f1521041599b72260032)
@@ -29,18 +31,13 @@ The README documents Gloamrun as a playable endless co-op dungeon crawl with pro
 ### Gameplay source
 
 - [https://github.com/ben-gy/gloamrun#readme](https://github.com/ben-gy/gloamrun#readme)
-- [https://gloamrun.benrichardson.dev](https://gloamrun.benrichardson.dev)
-- [https://github.com/ben-gy/gloamrun/blob/main/src/game.ts](https://github.com/ben-gy/gloamrun/blob/main/src/game.ts)
-- [https://github.com/ben-gy/gloamrun/blob/main/src/net-game.ts](https://github.com/ben-gy/gloamrun/blob/main/src/net-game.ts)
-- [https://github.com/ben-gy/gloamrun/blob/main/src/upgrades.ts](https://github.com/ben-gy/gloamrun/blob/main/src/upgrades.ts)
-- [https://github.com/ben-gy/gloamrun/tree/main/src/engine](https://github.com/ben-gy/gloamrun/tree/main/src/engine)
-- [https://github.com/ben-gy/gloamrun/tree/main/tests](https://github.com/ben-gy/gloamrun/tree/main/tests)
 - [https://github.com/ben-gy/gloamrun/commit/d1fee2534b09c3409ed2f1521041599b72260032](https://github.com/ben-gy/gloamrun/commit/d1fee2534b09c3409ed2f1521041599b72260032)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** Reverse-link from ben-gy/gh-game-factory index; GitHub commit search for Co-Authored-By Claude Opus game; https://github.com/ben-gy/gloamrun
 
 [Back to the awesome list](../../README.md)

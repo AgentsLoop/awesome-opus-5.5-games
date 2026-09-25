@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.7/10
-- **Screenshot rating:** 5.6/10 ([rated image](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/_planning/hub_day_with_jishuang_v3.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.6/10 ([manually reviewed image](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/_planning/hub_day_with_jishuang_v3.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Godot, GDScript, 2D, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 950,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/_planning/hub_day_with_jishuang_v3.png)
-- [screenshot 2](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/animations/enemies_spine/stone_demon/stone_demon.png)
+- [screenshot 1](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/_planning/hub_day_with_jishuang_v3.png) — 📸 5.6/10 · manual visual review · Use this frame for the game-level score. Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/archer47-qingmei/AIGameTest2/blob/master/art/animations/enemies_spine/stone_demon/stone_demon.png) — 📸 5.2/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
 
 ## Model attribution
 

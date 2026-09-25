@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Fable 5
 - **Technology:** Pygame, Python, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a documented, directly runnable Pygame arcade game with a headless self-test, a Windows release and explicit Claude Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/amccool/foodfight](https://github.com/amccool/foodfight)
 - **Evidence:** [direct model evidence](https://github.com/amccool/foodfight/commit/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753)
@@ -29,13 +31,13 @@ The README identifies Food Fight as a single-file Pygame arcade game and gives d
 ### Gameplay source
 
 - [https://github.com/amccool/foodfight/blob/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753/main.py](https://github.com/amccool/foodfight/blob/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753/main.py)
-- [https://github.com/amccool/foodfight/blob/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753/README.md](https://github.com/amccool/foodfight/blob/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753/README.md)
 - [https://github.com/amccool/foodfight/commit/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753](https://github.com/amccool/foodfight/commit/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for pygame game Co-Authored-By Claude Fable; https://github.com/amccool/foodfight
 
 [Back to the awesome list](../../README.md)

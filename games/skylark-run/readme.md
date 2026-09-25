@@ -1,6 +1,6 @@
 # Skylark Run
 
-> Top-list entry: **today** (#3), **this week** (#4), **this month** (#4).
+> Top-list entry: **this month** (#4).
 
 ![Skylark Run screenshot placeholder](skylark-run-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.6/10
 - **Model:** Claude Opus 5
 - **Technology:** JavaScript, Three.js, WebGL, Web Audio, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 3,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Deep browser flight loop with two craft implementations, procedural worlds, hazards, scoring, sectors, landing states, weather, score persistence, smoke tests, live demo and exact Opus attribution.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/jackpepper-vibe/SkylarkRun](https://github.com/jackpepper-vibe/SkylarkRun)
 - **Evidence:** [direct model evidence](https://github.com/jackpepper-vibe/SkylarkRun/commit/44f2aa94dc069523d8a4e30090231486f82d31a3)
@@ -29,17 +31,13 @@ The README documents an open-cockpit browser flight game with a monoplane ring c
 ### Gameplay source
 
 - [https://github.com/jackpepper-vibe/SkylarkRun#readme](https://github.com/jackpepper-vibe/SkylarkRun#readme)
-- [https://skylark-run.vercel.app](https://skylark-run.vercel.app)
-- [https://github.com/jackpepper-vibe/SkylarkRun/blob/master/src/main.js](https://github.com/jackpepper-vibe/SkylarkRun/blob/master/src/main.js)
-- [https://github.com/jackpepper-vibe/SkylarkRun/tree/master/src/plane](https://github.com/jackpepper-vibe/SkylarkRun/tree/master/src/plane)
-- [https://github.com/jackpepper-vibe/SkylarkRun/tree/master/src/heli](https://github.com/jackpepper-vibe/SkylarkRun/tree/master/src/heli)
-- [https://github.com/jackpepper-vibe/SkylarkRun/tree/master/tools](https://github.com/jackpepper-vibe/SkylarkRun/tree/master/tools)
 - [https://github.com/jackpepper-vibe/SkylarkRun/commit/44f2aa94dc069523d8a4e30090231486f82d31a3](https://github.com/jackpepper-vibe/SkylarkRun/commit/44f2aa94dc069523d8a4e30090231486f82d31a3)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12; https://github.com/jackpepper-vibe/SkylarkRun
 
 [Back to the awesome list](../../README.md)

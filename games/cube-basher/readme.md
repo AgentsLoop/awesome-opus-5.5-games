@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete source, clear objectives, controls, progression, and direct Fable attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/mreflow/cube-basher](https://github.com/mreflow/cube-basher)
 - **Evidence:** [creator-reported model evidence](https://github.com/mreflow/cube-basher/blob/main/README.md)
@@ -33,7 +35,8 @@ README and index.html contain a playable 3D survivors-like game with weapons, en
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/mreflow/cube-basher
 
 [Back to the awesome list](../../README.md)

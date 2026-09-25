@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.0/10
-- **Screenshot rating:** 6.5/10 ([rated image](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.5/10 ([manually reviewed image](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** libGDX, Kotlin, Native Android
 - **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
@@ -20,9 +20,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
-- [screenshot 2](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png)
-- [screenshot 3](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png)
+- [screenshot 1](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) — 📸 6.5/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png) — 📸 6.1/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/Eve-146T/cube-run/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png) — 📸 6.1/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

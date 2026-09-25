@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.0/10
-- **Screenshot rating:** 8.2/10 ([rated image](https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.2/10 ([manually reviewed image](https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** TypeScript, Three.js, WebGL2, Vite, Blender, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 6,100,000,000 (low confidence; static estimate, not measured).
@@ -21,10 +21,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Vheissu/saber-battle/blob/main/screenshots/01-saber-descent-temple.png)
-- [screenshot 2](https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png)
-- [screenshot 3](https://github.com/Vheissu/saber-battle/blob/main/screenshots/02-saber-descent-armory.png)
-- [screenshot 4](https://github.com/Vheissu/saber-battle/blob/main/screenshots/04-saber-descent-blade-effects.png)
+- [screenshot 1](https://github.com/Vheissu/saber-battle/blob/main/screenshots/01-saber-descent-temple.png) — 📸 7.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png) — 📸 8.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 3](https://github.com/Vheissu/saber-battle/blob/main/screenshots/02-saber-descent-armory.png) — 📸 7.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/Vheissu/saber-battle/blob/main/screenshots/04-saber-descent-blade-effects.png) — 📸 7.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

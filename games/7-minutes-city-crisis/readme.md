@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** GPT-6
 - **Technology:** Three.js, TypeScript, Vite, Web Audio API, LocalStorage, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete timed strategy loop, eight systems, limited resources, delayed causal rules, interventions, replay, local saves, deterministic tests, 100 seeded runs, Playwright coverage, public deployment and explicit GPT-6 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/hlforever11/gpt6-city-crisis](https://github.com/hlforever11/gpt6-city-crisis)
 - **Evidence:** [direct model evidence](https://github.com/hlforever11/gpt6-city-crisis#play)
@@ -33,7 +35,8 @@ The README explicitly identifies a real-time 3D browser strategy game created as
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/hlforever11/gpt6-city-crisis; https://api.github.com/search/repositories?q=GPT6+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

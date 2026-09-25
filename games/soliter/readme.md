@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Defold, Lua, Native desktop, Mobile
+- **Estimated FP32 operations/s at 60 FPS:** 350,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Real card-game project with board logic, UI, collections and extensive solver/replay tests.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ErrorSoul/soliter](https://github.com/ErrorSoul/soliter)
 - **Evidence:** [direct model evidence](https://github.com/ErrorSoul/soliter/commit/c04a4621b2c91fd877a02c26fe3e3039d0c24672)
@@ -28,15 +30,13 @@ The Defold project contains game.project, main collections, card game objects, t
 ### Gameplay source
 
 - [https://github.com/ErrorSoul/soliter/blob/master/main/Scripts/game_manager.script](https://github.com/ErrorSoul/soliter/blob/master/main/Scripts/game_manager.script)
-- [https://github.com/ErrorSoul/soliter/blob/master/main/Scripts/tableau_script.script](https://github.com/ErrorSoul/soliter/blob/master/main/Scripts/tableau_script.script)
-- [https://github.com/ErrorSoul/soliter/blob/master/main/Levels/soliter.collection](https://github.com/ErrorSoul/soliter/blob/master/main/Levels/soliter.collection)
-- [https://github.com/ErrorSoul/soliter/tree/master/solver/tests](https://github.com/ErrorSoul/soliter/tree/master/solver/tests)
 - [https://github.com/ErrorSoul/soliter/commit/c04a4621b2c91fd877a02c26fe3e3039d0c24672](https://github.com/ErrorSoul/soliter/commit/c04a4621b2c91fd877a02c26fe3e3039d0c24672)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Defold game Co-Authored-By Claude Opus; https://github.com/ErrorSoul/soliter
 
 [Back to the awesome list](../../README.md)

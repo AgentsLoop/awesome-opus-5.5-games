@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Roblox Engine, Luau, Rojo, Native game platform, Multiplayer arena, WebSocket backend
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Real multiplayer game project with a published place workflow, live public demo, client/server/shared source, round loop, persistent profiles, economy, arena systems, extensive tests and exact Fable gameplay commits.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/jonlabrie/roshambo_26](https://github.com/jonlabrie/roshambo_26)
 - **Evidence:** [direct model evidence](https://github.com/jonlabrie/roshambo_26/commit/1dd6eb0559cbe647e172d2093b12b132844617ba)
@@ -29,18 +31,13 @@ The repository contains a real Roblox/Rojo project with a declared DataModel, cl
 ### Gameplay source
 
 - [https://github.com/jonlabrie/roshambo_26/blob/main/README_DEPLOY.md](https://github.com/jonlabrie/roshambo_26/blob/main/README_DEPLOY.md)
-- [https://github.com/jonlabrie/roshambo_26/blob/main/roblox/default.project.json](https://github.com/jonlabrie/roshambo_26/blob/main/roblox/default.project.json)
-- [https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/client/main.client.luau](https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/client/main.client.luau)
-- [https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/server/main.server.luau](https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/server/main.server.luau)
-- [https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/server/RoundCoordinator.luau](https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/server/RoundCoordinator.luau)
-- [https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/shared/GameRules.luau](https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/shared/GameRules.luau)
-- [https://github.com/jonlabrie/roshambo_26/tree/main/roblox/tests](https://github.com/jonlabrie/roshambo_26/tree/main/roblox/tests)
 - [https://github.com/jonlabrie/roshambo_26/commit/1dd6eb0559cbe647e172d2093b12b132844617ba](https://github.com/jonlabrie/roshambo_26/commit/1dd6eb0559cbe647e172d2093b12b132844617ba)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for OpenGL game Co-Authored-By Claude Fable; https://github.com/jonlabrie/roshambo_26
 
 [Back to the awesome list](../../README.md)

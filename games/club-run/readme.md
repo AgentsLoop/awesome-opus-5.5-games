@@ -9,6 +9,8 @@
 - **Score:** 8.9/10
 - **Model:** Claude Fable 5.1
 - **Technology:** React, Vite, TypeScript, Hono, Cloudflare Workers, Cloudflare Durable Objects, Cloudflare D1/KV/R2, Native web
+- **Estimated FP32 operations/s at 60 FPS:** 140,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Four clearly separated game modes with real answer checking, lives/scoring, solo and multiplayer flows, remote sessions, a public Worker deployment and extensive current e2e/load-test evidence.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/cuongluu8/tenable](https://github.com/cuongluu8/tenable)
 - **Evidence:** [direct model evidence](https://github.com/cuongluu8/tenable/commit/1a7b4c2145a136617a80f32e6bdee62b23ee2d89)
@@ -28,17 +30,14 @@ The repository is a live football-trivia game platform with four independently p
 
 ### Gameplay source
 
-- [https://github.com/cuongluu8/tenable/blob/main/README.md](https://github.com/cuongluu8/tenable/blob/main/README.md)
 - [https://github.com/cuongluu8/tenable/tree/main/src/react-app](https://github.com/cuongluu8/tenable/tree/main/src/react-app)
-- [https://github.com/cuongluu8/tenable/tree/main/src/react-app/clubBadges](https://github.com/cuongluu8/tenable/tree/main/src/react-app/clubBadges)
-- [https://github.com/cuongluu8/tenable/tree/main/src/react-app/rollOfHonour](https://github.com/cuongluu8/tenable/tree/main/src/react-app/rollOfHonour)
-- [https://github.com/cuongluu8/tenable/tree/main/src/react-app/remote](https://github.com/cuongluu8/tenable/tree/main/src/react-app/remote)
 - [https://github.com/cuongluu8/tenable/commit/1a7b4c2145a136617a80f32e6bdee62b23ee2d89](https://github.com/cuongluu8/tenable/commit/1a7b4c2145a136617a80f32e6bdee62b23ee2d89)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 4
+- **Counted units in repository:** 4
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Claude Fable 5.1 dated 2026-09-13..2026-09-15; https://github.com/cuongluu8/tenable
 
 [Back to the awesome list](../../README.md)

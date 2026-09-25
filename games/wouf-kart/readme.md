@@ -1,6 +1,6 @@
 # Wouf Kart
 
-> Top-list entry: **today** (#10), **this week** (#10).
+> Top-list entry: **this week** (#10).
 
 ![Wouf Kart screenshot placeholder](wouf-kart-placeholder.svg)
 

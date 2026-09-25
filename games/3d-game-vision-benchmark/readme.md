@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5, Claude Fable 5
 - **Technology:** HTML, JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Benchmark design, playable source, multiple model evidence, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Yaxyobek0877/ai-model-benchmark-3d-game-vision](https://github.com/Yaxyobek0877/ai-model-benchmark-3d-game-vision)
 - **Evidence:** [creator-reported model evidence](https://github.com/Yaxyobek0877/ai-model-benchmark-3d-game-vision)
@@ -32,7 +34,8 @@ README and browser source document a playable 3D game built from one identical p
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Yaxyobek0877/ai-model-benchmark-3d-game-vision
 
 [Back to the awesome list](../../README.md)

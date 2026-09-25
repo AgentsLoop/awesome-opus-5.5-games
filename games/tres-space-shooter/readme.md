@@ -9,6 +9,8 @@
 - **Score:** 9.0/10
 - **Model:** Claude Opus 5
 - **Technology:** Nuxt 3, Vue 3, TresJS, Three.js, TypeScript, Pinia, Native web
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** A substantial source-complete Three.js space-shooter with a real frame loop, enemy AI, projectiles, combat/audio systems, progression, missions, 3D assets and extensive fresh gameplay polish.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/SilvioDoMine/tres-spaceshooter](https://github.com/SilvioDoMine/tres-spaceshooter)
 - **Evidence:** [repository-level model evidence](https://github.com/SilvioDoMine/tres-spaceshooter/commit/a8502003f4c589b2e8f03509485adf9e22428f55)
@@ -28,15 +30,13 @@ The README and TresJS source identify a real browser space-shooter with a 3D wor
 ### Gameplay source
 
 - [https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/README.md](https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/README.md)
-- [https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/app/components/game/GameOrchestrator.vue](https://github.com/SilvioDoMine/tres-spaceshooter/blob/main/app/components/game/GameOrchestrator.vue)
-- [https://github.com/SilvioDoMine/tres-spaceshooter/tree/main/app/components/game](https://github.com/SilvioDoMine/tres-spaceshooter/tree/main/app/components/game)
 - [https://github.com/SilvioDoMine/tres-spaceshooter/commit/a8502003f4c589b2e8f03509485adf9e22428f55](https://github.com/SilvioDoMine/tres-spaceshooter/commit/a8502003f4c589b2e8f03509485adf9e22428f55)
-- [https://github.com/SilvioDoMine/tres-spaceshooter/commit/2af9d5ff8a0f6a8198d481679e9d6d40bd16cb87](https://github.com/SilvioDoMine/tres-spaceshooter/commit/2af9d5ff8a0f6a8198d481679e9d6d40bd16cb87)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub game commit search dated 2026-09-13..2026-09-15; https://github.com/SilvioDoMine/tres-spaceshooter
 
 [Back to the awesome list](../../README.md)

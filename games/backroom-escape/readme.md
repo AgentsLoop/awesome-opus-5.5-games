@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Fable 5
 - **Technology:** Three.js, Next.js, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/StarKnightt/Backroom-Escape](https://github.com/StarKnightt/Backroom-Escape)
 - **Evidence:** [creator-reported model evidence](https://github.com/StarKnightt/Backroom-Escape)
@@ -32,7 +34,8 @@ Playable first-person survival-horror game with objectives and controls; reposit
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/StarKnightt/Backroom-Escape
 
 [Back to the awesome list](../../README.md)

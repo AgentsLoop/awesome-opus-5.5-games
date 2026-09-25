@@ -6,13 +6,15 @@
 
 ## At a glance
 
-- **Score:** 8.0/10
+- **Score:** 7.8/10
 - **Model:** Claude Opus 4.6
-- **Technology:** HTML, JavaScript, Vite, Canvas, Godot 4.6, GDScript, Browser, Web export
+- **Technology:** HTML, JavaScript, Vite, Canvas, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Seven independently named game packages, source directories, metadata, tests, live site, and repository-level Claude Code plus Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/vi-o-al-ai/claude_playground](https://github.com/vi-o-al-ai/claude_playground)
 - **Evidence:** [repository-level model evidence](https://github.com/vi-o-al-ai/claude_playground/commit/b240aa12f03808c451b61156a7c2fff7a32f7c2d)
-- **Live demo:** [open demo](https://vi-o-al-ai.github.io/claude_playground/)
+- **Live demo:** [open demo](https://vi-o-al-ai.github.io/claude_playground/games/solitaire/)
 
 ## Screenshots
 
@@ -28,19 +30,14 @@ The repository README describes a browser-based arcade mostly written with Claud
 
 ### Gameplay source
 
-- [https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/in-a-nutshell](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/in-a-nutshell)
 - [https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/solitaire](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/solitaire)
-- [https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/space-invaders](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/space-invaders)
-- [https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/splendor](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/splendor)
-- [https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/sudoku](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/sudoku)
-- [https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/tic-tac-toe](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/tic-tac-toe)
-- [https://github.com/vi-o-al-ai/claude_playground/tree/main/games/godot/runner](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/godot/runner)
 - [https://github.com/vi-o-al-ai/claude_playground/commit/b240aa12f03808c451b61156a7c2fff7a32f7c2d](https://github.com/vi-o-al-ai/claude_playground/commit/b240aa12f03808c451b61156a7c2fff7a32f7c2d)
 
 ## Verification notes
 
 - **Status:** verified_source_and_live_site
-- **Counted units:** 7
+- **Counted units in repository:** 7
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Co-Authored-By Claude Opus 4.6; https://github.com/vi-o-al-ai/claude_playground
 
 [Back to the awesome list](../../README.md)

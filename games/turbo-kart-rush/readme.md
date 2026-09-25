@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.0/10
-- **Screenshot rating:** 8.7/10 ([rated image](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.7/10 ([manually reviewed image](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, TypeScript, Vite, WebGL2, Web Audio API, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 7,000,000,000 (low confidence; static estimate, not measured).
@@ -21,10 +21,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/title.jpg)
-- [screenshot 2](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/character-select.jpg)
-- [screenshot 3](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/track-select.jpg)
-- [screenshot 4](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg)
+- [screenshot 1](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/title.jpg) — 📸 7.5/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/character-select.jpg) — 📸 8.3/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 3](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/track-select.jpg) — 📸 8.3/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 4](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg) — 📸 8.7/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

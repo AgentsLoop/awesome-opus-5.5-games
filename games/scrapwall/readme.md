@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 3.0/10 ([rated image](https://github.com/ben-gy/scrapwall/blob/main/public/og.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 3.0/10 ([manually reviewed image](https://github.com/ben-gy/scrapwall/blob/main/public/og.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** TypeScript, Vite, Canvas 2D, Weighted-Dijkstra pathfinding, WebRTC, Trystero, Browser multiplayer
 - **Estimated FP32 operations/s at 60 FPS:** 780,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/ben-gy/scrapwall/blob/main/public/og.png)
+- [screenshot 1](https://github.com/ben-gy/scrapwall/blob/main/public/og.png) — 📸 3.0/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

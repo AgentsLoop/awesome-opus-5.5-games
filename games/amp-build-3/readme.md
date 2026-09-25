@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Fable 5
 - **Technology:** Three.js, JavaScript, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/zuwasi/Baboons-Over-London](https://github.com/zuwasi/Baboons-Over-London)
 - **Evidence:** [direct model evidence](https://github.com/zuwasi/Baboons-Over-London)
@@ -32,7 +34,8 @@ Benchmark repository contains six playable HTML FPS builds with controls and Thr
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 6
+- **Counted units in repository:** 6
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/zuwasi/Baboons-Over-London
 
 [Back to the awesome list](../../README.md)

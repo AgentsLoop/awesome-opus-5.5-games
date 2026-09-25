@@ -9,6 +9,8 @@
 - **Score:** 8.4/10
 - **Model:** Claude Opus 4.8
 - **Technology:** raylib, C99, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 550,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete economy game with modular C99 source, save state, traders and event systems.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Afillex/merchants-keep](https://github.com/Afillex/merchants-keep)
 - **Evidence:** [direct model evidence](https://github.com/Afillex/merchants-keep/commit/5a5203cad5b169bd6e8ecaf4ef61ed3519ac8a53)
@@ -28,13 +30,13 @@ The README describes a 2D merchant trading game with a simulated economy, trader
 ### Gameplay source
 
 - [https://github.com/Afillex/merchants-keep/blob/main/README.md](https://github.com/Afillex/merchants-keep/blob/main/README.md)
-- [https://github.com/Afillex/merchants-keep/blob/main/src/main.c](https://github.com/Afillex/merchants-keep/blob/main/src/main.c)
 - [https://github.com/Afillex/merchants-keep/commit/5a5203cad5b169bd6e8ecaf4ef61ed3519ac8a53](https://github.com/Afillex/merchants-keep/commit/5a5203cad5b169bd6e8ecaf4ef61ed3519ac8a53)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for raylib game Co-Authored-By Claude Opus; https://github.com/Afillex/merchants-keep
 
 [Back to the awesome list](../../README.md)

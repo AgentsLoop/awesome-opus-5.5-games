@@ -9,6 +9,8 @@
 - **Score:** 9.0/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Unreal Engine 5, C++, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 2,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete Unreal project shape with committed map and broad simulation gameplay source plus direct Opus 4.6 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/JamesTroy/ZooKeeper](https://github.com/JamesTroy/ZooKeeper)
 - **Evidence:** [direct model evidence](https://github.com/JamesTroy/ZooKeeper/commit/b5471a06476f7f5f78989789469acf23cf18a47e)
@@ -28,15 +30,13 @@ The Unreal project contains a ZooKeeper.uproject, a committed ZooKeeper.umap, an
 ### Gameplay source
 
 - [https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Core/ZooGameMode.cpp](https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Core/ZooGameMode.cpp)
-- [https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Animals/AnimalBase.cpp](https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Animals/AnimalBase.cpp)
-- [https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Subsystems/AnimalManagerSubsystem.cpp](https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Subsystems/AnimalManagerSubsystem.cpp)
-- [https://github.com/JamesTroy/ZooKeeper/blob/main/Content/ZooKeeper.umap](https://github.com/JamesTroy/ZooKeeper/blob/main/Content/ZooKeeper.umap)
 - [https://github.com/JamesTroy/ZooKeeper/commit/b5471a06476f7f5f78989789469acf23cf18a47e](https://github.com/JamesTroy/ZooKeeper/commit/b5471a06476f7f5f78989789469acf23cf18a47e)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Unreal playable game Co-Authored-By Claude Opus; https://github.com/JamesTroy/ZooKeeper
 
 [Back to the awesome list](../../README.md)

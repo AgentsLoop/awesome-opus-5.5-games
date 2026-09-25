@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Opus 4.6
 - **Technology:** React Native, Expo, JavaScript, Native mobile
+- **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a clearly named mobile game with multiple gameplay systems and direct source evidence, plus explicit Claude Opus attribution in the initial commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/aalicia1208/stride-n-conquer](https://github.com/aalicia1208/stride-n-conquer)
 - **Evidence:** [direct model evidence](https://github.com/aalicia1208/stride-n-conquer/commit/c4ef156505bd4b3202f8e60940698902a24fd240)
@@ -28,14 +30,13 @@ The initial commit explicitly describes a mobile territory-claiming walking game
 ### Gameplay source
 
 - [https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/App.js](https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/App.js)
-- [https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/src/context/GameContext.js](https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/src/context/GameContext.js)
-- [https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/src/screens/MapScreen.js](https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/src/screens/MapScreen.js)
 - [https://github.com/aalicia1208/stride-n-conquer/commit/c4ef156505bd4b3202f8e60940698902a24fd240](https://github.com/aalicia1208/stride-n-conquer/commit/c4ef156505bd4b3202f8e60940698902a24fd240)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Stride game Co-Authored-By Claude Opus; https://github.com/aalicia1208/stride-n-conquer
 
 [Back to the awesome list](../../README.md)

@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 6.8/10 ([rated image](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_battle.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.8/10 ([manually reviewed image](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_battle.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** Go, Ebitengine, Native desktop, Android
 - **Estimated FP32 operations/s at 60 FPS:** 1,400,000,000 (low confidence; static estimate, not measured).
@@ -20,39 +20,39 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/courage_cave_blue_orb_obtained.png)
-- [screenshot 2](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/dhama_menu.png)
-- [screenshot 3](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/dhama_reclass_success.png)
-- [screenshot 4](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_guard_visible_block.png)
-- [screenshot 5](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_invisibility_pass.png)
-- [screenshot 6](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_push_puzzle_before.png)
-- [screenshot 7](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_push_puzzle_solved.png)
-- [screenshot 8](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/final_key_obtained.png)
-- [screenshot 9](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/gaia_sword_obtained.png)
-- [screenshot 10](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ghost_ship_loves_memory_chest.png)
-- [screenshot 11](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ghost_ship_overworld.png)
-- [screenshot 12](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_battle.png)
-- [screenshot 13](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_post.png)
-- [screenshot 14](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_second_battle.png)
-- [screenshot 15](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_purple_orb_obtained.png)
-- [screenshot 16](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/lancel_courage_trial_prompt.png)
-- [screenshot 17](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/merchant_revolution_yellow_orb_obtained.png)
-- [screenshot 18](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/merchant_settlement_first_offer.png)
-- [screenshot 19](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/olivia_cape_memory_reunion.png)
-- [screenshot 20](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/pirates_red_orb_hidden_entrance.png)
-- [screenshot 21](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/pirates_red_orb_obtained.png)
-- [screenshot 22](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ship_first_sailing.png)
-- [screenshot 23](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_dark_lamp_night.png)
-- [screenshot 24](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_dark_lamp_obtained.png)
-- [screenshot 25](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_final_key_door_closed.png)
-- [screenshot 26](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_final_key_door_open.png)
-- [screenshot 27](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_green_orb_dialogue.png)
-- [screenshot 28](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/thirsty_pitcher_revealed.png)
-- [screenshot 29](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/ending_the_end_runtime.png)
-- [screenshot 30](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/merchant_settlement_handler41_dialogue.png)
-- [screenshot 31](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/merchant_settlement_handler41_shop.png)
-- [screenshot 32](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/party_field_hud.png)
-- [screenshot 33](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/title_attract_warrior.png)
+- [screenshot 1](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/courage_cave_blue_orb_obtained.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/dhama_menu.png) — 📸 5.6/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 3](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/dhama_reclass_success.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_guard_visible_block.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 5](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_invisibility_pass.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 6](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_push_puzzle_before.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 7](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/eginbear_push_puzzle_solved.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 8](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/final_key_obtained.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 9](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/gaia_sword_obtained.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 10](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ghost_ship_loves_memory_chest.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 11](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ghost_ship_overworld.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 12](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_battle.png) — 📸 6.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 13](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_first_post.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 14](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_orochi_second_battle.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 15](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/jipang_purple_orb_obtained.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 16](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/lancel_courage_trial_prompt.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 17](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/merchant_revolution_yellow_orb_obtained.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 18](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/merchant_settlement_first_offer.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 19](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/olivia_cape_memory_reunion.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 20](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/pirates_red_orb_hidden_entrance.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 21](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/pirates_red_orb_obtained.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 22](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/ship_first_sailing.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 23](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_dark_lamp_night.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 24](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_dark_lamp_obtained.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 25](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_final_key_door_closed.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 26](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_final_key_door_open.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 27](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/teidon_green_orb_dialogue.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 28](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/docs/img/thirsty_pitcher_revealed.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 29](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/ending_the_end_runtime.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 30](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/merchant_settlement_handler41_dialogue.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 31](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/merchant_settlement_handler41_shop.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 32](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/party_field_hud.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 33](https://github.com/wicanr2/kinginformation-dq3-re/blob/HEAD/dq3_remake_ebitan/docs/img/title_attract_warrior.png) — 📸 5.6/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
 
 ## Model attribution
 

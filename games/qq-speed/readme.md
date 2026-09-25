@@ -1,6 +1,6 @@
 # QQ Speed
 
-> Top-list entry: **today** (#6), **this week** (#6).
+> Top-list entry: **this week** (#6).
 
 ![QQ Speed screenshot placeholder](qq-speed-placeholder.svg)
 

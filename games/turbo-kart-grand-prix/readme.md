@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 9.2/10 ([rated image](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 9.2/10 ([manually reviewed image](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, JavaScript, WebGL, Web Audio API
 - **Estimated FP32 operations/s at 60 FPS:** 2,400,000,000 (low confidence; static estimate, not measured).
@@ -21,10 +21,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg)
-- [screenshot 2](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/menu.jpg)
-- [screenshot 3](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/hill.jpg)
-- [screenshot 4](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/star.jpg)
+- [screenshot 1](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg) — 📸 9.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 2](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/menu.jpg) — 📸 8.0/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame has strong visible polish.
+- [screenshot 3](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/hill.jpg) — 📸 8.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 4](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/star.jpg) — 📸 8.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

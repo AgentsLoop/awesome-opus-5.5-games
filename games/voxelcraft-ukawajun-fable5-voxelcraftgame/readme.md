@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5
 - **Technology:** Python, NumPy, Voxel rendering
+- **Estimated FP32 operations/s at 60 FPS:** 7,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Detailed design, source, systems, and direct method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/UkawaJun/Fable5-VoxelCraftGame](https://github.com/UkawaJun/Fable5-VoxelCraftGame)
 - **Evidence:** [creator-reported model evidence](https://github.com/UkawaJun/Fable5-VoxelCraftGame/blob/main/README.md)
@@ -32,7 +34,8 @@ README, DESIGN.md, and source describe a playable voxel game with physics, water
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/UkawaJun/Fable5-VoxelCraftGame
 
 [Back to the awesome list](../../README.md)

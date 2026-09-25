@@ -9,6 +9,8 @@
 - **Score:** 8.4/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Unity, C#, Universal Render Pipeline, Native
+- **Estimated FP32 operations/s at 60 FPS:** 1,400,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large coherent Unity shooter source with scene, combat, AI, weapons, vehicles and multiplayer-oriented systems, backed by direct Opus 4.8 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/danius123q5-creator/danich_game](https://github.com/danius123q5-creator/danich_game)
 - **Evidence:** [direct model evidence](https://github.com/danius123q5-creator/danich_game/commit/15a5d8a466c51cf6c5c4e209c6234b552a8aceb6)
@@ -28,13 +30,13 @@ The repository is a Unity URP project with a SampleScene, player controller, zom
 ### Gameplay source
 
 - [https://github.com/danius123q5-creator/danich_game/blob/main/Assets/Scenes/SampleScene.unity](https://github.com/danius123q5-creator/danich_game/blob/main/Assets/Scenes/SampleScene.unity)
-- [https://github.com/danius123q5-creator/danich_game/tree/main/Assets/Scripts](https://github.com/danius123q5-creator/danich_game/tree/main/Assets/Scripts)
 - [https://github.com/danius123q5-creator/danich_game/commit/15a5d8a466c51cf6c5c4e209c6234b552a8aceb6](https://github.com/danius123q5-creator/danich_game/commit/15a5d8a466c51cf6c5c4e209c6234b552a8aceb6)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Unity game Co-Authored-By Claude Opus; https://github.com/danius123q5-creator/danich_game
 
 [Back to the awesome list](../../README.md)

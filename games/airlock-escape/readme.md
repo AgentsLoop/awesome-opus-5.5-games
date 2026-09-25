@@ -9,10 +9,12 @@
 - **Score:** 8.5/10
 - **Model:** Claude Fable 5
 - **Technology:** Three.js, cannon-es, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/shironagasu-ai/claude-fable5-3D-games](https://github.com/shironagasu-ai/claude-fable5-3D-games)
 - **Evidence:** [direct model evidence](https://github.com/shironagasu-ai/claude-fable5-3D-games)
-- **Live demo:** [open demo](https://shironagasu-ai.github.io/claude-fable5-3D-games/games/airlock-escape/)
+- **Live demo:** [open demo](https://shironagasu-ai.github.io/claude-fable5-3D-games/games/aurora-sea/)
 
 ## Screenshots
 
@@ -33,7 +35,8 @@ Repository README identifies seven browser-playable games, Three.js/cannon-es im
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 7
+- **Counted units in repository:** 7
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/shironagasu-ai/claude-fable5-3D-games
 
 [Back to the awesome list](../../README.md)

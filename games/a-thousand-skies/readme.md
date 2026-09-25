@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, Vite, WebGL, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 1,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/threapchills/MagicCarpetWizard](https://github.com/threapchills/MagicCarpetWizard)
 - **Evidence:** [creator-reported model evidence](https://github.com/threapchills/MagicCarpetWizard)
@@ -33,7 +35,8 @@ Playable endless 3D carpet-flying arcade game with combat, bosses, races, contro
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/threapchills/MagicCarpetWizard; https://github.com/xianyu110/awesome-gpt-6-astra
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, Rapier, JavaScript, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/zainzafar90/call-of-duty-phadda](https://github.com/zainzafar90/call-of-duty-phadda)
 - **Evidence:** [direct model evidence](https://github.com/zainzafar90/call-of-duty-phadda)
@@ -32,7 +34,8 @@ The SomethingBig games directory reports this game. The README describes a Claud
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://somethingbig.ai/games; https://github.com/zainzafar90/call-of-duty-phadda
 
 [Back to the awesome list](../../README.md)

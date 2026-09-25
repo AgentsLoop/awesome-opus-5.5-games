@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Fable 5
 - **Technology:** TypeScript, WebGPU, WGSL
+- **Estimated FP32 operations/s at 60 FPS:** 4,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete TypeScript source, explicit puzzle objective, WebGPU implementation, tests, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/leonvanzyl/claude-fable-5-mirror-game](https://github.com/leonvanzyl/claude-fable-5-mirror-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/leonvanzyl/claude-fable-5-mirror-game/blob/main/README.md)
@@ -32,7 +34,8 @@ README and src implement a playable reflection puzzle: rotate mirrors and guide 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/leonvanzyl/claude-fable-5-mirror-game
 
 [Back to the awesome list](../../README.md)

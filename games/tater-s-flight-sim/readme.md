@@ -1,13 +1,13 @@
 # Tater's Flight Sim
 
-> Top-list entry: **today** (#4), **this week** (#4).
+> Top-list entry: **this week** (#4).
 
 ![Tater's Flight Sim screenshot](https://raw.githubusercontent.com/JaredTate/tatertotsflightsim/main/docs/screenshots/a10-burning-convoy.jpg)
 
 ## At a glance
 
 - **Score:** 9.2/10
-- **Screenshot rating:** 8.2/10 ([rated image](https://github.com/JaredTate/tatertotsflightsim/blob/main/docs/screenshots/a10-burning-convoy.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.2/10 ([manually reviewed image](https://github.com/JaredTate/tatertotsflightsim/blob/main/docs/screenshots/a10-burning-convoy.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** Three.js, TypeScript, Vite, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/JaredTate/tatertotsflightsim/blob/main/docs/screenshots/a10-burning-convoy.jpg)
+- [screenshot 1](https://github.com/JaredTate/tatertotsflightsim/blob/main/docs/screenshots/a10-burning-convoy.jpg) — 📸 8.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

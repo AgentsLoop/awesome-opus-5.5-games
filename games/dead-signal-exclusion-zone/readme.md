@@ -1,6 +1,6 @@
 # Dead Signal: Exclusion Zone
 
-> Top-list entry: **today** (#3), **this week** (#3).
+> Top-list entry: **this week** (#3).
 
 ![Dead Signal: Exclusion Zone screenshot placeholder](dead-signal-exclusion-zone-placeholder.svg)
 

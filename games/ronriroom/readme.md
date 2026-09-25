@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Opus 4.6
 - **Technology:** raylib, C, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Four distinct documented C/Raylib games with individual source trees, tests and gameplay loops.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/NaoyaNakagawa0124/auto-dev-projects](https://github.com/NaoyaNakagawa0124/auto-dev-projects)
 - **Evidence:** [direct model evidence](https://github.com/NaoyaNakagawa0124/auto-dev-projects/commit/cdda4207959660c3db687c13869548e46123b742)
@@ -27,16 +29,14 @@ This monorepo contains four distinct Raylib C games, each with its own README an
 
 ### Gameplay source
 
-- [https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tenaoshi](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tenaoshi)
-- [https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/namioto](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/namioto)
-- [https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tsundoku](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tsundoku)
 - [https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/ronriroom](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/ronriroom)
 - [https://github.com/NaoyaNakagawa0124/auto-dev-projects/commit/cdda4207959660c3db687c13869548e46123b742](https://github.com/NaoyaNakagawa0124/auto-dev-projects/commit/cdda4207959660c3db687c13869548e46123b742)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 4
+- **Counted units in repository:** 4
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for raylib game Co-Authored-By Claude Opus; https://github.com/NaoyaNakagawa0124/auto-dev-projects
 
 [Back to the awesome list](../../README.md)

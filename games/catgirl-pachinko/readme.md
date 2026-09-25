@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.3/10
-- **Screenshot rating:** 7.2/10 ([rated image](https://github.com/Maoku/Opus55CatgirlPachi/blob/main/Opus55CatgirlPachi.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.2/10 ([manually reviewed image](https://github.com/Maoku/Opus55CatgirlPachi/blob/main/Opus55CatgirlPachi.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** TypeScript, WebGL2, Rapier 2D, Vite, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Maoku/Opus55CatgirlPachi/blob/main/Opus55CatgirlPachi.jpg)
+- [screenshot 1](https://github.com/Maoku/Opus55CatgirlPachi/blob/main/Opus55CatgirlPachi.jpg) — 📸 7.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

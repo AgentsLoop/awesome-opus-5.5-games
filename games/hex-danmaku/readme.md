@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.2/10
-- **Screenshot rating:** 5.8/10 ([rated image](https://github.com/macjoocan/hex-danmaku/blob/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e/assets/fantasy/forest-sanctuary.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.8/10 ([manually reviewed image](https://github.com/macjoocan/hex-danmaku/blob/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e/assets/fantasy/forest-sanctuary.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** React 18 UMD, Babel, JavaScript, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 120,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/macjoocan/hex-danmaku/blob/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e/assets/fantasy/forest-sanctuary.png)
+- [screenshot 1](https://github.com/macjoocan/hex-danmaku/blob/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e/assets/fantasy/forest-sanctuary.png) — 📸 5.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

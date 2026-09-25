@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.4/10
-- **Screenshot rating:** 6.9/10 ([rated image](https://github.com/echosoar/raft/blob/main/image.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.9/10 ([manually reviewed image](https://github.com/echosoar/raft/blob/main/image.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** HTML, JavaScript, Three.js, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 2,600,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/echosoar/raft/blob/main/image.png)
+- [screenshot 1](https://github.com/echosoar/raft/blob/main/image.png) — 📸 6.9/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

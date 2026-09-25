@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, TypeScript, Vite, WebGL, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 2,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong source and live-demo evidence with controls, objectives, save state, tests, and a substantial playable chapter; reduce attribution confidence because model evidence is inferred.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/LucasM25-max/dnd-astra](https://github.com/LucasM25-max/dnd-astra)
 - **Evidence:** [inferred model evidence](https://github.com/LucasM25-max/dnd-astra/blob/main/README.md)
@@ -32,7 +34,8 @@ README contains a playable Three.js RPG prototype with a narrated chapter, wagon
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/LucasM25-max/dnd-astra; https://data.gharchive.org/2026-09-09-6.json.gz
 
 [Back to the awesome list](../../README.md)

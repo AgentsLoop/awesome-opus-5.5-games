@@ -9,6 +9,8 @@
 - **Score:** 8.1/10
 - **Model:** Claude Opus 4.8
 - **Technology:** MonoGame, .NET, C#, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete self-contained idle game loop with world/entities/types/layout and direct Opus 4.8 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/duke1937/Cracked](https://github.com/duke1937/Cracked)
 - **Evidence:** [direct model evidence](https://github.com/duke1937/Cracked/commit/d9e87bbaa98f7b2771e9baef002fef1374ed73b)
@@ -28,14 +30,13 @@ The cited commit describes a self-contained endless egg-money game with egg purc
 ### Gameplay source
 
 - [https://github.com/duke1937/Cracked/blob/main/CrackedGame.cs](https://github.com/duke1937/Cracked/blob/main/CrackedGame.cs)
-- [https://github.com/duke1937/Cracked/blob/main/Game/World.cs](https://github.com/duke1937/Cracked/blob/main/Game/World.cs)
-- [https://github.com/duke1937/Cracked/blob/main/Game/Entities.cs](https://github.com/duke1937/Cracked/blob/main/Game/Entities.cs)
 - [https://github.com/duke1937/Cracked/commit/d9e87bbaa98f7b2771e9baef002fef1374ed73b](https://github.com/duke1937/Cracked/commit/d9e87bbaa98f7b2771e9baef002fef1374ed73b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for MonoGame game Co-Authored-By Claude Opus; https://github.com/duke1937/Cracked
 
 [Back to the awesome list](../../README.md)

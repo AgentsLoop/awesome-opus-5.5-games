@@ -1,6 +1,6 @@
 # Slide Rush
 
-> Top-list entry: **today** (#8), **this week** (#8).
+> Top-list entry: **this week** (#8).
 
 ![Slide Rush screenshot placeholder](slide-rush-placeholder.svg)
 

@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, JavaScript, WebGL, Canvas 2D
+- **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Time-dev-alt/Fable-5.1-Games](https://github.com/Time-dev-alt/Fable-5.1-Games)
 - **Evidence:** [creator-reported model evidence](https://github.com/Time-dev-alt/Fable-5.1-Games/blob/main/PLAY%20FC%2027.html)
@@ -32,7 +34,8 @@ Repository contains two large playable HTML game builds with game canvases and i
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 2
+- **Counted units in repository:** 2
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Time-dev-alt/Fable-5.1-Games
 
 [Back to the awesome list](../../README.md)

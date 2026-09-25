@@ -9,6 +9,8 @@
 - **Score:** 9.1/10
 - **Model:** Claude Fable 5
 - **Technology:** TypeScript, Phaser 3, Vite, Canvas/WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Shipped browser baseball loop with drafting, pitching, batting, innings, characters, scenes, live demo, tests and exact Fable attribution on a gameplay/UI commit; the unfinished Three.js spike is excluded.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/srgirsky/recess-sports](https://github.com/srgirsky/recess-sports)
 - **Evidence:** [direct model evidence](https://github.com/srgirsky/recess-sports/commit/7c98b233a08ac0dc2df8fccff0d3627d8112af3a)
@@ -29,18 +31,13 @@ The README documents Recess Sports v1 as a shipped browser baseball game: draft 
 ### Gameplay source
 
 - [https://github.com/srgirsky/recess-sports#readme](https://github.com/srgirsky/recess-sports#readme)
-- [https://srgirsky.github.io/recess-sports/](https://srgirsky.github.io/recess-sports/)
-- [https://github.com/srgirsky/recess-sports/blob/main/src/scenes/GameScene.ts](https://github.com/srgirsky/recess-sports/blob/main/src/scenes/GameScene.ts)
-- [https://github.com/srgirsky/recess-sports/blob/main/src/scenes/GameSetupScene.ts](https://github.com/srgirsky/recess-sports/blob/main/src/scenes/GameSetupScene.ts)
-- [https://github.com/srgirsky/recess-sports/blob/main/src/scenes/ui/BattingView.ts](https://github.com/srgirsky/recess-sports/blob/main/src/scenes/ui/BattingView.ts)
-- [https://github.com/srgirsky/recess-sports/blob/main/src/systems/atbat.ts](https://github.com/srgirsky/recess-sports/blob/main/src/systems/atbat.ts)
-- [https://github.com/srgirsky/recess-sports/tree/main/tests](https://github.com/srgirsky/recess-sports/tree/main/tests)
 - [https://github.com/srgirsky/recess-sports/commit/7c98b233a08ac0dc2df8fccff0d3627d8112af3a](https://github.com/srgirsky/recess-sports/commit/7c98b233a08ac0dc2df8fccff0d3627d8112af3a)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Co-Authored-By Claude Fable game; https://github.com/srgirsky/recess-sports
 
 [Back to the awesome list](../../README.md)

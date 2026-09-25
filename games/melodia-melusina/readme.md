@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** Unreal Engine 5.8, C++, Blueprints, Blender, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 5,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a substantial Unreal project, explicit gameplay systems, maps, source, historical Astra checkpoint, build evidence and current verification documents.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/fromage3900/MelodiaMelusinaV2](https://github.com/fromage3900/MelodiaMelusinaV2)
 - **Evidence:** [direct model evidence](https://github.com/fromage3900/MelodiaMelusinaV2)
@@ -32,7 +34,8 @@ The repository contains a real Unreal Engine 5.8 project with BS_GodFile.uprojec
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/fromage3900/MelodiaMelusinaV2; GitHub code search: GPT-6 Astra game
 
 [Back to the awesome list](../../README.md)

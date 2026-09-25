@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Opus 4.6
 - **Technology:** HTML, JavaScript, Canvas 2D, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Opus experiment label, complete single-file source, defense/wave loop, score, ammo, narrative choices, answer grid and game-over state.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/dmbartles/math-defense-the-last-frontier](https://github.com/dmbartles/math-defense-the-last-frontier)
 - **Evidence:** [direct model evidence](https://github.com/dmbartles/math-defense-the-last-frontier/blob/main/index.html)
@@ -32,7 +34,8 @@ The README identifies the repository as a Claude Opus 4.6 experiment. Its 55 KB 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** Reverse-link expansion from https://github.com/jphein/opus; https://github.com/dmbartles/math-defense-the-last-frontier
 
 [Back to the awesome list](../../README.md)

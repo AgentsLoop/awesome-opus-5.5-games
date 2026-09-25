@@ -9,6 +9,8 @@
 - **Score:** 7.8/10
 - **Model:** Claude Opus 4.7
 - **Technology:** Unreal Engine 5.7, Blueprints, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,400,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Committed Unreal map and Blueprint gameplay assets with explicit project documentation and direct Opus 4.7 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Yufang-cloud/Project2-UE-ChallengeGame](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame)
 - **Evidence:** [direct model evidence](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/commit/2a015331d8ef3424bd7da682081c8ba291cf142b)
@@ -28,15 +30,13 @@ The project README describes a simple Unreal Engine 5.7 challenge game built wit
 ### Gameplay source
 
 - [https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/README.md](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/README.md)
-- [https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/Code/Mechanism/BP_Launch.uasset](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/Code/Mechanism/BP_Launch.uasset)
-- [https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/Code/Character/BP_ChallengeCharacter.uasset](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/Code/Character/BP_ChallengeCharacter.uasset)
-- [https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/ChallengeGame/Maps/Level_Scene_01.umap](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/ChallengeGame/Maps/Level_Scene_01.umap)
 - [https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/commit/2a015331d8ef3424bd7da682081c8ba291cf142b](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/commit/2a015331d8ef3424bd7da682081c8ba291cf142b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Unreal playable game Co-Authored-By Claude Opus; https://github.com/Yufang-cloud/Project2-UE-ChallengeGame
 
 [Back to the awesome list](../../README.md)

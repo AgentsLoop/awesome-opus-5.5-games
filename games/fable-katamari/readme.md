@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, Vite, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 2,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, docs, deployment, mechanics, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/aieo-product/fableDemoGame](https://github.com/aieo-product/fableDemoGame)
 - **Evidence:** [creator-reported model evidence](https://github.com/aieo-product/fableDemoGame/blob/main/README.md)
@@ -33,7 +35,8 @@ README, source, docs, and live app describe a playable browser Katamari-style ga
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/aieo-product/fableDemoGame
 
 [Back to the awesome list](../../README.md)

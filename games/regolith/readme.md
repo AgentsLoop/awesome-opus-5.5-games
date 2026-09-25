@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** Claude Opus 4.8, Claude Opus 5
 - **Technology:** Godot 4.7.1, GDScript, Native desktop, 2D isometric rendering, Colony builder, Simulation and economy
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete native colony builder with a documented economy loop, fixed-tick simulation, resource chains, prospecting, mining, colonists, hostile weather, save/load, releases, assets and extensive tests.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/mnorrsken/fringeworlds](https://github.com/mnorrsken/fringeworlds)
 - **Evidence:** [direct model evidence](https://github.com/mnorrsken/fringeworlds/commit/429d51ccef4faf41245886ac90dcb1faf1242ee7)
@@ -28,19 +30,13 @@ The README provides Godot 4.7.1 make run and make export commands for Regolith, 
 ### Gameplay source
 
 - [https://github.com/mnorrsken/fringeworlds/blob/main/README.md](https://github.com/mnorrsken/fringeworlds/blob/main/README.md)
-- [https://github.com/mnorrsken/fringeworlds/blob/main/project.godot](https://github.com/mnorrsken/fringeworlds/blob/main/project.godot)
-- [https://github.com/mnorrsken/fringeworlds/blob/main/main.tscn](https://github.com/mnorrsken/fringeworlds/blob/main/main.tscn)
-- [https://github.com/mnorrsken/fringeworlds/blob/main/main.gd](https://github.com/mnorrsken/fringeworlds/blob/main/main.gd)
-- [https://github.com/mnorrsken/fringeworlds/tree/main/sim](https://github.com/mnorrsken/fringeworlds/tree/main/sim)
-- [https://github.com/mnorrsken/fringeworlds/tree/main/render](https://github.com/mnorrsken/fringeworlds/tree/main/render)
-- [https://github.com/mnorrsken/fringeworlds/tree/main/ui](https://github.com/mnorrsken/fringeworlds/tree/main/ui)
-- [https://github.com/mnorrsken/fringeworlds/tree/main/tests](https://github.com/mnorrsken/fringeworlds/tree/main/tests)
 - [https://github.com/mnorrsken/fringeworlds/commit/429d51ccef4faf41245886ac90dcb1faf1242ee7](https://github.com/mnorrsken/fringeworlds/commit/429d51ccef4faf41245886ac90dcb1faf1242ee7)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Opus 4.8; https://github.com/mnorrsken/fringeworlds
 
 [Back to the awesome list](../../README.md)

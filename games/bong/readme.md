@@ -1,6 +1,6 @@
 # Bong — 末法残土
 
-> Top-list entry: **this week** (#5), **this month** (#5).
+> Top-list entry: **this month** (#6).
 
 ![Bong — 末法残土 screenshot placeholder](bong-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.5/10
 - **Model:** Claude Opus 5
 - **Technology:** Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 5,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large native Minecraft game with a real client/server runtime, many gameplay subsystems, dedicated simulation code, tests and direct Opus 5 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Kizunad/Bong](https://github.com/Kizunad/Bong)
 - **Evidence:** [direct model evidence](https://github.com/Kizunad/Bong/commit/3ec765b4138f5d82479ef3eaf9c8b5009d2068d3)
@@ -28,16 +30,13 @@ The public repository describes an AI-native Xianxia survival sandbox running on
 ### Gameplay source
 
 - [https://github.com/Kizunad/Bong/blob/main/server/src/main.rs](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
-- [https://github.com/Kizunad/Bong/blob/main/server/src/combat/mod.rs](https://github.com/Kizunad/Bong/blob/main/server/src/combat/mod.rs)
-- [https://github.com/Kizunad/Bong/blob/main/server/src/cultivation/mod.rs](https://github.com/Kizunad/Bong/blob/main/server/src/cultivation/mod.rs)
-- [https://github.com/Kizunad/Bong/blob/main/server/src/economy/mod.rs](https://github.com/Kizunad/Bong/blob/main/server/src/economy/mod.rs)
-- [https://github.com/Kizunad/Bong/blob/main/client/src/main/java/com/bong/client/BongClient.java](https://github.com/Kizunad/Bong/blob/main/client/src/main/java/com/bong/client/BongClient.java)
 - [https://github.com/Kizunad/Bong/commit/3ec765b4138f5d82479ef3eaf9c8b5009d2068d3](https://github.com/Kizunad/Bong/commit/3ec765b4138f5d82479ef3eaf9c8b5009d2068d3)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Bevy game Co-Authored-By Claude Fable; https://github.com/Kizunad/Bong
 
 [Back to the awesome list](../../README.md)

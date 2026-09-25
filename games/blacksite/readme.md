@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, TypeScript, Vite, Rapier, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 8,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a public playable wave-survival loop, live deployment, source modules, physics integration, weapons, enemies, scoring, difficulty and direct creator/model attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Hiraeth010/blacksite](https://github.com/Hiraeth010/blacksite)
 - **Evidence:** [direct model evidence](https://github.com/Hiraeth010/blacksite)
@@ -33,7 +35,8 @@ The creator's X post says Claude Fable 5.1 one-shotted this Call of Duty-style g
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://x.com/WoahWurdz/status/2094971419977269476; https://x.com/WoahWurdz/status/2094971737028931954; https://github.com/Hiraeth010/blacksite
 
 [Back to the awesome list](../../README.md)

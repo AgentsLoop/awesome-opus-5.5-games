@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Opus 5
 - **Technology:** Godot 4.7.2, GDScript, Native desktop, Grid tactics JRPG, Turn-based combat, GUT tests
+- **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete native vertical slice with title, field exploration, tactical battle, dialogue, mission data, save/load, visual capture harness and extensive tests, backed by an exact gameplay commit trailer.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Attacktive/sortie](https://github.com/Attacktive/sortie)
 - **Evidence:** [direct model evidence](https://github.com/Attacktive/sortie/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89)
@@ -28,19 +30,13 @@ The README provides a fresh-clone Godot 4.7.2 run command, title screen, standal
 ### Gameplay source
 
 - [https://github.com/Attacktive/sortie/blob/main/README.md](https://github.com/Attacktive/sortie/blob/main/README.md)
-- [https://github.com/Attacktive/sortie/blob/main/project.godot](https://github.com/Attacktive/sortie/blob/main/project.godot)
-- [https://github.com/Attacktive/sortie/blob/main/scenes/game.tscn](https://github.com/Attacktive/sortie/blob/main/scenes/game.tscn)
-- [https://github.com/Attacktive/sortie/blob/main/scenes/field.tscn](https://github.com/Attacktive/sortie/blob/main/scenes/field.tscn)
-- [https://github.com/Attacktive/sortie/blob/main/scenes/battle.tscn](https://github.com/Attacktive/sortie/blob/main/scenes/battle.tscn)
-- [https://github.com/Attacktive/sortie/blob/main/core/mission_registry.gd](https://github.com/Attacktive/sortie/blob/main/core/mission_registry.gd)
-- [https://github.com/Attacktive/sortie/blob/main/scenes/battle.gd](https://github.com/Attacktive/sortie/blob/main/scenes/battle.gd)
-- [https://github.com/Attacktive/sortie/tree/main/test](https://github.com/Attacktive/sortie/tree/main/test)
 - [https://github.com/Attacktive/sortie/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89](https://github.com/Attacktive/sortie/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Opus 5; https://github.com/Attacktive/sortie
 
 [Back to the awesome list](../../README.md)

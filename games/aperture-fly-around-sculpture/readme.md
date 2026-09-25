@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.9/10
-- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.0/10 ([manually reviewed image](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6
 - **Technology:** React, TypeScript, Three.js, Vite, glTF, WebGL 2, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 6,000,000,000 (low confidence; static estimate, not measured).
@@ -21,8 +21,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png)
-- [screenshot 2](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/character.png)
+- [screenshot 1](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png) — 📸 6.0/10 · manual visual review · Use this frame for the game-level score. Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/character.png) — 📸 5.6/10 · relative frame adjustment · Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame provides limited visual evidence.
 
 ## Model attribution
 

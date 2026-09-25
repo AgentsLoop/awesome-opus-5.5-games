@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Unity, C#, Universal Render Pipeline, Native
+- **Estimated FP32 operations/s at 60 FPS:** 1,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** 24-level rhythm-game scope, five-lane gameplay, procedural audio and direct Opus 4.6 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/bccdon/musicGameUnity](https://github.com/bccdon/musicGameUnity)
 - **Evidence:** [direct model evidence](https://github.com/bccdon/musicGameUnity/commit/f0e50ae4269d8815635a101dda8b801ab5a93d61)
@@ -28,13 +30,13 @@ The cited initial commit is titled Pulse Highway Unity rhythm game and describes
 ### Gameplay source
 
 - [https://github.com/bccdon/musicGameUnity/tree/main/Assets/Scenes](https://github.com/bccdon/musicGameUnity/tree/main/Assets/Scenes)
-- [https://github.com/bccdon/musicGameUnity/tree/main/Assets/Scripts](https://github.com/bccdon/musicGameUnity/tree/main/Assets/Scripts)
 - [https://github.com/bccdon/musicGameUnity/commit/f0e50ae4269d8815635a101dda8b801ab5a93d61](https://github.com/bccdon/musicGameUnity/commit/f0e50ae4269d8815635a101dda8b801ab5a93d61)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6; https://github.com/bccdon/musicGameUnity
 
 [Back to the awesome list](../../README.md)

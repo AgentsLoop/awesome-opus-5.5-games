@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** GPT-6 Astra
 - **Technology:** Godot, GDScript, Forward+, Windows, Steam target
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial Godot game source, defined player loop, assets, tests and runtime smoke workflows, with explicit Astra development evidence; final release remains incomplete.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Faratas410/Gallicus-2.0](https://github.com/Faratas410/Gallicus-2.0)
 - **Evidence:** [creator-reported model evidence](https://github.com/Faratas410/Gallicus-2.0/blob/main/docs/development_workflow.md)
@@ -32,7 +34,8 @@ The repository contains project.godot, Main and Arena scenes, gameplay systems, 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Faratas410/Gallicus-2.0; https://github.com/Faratas410/Gallicus-2.0/blob/main/AGENTS.md
 
 [Back to the awesome list](../../README.md)

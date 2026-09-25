@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, Canvas
+- **Estimated FP32 operations/s at 60 FPS:** 400,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable platformer source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/houssemeddinelassoued/haaland-quest-game](https://github.com/houssemeddinelassoued/haaland-quest-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/houssemeddinelassoued/haaland-quest-game)
@@ -32,7 +34,8 @@ Repository description and JavaScript source contain a playable Super Mario-styl
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/houssemeddinelassoued/haaland-quest-game
 
 [Back to the awesome list](../../README.md)

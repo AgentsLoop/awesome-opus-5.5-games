@@ -9,6 +9,8 @@
 - **Score:** 8.2/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Python, Pygame, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete Minesweeper rules, multiple boards and themes, win/loss progression, persistence, source and direct Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Fable-11/minesweeper](https://github.com/Fable-11/minesweeper)
 - **Evidence:** [direct model evidence](https://github.com/Fable-11/minesweeper#features)
@@ -33,7 +35,8 @@ The repository contains a Pygame Minesweeper game with three difficulty modes, e
 ## Verification notes
 
 - **Status:** verified_source_and_run_instructions
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: "built with Claude Opus 4.6" game in:readme; https://github.com/Fable-11/minesweeper
 
 [Back to the awesome list](../../README.md)

@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.6/10
-- **Screenshot rating:** 5.8/10 ([rated image](https://github.com/saleebm/PenguinSlide/blob/HEAD/screenshot.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.8/10 ([manually reviewed image](https://github.com/saleebm/PenguinSlide/blob/HEAD/screenshot.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** libGDX, Kotlin, Native Android/Desktop
 - **Estimated FP32 operations/s at 60 FPS:** 700,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/saleebm/PenguinSlide/blob/main/android-libgdx/assets/sprites/penguin_slide.png)
-- [screenshot 2](https://github.com/saleebm/PenguinSlide/blob/HEAD/screenshot.png)
+- [screenshot 1](https://github.com/saleebm/PenguinSlide/blob/main/android-libgdx/assets/sprites/penguin_slide.png) — 📸 5.4/10 · relative frame adjustment · Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/saleebm/PenguinSlide/blob/HEAD/screenshot.png) — 📸 5.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

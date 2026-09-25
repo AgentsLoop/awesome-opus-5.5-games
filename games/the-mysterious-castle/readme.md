@@ -9,6 +9,8 @@
 - **Score:** 6.5/10
 - **Model:** Claude Opus 5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 120,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, explicit game loop, and direct attribution. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/mike-snodgrass/text-adventure-game](https://github.com/mike-snodgrass/text-adventure-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/mike-snodgrass/text-adventure-game)
@@ -33,7 +35,8 @@ README and browser source contain a playable text adventure with branching choic
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/mike-snodgrass/text-adventure-game
 
 [Back to the awesome list](../../README.md)

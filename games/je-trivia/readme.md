@@ -9,6 +9,8 @@
 - **Score:** 8.2/10
 - **Model:** Claude Opus 4.6
 - **Technology:** TypeScript, React Native, Expo, iOS, Native
+- **Estimated FP32 operations/s at 60 FPS:** 400,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Native trivia game with local/online sessions, buzzer flow, wagers, scoring and direct Opus gameplay attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/johankiilavirta/jeopardy](https://github.com/johankiilavirta/jeopardy)
 - **Evidence:** [direct model evidence](https://github.com/johankiilavirta/jeopardy/commit/b091ba32e03cfb675f052f15a564979ee4690099)
@@ -33,7 +35,8 @@ The Expo/React Native project implements a Jeopardy-style trivia game with quest
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus 4.6; https://github.com/johankiilavirta/jeopardy
 
 [Back to the awesome list](../../README.md)

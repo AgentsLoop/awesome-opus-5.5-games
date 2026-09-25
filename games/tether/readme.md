@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript, Canvas 2D
+- **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Barabosik/tether-demo](https://github.com/Barabosik/tether-demo)
 - **Evidence:** [creator-reported model evidence](https://github.com/Barabosik/tether-demo)
@@ -33,7 +35,8 @@ Playable grapple-swing precision platformer with 19 levels, three worlds, bosses
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Barabosik/tether-demo; https://www.reddit.com/r/Gaming_AI/
 
 [Back to the awesome list](../../README.md)

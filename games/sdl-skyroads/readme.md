@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Opus 4.8
 - **Technology:** SDL2, C++17, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 750,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial native reimplementation with deterministic simulation, renderer, audio, CLI and tests; data-gated at runtime.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/carlosbravoa/SDL-skyroads](https://github.com/carlosbravoa/SDL-skyroads)
 - **Evidence:** [direct model evidence](https://github.com/carlosbravoa/SDL-skyroads/commit/49d34ddb72861befee7e6238aeefedd4dc3a6a27)
@@ -28,15 +30,13 @@ The README describes a native C++17 SDL2 reimplementation of SkyRoads with deter
 ### Gameplay source
 
 - [https://github.com/carlosbravoa/SDL-skyroads/blob/main/README.md](https://github.com/carlosbravoa/SDL-skyroads/blob/main/README.md)
-- [https://github.com/carlosbravoa/SDL-skyroads/blob/main/src/core/gameplay.cpp](https://github.com/carlosbravoa/SDL-skyroads/blob/main/src/core/gameplay.cpp)
-- [https://github.com/carlosbravoa/SDL-skyroads/blob/main/src/renderer/renderer.cpp](https://github.com/carlosbravoa/SDL-skyroads/blob/main/src/renderer/renderer.cpp)
-- [https://github.com/carlosbravoa/SDL-skyroads/blob/main/src/platform/main.cpp](https://github.com/carlosbravoa/SDL-skyroads/blob/main/src/platform/main.cpp)
 - [https://github.com/carlosbravoa/SDL-skyroads/commit/49d34ddb72861befee7e6238aeefedd4dc3a6a27](https://github.com/carlosbravoa/SDL-skyroads/commit/49d34ddb72861befee7e6238aeefedd4dc3a6a27)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for SDL game Co-Authored-By Claude Opus; https://github.com/carlosbravoa/SDL-skyroads
 
 [Back to the awesome list](../../README.md)

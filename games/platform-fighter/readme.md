@@ -9,6 +9,8 @@
 - **Score:** 9.4/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Phaser 3, Matter.js, TypeScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository documents a complete local multiplayer fighter, exposes a live build, has direct match/character/physics source, replay support, assets and exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/lodevel/platform-fighter](https://github.com/lodevel/platform-fighter)
 - **Evidence:** [direct model evidence](https://github.com/lodevel/platform-fighter/commit/c5d5d1773b88cc4cb4711fbcc10652c494b58342)
@@ -29,15 +31,13 @@ The README describes a playable Smash Bros-style platform fighter with local fou
 ### Gameplay source
 
 - [https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/main.ts](https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/main.ts)
-- [https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/scenes/MatchScene.ts](https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/scenes/MatchScene.ts)
-- [https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/characters/Character.ts](https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/characters/Character.ts)
-- [https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/engine/PhysicsEngine.ts](https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/engine/PhysicsEngine.ts)
 - [https://github.com/lodevel/platform-fighter/commit/c5d5d1773b88cc4cb4711fbcc10652c494b58342](https://github.com/lodevel/platform-fighter/commit/c5d5d1773b88cc4cb4711fbcc10652c494b58342)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Opus; https://github.com/lodevel/platform-fighter
 
 [Back to the awesome list](../../README.md)

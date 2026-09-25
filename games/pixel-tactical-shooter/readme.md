@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Opus 4.6
 - **Technology:** TypeScript, Three.js, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live demo, explicit Opus-attributed game commit, 3D tactical FPS loop, bots, maps, weapons and substantial automated gameplay coverage.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Vadaski/pixel-tactical-shooter](https://github.com/Vadaski/pixel-tactical-shooter)
 - **Evidence:** [direct model evidence](https://github.com/Vadaski/pixel-tactical-shooter/commit/f7a7f2fac1f02aa457dc81d7114c16492723a838)
@@ -34,7 +36,8 @@ The repository README identifies a browser-playable 3D tactical shooter built wi
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Claude Opus 4.6 game attribution; https://github.com/Vadaski/pixel-tactical-shooter
 
 [Back to the awesome list](../../README.md)

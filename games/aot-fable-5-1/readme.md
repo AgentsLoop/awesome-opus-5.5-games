@@ -9,6 +9,8 @@
 - **Score:** 9.0/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Unity 6, C#, Universal Render Pipeline, WebGL, Native macOS
+- **Estimated FP32 operations/s at 60 FPS:** 6,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a substantial Unity action loop, boss objectives, ODM traversal, combat, native and WebGL builds, self-check harness, screenshots, tests and direct Fable 5.1 gauntlet attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Ashen-Skool/Aot-Fable-5.1](https://github.com/Ashen-Skool/Aot-Fable-5.1)
 - **Evidence:** [direct model evidence](https://github.com/Ashen-Skool/Aot-Fable-5.1#state-2026-09-06-read-this-the-rest-of-this-file-is-history)
@@ -32,7 +34,8 @@ The repository README and public project page document a real ten-minute Unity 6
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Ashen-Skool/Aot-Fable-5.1
 
 [Back to the awesome list](../../README.md)

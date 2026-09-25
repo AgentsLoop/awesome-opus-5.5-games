@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 6.6/10 ([rated image](https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.6/10 ([manually reviewed image](https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** 6502 Assembly, C, cc65, NES / Famicom, WASM emulator, Native console
 - **Estimated FP32 operations/s at 60 FPS:** 5,000,000 (low confidence; static estimate, not measured).
@@ -22,9 +22,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/GOROman/calude-famicom-game/blob/main/docs/title_screen.png)
-- [screenshot 2](https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png)
-- [screenshot 3](https://github.com/GOROman/calude-famicom-game/blob/main/docs/boss_fight.png)
+- [screenshot 1](https://github.com/GOROman/calude-famicom-game/blob/main/docs/title_screen.png) — 📸 5.4/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png) — 📸 6.6/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/GOROman/calude-famicom-game/blob/main/docs/boss_fight.png) — 📸 6.2/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

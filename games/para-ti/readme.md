@@ -9,6 +9,8 @@
 - **Score:** 8.7/10
 - **Model:** Claude Fable 5
 - **Technology:** Phaser 3, JavaScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 160,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The source provides a complete scene flow and multiple explorable eras with gameplay systems, tests and exact Fable attribution, although no public live demo was found in the repository metadata.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/harlemmariscal/Para-Ti](https://github.com/harlemmariscal/Para-Ti)
 - **Evidence:** [direct model evidence](https://github.com/harlemmariscal/Para-Ti/commit/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5)
@@ -28,15 +30,13 @@ The repository contains a Vite/Phaser browser game with a title scene, outfit se
 ### Gameplay source
 
 - [https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/main.js](https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/main.js)
-- [https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/scenes/EraScene.js](https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/scenes/EraScene.js)
-- [https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/eras/index.js](https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/eras/index.js)
-- [https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/state.js](https://github.com/harlemmariscal/Para-Ti/blob/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5/src/state.js)
 - [https://github.com/harlemmariscal/Para-Ti/commit/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5](https://github.com/harlemmariscal/Para-Ti/commit/e4669d906603cb5b9fbf86e2da9bb488a8fea3a5)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Fable; https://github.com/harlemmariscal/Para-Ti
 
 [Back to the awesome list](../../README.md)

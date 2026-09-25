@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5
 - **Technology:** TypeScript, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial source and explicit model attribution; public documentation is limited.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/badnewsgoonies-dot/ember-tactics](https://github.com/badnewsgoonies-dot/ember-tactics)
 - **Evidence:** [creator-reported model evidence](https://github.com/badnewsgoonies-dot/ember-tactics)
@@ -32,7 +34,8 @@ Repository description identifies a tactical RPG browser game with 76 files and 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/badnewsgoonies-dot/ember-tactics
 
 [Back to the awesome list](../../README.md)

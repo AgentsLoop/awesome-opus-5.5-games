@@ -7,108 +7,108 @@
     "thumbnail": "assets/screenshot-gallery/01.webp"
   },
   {
+    "name": "Neural Sight",
+    "github_url": "https://github.com/monstercameron/Neural-Sight",
+    "screenshot_rating_10": 9.7,
+    "source_url": "https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg",
+    "thumbnail": "assets/screenshot-gallery/02.webp"
+  },
+  {
     "name": "Kart Royale",
     "github_url": "https://github.com/ryancampbell/kart-royale",
     "screenshot_rating_10": 9.5,
     "source_url": "https://github.com/ryancampbell/kart-royale/blob/main/docs/hero-drift.png",
-    "thumbnail": "assets/screenshot-gallery/02.webp"
+    "thumbnail": "assets/screenshot-gallery/03.webp"
   },
   {
     "name": "Nerd of Duty",
     "github_url": "https://github.com/sytaylor/nerd-of-duty",
     "screenshot_rating_10": 9.4,
     "source_url": "https://github.com/sytaylor/nerd-of-duty/blob/nerdcon/docs/hero.png",
-    "thumbnail": "assets/screenshot-gallery/03.webp"
+    "thumbnail": "assets/screenshot-gallery/04.webp"
   },
   {
     "name": "VECTOR RUSH",
     "github_url": "https://github.com/ToBeWin/vector-rush",
     "screenshot_rating_10": 9.3,
     "source_url": "https://github.com/ToBeWin/vector-rush/blob/main/docs/media/gameplay.gif",
-    "thumbnail": "assets/screenshot-gallery/04.webp"
+    "thumbnail": "assets/screenshot-gallery/05.webp"
   },
   {
     "name": "Turbo Kart Grand Prix",
     "github_url": "https://github.com/Franklin-C/turbo-kart-grand-prix",
     "screenshot_rating_10": 9.2,
     "source_url": "https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg",
-    "thumbnail": "assets/screenshot-gallery/05.webp"
+    "thumbnail": "assets/screenshot-gallery/06.webp"
   },
   {
     "name": "Iridium Reach",
     "github_url": "https://github.com/jason-c-dev/iridium-reach-demo",
     "screenshot_rating_10": 9.0,
     "source_url": "https://github.com/jason-c-dev/iridium-reach-demo/blob/main/screenshots/low-altitude-combat.png",
-    "thumbnail": "assets/screenshot-gallery/06.webp"
+    "thumbnail": "assets/screenshot-gallery/07.webp"
   },
   {
     "name": "Silent Meridian",
     "github_url": "https://github.com/stackloomdev/silent-meridian",
     "screenshot_rating_10": 9.0,
     "source_url": "https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png",
-    "thumbnail": "assets/screenshot-gallery/07.webp"
+    "thumbnail": "assets/screenshot-gallery/08.webp"
   },
   {
     "name": "World of ClaudeCraft",
     "github_url": "https://github.com/levy-street/world-of-claudecraft",
     "screenshot_rating_10": 9.0,
     "source_url": "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg",
-    "thumbnail": "assets/screenshot-gallery/08.webp"
+    "thumbnail": "assets/screenshot-gallery/09.webp"
   },
   {
     "name": "KINDLE",
     "github_url": "https://github.com/TonyDowney/kindle",
     "screenshot_rating_10": 8.9,
     "source_url": "https://github.com/TonyDowney/kindle/blob/HEAD/docs/shots/06-call.jpg",
-    "thumbnail": "assets/screenshot-gallery/09.webp"
+    "thumbnail": "assets/screenshot-gallery/10.webp"
   },
   {
     "name": "SUNBREAK — Downhill Club",
     "github_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game",
     "screenshot_rating_10": 8.9,
     "source_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game/blob/main/media/SUNBREAK-showcase-poster.jpg",
-    "thumbnail": "assets/screenshot-gallery/10.webp"
+    "thumbnail": "assets/screenshot-gallery/11.webp"
   },
   {
     "name": "Fishslop",
     "github_url": "https://github.com/vasu-devs/FishSlop_Opus5.5",
     "screenshot_rating_10": 8.8,
     "source_url": "https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png",
-    "thumbnail": "assets/screenshot-gallery/11.webp"
+    "thumbnail": "assets/screenshot-gallery/12.webp"
   },
   {
     "name": "OVERRUN: Dockyard Nine",
     "github_url": "https://github.com/alesha-pro/bench-portal",
     "screenshot_rating_10": 8.8,
     "source_url": "https://github.com/alesha-pro/bench-portal/blob/main/games/overrun-claude-opus-5.5/cover.webp",
-    "thumbnail": "assets/screenshot-gallery/12.webp"
+    "thumbnail": "assets/screenshot-gallery/13.webp"
   },
   {
     "name": "Little Flock · 小羊慢慢",
     "github_url": "https://github.com/songkeys/little-flock",
     "screenshot_rating_10": 8.7,
     "source_url": "https://github.com/songkeys/little-flock/blob/main/docs/demo-poster.jpg",
-    "thumbnail": "assets/screenshot-gallery/13.webp"
+    "thumbnail": "assets/screenshot-gallery/14.webp"
   },
   {
     "name": "Turbo Kart Rush",
     "github_url": "https://github.com/bridge-mind/turbo-kart-rush",
     "screenshot_rating_10": 8.7,
     "source_url": "https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg",
-    "thumbnail": "assets/screenshot-gallery/14.webp"
+    "thumbnail": "assets/screenshot-gallery/15.webp"
   },
   {
     "name": "Turbo Kart Rush",
     "github_url": "https://github.com/claudio41cg-max/rio-rush-cross",
     "screenshot_rating_10": 8.7,
     "source_url": "https://github.com/claudio41cg-max/rio-rush-cross/blob/HEAD/docs/screenshots/track-select.jpg",
-    "thumbnail": "assets/screenshot-gallery/15.webp"
-  },
-  {
-    "name": "Neural Sight",
-    "github_url": "https://github.com/monstercameron/Neural-Sight",
-    "screenshot_rating_10": 8.6,
-    "source_url": "https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg",
     "thumbnail": "assets/screenshot-gallery/16.webp"
   },
   {

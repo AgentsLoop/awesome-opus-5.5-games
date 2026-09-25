@@ -9,6 +9,8 @@
 - **Score:** 8.9/10
 - **Model:** Claude Opus 5
 - **Technology:** Svelte 5, TypeScript, Babylon.js, Havok physics, Vite, Tauri v2, Browser and desktop
+- **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete playable 3D hub game with a physics character controller, glTF animation, audio, dialogue, authored environment, tests, browser build and Tauri packaging; future levels are excluded from the count.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/YuutaTsubasa/ProjectRondo](https://github.com/YuutaTsubasa/ProjectRondo)
 - **Evidence:** [direct model evidence](https://github.com/YuutaTsubasa/ProjectRondo/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89)
@@ -28,17 +30,13 @@ The README describes a Svelte/TypeScript/Babylon.js game migrated from a Godot p
 ### Gameplay source
 
 - [https://github.com/YuutaTsubasa/ProjectRondo/blob/main/README.md](https://github.com/YuutaTsubasa/ProjectRondo/blob/main/README.md)
-- [https://github.com/YuutaTsubasa/ProjectRondo/blob/main/package.json](https://github.com/YuutaTsubasa/ProjectRondo/blob/main/package.json)
-- [https://github.com/YuutaTsubasa/ProjectRondo/tree/main/src/presentation/babylon](https://github.com/YuutaTsubasa/ProjectRondo/tree/main/src/presentation/babylon)
-- [https://github.com/YuutaTsubasa/ProjectRondo/blob/main/src/presentation/babylon/hubScene.ts](https://github.com/YuutaTsubasa/ProjectRondo/blob/main/src/presentation/babylon/hubScene.ts)
-- [https://github.com/YuutaTsubasa/ProjectRondo/tree/main/src/domain](https://github.com/YuutaTsubasa/ProjectRondo/tree/main/src/domain)
-- [https://github.com/YuutaTsubasa/ProjectRondo/tree/main/tests](https://github.com/YuutaTsubasa/ProjectRondo/tree/main/tests)
 - [https://github.com/YuutaTsubasa/ProjectRondo/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89](https://github.com/YuutaTsubasa/ProjectRondo/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Opus 5; https://github.com/YuutaTsubasa/ProjectRondo
 
 [Back to the awesome list](../../README.md)

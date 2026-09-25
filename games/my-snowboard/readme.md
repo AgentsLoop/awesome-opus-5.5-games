@@ -9,6 +9,8 @@
 - **Score:** 8.4/10
 - **Model:** Claude Opus 4.6
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio API, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live demo, explicit Opus build evidence, clear multi-stage game loop, health and game-over state, progression shop, weather, two-player mode and leaderboard.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/petersomerville/mysnowboard](https://github.com/petersomerville/mysnowboard)
 - **Evidence:** [direct model evidence](https://github.com/petersomerville/mysnowboard#how-to-play)
@@ -34,7 +36,8 @@ The README links a live browser build and documents a complete snowboarding game
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search: "Claude Opus 4.6" game; https://github.com/petersomerville/mysnowboard
 
 [Back to the awesome list](../../README.md)

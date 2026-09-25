@@ -1,6 +1,6 @@
 # Terrabrowser
 
-> Top-list entry: **today** (#7), **this week** (#7).
+> Top-list entry: **this week** (#7).
 
 ![Terrabrowser screenshot placeholder](terrabrowser-placeholder.svg)
 

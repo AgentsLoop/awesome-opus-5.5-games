@@ -9,6 +9,8 @@
 - **Score:** 8.4/10
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, CSS, JavaScript, Canvas 2D, Three.js, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from two separate one-shot games with distinct mechanics, prompts, source directories, public deployments, responsive controls, score/state systems and successful live browser verification.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Ayi1337/gpt6-astra-one-shot-games](https://github.com/Ayi1337/gpt6-astra-one-shot-games)
 - **Evidence:** [direct model evidence](https://github.com/Ayi1337/gpt6-astra-one-shot-games#-01--)
@@ -28,14 +30,14 @@ The README documents two separate one-shot games and preserves each prompt, HTML
 
 ### Gameplay source
 
-- [https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab)
 - [https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing)
 - [https://github.com/Ayi1337/gpt6-astra-one-shot-games#-01--](https://github.com/Ayi1337/gpt6-astra-one-shot-games#-01--)
 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 2
+- **Counted units in repository:** 2
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Ayi1337/gpt6-astra-one-shot-games; https://api.github.com/search/repositories?q=%22GPT-6%22+playable+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

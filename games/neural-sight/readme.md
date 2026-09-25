@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.2/10
-- **Screenshot rating:** 8.6/10 ([rated image](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 9.7/10 ([manually reviewed image](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 8,000,000,000 (low confidence; static estimate, not measured).
@@ -22,9 +22,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg)
-- [screenshot 2](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/fort-clatsop.jpg)
-- [screenshot 3](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/san-juan.jpg)
+- [screenshot 1](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) — 📸 9.7/10 · manual visual review · Photorealistic desert FPS frame with detailed weathered structures and vehicle, convincing lighting, and clear first-person composition.
+- [screenshot 2](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/fort-clatsop.jpg) — 📸 8.2/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 3](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/san-juan.jpg) — 📸 8.2/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

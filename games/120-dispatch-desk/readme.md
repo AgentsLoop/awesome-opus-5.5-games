@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Fable 5
 - **Technology:** React 19, TypeScript, Vite, Leaflet, Playwright, Native web
+- **Estimated FP32 operations/s at 60 FPS:** 110,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** A substantial playable narrative game with concurrent lines, dispatch decisions, route/map state, many scenarios, first-aid minigames, audio, persistent progress, current polish and test evidence.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/1989-12-13/BuddyGame](https://github.com/1989-12-13/BuddyGame)
 - **Evidence:** [direct model evidence](https://github.com/1989-12-13/BuddyGame/commit/90cde035fe862952c47565745077ad18ba57701b)
@@ -28,15 +30,13 @@ The README documents a playable public-service emergency-dispatch narrative game
 ### Gameplay source
 
 - [https://github.com/1989-12-13/BuddyGame/blob/master/README.md](https://github.com/1989-12-13/BuddyGame/blob/master/README.md)
-- [https://github.com/1989-12-13/BuddyGame/tree/master/src/game](https://github.com/1989-12-13/BuddyGame/tree/master/src/game)
-- [https://github.com/1989-12-13/BuddyGame/tree/master/src/components/minigames](https://github.com/1989-12-13/BuddyGame/tree/master/src/components/minigames)
-- [https://github.com/1989-12-13/BuddyGame/blob/master/src/screens/game/WorkbenchScreen.tsx](https://github.com/1989-12-13/BuddyGame/blob/master/src/screens/game/WorkbenchScreen.tsx)
 - [https://github.com/1989-12-13/BuddyGame/commit/90cde035fe862952c47565745077ad18ba57701b](https://github.com/1989-12-13/BuddyGame/commit/90cde035fe862952c47565745077ad18ba57701b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub game commit search dated 2026-09-13..2026-09-15; https://github.com/1989-12-13/BuddyGame
 
 [Back to the awesome list](../../README.md)

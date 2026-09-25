@@ -1,13 +1,13 @@
 # Fishslop
 
-> Top-list entry: **today** (#5), **this week** (#5).
+> Top-list entry: **this week** (#5).
 
 ![Fishslop screenshot](https://raw.githubusercontent.com/vasu-devs/FishSlop_Opus5.5/main/docs/screens/03-sonar.png)
 
 ## At a glance
 
 - **Score:** 9.1/10
-- **Screenshot rating:** 8.8/10 ([rated image](https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.8/10 ([manually reviewed image](https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** Three.js, TypeScript, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 1,400,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png)
+- [screenshot 1](https://github.com/vasu-devs/FishSlop_Opus5.5/blob/main/docs/screens/03-sonar.png) — 📸 8.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

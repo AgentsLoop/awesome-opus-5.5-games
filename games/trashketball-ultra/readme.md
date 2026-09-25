@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** GPT-6 Astra
 - **Technology:** React, TypeScript, Three.js, WebGL, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source with two environments, physics and verification commands; browser QA was not independently rerun.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball](https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball)
 - **Evidence:** [creator-reported model evidence](https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball)
@@ -32,7 +34,8 @@ The repository name identifies a GPT-6 Astra Ultra Codex build. Its README docum
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball
 
 [Back to the awesome list](../../README.md)

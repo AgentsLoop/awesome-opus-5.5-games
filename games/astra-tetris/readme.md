@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 7.0/10 ([rated image](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris/blob/main/docs/images/gameplay-player.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.0/10 ([manually reviewed image](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris/blob/main/docs/images/gameplay-player.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Minecraft Java datapack, mcfunction, Python, Three.js renderer
 - **Estimated FP32 operations/s at 60 FPS:** 600,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris/blob/main/docs/images/gameplay-player.png)
+- [screenshot 1](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris/blob/main/docs/images/gameplay-player.png) — 📸 7.0/10 · manual visual review · Use this frame for the game-level score. Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
 
 ## Model attribution
 

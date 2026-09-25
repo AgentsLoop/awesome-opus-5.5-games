@@ -6,9 +6,11 @@
 
 ## At a glance
 
-- **Score:** 8.0/10
+- **Score:** 8.6/10
 - **Model:** Claude Fable 5.1
-- **Technology:** HTML, JavaScript, Browser
+- **Technology:** HTML, JavaScript, Three.js, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/sorrycc/fable-arcade](https://github.com/sorrycc/fable-arcade)
 - **Evidence:** [direct model evidence](https://github.com/sorrycc/fable-arcade#games)
@@ -28,20 +30,14 @@ The repository README lists eight separate single-file HTML games, each with its
 
 ### Gameplay source
 
-- [https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird)
-- [https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1)
-- [https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow)
-- [https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis)
-- [https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner)
-- [https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car)
-- [https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox)
 - [https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city)
 - [https://github.com/sorrycc/fable-arcade#games](https://github.com/sorrycc/fable-arcade#games)
 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 8
+- **Counted units in repository:** 8
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/sorrycc/fable-arcade
 
 [Back to the awesome list](../../README.md)

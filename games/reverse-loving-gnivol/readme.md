@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.0/10
-- **Screenshot rating:** 7.2/10 ([rated image](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/horror.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.2/10 ([manually reviewed image](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/horror.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** Java, LibGDX, Desktop export, Native platform
 - **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
@@ -20,12 +20,12 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/calling.png)
-- [screenshot 2](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/horror.png)
-- [screenshot 3](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/minigame2.png)
-- [screenshot 4](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/optional.png)
-- [screenshot 5](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/overlayRefridgerator.png)
-- [screenshot 6](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/youDie.png)
+- [screenshot 1](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/calling.png) — 📸 6.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/horror.png) — 📸 7.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/minigame2.png) — 📸 6.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/optional.png) — 📸 6.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 5](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/overlayRefridgerator.png) — 📸 6.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 6](https://github.com/trieuwu/Gnivol/blob/HEAD/imgs/youDie.png) — 📸 6.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Videos
 

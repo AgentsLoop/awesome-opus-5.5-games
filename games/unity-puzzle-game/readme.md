@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.1/10
-- **Screenshot rating:** 3.0/10 ([rated image](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Goal.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 3.0/10 ([manually reviewed image](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Goal.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** Unity, C#, Native
 - **Estimated FP32 operations/s at 60 FPS:** 550,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Goal.png)
-- [screenshot 2](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Block.png)
+- [screenshot 1](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Goal.png) — 📸 3.0/10 · manual visual review · Use this frame for the game-level score. Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Block.png) — 📸 2.6/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
 
 ## Model attribution
 

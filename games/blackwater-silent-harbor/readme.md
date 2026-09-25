@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, React, TypeScript, WebGL, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 8,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete single-player mission, nine enemies, cover-aware combat, weapons, extraction, death/restart, automated combat and world tests, live deployment and direct creator/model attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Hiraeth010/blackwater](https://github.com/Hiraeth010/blackwater)
 - **Evidence:** [direct model evidence](https://github.com/Hiraeth010/blackwater/blob/main/README.md)
@@ -33,7 +35,8 @@ The creator's X post explicitly says GPT-6 Astra one-shotted the Call of Duty-st
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/MartinDelophy/awesome-gpt-6-astra; https://x.com/WoahWurdz/status/2095958882732355908; https://x.com/WoahWurdz/status/2095959107215798447; https://github.com/Hiraeth010/blackwater
 
 [Back to the awesome list](../../README.md)

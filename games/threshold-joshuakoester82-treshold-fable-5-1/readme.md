@@ -9,6 +9,8 @@
 - **Score:** 6.5/10
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Actual game source and direct model naming, with limited documentation. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/joshuakoester82/treshold-fable-5-1](https://github.com/joshuakoester82/treshold-fable-5-1)
 - **Evidence:** [creator-reported model evidence](https://github.com/joshuakoester82/treshold-fable-5-1)
@@ -32,7 +34,8 @@ Repository description and source contain a playable Atari Adventure-inspired ga
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/joshuakoester82/treshold-fable-5-1
 
 [Back to the awesome list](../../README.md)

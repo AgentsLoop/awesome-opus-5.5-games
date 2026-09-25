@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** React, JavaScript, Canvas 2D, Web Audio API, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete mobile game loop, controls, physics, character selection, effects, audio, automated tests and explicit Astra attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/MrAllNeo/frost-hop](https://github.com/MrAllNeo/frost-hop)
 - **Evidence:** [direct model evidence](https://github.com/MrAllNeo/frost-hop)
@@ -32,7 +34,8 @@ The repository description identifies an Ice Tower-style game made with GPT-6 As
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/MrAllNeo/frost-hop
 
 [Back to the awesome list](../../README.md)

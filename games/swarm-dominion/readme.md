@@ -9,6 +9,8 @@
 - **Score:** 8.7/10
 - **Model:** Claude Opus 5, Claude Opus 4.8
 - **Technology:** Godot 4.3, GDScript, Native desktop, 2D real-time strategy, Unit AI, GUT tests
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete native RTS prototype with a clear match loop, unit selection and commands, combat, harvesting, progression, resources, scenes, documentation and extensive tests; roadmap-only features are excluded.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/johnburbridge/swarm-dominion](https://github.com/johnburbridge/swarm-dominion)
 - **Evidence:** [direct model evidence](https://github.com/johnburbridge/swarm-dominion/commit/940aa6a0e83af2743e971513a8de16309cf3e110)
@@ -28,18 +30,13 @@ The README provides a Godot project with a main scene, open-source 5–15 minute
 ### Gameplay source
 
 - [https://github.com/johnburbridge/swarm-dominion/blob/main/README.md](https://github.com/johnburbridge/swarm-dominion/blob/main/README.md)
-- [https://github.com/johnburbridge/swarm-dominion/blob/main/project.godot](https://github.com/johnburbridge/swarm-dominion/blob/main/project.godot)
-- [https://github.com/johnburbridge/swarm-dominion/blob/main/scenes/main/main.tscn](https://github.com/johnburbridge/swarm-dominion/blob/main/scenes/main/main.tscn)
-- [https://github.com/johnburbridge/swarm-dominion/blob/main/scripts/main.gd](https://github.com/johnburbridge/swarm-dominion/blob/main/scripts/main.gd)
-- [https://github.com/johnburbridge/swarm-dominion/tree/main/scripts/units](https://github.com/johnburbridge/swarm-dominion/tree/main/scripts/units)
-- [https://github.com/johnburbridge/swarm-dominion/tree/main/scripts/resources](https://github.com/johnburbridge/swarm-dominion/tree/main/scripts/resources)
-- [https://github.com/johnburbridge/swarm-dominion/tree/main/tests](https://github.com/johnburbridge/swarm-dominion/tree/main/tests)
 - [https://github.com/johnburbridge/swarm-dominion/commit/940aa6a0e83af2743e971513a8de16309cf3e110](https://github.com/johnburbridge/swarm-dominion/commit/940aa6a0e83af2743e971513a8de16309cf3e110)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Opus 4.8; https://github.com/johnburbridge/swarm-dominion
 
 [Back to the awesome list](../../README.md)

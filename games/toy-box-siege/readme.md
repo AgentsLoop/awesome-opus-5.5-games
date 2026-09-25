@@ -9,6 +9,8 @@
 - **Score:** 8.7/10
 - **Model:** Claude Opus 4.6
 - **Technology:** TypeScript, Phaser, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, Phaser runtime, multi-level progression, enemy waves, bosses, weapons, effects and repeated Opus-attributed implementation commits.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Jaxsbr/toy-box-siege](https://github.com/Jaxsbr/toy-box-siege)
 - **Evidence:** [direct model evidence](https://github.com/Jaxsbr/toy-box-siege/commit/dbe337ca4392b330f74fa1d0a9b05636e84c4c1d)
@@ -33,7 +35,8 @@ The README identifies a bedroom-themed tower-defense game. package.json contains
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Co-Authored-By Claude Opus 4.6; https://github.com/Jaxsbr/toy-box-siege
 
 [Back to the awesome list](../../README.md)

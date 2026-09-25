@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
-- **Screenshot rating:** 6.5/10 ([rated image](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/ancient_library.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.5/10 ([manually reviewed image](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/ancient_library.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Phaser 3, React 19, JavaScript, Vite, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 480,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/desert_marketplace.png)
-- [screenshot 2](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/ancient_library.png)
+- [screenshot 1](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/desert_marketplace.png) — 📸 6.1/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/ancient_library.png) — 📸 6.5/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

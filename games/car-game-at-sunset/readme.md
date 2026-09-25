@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable Three.js source and direct prompt attribution, with limited game scope.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/taarichandaria/car-game-fable-5-test](https://github.com/taarichandaria/car-game-fable-5-test)
 - **Evidence:** [creator-reported model evidence](https://github.com/taarichandaria/car-game-fable-5-test/blob/main/README.md)
@@ -32,7 +34,8 @@ README and sunset-drive source contain a playable 3D driving game with a city en
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/taarichandaria/car-game-fable-5-test
 
 [Back to the awesome list](../../README.md)

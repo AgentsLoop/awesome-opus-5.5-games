@@ -1,6 +1,6 @@
 # Web Grand Prix
 
-> Top-list entry: **today** (#9), **this week** (#9).
+> Top-list entry: **this week** (#9).
 
 ![Web Grand Prix screenshot placeholder](web-grand-prix-placeholder.svg)
 

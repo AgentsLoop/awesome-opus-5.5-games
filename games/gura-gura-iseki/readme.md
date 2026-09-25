@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, Rapier, JavaScript, WebSocket
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/simosimo1333-png/5p-games-opus5](https://github.com/simosimo1333-png/5p-games-opus5)
 - **Evidence:** [repository-topic model evidence](https://github.com/simosimo1333-png/5p-games-opus5)
@@ -32,7 +34,8 @@ Playable five-player cooperative 3D browser action game with climbing, physics, 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/simosimo1333-png/5p-games-opus5
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 9.5/10
 - **Model:** Claude Opus 5
 - **Technology:** TypeScript, Vite, Canvas 2D raycaster, WebRTC, Trystero, Procedural audio, Browser multiplayer
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete documented first-person game loop with three modes, procedural deterministic world, combat, hazards, co-op rescue, tutorial, live demo, tests and exact Opus attribution on player-facing rendering/HUD work.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ben-gy/deepshaft](https://github.com/ben-gy/deepshaft)
 - **Evidence:** [direct model evidence](https://github.com/ben-gy/deepshaft/commit/51e8cdce6bb91b7c8a23f2e92a4aec28846a10b7)
@@ -29,17 +31,13 @@ The README documents Deepshaft as a playable first-person raycast crawl through 
 ### Gameplay source
 
 - [https://github.com/ben-gy/deepshaft#readme](https://github.com/ben-gy/deepshaft#readme)
-- [https://deepshaft.benrichardson.dev](https://deepshaft.benrichardson.dev)
-- [https://github.com/ben-gy/deepshaft/blob/main/src/main.ts](https://github.com/ben-gy/deepshaft/blob/main/src/main.ts)
-- [https://github.com/ben-gy/deepshaft/blob/main/src/render.ts](https://github.com/ben-gy/deepshaft/blob/main/src/render.ts)
-- [https://github.com/ben-gy/deepshaft/tree/main/src/engine](https://github.com/ben-gy/deepshaft/tree/main/src/engine)
-- [https://github.com/ben-gy/deepshaft/tree/main/tests](https://github.com/ben-gy/deepshaft/tree/main/tests)
 - [https://github.com/ben-gy/deepshaft/commit/51e8cdce6bb91b7c8a23f2e92a4aec28846a10b7](https://github.com/ben-gy/deepshaft/commit/51e8cdce6bb91b7c8a23f2e92a4aec28846a10b7)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** Reverse-link from ben-gy/gh-game-factory index; GitHub commit search for Co-Authored-By Claude Opus game; https://github.com/ben-gy/deepshaft
 
 [Back to the awesome list](../../README.md)

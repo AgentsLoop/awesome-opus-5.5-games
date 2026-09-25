@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.9/10
-- **Screenshot rating:** 7.9/10 ([rated image](https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/preview.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.9/10 ([manually reviewed image](https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, HTML, Canvas 2D, Pseudo-3D, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/preview.jpg)
+- [screenshot 1](https://github.com/swan4er/opus-100-projects/blob/main/071-long-road/preview.jpg) — 📸 7.9/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

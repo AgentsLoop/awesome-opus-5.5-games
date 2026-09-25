@@ -6,9 +6,11 @@
 
 ## At a glance
 
-- **Score:** 7.0/10
+- **Score:** 7.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** Godot 4.7, GDScript, GL Compatibility, Desktop export, Web export
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong monorepo structure, nine independent source projects, explicit Astra worker record, run instructions and game-specific checks; lower score because the collection is unpublished and some projects have less individual README evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/bannzai/godotpractice](https://github.com/bannzai/godotpractice)
 - **Evidence:** [creator-reported model evidence](https://github.com/bannzai/godotpractice/blob/main/documents/PROJECT.md)
@@ -32,7 +34,8 @@ The project plan defines nine independent games under games/<slug>/, each as a s
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 9
+- **Counted units in repository:** 9
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/bannzai/godotpractice; https://github.com/bannzai/godotpractice/blob/main/documents/PROJECT.md; https://github.com/bannzai/godotpractice/blob/main/documents/hearing/README.md
 
 [Back to the awesome list](../../README.md)

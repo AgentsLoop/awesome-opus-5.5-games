@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
-- **Screenshot rating:** 5.4/10 ([rated image](https://github.com/remeadows/gridwatch-signal-breach/blob/main/src/assets/board/phase6/gw-phase6-core-board-v1.webp)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.4/10 ([manually reviewed image](https://github.com/remeadows/gridwatch-signal-breach/blob/main/src/assets/board/phase6/gw-phase6-core-board-v1.webp)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Vite, TypeScript, HTML5 Canvas 2D, Cloudflare Pages, Native web
 - **Estimated FP32 operations/s at 60 FPS:** 320,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/remeadows/gridwatch-signal-breach/blob/main/src/assets/board/phase6/gw-phase6-core-board-v1.webp)
+- [screenshot 1](https://github.com/remeadows/gridwatch-signal-breach/blob/main/src/assets/board/phase6/gw-phase6-core-board-v1.webp) — 📸 5.4/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

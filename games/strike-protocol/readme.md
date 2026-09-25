@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Opus 5
 - **Technology:** Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Three distinct game implementations with engine projects, substantial gameplay systems, tests, run instructions and direct Opus 5 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/oh-ashen-one/Opus-5-Three-Games](https://github.com/oh-ashen-one/Opus-5-Three-Games)
 - **Evidence:** [direct model evidence](https://github.com/oh-ashen-one/Opus-5-Three-Games/commit/5df172a9840ce634020779f00affc05eac4fe9af)
@@ -27,15 +29,14 @@ The repository README identifies three separate games: STORMFALL in Unreal Engin
 
 ### Gameplay source
 
-- [https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/01-stormfall-ue](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/01-stormfall-ue)
 - [https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/02-strike-godot](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/02-strike-godot)
-- [https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/03-teacup-godot](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/03-teacup-godot)
 - [https://github.com/oh-ashen-one/Opus-5-Three-Games/commit/5df172a9840ce634020779f00affc05eac4fe9af](https://github.com/oh-ashen-one/Opus-5-Three-Games/commit/5df172a9840ce634020779f00affc05eac4fe9af)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 3
+- **Counted units in repository:** 3
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Unreal playable game Co-Authored-By Claude Opus; https://github.com/oh-ashen-one/Opus-5-Three-Games
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5
 - **Technology:** Godot, GDScript, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository has a focused game scene with named gameplay entities, scripts and bundled art/audio, but no README or published demo.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ArnasJuskevicius/dice-catcher](https://github.com/ArnasJuskevicius/dice-catcher)
 - **Evidence:** [direct model evidence](https://github.com/ArnasJuskevicius/dice-catcher/commit/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7)
@@ -28,14 +30,13 @@ The commit describes a fox-catches-dice game and includes project.godot, game/fo
 ### Gameplay source
 
 - [https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/project.godot](https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/project.godot)
-- [https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/scenes/game/game.gd](https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/scenes/game/game.gd)
-- [https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/scenes/game/game.tscn](https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/scenes/game/game.tscn)
 - [https://github.com/ArnasJuskevicius/dice-catcher/commit/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7](https://github.com/ArnasJuskevicius/dice-catcher/commit/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Godot game Co-Authored-By Claude Opus; https://github.com/ArnasJuskevicius/dice-catcher
 
 [Back to the awesome list](../../README.md)

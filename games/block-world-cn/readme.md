@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.0/10 ([manually reviewed image](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Luanti 5.17.0, Mineclonia, Lua, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/menu.png)
-- [screenshot 2](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png)
+- [screenshot 1](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/menu.png) — 📸 4.8/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png) — 📸 6.0/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

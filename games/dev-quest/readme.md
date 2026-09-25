@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.5/10
-- **Screenshot rating:** 6.4/10 ([rated image](https://github.com/agutierrezclab/dev-quest/blob/HEAD/docs/screens/wave4_deploy.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.4/10 ([manually reviewed image](https://github.com/agutierrezclab/dev-quest/blob/HEAD/docs/screens/wave4_deploy.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Phaser, JavaScript, Canvas 2D
 - **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/agutierrezclab/dev-quest/blob/HEAD/docs/screens/wave4_deploy.png)
+- [screenshot 1](https://github.com/agutierrezclab/dev-quest/blob/HEAD/docs/screens/wave4_deploy.png) — 📸 6.4/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

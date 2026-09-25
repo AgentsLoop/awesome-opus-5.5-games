@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Godot, GDScript, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 550,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a focused 2048 implementation with the core board algorithm, tile scenes, win/game-over flow and persistence, but no published demo.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/daiSky88/godot-2048](https://github.com/daiSky88/godot-2048)
 - **Evidence:** [direct model evidence](https://github.com/daiSky88/godot-2048/commit/3f3e4d9ce92182fed51f17d5c51132ecdc891036)
@@ -28,15 +30,13 @@ The initial commit identifies a Godot 2048 game and includes project.godot, a ma
 ### Gameplay source
 
 - [https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/project.godot](https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/project.godot)
-- [https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scripts/components/GridBoard.gd](https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scripts/components/GridBoard.gd)
-- [https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scripts/components/Tile.gd](https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scripts/components/Tile.gd)
-- [https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scenes/main/Main.tscn](https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scenes/main/Main.tscn)
 - [https://github.com/daiSky88/godot-2048/commit/3f3e4d9ce92182fed51f17d5c51132ecdc891036](https://github.com/daiSky88/godot-2048/commit/3f3e4d9ce92182fed51f17d5c51132ecdc891036)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Godot game Co-Authored-By Claude Opus; https://github.com/daiSky88/godot-2048
 
 [Back to the awesome list](../../README.md)

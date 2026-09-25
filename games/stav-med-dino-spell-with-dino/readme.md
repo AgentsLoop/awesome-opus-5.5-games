@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Fable 5
 - **Technology:** TypeScript, React, Vite, Tailwind CSS, Vitest, PWA/offline, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Four clearly separated playable modes with distinct rules, adaptive difficulty, persistence, sound/speech, offline PWA delivery, tests and exact Fable attribution on the fourth-game implementation commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/MikkelAJ92/rolige-laerespil](https://github.com/MikkelAJ92/rolige-laerespil)
 - **Evidence:** [direct model evidence](https://github.com/MikkelAJ92/rolige-laerespil/commit/38702beecf2e40158fe22da307fc329bf3711417)
@@ -27,20 +29,14 @@ The Danish README documents four games sharing a progression account: What Is th
 
 ### Gameplay source
 
-- [https://github.com/MikkelAJ92/rolige-laerespil#readme](https://github.com/MikkelAJ92/rolige-laerespil#readme)
-- [https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/Clock.tsx](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/Clock.tsx)
 - [https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/WordGame.tsx](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/WordGame.tsx)
-- [https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/CodeGame.tsx](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/CodeGame.tsx)
-- [https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/time.ts](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/time.ts)
-- [https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/words.ts](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/words.ts)
-- [https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/code.ts](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/code.ts)
-- [https://github.com/MikkelAJ92/rolige-laerespil/tree/main/tests](https://github.com/MikkelAJ92/rolige-laerespil/tree/main/tests)
 - [https://github.com/MikkelAJ92/rolige-laerespil/commit/38702beecf2e40158fe22da307fc329bf3711417](https://github.com/MikkelAJ92/rolige-laerespil/commit/38702beecf2e40158fe22da307fc329bf3711417)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 4
+- **Counted units in repository:** 4
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Co-Authored-By Claude Fable game; https://github.com/MikkelAJ92/rolige-laerespil
 
 [Back to the awesome list](../../README.md)

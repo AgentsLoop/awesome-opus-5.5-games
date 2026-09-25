@@ -9,6 +9,8 @@
 - **Score:** 8.9/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Bevy, Rust, wgpu, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,700,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong native sandbox loop with procedural world, mining, building, collision, lighting and save systems.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Eric-lab-star/voxelcraft](https://github.com/Eric-lab-star/voxelcraft)
 - **Evidence:** [direct model evidence](https://github.com/Eric-lab-star/voxelcraft/commit/364a4d3d73f51ed49bed229a1f9a17c37416c49b)
@@ -28,15 +30,13 @@ The README describes a Minecraft-like voxel sandbox with procedural terrain, fir
 ### Gameplay source
 
 - [https://github.com/Eric-lab-star/voxelcraft/blob/main/README.md](https://github.com/Eric-lab-star/voxelcraft/blob/main/README.md)
-- [https://github.com/Eric-lab-star/voxelcraft/blob/main/src/world.rs](https://github.com/Eric-lab-star/voxelcraft/blob/main/src/world.rs)
-- [https://github.com/Eric-lab-star/voxelcraft/blob/main/src/player.rs](https://github.com/Eric-lab-star/voxelcraft/blob/main/src/player.rs)
-- [https://github.com/Eric-lab-star/voxelcraft/blob/main/src/interaction.rs](https://github.com/Eric-lab-star/voxelcraft/blob/main/src/interaction.rs)
 - [https://github.com/Eric-lab-star/voxelcraft/commit/364a4d3d73f51ed49bed229a1f9a17c37416c49b](https://github.com/Eric-lab-star/voxelcraft/commit/364a4d3d73f51ed49bed229a1f9a17c37416c49b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Bevy game Co-Authored-By Claude Opus; https://github.com/Eric-lab-star/voxelcraft
 
 [Back to the awesome list](../../README.md)

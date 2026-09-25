@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5
 - **Technology:** JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable board-game source, rules, data integration, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/teddyjames1995/Claudopoly](https://github.com/teddyjames1995/Claudopoly)
 - **Evidence:** [creator-reported model evidence](https://github.com/teddyjames1995/Claudopoly/blob/main/README.md)
@@ -32,7 +34,8 @@ README and source contain a playable 3D property-trading board game with 22 Lond
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/teddyjames1995/Claudopoly
 
 [Back to the awesome list](../../README.md)

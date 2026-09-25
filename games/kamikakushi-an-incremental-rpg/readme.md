@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** Claude Opus, Claude Fable 5
 - **Technology:** TypeScript, Vite, HTML/CSS, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Shipped browser RPG with a live deployment, broad gameplay systems, core simulation, tests, type checks and an archived Opus/Fable build plan.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Raynos/kami-kakushi](https://github.com/Raynos/kami-kakushi)
 - **Evidence:** [creator-reported model evidence](https://github.com/Raynos/kami-kakushi/blob/main/project/archive/fable-2026-07-07-storywave-game.md)
@@ -29,15 +31,13 @@ The public repository is an incremental RPG with story, campaign, quests, areas,
 ### Gameplay source
 
 - [https://github.com/Raynos/kami-kakushi/blob/main/src/app/main.ts](https://github.com/Raynos/kami-kakushi/blob/main/src/app/main.ts)
-- [https://github.com/Raynos/kami-kakushi/blob/main/src/core/combat.ts](https://github.com/Raynos/kami-kakushi/blob/main/src/core/combat.ts)
-- [https://github.com/Raynos/kami-kakushi/blob/main/src/core/content/activities.ts](https://github.com/Raynos/kami-kakushi/blob/main/src/core/content/activities.ts)
-- [https://github.com/Raynos/kami-kakushi/blob/main/package.json](https://github.com/Raynos/kami-kakushi/blob/main/package.json)
 - [https://github.com/Raynos/kami-kakushi/blob/main/project/archive/fable-2026-07-07-storywave-game.md](https://github.com/Raynos/kami-kakushi/blob/main/project/archive/fable-2026-07-07-storywave-game.md)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Go game Co-Authored-By Claude Fable; https://github.com/Raynos/kami-kakushi
 
 [Back to the awesome list](../../README.md)

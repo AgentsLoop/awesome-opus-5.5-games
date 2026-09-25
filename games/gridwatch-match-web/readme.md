@@ -9,6 +9,8 @@
 - **Score:** 8.9/10
 - **Model:** Claude Fable 5
 - **Technology:** Phaser 4, React 19, TypeScript, Vite, Cloudflare Workers, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 520,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository has clear match-3 rules, a dedicated board engine, Phaser rendering, hand-authored levels, controls, deployment documentation and exact Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/remeadows/GridWatchMatchWeb](https://github.com/remeadows/GridWatchMatchWeb)
 - **Evidence:** [direct model evidence](https://github.com/remeadows/GridWatchMatchWeb/commit/e9b237e7ee5f7d771f2bc456c208d741f47b81f5)
@@ -29,15 +31,13 @@ The README identifies this repository as a playable cyberpunk match-3 browser ga
 ### Gameplay source
 
 - [https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/App.tsx](https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/App.tsx)
-- [https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/engine/boardEngine.ts](https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/engine/boardEngine.ts)
-- [https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/game/BoardScene.ts](https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/game/BoardScene.ts)
-- [https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/data/levels.ts](https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/data/levels.ts)
 - [https://github.com/remeadows/GridWatchMatchWeb/commit/e9b237e7ee5f7d771f2bc456c208d741f47b81f5](https://github.com/remeadows/GridWatchMatchWeb/commit/e9b237e7ee5f7d771f2bc456c208d741f47b81f5)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Fable; https://github.com/remeadows/GridWatchMatchWeb
 
 [Back to the awesome list](../../README.md)

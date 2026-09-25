@@ -9,6 +9,8 @@
 - **Score:** 9.1/10
 - **Model:** Claude Opus 5
 - **Technology:** Go, Ebitengine, Native desktop, WebAssembly
+- **Estimated FP32 operations/s at 60 FPS:** 700,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Original strategy game with a complete turn loop, simulation/domain separation, native/browser builds, saves, tests and direct Opus 5 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/adsouza/africa2ice](https://github.com/adsouza/africa2ice)
 - **Evidence:** [direct model evidence](https://github.com/adsouza/africa2ice/commit/7efa26d13f0319f59da6fe317dbdd3ccb0867fe)
@@ -28,15 +30,13 @@ The public README describes a turn-based eco-strategy game about human dispersal
 ### Gameplay source
 
 - [https://github.com/adsouza/africa2ice/blob/main/main.go](https://github.com/adsouza/africa2ice/blob/main/main.go)
-- [https://github.com/adsouza/africa2ice/blob/main/pkg/app/game.go](https://github.com/adsouza/africa2ice/blob/main/pkg/app/game.go)
-- [https://github.com/adsouza/africa2ice/blob/main/internal/domain/world.go](https://github.com/adsouza/africa2ice/blob/main/internal/domain/world.go)
-- [https://github.com/adsouza/africa2ice/blob/main/pkg/render/glyph.go](https://github.com/adsouza/africa2ice/blob/main/pkg/render/glyph.go)
 - [https://github.com/adsouza/africa2ice/commit/7efa26d13f0319f59da6fe317dbdd3ccb0867fe](https://github.com/adsouza/africa2ice/commit/7efa26d13f0319f59da6fe317dbdd3ccb0867fe)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Ebiten game Co-Authored-By Claude Opus; https://github.com/adsouza/africa2ice
 
 [Back to the awesome list](../../README.md)

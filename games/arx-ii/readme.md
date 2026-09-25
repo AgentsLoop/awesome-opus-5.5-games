@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Evennia, Python, Django, React, TypeScript, WebSocket, Telnet MUD, Server-hosted game
+- **Estimated FP32 operations/s at 60 FPS:** 780,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large source-complete MUD project with a runnable Evennia server, React game client, scenes, battles, player actions, combat systems, entry and smoke tests, and exact Opus attribution on player-action implementation.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Arx-Game/arxii](https://github.com/Arx-Game/arxii)
 - **Evidence:** [direct model evidence](https://github.com/Arx-Game/arxii/commit/b7eb4c972b962a6c8cd75ed36a7c70b8f8ac8f4a)
@@ -28,17 +30,13 @@ The README identifies Arx II as the sequel to Arx: After the Reckoning, built on
 ### Gameplay source
 
 - [https://github.com/Arx-Game/arxii#readme](https://github.com/Arx-Game/arxii#readme)
-- [https://github.com/Arx-Game/arxii/blob/main/frontend/src/game/GamePage.tsx](https://github.com/Arx-Game/arxii/blob/main/frontend/src/game/GamePage.tsx)
-- [https://github.com/Arx-Game/arxii/blob/main/frontend/src/battles/components/BattleMapCanvas.tsx](https://github.com/Arx-Game/arxii/blob/main/frontend/src/battles/components/BattleMapCanvas.tsx)
-- [https://github.com/Arx-Game/arxii/blob/main/frontend/e2e/game-entry.spec.ts](https://github.com/Arx-Game/arxii/blob/main/frontend/e2e/game-entry.spec.ts)
-- [https://github.com/Arx-Game/arxii/blob/main/frontend/e2e/combat.spec.ts](https://github.com/Arx-Game/arxii/blob/main/frontend/e2e/combat.spec.ts)
-- [https://github.com/Arx-Game/arxii/blob/main/docs/frontend/game_client_plan.md](https://github.com/Arx-Game/arxii/blob/main/docs/frontend/game_client_plan.md)
 - [https://github.com/Arx-Game/arxii/commit/b7eb4c972b962a6c8cd75ed36a7c70b8f8ac8f4a](https://github.com/Arx-Game/arxii/commit/b7eb4c972b962a6c8cd75ed36a7c70b8f8ac8f4a)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Co-Authored-By Claude Opus game; https://github.com/Arx-Game/arxii
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 9.0/10
 - **Model:** Claude Opus 5
 - **Technology:** Pygame, Python, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a well-documented Pygame game with full 8-ball rules, local multiplayer, AI shot search, realistic physics, an entrypoint and modular source, plus direct Claude Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/chrissfoss-nor/8ballpool](https://github.com/chrissfoss-nor/8ballpool)
 - **Evidence:** [direct model evidence](https://github.com/chrissfoss-nor/8ballpool/commit/348a6cdeae435000e65b3801a5dd8347471bf98b)
@@ -28,15 +30,13 @@ The README identifies a local two-player Pygame 8-ball pool game and documents r
 ### Gameplay source
 
 - [https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/main.py](https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/main.py)
-- [https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/game/game.py](https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/game/game.py)
-- [https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/game/rules.py](https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/game/rules.py)
-- [https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/physics/engine.py](https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/physics/engine.py)
 - [https://github.com/chrissfoss-nor/8ballpool/commit/348a6cdeae435000e65b3801a5dd8347471bf98b](https://github.com/chrissfoss-nor/8ballpool/commit/348a6cdeae435000e65b3801a5dd8347471bf98b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for pygame game Co-Authored-By Claude Opus; https://github.com/chrissfoss-nor/8ballpool
 
 [Back to the awesome list](../../README.md)

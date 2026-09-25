@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Actual game repository and direct model comparison evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/slampunk/dogs-of-war](https://github.com/slampunk/dogs-of-war)
 - **Evidence:** [creator-reported model evidence](https://github.com/slampunk/dogs-of-war)
@@ -32,7 +34,8 @@ Repository description identifies an AI-game experiment comparing Qwen and Claud
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/slampunk/dogs-of-war
 
 [Back to the awesome list](../../README.md)

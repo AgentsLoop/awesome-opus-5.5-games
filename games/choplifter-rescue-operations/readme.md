@@ -9,9 +9,12 @@
 - **Score:** 8.8/10
 - **Model:** GPT-6 Astra
 - **Technology:** JavaScript, Phaser, HTML/CSS, Canvas, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a public live build with a clear rescue loop, mission objectives, score state, control system, source directory and explicit GPT-6 Astra attribution; reduced slightly because only one chapter is counted from the multi-attempt repository.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/danielpradilla/choplifter](https://github.com/danielpradilla/choplifter)
 - **Evidence:** [direct model evidence](https://github.com/danielpradilla/choplifter#choplifter-one-shotted)
+- **Live demo:** [open demo](https://www.danielpradilla.info/projects/choplifter/choplifter-6-astra/)
 
 ## Screenshots
 
@@ -37,7 +40,8 @@ The repository preserves four browser-game attempts from one Choplifter brief. C
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme; https://github.com/BeatAPI/awesome-3d-prompts
 
 [Back to the awesome list](../../README.md)

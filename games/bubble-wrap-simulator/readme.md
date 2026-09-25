@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.5/10
-- **Screenshot rating:** 7.7/10 ([rated image](https://github.com/finktheartist/bubble-wrap-simulator/blob/main/docs/gameplay-poster.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.7/10 ([manually reviewed image](https://github.com/finktheartist/bubble-wrap-simulator/blob/main/docs/gameplay-poster.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, React, Rapier, Web Audio API
 - **Estimated FP32 operations/s at 60 FPS:** 1,300,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/finktheartist/bubble-wrap-simulator/blob/main/docs/gameplay-poster.jpg)
+- [screenshot 1](https://github.com/finktheartist/bubble-wrap-simulator/blob/main/docs/gameplay-poster.jpg) — 📸 7.7/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

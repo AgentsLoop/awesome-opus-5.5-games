@@ -9,6 +9,8 @@
 - **Score:** 9.1/10
 - **Model:** Claude Opus 5
 - **Technology:** Node.js, WebSocket, Canvas 2D, JavaScript, Browser multiplayer
+- **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The new project has a substantial documented multiplayer loop, server/client source, configurable mechanics, tests and direct Opus gameplay evidence.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/Akajek/Track-Master](https://github.com/Akajek/Track-Master)
 - **Evidence:** [direct model evidence](https://github.com/Akajek/Track-Master/commit/71b666e45724f9d41759707f8917b9b5e455af4e)
@@ -28,15 +30,13 @@ The repository was created on 2026-09-13 and describes a complete asymmetric mul
 ### Gameplay source
 
 - [https://github.com/Akajek/Track-Master/blob/main/README.md](https://github.com/Akajek/Track-Master/blob/main/README.md)
-- [https://github.com/Akajek/Track-Master/blob/main/server.js](https://github.com/Akajek/Track-Master/blob/main/server.js)
-- [https://github.com/Akajek/Track-Master/tree/main/public](https://github.com/Akajek/Track-Master/tree/main/public)
-- [https://github.com/Akajek/Track-Master/blob/main/package.json](https://github.com/Akajek/Track-Master/blob/main/package.json)
 - [https://github.com/Akajek/Track-Master/commit/71b666e45724f9d41759707f8917b9b5e455af4e](https://github.com/Akajek/Track-Master/commit/71b666e45724f9d41759707f8917b9b5e455af4e)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search for Claude game created 2026-09-13..2026-09-15; https://github.com/Akajek/Track-Master
 
 [Back to the awesome list](../../README.md)

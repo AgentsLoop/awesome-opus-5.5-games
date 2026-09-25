@@ -9,6 +9,8 @@
 - **Score:** 7.8/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Python, Flask, SSE, HTML, JavaScript, Ollama, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 150,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct attribution, complete source, local run instructions, branching choices, persistence and replay controls; it requires a local Ollama model.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ehewlett3/AI-Choose-Now](https://github.com/ehewlett3/AI-Choose-Now)
 - **Evidence:** [direct model evidence](https://github.com/ehewlett3/AI-Choose-Now#features)
@@ -33,7 +35,8 @@ The README documents a local AI choose-your-own-adventure game with streaming na
 ## Verification notes
 
 - **Status:** verified_source_and_run_instructions
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: "built with Claude Opus 4.6" game in:readme; https://github.com/ehewlett3/AI-Choose-Now
 
 [Back to the awesome list](../../README.md)

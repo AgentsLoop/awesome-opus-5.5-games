@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
-- **Screenshot rating:** 7.2/10 ([rated image](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.2/10 ([manually reviewed image](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Phaser, TypeScript, Vite, IndexedDB, Service Worker, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 1,500,000,000 (low confidence; static estimate, not measured).
@@ -21,9 +21,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png)
-- [screenshot 2](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105253.png)
-- [screenshot 3](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105311.png)
+- [screenshot 1](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png) — 📸 7.2/10 · manual visual review · Use this frame for the game-level score. Shows a title or menu; discount the missing active-play view. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105253.png) — 📸 6.8/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105311.png) — 📸 6.8/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
 
 ## Model attribution
 

@@ -1,6 +1,6 @@
 # CYBER SUNDAY
 
-> Top-list entry: **this week** (#3), **this month** (#3).
+> Top-list entry: **this month** (#3).
 
 ![CYBER SUNDAY screenshot placeholder](cyber-sunday-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.6/10
 - **Model:** Claude Opus 5
 - **Technology:** Godot 4.7, GDScript, Blender, GLB/glTF, Native desktop, First-person immersive sim, FPS/RPG, GUT tests
+- **Estimated FP32 operations/s at 60 FPS:** 8,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial native FPS/RPG with a complete documented debt-and-hunt loop, first-person combat, stealth, NPC behavior, authored resources, save systems, level content, assets, tests and repeated exact Opus gameplay trailers.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/influenza-dotcom/3D-RPG](https://github.com/influenza-dotcom/3D-RPG)
 - **Evidence:** [direct model evidence](https://github.com/influenza-dotcom/3D-RPG/commit/40b621ce679e98674ecb40851912fb48b82aa82)
@@ -28,20 +30,13 @@ The README identifies CYBERSUNDAY as a single-player Godot 4.7 FPS/RPG prototype
 ### Gameplay source
 
 - [https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
-- [https://github.com/influenza-dotcom/3D-RPG/blob/main/DESIGN.md](https://github.com/influenza-dotcom/3D-RPG/blob/main/DESIGN.md)
-- [https://github.com/influenza-dotcom/3D-RPG/blob/main/project.godot](https://github.com/influenza-dotcom/3D-RPG/blob/main/project.godot)
-- [https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/computerroom.tscn](https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/computerroom.tscn)
-- [https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/game.tscn](https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/game.tscn)
-- [https://github.com/influenza-dotcom/3D-RPG/blob/main/scripts/player/player.gd](https://github.com/influenza-dotcom/3D-RPG/blob/main/scripts/player/player.gd)
-- [https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/combat](https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/combat)
-- [https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/npc](https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/npc)
-- [https://github.com/influenza-dotcom/3D-RPG/tree/main/tests](https://github.com/influenza-dotcom/3D-RPG/tree/main/tests)
 - [https://github.com/influenza-dotcom/3D-RPG/commit/40b621ce679e98674ecb40851912fb48b82aa82](https://github.com/influenza-dotcom/3D-RPG/commit/40b621ce679e98674ecb40851912fb48b82aa82)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Godot game Co-Authored-By Claude Opus 5; https://github.com/influenza-dotcom/3D-RPG
 
 [Back to the awesome list](../../README.md)

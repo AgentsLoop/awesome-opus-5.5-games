@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete single-file source, playable simulation loop, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Manonsigilla/Sims-Fable-5](https://github.com/Manonsigilla/Sims-Fable-5)
 - **Evidence:** [creator-reported model evidence](https://github.com/Manonsigilla/Sims-Fable-5/blob/main/README.md)
@@ -32,7 +34,8 @@ README and life-sim.html contain a playable browser life simulator with needs, a
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Manonsigilla/Sims-Fable-5
 
 [Back to the awesome list](../../README.md)

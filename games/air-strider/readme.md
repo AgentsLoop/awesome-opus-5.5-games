@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.0/10
-- **Screenshot rating:** 5.7/10 ([rated image](https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.17.14.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.7/10 ([manually reviewed image](https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.17.14.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** Godot, GDScript, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
@@ -21,8 +21,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.17.14.png)
-- [screenshot 2](https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.18.58.png)
+- [screenshot 1](https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.17.14.png) — 📸 5.7/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 2](https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.18.58.png) — 📸 5.3/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

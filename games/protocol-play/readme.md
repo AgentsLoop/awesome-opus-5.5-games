@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Bevy 0.18, Rust, Native desktop, WebAssembly
+- **Estimated FP32 operations/s at 60 FPS:** 700,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large documented campaign with 149 puzzles, many mechanics, tests and direct Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/jjgarcianorway/protocol-play](https://github.com/jjgarcianorway/protocol-play)
 - **Evidence:** [direct model evidence](https://github.com/jjgarcianorway/protocol-play/commit/8d0ac48b2d3ca6f903b6eadf4b872ecb181c5fec)
@@ -28,15 +30,13 @@ The README describes a tile puzzle game with 149 levels across 13 chapters, colo
 ### Gameplay source
 
 - [https://github.com/jjgarcianorway/protocol-play/blob/main/README.md](https://github.com/jjgarcianorway/protocol-play/blob/main/README.md)
-- [https://github.com/jjgarcianorway/protocol-play/blob/main/src/board.rs](https://github.com/jjgarcianorway/protocol-play/blob/main/src/board.rs)
-- [https://github.com/jjgarcianorway/protocol-play/blob/main/src/bot_puzzle_scene.rs](https://github.com/jjgarcianorway/protocol-play/blob/main/src/bot_puzzle_scene.rs)
-- [https://github.com/jjgarcianorway/protocol-play/blob/main/src/game.rs](https://github.com/jjgarcianorway/protocol-play/blob/main/src/game.rs)
 - [https://github.com/jjgarcianorway/protocol-play/commit/8d0ac48b2d3ca6f903b6eadf4b872ecb181c5fec](https://github.com/jjgarcianorway/protocol-play/commit/8d0ac48b2d3ca6f903b6eadf4b872ecb181c5fec)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Bevy game Co-Authored-By Claude Opus; https://github.com/jjgarcianorway/protocol-play
 
 [Back to the awesome list](../../README.md)

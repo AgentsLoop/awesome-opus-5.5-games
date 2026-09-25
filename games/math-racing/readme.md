@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** Claude Opus 4.8
 - **Technology:** JavaScript, HTML, Canvas 2D, Static browser app
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Eleven separately registered game modes with documented rules, source modules, tests, a shared state machine and exact Opus attribution; no live deployment claim is made because the inferred URLs returned 404.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/mundeok/math-arcade-paradise](https://github.com/mundeok/math-arcade-paradise)
 - **Evidence:** [direct model evidence](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445)
@@ -27,16 +29,14 @@ The project summary defines Math Arcade Paradise as a static HTML/JavaScript edu
 
 ### Gameplay source
 
-- [https://github.com/mundeok/math-arcade-paradise/blob/master/PROJECT_FULL_SUMMARY.md](https://github.com/mundeok/math-arcade-paradise/blob/master/PROJECT_FULL_SUMMARY.md)
-- [https://github.com/mundeok/math-arcade-paradise/blob/master/src/games/registry.js](https://github.com/mundeok/math-arcade-paradise/blob/master/src/games/registry.js)
 - [https://github.com/mundeok/math-arcade-paradise/tree/master/src/games](https://github.com/mundeok/math-arcade-paradise/tree/master/src/games)
-- [https://github.com/mundeok/math-arcade-paradise/tree/master/tests](https://github.com/mundeok/math-arcade-paradise/tree/master/tests)
 - [https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445](https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 11
+- **Counted units in repository:** 11
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12; https://github.com/mundeok/math-arcade-paradise
 
 [Back to the awesome list](../../README.md)

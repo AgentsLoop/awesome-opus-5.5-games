@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 8.0/10 ([rated image](https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.0/10 ([manually reviewed image](https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, HTML, Canvas 2D, Raycasting, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg)
+- [screenshot 1](https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg) — 📸 8.0/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

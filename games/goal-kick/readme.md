@@ -9,6 +9,8 @@
 - **Score:** 9.5/10
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio, Browser/iPad
+- **Estimated FP32 operations/s at 60 FPS:** 420,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Eight clearly separated playable modes with distinct targets and mechanics, drawing input, responsive controls, results/restart flows, persistence, iPad support, direct source evidence and a published demo.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/gberry747-lab/gabriels-animation-studio](https://github.com/gberry747-lab/gabriels-animation-studio)
 - **Evidence:** [direct model evidence](https://github.com/gberry747-lab/gabriels-animation-studio/commit/f3e68b8fc0165f1cbace50f6204a83192a5ceb79)
@@ -28,16 +30,13 @@ The README documents a single-file browser/iPad game where the player draws a st
 
 ### Gameplay source
 
-- [https://github.com/gberry747-lab/gabriels-animation-studio#readme](https://github.com/gberry747-lab/gabriels-animation-studio#readme)
-- [https://gberry747-lab.github.io/gabriels-animation-studio/](https://gberry747-lab.github.io/gabriels-animation-studio/)
-- [https://github.com/gberry747-lab/gabriels-animation-studio/blob/main/index.html](https://github.com/gberry747-lab/gabriels-animation-studio/blob/main/index.html)
-- [https://github.com/gberry747-lab/gabriels-animation-studio/blob/main/START-HERE.md](https://github.com/gberry747-lab/gabriels-animation-studio/blob/main/START-HERE.md)
 - [https://github.com/gberry747-lab/gabriels-animation-studio/commit/f3e68b8fc0165f1cbace50f6204a83192a5ceb79](https://github.com/gberry747-lab/gabriels-animation-studio/commit/f3e68b8fc0165f1cbace50f6204a83192a5ceb79)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 8
+- **Counted units in repository:** 8
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Fable, 2026-09-10..2026-09-12; https://github.com/gberry747-lab/gabriels-animation-studio
 
 [Back to the awesome list](../../README.md)

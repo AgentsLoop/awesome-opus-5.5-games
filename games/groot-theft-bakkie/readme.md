@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.0/10
-- **Screenshot rating:** 6.6/10 ([rated image](https://github.com/MichaelBernhardt/GTB6/blob/main/screenshots/groot-theft-bakkie-competition.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.6/10 ([manually reviewed image](https://github.com/MichaelBernhardt/GTB6/blob/main/screenshots/groot-theft-bakkie-competition.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, TypeScript, Vite
 - **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/MichaelBernhardt/GTB6/blob/main/screenshots/groot-theft-bakkie-competition.png)
+- [screenshot 1](https://github.com/MichaelBernhardt/GTB6/blob/main/screenshots/groot-theft-bakkie-competition.png) — 📸 6.6/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

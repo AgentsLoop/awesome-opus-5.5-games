@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Opus 4.8
 - **Technology:** React, TypeScript, Tauri v2, Convex, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 240,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a dedicated duel game with card rules, deck management, online-play code and a native Tauri shell, plus exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/vreddi/kaijudo](https://github.com/vreddi/kaijudo)
 - **Evidence:** [direct model evidence](https://github.com/vreddi/kaijudo/commit/e188d5e765664271b100fd5051f37eb051a7e6ab)
@@ -28,16 +30,13 @@ The repository description identifies a Duel Masters-inspired card game. The des
 ### Gameplay source
 
 - [https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/main.tsx](https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/main.tsx)
-- [https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/DuelScreen.tsx](https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/DuelScreen.tsx)
-- [https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/PlayPage.tsx](https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/PlayPage.tsx)
-- [https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/cards.tsx](https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/cards.tsx)
-- [https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src-tauri/tauri.conf.json](https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src-tauri/tauri.conf.json)
 - [https://github.com/vreddi/kaijudo/commit/e188d5e765664271b100fd5051f37eb051a7e6ab](https://github.com/vreddi/kaijudo/commit/e188d5e765664271b100fd5051f37eb051a7e6ab)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Tauri game Co-Authored-By Claude Opus; https://github.com/vreddi/kaijudo
 
 [Back to the awesome list](../../README.md)

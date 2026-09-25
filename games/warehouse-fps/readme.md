@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 6.5/10
-- **Screenshot rating:** 6.5/10 ([rated image](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-before.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.5/10 ([manually reviewed image](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-before.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, JavaScript
 - **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
@@ -21,9 +21,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-after.png)
-- [screenshot 2](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-before.png)
-- [screenshot 3](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/verify-sheet.png)
+- [screenshot 1](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-after.png) — 📸 6.1/10 · relative frame adjustment · Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/rig-before.png) — 📸 6.5/10 · manual visual review · Use this frame for the game-level score. Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/404-Repo/404-game-recipe/blob/HEAD/docs/img/verify-sheet.png) — 📸 6.1/10 · relative frame adjustment · Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame is readable but has modest detail.
 
 ## Model attribution
 

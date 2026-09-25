@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, Canvas 2D, WebGL, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 1,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/octopus7/astracraft](https://github.com/octopus7/astracraft)
 - **Evidence:** [direct model evidence](https://github.com/octopus7/astracraft/blob/main/web/README.md)
@@ -32,7 +34,8 @@ Repository contains Astra Dash plus four separately titled playable web2 experim
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 5
+- **Counted units in repository:** 5
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/octopus7/astracraft; https://github.com/xianyu110/awesome-gpt-6-astra
 
 [Back to the awesome list](../../README.md)

@@ -6,9 +6,11 @@
 
 ## At a glance
 
-- **Score:** 8.3/10
+- **Score:** 8.2/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Godot 4.6, GDScript, Native
+- **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Two directly created Godot microgames with scenes, scripts, tests, game phases, scoring and explicit Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/kevicency/KumoWare](https://github.com/kevicency/KumoWare)
 - **Evidence:** [direct model evidence](https://github.com/kevicency/KumoWare/commit/8a4a86d4537a0a002e63f72f0902abc621aa38c6)
@@ -27,14 +29,14 @@ The Godot 4.6 repository is a WarioWare-style competitive microgame collection. 
 
 ### Gameplay source
 
-- [https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/blackjack_game.gd](https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/blackjack_game.gd)
 - [https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/stack_game.gd](https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/stack_game.gd)
 - [https://github.com/kevicency/KumoWare/commit/8a4a86d4537a0a002e63f72f0902abc621aa38c6](https://github.com/kevicency/KumoWare/commit/8a4a86d4537a0a002e63f72f0902abc621aa38c6)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 2
+- **Counted units in repository:** 2
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for repo:kevicency/KumoWare Co-Authored-By Claude Opus 4.6; https://github.com/kevicency/KumoWare
 
 [Back to the awesome list](../../README.md)

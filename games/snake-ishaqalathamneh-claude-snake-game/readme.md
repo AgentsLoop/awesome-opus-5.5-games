@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** TypeScript, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, tests or quality claims, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/IshaqAlathamneh/claude-snake-game](https://github.com/IshaqAlathamneh/claude-snake-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/IshaqAlathamneh/claude-snake-game/blob/main/README.md)
@@ -32,7 +34,8 @@ README and TypeScript source contain a production-quality Snake game and state t
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/IshaqAlathamneh/claude-snake-game
 
 [Back to the awesome list](../../README.md)

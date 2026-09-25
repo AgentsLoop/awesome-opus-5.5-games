@@ -9,6 +9,8 @@
 - **Score:** 7.9/10
 - **Model:** Claude Opus 4.8
 - **Technology:** raylib, C++14, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Real Raylib C++ board game with CMake project, game source and AI implementation.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/nhannht/caro-game](https://github.com/nhannht/caro-game)
 - **Evidence:** [direct model evidence](https://github.com/nhannht/caro-game/commit/f8e79aa58a2ceab3a37b21ccf1422cacf875fa90)
@@ -28,14 +30,13 @@ The README identifies a C++14 Caro/Gomoku game built with Raylib for an OOP clas
 ### Gameplay source
 
 - [https://github.com/nhannht/caro-game/blob/master/README.md](https://github.com/nhannht/caro-game/blob/master/README.md)
-- [https://github.com/nhannht/caro-game/blob/master/src/main.cpp](https://github.com/nhannht/caro-game/blob/master/src/main.cpp)
-- [https://github.com/nhannht/caro-game/blob/master/CMakeLists.txt](https://github.com/nhannht/caro-game/blob/master/CMakeLists.txt)
 - [https://github.com/nhannht/caro-game/commit/f8e79aa58a2ceab3a37b21ccf1422cacf875fa90](https://github.com/nhannht/caro-game/commit/f8e79aa58a2ceab3a37b21ccf1422cacf875fa90)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for raylib game Co-Authored-By Claude Opus; https://github.com/nhannht/caro-game
 
 [Back to the awesome list](../../README.md)

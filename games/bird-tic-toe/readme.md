@@ -9,6 +9,8 @@
 - **Score:** 6.5/10
 - **Model:** Claude Opus 4.5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 150,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source and direct attribution, with small scope. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/vriveras/bird-tic-toe](https://github.com/vriveras/bird-tic-toe)
 - **Evidence:** [creator-reported model evidence](https://github.com/vriveras/bird-tic-toe)
@@ -32,7 +34,8 @@ Repository description and browser source contain a playable bird-themed Tic-Tac
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/vriveras/bird-tic-toe
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, WebGL, JavaScript, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/erekjiang/call-of-duty-opus5](https://github.com/erekjiang/call-of-duty-opus5)
 - **Evidence:** [repository-topic model evidence](https://github.com/erekjiang/call-of-duty-opus5)
@@ -33,7 +35,8 @@ Playable browser FPS with controls, weapons, AI, procedural PBR pipeline, tests,
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/erekjiang/call-of-duty-opus5
 
 [Back to the awesome list](../../README.md)

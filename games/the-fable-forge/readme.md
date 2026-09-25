@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Five chapters, playable source, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/vivmuk/fable-forge](https://github.com/vivmuk/fable-forge)
 - **Evidence:** [creator-reported model evidence](https://github.com/vivmuk/fable-forge/blob/main/README.md)
@@ -32,7 +34,8 @@ README and browser source contain a five-chapter interactive game that teaches F
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/vivmuk/fable-forge
 
 [Back to the awesome list](../../README.md)

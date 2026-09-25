@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 4.7
 - **Technology:** HTML, Canvas, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Self-contained playable source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo](https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo)
 - **Evidence:** [creator-reported model evidence](https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo/blob/main/README.md)
@@ -33,7 +35,8 @@ README and single-file source contain a playable Canvas Breakout variant generat
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo
 
 [Back to the awesome list](../../README.md)

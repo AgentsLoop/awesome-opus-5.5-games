@@ -9,6 +9,8 @@
 - **Score:** 9.3/10
 - **Model:** Claude Fable 5
 - **Technology:** Unreal Engine 5.8, C++, Python, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 7,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial Unreal combat game with adaptive boss AI, C++ gameplay source, Python training/inference, native build/cook evidence and direct Fable 5 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Assassin29092005/GAME_CORE](https://github.com/Assassin29092005/GAME_CORE)
 - **Evidence:** [direct model evidence](https://github.com/Assassin29092005/GAME_CORE/commit/ec26751337114d6ef6d8b766f06599df3b3354b1)
@@ -28,15 +30,13 @@ The public repository is an Unreal Engine 5.8 combat game with a player hero, bo
 ### Gameplay source
 
 - [https://github.com/Assassin29092005/GAME_CORE/blob/main/GAME_CORE.uproject](https://github.com/Assassin29092005/GAME_CORE/blob/main/GAME_CORE.uproject)
-- [https://github.com/Assassin29092005/GAME_CORE/blob/main/Source/GAME_CORE/Private/CombatComponent.cpp](https://github.com/Assassin29092005/GAME_CORE/blob/main/Source/GAME_CORE/Private/CombatComponent.cpp)
-- [https://github.com/Assassin29092005/GAME_CORE/blob/main/Source/GAME_CORE/Private/BossEncounterVolume.cpp](https://github.com/Assassin29092005/GAME_CORE/blob/main/Source/GAME_CORE/Private/BossEncounterVolume.cpp)
-- [https://github.com/Assassin29092005/GAME_CORE/blob/main/Source/GAME_CORE/Private/GameFeelSubsystem.cpp](https://github.com/Assassin29092005/GAME_CORE/blob/main/Source/GAME_CORE/Private/GameFeelSubsystem.cpp)
 - [https://github.com/Assassin29092005/GAME_CORE/commit/ec26751337114d6ef6d8b766f06599df3b3354b1](https://github.com/Assassin29092005/GAME_CORE/commit/ec26751337114d6ef6d8b766f06599df3b3354b1)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Unreal game Co-Authored-By Claude Fable; https://github.com/Assassin29092005/GAME_CORE
 
 [Back to the awesome list](../../README.md)

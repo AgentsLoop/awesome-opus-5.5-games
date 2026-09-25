@@ -9,6 +9,8 @@
 - **Score:** 8.4/10
 - **Model:** GPT-6 Astra
 - **Technology:** JavaScript, Three.js, WebGL, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 3,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from complete source, a clear first-person survival/building loop and direct Astra attribution; reduced for the advertised deployment returning 404 and no current live playtest.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/lortkipa/minecraft-astra](https://github.com/lortkipa/minecraft-astra)
 - **Evidence:** [direct model evidence](https://github.com/lortkipa/minecraft-astra#preview)
@@ -33,7 +35,8 @@ The README explicitly identifies Wilderness as a Minecraft-style browser game vi
 ## Verification notes
 
 - **Status:** verified_source_live_unavailable
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, TypeScript, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/bridge-mind/apex-formula](https://github.com/bridge-mind/apex-formula)
 - **Evidence:** [direct model evidence](https://github.com/bridge-mind/apex-formula)
@@ -33,7 +35,8 @@ Full browser Formula 1 game with circuits, AI, physics, race weekend, tests, and
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/bridge-mind/apex-formula
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 9.1/10
 - **Model:** Claude Opus 4.7
 - **Technology:** Phaser 3, TypeScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository documents a complete game loop with map and combat scenes, provides 54 Playwright tests and direct source evidence, and has exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/TamirNator/heroes-clone](https://github.com/TamirNator/heroes-clone)
 - **Evidence:** [direct model evidence](https://github.com/TamirNator/heroes-clone/commit/41d39785dd53ca890229ad420bf1db840d88e7bf)
@@ -28,15 +30,13 @@ The README describes a Heroes 3-style turn-based hex strategy game with map expl
 ### Gameplay source
 
 - [https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/main.ts](https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/main.ts)
-- [https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/scenes/MapScene.ts](https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/scenes/MapScene.ts)
-- [https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/scenes/CombatScene.ts](https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/scenes/CombatScene.ts)
-- [https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/data/world.ts](https://github.com/TamirNator/heroes-clone/blob/41d39785dd53ca890229ad420bf1db840d88e7bf/src/data/world.ts)
 - [https://github.com/TamirNator/heroes-clone/commit/41d39785dd53ca890229ad420bf1db840d88e7bf](https://github.com/TamirNator/heroes-clone/commit/41d39785dd53ca890229ad420bf1db840d88e7bf)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Phaser game Co-Authored-By Claude Opus; https://github.com/TamirNator/heroes-clone
 
 [Back to the awesome list](../../README.md)

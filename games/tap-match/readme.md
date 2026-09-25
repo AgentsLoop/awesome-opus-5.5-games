@@ -9,6 +9,8 @@
 - **Score:** 8.9/10
 - **Model:** Claude Opus 5
 - **Technology:** Flutter, Dart, Native Android, Mobile puzzle games, Unit tests
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains three separately registered native games with independent rules, screens and tests, an Android release workflow and exact Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/lofiski/mini-games](https://github.com/lofiski/mini-games)
 - **Evidence:** [direct model evidence](https://github.com/lofiski/mini-games/commit/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9)
@@ -27,18 +29,14 @@ The README identifies a native Android mini-game collection and lists three play
 
 ### Gameplay source
 
-- [https://github.com/lofiski/mini-games/blob/main/README.md](https://github.com/lofiski/mini-games/blob/main/README.md)
-- [https://github.com/lofiski/mini-games/blob/main/lib/games/game2048/game2048_definition.dart](https://github.com/lofiski/mini-games/blob/main/lib/games/game2048/game2048_definition.dart)
-- [https://github.com/lofiski/mini-games/blob/main/lib/games/sliding_puzzle/sliding_puzzle_definition.dart](https://github.com/lofiski/mini-games/blob/main/lib/games/sliding_puzzle/sliding_puzzle_definition.dart)
-- [https://github.com/lofiski/mini-games/blob/main/lib/games/tap_match/tap_match_definition.dart](https://github.com/lofiski/mini-games/blob/main/lib/games/tap_match/tap_match_definition.dart)
-- [https://github.com/lofiski/mini-games/blob/main/lib/games_registry.dart](https://github.com/lofiski/mini-games/blob/main/lib/games_registry.dart)
-- [https://github.com/lofiski/mini-games/tree/main/test/games](https://github.com/lofiski/mini-games/tree/main/test/games)
+- [https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/tap_match/domain/match_grid.dart](https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/tap_match/domain/match_grid.dart)
 - [https://github.com/lofiski/mini-games/commit/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9](https://github.com/lofiski/mini-games/commit/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 3
+- **Counted units in repository:** 3
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Flutter game Co-Authored-By Claude Opus 5; https://github.com/lofiski/mini-games
 
 [Back to the awesome list](../../README.md)

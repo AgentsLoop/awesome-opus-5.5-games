@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio API, PWA, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Fable attribution, live GitHub Pages build, complete arcade ruleset, structured source modules, offline PWA behavior and explicit controls.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/boromisp/pacman-clone](https://github.com/boromisp/pacman-clone)
 - **Evidence:** [direct model evidence](https://github.com/boromisp/pacman-clone#pac-clone)
@@ -34,7 +36,8 @@ The README explicitly says the entire repository was written by Claude Code usin
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search: "Claude Fable 5.1" HTML GitHub Pages game; https://github.com/boromisp/pacman-clone
 
 [Back to the awesome list](../../README.md)

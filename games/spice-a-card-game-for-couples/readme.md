@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.6/10
-- **Screenshot rating:** 6.4/10 ([rated image](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.4/10 ([manually reviewed image](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, CSS, JavaScript ES modules, PWA, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
@@ -21,16 +21,16 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/phones.png)
-- [screenshot 2](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/levels.png)
-- [screenshot 3](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png)
-- [screenshot 4](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png)
-- [screenshot 5](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-build.png)
-- [screenshot 6](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-content.png)
-- [screenshot 7](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-deck.png)
-- [screenshot 8](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-install.png)
-- [screenshot 9](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-play.png)
-- [screenshot 10](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-privacy.png)
+- [screenshot 1](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/phones.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/levels.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/banner.png) — 📸 6.4/10 · manual visual review · Use this frame for the game-level score. Shows a staged or promotional view; discount uncertainty about in-game rendering. The frame is readable but has modest detail.
+- [screenshot 5](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-build.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 6](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-content.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 7](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-deck.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 8](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-install.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 9](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-play.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
+- [screenshot 10](https://github.com/Hiberius/couples-card-game/blob/HEAD/docs/media/h-privacy.png) — 📸 6.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame is readable but has modest detail.
 
 ## Model attribution
 

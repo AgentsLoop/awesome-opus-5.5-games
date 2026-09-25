@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 5
 - **Technology:** JavaScript, HTML, CSS
+- **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/rubenvoss07-hub/GauntletGame](https://github.com/rubenvoss07-hub/GauntletGame)
 - **Evidence:** [directory-method model evidence](https://github.com/rubenvoss07-hub/GauntletGame)
@@ -32,7 +34,8 @@ Playable browser WW2 grand-strategy game with GitHub Pages instructions; reposit
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/rubenvoss07-hub/GauntletGame
 
 [Back to the awesome list](../../README.md)

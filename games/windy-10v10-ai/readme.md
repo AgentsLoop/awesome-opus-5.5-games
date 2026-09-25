@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 5.7/10 ([rated image](https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.7/10 ([manually reviewed image](https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Dota 2 Source 2, Dota 2 Workshop Tools, VScript TypeScript, Lua, Panorama React, Native game platform, PVE custom game
 - **Estimated FP32 operations/s at 60 FPS:** 5,800,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png)
+- [screenshot 1](https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png) — 📸 5.7/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

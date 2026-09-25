@@ -9,6 +9,8 @@
 - **Score:** 7.2/10
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, JavaScript, Canvas 2D, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct model-labeled source artifact with documented gameplay states and local launch instructions; reduced because no hosted demo or independent browser playtest was available.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/NeoAiLabs/sidescroller](https://github.com/NeoAiLabs/sidescroller)
 - **Evidence:** [direct model evidence](https://github.com/NeoAiLabs/sidescroller#results)
@@ -33,7 +35,8 @@ The README identifies GPT-6 Astra as one of the one-shot model results and provi
 ## Verification notes
 
 - **Status:** verified_source_live_unavailable
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+playable+game+in%3Areadme; https://github.com/NeoAiLabs/sidescroller
 
 [Back to the awesome list](../../README.md)

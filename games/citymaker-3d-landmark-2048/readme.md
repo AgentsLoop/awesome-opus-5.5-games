@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.0/10
-- **Screenshot rating:** 5.7/10 ([rated image](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.7/10 ([manually reviewed image](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, TypeScript, React, Vite, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 2,500,000,000 (low confidence; static estimate, not measured).
@@ -21,9 +21,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png)
-- [screenshot 2](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-gallery.png)
-- [screenshot 3](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-mobile-game.png)
+- [screenshot 1](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png) — 📸 5.7/10 · manual visual review · Use this frame for the game-level score. Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-gallery.png) — 📸 5.3/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
+- [screenshot 3](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-mobile-game.png) — 📸 5.3/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
 
 ## Model attribution
 

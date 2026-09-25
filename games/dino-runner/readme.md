@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.9/10
-- **Screenshot rating:** 4.0/10 ([rated image](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 4.0/10 ([manually reviewed image](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** TypeScript, React/TSX, Claude Code function hooks, Interactive terminal
 - **Estimated FP32 operations/s at 60 FPS:** 120,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif)
+- [screenshot 1](https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif) — 📸 4.0/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

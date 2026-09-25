@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, JavaScript, WebGL, Howler
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/AlfredBrowser/Pinehollow-Funland-Five-Nights-at-Freddys-Remake-Fable-5.1](https://github.com/AlfredBrowser/Pinehollow-Funland-Five-Nights-at-Freddys-Remake-Fable-5.1)
 - **Evidence:** [direct model evidence](https://github.com/AlfredBrowser/Pinehollow-Funland-Five-Nights-at-Freddys-Remake-Fable-5.1)
@@ -32,7 +34,8 @@ Playable browser survival-horror game with monitor and vent-light mechanics, con
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/AlfredBrowser/Pinehollow-Funland-Five-Nights-at-Freddys-Remake-Fable-5.1
 
 [Back to the awesome list](../../README.md)

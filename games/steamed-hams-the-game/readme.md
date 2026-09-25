@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.0/10
-- **Screenshot rating:** 6.8/10 ([rated image](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/gameplay.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.8/10 ([manually reviewed image](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/gameplay.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** Python, Pygame
 - **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
@@ -20,10 +20,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/title.png)
-- [screenshot 2](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/gameplay.png)
-- [screenshot 3](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/cutscene.png)
-- [screenshot 4](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/fire.png)
+- [screenshot 1](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/title.png) — 📸 5.6/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/gameplay.png) — 📸 6.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/cutscene.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6/blob/develop/screenshots/fire.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Videos
 

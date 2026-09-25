@@ -9,6 +9,8 @@
 - **Score:** 9.0/10
 - **Model:** GPT-6 Astra
 - **Technology:** TypeScript, Vite, Canvas/WebGL, Web Workers, WebAssembly, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 4,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a substantial RTS engine, skirmish gameplay, AI, map editor, asset conversion, pathfinding, economy, combat, source tests, public deployment and explicit GPT-6 Astra attribution; live play requires first-run asset preparation.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04](https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04)
 - **Evidence:** [direct model evidence](https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04#about-the-game)
@@ -33,7 +35,8 @@ The README identifies this as an independent browser RTS recreation created in a
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme+pushed%3A2026-09-08..2026-09-08
 
 [Back to the awesome list](../../README.md)

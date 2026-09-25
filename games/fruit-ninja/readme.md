@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.8/10
-- **Screenshot rating:** 7.8/10 ([rated image](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/arcade-frenzy.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.8/10 ([manually reviewed image](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/arcade-frenzy.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8
 - **Technology:** SDL2, C++11, Native desktop, Web
 - **Estimated FP32 operations/s at 60 FPS:** 1,000,000,000 (low confidence; static estimate, not measured).
@@ -20,10 +20,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/mariotaku/FruitNinja/blob/main/docs/screenshots/arcade-wide.png)
-- [screenshot 2](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/arcade-frenzy.png)
-- [screenshot 3](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu-wide.png)
-- [screenshot 4](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu.png)
+- [screenshot 1](https://github.com/mariotaku/FruitNinja/blob/main/docs/screenshots/arcade-wide.png) — 📸 7.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/arcade-frenzy.png) — 📸 7.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu-wide.png) — 📸 6.6/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/mariotaku/FruitNinja/blob/HEAD/docs/screenshots/main-menu.png) — 📸 6.6/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame is readable but has modest detail.
 
 ## Model attribution
 

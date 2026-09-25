@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Fable 5
 - **Technology:** Vanilla JavaScript, chess.js, Stockfish 17.1 WebAssembly, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository provides a live chess game, Stockfish AI, analysis and replay systems, direct source evidence, deployment documentation and exact Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/mglass222/claude-chess-web](https://github.com/mglass222/claude-chess-web)
 - **Evidence:** [direct model evidence](https://github.com/mglass222/claude-chess-web/commit/debca7b29bfc289813c111866bcf07f157430819)
@@ -29,16 +31,13 @@ The README describes a complete browser chess game with Stockfish opponents, eig
 ### Gameplay source
 
 - [https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/main.js](https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/main.js)
-- [https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/game/GameController.js](https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/game/GameController.js)
-- [https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/game/GameState.js](https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/game/GameState.js)
-- [https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/engine/EngineManager.js](https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/engine/EngineManager.js)
-- [https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/ui/BoardView.js](https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/ui/BoardView.js)
 - [https://github.com/mglass222/claude-chess-web/commit/debca7b29bfc289813c111866bcf07f157430819](https://github.com/mglass222/claude-chess-web/commit/debca7b29bfc289813c111866bcf07f157430819)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for C++ game Co-Authored-By Claude Opus; https://github.com/mglass222/claude-chess-web
 
 [Back to the awesome list](../../README.md)

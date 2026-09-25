@@ -17,24 +17,13 @@
 
 ## Top games today
 
-> Rank the highest-rated repositories verified in this curation run on **2026-09-24**.
+> Rank the highest-rated repositories verified in this curation run on **2026-09-25**.
 
-| Rank | Game | Score | Model | Verified date |
-| ---: | --- | ---: | --- | --- |
-| 1 | [**Barista Shift**](games/barista-shift/readme.md) | ⭐ **9.5** | Claude Opus 5.5 | 2026-09-24 |
-| 2 | [**Turbo Kart Rally**](games/turbo-kart-rally/readme.md) | ⭐ **9.3** | Claude Opus 5.5 | 2026-09-24 |
-| 3 | [**Dead Signal: Exclusion Zone**](games/dead-signal-exclusion-zone/readme.md) | ⭐ **9.2** | Claude Opus 5.5 | 2026-09-24 |
-| 4 | [**Tater's Flight Sim**](games/tater-s-flight-sim/readme.md) | ⭐ **9.2** | Claude Opus 5.5 | 2026-09-24 |
-| 5 | [**Fishslop**](games/fishslop/readme.md) | ⭐ **9.1** | Claude Opus 5.5 | 2026-09-24 |
-| 6 | [**QQ Speed**](games/qq-speed/readme.md) | ⭐ **9.1** | Claude Opus 5.5 | 2026-09-24 |
-| 7 | [**Terrabrowser**](games/terrabrowser/readme.md) | ⭐ **9.1** | Claude Opus 5.5 | 2026-09-24 |
-| 8 | [**Slide Rush**](games/slide-rush/readme.md) | ⭐ **9.0** | Claude Opus 5.5 | 2026-09-24 |
-| 9 | [**Web Grand Prix**](games/web-grand-prix/readme.md) | ⭐ **9.0** | Claude Opus 5.5 | 2026-09-24 |
-| 10 | [**Wouf Kart**](games/wouf-kart/readme.md) | ⭐ **8.9** | Claude Opus 5.5 | 2026-09-24 |
+_No verified entries match this period yet._
 
 ## Top games this week
 
-> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-18** through **2026-09-24**.
+> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-19** through **2026-09-25**.
 
 | Rank | Game | Score | Model | Evidence date |
 | ---: | --- | ---: | --- | --- |
@@ -43,7 +32,7 @@
 
 ## Top games this month
 
-> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-01** through **2026-09-24**.
+> Rank the highest-rated games with publication or qualifying gameplay evidence from **2026-09-01** through **2026-09-25**.
 
 | Rank | Game | Score | Model | Evidence date |
 | ---: | --- | ---: | --- | --- |
@@ -70,36 +59,36 @@
 
 ## Top games by screenshot
 
-Rank 30 games by **manual screenshot rating**, not source-quality score. Review composition, scene detail, visual coherence, and readable gameplay across the linked images. Reward polished stylized art as well as realism; discount title cards, menus, concept art, and frames that do not show play. This is a visual impression, not a runtime playtest or proof of AAA production quality. Select a thumbnail or title to open the game's Markdown page.
+Rank 30 games by the score of each game's best manually reviewed screenshot, not by source-quality score. Review composition, scene detail, visual coherence, and readable gameplay. Reward polished stylized art as well as realism; discount title cards, menus, concept art, and frames that do not show play. Treat this as a visual impression, not a runtime playtest or proof of AAA production quality. Select a thumbnail or title to inspect every image's score, rating method, and reason on the game's Markdown page. Secondary images use relative frame adjustments, not independent manual reviews.
 
 <table>
 <tr>
 <td align="center" width="33%"><a href="games/turbo-kart-rally/readme.md"><img src="assets/screenshot-gallery/01.webp" alt="Turbo Kart Rally screenshot" width="100%"></a><br><a href="games/turbo-kart-rally/readme.md"><strong>Turbo Kart Rally</strong></a> · 📸 9.8/10</td>
-<td align="center" width="33%"><a href="games/kart-royale/readme.md"><img src="assets/screenshot-gallery/02.webp" alt="Kart Royale screenshot" width="100%"></a><br><a href="games/kart-royale/readme.md"><strong>Kart Royale</strong></a> · 📸 9.5/10</td>
-<td align="center" width="33%"><a href="games/nerd-of-duty/readme.md"><img src="assets/screenshot-gallery/03.webp" alt="Nerd of Duty screenshot" width="100%"></a><br><a href="games/nerd-of-duty/readme.md"><strong>Nerd of Duty</strong></a> · 📸 9.4/10</td>
+<td align="center" width="33%"><a href="games/neural-sight/readme.md"><img src="assets/screenshot-gallery/02.webp" alt="Neural Sight screenshot" width="100%"></a><br><a href="games/neural-sight/readme.md"><strong>Neural Sight</strong></a> · 📸 9.7/10</td>
+<td align="center" width="33%"><a href="games/kart-royale/readme.md"><img src="assets/screenshot-gallery/03.webp" alt="Kart Royale screenshot" width="100%"></a><br><a href="games/kart-royale/readme.md"><strong>Kart Royale</strong></a> · 📸 9.5/10</td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="games/vector-rush/readme.md"><img src="assets/screenshot-gallery/04.webp" alt="VECTOR RUSH screenshot" width="100%"></a><br><a href="games/vector-rush/readme.md"><strong>VECTOR RUSH</strong></a> · 📸 9.3/10</td>
-<td align="center" width="33%"><a href="games/turbo-kart-grand-prix/readme.md"><img src="assets/screenshot-gallery/05.webp" alt="Turbo Kart Grand Prix screenshot" width="100%"></a><br><a href="games/turbo-kart-grand-prix/readme.md"><strong>Turbo Kart Grand Prix</strong></a> · 📸 9.2/10</td>
-<td align="center" width="33%"><a href="games/iridium-reach/readme.md"><img src="assets/screenshot-gallery/06.webp" alt="Iridium Reach screenshot" width="100%"></a><br><a href="games/iridium-reach/readme.md"><strong>Iridium Reach</strong></a> · 📸 9.0/10</td>
+<td align="center" width="33%"><a href="games/nerd-of-duty/readme.md"><img src="assets/screenshot-gallery/04.webp" alt="Nerd of Duty screenshot" width="100%"></a><br><a href="games/nerd-of-duty/readme.md"><strong>Nerd of Duty</strong></a> · 📸 9.4/10</td>
+<td align="center" width="33%"><a href="games/vector-rush/readme.md"><img src="assets/screenshot-gallery/05.webp" alt="VECTOR RUSH screenshot" width="100%"></a><br><a href="games/vector-rush/readme.md"><strong>VECTOR RUSH</strong></a> · 📸 9.3/10</td>
+<td align="center" width="33%"><a href="games/turbo-kart-grand-prix/readme.md"><img src="assets/screenshot-gallery/06.webp" alt="Turbo Kart Grand Prix screenshot" width="100%"></a><br><a href="games/turbo-kart-grand-prix/readme.md"><strong>Turbo Kart Grand Prix</strong></a> · 📸 9.2/10</td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="games/silent-meridian/readme.md"><img src="assets/screenshot-gallery/07.webp" alt="Silent Meridian screenshot" width="100%"></a><br><a href="games/silent-meridian/readme.md"><strong>Silent Meridian</strong></a> · 📸 9.0/10</td>
-<td align="center" width="33%"><a href="games/world-of-claudecraft/readme.md"><img src="assets/screenshot-gallery/08.webp" alt="World of ClaudeCraft screenshot" width="100%"></a><br><a href="games/world-of-claudecraft/readme.md"><strong>World of ClaudeCraft</strong></a> · 📸 9.0/10</td>
-<td align="center" width="33%"><a href="games/kindle/readme.md"><img src="assets/screenshot-gallery/09.webp" alt="KINDLE screenshot" width="100%"></a><br><a href="games/kindle/readme.md"><strong>KINDLE</strong></a> · 📸 8.9/10</td>
+<td align="center" width="33%"><a href="games/iridium-reach/readme.md"><img src="assets/screenshot-gallery/07.webp" alt="Iridium Reach screenshot" width="100%"></a><br><a href="games/iridium-reach/readme.md"><strong>Iridium Reach</strong></a> · 📸 9.0/10</td>
+<td align="center" width="33%"><a href="games/silent-meridian/readme.md"><img src="assets/screenshot-gallery/08.webp" alt="Silent Meridian screenshot" width="100%"></a><br><a href="games/silent-meridian/readme.md"><strong>Silent Meridian</strong></a> · 📸 9.0/10</td>
+<td align="center" width="33%"><a href="games/world-of-claudecraft/readme.md"><img src="assets/screenshot-gallery/09.webp" alt="World of ClaudeCraft screenshot" width="100%"></a><br><a href="games/world-of-claudecraft/readme.md"><strong>World of ClaudeCraft</strong></a> · 📸 9.0/10</td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="games/sunbreak-downhill-club/readme.md"><img src="assets/screenshot-gallery/10.webp" alt="SUNBREAK — Downhill Club screenshot" width="100%"></a><br><a href="games/sunbreak-downhill-club/readme.md"><strong>SUNBREAK — Downhill Club</strong></a> · 📸 8.9/10</td>
-<td align="center" width="33%"><a href="games/fishslop/readme.md"><img src="assets/screenshot-gallery/11.webp" alt="Fishslop screenshot" width="100%"></a><br><a href="games/fishslop/readme.md"><strong>Fishslop</strong></a> · 📸 8.8/10</td>
-<td align="center" width="33%"><a href="games/overrun-dockyard-nine/readme.md"><img src="assets/screenshot-gallery/12.webp" alt="OVERRUN: Dockyard Nine screenshot" width="100%"></a><br><a href="games/overrun-dockyard-nine/readme.md"><strong>OVERRUN: Dockyard Nine</strong></a> · 📸 8.8/10</td>
+<td align="center" width="33%"><a href="games/kindle/readme.md"><img src="assets/screenshot-gallery/10.webp" alt="KINDLE screenshot" width="100%"></a><br><a href="games/kindle/readme.md"><strong>KINDLE</strong></a> · 📸 8.9/10</td>
+<td align="center" width="33%"><a href="games/sunbreak-downhill-club/readme.md"><img src="assets/screenshot-gallery/11.webp" alt="SUNBREAK — Downhill Club screenshot" width="100%"></a><br><a href="games/sunbreak-downhill-club/readme.md"><strong>SUNBREAK — Downhill Club</strong></a> · 📸 8.9/10</td>
+<td align="center" width="33%"><a href="games/fishslop/readme.md"><img src="assets/screenshot-gallery/12.webp" alt="Fishslop screenshot" width="100%"></a><br><a href="games/fishslop/readme.md"><strong>Fishslop</strong></a> · 📸 8.8/10</td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="games/little-flock/readme.md"><img src="assets/screenshot-gallery/13.webp" alt="Little Flock · 小羊慢慢 screenshot" width="100%"></a><br><a href="games/little-flock/readme.md"><strong>Little Flock · 小羊慢慢</strong></a> · 📸 8.7/10</td>
-<td align="center" width="33%"><a href="games/turbo-kart-rush/readme.md"><img src="assets/screenshot-gallery/14.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
-<td align="center" width="33%"><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><img src="assets/screenshot-gallery/15.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
+<td align="center" width="33%"><a href="games/overrun-dockyard-nine/readme.md"><img src="assets/screenshot-gallery/13.webp" alt="OVERRUN: Dockyard Nine screenshot" width="100%"></a><br><a href="games/overrun-dockyard-nine/readme.md"><strong>OVERRUN: Dockyard Nine</strong></a> · 📸 8.8/10</td>
+<td align="center" width="33%"><a href="games/little-flock/readme.md"><img src="assets/screenshot-gallery/14.webp" alt="Little Flock · 小羊慢慢 screenshot" width="100%"></a><br><a href="games/little-flock/readme.md"><strong>Little Flock · 小羊慢慢</strong></a> · 📸 8.7/10</td>
+<td align="center" width="33%"><a href="games/turbo-kart-rush/readme.md"><img src="assets/screenshot-gallery/15.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="games/neural-sight/readme.md"><img src="assets/screenshot-gallery/16.webp" alt="Neural Sight screenshot" width="100%"></a><br><a href="games/neural-sight/readme.md"><strong>Neural Sight</strong></a> · 📸 8.6/10</td>
+<td align="center" width="33%"><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><img src="assets/screenshot-gallery/16.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
 <td align="center" width="33%"><a href="games/rally-navigator/readme.md"><img src="assets/screenshot-gallery/17.webp" alt="Rally Navigator screenshot" width="100%"></a><br><a href="games/rally-navigator/readme.md"><strong>Rally Navigator</strong></a> · 📸 8.6/10</td>
 <td align="center" width="33%"><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><img src="assets/screenshot-gallery/18.webp" alt="Rogue Squadron — The Battle of Yavin screenshot" width="100%"></a><br><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><strong>Rogue Squadron — The Battle of Yavin</strong></a> · 📸 8.6/10</td>
 </tr>
@@ -277,7 +266,7 @@ Each compact row shows **source-quality rating**, **model**, **technology**, **m
 - [**gameday**](games/gameday/readme.md) — ⭐ **9.1/10** · Claude Fable 5.1 · Rust, Ratatui, Crossterm, Native desktop, Terminal sports game · [✓ direct model evidence](https://github.com/WallyMagill/gameday/commit/41846f88c74679e4abf2aff125a7c1173f805bbc) · [files](https://github.com/WallyMagill/gameday#readme) · 📸 **4.5/10** · [screenshot](https://github.com/WallyMagill/gameday/blob/main/docs/tour.png) · +1 more screenshots in data
 - [**GridWatch: Signal Breach**](games/gridwatch-signal-breach/readme.md) — ⭐ **9.1/10** · Claude Fable 5.1 · Vite, TypeScript, HTML5 Canvas 2D, Cloudflare Pages, Native web · [✓ direct model evidence](https://github.com/remeadows/gridwatch-signal-breach/commit/7609592f1d278117c7302cbea7b2e4cc8975cfa2) · [files](https://github.com/remeadows/gridwatch-signal-breach/blob/main/README.md) · [play](https://GridWatch-SignalBreach.warsignallabs.net) · 📸 **5.4/10** · [screenshot](https://github.com/remeadows/gridwatch-signal-breach/blob/main/src/assets/board/phase6/gw-phase6-core-board-v1.webp)
 - [**Lanterns**](games/lanterns/readme.md) — ⭐ **9.1/10** · Claude Opus 4.8, Claude Opus 4 · Godot 4, JSON world model, GDScript engine, Native desktop, 3D FPS arena shooter, +2 more · [✓ direct model evidence](https://github.com/kamwoh/yume/commit/11df7cf1a0e29ec63b2f3ffe45ba14b57d623b33) · [files](https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn)
-- [**OpenCiv1++**](games/openciv1/readme.md) — ⭐ **9.1/10** · Claude Opus 4.7 · C++17, SDL2, Custom engine, Native desktop · [✓ direct model evidence](https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472) · [files](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/main.cpp) · 📸 **4.8/10** · [screenshot](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif) · +3 more screenshots in data
+- [**OpenCiv1++**](games/openciv1/readme.md) — ⭐ **9.1/10** · Claude Opus 4.7 · C++17, SDL2, Custom engine, Native desktop · [✓ direct model evidence](https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472) · [files](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/main.cpp) · 📸 **4.8/10** · [screenshot](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif) · +2 more screenshots in data
 - [**Panchigi**](games/panchigi/readme.md) — ⭐ **9.1/10** · Claude Opus 5 · Unity 6, C#, Mirror networking, Native desktop, Flappy race, +2 more · [✓ direct model evidence](https://github.com/Baeinsoo/LeagueOfPhysical-Client/commit/91deba77b47ef0fb19c8a0ca3360637689b9db7c) · [files](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Panchigi.unity)
 - [**Search For The Egg**](games/search-for-the-egg/readme.md) — ⭐ **9.1/10** · Claude Opus 5 · Roblox, Luau, Rojo, Roblox Studio · [✓ direct model evidence](https://github.com/khaielwork6-stack/Search-For-The-Egg/commit/1cf570e10c7d616d68c3c2a969ef0355a459c6d3) · [files](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/README.md) · 📸 **3.5/10** · [screenshot](https://github.com/khaielwork6-stack/Search-For-The-Egg/blob/main/Search_For_The_Egg_Claude_Code_Build_Pack/classes.png) · +1 more screenshots in data
 - [**SimCity (Bevy)**](games/simcity-bevy/readme.md) — ⭐ **9.1/10** · Claude Fable 5, Claude Opus 4.8 · Bevy 0.19, Rust, ECS, Native desktop · [✓ direct model evidence](https://github.com/grgrwlkr/SimCity/commit/7fc290811853e2d196146d7cfad256d98ec420f7) · [files](https://github.com/grgrwlkr/SimCity/blob/main/README.md)
@@ -649,7 +638,7 @@ Each compact row shows **source-quality rating**, **model**, **technology**, **m
 - [**Dead Signal: Exclusion Zone**](games/dead-signal-exclusion-zone/readme.md) — ⭐ **9.2/10** · Claude Opus 5.5 · Three.js, TypeScript, Vite, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/README.md) · [files](https://github.com/bridge-mind/claude-opus-5.5-zombies-game/blob/main/README.md) · [prompt](games/dead-signal-exclusion-zone/readme.md#reverse-engineered-prompt)
 - [**Explottens: Survival**](games/explottens-survival/readme.md) — ⭐ **9.2/10** · Claude Opus 5 · TypeScript, Phaser 3, Canvas2D, Playable ad, Browser · [✓ direct model evidence](https://github.com/Werplay/playable-explottens-survivor/commit/eb0183f356fc23283704b5f0d1d2882838a02155) · [files](https://github.com/Werplay/playable-explottens-survivor#readme)
 - [**Hex Danmaku**](games/hex-danmaku/readme.md) — ⭐ **9.2/10** · Claude Fable 5.1 · React 18 UMD, Babel, JavaScript, Browser · [✓ direct model evidence](https://github.com/macjoocan/hex-danmaku/commit/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e) · [files](https://github.com/macjoocan/hex-danmaku/blob/main/Hex%20Danmaku.html) · 📸 **5.8/10** · [screenshot](https://github.com/macjoocan/hex-danmaku/blob/38baca4ddb5a2de6db7cc80903ad523c05ae4e4e/assets/fantasy/forest-sanctuary.png)
-- [**Neural Sight**](games/neural-sight/readme.md) — ⭐ **9.2/10** · GPT-6 Astra · PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, +1 more · [✓ direct model evidence](https://github.com/monstercameron/Neural-Sight#built-to-play-with) · [play](https://monstercameron.github.io/Neural-Sight/) · 📸 **8.6/10** · [screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) · +2 more screenshots in data
+- [**Neural Sight**](games/neural-sight/readme.md) — ⭐ **9.2/10** · GPT-6 Astra · PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, +1 more · [✓ direct model evidence](https://github.com/monstercameron/Neural-Sight#built-to-play-with) · [play](https://monstercameron.github.io/Neural-Sight/) · 📸 **9.7/10** · [screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) · +2 more screenshots in data
 - [**TurretForge.io**](games/turretforge-io/readme.md) — ⭐ **9.2/10** · Claude Opus 5 · Node.js, WebSocket, Canvas 2D, JavaScript, Browser multiplayer · [✓ direct model evidence](https://github.com/Akajek/Dipe.oi/commit/12c04f0330101248c96696b820fe02a166510b96) · [files](https://github.com/Akajek/Dipe.oi/blob/main/README.md)
 - [**Aradama Survivors**](games/aradama-survivors/readme.md) — ⭐ **9.1/10** · Claude Fable 5 · Phaser 3, TypeScript, Vite, Browser · [✓ direct model evidence](https://github.com/eidas/aradama-survivors-proto/commit/1e9f90d306c787f41f77670f9d751889ba20f2b2) · [files](https://github.com/eidas/aradama-survivors-proto/blob/1e9f90d306c787f41f77670f9d751889ba20f2b2/src/main.ts) · [play](https://eidas.github.io/aradama-survivors-proto/)
 - [**GoGo Arabic**](games/gogo-arabic/readme.md) — ⭐ **9.1/10** · Claude Fable 5 · Phaser 3, React 19, JavaScript, Vite, Browser · [✓ direct model evidence](https://github.com/theshumba/gogo-arabic/commit/fb12686f27611212e4f9e3604d313bb81907adf0) · [files](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/src/game/scenes/WorldScene.js) · 📸 **6.5/10** · [screenshot](https://github.com/theshumba/gogo-arabic/blob/fb12686f27611212e4f9e3604d313bb81907adf0/docs/world-shots/desert_marketplace.png) · +1 more screenshots in data

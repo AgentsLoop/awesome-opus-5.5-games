@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** GPT-6 Astra
 - **Technology:** Canvas 2D, JavaScript, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/stackloomdev/last-beacon](https://github.com/stackloomdev/last-beacon)
 - **Evidence:** [direct model evidence](https://github.com/stackloomdev/last-beacon)
@@ -32,7 +34,8 @@ Playable bilingual island tower-defense game with ten waves, a boss, controls, t
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/stackloomdev/last-beacon; https://github.com/xianyu110/awesome-gpt-6-astra
 
 [Back to the awesome list](../../README.md)

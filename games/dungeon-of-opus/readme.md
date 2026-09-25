@@ -9,6 +9,8 @@
 - **Score:** 8.4/10
 - **Model:** Claude Opus 4.6
 - **Technology:** React, TypeScript, Tailwind CSS, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 240,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Opus attribution, complete roguelike loop, source, local run instructions and public live demo.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/joozio/dungeon-of-opus](https://github.com/joozio/dungeon-of-opus)
 - **Evidence:** [direct model evidence](https://github.com/joozio/dungeon-of-opus#features)
@@ -34,7 +36,8 @@ The README explicitly says Claude Opus 4.6 built the complete roguelike in one f
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22Claude+Opus+4.6%22+playable+game+in%3Areadme; https://github.com/joozio/dungeon-of-opus
 
 [Back to the awesome list](../../README.md)

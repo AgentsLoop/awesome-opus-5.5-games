@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** GPT-6 Astra
 - **Technology:** Unreal Engine 5.8, C++, Node.js, Browser simulation, Native desktop project
+- **Estimated FP32 operations/s at 60 FPS:** 10,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a substantial Unreal runtime, autonomous agents, survival resources, gathering, construction, navigation, HUD, browser simulation, validated model decisions and explicit GPT-6 Astra integration. It remains an early simulation prototype without a packaged public release.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/KLINEKRAFT/First-Village](https://github.com/KLINEKRAFT/First-Village)
 - **Evidence:** [direct model evidence](https://github.com/KLINEKRAFT/First-Village#unreal-engine-3d-world)
@@ -33,7 +35,8 @@ The README documents an autonomous ancient-civilization simulation with a playab
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/KLINEKRAFT/First-Village; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+Unreal+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

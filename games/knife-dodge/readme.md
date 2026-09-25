@@ -1,6 +1,6 @@
 # Knife Dodge
 
-> Top-list entry: **this week** (#9), **this month** (#9).
+> Top-list entry: **this month** (#10).
 
 ![Knife Dodge screenshot placeholder](knife-dodge-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.5/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Godot, GDScript, Native iOS, Native iPadOS
+- **Estimated FP32 operations/s at 60 FPS:** 2,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains five named arcade games in one Godot mobile product, separate gameplay states, smoke coverage, iOS export support, detailed documentation and direct Fable 5.1 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Karanvir1729/ninja-knife-dodge](https://github.com/Karanvir1729/ninja-knife-dodge)
 - **Evidence:** [direct model evidence](https://github.com/Karanvir1729/ninja-knife-dodge/commit/0283ea60e91257905f1fc93ff4e1a548db3be078)
@@ -27,18 +29,14 @@ The README documents a Godot 4 offline mobile arcade with four story trials: Kni
 
 ### Gameplay source
 
-- [https://github.com/Karanvir1729/ninja-knife-dodge/blob/0283ea60e91257905f1fc93ff4e1a548db3be078/project.godot](https://github.com/Karanvir1729/ninja-knife-dodge/blob/0283ea60e91257905f1fc93ff4e1a548db3be078/project.godot)
 - [https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/play_state.gd](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/play_state.gd)
-- [https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/match_play_state.gd](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/match_play_state.gd)
-- [https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/simon_play_state.gd](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/simon_play_state.gd)
-- [https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/draw_play_state.gd](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/draw_play_state.gd)
-- [https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/cricket_play_state.gd](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/cricket_play_state.gd)
 - [https://github.com/Karanvir1729/ninja-knife-dodge/commit/0283ea60e91257905f1fc93ff4e1a548db3be078](https://github.com/Karanvir1729/ninja-knife-dodge/commit/0283ea60e91257905f1fc93ff4e1a548db3be078)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 5
+- **Counted units in repository:** 5
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Godot game Co-Authored-By Claude Fable; https://github.com/Karanvir1729/ninja-knife-dodge
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 8.9/10
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio API, PWA, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 300,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live demo, complete level and ability structure, boss encounter, progression, checkpoints, saved times, source and direct Fable attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/gavilanbe/glup](https://github.com/gavilanbe/glup)
 - **Evidence:** [direct model evidence](https://github.com/gavilanbe/glup#las-habilidades-de-bigotes)
@@ -29,13 +31,13 @@ The README links a live PWA and documents a complete 2D pixel-platformer with fo
 ### Gameplay source
 
 - [https://github.com/gavilanbe/glup](https://github.com/gavilanbe/glup)
-- [https://gavilanbe.github.io/glup/](https://gavilanbe.github.io/glup/)
 - [https://github.com/gavilanbe/glup#las-habilidades-de-bigotes](https://github.com/gavilanbe/glup#las-habilidades-de-bigotes)
 
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: Claude Fable 5.1 game in:readme pushed:2026-09-09..2026-09-10; https://github.com/gavilanbe/glup
 
 [Back to the awesome list](../../README.md)

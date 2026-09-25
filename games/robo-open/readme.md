@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 5.8/10 ([rated image](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.8/10 ([manually reviewed image](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra, Codex
 - **Technology:** Unity 6.0.5.7f1, C#, URP 17.5.0, Blender, Native Windows
 - **Estimated FP32 operations/s at 60 FPS:** 6,000,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png)
-- [screenshot 2](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/play-report.png)
+- [screenshot 1](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png) — 📸 5.8/10 · manual visual review · Use this frame for the game-level score. Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/play-report.png) — 📸 4.3/10 · relative frame adjustment · Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame provides limited visual evidence.
 
 ## Videos
 

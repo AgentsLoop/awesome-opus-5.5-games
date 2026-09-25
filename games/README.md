@@ -7,20 +7,10 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - **Aggregate notes:** 1 (some repositories document several units without separate names)
 - **Rows with screenshot sources:** 175
 - **Placeholder thumbnails:** 581
-- **Notes written in this run:** 186
+- **Notes written in this run:** 756
 
 ## Today
 
-- [Barista Shift](./barista-shift/readme.md) — 9.5/10
-- [Turbo Kart Rally](./turbo-kart-rally/readme.md) — 9.3/10
-- [Dead Signal: Exclusion Zone](./dead-signal-exclusion-zone/readme.md) — 9.2/10
-- [Tater's Flight Sim](./tater-s-flight-sim/readme.md) — 9.2/10
-- [Fishslop](./fishslop/readme.md) — 9.1/10
-- [QQ Speed](./qq-speed/readme.md) — 9.1/10
-- [Terrabrowser](./terrabrowser/readme.md) — 9.1/10
-- [Slide Rush](./slide-rush/readme.md) — 9.0/10
-- [Web Grand Prix](./web-grand-prix/readme.md) — 9.0/10
-- [Wouf Kart](./wouf-kart/readme.md) — 8.9/10
 
 ## This week
 

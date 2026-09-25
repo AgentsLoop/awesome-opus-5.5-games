@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Python, Flask, HTML
+- **Estimated FP32 operations/s at 60 FPS:** 250,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable multiplayer source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/mrgdata/koroba_py](https://github.com/mrgdata/koroba_py)
 - **Evidence:** [creator-reported model evidence](https://github.com/mrgdata/koroba_py)
@@ -32,7 +34,8 @@ README and Python/Flask source contain a local or online multiplayer card game; 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/mrgdata/koroba_py
 
 [Back to the awesome list](../../README.md)

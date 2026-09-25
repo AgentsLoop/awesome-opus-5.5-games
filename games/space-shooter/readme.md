@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Opus 5
 - **Technology:** HTML5 Canvas, JavaScript, CSS3, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository is newly created, self-contained, browser-runnable, supports keyboard/mouse/touch input, has a complete combat loop and direct Opus attribution.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/jansmakr/space-shooter-web](https://github.com/jansmakr/space-shooter-web)
 - **Evidence:** [direct model evidence](https://github.com/jansmakr/space-shooter-web/commit/2d6ca4489a4d2ee4e5c7c59b33ef893a53faf0f8)
@@ -28,12 +30,12 @@ The repository was created on 2026-09-15 and contains a standalone index.html Ca
 ### Gameplay source
 
 - [https://github.com/jansmakr/space-shooter-web/commit/2d6ca4489a4d2ee4e5c7c59b33ef893a53faf0f8](https://github.com/jansmakr/space-shooter-web/commit/2d6ca4489a4d2ee4e5c7c59b33ef893a53faf0f8)
-- [https://github.com/jansmakr/space-shooter-web/blob/main/index.html](https://github.com/jansmakr/space-shooter-web/blob/main/index.html)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus, committer-date 2026-09-13..2026-09-15; https://github.com/jansmakr/space-shooter-web
 
 [Back to the awesome list](../../README.md)

@@ -9,11 +9,13 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, TypeScript, WebGL2, Web Audio API
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/justinw916-sketch/claude-zombies](https://github.com/justinw916-sketch/claude-zombies)
 - **Evidence:** [creator-reported model evidence](https://github.com/justinw916-sketch/claude-zombies)
-- **Live demo:** [open demo](https://zombies.jwhitton.com/)
-- **Additional live link:** [open demo](https://claude-zombies.pages.dev/)
+- **Live demo:** [open demo](https://claude-zombies.pages.dev/)
+- **Additional live link:** [open demo](https://zombies.jwhitton.com/)
 
 ## Screenshots
 
@@ -34,7 +36,8 @@ The SomethingBig games directory reports this game. The README verifies a public
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://somethingbig.ai/games; https://github.com/justinw916-sketch/claude-zombies
 
 [Back to the awesome list](../../README.md)

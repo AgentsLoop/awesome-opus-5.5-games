@@ -9,6 +9,8 @@
 - **Score:** 6.8/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Django, Django REST Framework, React, Vite, MariaDB, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Live demo, source, persistent state and explicit model attribution, but very small clicker scope. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/sfgeekgit/game_e](https://github.com/sfgeekgit/game_e)
 - **Evidence:** [direct model evidence](https://github.com/sfgeekgit/game_e#gameplay)
@@ -29,13 +31,13 @@ The README documents a live browser clicker game with anonymous accounts, persis
 ### Gameplay source
 
 - [https://github.com/sfgeekgit/game_e](https://github.com/sfgeekgit/game_e)
-- [https://documentbrain.com/agame/](https://documentbrain.com/agame/)
 - [https://github.com/sfgeekgit/game_e#gameplay](https://github.com/sfgeekgit/game_e#gameplay)
 
 ## Verification notes
 
 - **Status:** verified_source_and_live_demo
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: "built with Claude Opus 4.6" game in:readme; https://github.com/sfgeekgit/game_e
 
 [Back to the awesome list](../../README.md)

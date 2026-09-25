@@ -9,6 +9,8 @@
 - **Score:** 9.1/10
 - **Model:** Claude Opus 5
 - **Technology:** Unity 6, C#, Mirror networking, Native desktop, Flappy race, Panchigi board game, Skydive platformer
+- **Estimated FP32 operations/s at 60 FPS:** 8,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Source-complete Unity 6 multiplayer client with three separately implemented game modes, dedicated scenes, gameplay systems, matchmaking, network state, UI, tests and exact Opus gameplay commits.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Baeinsoo/LeagueOfPhysical-Client](https://github.com/Baeinsoo/LeagueOfPhysical-Client)
 - **Evidence:** [direct model evidence](https://github.com/Baeinsoo/LeagueOfPhysical-Client/commit/91deba77b47ef0fb19c8a0ca3360637689b9db7c)
@@ -27,19 +29,14 @@ The repository is a Unity 6 client for a networked game platform. PlayableGamePr
 
 ### Gameplay source
 
-- [https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scripts/UI/Matchmaking/PlayableGameProvider.cs](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scripts/UI/Matchmaking/PlayableGameProvider.cs)
-- [https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/FlappyRace.unity](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/FlappyRace.unity)
-- [https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Panchigi.unity](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Panchigi.unity)
 - [https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Skydive.unity](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Skydive.unity)
-- [https://github.com/Baeinsoo/LeagueOfPhysical-Client/tree/main/Assets/Scripts/FlappyRaceSlice](https://github.com/Baeinsoo/LeagueOfPhysical-Client/tree/main/Assets/Scripts/FlappyRaceSlice)
-- [https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scripts/Game/PanchigiStateStore.cs](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scripts/Game/PanchigiStateStore.cs)
-- [https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scripts/Game/SkydiveLifetimeScope.cs](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scripts/Game/SkydiveLifetimeScope.cs)
 - [https://github.com/Baeinsoo/LeagueOfPhysical-Client/commit/91deba77b47ef0fb19c8a0ca3360637689b9db7c](https://github.com/Baeinsoo/LeagueOfPhysical-Client/commit/91deba77b47ef0fb19c8a0ca3360637689b9db7c)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 3
+- **Counted units in repository:** 3
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Unreal game Co-Authored-By Claude Opus 5; https://github.com/Baeinsoo/LeagueOfPhysical-Client
 
 [Back to the awesome list](../../README.md)

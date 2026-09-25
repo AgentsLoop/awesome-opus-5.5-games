@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.0/10
-- **Screenshot rating:** 8.6/10 ([rated image](https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.6/10 ([manually reviewed image](https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** TypeScript, React, Three.js, WebGL, GLSL, Vite
 - **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif)
+- [screenshot 1](https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif) — 📸 8.6/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js, Vite, JavaScript, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 3,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong evidence from a live demo, source, README, controls and systems description, and a same-day creator post with direct GitHub and demo links.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/jesuscurreripa/noaissky](https://github.com/jesuscurreripa/noaissky)
 - **Evidence:** [creator-reported model evidence](https://github.com/jesuscurreripa/noaissky/blob/main/README.md)
@@ -33,7 +35,8 @@ README and creator Reddit post describe a playable browser experiment with proce
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/jesuscurreripa/noaissky; https://www.reddit.com/r/vibecoding/comments/1wamzs7/no_ais_sky_a_threejs_experiment_built_with_gpt6/
 
 [Back to the awesome list](../../README.md)

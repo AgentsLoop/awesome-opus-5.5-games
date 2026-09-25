@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.4/10
-- **Screenshot rating:** 2.8/10 ([rated image](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 2.8/10 ([manually reviewed image](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5, Claude Fable 5.1
 - **Technology:** Unity, C#, .NET, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 5,500,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png)
-- [screenshot 2](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/issue-1101-wide-screen-hud/skit-wide.png)
+- [screenshot 1](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png) — 📸 2.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/issue-1101-wide-screen-hud/skit-wide.png) — 📸 2.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

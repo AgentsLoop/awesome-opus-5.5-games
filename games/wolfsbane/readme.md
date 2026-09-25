@@ -1,6 +1,6 @@
 # Wolfsbane
 
-> Top-list entry: **this week** (#15), **this month** (#16).
+> Top-list entry: **this month** (#16).
 
 ![Wolfsbane screenshot placeholder](wolfsbane-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.5/10
 - **Model:** Claude Fable 5
 - **Technology:** Babylon.js, Havok, Svelte 5, TypeScript, Vite, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 3,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable browser action RPG with 3D combat, physics, animation, HUD, tests, deployment and direct Fable 5 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/oivindth/wolfsbane](https://github.com/oivindth/wolfsbane)
 - **Evidence:** [direct model evidence](https://github.com/oivindth/wolfsbane/commit/c3ef891e48a1c5f4a063627e9dd85fd1ae2ee007)
@@ -29,15 +31,13 @@ The public repository is a browser third-person action RPG inspired by The Witch
 ### Gameplay source
 
 - [https://github.com/oivindth/wolfsbane/blob/main/src/core/game.ts](https://github.com/oivindth/wolfsbane/blob/main/src/core/game.ts)
-- [https://github.com/oivindth/wolfsbane/blob/main/src/actors/playerController.ts](https://github.com/oivindth/wolfsbane/blob/main/src/actors/playerController.ts)
-- [https://github.com/oivindth/wolfsbane/blob/main/src/world/testZone.ts](https://github.com/oivindth/wolfsbane/blob/main/src/world/testZone.ts)
-- [https://github.com/oivindth/wolfsbane/blob/main/package.json](https://github.com/oivindth/wolfsbane/blob/main/package.json)
 - [https://github.com/oivindth/wolfsbane/commit/c3ef891e48a1c5f4a063627e9dd85fd1ae2ee007](https://github.com/oivindth/wolfsbane/commit/c3ef891e48a1c5f4a063627e9dd85fd1ae2ee007)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Babylon.js game Co-Authored-By Claude Fable; https://github.com/oivindth/wolfsbane
 
 [Back to the awesome list](../../README.md)

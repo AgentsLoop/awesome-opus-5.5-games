@@ -9,6 +9,8 @@
 - **Score:** 8.7/10
 - **Model:** GPT-6 Astra
 - **Technology:** TypeScript, Node.js, TCP/Telnet, Terminal, Native server
+- **Estimated FP32 operations/s at 60 FPS:** 100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a connected multiplayer game loop, two source variants, ship combat, planet capture, construction, messaging, persistence, source provenance and real Telnet multiplayer tests.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/erictfree/DECWAR](https://github.com/erictfree/DECWAR)
 - **Evidence:** [direct model evidence](https://github.com/erictfree/DECWAR#status-playable-alpha)
@@ -33,7 +35,8 @@ The README explicitly credits OpenAI GPT-6 Astra and describes a playable multip
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/erictfree/DECWAR; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme+pushed%3A2026-09-09..2026-09-09
 
 [Back to the awesome list](../../README.md)

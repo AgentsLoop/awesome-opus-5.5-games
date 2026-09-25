@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.0/10
-- **Screenshot rating:** 5.4/10 ([rated image](https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.4/10 ([manually reviewed image](https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.6
 - **Technology:** raylib Python bindings, Python, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 350,000,000 (low confidence; static estimate, not measured).
@@ -20,8 +20,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png)
-- [screenshot 2](https://github.com/ferranrigual/raylib-clicker/blob/HEAD/screenshots/early_game.png)
+- [screenshot 1](https://github.com/ferranrigual/raylib-clicker/blob/main/screenshots/mid_game.png) — 📸 5.4/10 · manual visual review · Use this frame for the game-level score. Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/ferranrigual/raylib-clicker/blob/HEAD/screenshots/early_game.png) — 📸 5.0/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
 
 ## Model attribution
 

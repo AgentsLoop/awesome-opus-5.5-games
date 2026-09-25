@@ -9,10 +9,12 @@
 - **Score:** 8.8/10
 - **Model:** Claude Opus 4.6, Claude Opus 4.7, Claude Fable 5.1
 - **Technology:** C, C++, PsyCross, SDL2, OpenAL, Native Windows, Native Linux, Native macOS
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Very strong source and gameplay evidence, complete campaign claim, native builds, tests and explicit multi-model attribution; reduced because copyrighted game data and packaged binaries are not included.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp)
 - **Evidence:** [direct model evidence](https://github.com/SlickAmogus/silent-hill-decomp#features)
-- **Live demo:** [open demo](https://sh1pc.com/)
+- **Live demo:** [open demo](https://sh1pc.com)
 
 ## Screenshots
 
@@ -34,7 +36,8 @@ The README explicitly says the native PC port is heavily AI-assisted with Claude
 ## Verification notes
 
 - **Status:** verified_source_build_requires_original_disc
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22Claude+Opus+4.6%22+game+in%3Areadme; https://github.com/SlickAmogus/silent-hill-decomp
 
 [Back to the awesome list](../../README.md)

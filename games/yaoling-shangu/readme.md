@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.2/10
-- **Screenshot rating:** 6.6/10 ([rated image](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/clinic_area.gif)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.6/10 ([manually reviewed image](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/clinic_area.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** Phaser 3, TypeScript, Vite, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 360,000,000 (low confidence; static estimate, not measured).
@@ -20,9 +20,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/herb_area.gif)
-- [screenshot 2](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/clinic_area.gif)
-- [screenshot 3](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/辩证.gif)
+- [screenshot 1](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/herb_area.gif) — 📸 6.2/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/clinic_area.gif) — 📸 6.6/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/DSXiangLi/tcm_odyssey/blob/bf02fd08c267dd0b7887dae436454a77bb6f6ae9/assets/辩证.gif) — 📸 6.2/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

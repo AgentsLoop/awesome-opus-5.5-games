@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
-- **Screenshot rating:** 4.8/10 ([rated image](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 4.8/10 ([manually reviewed image](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** C++17, SDL2, Custom engine, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
@@ -20,10 +20,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif)
-- [screenshot source 2](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md)
-- [screenshot 3](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png)
-- [screenshot 4](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/15_FOUND_CITY_pair.png)
+- [screenshot 1](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif) — 📸 3.3/10 · relative frame adjustment · Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png) — 📸 4.8/10 · manual visual review · Use this frame for the game-level score. Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
+- [screenshot 3](https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/15_FOUND_CITY_pair.png) — 📸 4.4/10 · relative frame adjustment · Shows the board or controls; assess layout clarity and visual coherence. The frame provides limited visual evidence.
 
 ## Model attribution
 

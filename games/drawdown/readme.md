@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Godot, GDScript
+- **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Actual Godot game source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/substrateagnostic/drawdown](https://github.com/substrateagnostic/drawdown)
 - **Evidence:** [creator-reported model evidence](https://github.com/substrateagnostic/drawdown)
@@ -32,7 +34,8 @@ Repository description and Godot source contain a deduction game about a drowned
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/substrateagnostic/drawdown
 
 [Back to the awesome list](../../README.md)

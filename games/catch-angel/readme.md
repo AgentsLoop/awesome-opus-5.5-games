@@ -9,6 +9,8 @@
 - **Score:** 8.2/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, CSS, JavaScript, DOM, Web Audio, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Four distinct playable loops with clear completion rules, progress tracking, localized text, feedback effects, source-level evidence and a reachable browser deployment; the surrounding birthday page is excluded from the count.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/vitalirasin-web/valeriabirthday](https://github.com/vitalirasin-web/valeriabirthday)
 - **Evidence:** [direct model evidence](https://github.com/vitalirasin-web/valeriabirthday/commit/ff60ed966ba2b206ece5cc68f74850b75513599d)
@@ -28,18 +30,14 @@ The repository is a family birthday page that embeds four real mini-games. index
 
 ### Gameplay source
 
-- [https://github.com/vitalirasin-web/valeriabirthday#readme](https://github.com/vitalirasin-web/valeriabirthday#readme)
-- [https://vitalirasin-web.github.io/valeriabirthday/](https://vitalirasin-web.github.io/valeriabirthday/)
 - [https://github.com/vitalirasin-web/valeriabirthday/blob/main/index.html](https://github.com/vitalirasin-web/valeriabirthday/blob/main/index.html)
-- [https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/games.js](https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/games.js)
-- [https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/config.js](https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/config.js)
-- [https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/main.js](https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/main.js)
 - [https://github.com/vitalirasin-web/valeriabirthday/commit/ff60ed966ba2b206ece5cc68f74850b75513599d](https://github.com/vitalirasin-web/valeriabirthday/commit/ff60ed966ba2b206ece5cc68f74850b75513599d)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 4
+- **Counted units in repository:** 4
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Co-Authored-By Claude Fable game; https://github.com/vitalirasin-web/valeriabirthday
 
 [Back to the awesome list](../../README.md)

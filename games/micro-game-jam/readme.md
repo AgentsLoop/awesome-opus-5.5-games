@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Opus 5
 - **Technology:** Godot, GDScript, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a concrete playable-scene structure with player, enemies, weapons and game-over flow, but it has no README or published demo.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/miromustafa/micro-game-jam](https://github.com/miromustafa/micro-game-jam)
 - **Evidence:** [direct model evidence](https://github.com/miromustafa/micro-game-jam/commit/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234)
@@ -28,14 +30,13 @@ The initial commit is explicitly a Godot game project and contains project.godot
 ### Gameplay source
 
 - [https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/project.godot](https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/project.godot)
-- [https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/Scenes/game.gd](https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/Scenes/game.gd)
-- [https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/Scenes/game.tscn](https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/Scenes/game.tscn)
 - [https://github.com/miromustafa/micro-game-jam/commit/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234](https://github.com/miromustafa/micro-game-jam/commit/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Godot game Co-Authored-By Claude Opus; https://github.com/miromustafa/micro-game-jam
 
 [Back to the awesome list](../../README.md)

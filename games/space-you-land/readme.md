@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 4,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large game foundation and direct attribution, with limited public documentation.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/JaronKBragg7337/SYL-Full-Game](https://github.com/JaronKBragg7337/SYL-Full-Game)
 - **Evidence:** [creator-reported model evidence](https://github.com/JaronKBragg7337/SYL-Full-Game)
@@ -32,7 +34,8 @@ Repository description and source describe a playable space game with planets, s
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/JaronKBragg7337/SYL-Full-Game
 
 [Back to the awesome list](../../README.md)

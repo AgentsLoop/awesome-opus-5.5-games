@@ -9,6 +9,8 @@
 - **Score:** 6.5/10
 - **Model:** Claude Fable 5
 - **Technology:** TypeScript, Canvas
+- **Estimated FP32 operations/s at 60 FPS:** 700,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source and direct attribution, with limited documentation. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Randroids-Dojo/VibePinball](https://github.com/Randroids-Dojo/VibePinball)
 - **Evidence:** [creator-reported model evidence](https://github.com/Randroids-Dojo/VibePinball)
@@ -32,7 +34,8 @@ Repository source contains a playable pinball game; its description states it wa
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Randroids-Dojo/VibePinball
 
 [Back to the awesome list](../../README.md)

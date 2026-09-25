@@ -192,7 +192,6 @@
     "evidence_url": "https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472",
     "screenshot_urls": [
       "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif",
-      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md",
       "https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/04_WIZARD_DIFFICULTY_pair.png",
       "https://github.com/wicanr2/civ1_cht/blob/HEAD/openciv1pp/docs/screenshots/r5/15_FOUND_CITY_pair.png"
     ],
@@ -17228,9 +17227,9 @@
       "https://monstercameron.github.io/Neural-Sight/",
       "https://monstercameron.github.io/Neural-Sight/experiment.html"
     ],
-    "screenshot_rating_10": 8.6,
+    "screenshot_rating_10": 9.7,
     "screenshot_rating_evidence_url": "https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg",
-    "screenshot_rating_on": "2026-09-24"
+    "screenshot_rating_on": "2026-09-25"
   },
   {
     "name": "Mangoidiots Solitaire",

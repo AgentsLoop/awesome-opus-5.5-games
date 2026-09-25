@@ -9,6 +9,8 @@
 - **Score:** 9.0/10
 - **Model:** Claude Fable 5.1, Claude Opus 5
 - **Technology:** TypeScript, Deno, HTML, CSS, PWA, GitHub Pages
+- **Estimated FP32 operations/s at 60 FPS:** 180,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** A polished, source-complete multi-game PWA with seven distinct rule engines, playable pages, deterministic codecs, tests, peer-to-peer move transport and current gameplay commits with direct model trailers.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/JakeAve/airgap](https://github.com/JakeAve/airgap)
 - **Evidence:** [direct model evidence](https://github.com/JakeAve/airgap/commit/344e9d333dad28a0b4645962b3dbe68ec9d3902a)
@@ -28,20 +30,14 @@ The repository is a browser PWA/library of independent two-player games whose mo
 
 ### Gameplay source
 
-- [https://github.com/JakeAve/airgap/blob/main/README.md](https://github.com/JakeAve/airgap/blob/main/README.md)
-- [https://github.com/JakeAve/airgap/blob/main/static/checkers.html](https://github.com/JakeAve/airgap/blob/main/static/checkers.html)
-- [https://github.com/JakeAve/airgap/blob/main/static/chess.html](https://github.com/JakeAve/airgap/blob/main/static/chess.html)
-- [https://github.com/JakeAve/airgap/blob/main/static/packetstorm.html](https://github.com/JakeAve/airgap/blob/main/static/packetstorm.html)
 - [https://github.com/JakeAve/airgap/blob/main/static/spaceships.html](https://github.com/JakeAve/airgap/blob/main/static/spaceships.html)
-- [https://github.com/JakeAve/airgap/blob/main/static/swarm.html](https://github.com/JakeAve/airgap/blob/main/static/swarm.html)
-- [https://github.com/JakeAve/airgap/blob/main/static/tictactoe.html](https://github.com/JakeAve/airgap/blob/main/static/tictactoe.html)
-- [https://github.com/JakeAve/airgap/tree/main/src/games](https://github.com/JakeAve/airgap/tree/main/src/games)
 - [https://github.com/JakeAve/airgap/commit/344e9d333dad28a0b4645962b3dbe68ec9d3902a](https://github.com/JakeAve/airgap/commit/344e9d333dad28a0b4645962b3dbe68ec9d3902a)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 7
+- **Counted units in repository:** 7
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Claude Fable 5.1 dated 2026-09-13..2026-09-15; https://github.com/JakeAve/airgap
 
 [Back to the awesome list](../../README.md)

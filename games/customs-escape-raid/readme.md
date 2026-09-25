@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.0/10
-- **Screenshot rating:** 6.2/10 ([rated image](https://github.com/INONONO66/tarkov-customs/blob/main/shots/raid.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.2/10 ([manually reviewed image](https://github.com/INONONO66/tarkov-customs/blob/main/shots/raid.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, JavaScript, Canvas 2D
 - **Estimated FP32 operations/s at 60 FPS:** 360,000,000 (low confidence; static estimate, not measured).
@@ -21,8 +21,8 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/INONONO66/tarkov-customs/blob/main/shots/raid.png)
-- [screenshot 2](https://github.com/INONONO66/tarkov-customs/blob/main/shots/hideout.png)
+- [screenshot 1](https://github.com/INONONO66/tarkov-customs/blob/main/shots/raid.png) — 📸 6.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/INONONO66/tarkov-customs/blob/main/shots/hideout.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

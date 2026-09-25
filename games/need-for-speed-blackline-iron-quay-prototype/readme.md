@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** GPT-6 Astra
 - **Technology:** Three.js 0.160.1, HTML5, JavaScript, WebGL, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 360,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository is new, self-contained and playable, has a complete heist loop, Three.js source, 12 automated checks and explicit GPT 6 attribution; attribution is creator-reported rather than trailer-confirmed.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/EthanVanDyk/blackline-prototype](https://github.com/EthanVanDyk/blackline-prototype)
 - **Evidence:** [creator-reported model evidence](https://github.com/EthanVanDyk/blackline-prototype)
@@ -28,16 +30,13 @@ The repository was created on 2026-09-15 and its description explicitly says it 
 ### Gameplay source
 
 - [https://github.com/EthanVanDyk/blackline-prototype/blob/main/README.md](https://github.com/EthanVanDyk/blackline-prototype/blob/main/README.md)
-- [https://github.com/EthanVanDyk/blackline-prototype/blob/main/index.html](https://github.com/EthanVanDyk/blackline-prototype/blob/main/index.html)
-- [https://github.com/EthanVanDyk/blackline-prototype/blob/main/core.js](https://github.com/EthanVanDyk/blackline-prototype/blob/main/core.js)
-- [https://github.com/EthanVanDyk/blackline-prototype/blob/main/game.js](https://github.com/EthanVanDyk/blackline-prototype/blob/main/game.js)
-- [https://github.com/EthanVanDyk/blackline-prototype/blob/main/test/simulation.test.cjs](https://github.com/EthanVanDyk/blackline-prototype/blob/main/test/simulation.test.cjs)
 - [https://github.com/EthanVanDyk/blackline-prototype](https://github.com/EthanVanDyk/blackline-prototype)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search for GPT-6 created 2026-09-13..2026-09-15; https://github.com/EthanVanDyk/blackline-prototype
 
 [Back to the awesome list](../../README.md)

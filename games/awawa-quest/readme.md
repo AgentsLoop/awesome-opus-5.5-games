@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.0/10
-- **Screenshot rating:** 6.4/10 ([rated image](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-title.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.4/10 ([manually reviewed image](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-title.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, HTML, SVG
 - **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
@@ -20,10 +20,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/cover.png)
-- [screenshot 2](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-title.png)
-- [screenshot 3](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-battle.png)
-- [screenshot 4](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-dex.png)
+- [screenshot 1](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/cover.png) — 📸 5.2/10 · relative frame adjustment · Shows a staged or promotional view; discount uncertainty about in-game rendering. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-title.png) — 📸 6.4/10 · manual visual review · Use this frame for the game-level score. Shows a title or menu; discount the missing active-play view. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-battle.png) — 📸 6.0/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/Rebell-Leader/claude-game/blob/claude/pokemon-hyrax-game-yhya9f/docs/screen-dex.png) — 📸 6.0/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

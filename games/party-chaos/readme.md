@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Roblox, Luau
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/lawrenceandrewlargo/roblox-extreme-minigames](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames)
 - **Evidence:** [creator-reported model evidence](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames)
@@ -32,7 +34,8 @@ Repository README identifies a Roblox party game with 37 original minigames and 
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 37
+- **Counted units in repository:** 37
+- **Units covered by this note:** 37
 - **Discovery:** https://github.com/lawrenceandrewlargo/roblox-extreme-minigames
 
 [Back to the awesome list](../../README.md)

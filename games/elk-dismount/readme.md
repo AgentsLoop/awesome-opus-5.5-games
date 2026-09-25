@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.8/10
-- **Screenshot rating:** 7.1/10 ([rated image](https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.1/10 ([manually reviewed image](https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, Rapier, TypeScript, Web Audio API, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 3,200,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png)
+- [screenshot 1](https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png) — 📸 7.1/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

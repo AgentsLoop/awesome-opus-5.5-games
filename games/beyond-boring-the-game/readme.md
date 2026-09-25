@@ -9,6 +9,8 @@
 - **Score:** 7.5/10
 - **Model:** Claude Fable 5
 - **Technology:** Three.js, TypeScript, Vite
+- **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/kolatts/beyond-boring-the-game](https://github.com/kolatts/beyond-boring-the-game)
 - **Evidence:** [creator-reported model evidence](https://github.com/kolatts/beyond-boring-the-game)
@@ -33,7 +35,8 @@ Playable browser voxel platformer with eight levels, controls, Three.js/Vite sou
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/kolatts/beyond-boring-the-game
 
 [Back to the awesome list](../../README.md)

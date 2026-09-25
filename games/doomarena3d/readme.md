@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.1/10
-- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.0/10 ([manually reviewed image](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.8, Claude Opus 4
 - **Technology:** Godot 4, JSON world model, GDScript engine, Native desktop, 3D FPS arena shooter, 2D Sokoban puzzle, 3D third-person collection game
 - **Estimated FP32 operations/s at 60 FPS:** 5,200,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif)
+- [screenshot 1](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif) — 📸 6.0/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

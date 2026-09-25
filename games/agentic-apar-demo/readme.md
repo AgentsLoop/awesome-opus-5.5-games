@@ -9,6 +9,8 @@
 - **Score:** 8.7/10
 - **Model:** GPT-6 Astra, Codex
 - **Technology:** Unity 6.0.6f1, C#, URP 17.6, Unity WebGL, Browser, Windows
+- **Estimated FP32 operations/s at 60 FPS:** 3,500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete timed mission, three targeted fires, extinguisher interaction, score, success/failure states, code-built Unity scene, verification receipts and successful public WebGL launch.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/fathahnoor/AgenticAPARDemo](https://github.com/fathahnoor/AgenticAPARDemo)
 - **Evidence:** [direct model evidence](https://github.com/fathahnoor/AgenticAPARDemo#-the-mission)
@@ -33,7 +35,8 @@ The README documents a Unity 3D fire-extinguisher mission with three fires, a 60
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/fathahnoor/AgenticAPARDemo; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+Unity+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

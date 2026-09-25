@@ -9,6 +9,8 @@
 - **Score:** 8.6/10
 - **Model:** Claude Opus 4.6
 - **Technology:** HTML, JavaScript ES modules, Canvas 2D, Web Audio API, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 350,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete documented arcade loop, escalating waves, chain reactions, scoring, persistence, single-file source and direct Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/argusbrown/missile_command](https://github.com/argusbrown/missile_command)
 - **Evidence:** [direct model evidence](https://github.com/argusbrown/missile_command#gameplay)
@@ -33,7 +35,8 @@ The README documents a complete single-file browser Missile Command game with si
 ## Verification notes
 
 - **Status:** verified_source_and_single_file_build
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search: "built with Claude Opus 4.6" game in:readme; https://github.com/argusbrown/missile_command
 
 [Back to the awesome list](../../README.md)

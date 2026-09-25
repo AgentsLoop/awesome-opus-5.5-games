@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.5/10
-- **Screenshot rating:** 8.2/10 ([rated image](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/gameplay.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.2/10 ([manually reviewed image](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/gameplay.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Three.js, HTML, JavaScript
 - **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
@@ -21,9 +21,9 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/gameplay.jpg)
-- [screenshot 2](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/scope.jpg)
-- [screenshot 3](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/menu.jpg)
+- [screenshot 1](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/gameplay.jpg) — 📸 8.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
+- [screenshot 2](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/scope.jpg) — 📸 7.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/StarKnightt/operation-ironhold/blob/main/screenshots/menu.jpg) — 📸 7.0/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame is readable but has modest detail.
 
 ## Model attribution
 

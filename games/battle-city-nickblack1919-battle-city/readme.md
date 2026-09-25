@@ -1,6 +1,6 @@
 # Battle City
 
-> Top-list entry: **today** (#6), **this month** (#18).
+> Top-list entry: **this month** (#17).
 
 ![Battle City screenshot placeholder](battle-city-nickblack1919-battle-city-placeholder.svg)
 
@@ -9,6 +9,8 @@
 - **Score:** 9.4/10
 - **Model:** Claude Opus 5
 - **Technology:** Python, Pygame, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 1,150,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Large and mature native game with 35 authored stages, multiple modes, editor, AI presets, save/load, packaging, extensive tests and recent player-facing fixes with exact Opus attribution.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/nickblack1919/battle-city](https://github.com/nickblack1919/battle-city)
 - **Evidence:** [direct model evidence](https://github.com/nickblack1919/battle-city/commit/48ad3a7131a63e1d044a28d98017b81ee746e496)
@@ -28,17 +30,13 @@ The README identifies this repository as a Python/Pygame remake of Battle City. 
 ### Gameplay source
 
 - [https://github.com/nickblack1919/battle-city#readme](https://github.com/nickblack1919/battle-city#readme)
-- [https://github.com/nickblack1919/battle-city/blob/main/tanks.py](https://github.com/nickblack1919/battle-city/blob/main/tanks.py)
-- [https://github.com/nickblack1919/battle-city/blob/main/battlecity/game.py](https://github.com/nickblack1919/battle-city/blob/main/battlecity/game.py)
-- [https://github.com/nickblack1919/battle-city/blob/main/battlecity/tank.py](https://github.com/nickblack1919/battle-city/blob/main/battlecity/tank.py)
-- [https://github.com/nickblack1919/battle-city/tree/main/levels](https://github.com/nickblack1919/battle-city/tree/main/levels)
-- [https://github.com/nickblack1919/battle-city/tree/main/tests](https://github.com/nickblack1919/battle-city/tree/main/tests)
 - [https://github.com/nickblack1919/battle-city/commit/48ad3a7131a63e1d044a28d98017b81ee746e496](https://github.com/nickblack1919/battle-city/commit/48ad3a7131a63e1d044a28d98017b81ee746e496)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12; https://github.com/nickblack1919/battle-city
 
 [Back to the awesome list](../../README.md)

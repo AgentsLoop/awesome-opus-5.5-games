@@ -9,6 +9,8 @@
 - **Score:** 8.5/10
 - **Model:** Claude Fable 5, Claude Opus 4.8
 - **Technology:** Python, CLI
+- **Estimated FP32 operations/s at 60 FPS:** 120,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Strong source, rules, play ledger, iteration history, and direct method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/robss2020/claude-fable-5-having-fun](https://github.com/robss2020/claude-fable-5-having-fun)
 - **Evidence:** [creator-reported model evidence](https://github.com/robss2020/claude-fable-5-having-fun/blob/main/README.md)
@@ -32,7 +34,8 @@ README, shove.py, play ledger, and reports document a playable turn-based tactic
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/robss2020/claude-fable-5-having-fun
 
 [Back to the awesome list](../../README.md)

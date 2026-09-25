@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Fable 5.1
 - **Technology:** HTML, JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 1,800,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable Three.js source and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/RafiulM/3d-game-fable5.1](https://github.com/RafiulM/3d-game-fable5.1)
 - **Evidence:** [creator-reported model evidence](https://github.com/RafiulM/3d-game-fable5.1/blob/main/README.md)
@@ -32,7 +34,8 @@ README and Three.js source contain a playable browser 3D space-exploration game;
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/RafiulM/3d-game-fable5.1
 
 [Back to the awesome list](../../README.md)

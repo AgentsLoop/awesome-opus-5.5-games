@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.8/10
-- **Screenshot rating:** 6.4/10 ([rated image](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.4/10 ([manually reviewed image](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, JavaScript, Canvas 2D, Web Audio API, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)
+- [screenshot 1](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png) — 📸 6.4/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

@@ -9,11 +9,13 @@
 - **Score:** 9.0/10
 - **Model:** Claude Fable 5.1
 - **Technology:** Three.js, GLTFLoader, WebGL, HTML, JavaScript, Blender, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 5,000,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete ten-wave combat loop, upgrade shop, generated 3D assets, public demo, asset verification, Playwright wave tests and direct one-shot Fable 5.1 attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Nipale-ai/fable-5-1-one-prompt-game](https://github.com/Nipale-ai/fable-5-1-one-prompt-game)
 - **Evidence:** [direct model evidence](https://github.com/Nipale-ai/fable-5-1-one-prompt-game#what-it-built-itself)
-- **Live demo:** [open demo](https://nipale-ai.github.io/fable-5-1-one-prompt-game/)
 - **Live demo:** [open demo](https://nipale-ai.github.io/fable-5-1-one-prompt-game/fable/)
+- **Additional live link:** [open demo](https://nipale-ai.github.io/fable-5-1-one-prompt-game/)
 
 ## Screenshots
 
@@ -35,7 +37,8 @@ The README documents a self-contained 3D browser game with a floating arena, mec
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Nipale-ai/fable-5-1-one-prompt-game
 
 [Back to the awesome list](../../README.md)

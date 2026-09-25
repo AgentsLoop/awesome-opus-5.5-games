@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.5/10
-- **Screenshot rating:** 6.2/10 ([rated image](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/gameplay.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.2/10 ([manually reviewed image](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/gameplay.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** Phaser 4, TypeScript, Vite, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 720,000,000 (low confidence; static estimate, not measured).
@@ -21,10 +21,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/main-menu.png)
-- [screenshot 2](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/gameplay.png)
-- [screenshot 3](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/loadout.png)
-- [screenshot 4](https://github.com/Giftedx/wild-haggis-survivors/blob/HEAD/assets/screens/run-start.png)
+- [screenshot 1](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/main-menu.png) — 📸 5.0/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/gameplay.png) — 📸 6.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/Giftedx/wild-haggis-survivors/blob/a0c2c3581ea77c1495a41640761ff75f5e953f86/assets/screens/loadout.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 4](https://github.com/Giftedx/wild-haggis-survivors/blob/HEAD/assets/screens/run-start.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Model attribution
 

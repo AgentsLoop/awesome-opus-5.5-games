@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.4/10
-- **Screenshot rating:** 5.0/10 ([rated image](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 5.0/10 ([manually reviewed image](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5, Claude Fable 5, Claude Opus 4.8
 - **Technology:** Unity, C#, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 4,500,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg)
+- [screenshot 1](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg) — 📸 5.0/10 · manual visual review · Use this frame for the game-level score. Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
 
 ## Videos
 

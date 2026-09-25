@@ -9,6 +9,8 @@
 - **Score:** 8.6/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Unity 6, C#, URP, Native Windows, WebGL
+- **Estimated FP32 operations/s at 60 FPS:** 500,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete Unity source, ten hand-tuned levels, Windows/WebGL targets, high-score flow and direct Opus-attributed import commit.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/KingMordas/mor-breaker](https://github.com/KingMordas/mor-breaker)
 - **Evidence:** [direct model evidence](https://github.com/KingMordas/mor-breaker/commit/53b41b02baa12440e62b01e585ee347bfee35845)
@@ -28,16 +30,13 @@ The Unity project is a complete 2D brick-breaker with a paddle, ball, bricks, te
 ### Gameplay source
 
 - [https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scenes/SampleScene.unity](https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scenes/SampleScene.unity)
-- [https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/GameManager.cs](https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/GameManager.cs)
-- [https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/BallController.cs](https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/BallController.cs)
-- [https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/BrickController.cs](https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/BrickController.cs)
-- [https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/PaddleController.cs](https://github.com/KingMordas/mor-breaker/blob/main/Assets/Scripts/PaddleController.cs)
 - [https://github.com/KingMordas/mor-breaker/commit/53b41b02baa12440e62b01e585ee347bfee35845](https://github.com/KingMordas/mor-breaker/commit/53b41b02baa12440e62b01e585ee347bfee35845)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub code search for Claude Opus 4.6 game attribution; https://github.com/KingMordas/mor-breaker
 
 [Back to the awesome list](../../README.md)

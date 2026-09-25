@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.3/10
-- **Screenshot rating:** 6.0/10 ([rated image](https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.0/10 ([manually reviewed image](https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5, Claude Fable 5.1
 - **Technology:** Unreal Engine 5.7, C++, Chaos Physics, Native desktop
 - **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png)
+- [screenshot 1](https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png) — 📸 6.0/10 · manual visual review · Use this frame for the game-level score. Shows an isolated asset, diagnostic, or comparison; discount missing gameplay context. The frame is readable but has modest detail.
 
 ## Model attribution
 

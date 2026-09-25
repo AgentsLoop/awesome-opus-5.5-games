@@ -9,6 +9,8 @@
 - **Score:** 9.0/10
 - **Model:** GPT-6 Astra
 - **Technology:** JavaScript, React, Express, Socket.IO, WebSocket, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 470,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Three separately implemented games with server-authoritative rules, solo/live modes, host operations, queues, tests and explicit GPT-6 Astra credit; deployment is not claimed because the inferred URLs returned 404.
 - **Verified:** 2026-09-12
 - **Repository:** [https://github.com/HaarisahHussain/Spin-The-Wheel-](https://github.com/HaarisahHussain/Spin-The-Wheel-)
 - **Evidence:** [creator-reported model evidence](https://github.com/HaarisahHussain/Spin-The-Wheel-/commit/524f72ec3757e5993e09a10649b60f064a2b8eac)
@@ -27,18 +29,14 @@ The README identifies this as a React/Express/Socket.IO arcade for public displa
 
 ### Gameplay source
 
-- [https://github.com/HaarisahHussain/Spin-The-Wheel-#readme](https://github.com/HaarisahHussain/Spin-The-Wheel-#readme)
-- [https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/registry.js](https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/registry.js)
 - [https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/quiz.js](https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/quiz.js)
-- [https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/robot.js](https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/robot.js)
-- [https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/src/games/Game.jsx](https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/src/games/Game.jsx)
-- [https://github.com/HaarisahHussain/Spin-The-Wheel-/tree/main/tests](https://github.com/HaarisahHussain/Spin-The-Wheel-/tree/main/tests)
 - [https://github.com/HaarisahHussain/Spin-The-Wheel-/commit/524f72ec3757e5993e09a10649b60f064a2b8eac](https://github.com/HaarisahHussain/Spin-The-Wheel-/commit/524f72ec3757e5993e09a10649b60f064a2b8eac)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 3
+- **Counted units in repository:** 3
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for game GPT-6 Astra, 2026-09-10..2026-09-12; https://github.com/HaarisahHussain/Spin-The-Wheel-
 
 [Back to the awesome list](../../README.md)

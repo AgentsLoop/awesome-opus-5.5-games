@@ -9,6 +9,8 @@
 - **Score:** 8.6/10
 - **Model:** Claude Opus 4.8
 - **Technology:** Unity, C#, Native
+- **Estimated FP32 operations/s at 60 FPS:** 850,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Substantial playable-system source with combat, AI, networking, tutorial and audio-first design, backed by direct Opus 4.8 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Ares2023/BlindArena](https://github.com/Ares2023/BlindArena)
 - **Evidence:** [direct model evidence](https://github.com/Ares2023/BlindArena/commit/e7d142a73556e41063afb69f63a6f3fb9b69deeb)
@@ -28,13 +30,13 @@ The repository contains a Unity Main.unity scene, player controller, combatant, 
 ### Gameplay source
 
 - [https://github.com/Ares2023/BlindArena/blob/main/Assets/Scenes/Main.unity](https://github.com/Ares2023/BlindArena/blob/main/Assets/Scenes/Main.unity)
-- [https://github.com/Ares2023/BlindArena/tree/main/Assets/Scripts](https://github.com/Ares2023/BlindArena/tree/main/Assets/Scripts)
 - [https://github.com/Ares2023/BlindArena/commit/e7d142a73556e41063afb69f63a6f3fb9b69deeb](https://github.com/Ares2023/BlindArena/commit/e7d142a73556e41063afb69f63a6f3fb9b69deeb)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Unity game Co-Authored-By Claude Opus; https://github.com/Ares2023/BlindArena
 
 [Back to the awesome list](../../README.md)

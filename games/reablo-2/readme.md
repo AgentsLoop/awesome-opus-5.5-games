@@ -9,6 +9,8 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5.1
 - **Technology:** TypeScript, Canvas 2D, Bun, WebSocket
+- **Estimated FP32 operations/s at 60 FPS:** 260,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/oeo/reablo-2](https://github.com/oeo/reablo-2)
 - **Evidence:** [direct model evidence](https://github.com/oeo/reablo-2)
@@ -33,7 +35,8 @@ Playable browser action RPG with accounts, characters, items, combat, co-op, tes
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/oeo/reablo-2
 
 [Back to the awesome list](../../README.md)

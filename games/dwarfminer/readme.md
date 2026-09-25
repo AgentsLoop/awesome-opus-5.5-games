@@ -9,6 +9,8 @@
 - **Score:** 8.8/10
 - **Model:** Claude Opus 4.7
 - **Technology:** MonoGame, C#, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 900,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Rich native game source with player/boss, procedural world, mining, crafting, lighting, particles and save systems, plus direct Opus 4.7 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/dainedwards/DwarfMiner](https://github.com/dainedwards/DwarfMiner)
 - **Evidence:** [direct model evidence](https://github.com/dainedwards/DwarfMiner/commit/e85ac99df950bb56df8f58584fffb70d72a4b5fd)
@@ -28,14 +30,13 @@ The cited commit describes a procedural pixel-rendered mining game with a polar 
 ### Gameplay source
 
 - [https://github.com/dainedwards/DwarfMiner/blob/main/Game1.cs](https://github.com/dainedwards/DwarfMiner/blob/main/Game1.cs)
-- [https://github.com/dainedwards/DwarfMiner/tree/main/src/Entities](https://github.com/dainedwards/DwarfMiner/tree/main/src/Entities)
-- [https://github.com/dainedwards/DwarfMiner/tree/main/src/World](https://github.com/dainedwards/DwarfMiner/tree/main/src/World)
 - [https://github.com/dainedwards/DwarfMiner/commit/e85ac99df950bb56df8f58584fffb70d72a4b5fd](https://github.com/dainedwards/DwarfMiner/commit/e85ac99df950bb56df8f58584fffb70d72a4b5fd)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for MonoGame game Co-Authored-By Claude Opus; https://github.com/dainedwards/DwarfMiner
 
 [Back to the awesome list](../../README.md)

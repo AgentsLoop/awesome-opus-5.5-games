@@ -9,11 +9,13 @@
 - **Score:** 8.0/10
 - **Model:** Claude Fable 5
 - **Technology:** HTML, JavaScript, Three.js
+- **Estimated FP32 operations/s at 60 FPS:** 2,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source, live demo, scoring, controls, and direct attribution.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/Arnie016/flight-simulator-fable5](https://github.com/Arnie016/flight-simulator-fable5)
 - **Evidence:** [creator-reported model evidence](https://github.com/Arnie016/flight-simulator-fable5/blob/main/README.md)
-- **Live demo:** [open demo](https://flight-sim-sandy.vercel.app)
-- **Additional live link:** [open demo](https://arnie016.github.io/flight-simulator-fable5/)
+- **Live demo:** [open demo](https://arnie016.github.io/flight-simulator-fable5/)
+- **Additional live link:** [open demo](https://flight-sim-sandy.vercel.app)
 
 ## Screenshots
 
@@ -34,7 +36,8 @@ README, single-file source, and live page contain a scored browser flight traine
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/Arnie016/flight-simulator-fable5
 
 [Back to the awesome list](../../README.md)

@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 8.5/10
-- **Screenshot rating:** 6.8/10 ([rated image](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/automap.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.8/10 ([manually reviewed image](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/automap.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Fable 5
 - **Technology:** JavaScript, Canvas, Web Audio API
 - **Estimated FP32 operations/s at 60 FPS:** 1,100,000,000 (low confidence; static estimate, not measured).
@@ -21,10 +21,10 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/adventurers-hall.png)
-- [screenshot 2](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/automap.png)
-- [screenshot 3](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/combat.png)
-- [screenshot 4](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/riddle-door.png)
+- [screenshot 1](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/adventurers-hall.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 2](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/automap.png) — 📸 6.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/combat.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 4](https://github.com/dgahagan/THORNMERE/blob/HEAD/docs/screenshots/riddle-door.png) — 📸 6.4/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

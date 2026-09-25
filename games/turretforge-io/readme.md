@@ -9,6 +9,8 @@
 - **Score:** 9.2/10
 - **Model:** Claude Opus 5
 - **Technology:** Node.js, WebSocket, Canvas 2D, JavaScript, Browser multiplayer
+- **Estimated FP32 operations/s at 60 FPS:** 340,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The new repository contains a substantial multiplayer shooter, custom build system, server-authoritative simulation, tests and direct Opus attribution.
 - **Verified:** 2026-09-15
 - **Repository:** [https://github.com/Akajek/Dipe.oi](https://github.com/Akajek/Dipe.oi)
 - **Evidence:** [direct model evidence](https://github.com/Akajek/Dipe.oi/commit/12c04f0330101248c96696b820fe02a166510b96)
@@ -28,16 +30,13 @@ The repository was created on 2026-09-13 and contains TurretForge.io, a multipla
 ### Gameplay source
 
 - [https://github.com/Akajek/Dipe.oi/blob/main/README.md](https://github.com/Akajek/Dipe.oi/blob/main/README.md)
-- [https://github.com/Akajek/Dipe.oi/blob/main/server/index.js](https://github.com/Akajek/Dipe.oi/blob/main/server/index.js)
-- [https://github.com/Akajek/Dipe.oi/tree/main/client](https://github.com/Akajek/Dipe.oi/tree/main/client)
-- [https://github.com/Akajek/Dipe.oi/tree/main/shared](https://github.com/Akajek/Dipe.oi/tree/main/shared)
-- [https://github.com/Akajek/Dipe.oi/blob/main/package.json](https://github.com/Akajek/Dipe.oi/blob/main/package.json)
 - [https://github.com/Akajek/Dipe.oi/commit/12c04f0330101248c96696b820fe02a166510b96](https://github.com/Akajek/Dipe.oi/commit/12c04f0330101248c96696b820fe02a166510b96)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub repository search for Claude game created 2026-09-13..2026-09-15; https://github.com/Akajek/Dipe.oi
 
 [Back to the awesome list](../../README.md)

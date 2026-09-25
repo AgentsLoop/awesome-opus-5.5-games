@@ -9,6 +9,8 @@
 - **Score:** 8.1/10
 - **Model:** Claude Opus 5
 - **Technology:** SDL2, C++, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Buildable C++/SDL2 game with collision, traffic, assets and explicit win/lose flow.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/Stephenson-Software/Frog-Hopper-2D](https://github.com/Stephenson-Software/Frog-Hopper-2D)
 - **Evidence:** [direct model evidence](https://github.com/Stephenson-Software/Frog-Hopper-2D/commit/96eae9c7701f31ba18c7c4c067ab01e90905e47b)
@@ -28,15 +30,13 @@ The README describes a complete 2D Frogger-style game: cross traffic lanes and r
 ### Gameplay source
 
 - [https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/README.md](https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/README.md)
-- [https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/src/FrogHopper.cpp](https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/src/FrogHopper.cpp)
-- [https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/src/Frog.cpp](https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/src/Frog.cpp)
-- [https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/src/Vehicle.cpp](https://github.com/Stephenson-Software/Frog-Hopper-2D/blob/master/src/Vehicle.cpp)
 - [https://github.com/Stephenson-Software/Frog-Hopper-2D/commit/96eae9c7701f31ba18c7c4c067ab01e90905e47b](https://github.com/Stephenson-Software/Frog-Hopper-2D/commit/96eae9c7701f31ba18c7c4c067ab01e90905e47b)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for SDL game Co-Authored-By Claude Opus; https://github.com/Stephenson-Software/Frog-Hopper-2D
 
 [Back to the awesome list](../../README.md)

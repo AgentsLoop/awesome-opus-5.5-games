@@ -9,6 +9,8 @@
 - **Score:** 8.3/10
 - **Model:** GPT-6 Astra
 - **Technology:** C++20, SDL3, OpenGL, GLM, Dear ImGui, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 4,200,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Direct Astra attribution, complete native source, clear combat loop, build and run instructions, deterministic autoplay mode and gameplay-focused tests; reduced because a packaged release was not supplied.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/berlinbrown/vanus-toy-sim-gpt](https://github.com/berlinbrown/vanus-toy-sim-gpt)
 - **Evidence:** [direct model evidence](https://github.com/berlinbrown/vanus-toy-sim-gpt#vanus--steel-horizon)
@@ -33,7 +35,8 @@ The README explicitly identifies VANUS // Steel Horizon as built with GPT6 Astra
 ## Verification notes
 
 - **Status:** verified_source_build_instructions
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT6+Astra%22+game+in%3Areadme; https://github.com/berlinbrown/vanus-toy-sim-gpt
 
 [Back to the awesome list](../../README.md)

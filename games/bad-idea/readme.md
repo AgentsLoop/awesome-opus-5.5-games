@@ -9,6 +9,8 @@
 - **Score:** 8.7/10
 - **Model:** GPT-6 Astra
 - **Technology:** TypeScript, Three.js, Rapier, Vite, Web browser
+- **Estimated FP32 operations/s at 60 FPS:** 2,600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a distinctive playable first-person loop, physics, inventory, adaptive rules, executable inventions, source tests and direct Astra attribution; reduced for no hosted build and API-key dependence for adaptive generation.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/ToukoUrsin/bad-idea](https://github.com/ToukoUrsin/bad-idea)
 - **Evidence:** [direct model evidence](https://github.com/ToukoUrsin/bad-idea#bad-idea)
@@ -32,7 +34,8 @@ The README explicitly identifies a first-person invention game generated with GP
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://api.github.com/search/repositories?q=%22GPT-6%22+playable+game+in%3Areadme
 
 [Back to the awesome list](../../README.md)

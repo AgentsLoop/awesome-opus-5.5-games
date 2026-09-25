@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.5/10
-- **Screenshot rating:** 8.6/10 ([rated image](https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 8.6/10 ([manually reviewed image](https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5.5
 - **Technology:** JavaScript, HTML, Three.js, WebGL, Browser
 - **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
@@ -21,7 +21,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg)
+- [screenshot 1](https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg) — 📸 8.6/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame has strong visible polish.
 
 ## Model attribution
 

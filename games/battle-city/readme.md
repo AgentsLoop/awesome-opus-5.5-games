@@ -9,6 +9,8 @@
 - **Score:** 7.8/10
 - **Model:** Claude Opus 4.7
 - **Technology:** Pygame, Python, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 450,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Directly added named Pygame tank game with README and runnable entrypoint, plus Opus attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/401367513/Claud-](https://github.com/401367513/Claud-)
 - **Evidence:** [direct model evidence](https://github.com/401367513/Claud-/commit/db9d9c68498c74d5db02551505940c1c6a98cbe5)
@@ -28,13 +30,13 @@ The cited commit adds a classic Battle City tank game built with Pygame, with a 
 ### Gameplay source
 
 - [https://github.com/401367513/Claud-/blob/master/main.py](https://github.com/401367513/Claud-/blob/master/main.py)
-- [https://github.com/401367513/Claud-/blob/master/README.md](https://github.com/401367513/Claud-/blob/master/README.md)
 - [https://github.com/401367513/Claud-/commit/db9d9c68498c74d5db02551505940c1c6a98cbe5](https://github.com/401367513/Claud-/commit/db9d9c68498c74d5db02551505940c1c6a98cbe5)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Pygame game Co-Authored-By Claude Opus; https://github.com/401367513/Claud-
 
 [Back to the awesome list](../../README.md)

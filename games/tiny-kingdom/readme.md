@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 7.5/10
-- **Screenshot rating:** 6.8/10 ([rated image](https://github.com/user-attachments/assets/e33f77c2-b1c6-47a1-8592-5c25fc5724bc)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.8/10 ([manually reviewed image](https://github.com/user-attachments/assets/e33f77c2-b1c6-47a1-8592-5c25fc5724bc)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 4.7
 - **Technology:** JavaScript, Phaser 3, Vite
 - **Estimated FP32 operations/s at 60 FPS:** 650,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot source 1](https://github.com/user-attachments/assets/e33f77c2-b1c6-47a1-8592-5c25fc5724bc)
+- [screenshot source 1](https://github.com/user-attachments/assets/e33f77c2-b1c6-47a1-8592-5c25fc5724bc) — 📸 6.8/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
 
 ## Model attribution
 

@@ -9,6 +9,8 @@
 - **Score:** 7.9/10
 - **Model:** GPT-6 Astra
 - **Technology:** HTML, CSS, Vanilla JavaScript, Canvas 2D, Web Audio API, Browser
+- **Estimated FP32 operations/s at 60 FPS:** 700,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Evidence-based estimate from a complete lightweight runner loop with lanes, jump/slide actions, hazards, power-ups, lives, missions, combo scoring, responsive input, local persistence, source validation and explicit GPT-6 Astra attribution; no hosted demo was available.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/codewithdivyasree/neon-drift](https://github.com/codewithdivyasree/neon-drift)
 - **Evidence:** [direct model evidence](https://github.com/codewithdivyasree/neon-drift#at-a-glance)
@@ -32,7 +34,8 @@ The README explicitly identifies Neon Drift as a browser game built with GPT-6 A
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/codewithdivyasree/neon-drift; https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+game+in%3Areadme+pushed%3A2026-09-09..2026-09-09
 
 [Back to the awesome list](../../README.md)

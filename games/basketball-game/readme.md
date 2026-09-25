@@ -9,6 +9,8 @@
 - **Score:** 7.0/10
 - **Model:** Claude Opus 4.7
 - **Technology:** Pygame, Python, Native desktop
+- **Estimated FP32 operations/s at 60 FPS:** 350,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** The repository contains a documented, runnable Pygame arcade game with score, lives, game-over and packaged assets, but it is a small single-file project.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/wlssss823/Basketball](https://github.com/wlssss823/Basketball)
 - **Evidence:** [direct model evidence](https://github.com/wlssss823/Basketball/commit/14d5e347ae5764e041d2e9342dbd8d4803be908d)
@@ -33,7 +35,8 @@ The README identifies a Pygame catching game: move left/right, catch falling bas
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for pygame game Co-Authored-By Claude Opus; https://github.com/wlssss823/Basketball
 
 [Back to the awesome list](../../README.md)

@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.0/10
-- **Screenshot rating:** 7.8/10 ([rated image](https://github.com/mgoyal98/last-metro/blob/main/docs/media/phase4d-title.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 7.8/10 ([manually reviewed image](https://github.com/mgoyal98/last-metro/blob/main/docs/media/phase4d-title.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** GPT-6
 - **Technology:** TypeScript, Three.js, Rapier, Vite, Web browser
 - **Estimated FP32 operations/s at 60 FPS:** 2,800,000,000 (low confidence; static estimate, not measured).
@@ -20,7 +20,7 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/mgoyal98/last-metro/blob/main/docs/media/phase4d-title.png)
+- [screenshot 1](https://github.com/mgoyal98/last-metro/blob/main/docs/media/phase4d-title.png) — 📸 7.8/10 · manual visual review · Use this frame for the game-level score. Shows a title or menu; discount the missing active-play view. The frame is readable but has modest detail.
 
 ## Model attribution
 

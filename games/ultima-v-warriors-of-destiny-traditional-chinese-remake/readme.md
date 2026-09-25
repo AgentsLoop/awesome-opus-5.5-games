@@ -7,7 +7,7 @@
 ## At a glance
 
 - **Score:** 9.4/10
-- **Screenshot rating:** 6.2/10 ([rated image](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/04-shop.png)). Treat this as visual review only; do not infer a playtest.
+- **Screenshot rating:** 6.2/10 ([manually reviewed image](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/04-shop.png)). Treat this as visual review only; do not infer a playtest.
 - **Model:** Claude Opus 5
 - **Technology:** Go, Ebitengine, Native desktop, WebAssembly
 - **Estimated FP32 operations/s at 60 FPS:** 1,200,000,000 (low confidence; static estimate, not measured).
@@ -20,28 +20,28 @@
 
 Use the source screenshot links below. The list records these assets from the game repository or a related source.
 
-- [screenshot 1](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/03-talk.png)
-- [screenshot 2](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/04-shop.png)
-- [screenshot 3](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/05-combat.png)
-- [screenshot 4](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/06-dungeon.png)
-- [screenshot 5](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/07-peer.png)
-- [screenshot 6](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/08-word.png)
-- [screenshot 7](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/09-shadowlord.png)
-- [screenshot 8](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/10-blackthorn.png)
-- [screenshot 9](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/11-codex.png)
-- [screenshot 10](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/12-throne.png)
-- [screenshot 11](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/13-cell.png)
-- [screenshot 12](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/14-shrine-room.png)
-- [screenshot 13](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/15-night.png)
-- [screenshot 14](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/16-night-torch.png)
-- [screenshot 15](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/17-guard.png)
-- [screenshot 16](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/19-credits.png)
-- [screenshot 17](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/20-lighthouse.png)
-- [screenshot 18](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/21-sandalwood.png)
-- [screenshot 19](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/22-quit.png)
-- [screenshot 20](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/23-help.png)
-- [screenshot 21](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/24-menu.png)
-- [screenshot 22](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/25-ui-modern.png)
+- [screenshot 1](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/03-talk.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 2](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/04-shop.png) — 📸 6.2/10 · manual visual review · Use this frame for the game-level score. Shows a playable scene; assess environmental detail, composition, and action readability. The frame is readable but has modest detail.
+- [screenshot 3](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/05-combat.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 4](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/06-dungeon.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 5](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/07-peer.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 6](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/08-word.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 7](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/09-shadowlord.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 8](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/10-blackthorn.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 9](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/11-codex.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 10](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/12-throne.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 11](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/13-cell.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 12](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/14-shrine-room.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 13](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/15-night.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 14](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/16-night-torch.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 15](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/17-guard.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 16](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/19-credits.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 17](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/20-lighthouse.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 18](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/21-sandalwood.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 19](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/22-quit.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 20](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/23-help.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
+- [screenshot 21](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/24-menu.png) — 📸 5.0/10 · relative frame adjustment · Shows a title or menu; discount the missing active-play view. The frame provides limited visual evidence.
+- [screenshot 22](https://github.com/wicanr2/u5-cht/blob/HEAD/docs/screenshots/25-ui-modern.png) — 📸 5.8/10 · relative frame adjustment · Shows a playable scene; assess environmental detail, composition, and action readability. The frame provides limited visual evidence.
 
 ## Videos
 

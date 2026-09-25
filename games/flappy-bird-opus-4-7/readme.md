@@ -9,6 +9,8 @@
 - **Score:** 6.5/10
 - **Model:** Claude Opus 4.7
 - **Technology:** HTML5 Canvas, JavaScript
+- **Estimated FP32 operations/s at 60 FPS:** 220,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Playable source and direct attribution, with small scope. Moved to bad-games.md because the quality estimate is below the 7.0 curated-list threshold.
 - **Verified:** 2026-09-09
 - **Repository:** [https://github.com/marcoakes/flappy-bird-opus-4-7](https://github.com/marcoakes/flappy-bird-opus-4-7)
 - **Evidence:** [creator-reported model evidence](https://github.com/marcoakes/flappy-bird-opus-4-7)
@@ -32,7 +34,8 @@ Repository description identifies a single-file playable Canvas game built by Cl
 ## Verification notes
 
 - **Status:** verified
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** https://github.com/marcoakes/flappy-bird-opus-4-7
 
 [Back to the awesome list](../../README.md)

@@ -9,6 +9,8 @@
 - **Score:** 8.4/10
 - **Model:** Claude Opus 4.6
 - **Technology:** Unity 6, C#, Native mobile
+- **Estimated FP32 operations/s at 60 FPS:** 600,000,000 (low confidence; static estimate, not measured).
+- **Rating basis:** Complete mobile game structure with board, puzzle database, scenes, state flow and direct Opus 4.6 attribution.
 - **Verified:** 2026-09-10
 - **Repository:** [https://github.com/luvcal1/classic-concentration](https://github.com/luvcal1/classic-concentration)
 - **Evidence:** [direct model evidence](https://github.com/luvcal1/classic-concentration/commit/666c1de132e375501949741bc15c73cf10299f3d)
@@ -28,13 +30,13 @@ The initial commit is titled Classic Concentration mobile game for Unity 6. It c
 ### Gameplay source
 
 - [https://github.com/luvcal1/classic-concentration/tree/main/Assets/Scenes](https://github.com/luvcal1/classic-concentration/tree/main/Assets/Scenes)
-- [https://github.com/luvcal1/classic-concentration/tree/main/Assets/Scripts](https://github.com/luvcal1/classic-concentration/tree/main/Assets/Scripts)
 - [https://github.com/luvcal1/classic-concentration/commit/666c1de132e375501949741bc15c73cf10299f3d](https://github.com/luvcal1/classic-concentration/commit/666c1de132e375501949741bc15c73cf10299f3d)
 
 ## Verification notes
 
 - **Status:** verified_source
-- **Counted units:** 1
+- **Counted units in repository:** 1
+- **Units covered by this note:** 1
 - **Discovery:** GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6; https://github.com/luvcal1/classic-concentration
 
 [Back to the awesome list](../../README.md)
