@@ -16,16 +16,6 @@ Browse **7 curated game units** from **7 source repositories** attributed to Cod
 | [SEABRIGHT — A Coastal City Builder](../games/seabright-a-coastal-city-builder/readme.md) | ⭐ 9.0 | [✓ direct model evidence](https://github.com/codersusu/game-city-skylines#key-features) |
 | [Agentic APAR Demo](../games/agentic-apar-demo/readme.md) | ⭐ 8.7 | [✓ direct model evidence](https://github.com/fathahnoor/AgenticAPARDemo#-the-mission) |
 
-## Screenshot highlights
-
-Inspect these manually rated screenshots. Treat the scores as visual impressions, not runtime playtests.
-
-<table>
-<tr>
-<td align="center" width="33%"><a href="../games/p-doom/readme.md"><img src="../assets/screenshot-gallery/40de5db1aa5b46474e5c.webp" alt="P(DOOM) screenshot" width="100%"></a><br><a href="../games/p-doom/readme.md"><strong>P(DOOM)</strong></a> · 📸 8.0/10</td>
-</tr>
-</table>
-
 ## Game library
 
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **6 game units**

@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-09-24",
+  "checked_on": "2026-09-25",
   "pending": [
     {
       "game_name": "Yakko Kart",
@@ -24,6 +24,12 @@
       "repository_hint": "DrEvil-TitaniumHelix/midwinter-decode",
       "source": "README/list-focused code search from https://github.com/asashiki/vibe-game",
       "reason": "The linked repository was inaccessible through authenticated GitHub metadata during this pass. Keep it pending until the canonical repository can be resolved and its game source and Fable evidence can be inspected."
+    },
+    {
+      "game_name": "Chainmate",
+      "creator": "sneid1",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1wp8uxb/i_gave_opus_55_four_reference_images_and_build/",
+      "reason": "The creator describes a playable Claude Opus 5.5 Godot chess roguelite and links an itch.io build, but no canonical public GitHub source repository was found. Keep it pending and out of games.json until source is located."
     }
   ],
   "rejected": [
@@ -936,6 +942,14 @@
     {
       "repository": "https://github.com/swan4er/opus-100-projects/tree/main/120-one-line-cartoon",
       "reason": "This is an interactive cartoon creator/player, not a playable game."
+    },
+    {
+      "repository": "https://github.com/Octaldecimal/Tony-pirate-game-opus-5.5",
+      "reason": "GitHub metadata confirms this repository is empty; no game source or model evidence can be verified."
+    },
+    {
+      "repository": "https://github.com/imthebest9/new-unity-game",
+      "reason": "The repository contains a playable stacking game, but its description says only “opus game” and does not identify Claude Opus 5.5. Do not infer an exact model."
     }
   ]
 }

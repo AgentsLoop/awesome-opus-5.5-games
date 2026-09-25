@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-24",
+  "generated_on": "2026-09-25",
   "records": [
     {
       "game": "The Nine Lives of Ash",
@@ -8736,6 +8736,150 @@
       "published_date_confidence": "exact",
       "repository_created_at": "2026-09-23T21:15:05Z",
       "verified_on": "2026-09-24"
+    },
+    {
+      "game": "Ashes of Aether — Act I: The Unravelling",
+      "repository_url": "https://github.com/0xPatrickMartin/AshesOfAether",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-24T00:48:43Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "Neon Siege",
+      "repository_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-24T04:53:58Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "Mortal Clash",
+      "repository_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-24T04:53:58Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "Rooftop Sniper: Last Light",
+      "repository_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-24T04:53:58Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "Nova Lancer",
+      "repository_url": "https://github.com/tanuu5/nova-lancer",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T18:07:18Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "Pelican Bike",
+      "repository_url": "https://github.com/xiiyioozzz/opus55-3d-games",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-25T00:57:27Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "CF Transport Ship",
+      "repository_url": "https://github.com/xiiyioozzz/opus55-3d-games",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-25T00:57:27Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "QQ Speed",
+      "repository_url": "https://github.com/xiiyioozzz/opus55-3d-games",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-25T00:57:27Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "The Hourglass City",
+      "repository_url": "https://github.com/Odiriuss/PixelArtGameOpus",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-24T20:51:48Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "The Black Sedan",
+      "repository_url": "https://github.com/Odiriuss/PixelArtGameOpus",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-24T20:51:48Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "Fall Line",
+      "repository_url": "https://github.com/Nipale-ai/opus-5-5-overnight-builds",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-23T19:27:34Z",
+      "verified_on": "2026-09-25"
+    },
+    {
+      "game": "Pixel Art 3D — Stone Meadow",
+      "repository_url": "https://github.com/AnthonyFl27/pixelart_3d",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-24T22:33:38Z",
+      "verified_on": "2026-09-25"
     }
   ]
 }

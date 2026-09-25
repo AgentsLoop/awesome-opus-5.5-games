@@ -26,7 +26,6 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 <table>
 <tr>
 <td align="center" width="33%"><a href="../games/world-of-claudecraft/readme.md"><img src="../assets/screenshot-gallery/4e1fe8975ce4f5a706c1.webp" alt="World of ClaudeCraft screenshot" width="100%"></a><br><a href="../games/world-of-claudecraft/readme.md"><strong>World of ClaudeCraft</strong></a> · 📸 9.0/10</td>
-<td align="center" width="33%"><a href="../games/vespertine/readme.md"><img src="../assets/screenshot-gallery/6ddb0936bb2948de5993.webp" alt="Vespertine screenshot" width="100%"></a><br><a href="../games/vespertine/readme.md"><strong>Vespertine</strong></a> · 📸 8.0/10</td>
 </tr>
 </table>
 

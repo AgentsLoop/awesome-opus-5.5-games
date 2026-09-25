@@ -37,7 +37,6 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 <tr>
 <td align="center" width="33%"><a href="../games/luma-the-garden-of-light/readme.md"><img src="../assets/screenshot-gallery/6c03951027fb17bec627.webp" alt="LUMA — The Garden of Light screenshot" width="100%"></a><br><a href="../games/luma-the-garden-of-light/readme.md"><strong>LUMA — The Garden of Light</strong></a> · 📸 8.3/10</td>
 <td align="center" width="33%"><a href="../games/saber-descent/readme.md"><img src="../assets/screenshot-gallery/f0d031497f8777d4a229.webp" alt="Saber / Descent screenshot" width="100%"></a><br><a href="../games/saber-descent/readme.md"><strong>Saber / Descent</strong></a> · 📸 8.2/10</td>
-<td align="center" width="33%"><a href="../games/p-doom/readme.md"><img src="../assets/screenshot-gallery/40de5db1aa5b46474e5c.webp" alt="P(DOOM) screenshot" width="100%"></a><br><a href="../games/p-doom/readme.md"><strong>P(DOOM)</strong></a> · 📸 8.0/10</td>
 </tr>
 </table>
 

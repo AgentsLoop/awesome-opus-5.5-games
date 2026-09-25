@@ -2,15 +2,22 @@
 
 Open the per-game notes. Use the source links to inspect model evidence, gameplay code, and screenshot assets.
 
-- **Counted game units:** 792
-- **Named game notes:** 756
+- **Counted game units:** 804
+- **Named game notes:** 768
 - **Aggregate notes:** 1 (some repositories document several units without separate names)
-- **Rows with screenshot sources:** 175
-- **Placeholder thumbnails:** 581
-- **Notes written in this run:** 756
+- **Rows with screenshot sources:** 182
+- **Placeholder thumbnails:** 586
+- **Notes written in this run:** 13
 
 ## Today
 
+- [Ashes of Aether — Act I: The Unravelling](./ashes-of-aether-act-i-the-unravelling/readme.md) — 9.1/10
+- [The Hourglass City](./the-hourglass-city/readme.md) — 9.1/10
+- [Fall Line](./fall-line/readme.md) — 9.0/10
+- [QQ Speed](./qq-speed-xiiyioozzz-opus55-3d-games/readme.md) — 9.0/10
+- [Nova Lancer](./nova-lancer/readme.md) — 8.7/10
+- [Neon Siege](./neon-siege/readme.md) — 8.0/10
+- [Pixel Art 3D — Stone Meadow](./pixel-art-3d-stone-meadow/readme.md) — 7.5/10
 
 ## This week
 
@@ -18,17 +25,17 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Turbo Kart Rally](./turbo-kart-rally/readme.md) — 9.3/10
 - [Dead Signal: Exclusion Zone](./dead-signal-exclusion-zone/readme.md) — 9.2/10
 - [Tater's Flight Sim](./tater-s-flight-sim/readme.md) — 9.2/10
+- [Ashes of Aether — Act I: The Unravelling](./ashes-of-aether-act-i-the-unravelling/readme.md) — 9.1/10
 - [Fishslop](./fishslop/readme.md) — 9.1/10
 - [QQ Speed](./qq-speed/readme.md) — 9.1/10
 - [Terrabrowser](./terrabrowser/readme.md) — 9.1/10
+- [The Hourglass City](./the-hourglass-city/readme.md) — 9.1/10
+- [Fall Line](./fall-line/readme.md) — 9.0/10
+- [QQ Speed](./qq-speed-xiiyioozzz-opus55-3d-games/readme.md) — 9.0/10
 - [Slide Rush](./slide-rush/readme.md) — 9.0/10
 - [Web Grand Prix](./web-grand-prix/readme.md) — 9.0/10
 - [Wouf Kart](./wouf-kart/readme.md) — 8.9/10
-- [VOIDRUNNER: Orbital Combat League](./voidrunner-orbital-combat-league/readme.md) — 8.7/10
-- [Catgirl Pachinko](./catgirl-pachinko/readme.md) — 8.3/10
-- [Palmera Bay](./palmera-bay/readme.md) — 8.2/10
-- [Turbo Coin Rush 3D](./turbo-coin-rush-3d/readme.md) — 8.1/10
-- [Twilight Crossing — Neural RTS](./twilight-crossing-neural-rts/readme.md) — 8.0/10
+- [Nova Lancer](./nova-lancer/readme.md) — 8.7/10
 
 ## This month
 
@@ -96,6 +103,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Aradama Survivors](./aradama-survivors/readme.md) — 9.1/10
 - [Arena Shooter 3D](./arena-shooter-3d/readme.md) — 8.4/10
 - [Arx II](./arx-ii/readme.md) — 9.2/10
+- [Ashes of Aether — Act I: The Unravelling](./ashes-of-aether-act-i-the-unravelling/readme.md) — 9.1/10
 - [ASHFALL](./ashfall/readme.md) — 7.0/10
 - [Ashlands](./ashlands/readme.md) — 7.0/10
 - [Association Sort](./association-sort/readme.md) — 8.3/10
@@ -176,6 +184,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Catgirl Pachinko](./catgirl-pachinko/readme.md) — 8.3/10
 - [Celadon: The Long Ash](./celadon-the-long-ash/readme.md) — 8.0/10
 - [CF Transport Ship](./cf-transport-ship/readme.md) — 9.0/10
+- [CF Transport Ship](./cf-transport-ship-xiiyioozzz-opus55-3d-games/readme.md) — 8.8/10
 - [Chase Game](./chase-game/readme.md) — 9.0/10
 - [Checkers](./checkers/readme.md) — 9.0/10
 - [Chess](./chess/readme.md) — 9.0/10
@@ -298,6 +307,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Fable5 Minecraft](./fable5-minecraft/readme.md) — 7.0/10
 - [FACET FIGHTER](./facet-fighter/readme.md) — 9.0/10
 - [Failure is Not an Option](./failure-is-not-an-option/readme.md) — 9.0/10
+- [Fall Line](./fall-line/readme.md) — 9.0/10
 - [Falling Catch](./falling-catch/readme.md) — 9.3/10
 - [Fallout Ember](./fallout-ember/readme.md) — 7.5/10
 - [False Ritual](./false-ritual/readme.md) — 9.0/10
@@ -465,6 +475,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Moonberry Trail](./moonberry-trail/readme.md) — 6.5/10
 - [moorestech](./moorestech/readme.md) — 9.4/10
 - [morBreaker](./morbreaker/readme.md) — 8.6/10
+- [Mortal Clash](./mortal-clash/readme.md) — 7.8/10
 - [Mosswing](./mosswing/readme.md) — 8.4/10
 - [Mosswing](./mosswing-celia827-game-melon-field-lab/readme.md) — 8.1/10
 - [Mu Tōrere](./mu-torere/readme.md) — 9.6/10
@@ -481,6 +492,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Neon Drift](./neon-drift/readme.md) — 7.9/10
 - [Neon Overdrive](./neon-overdrive/readme.md) — 7.5/10
 - [Neon Precinct](./neon-precinct/readme.md) — 7.0/10
+- [Neon Siege](./neon-siege/readme.md) — 8.0/10
 - [Neon Snake — Fable baseline](./neon-snake-fable-baseline/readme.md) — 8.7/10
 - [Neon Survivor](./neon-survivor/readme.md) — 7.0/10
 - [NEON WARDEN](./neon-warden/readme.md) — 9.0/10
@@ -494,6 +506,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [No AI's Sky](./no-ai-s-sky/readme.md) — 8.0/10
 - [No-Tac-Toe](./no-tac-toe/readme.md) — 9.6/10
 - [NoGo](./nogo/readme.md) — 9.6/10
+- [Nova Lancer](./nova-lancer/readme.md) — 8.7/10
 - [NULLSPACE](./nullspace/readme.md) — 9.3/10
 - [Number Match](./number-match/readme.md) — 9.3/10
 - [Number Sliding Puzzle](./number-sliding-puzzle/readme.md) — 8.9/10
@@ -527,6 +540,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Pastel Nuketown](./pastel-nuketown/readme.md) — 7.0/10
 - [Pawn Duel](./pawn-duel/readme.md) — 9.6/10
 - [Pelican Bike](./pelican-bike/readme.md) — 8.9/10
+- [Pelican Bike](./pelican-bike-xiiyioozzz-opus55-3d-games/readme.md) — 8.5/10
 - [Penguin Ice](./penguin-ice/readme.md) — 7.5/10
 - [Perfect Season Draft](./perfect-season-draft/readme.md) — 8.5/10
 - [Perielio](./perielio/readme.md) — 7.5/10
@@ -537,6 +551,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Pinch-Five](./pinch-five/readme.md) — 9.6/10
 - [Pinehollow Funland](./pinehollow-funland/readme.md) — 8.0/10
 - [PirateSeas](./pirateseas/readme.md) — 9.3/10
+- [Pixel Art 3D — Stone Meadow](./pixel-art-3d-stone-meadow/readme.md) — 7.5/10
 - [Pixel Tactical Shooter](./pixel-tactical-shooter/readme.md) — 8.8/10
 - [Pizza Chef](./pizza-chef/readme.md) — 8.6/10
 - [Platform Fighter](./platform-fighter/readme.md) — 9.4/10
@@ -557,6 +572,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Pygame Chess Bot](./pygame-chess-bot/readme.md) — 7.9/10
 - [pyKombat](./pykombat/readme.md) — 8.5/10
 - [QQ Speed](./qq-speed/readme.md) — 9.1/10
+- [QQ Speed](./qq-speed-xiiyioozzz-opus55-3d-games/readme.md) — 9.0/10
 - [Quadline](./quadline/readme.md) — 9.6/10
 - [Quick Draw](./quick-draw/readme.md) — 9.5/10
 - [Quiz](./quiz/readme.md) — 8.2/10
@@ -586,6 +602,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Roll of Honour](./roll-of-honour/readme.md) — 8.9/10
 - [Roller](./roller/readme.md) — 7.9/10
 - [RonriRoom](./ronriroom/readme.md) — 8.8/10
+- [Rooftop Sniper: Last Light](./rooftop-sniper-last-light/readme.md) — 8.0/10
 - [Roshambo 26](./roshambo-26/readme.md) — 9.2/10
 - [Rummy 500](./rummy-500/readme.md) — 8.4/10
 - [Russian Draughts](./russian-draughts/readme.md) — 9.6/10
@@ -693,9 +710,11 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Tetris](./tetris/readme.md) — 6.5/10
 - [TetrisLove2D](./tetrislove2d/readme.md) — 8.7/10
 - [TetrisPython](./tetrispython/readme.md) — 8.0/10
+- [The Black Sedan](./the-black-sedan/readme.md) — 8.6/10
 - [The Fable Forge](./the-fable-forge/readme.md) — 7.0/10
 - [The Fallen Citadel](./the-fallen-citadel/readme.md) — 9.4/10
 - [The Free Game](./the-free-game/readme.md) — 8.5/10
+- [The Hourglass City](./the-hourglass-city/readme.md) — 9.1/10
 - [THE LONG SILENCE](./the-long-silence/readme.md) — 9.5/10
 - [The Mender's Quarter](./the-mender-s-quarter/readme.md) — 8.5/10
 - [The Mysterious Castle](./the-mysterious-castle/readme.md) — 6.5/10

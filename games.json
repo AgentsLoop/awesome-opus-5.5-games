@@ -52,7 +52,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.tscn",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 5.0,
+    "screenshot_rating_10": 5,
     "screenshot_rating_evidence_url": "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/02_title.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -2301,7 +2301,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/vidalmatheus/pyKombat/blob/47cea3b9cbc291c42607f981e29f6eef726b25ca/main.py",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/vidalmatheus/pyKombat/blob/master/res/Screenshot.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -3966,7 +3966,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/nschmeller/holdfast/blob/main/README.md",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/nschmeller/holdfast/blob/main/docs/ux-critique/12-results.jpg",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -5352,7 +5352,7 @@
     "prompt_evidence_url": "https://github.com/DEADover/DRIFTLANDS",
     "quality_category": "curated_games",
     "live_demo_url": "https://deadover.github.io/DRIFTLANDS/",
-    "screenshot_rating_10": 8.0,
+    "screenshot_rating_10": 8,
     "screenshot_rating_evidence_url": "https://github.com/DEADover/DRIFTLANDS/blob/main/docs/banner.jpg",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -5585,7 +5585,7 @@
     "screenshot_urls": [
       "https://github.com/Gabry9110/CS-Clone-Fable5/blob/main/docs/gameplay.gif"
     ],
-    "screenshot_rating_10": 6.0,
+    "screenshot_rating_10": 6,
     "screenshot_rating_evidence_url": "https://github.com/Gabry9110/CS-Clone-Fable5/blob/main/docs/gameplay.gif",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -6382,7 +6382,7 @@
     "screenshot_urls": [
       "https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris/blob/main/docs/images/gameplay-player.png"
     ],
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris/blob/main/docs/images/gameplay-player.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -8933,7 +8933,7 @@
     "screenshot_urls": [
       "https://github.com/danmana/sakura-idle/blob/main/docs/hero.png"
     ],
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/danmana/sakura-idle/blob/main/docs/hero.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -10132,7 +10132,7 @@
       "https://github.com/jason-c-dev/iridium-reach-demo/blob/main/screenshots/low-altitude-combat.png",
       "https://github.com/jason-c-dev/iridium-reach-demo/blob/main/screenshots/planet-surface.png"
     ],
-    "screenshot_rating_10": 9.0,
+    "screenshot_rating_10": 9,
     "screenshot_rating_evidence_url": "https://github.com/jason-c-dev/iridium-reach-demo/blob/main/screenshots/low-altitude-combat.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -11073,7 +11073,7 @@
       "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg",
       "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-vale_clear.jpg"
     ],
-    "screenshot_rating_10": 9.0,
+    "screenshot_rating_10": 9,
     "screenshot_rating_evidence_url": "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -12428,7 +12428,7 @@
       "https://github.com/petergpt/gogh-strike/blob/main/docs/screenshots/choose-your-artist.png",
       "https://github.com/petergpt/gogh-strike/blob/main/docs/screenshots/artist-studio.png"
     ],
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/petergpt/gogh-strike/blob/main/docs/screenshots/gameplay.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -13770,7 +13770,7 @@
       "https://github.com/sunkencity999/vespertine/blob/main/assets/wallpapers/night-2-the-glass-meadows.png",
       "https://github.com/sunkencity999/vespertine/blob/main/assets/wallpapers/night-3-the-bell-graveyard.png"
     ],
-    "screenshot_rating_10": 8.0,
+    "screenshot_rating_10": 8,
     "screenshot_rating_evidence_url": "https://github.com/sunkencity999/vespertine/blob/main/assets/wallpapers/night-1-the-shallow-drift.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -15117,7 +15117,7 @@
     "screenshot_urls": [
       "https://github.com/Alex-Caian/abstracts/blob/main/screenshots/abstracts1.png"
     ],
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/Alex-Caian/abstracts/blob/main/screenshots/abstracts1.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -15918,7 +15918,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/vvvvvvvvvashhh/block-world-cn",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 6.0,
+    "screenshot_rating_10": 6,
     "screenshot_rating_evidence_url": "https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -17680,7 +17680,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/lucas-wyd/False-Ritual/releases/latest",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_exterior_front.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -18114,7 +18114,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/565353780/fly-around-sculpture#%E6%93%8D%E4%BD%9C%E4%B8%8E%E8%AE%A1%E5%88%86",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 6.0,
+    "screenshot_rating_10": 6,
     "screenshot_rating_evidence_url": "https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -18463,7 +18463,7 @@
     "prompt_evidence_url": "https://github.com/stackloomdev/silent-meridian#silent-meridian",
     "quality_category": "curated_games",
     "live_demo_url": "https://silent-meridian.stackloom.org/",
-    "screenshot_rating_10": 9.0,
+    "screenshot_rating_10": 9,
     "screenshot_rating_evidence_url": "https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -19066,7 +19066,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku/tree/main/src",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 6.0,
+    "screenshot_rating_10": 6,
     "screenshot_rating_evidence_url": "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku/blob/main/docs/original_preview.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -21724,7 +21724,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/srpatatas/produsa/tree/main/src/app/deal",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 3.0,
+    "screenshot_rating_10": 3,
     "screenshot_rating_evidence_url": "https://github.com/srpatatas/produsa/blob/main/public/images/deal_intro.GIF",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -21905,7 +21905,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Scenes/Main.unity",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 3.0,
+    "screenshot_rating_10": 3,
     "screenshot_rating_evidence_url": "https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Goal.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -24192,7 +24192,7 @@
     "youtube_urls": [
       "https://youtu.be/fBrRWKRPV-A"
     ],
-    "screenshot_rating_10": 5.0,
+    "screenshot_rating_10": 5,
     "screenshot_rating_evidence_url": "https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -24481,7 +24481,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/wandering_inn_game/src/world/main.tscn",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 7.0,
+    "screenshot_rating_10": 7,
     "screenshot_rating_evidence_url": "https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/docs/steam/screenshots/01_inn.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -24777,7 +24777,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://p-doom.transitivebullsh.it",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 8.0,
+    "screenshot_rating_10": 8,
     "screenshot_rating_evidence_url": "https://github.com/transitive-bullshit/ai-safety-doom/blob/main/docs/images/boss.jpg",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -25695,7 +25695,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/kamwoh/yume/blob/master/README.md",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 6.0,
+    "screenshot_rating_10": 6,
     "screenshot_rating_evidence_url": "https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif",
     "screenshot_rating_on": "2026-09-24",
     "contained_game_screenshots": {
@@ -25708,7 +25708,7 @@
     },
     "contained_game_estimates": [
       {
-        "screenshot_rating_10": 6.0,
+        "screenshot_rating_10": 6,
         "screenshot_rating_evidence_url": "https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif",
         "screenshot_rating_on": "2026-09-24"
       },
@@ -26568,7 +26568,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/ben-gy/scrapwall#readme",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 3.0,
+    "screenshot_rating_10": 3,
     "screenshot_rating_evidence_url": "https://github.com/ben-gy/scrapwall/blob/main/public/og.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -26636,7 +26636,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/ben-gy/lastlight#readme",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 3.0,
+    "screenshot_rating_10": 3,
     "screenshot_rating_evidence_url": "https://github.com/ben-gy/lastlight/blob/main/public/og.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -27879,7 +27879,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/mohi-devhub/claude-games/blob/main/README.md",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 4.0,
+    "screenshot_rating_10": 4,
     "screenshot_rating_evidence_url": "https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif",
     "screenshot_rating_on": "2026-09-24",
     "contained_game_screenshots": {
@@ -27894,7 +27894,7 @@
       {},
       {},
       {
-        "screenshot_rating_10": 4.0,
+        "screenshot_rating_10": 4,
         "screenshot_rating_evidence_url": "https://github.com/mohi-devhub/claude-games/blob/main/assets/dino.gif",
         "screenshot_rating_on": "2026-09-24"
       },
@@ -28235,7 +28235,7 @@
     "prompt_origin": "reverse_engineered_from_source",
     "prompt_evidence_url": "https://github.com/AndreiBesliu/PirateSeas/blob/main/README.md",
     "quality_category": "curated_games",
-    "screenshot_rating_10": 6.0,
+    "screenshot_rating_10": 6,
     "screenshot_rating_evidence_url": "https://github.com/AndreiBesliu/PirateSeas/blob/main/Scripts/ship_preview.png",
     "screenshot_rating_on": "2026-09-24"
   },
@@ -29112,7 +29112,9 @@
     ],
     "live_demo_url": "https://cahlik.net/palmera-bay/",
     "evidence_url": "https://github.com/vcahlik/palmera-bay/blob/master/README.md",
-    "screenshot_urls": [],
+    "screenshot_urls": [
+      "https://github.com/theolundqvist/frontier-games/blob/main/media/palmera-bay/preview.webp"
+    ],
     "technology": [
       "Three.js",
       "JavaScript",
@@ -29133,9 +29135,10 @@
     "publication_date_status": "repository_created_only",
     "discovery_sources": [
       "GitHub repository search: opus-5.5 created 2026-09-17..2026-09-24",
-      "https://github.com/vcahlik/palmera-bay"
+      "https://github.com/vcahlik/palmera-bay",
+      "https://github.com/theolundqvist/frontier-games"
     ],
-    "verification_notes": "Playable free-roam driving prototype with keyboard controls, a fast convertible, coastal city, road reset, camera options, nitro and procedural audio. Creator README explicitly attributes Claude Opus 5.5. No opponents or win objective; classify as a driving game prototype, not a racing game. Live URL returned HTTP 200; no interactive playtest.",
+    "verification_notes": "Playable free-roam driving prototype with keyboard controls, a fast convertible, coastal city, road reset, camera options, nitro and procedural audio. Creator README explicitly attributes Claude Opus 5.5. No opponents or win objective; classify as a driving game prototype, not a racing game. Live URL returned HTTP 200; no interactive playtest. Reviewed the related Frontier Games gameplay preview on 2026-09-25; it shows the player car, road, coastal city, speed HUD, and minimap. The screenshot is a visual rating only, not a runtime test.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
     "flops_estimate_raw": 1200000000,
@@ -29153,7 +29156,10 @@
     "live_demo_urls": [
       "https://cahlik.net/palmera-bay/"
     ],
-    "prompt_note_enabled": true
+    "prompt_note_enabled": true,
+    "screenshot_rating_10": 8,
+    "screenshot_rating_evidence_url": "https://github.com/theolundqvist/frontier-games/blob/main/media/palmera-bay/preview.webp",
+    "screenshot_rating_on": "2026-09-25"
   },
   {
     "name": "Fishslop",
@@ -29684,7 +29690,7 @@
         "prompt": "Rebuild \"Chess: Machine Thoughts\" as a separate, playable browser game using JavaScript, HTML, SVG, Web Worker, Browser. Preserve the observed gameplay: A complete chess engine with legal moves, perft-tested rules, candidate move evaluation and principal-variation ghost pieces. Support human-vs-engine sides, self-play, time controls, undo, board flip and new games.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/README.md and https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/index.html.",
         "prompt_origin": "reverse_engineered_from_source",
         "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/README.md",
-        "screenshot_rating_10": 7.0,
+        "screenshot_rating_10": 7,
         "screenshot_rating_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/002-chess-mind/preview.jpg",
         "screenshot_rating_on": "2026-09-24"
       },
@@ -29783,7 +29789,7 @@
         "prompt": "Rebuild \"Night Museum\" as a separate, playable browser game using JavaScript, HTML, Canvas 2D, Raycasting, Browser. Preserve the observed gameplay: A first-person raycaster stealth/exploration game. Find seven stolen paintings and return each to its frame before dawn; use a flashlight and limited UV light to reveal the thief’s varnish footprints, inspect the floor plan, and replay with randomized paintings and hiding places.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/README.md and https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/index.html.",
         "prompt_origin": "reverse_engineered_from_source",
         "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/README.md",
-        "screenshot_rating_10": 8.0,
+        "screenshot_rating_10": 8,
         "screenshot_rating_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg",
         "screenshot_rating_on": "2026-09-24"
       },
@@ -29979,7 +29985,7 @@
         "prompt": "Rebuild \"Deduction\" as a separate, playable browser game using JavaScript, HTML, CSS, Browser. Preserve the observed gameplay: An Einstein-style logic-grid game with four, five or six houses. Mark exclusions or assert placements, apply clues and automatic elimination, use stepwise explanations and undo, and solve each uniquely determined puzzle without guessing.\n\nUse Claude Opus 5.5 only as the documented creator attribution; some games call DeepSeek at runtime, which is separate from the build-model claim. Use a scripted/demo fallback when the optional model or network is unavailable.\n\nImplement the source-observed start state, controls, rules, game-state transitions, progression and completion/failure feedback. Keep it self-contained and verify the behavior against https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/README.md and https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/index.html.",
         "prompt_origin": "reverse_engineered_from_source",
         "prompt_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/README.md",
-        "screenshot_rating_10": 7.0,
+        "screenshot_rating_10": 7,
         "screenshot_rating_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/093-deduction/preview.jpg",
         "screenshot_rating_on": "2026-09-24"
       },
@@ -30109,5 +30115,569 @@
     "screenshot_rating_10": 7.5,
     "screenshot_rating_evidence_url": "https://github.com/swan4er/opus-100-projects/blob/main/038-rally-navigator/preview.jpg",
     "screenshot_rating_on": "2026-09-24"
+  },
+  {
+    "name": "Ashes of Aether — Act I: The Unravelling",
+    "repository_id": 1384384133,
+    "github_url": "https://github.com/0xPatrickMartin/AshesOfAether",
+    "game_links": [
+      "https://github.com/0xPatrickMartin/AshesOfAether/blob/main/ashes/engine/game.py",
+      "https://github.com/0xPatrickMartin/AshesOfAether/blob/main/run.py",
+      "https://github.com/0xPatrickMartin/AshesOfAether/blob/main/web/index.html"
+    ],
+    "live_demo_urls": [],
+    "evidence_url": "https://github.com/0xPatrickMartin/AshesOfAether",
+    "screenshot_urls": [],
+    "technology": [
+      "Python",
+      "JavaScript",
+      "Three.js",
+      "HTML/CSS",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-25",
+    "repository_created_at": "2026-09-24T00:48:43Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: \"Claude Opus 5.5\" game created:2026-09-24..2026-09-25 (checked 2026-09-25; UTC+07:00 date filter)"
+    ],
+    "verification_notes": "A source-backed turn-based browser RPG with a Three.js world, server-authoritative combat and exploration, quests, progression, saves, and multiple endings. The repository description explicitly names Claude Opus 5.5, so classify attribution as creator-reported. Inspect the README, engine, client, and tests; do not claim runtime playtesting. The README states that the game generates its art and sound in code and provides no screenshot assets or hosted demo.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 2600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Extensive source-verified RPG systems, a stateful campaign, playable 3D and text interfaces, and automated playthrough tests; no public live deployment was identified or playtested.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Reconstruct the source-documented turn-based fantasy RPG, including character creation, exploration, quests, combat, progression, saves, and endings. This summary is inferred from the source and is not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games"
+  },
+  {
+    "name": "Claude Opus 5.5 Browser Games — 3 Projects",
+    "repository_id": 1384693114,
+    "github_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games",
+    "game_links": [
+      "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/neon-siege/index.html",
+      "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/mortal-clash/index.html",
+      "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/rooftop-sniper/offline/index.html"
+    ],
+    "live_demo_url": "https://promptengineer48.github.io/claude-opus-5.5-games/neon-siege/",
+    "live_demo_urls": [
+      "https://promptengineer48.github.io/claude-opus-5.5-games/neon-siege/",
+      "https://promptengineer48.github.io/claude-opus-5.5-games/mortal-clash/",
+      "https://promptengineer48.github.io/claude-opus-5.5-games/rooftop-sniper/offline/index.html"
+    ],
+    "evidence_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/README.md",
+    "screenshot_urls": [
+      "https://github.com/theolundqvist/frontier-games/blob/main/media/neon-siege/preview.webp",
+      "https://github.com/theolundqvist/frontier-games/blob/main/media/rooftop-sniper-last-light/preview.webp"
+    ],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 3,
+    "contained_games": [
+      "Neon Siege",
+      "Mortal Clash",
+      "Rooftop Sniper: Last Light"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-25",
+    "repository_created_at": "2026-09-24T04:53:58Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: \"Claude Opus 5.5\" game created:2026-09-24..2026-09-25 (checked 2026-09-25; UTC+07:00 date filter)",
+      "https://github.com/theolundqvist/frontier-games"
+    ],
+    "verification_notes": "Count three distinct browser games: Neon Siege, Mortal Clash, and Rooftop Sniper: Last Light. The README documents controls, gameplay, and separate entry points for all three. The repository README and description attribute the three separate games to Claude Opus 5.5. Inspect the source HTML and README sections. Screenshot highlights come from the separately linked Frontier Games collection; no image for Mortal Clash was found in the inspected sources, so do not assign it a screenshot score. Do not claim runtime playtesting.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 7.9,
+    "quality_estimate_basis": "Three independently playable games with separate source folders, controls, mechanics, and live builds; attribution is creator-reported and runtime playtesting was not performed.",
+    "counted_game_units": 3,
+    "is_independent_game": true,
+    "prompt": "Reconstruct three browser games with their documented controls, combat loops, goals, and results screens. This source-derived summary does not reproduce the original prompts.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "contained_game_links": [
+      "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/neon-siege/index.html",
+      "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/mortal-clash/index.html",
+      "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/rooftop-sniper/offline/index.html"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "Neon Siege",
+        "quality_estimate_10": 8,
+        "quality_estimate_basis": "A top-down arena shooter with wave progression, weapons, enemy varieties, shield reflection, and a boss encounter.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/README.md",
+        "screenshot_rating_10": 7.4,
+        "screenshot_rating_evidence_url": "https://github.com/theolundqvist/frontier-games/blob/main/media/neon-siege/preview.webp",
+        "screenshot_rating_on": "2026-09-25"
+      },
+      {
+        "name": "Mortal Clash",
+        "quality_estimate_10": 7.8,
+        "quality_estimate_basis": "A playable one-on-one fighter with character selection, combos, multiple difficulties, and round-based combat.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/README.md"
+      },
+      {
+        "name": "Rooftop Sniper: Last Light",
+        "quality_estimate_10": 8,
+        "quality_estimate_basis": "A timed first-person mission that distinguishes hostile targets from civilians and uses scope, wind, and bullet drop.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/PromptEngineer48/claude-opus-5.5-games/blob/main/README.md",
+        "screenshot_rating_10": 7.6,
+        "screenshot_rating_evidence_url": "https://github.com/theolundqvist/frontier-games/blob/main/media/rooftop-sniper-last-light/preview.webp",
+        "screenshot_rating_on": "2026-09-25"
+      }
+    ],
+    "contained_game_screenshots": {
+      "Neon Siege": [
+        "https://github.com/theolundqvist/frontier-games/blob/main/media/neon-siege/preview.webp"
+      ],
+      "Mortal Clash": [],
+      "Rooftop Sniper: Last Light": [
+        "https://github.com/theolundqvist/frontier-games/blob/main/media/rooftop-sniper-last-light/preview.webp"
+      ]
+    },
+    "screenshot_rating_10": 7.6,
+    "screenshot_rating_evidence_url": "https://github.com/theolundqvist/frontier-games/blob/main/media/rooftop-sniper-last-light/preview.webp",
+    "screenshot_rating_on": "2026-09-25"
+  },
+  {
+    "name": "Nova Lancer",
+    "repository_id": 1383981751,
+    "github_url": "https://github.com/tanuu5/nova-lancer",
+    "game_links": [
+      "https://github.com/tanuu5/nova-lancer/blob/main/src/main.js",
+      "https://github.com/tanuu5/nova-lancer/blob/main/index.html"
+    ],
+    "live_demo_url": "https://tanuu5.github.io/nova-lancer/",
+    "live_demo_urls": [
+      "https://tanuu5.github.io/nova-lancer/"
+    ],
+    "evidence_url": "https://github.com/tanuu5/nova-lancer/blob/main/README.md",
+    "screenshot_urls": [
+      "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/hero.jpg",
+      "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/ocean.jpg",
+      "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/canyon.jpg",
+      "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/fortress.jpg",
+      "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/boss-rise.jpg",
+      "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/boss-beam.jpg"
+    ],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-25",
+    "repository_created_at": "2026-09-23T18:07:18Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: \"Claude Opus 5.5\" game created:2026-09-23..2026-09-24 (checked 2026-09-25; UTC+07:00 date filter)"
+    ],
+    "verification_notes": "A Star Fox-inspired browser rail shooter with player flight controls, enemy formations, bosses, and procedurally generated terrain, models, music, and effects. The README explicitly credits Claude Code with Claude Opus 5.5 (MAX). Verify gameplay controls and the source entry point. Review all six README gameplay images; choose ocean.jpg as the best image for the game-level screenshot score.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 2300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Source documents a complete rail-shooter loop with controls, enemy encounters, boss battles, and a published browser build; not interactively playtested.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Reconstruct the documented Star Fox-inspired browser rail shooter with its flight controls, enemy formations, bosses, and procedural presentation. This summary is reconstructed from the source, not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "screenshot_rating_10": 8.2,
+    "screenshot_rating_evidence_url": "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/ocean.jpg",
+    "screenshot_rating_on": "2026-09-25"
+  },
+  {
+    "name": "Claude Opus 5.5 One-Shot 3D Games — 3 Projects",
+    "repository_id": 1386541253,
+    "github_url": "https://github.com/xiiyioozzz/opus55-3d-games",
+    "game_links": [
+      "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/pelican-bike/src/main.js",
+      "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/cf-transport-ship/src/game.js",
+      "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/qq-speed/src/main.js"
+    ],
+    "live_demo_url": "https://games.xdullboy.com/pelican/",
+    "live_demo_urls": [
+      "https://games.xdullboy.com/pelican/",
+      "https://games.xdullboy.com/transport-ship/",
+      "https://games.xdullboy.com/qq-speed/"
+    ],
+    "evidence_url": "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 3,
+    "contained_games": [
+      "Pelican Bike",
+      "CF Transport Ship",
+      "QQ Speed"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-25",
+    "repository_created_at": "2026-09-25T00:57:27Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: \"Claude Opus 5.5\" game created:2026-09-24..2026-09-25 (checked 2026-09-25; UTC+07:00 date filter)"
+    ],
+    "verification_notes": "Count three separately playable Three.js games: Pelican Bike, CF Transport Ship, and QQ Speed. The README documents each gameplay loop, controls, build, and live deployment. The repository README explicitly attributes all three games to Claude Opus 5.5 in Claude Code and says each is a separate one-shot build. Inspect each game folder and linked live deployment. The README contains no screenshot assets; do not invent screenshot ratings.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Three independently implemented and deployed games with distinct mechanics, source folders, and documented controls; model attribution is creator-reported, and the live builds were not freshly playtested.",
+    "counted_game_units": 3,
+    "is_independent_game": true,
+    "prompt": "Reconstruct the three separate browser games from their source folders and preserve each documented control scheme and game loop. Do not present this source-derived summary as the original one-line prompts.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "contained_game_links": [
+      "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/pelican-bike/src/main.js",
+      "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/cf-transport-ship/src/game.js",
+      "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/qq-speed/src/main.js"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "Pelican Bike",
+        "quality_estimate_10": 8.5,
+        "quality_estimate_basis": "A coastal cycling game with lane changes, fish collection, tricks, progression, achievements, and generated audio.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/README.md"
+      },
+      {
+        "name": "CF Transport Ship",
+        "quality_estimate_10": 8.8,
+        "quality_estimate_basis": "A first-person team shooter with bot combat, weapon handling, a recognizable map layout, and touch input.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/README.md"
+      },
+      {
+        "name": "QQ Speed",
+        "quality_estimate_10": 9,
+        "quality_estimate_basis": "A drifting racer with four authored tracks, nitro, recoveries, opponents, and race progression.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/xiiyioozzz/opus55-3d-games/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "name": "PixelArtGameOpus — New Meridian Games",
+    "repository_id": 1386350274,
+    "github_url": "https://github.com/Odiriuss/PixelArtGameOpus",
+    "game_links": [
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/hourglass_city.html",
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/hourglass_testlevel.html"
+    ],
+    "live_demo_url": "https://odiriuss.github.io/PixelArtGameOpus/hourglass_city.html",
+    "live_demo_urls": [
+      "https://odiriuss.github.io/PixelArtGameOpus/hourglass_city.html",
+      "https://odiriuss.github.io/PixelArtGameOpus/hourglass_testlevel.html"
+    ],
+    "evidence_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/README.md",
+    "screenshot_urls": [
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_title.png",
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_nickel.png",
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_club.png",
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_title.png",
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_chase.png",
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_fight.png"
+    ],
+    "technology": [
+      "JavaScript",
+      "Canvas 2D",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 3,
+    "contained_games": [
+      "The Hourglass City",
+      "The Black Sedan"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-25",
+    "repository_created_at": "2026-09-24T20:51:48Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: Opus game created:2026-09-24..2026-09-25 (checked 2026-09-25; UTC+07:00 date filter)",
+      "https://github.com/theolundqvist/frontier-games"
+    ],
+    "verification_notes": "Count The Hourglass City and The Black Sedan as two distinct playable units: a point-and-click detective adventure and a separate real-time driving-and-combat test-level prototype. Exclude the Ravenshore Garden cinematic loop. The repository credits Claude Code and Claude Opus 5.5. The README calls The Black Sedan a test level, but it has independent driving, chase, and combat loops, so count it as a playable prototype; do not count Ravenshore Garden, which is a cinematic loop. Review all six game screenshots and select city_club.png and level_fight.png as the respective best gameplay frames.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 8.9,
+    "quality_estimate_basis": "Two source-separated playable pixel-art projects with substantial interaction, authored locations, and documented controls; count the driving test-level as a prototype and exclude the cinematic scene.",
+    "counted_game_units": 2,
+    "is_independent_game": true,
+    "prompt": "Reconstruct the source-backed detective adventure and separate driving-combat prototype with their documented controls and interactions. Do not treat the separate cinematic loop as a game unit or claim this summary is an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "contained_game_links": [
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/hourglass_city.html",
+      "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/hourglass_testlevel.html"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "The Hourglass City",
+        "quality_estimate_10": 9.1,
+        "quality_estimate_basis": "A point-and-click detective adventure with exploration, characters, clues, a notebook, deductions, and save/continue behavior.",
+        "technology": [
+          "JavaScript",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/README.md",
+        "screenshot_rating_10": 8.7,
+        "screenshot_rating_evidence_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_club.png",
+        "screenshot_rating_on": "2026-09-25"
+      },
+      {
+        "name": "The Black Sedan",
+        "quality_estimate_10": 8.6,
+        "quality_estimate_basis": "A real-time driving and shooting prototype with a city chase, car handling, hostile crew, and a Pier 9 fight.",
+        "technology": [
+          "JavaScript",
+          "Canvas 2D",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/README.md",
+        "screenshot_rating_10": 8.5,
+        "screenshot_rating_evidence_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_fight.png",
+        "screenshot_rating_on": "2026-09-25"
+      }
+    ],
+    "contained_game_screenshots": {
+      "The Hourglass City": [
+        "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_title.png",
+        "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_nickel.png",
+        "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_club.png"
+      ],
+      "The Black Sedan": [
+        "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_title.png",
+        "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_chase.png",
+        "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_fight.png"
+      ]
+    },
+    "screenshot_rating_10": 8.7,
+    "screenshot_rating_evidence_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_club.png",
+    "screenshot_rating_on": "2026-09-25"
+  },
+  {
+    "name": "Fall Line",
+    "repository_id": 1384091658,
+    "github_url": "https://github.com/Nipale-ai/opus-5-5-overnight-builds",
+    "game_links": [
+      "https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/fall-line/index.html"
+    ],
+    "live_demo_url": "https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/",
+    "live_demo_urls": [
+      "https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/"
+    ],
+    "evidence_url": "https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/README.md",
+    "screenshot_urls": [
+      "https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/vorschau-fall-line.jpg"
+    ],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 4,
+    "contained_games": [
+      "Fall Line"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-25",
+    "repository_created_at": "2026-09-23T19:27:34Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: \"Claude Opus 5.5\" game created:2026-09-23..2026-09-24 (checked 2026-09-25; UTC+07:00 date filter)",
+      "https://github.com/theolundqvist/frontier-games"
+    ],
+    "verification_notes": "Count Fall Line as the portfolio’s player-driven freeride snowboard/ski game. Exclude Operation Tidewater and Chrono City as interactive dioramas/simulations and Pirate Ship at Sunset as a one-action cinematic without a documented game objective. The repository README explicitly attributes the four overnight projects to Claude Opus 5.5. Inspect each portfolio section and count only Fall Line as an independent game; the other items are an animated voxel diorama, a city-through-time simulation, and a one-action cinematic. Review the Fall Line source preview as its best gameplay image.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 2400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "A source-verified freeride game with a navigable mountain, route choices, tricks, timed scoring, and an online build; distinguish it from three non-game portfolio experiments.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Reconstruct the documented freeride snowboarding game with its mountain route, steering, tricks, scoring, and replay loop. This summary is derived from the project and is not the original brief.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "contained_game_links": [
+      "https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/fall-line/index.html"
+    ],
+    "contained_game_estimates": [],
+    "screenshot_rating_10": 8.7,
+    "screenshot_rating_evidence_url": "https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/vorschau-fall-line.jpg",
+    "screenshot_rating_on": "2026-09-25"
+  },
+  {
+    "name": "Pixel Art 3D — Stone Meadow",
+    "repository_id": 1386441743,
+    "github_url": "https://github.com/AnthonyFl27/pixelart_3d",
+    "game_links": [
+      "https://github.com/AnthonyFl27/pixelart_3d/blob/main/index.html",
+      "https://github.com/AnthonyFl27/pixelart_3d/tree/main/src"
+    ],
+    "live_demo_urls": [],
+    "evidence_url": "https://github.com/AnthonyFl27/pixelart_3d",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-25",
+    "repository_created_at": "2026-09-24T22:33:38Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: \"Opus 5.5\" game created:2026-09-24..2026-09-25 (checked 2026-09-25; UTC+07:00 date filter)"
+    ],
+    "verification_notes": "A playable first-person pixel-art exploration sandbox with movement, jump/fly modes, an inventory torch, object storage, and a changing day/night cycle. The GitHub repository description names an Opus 5.5-built game. Inspect the README and controls. Keep its exploration-sandbox status clear: it has movement, inventory, and a dynamic world but no documented win/loss objective. No source-hosted screenshots or public deployment were identified, so do not assign a screenshot rating.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1000000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 7.5,
+    "quality_estimate_basis": "The source provides a controllable exploration sandbox with stateful inventory and time-of-day mechanics, but no explicit campaign, challenge, or win/loss goal; retain as a modest prototype rather than a high-confidence game recommendation.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Reconstruct the source-described first-person pixel-art exploration sandbox with its movement, flight, torch inventory, object storage, and day/night cycle. This summary is not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games"
   }
 ]

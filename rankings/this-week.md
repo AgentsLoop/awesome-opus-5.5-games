@@ -1,6 +1,6 @@
 # Top Games This Week
 
-> Rank games dated from **2026-09-18** through **2026-09-24**.
+> Rank games dated from **2026-09-19** through **2026-09-25**.
 
 ## Coverage
 
@@ -31,5 +31,5 @@
 - Keep repository creation dates in the audit file only.
 - Keep this report generated; do not edit it manually.
 
-Period: **2026-09-18 through 2026-09-24**
-As of: **2026-09-24**
+Period: **2026-09-19 through 2026-09-25**
+As of: **2026-09-25**

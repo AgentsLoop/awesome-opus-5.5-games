@@ -36,7 +36,6 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 </tr>
 <tr>
 <td align="center" width="33%"><a href="../games/driftlands/readme.md"><img src="../assets/screenshot-gallery/0e9ad41d0a535a98d32a.webp" alt="DRIFTLANDS screenshot" width="100%"></a><br><a href="../games/driftlands/readme.md"><strong>DRIFTLANDS</strong></a> · 📸 8.0/10</td>
-<td align="center" width="33%"><a href="../games/beach-volley-fps/readme.md"><img src="../assets/screenshot-gallery/b301f759eac03df1a30d.webp" alt="Beach Volley FPS screenshot" width="100%"></a><br><a href="../games/beach-volley-fps/readme.md"><strong>Beach Volley FPS</strong></a> · 📸 7.9/10</td>
 </tr>
 </table>
 

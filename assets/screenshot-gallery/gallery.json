@@ -44,21 +44,21 @@
   {
     "name": "Iridium Reach",
     "github_url": "https://github.com/jason-c-dev/iridium-reach-demo",
-    "screenshot_rating_10": 9.0,
+    "screenshot_rating_10": 9,
     "source_url": "https://github.com/jason-c-dev/iridium-reach-demo/blob/main/screenshots/low-altitude-combat.png",
     "thumbnail": "assets/screenshot-gallery/b36a65f19763eef9996c.webp"
   },
   {
     "name": "Silent Meridian",
     "github_url": "https://github.com/stackloomdev/silent-meridian",
-    "screenshot_rating_10": 9.0,
+    "screenshot_rating_10": 9,
     "source_url": "https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png",
     "thumbnail": "assets/screenshot-gallery/8f78adf07befca27d8d2.webp"
   },
   {
     "name": "World of ClaudeCraft",
     "github_url": "https://github.com/levy-street/world-of-claudecraft",
-    "screenshot_rating_10": 9.0,
+    "screenshot_rating_10": 9,
     "source_url": "https://github.com/levy-street/world-of-claudecraft/blob/HEAD/docs/screenshots/weather-peaks_snow.jpg",
     "thumbnail": "assets/screenshot-gallery/4e1fe8975ce4f5a706c1.webp"
   },
@@ -91,11 +91,25 @@
     "thumbnail": "assets/screenshot-gallery/16748b2bf38ecd961a13.webp"
   },
   {
+    "name": "Fall Line",
+    "github_url": "https://github.com/Nipale-ai/opus-5-5-overnight-builds",
+    "screenshot_rating_10": 8.7,
+    "source_url": "https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/vorschau-fall-line.jpg",
+    "thumbnail": "assets/screenshot-gallery/f58302eedb91a7814d13.webp"
+  },
+  {
     "name": "Little Flock · 小羊慢慢",
     "github_url": "https://github.com/songkeys/little-flock",
     "screenshot_rating_10": 8.7,
     "source_url": "https://github.com/songkeys/little-flock/blob/main/docs/demo-poster.jpg",
     "thumbnail": "assets/screenshot-gallery/e04cbc0555bab07439f3.webp"
+  },
+  {
+    "name": "The Hourglass City",
+    "github_url": "https://github.com/Odiriuss/PixelArtGameOpus",
+    "screenshot_rating_10": 8.7,
+    "source_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/city_club.png",
+    "thumbnail": "assets/screenshot-gallery/17eeb1044113a6222925.webp"
   },
   {
     "name": "Turbo Kart Rush",
@@ -133,6 +147,13 @@
     "thumbnail": "assets/screenshot-gallery/6863d9b6c3fc888ee518.webp"
   },
   {
+    "name": "The Black Sedan",
+    "github_url": "https://github.com/Odiriuss/PixelArtGameOpus",
+    "screenshot_rating_10": 8.5,
+    "source_url": "https://github.com/Odiriuss/PixelArtGameOpus/blob/main/docs/level_fight.png",
+    "thumbnail": "assets/screenshot-gallery/1ef10431f5871382b13e.webp"
+  },
+  {
     "name": "LUMA — The Garden of Light",
     "github_url": "https://github.com/TetsuakiBaba/2DAction.bench",
     "screenshot_rating_10": 8.3,
@@ -145,6 +166,13 @@
     "screenshot_rating_10": 8.2,
     "source_url": "https://github.com/swan4er/opus-100-projects/blob/main/103-barista-shift/preview.jpg",
     "thumbnail": "assets/screenshot-gallery/2ef55baa6e5e29a61725.webp"
+  },
+  {
+    "name": "Nova Lancer",
+    "github_url": "https://github.com/tanuu5/nova-lancer",
+    "screenshot_rating_10": 8.2,
+    "source_url": "https://github.com/tanuu5/nova-lancer/blob/main/docs/screenshots/ocean.jpg",
+    "thumbnail": "assets/screenshot-gallery/e14915351639c0dca8a2.webp"
   },
   {
     "name": "Operation Ironhold",
@@ -177,36 +205,8 @@
   {
     "name": "DRIFTLANDS",
     "github_url": "https://github.com/DEADover/DRIFTLANDS",
-    "screenshot_rating_10": 8.0,
+    "screenshot_rating_10": 8,
     "source_url": "https://github.com/DEADover/DRIFTLANDS/blob/main/docs/banner.jpg",
     "thumbnail": "assets/screenshot-gallery/0e9ad41d0a535a98d32a.webp"
-  },
-  {
-    "name": "Night Museum",
-    "github_url": "https://github.com/swan4er/opus-100-projects",
-    "screenshot_rating_10": 8.0,
-    "source_url": "https://github.com/swan4er/opus-100-projects/blob/main/037-night-museum/preview.jpg",
-    "thumbnail": "assets/screenshot-gallery/7203da6f78d28b2fa083.webp"
-  },
-  {
-    "name": "P(DOOM)",
-    "github_url": "https://github.com/transitive-bullshit/ai-safety-doom",
-    "screenshot_rating_10": 8.0,
-    "source_url": "https://github.com/transitive-bullshit/ai-safety-doom/blob/main/docs/images/boss.jpg",
-    "thumbnail": "assets/screenshot-gallery/40de5db1aa5b46474e5c.webp"
-  },
-  {
-    "name": "Vespertine",
-    "github_url": "https://github.com/sunkencity999/vespertine",
-    "screenshot_rating_10": 8.0,
-    "source_url": "https://github.com/sunkencity999/vespertine/blob/main/assets/wallpapers/night-1-the-shallow-drift.png",
-    "thumbnail": "assets/screenshot-gallery/6ddb0936bb2948de5993.webp"
-  },
-  {
-    "name": "Beach Volley FPS",
-    "github_url": "https://github.com/teoobarca/beach-volley-fps",
-    "screenshot_rating_10": 7.9,
-    "source_url": "https://github.com/teoobarca/beach-volley-fps/blob/main/docs/shots/broadcast-wide.png",
-    "thumbnail": "assets/screenshot-gallery/b301f759eac03df1a30d.webp"
   }
 ]

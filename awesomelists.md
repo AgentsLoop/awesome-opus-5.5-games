@@ -17,6 +17,7 @@
 | 9 | [Awesome Browser Games](https://github.com/instax-dutta/awesome-browser-games) | **41** | Incremental, puzzle, strategy, arcade, and RPG browser games | Count game bullets under the game genre headings. Exclude discovery directories and contribution links. | 2026-09-12 |
 | 10 | [Awesome Godot Games](https://github.com/bearlikelion/awesome-godot-games) | **17** | Open-source Godot games | Count game bullets after the official templates section and before issue guidance. | 2026-09-12 |
 | 11 | [Opus 100 Projects](https://github.com/swan4er/opus-100-projects) | **17** | Claude Opus 5.5 browser games | Count ten playable projects under “Games with real mechanics” and seven playable entries under “Games with neural network.” Exclude the game generator, open-ended city simulator, scene-building diorama, and cartoon maker. | 2026-09-24 |
+| 12 | [Frontier Games](https://github.com/theolundqvist/frontier-games) | **128** | Claude Opus 5.5 and GPT-6 Astra game showcases | Count 97 browser-playable entries, 3 download/build entries, and 28 watch-only game entries. Exclude the 42 films and animations. | 2026-09-25 |
 
 ## Apply the gate
 
@@ -35,4 +36,4 @@
 
 ## Verification date
 
-Keep the verification date beside every accepted source. Re-run the section-specific count before publishing a future revision. The original ten counts were checked on **2026-09-12**; check the new Opus collection on **2026-09-24**.
+Keep the verification date beside every accepted source. Re-run the section-specific count before publishing a future revision. The original ten counts were checked on **2026-09-12**; check the new Opus collection on **2026-09-24** and Frontier Games on **2026-09-25**.

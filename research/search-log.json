@@ -1,7 +1,7 @@
 {
   "target": 900,
   "started_with": 30,
-  "updated_on": "2026-09-24",
+  "updated_on": "2026-09-25",
   "constraints": {
     "product": "Actual game or playable game prototype",
     "development_method": "Creator, curator, or repository evidence for GPT-6 Astra, Claude Opus, or Claude Fable; retain Gauntlet Loop evidence where present",
@@ -8393,6 +8393,76 @@
         "https://github.com/swan4er/opus-100-projects/tree/main/120-one-line-cartoon — an interactive cartoon maker/player, not a game"
       ],
       "note": "The 17-game repository states that Claude Opus 5.5 assembled the projects in one autonomous run on 2026-09-23; classify that as repository-level model evidence. Distinguish the seven games that optionally use DeepSeek at runtime. Together with the earlier 16 release-week game units, the separate Opus list now has 34 source-verified units across 16 canonical repositories. HTTP 200 confirms availability only, not a fresh gameplay test."
+    },
+    {
+      "source": "GitHub repository search, repository inspection, README screenshots, and a Reddit creator post",
+      "query_key": "repo-search:claude-opus-5.5-games:created:2026-09-24..2026-09-25:local-utc+07:serial",
+      "status": "completed",
+      "checked_at": "2026-09-25T01:52:30Z",
+      "local_date_window": "2026-09-24..2026-09-25 (Asia/Ho_Chi_Minh, UTC+07:00)",
+      "github_utc_date_partitions": [
+        "2026-09-23..2026-09-24",
+        "2026-09-24..2026-09-25"
+      ],
+      "queries": [
+        {
+          "query": "\"Claude Opus 5.5\" game created:2026-09-24..2026-09-25",
+          "results": 3
+        },
+        {
+          "query": "\"Claude Opus 5.5\" game created:2026-09-23..2026-09-24",
+          "results": 9
+        },
+        {
+          "query": "\"Opus 5.5\" game created:2026-09-24..2026-09-25",
+          "results": 5
+        },
+        {
+          "query": "Opus game created:2026-09-24..2026-09-25",
+          "results": 7
+        }
+      ],
+      "repositories_inspected": 14,
+      "new_verified_repositories": 7,
+      "new_game_units": 12,
+      "accepted_repositories": [
+        "https://github.com/0xPatrickMartin/AshesOfAether",
+        "https://github.com/PromptEngineer48/claude-opus-5.5-games",
+        "https://github.com/tanuu5/nova-lancer",
+        "https://github.com/xiiyioozzz/opus55-3d-games",
+        "https://github.com/Odiriuss/PixelArtGameOpus",
+        "https://github.com/Nipale-ai/opus-5-5-overnight-builds",
+        "https://github.com/AnthonyFl27/pixelart_3d"
+      ],
+      "existing_game_screenshot_updates": [
+        {
+          "repository": "https://github.com/vcahlik/palmera-bay",
+          "screenshot_count": 1,
+          "source": "https://github.com/theolundqvist/frontier-games/blob/main/media/palmera-bay/preview.webp"
+        }
+      ],
+      "accepted_count_method": "Filter GitHub creation timestamps into the requested Asia/Ho_Chi_Minh dates; inspect source, controls, game state, and challenge/progression or open-ended sandbox activity; count separate playable projects; require a public source repository. Record no publication date from repository creation alone.",
+      "rejected_candidates": [
+        "https://github.com/Octaldecimal/Tony-pirate-game-opus-5.5 — empty repository",
+        "https://github.com/imthebest9/new-unity-game — Opus attribution does not specify version 5.5",
+        "https://github.com/Nipale-ai/opus-5-5-overnight-builds/tree/main/tidewater — animated diorama, not a game unit",
+        "https://github.com/Nipale-ai/opus-5-5-overnight-builds/tree/main/chrono-city — interactive city-through-time simulation, not a game unit",
+        "https://github.com/Nipale-ai/opus-5-5-overnight-builds/tree/main/pirate-ship — one-action cinematic without a documented game objective"
+      ],
+      "pending_candidates": [
+        "Chainmate — Reddit creator post links to an itch.io build but no GitHub source repository was found; hold it out of games.json until source is located."
+      ],
+      "screenshot_images_reviewed": 16,
+      "screenshot_images_manually_rated": 7,
+      "source_limitations": [
+        "GitHub created: date filters use UTC-day buckets; apply UTC+07:00 before assigning a local day.",
+        "Do not treat repository creation time as game publication time.",
+        "Use Frontier Games preview assets only when its README maps the image directly to the named game and source repository.",
+        "Some verified games publish no screenshots; leave those image fields and ratings empty.",
+        "Do not claim interactive playtesting when only repository sources and screenshot frames were inspected.",
+        "A full 437-image --online refetch was interrupted after about three minutes without results; directly fetch and verify all 16 added or refreshed screenshots, then pass the offline coverage validator."
+      ],
+      "note": "Add verified games to games.json and model pages, review each linked screenshot, regenerate game notes and galleries, and add the newly verified 128-entry Frontier Games collection to awesomelists.md. Preserve incomplete source or model attribution cases as pending or rejected candidates."
     }
   ],
   "frontier": [
@@ -8406,6 +8476,7 @@
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects",
-    "Date enrichment completed: 152 curated records have exact publication dates covering 287 game units; all 533 qualifying repositories have creation metadata. Store mixed-repository publication dates at the individual game-unit level."
+    "Date enrichment completed: 152 curated records have exact publication dates covering 287 game units; all 533 qualifying repositories have creation metadata. Store mixed-repository publication dates at the individual game-unit level.",
+    "Search today and yesterday using GitHub UTC creation partitions adjusted to Asia/Ho_Chi_Minh; add seven verified repositories with 12 game units and one screenshot-source update for existing Palmera Bay on 2026-09-25."
   ]
 }

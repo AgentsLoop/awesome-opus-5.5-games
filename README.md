@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI Games
 
-### 764 curated game units. 505 qualifying source repositories.
+### 776 curated game units. 512 qualifying source repositories.
 
-[![Games](https://img.shields.io/badge/GAMES-764-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#browse-by-model) [![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-505-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-219-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#collection-at-a-glance)
+[![Games](https://img.shields.io/badge/GAMES-776-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#browse-by-model) [![Source repositories](https://img.shields.io/badge/SOURCE%20REPOSITORIES-512-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![WebGL family](https://img.shields.io/badge/WEBGL%20FAMILY-229-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#collection-at-a-glance)
 
 [![Stars](https://img.shields.io/github/stars/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/AgentsLoop/awesome-opus-5.5-games/stargazers) [![Forks](https://img.shields.io/github/forks/AgentsLoop/awesome-opus-5.5-games?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/AgentsLoop/awesome-opus-5.5-games/forks)
 
@@ -27,7 +27,7 @@ Select a model to browse its ranked games and screenshots. Count each multi-mode
 | [GPT-6 Astra](models/gpt-6-astra.md) | **107** | 79 |
 | [Claude Opus 4.6](models/claude-opus-4-6.md) | **83** | 69 |
 | [Claude Opus 4.8](models/claude-opus-4-8.md) | **67** | 53 |
-| [Claude Opus 5.5](models/claude-opus-5-5.md) | **34** | 16 |
+| [Claude Opus 5.5](models/claude-opus-5-5.md) | **46** | 23 |
 | [Claude Opus 4.7](models/claude-opus-4-7.md) | **25** | 25 |
 | [Claude Opus 4.5](models/claude-opus-4-5.md) | **13** | 13 |
 | [Codex](models/codex.md) | **7** | 7 |
@@ -43,7 +43,15 @@ Select a model to browse its ranked games and screenshots. Count each multi-mode
 
 > Rank the highest-rated repositories verified in this curation run on **2026-09-25**.
 
-_No verified entries match this period yet._
+| Rank | Game | Score | Model | Verified date |
+| ---: | --- | ---: | --- | --- |
+| 1 | [**Ashes of Aether — Act I: The Unravelling**](games/ashes-of-aether-act-i-the-unravelling/readme.md) | ⭐ **9.1** | Claude Opus 5.5 | 2026-09-25 |
+| 2 | [**The Hourglass City**](games/the-hourglass-city/readme.md) | ⭐ **9.1** | Claude Opus 5.5 | 2026-09-25 |
+| 3 | [**Fall Line**](games/fall-line/readme.md) | ⭐ **9.0** | Claude Opus 5.5 | 2026-09-25 |
+| 4 | [**QQ Speed**](games/qq-speed-xiiyioozzz-opus55-3d-games/readme.md) | ⭐ **9.0** | Claude Opus 5.5 | 2026-09-25 |
+| 5 | [**Nova Lancer**](games/nova-lancer/readme.md) | ⭐ **8.7** | Claude Opus 5.5 | 2026-09-25 |
+| 6 | [**Neon Siege**](games/neon-siege/readme.md) | ⭐ **8.0** | Claude Opus 5.5 | 2026-09-25 |
+| 7 | [**Pixel Art 3D — Stone Meadow**](games/pixel-art-3d-stone-meadow/readme.md) | ⭐ **7.5** | Claude Opus 5.5 | 2026-09-25 |
 
 ## Top games this week
 
@@ -108,33 +116,33 @@ Rank 30 games by the score of each game's best manually reviewed screenshot, not
 </tr>
 <tr>
 <td align="center" width="33%"><a href="games/overrun-dockyard-nine/readme.md"><img src="assets/screenshot-gallery/16748b2bf38ecd961a13.webp" alt="OVERRUN: Dockyard Nine screenshot" width="100%"></a><br><a href="games/overrun-dockyard-nine/readme.md"><strong>OVERRUN: Dockyard Nine</strong></a> · 📸 8.8/10</td>
+<td align="center" width="33%"><a href="games/fall-line/readme.md"><img src="assets/screenshot-gallery/f58302eedb91a7814d13.webp" alt="Fall Line screenshot" width="100%"></a><br><a href="games/fall-line/readme.md"><strong>Fall Line</strong></a> · 📸 8.7/10</td>
 <td align="center" width="33%"><a href="games/little-flock/readme.md"><img src="assets/screenshot-gallery/e04cbc0555bab07439f3.webp" alt="Little Flock · 小羊慢慢 screenshot" width="100%"></a><br><a href="games/little-flock/readme.md"><strong>Little Flock · 小羊慢慢</strong></a> · 📸 8.7/10</td>
-<td align="center" width="33%"><a href="games/turbo-kart-rush/readme.md"><img src="assets/screenshot-gallery/9854dd97f2fd98c64bd5.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
 </tr>
 <tr>
+<td align="center" width="33%"><a href="games/the-hourglass-city/readme.md"><img src="assets/screenshot-gallery/17eeb1044113a6222925.webp" alt="The Hourglass City screenshot" width="100%"></a><br><a href="games/the-hourglass-city/readme.md"><strong>The Hourglass City</strong></a> · 📸 8.7/10</td>
+<td align="center" width="33%"><a href="games/turbo-kart-rush/readme.md"><img src="assets/screenshot-gallery/9854dd97f2fd98c64bd5.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
 <td align="center" width="33%"><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><img src="assets/screenshot-gallery/eadd4f2689da0830911f.webp" alt="Turbo Kart Rush screenshot" width="100%"></a><br><a href="games/turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md"><strong>Turbo Kart Rush</strong></a> · 📸 8.7/10</td>
+</tr>
+<tr>
 <td align="center" width="33%"><a href="games/rally-navigator/readme.md"><img src="assets/screenshot-gallery/ecde3d80dbddabe2047e.webp" alt="Rally Navigator screenshot" width="100%"></a><br><a href="games/rally-navigator/readme.md"><strong>Rally Navigator</strong></a> · 📸 8.6/10</td>
 <td align="center" width="33%"><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><img src="assets/screenshot-gallery/c50db70a0af420897375.webp" alt="Rogue Squadron — The Battle of Yavin screenshot" width="100%"></a><br><a href="games/rogue-squadron-the-battle-of-yavin/readme.md"><strong>Rogue Squadron — The Battle of Yavin</strong></a> · 📸 8.6/10</td>
+<td align="center" width="33%"><a href="games/clawd-pop-3d/readme.md"><img src="assets/screenshot-gallery/6863d9b6c3fc888ee518.webp" alt="Clawd Pop 3D screenshot" width="100%"></a><br><a href="games/clawd-pop-3d/readme.md"><strong>Clawd Pop 3D</strong></a> · 📸 8.5/10</td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="games/clawd-pop-3d/readme.md"><img src="assets/screenshot-gallery/6863d9b6c3fc888ee518.webp" alt="Clawd Pop 3D screenshot" width="100%"></a><br><a href="games/clawd-pop-3d/readme.md"><strong>Clawd Pop 3D</strong></a> · 📸 8.5/10</td>
+<td align="center" width="33%"><a href="games/the-black-sedan/readme.md"><img src="assets/screenshot-gallery/1ef10431f5871382b13e.webp" alt="The Black Sedan screenshot" width="100%"></a><br><a href="games/the-black-sedan/readme.md"><strong>The Black Sedan</strong></a> · 📸 8.5/10</td>
 <td align="center" width="33%"><a href="games/luma-the-garden-of-light/readme.md"><img src="assets/screenshot-gallery/6c03951027fb17bec627.webp" alt="LUMA — The Garden of Light screenshot" width="100%"></a><br><a href="games/luma-the-garden-of-light/readme.md"><strong>LUMA — The Garden of Light</strong></a> · 📸 8.3/10</td>
 <td align="center" width="33%"><a href="games/barista-shift/readme.md"><img src="assets/screenshot-gallery/2ef55baa6e5e29a61725.webp" alt="Barista Shift screenshot" width="100%"></a><br><a href="games/barista-shift/readme.md"><strong>Barista Shift</strong></a> · 📸 8.2/10</td>
 </tr>
 <tr>
+<td align="center" width="33%"><a href="games/nova-lancer/readme.md"><img src="assets/screenshot-gallery/e14915351639c0dca8a2.webp" alt="Nova Lancer screenshot" width="100%"></a><br><a href="games/nova-lancer/readme.md"><strong>Nova Lancer</strong></a> · 📸 8.2/10</td>
 <td align="center" width="33%"><a href="games/operation-ironhold/readme.md"><img src="assets/screenshot-gallery/22a7987f9c6b65b5d8a1.webp" alt="Operation Ironhold screenshot" width="100%"></a><br><a href="games/operation-ironhold/readme.md"><strong>Operation Ironhold</strong></a> · 📸 8.2/10</td>
 <td align="center" width="33%"><a href="games/saber-descent/readme.md"><img src="assets/screenshot-gallery/f0d031497f8777d4a229.webp" alt="Saber / Descent screenshot" width="100%"></a><br><a href="games/saber-descent/readme.md"><strong>Saber / Descent</strong></a> · 📸 8.2/10</td>
-<td align="center" width="33%"><a href="games/tater-s-flight-sim/readme.md"><img src="assets/screenshot-gallery/af3f32934824f5faa83c.webp" alt="Tater's Flight Sim screenshot" width="100%"></a><br><a href="games/tater-s-flight-sim/readme.md"><strong>Tater's Flight Sim</strong></a> · 📸 8.2/10</td>
 </tr>
 <tr>
+<td align="center" width="33%"><a href="games/tater-s-flight-sim/readme.md"><img src="assets/screenshot-gallery/af3f32934824f5faa83c.webp" alt="Tater's Flight Sim screenshot" width="100%"></a><br><a href="games/tater-s-flight-sim/readme.md"><strong>Tater's Flight Sim</strong></a> · 📸 8.2/10</td>
 <td align="center" width="33%"><a href="games/buildyourtown/readme.md"><img src="assets/screenshot-gallery/6de63bab6a1abdca5369.webp" alt="BuildYourTown screenshot" width="100%"></a><br><a href="games/buildyourtown/readme.md"><strong>BuildYourTown</strong></a> · 📸 8.1/10</td>
 <td align="center" width="33%"><a href="games/driftlands/readme.md"><img src="assets/screenshot-gallery/0e9ad41d0a535a98d32a.webp" alt="DRIFTLANDS screenshot" width="100%"></a><br><a href="games/driftlands/readme.md"><strong>DRIFTLANDS</strong></a> · 📸 8.0/10</td>
-<td align="center" width="33%"><a href="games/night-museum/readme.md"><img src="assets/screenshot-gallery/7203da6f78d28b2fa083.webp" alt="Night Museum screenshot" width="100%"></a><br><a href="games/night-museum/readme.md"><strong>Night Museum</strong></a> · 📸 8.0/10</td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="games/p-doom/readme.md"><img src="assets/screenshot-gallery/40de5db1aa5b46474e5c.webp" alt="P(DOOM) screenshot" width="100%"></a><br><a href="games/p-doom/readme.md"><strong>P(DOOM)</strong></a> · 📸 8.0/10</td>
-<td align="center" width="33%"><a href="games/vespertine/readme.md"><img src="assets/screenshot-gallery/6ddb0936bb2948de5993.webp" alt="Vespertine screenshot" width="100%"></a><br><a href="games/vespertine/readme.md"><strong>Vespertine</strong></a> · 📸 8.0/10</td>
-<td align="center" width="33%"><a href="games/beach-volley-fps/readme.md"><img src="assets/screenshot-gallery/b301f759eac03df1a30d.webp" alt="Beach Volley FPS screenshot" width="100%"></a><br><a href="games/beach-volley-fps/readme.md"><strong>Beach Volley FPS</strong></a> · 📸 7.9/10</td>
 </tr>
 </table>
 
@@ -164,7 +172,7 @@ Rank 30 games by the score of each game's best manually reviewed screenshot, not
 
 This is a curated index of playable game units with public GitHub source and evidence that connects them to GPT-6 Astra, Claude Opus, or Claude Fable. “Curated” does not mean every attribution has the same strength: the per-entry evidence grade states whether the model claim is direct, creator-reported, repository-level, or inferred.
 
-The source of truth is [games.json](games.json). It was last verified on **2026-09-24**.
+The source of truth is [games.json](games.json). It was last verified on **2026-09-25**.
 
 Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
 
@@ -180,27 +188,27 @@ The dataset stores source-derived reconstruction prompts without presenting them
 
 | Signal | Result |
 | --- | ---: |
-| Counted game units | **764** |
-| Qualifying source repositories | **505** |
-| Dataset records, including related or excluded records | **585** |
+| Counted game units | **776** |
+| Qualifying source repositories | **512** |
+| Dataset records, including related or excluded records | **592** |
 | Low-quality game units moved to bad-games.md | **28** (28 repositories) |
 | Other non-game records moved to other.md | **52** |
-| WebGL-family game units, across all categories | **219** |
+| WebGL-family game units, across all categories | **229** |
 | Non-browser engine game units | **255** |
-| Game units with screenshot links | **174** |
+| Game units with screenshot links | **181** |
 | Game units with direct prompt links | **17** |
-| Game units with source-derived prompt fields | **764** |
+| Game units with source-derived prompt fields | **776** |
 | Game units with exact publication dates | **287** (152 repositories) |
-| Game units with repository creation dates | **764** (505 repositories) |
+| Game units with repository creation dates | **776** (512 repositories) |
 
 ## Verification snapshot
 
-The list contains **764** game units from **505** qualifying repositories. The dataset also retains **80** related or excluded records for audit history. Each row uses one of these model-evidence grades.
+The list contains **776** game units from **512** qualifying repositories. The dataset also retains **80** related or excluded records for audit history. Each row uses one of these model-evidence grades.
 
 | Grade | Meaning | Game units |
 | --- | --- | ---: |
 | ✓ Direct | A public primary source directly attributes the listed model. | **520** |
-| ≈ Creator report | The creator attributes the listed model. | **200** |
+| ≈ Creator report | The creator attributes the listed model. | **212** |
 | △ Repository trail | A repository, directory, or topic trail supports the model claim. | **42** |
 | ? Inferred | The model attribution is inferred and should be independently checked. | **2** |
 
