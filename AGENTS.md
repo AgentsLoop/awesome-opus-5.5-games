@@ -38,5 +38,5 @@
 ## Git delivery
 
 - Verify and commit every completed change.
-- Push every completed commit to `origin` before reporting completion.
+- Push every completed commit to both `origin` and `astra` before reporting completion.
 - Inspect `~/.config/gh/hosts.yml` and `git remote -v` before remote GitHub actions. Use the intended account and ask if it is ambiguous.

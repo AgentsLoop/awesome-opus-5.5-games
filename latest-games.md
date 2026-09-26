@@ -4,6 +4,28 @@ Compare when each source repository was created with when this collection first 
 
 [Back to the game collection](README.md) · [Source data](games.json)
 
+## Added 2026-09-26 (UTC)
+
+| Added to this repo (UTC) | Game | Source repository | Original repository created (UTC) | Model | Quality |
+| --- | --- | --- | --- | --- | ---: |
+| 2026-09-26 | [F1 Racing Game](games/f1-racing-game/readme.md) | [hirosichen/ai-f1-racing-game](https://github.com/hirosichen/ai-f1-racing-game) | 2026-09-25 07:22:52 UTC | Claude Opus 5.5 | 8.3/10 |
+| 2026-09-26 | [Harbor Master](games/harbor-master/readme.md) | [hirosichen/ai-harbor-master-game](https://github.com/hirosichen/ai-harbor-master-game) | 2026-09-25 12:48:00 UTC | Claude Opus 5.5 | 8.2/10 |
+| 2026-09-26 | [HELLAS — Greek Civilization](games/hellas-greek-civilization/readme.md) | [MXMX0811/gpt-6-astra-game](https://github.com/MXMX0811/gpt-6-astra-game) | 2026-09-25 02:28:36 UTC | GPT-6 Astra | 8.5/10 |
+| 2026-09-26 | [High Effort Strategy Game](games/high-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [IRON TIDE — Steel Tide](games/iron-tide-steel-tide/readme.md) | [MXMX0811/gpt-6-astra-game](https://github.com/MXMX0811/gpt-6-astra-game) | 2026-09-25 02:28:36 UTC | GPT-6 Astra | 8.5/10 |
+| 2026-09-26 | [League of Legends Simulation](games/league-of-legends-simulation/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Long Wind](games/long-wind/readme.md) | [jbang2004/long-wind](https://github.com/jbang2004/long-wind) | 2026-09-26 00:41:09 UTC | Claude Opus 5.5 | 9.0/10 |
+| 2026-09-26 | [Low Effort Strategy Game](games/low-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [Max Effort Strategy Game](games/max-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [Medium Effort Strategy Game](games/medium-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [Minecraft 3D Sandbox](games/minecraft-3d-sandbox/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Plants vs. Zombies Clone](games/plants-vs-zombies-clone/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Ponpoko Kart](games/ponpoko-kart/readme.md) | [tanuu5/ponpoko-kart](https://github.com/tanuu5/ponpoko-kart) | 2026-09-25 18:57:23 UTC | Claude Opus 5.5 | 8.8/10 |
+| 2026-09-26 | [Sky Rings](games/sky-rings/readme.md) | [hirosichen/ai-sky-rings-game](https://github.com/hirosichen/ai-sky-rings-game) | 2026-09-25 09:04:02 UTC | Claude Opus 5.5 | 8.4/10 |
+| 2026-09-26 | [Slay the Spire Clone](games/slay-the-spire-clone/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Special Prompt Strategy Game](games/special-prompt-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [X High Effort Strategy Game](games/x-high-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+
 ## Added 2026-09-25 (UTC)
 
 | Added to this repo (UTC) | Game | Source repository | Original repository created (UTC) | Model | Quality |
@@ -11,7 +33,7 @@ Compare when each source repository was created with when this collection first 
 | 2026-09-25 | [Ashes of Aether — Act I: The Unravelling](games/ashes-of-aether-act-i-the-unravelling/readme.md) | [0xPatrickMartin/AshesOfAether](https://github.com/0xPatrickMartin/AshesOfAether) | 2026-09-24 00:48:43 UTC | Claude Opus 5.5 | 9.1/10 |
 | 2026-09-25 | [CF Transport Ship](games/cf-transport-ship-xiiyioozzz-opus55-3d-games/readme.md) | [xiiyioozzz/opus55-3d-games](https://github.com/xiiyioozzz/opus55-3d-games) | 2026-09-25 00:57:27 UTC | Claude Opus 5.5 | 8.8/10 |
 | 2026-09-25 | [Fall Line](games/fall-line/readme.md) | [Nipale-ai/opus-5-5-overnight-builds](https://github.com/Nipale-ai/opus-5-5-overnight-builds) | 2026-09-23 19:27:34 UTC | Claude Opus 5.5 | 9.0/10 |
-| 2026-09-25 | [GunBros](https://github.com/skelzer/gunbros-public) | [skelzer/gunbros-public](https://github.com/skelzer/gunbros-public) | 2026-09-25 10:34:55 UTC | Claude Opus 5.5, Claude Fable 5.1 | 8.0/10 |
+| 2026-09-25 | [GunBros](games/gunbros/readme.md) | [skelzer/gunbros-public](https://github.com/skelzer/gunbros-public) | 2026-09-25 10:34:55 UTC | Claude Opus 5.5, Claude Fable 5.1 | 8.0/10 |
 | 2026-09-25 | [Mortal Clash](games/mortal-clash/readme.md) | [PromptEngineer48/claude-opus-5.5-games](https://github.com/PromptEngineer48/claude-opus-5.5-games) | 2026-09-24 04:53:58 UTC | Claude Opus 5.5 | 7.8/10 |
 | 2026-09-25 | [Neon Siege](games/neon-siege/readme.md) | [PromptEngineer48/claude-opus-5.5-games](https://github.com/PromptEngineer48/claude-opus-5.5-games) | 2026-09-24 04:53:58 UTC | Claude Opus 5.5 | 8.0/10 |
 | 2026-09-25 | [Nova Lancer](games/nova-lancer/readme.md) | [tanuu5/nova-lancer](https://github.com/tanuu5/nova-lancer) | 2026-09-23 18:07:18 UTC | Claude Opus 5.5 | 8.7/10 |

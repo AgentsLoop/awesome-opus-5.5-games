@@ -1,6 +1,6 @@
 # GPT-6 Astra games
 
-Browse **107 curated game units** from **79 source repositories** attributed to GPT-6 Astra. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
+Browse **109 curated game units** from **80 source repositories** attributed to GPT-6 Astra. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
 
 [Back to all models](../README.md#browse-by-model) · [Source data](../games.json)
 
@@ -42,7 +42,7 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 
 ## Game library
 
-- 💥 [Action and Shooters](#action-and-shooters) — **18 game units**
+- 💥 [Action and Shooters](#action-and-shooters) — **20 game units**
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **30 game units**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **17 game units**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **12 game units**
@@ -64,6 +64,8 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 - [**BLACKWATER — Silent Harbor**](../games/blackwater-silent-harbor/readme.md) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, React, TypeScript, WebGL, Vite, +1 more · [✓ direct model evidence](https://github.com/Hiraeth010/blackwater/blob/main/README.md) · [play](https://blackwater-roan.vercel.app/)
 - [**Digi Garden**](../games/digi-garden/readme.md) — ⭐ **8.5/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API · [✓ direct model evidence](https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim/tree/main/astra-build)
 - [**Emberlight**](../games/emberlight/readme.md) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, JavaScript, WebGL, Blender, Web Audio API, +1 more · [≈ creator-reported model evidence](https://github.com/LeiGaoRobot/emberlight/blob/main/README.md) · [play](https://leigaorobot.github.io/emberlight/)
+- [**HELLAS — Greek Civilization**](../games/hellas-greek-civilization/readme.md) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, JavaScript, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/MXMX0811/gpt-6-astra-game/blob/main/README.md) · [files](https://github.com/MXMX0811/gpt-6-astra-game/blob/main/civilization-v-hellas/src/app.js) · [play](https://astra-civilization-v-hellas.pages.dev)
+- [**IRON TIDE — Steel Tide**](../games/iron-tide-steel-tide/readme.md) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, JavaScript, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/MXMX0811/gpt-6-astra-game/blob/main/README.md) · [files](https://github.com/MXMX0811/gpt-6-astra-game/blob/main/world-of-warships/src/main.js) · [play](https://astra-world-of-warships.pages.dev)
 - [**VESPER: The Hollow Earth**](../games/vesper-the-hollow-earth/readme.md) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Vite, JavaScript, WebGL2, Web Audio API · [? inferred model evidence](https://github.com/EiNSTeiN-/astra-tomb-raider-test/blob/main/README.md)
 - [**Bengaluru — After the Rain**](../games/bengaluru-after-the-rain/readme.md) — ⭐ **8.4/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL, Canvas 2D, HTML, JavaScript, +1 more · [✓ direct model evidence](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/index.html) · [files](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/gpt%206%20astra/bangalore.html)
 - [**BLR / After Hours — Open World**](../games/blr-after-hours-open-world/readme.md) — ⭐ **8.4/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL, Canvas 2D, HTML, JavaScript, +1 more · [✓ direct model evidence](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/index.html) · [files](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/gpt%206%20astra/gta.html)

@@ -161,6 +161,13 @@ const uniqueRanked = (predicate, limit) => {
   }).slice(0, limit);
 };
 const topToday = uniqueRanked((row) => row.record.verified_on === today, 10);
+const yesterday = dateOffset(today, -1);
+const newlyCreated = [...games]
+  .filter((record) => {
+    const date = record.repository_created_at?.slice(0, 10);
+    return date === yesterday || date === today;
+  })
+  .sort((a, b) => b.repository_created_at.localeCompare(a.repository_created_at));
 const weekStart = dateOffset(today, -6);
 const monthStart = `${today.slice(0, 8)}01`;
 const topWeek = uniqueRanked((row) => {
@@ -257,6 +264,16 @@ output += `| Model | Game units | Source repositories |\n| --- | ---: | ---: |\n
 for (const [model, modelRows] of modelPages) output += `| [${esc(model)}](models/${modelSlug(model)}.md) | **${unitTotal(modelRows)}** | ${new Set(modelRows.map((row) => row.record.github_url)).size} |\n`;
 output += `\n`;
 output += periodTable('Top games today', `Rank the highest-rated repositories verified in this curation run on **${today}**.`, topToday, 'today');
+output += `## New source repositories yesterday and today\n\n`;
+output += `Repository creation on **${yesterday}–${today}** is not proof of game publication. Inspect the source and model-evidence links before using an entry.\n\n`;
+if (newlyCreated.length) {
+  output += `| Repository | Game units | Model | Created (UTC) |\n| --- | ---: | --- | --- |\n`;
+  for (const record of newlyCreated) {
+    const first = rows.find((row) => row.record.github_url === record.github_url);
+    output += `| [${esc(record.name)}](${first ? gameNoteUrl(first) : record.github_url}) ([source](${record.github_url})) | ${record.counted_game_units} | ${esc(modelText(record))} | ${record.repository_created_at.slice(0, 10)} |\n`;
+  }
+  output += `\n`;
+} else output += `_No qualifying repositories were created in this window._\n\n`;
 output += periodTable('Top games this week', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${weekStart}** through **${today}**.`, topWeek, 'week');
 output += periodTable('Top games this month', `Rank the highest-rated games with publication or qualifying gameplay evidence from **${monthStart}** through **${today}**.`, topMonth, 'month');
 output += `## Top-rated picks\n\n`;

@@ -2,22 +2,24 @@
 
 Open the per-game notes. Use the source links to inspect model evidence, gameplay code, and screenshot assets.
 
-- **Counted game units:** 804
-- **Named game notes:** 768
+- **Counted game units:** 822
+- **Named game notes:** 786
 - **Aggregate notes:** 1 (some repositories document several units without separate names)
-- **Rows with screenshot sources:** 182
-- **Placeholder thumbnails:** 586
-- **Notes written in this run:** 13
+- **Rows with screenshot sources:** 183
+- **Placeholder thumbnails:** 603
+- **Notes written in this run:** 1
 
 ## Today
 
-- [Ashes of Aether — Act I: The Unravelling](./ashes-of-aether-act-i-the-unravelling/readme.md) — 9.1/10
-- [The Hourglass City](./the-hourglass-city/readme.md) — 9.1/10
-- [Fall Line](./fall-line/readme.md) — 9.0/10
-- [QQ Speed](./qq-speed-xiiyioozzz-opus55-3d-games/readme.md) — 9.0/10
-- [Nova Lancer](./nova-lancer/readme.md) — 8.7/10
-- [Neon Siege](./neon-siege/readme.md) — 8.0/10
-- [Pixel Art 3D — Stone Meadow](./pixel-art-3d-stone-meadow/readme.md) — 7.5/10
+- [Long Wind](./long-wind/readme.md) — 9.0/10
+- [Ponpoko Kart](./ponpoko-kart/readme.md) — 8.8/10
+- [HELLAS — Greek Civilization](./hellas-greek-civilization/readme.md) — 8.5/10
+- [Sky Rings](./sky-rings/readme.md) — 8.4/10
+- [F1 Racing Game](./f1-racing-game/readme.md) — 8.3/10
+- [Harbor Master](./harbor-master/readme.md) — 8.2/10
+- [League of Legends Simulation](./league-of-legends-simulation/readme.md) — 8.1/10
+- [GunBros](./gunbros/readme.md) — 8.0/10
+- [High Effort Strategy Game](./high-effort-strategy-game/readme.md) — 7.6/10
 
 ## This week
 
@@ -31,11 +33,11 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Terrabrowser](./terrabrowser/readme.md) — 9.1/10
 - [The Hourglass City](./the-hourglass-city/readme.md) — 9.1/10
 - [Fall Line](./fall-line/readme.md) — 9.0/10
+- [Long Wind](./long-wind/readme.md) — 9.0/10
 - [QQ Speed](./qq-speed-xiiyioozzz-opus55-3d-games/readme.md) — 9.0/10
 - [Slide Rush](./slide-rush/readme.md) — 9.0/10
 - [Web Grand Prix](./web-grand-prix/readme.md) — 9.0/10
 - [Wouf Kart](./wouf-kart/readme.md) — 8.9/10
-- [Nova Lancer](./nova-lancer/readme.md) — 8.7/10
 
 ## This month
 
@@ -297,6 +299,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Euclid's Game](./euclid-s-game/readme.md) — 9.6/10
 - [Everdeep](./everdeep/readme.md) — 7.0/10
 - [Explottens: Survival](./explottens-survival/readme.md) — 9.2/10
+- [F1 Racing Game](./f1-racing-game/readme.md) — 8.3/10
 - [Fable City](./fable-city/readme.md) — 8.5/10
 - [Fable City GTA](./fable-city-gta/readme.md) — 7.5/10
 - [Fable Flight](./fable-flight/readme.md) — 8.0/10
@@ -374,13 +377,17 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Groot Theft Bakkie](./groot-theft-bakkie/readme.md) — 7.0/10
 - [Group Survival Game](./group-survival-game/readme.md) — 7.0/10
 - [Guess the Output](./guess-the-output/readme.md) — 9.0/10
+- [GunBros](./gunbros/readme.md) — 8.0/10
 - [Gura Gura Iseki](./gura-gura-iseki/readme.md) — 7.0/10
 - [ha·ggis Hub](./ha-ggis-hub/readme.md) — 8.9/10
+- [Harbor Master](./harbor-master/readme.md) — 8.2/10
 - [Haynes Quest](./haynes-quest/readme.md) — 9.4/10
+- [HELLAS — Greek Civilization](./hellas-greek-civilization/readme.md) — 8.5/10
 - [HELLGRID](./hellgrid/readme.md) — 8.0/10
 - [Heroes Clone](./heroes-clone/readme.md) — 9.1/10
 - [Hex](./hex/readme.md) — 9.6/10
 - [Hex Danmaku](./hex-danmaku/readme.md) — 9.2/10
+- [High Effort Strategy Game](./high-effort-strategy-game/readme.md) — 7.6/10
 - [Hitman 2016 Demo](./hitman-2016-demo/readme.md) — 7.0/10
 - [Hive](./hive/readme.md) — 9.0/10
 - [HOLDFAST](./holdfast/readme.md) — 9.2/10
@@ -403,6 +410,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Iridium Reach](./iridium-reach/readme.md) — 7.0/10
 - [Iron Man: Legion Protocol](./iron-man-legion-protocol/readme.md) — 8.0/10
 - [Iron Resolve](./iron-resolve/readme.md) — 7.0/10
+- [IRON TIDE — Steel Tide](./iron-tide-steel-tide/readme.md) — 8.5/10
 - [Italian Draughts](./italian-draughts/readme.md) — 9.6/10
 - [JE Trivia](./je-trivia/readme.md) — 8.2/10
 - [Jefftris](./jefftris/readme.md) — 8.7/10
@@ -433,12 +441,15 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Last Metro](./last-metro/readme.md) — 9.0/10
 - [Lastlight](./lastlight-ben-gy-lastlight/readme.md) — 9.4/10
 - [LASTLIGHT](./lastlight/readme.md) — 8.8/10
+- [League of Legends Simulation](./league-of-legends-simulation/readme.md) — 8.1/10
 - [Len Choa](./len-choa/readme.md) — 9.6/10
 - [Leonida](./leonida/readme.md) — 8.0/10
 - [Leonida Stories 3D](./leonida-stories-3d/readme.md) — 8.0/10
 - [Lille](./lille/readme.md) — 8.4/10
 - [Little Flock · 小羊慢慢](./little-flock/readme.md) — 9.0/10
 - [Long Road](./long-road/readme.md) — 8.9/10
+- [Long Wind](./long-wind/readme.md) — 9.0/10
+- [Low Effort Strategy Game](./low-effort-strategy-game/readme.md) — 7.6/10
 - [LUMA — The Garden of Light](./luma-the-garden-of-light/readme.md) — 8.5/10
 - [Mafia](./mafia/readme.md) — 9.3/10
 - [Mainspring](./mainspring/readme.md) — 8.0/10
@@ -450,7 +461,9 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Math Mage](./math-mage/readme.md) — 8.5/10
 - [Math Racing](./math-racing/readme.md) — 9.3/10
 - [Math Shooter](./math-shooter/readme.md) — 9.3/10
+- [Max Effort Strategy Game](./max-effort-strategy-game/readme.md) — 7.6/10
 - [Mechapede](./mechapede/readme.md) — 8.8/10
+- [Medium Effort Strategy Game](./medium-effort-strategy-game/readme.md) — 7.6/10
 - [Melodia Melusina](./melodia-melusina/readme.md) — 8.5/10
 - [Melon Lab — 瓜体实验室](./melon-lab/readme.md) — 8.4/10
 - [Memory](./memory/readme.md) — 7.0/10
@@ -462,6 +475,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Milady's Knight: Blightfall](./milady-s-knight-blightfall/readme.md) — 8.2/10
 - [Mind The Tower](./mind-the-tower/readme.md) — 8.3/10
 - [MineClaude](./mineclaude/readme.md) — 9.0/10
+- [Minecraft 3D Sandbox](./minecraft-3d-sandbox/readme.md) — 8.1/10
 - [Minecraft Clone Fable5](./minecraft-clone-fable5/readme.md) — 7.0/10
 - [Minesweeper](./minesweeper/readme.md) — 8.2/10
 - [Minesweeper Without Guessing](./minesweeper-without-guessing/readme.md) — 9.2/10
@@ -554,10 +568,12 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Pixel Art 3D — Stone Meadow](./pixel-art-3d-stone-meadow/readme.md) — 7.5/10
 - [Pixel Tactical Shooter](./pixel-tactical-shooter/readme.md) — 8.8/10
 - [Pizza Chef](./pizza-chef/readme.md) — 8.6/10
+- [Plants vs. Zombies Clone](./plants-vs-zombies-clone/readme.md) — 8.1/10
 - [Platform Fighter](./platform-fighter/readme.md) — 9.4/10
 - [Pocket Bomber](./pocket-bomber/readme.md) — 8.9/10
 - [Pocket Soccer](./pocket-soccer/readme.md) — 7.0/10
 - [Polygram](./polygram/readme.md) — 8.1/10
+- [Ponpoko Kart](./ponpoko-kart/readme.md) — 8.8/10
 - [Pool Checkers](./pool-checkers/readme.md) — 9.6/10
 - [Pop Out](./pop-out/readme.md) — 9.6/10
 - [Pop the Chore Balloons](./pop-the-chore-balloons/readme.md) — 8.2/10
@@ -633,9 +649,11 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Sim](./sim/readme.md) — 9.6/10
 - [SimCity (Bevy)](./simcity-bevy/readme.md) — 9.1/10
 - [Sky Flap](./sky-flap/readme.md) — 9.5/10
+- [Sky Rings](./sky-rings/readme.md) — 8.4/10
 - [Skydive](./skydive/readme.md) — 9.1/10
 - [Skylark Run](./skylark-run/readme.md) — 9.6/10
 - [SkySprout](./skysprout/readme.md) — 8.9/10
+- [Slay the Spire Clone](./slay-the-spire-clone/readme.md) — 8.1/10
 - [Slide & Exit](./slide-exit/readme.md) — 8.5/10
 - [Slide Jigsaw](./slide-jigsaw/readme.md) — 8.2/10
 - [Slide Rush](./slide-rush/readme.md) — 9.0/10
@@ -658,6 +676,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [SpaceHo2](./spaceho2/readme.md) — 7.0/10
 - [Spaceships](./spaceships/readme.md) — 9.0/10
 - [Spanish Draughts](./spanish-draughts/readme.md) — 9.6/10
+- [Special Prompt Strategy Game](./special-prompt-strategy-game/readme.md) — 7.6/10
 - [SPEEDHELL](./speedhell/readme.md) — 7.0/10
 - [SPICE — a card game for couples](./spice-a-card-game-for-couples/readme.md) — 8.6/10
 - [Splendor](./splendor/readme.md) — 8.3/10
@@ -813,6 +832,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Wouf Kart](./wouf-kart/readme.md) — 8.9/10
 - [WriftHeart](./wriftheart/readme.md) — 9.1/10
 - [Wythoff's Queen](./wythoff-s-queen/readme.md) — 9.6/10
+- [X High Effort Strategy Game](./x-high-effort-strategy-game/readme.md) — 7.6/10
 - [Xiang Qi](./xiang-qi/readme.md) — 6.5/10
 - [Y](./y/readme.md) — 9.6/10
 - [Yaoling Shangu (药灵山谷)](./yaoling-shangu/readme.md) — 9.2/10
