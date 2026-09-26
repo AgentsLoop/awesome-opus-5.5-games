@@ -18,6 +18,7 @@
 | 10 | [Awesome Godot Games](https://github.com/bearlikelion/awesome-godot-games) | **17** | Open-source Godot games | Count game bullets after the official templates section and before issue guidance. | 2026-09-12 |
 | 11 | [Opus 100 Projects](https://github.com/swan4er/opus-100-projects) | **17** | Claude Opus 5.5 browser games | Count ten playable projects under “Games with real mechanics” and seven playable entries under “Games with neural network.” Exclude the game generator, open-ended city simulator, scene-building diorama, and cartoon maker. | 2026-09-24 |
 | 12 | [Frontier Games](https://github.com/theolundqvist/frontier-games) | **128** | Claude Opus 5.5 and GPT-6 Astra game showcases | Count 97 browser-playable entries, 3 download/build entries, and 28 watch-only game entries. Exclude the 42 films and animations. | 2026-09-25 |
+| 13 | [Genex Games gallery](https://genex.games/) | **38 listings** | Browser-playable games, prototypes, and interactive demos | Count the 38 entries returned by the [Games gallery API](https://api.genex.games/api/gallery?limit=48); exclude the separate Tools and Assets tabs. Treat the number as gallery listings, not 38 confirmed games. | 2026-09-26 |
 
 ## Apply the gate
 

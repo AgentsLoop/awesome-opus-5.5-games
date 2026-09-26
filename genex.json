@@ -1,0 +1,560 @@
+[
+  {
+    "id": "cmud97cpn000w2plrq403p2te",
+    "name": "Opus 5.5 NBA 2K",
+    "slug": "opus-2k",
+    "game_url": "https://opus-2k.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmud97cpn000w2plrq403p2te.webp?v=1790145487657"
+    ],
+    "description": "Solo basketball in a dark, atmospheric arena: dribble, shoot, lay up and dunk with one-key controls.",
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmu5a2kj300dm2cnqt8k7r8vf",
+    "name": "Lost Cathedral",
+    "slug": "lost-cathedral",
+    "game_url": "https://lost-cathedral.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmu5a2kj300dm2cnqt8k7r8vf.webp?v=1789637598592"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmtx4330e000z33msg4dez2mr",
+    "name": "Stick & Steel",
+    "slug": "stick-steel",
+    "game_url": "https://stick-steel.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmtx4330e000z33msg4dez2mr.webp?v=1789141560196"
+    ],
+    "description": "Hand-drawn fighters, physical weapons, and a narrow bridge above the spikes. Learn to swing and parry in the Practice Yard, fight a bot, or challenge another player online. Use swords, a mace, or a two-handed longsword to disarm, knock down, and outmaneuver your opponent. Play with mouse and keyboard or mobile touch controls.",
+    "github_source_url": "https://github.com/Rabneba/stick-steel",
+    "categories": [
+      "games",
+      "physics"
+    ]
+  },
+  {
+    "id": "cmtvxx0hp003f2cplqj7zxghe",
+    "name": "Skate Dog",
+    "slug": "skate-dog",
+    "game_url": "https://skate-dog.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmtvxx0hp003f2cplqj7zxghe.webp?v=1789142356031"
+    ],
+    "description": "A boy rides a dachshund through a pastel skatepark. The dog IS the board, so a kickflip is the dog's barrel roll: ollie off the coping, spin in the air, grab, and dogflip your way through eight challenges on a two-minute clock — collect all 5 bones, spell D-O-G, smash all 5 bins, fly the bowl, hold a long grind, land a full second of air, and clear both score tiers.\n\nControls: WASD or the arrow keys to steer and push, Space to ollie, Shift to brake. In the air, Q/E or left/right spin you, up or K grabs, down or J throws a dogflip. On a phone there is a left stick and a JUMP button — the stick is world-directional on the ground and the trick pad in the air.\n\nThe park is entirely procedural: no image files and no network fetches, every texture painted into a canvas at load and every piece of geometry built in code. React 19, three.js and Vite. Every sound effect is synthesised at runtime.\n\nMade by Matt Greenberg — github.com/MatthewGreenberg/skate-dog — ported unchanged from commit 27d939b2 and hosted here with the author's direct permission. The source is licensed PolyForm Noncommercial 1.0.0: free to fork, change and learn from for any noncommercial purpose, while commercial use needs a separate licence from the author (mattcgreenberg@gmail.com). The bundled character rigs and soundtrack are the author's own and are not licensed for reuse, which is why this game is not remixable here. Vendored third-party pieces keep their own licences: the Draco and Basis decoders come from three.js (MIT) and the Luckiest Guy typeface is under the SIL Open Font License 1.1.\n\nChanges for this port are build glue only — a relative base path, the Genex player-identity boot, the seller's analytics removed, and the soundtrack filenames hyphenated to satisfy our upload path rules. No gameplay, level or art-direction code was touched.",
+    "github_source_url": "https://github.com/MatthewGreenberg/skate-dog",
+    "categories": [
+      "games",
+      "sports",
+      "arcade"
+    ]
+  },
+  {
+    "id": "cms6hpop500ds2co5sw3n8m1k",
+    "name": "SKATE",
+    "slug": "skate",
+    "game_url": "https://skate.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms6hpop500ds2co5sw3n8m1k.webp?v=1786093058982"
+    ],
+    "description": "Skate game based on three.js",
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmtvxw11p003n2sqqqjt546ep",
+    "name": "Samurai Third-Person Template",
+    "slug": "samurai-template",
+    "game_url": "https://samurai-template.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmtvxw11p003n2sqqqjt546ep.webp?v=1789070642164"
+    ],
+    "description": "A third-person Three.js TEMPLATE, not a finished game: a rigged samurai on an endless procedural night landscape, built to be read and reused. No objective, no score, no progression — what is here is the machinery.\n\nWhat you can do: WASD or arrows to move, Shift to run, Space for a running long jump (a hop at any lesser pace). E, R and T are the three techniques — Kick, Slash Hit, Slide Cut — each with its own reach and cone; a press with nothing inside them is refused rather than swung, on purpose. V summons two shadows of you that hunt a body each; C opens a seal over a marked body and drops a fist through it; X takes you off the ground, where every body you click forges a katana and Space looses the volley. Tab opens an equipment studio to dress the body in. Drag to orbit, wheel to zoom. G is a live editor over every number in the project, F is frame stats, P pauses.\n\nUnder it: a table-driven height field evaluated identically on the GPU and in JS, motion-warped melee that carries the character onto the spot an animation was authored for, a position-based ragdoll with no physics engine, an analytic height-fog atmosphere, and a burning katana aimed by a volume rather than a bone.\n\nDesktop only, and heavy: mouse and keyboard throughout, and about 86 MB of models, animations and textures come down before the first frame. There are no touch controls — every move is a key, and the live editor opens over most of a phone screen with only a keyboard shortcut to close it.\n\nCredits, as the author lists them: character model by dark_igorek on Sketchfab, animations from Mixamo, textures from ambientCG, HDRI from Poly Haven.\n\nPorted to Genex from commit 496862c under the MIT licence. The only changes are build glue: the Genex embed-SDK boot module, and eight asset paths renamed to remove spaces, which the Genex upload path rejects. No gameplay, rendering or engine code was touched and nothing was dropped: every model, animation, texture and HDRI the author shipped is here.",
+    "github_source_url": "https://github.com/achrefelouafi/SamuraiThirdPersonTemplateThreeJS",
+    "categories": [
+      "games",
+      "fighting",
+      "exploration"
+    ]
+  },
+  {
+    "id": "cms3kug8i004l2grop3dn4q96",
+    "name": "SANDSTORM",
+    "slug": "sandstorm",
+    "game_url": "https://sandstorm.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms3kug8i004l2grop3dn4q96.webp?v=1785187744293"
+    ],
+    "description": "One life. One survivor. Outlast the storm.",
+    "github_source_url": null,
+    "categories": [
+      "games",
+      "physics",
+      "vfx"
+    ]
+  },
+  {
+    "id": "cms5w0s54006m2cp6syx071uz",
+    "name": "SNOWFLOW — a WebGPU snow tech demo",
+    "slug": "snowflow",
+    "game_url": "https://snowflow.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms5w0s54006m2cp6syx071uz.webp?v=1785318856333"
+    ],
+    "description": "A real-time snow rendering tech demo by Maksymilian Dendura — a world to walk through, not a game with a goal or a score. Everything is generated on the GPU at load time: the terrain heightfield, the atmosphere and its IBL, and the character — an 18-bone procedural figure with Verlet-cloth robes, no rig file and no animation clips. Walk with WASD (Shift to sprint), click to capture the pointer and look with the mouse, hold RIGHT MOUSE to snow-surf and throw a breaking-wave wake, press 1–5 for five water spells that carve real, persistent trenches and berms into the snow, and F1 (or `) for the full settings and performance overlay. REQUIRES a WebGPU-capable desktop browser (Chrome/Edge 113+, Firefox 141+, Safari 26+) and a real GPU — there is no WebGL fallback by design; other browsers get a clear message instead of a black page. Babylon.js with hand-written WGSL. No third-party assets of any kind. Faithful port of github.com/Noniv/snowflow_demo (MIT) — build glue only, author code untouched.",
+    "github_source_url": "https://github.com/Noniv/snowflow_demo",
+    "categories": [
+      "vfx",
+      "terrain",
+      "lighting"
+    ]
+  },
+  {
+    "id": "cms5w03v8006k2cp61ojtue8w",
+    "name": "The Long Silence",
+    "slug": "the-long-silence",
+    "game_url": "https://the-long-silence.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms5w03v8006k2cp61ojtue8w.webp?v=1785319292935"
+    ],
+    "description": "A procedural space-exploration game by Anshu Chimala. Fly the survey vessel PALE SEEKER through a seeded galaxy: walk your ship, take the helm, chart and scan worlds, land on them, fold between systems and attune to the seven Resonators. Every star, planet, ring system, nebula and derelict is generated from a seed and shaded by hand-written GLSL — no external art assets. Desktop only (needs WebGL2 and a real GPU; the game turns handsets away by design). Faithful port, MIT licensed — all credit to the author.",
+    "github_source_url": "https://github.com/achimala/TheLongSilence",
+    "categories": [
+      "games",
+      "vfx",
+      "terrain"
+    ]
+  },
+  {
+    "id": "cmsnl386x00te2pmpj8lvpi4z",
+    "name": "wildfire",
+    "slug": "wildfire",
+    "game_url": "https://wildfire.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsnl386x00te2pmpj8lvpi4z.webp?v=1786392550303"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cms1uiaof00032cnsov0z9p0g",
+    "name": "Claude of Duty",
+    "slug": "claude-of-duty",
+    "game_url": "https://claude-of-duty.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms1uiaof00032cnsov0z9p0g.webp?v=1785073784499"
+    ],
+    "description": "A first-person shooter with no art assets at all. Every texture, mesh, animation and sound is generated procedurally at load time from code — no models, no HDRIs, no image files, no audio files. The only runtime dependency is Three.js. Roughly 55k lines across eleven subsystems: an HDR render pipeline (cascaded shadow maps, GTAO, TAA, motion blur, Karis bloom, AgX composite), a GPU texture forge with 19 procedural surfaces, atmospheric sky with volumetric fog, a 120x120 m market street with enterable interiors, a from-scratch physics engine (binned-SAH BVH, swept-capsule character controller, impulse rigid bodies with CCD, PBD ragdolls, multi-layer bullet penetration), procedural weapon geometry and ballistics, AI soldiers with navmesh pathing and cover behaviour, and Web Audio synthesis for every sound.\n\nDesktop only — mouse and keyboard, click the canvas to lock the cursor. WASD move, LMB fire, RMB aim, R reload, Shift sprint, Ctrl crouch, Z prone, Space jump, Q/E lean, 1/2/Tab swap weapon, G grenade, V melee, Esc for the pause menu. Graphics presets (low / medium / high / ultra), mouse sensitivity and FOV all live in that pause menu — drop the preset if it runs hot, this is a demanding scene.\n\nThe author's own honest assessment is in the repo README: it aims at a modern Call of Duty and does not get there. Ported faithfully from commit d9b237b — build glue, plus a one-line fix to an upstream bug that left the pause menu's Resume button unreachable. Every other line of game code is upstream, byte for byte.",
+    "github_source_url": "https://github.com/mshumer/Claude-of-Duty",
+    "categories": [
+      "games",
+      "physics",
+      "lighting"
+    ]
+  },
+  {
+    "id": "cmrenw7py00171sohgrz1si3p",
+    "name": "Backroom — procedural liminal space demo",
+    "slug": "backroom",
+    "game_url": "https://backroom.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmrenw7py00171sohgrz1si3p.webp?v=1783673504401"
+    ],
+    "description": "Faithful port of lo-th's experimental \"Backroom\" (v0.0.1) — first-person exploration of procedurally generated liminal backrooms, rendered with three.js WebGPU and screen-space GI (automatically falls back to WebGL2 where WebGPU is unavailable — verified working). Move with XSAD or ZSQD (QWERTY/AZERTY), C to crouch, SPACE to jump, mouse to look (click to enter). The generator uses pieces of D&D dungeon v1; atmospheric sound throughout. Upstream keeps its source private for now, so this port runs the author's own prebuilt bundle untouched (MIT, ported from commit 5ac5909). All credit to lo-th — original: https://github.com/lo-th/backroom. It's an experimental demo, not a goal-driven game.",
+    "github_source_url": "https://github.com/lo-th/backroom",
+    "categories": [
+      "games",
+      "lighting"
+    ]
+  },
+  {
+    "id": "cmrenddsm000j1sohgkz20trb",
+    "name": "Fabled Revolutions — Game-Feel Combat Sandbox",
+    "slug": "fabled-revolutions",
+    "game_url": "https://fabled-revolutions.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmrenddsm000j1sohgkz20trb.webp?v=1783674368362"
+    ],
+    "description": "Top-down melee combat sandbox by ericrius1 where every \"game juice\" effect — hit stop, camera shake, knockback, squash & stretch, weapon trails, spark particles, procedural sound and more — can be toggled independently, so you can feel exactly what each one adds. A Three.js homage to André Cardoso's (@andre_mc) Unity hit-feedback breakdown. Real rigid-body physics via box3d.js — Isaac Mason's WASM bindings for Erin Catto's box3d, the same engine behind the box3d-js demos here on Genex. WebGPU-first TSL rendering with automatic WebGL2 fallback (no special browser needed). Faithful MIT port from the original repo — build glue only; all credit to the author.",
+    "github_source_url": "https://github.com/ericrius1/FabledRevolutions",
+    "categories": [
+      "games",
+      "physics",
+      "vfx"
+    ]
+  },
+  {
+    "id": "cmrafw94z000a1qpi3onhqwwg",
+    "name": "Raycast Vehicle — Arcade RC Car",
+    "slug": "raycast-vehicle",
+    "game_url": "https://raycast-vehicle.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmrafw94z000a1qpi3onhqwwg.webp?v=1783417160875"
+    ],
+    "description": "Arcade RC car playground by Ian Curtis, built with three.js and a cannon-es RaycastVehicle: GLB car and driving level with trimesh colliders, ramps and loops, boost, jump, tire marks, post-processing, and a live tuning panel. Keyboard (WASD/arrows, Shift boost, Space jump, R respawn, . tuning panel), touch joystick, and gamepad supported. Faithful community port — all credit to the original author.",
+    "github_source_url": "https://github.com/icurtis1/raycast-vehicle",
+    "categories": [
+      "physics"
+    ]
+  },
+  {
+    "id": "cmrafy32k000b1qpik4p3sfo0",
+    "name": "Fish Simulation — Boids Demo",
+    "slug": "fish-simulation",
+    "game_url": "https://fish-simulation.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmrafy32k000b1qpik4p3sfo0.webp?v=1783417212707"
+    ],
+    "description": "A relaxing underwater demo (not a game) by franky-adl: schools of fish flock with the Boids algorithm computed on the GPU (GPGPU + instanced meshes), swimming through caustics, seaweed, plankton and animated water. Drag to orbit, scroll to zoom, and toggle the ambient underwater audio. Per the author's note, only the fish textures are AI-generated. Faithful community port of the MIT-licensed original.",
+    "github_source_url": "https://github.com/franky-adl/threejs-fish-simulation",
+    "categories": [
+      "vfx"
+    ]
+  },
+  {
+    "id": "cmrap291u00021qmse46sj2fa",
+    "name": "Descent — Three.js port by mrdoob",
+    "slug": "three-descent",
+    "game_url": "https://three-descent.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmrap291u00021qmse46sj2fa.webp?v=1783432892353"
+    ],
+    "description": "The classic 1995 six-degree-of-freedom shooter Descent, ported to Three.js by mrdoob (creator of Three.js). Runs the original shareware Episode 1 data files by Parallax Software — fly through the mines, blast robots, rescue hostages, destroy the reactor and escape. Faithful community port of mrdoob's repo, unchanged (build glue only); all credit to mrdoob, original game by Parallax Software.",
+    "github_source_url": "https://github.com/mrdoob/three-descent",
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmrenilth000u1sohzh950y5d",
+    "name": "The Boiler Room — a living Gaussian-splat scene",
+    "slug": "the-boiler-room",
+    "game_url": "https://the-boiler-room.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmrenilth000u1sohzh950y5d.webp?v=1783680430635"
+    ],
+    "description": "A Gaussian-splat scene that's alive, by Isaac Mason: a crowd of little coal-hauling creatures scurries between the coal pile and the furnace of a boiler room — a splat world generated in Marble (World Labs), streamed with Spark's LOD splat renderer on Three.js WebGL. crashcat physics makes the room solid, a navcat navmesh crowd steers the creatures, FABRIK arms grab the coal, and one shared furnace signal makes the lighting, heat shimmer, dust glow and embers swell together every time a coal goes in. Sweep your cursor (or finger) over a creature to knock it into a ragdoll, or over a coal to shove it out of a carrier's hands; press backtick (`) for the debug panel. An interactive demo scene, not a goal-driven game. Remix note: the raw Marble .spz/.glb asset-pipeline sources are omitted from the source repo (non-runtime; get them upstream). Faithful port (MIT, from commit ea41a29) — all credit to Isaac Mason: https://github.com/isaac-mason/the-boiler-room",
+    "github_source_url": "https://github.com/isaac-mason/the-boiler-room",
+    "categories": [
+      "vfx",
+      "physics",
+      "lighting"
+    ]
+  },
+  {
+    "id": "cmub269ab050m2qrxj5my5iq9",
+    "name": "Snowball",
+    "slug": "snowball",
+    "game_url": "https://snowball.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmub269ab050m2qrxj5my5iq9.webp?v=1789983875334"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmu4d8hid006c2rqyvnzbpz2j",
+    "name": "warsworn",
+    "slug": "warsworn",
+    "game_url": "https://warsworn.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmu4d8hid006c2rqyvnzbpz2j.webp?v=1789579187720"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmu3wc5yn00l43do05e0hvkeo",
+    "name": "Disco",
+    "slug": "disco",
+    "game_url": "https://disco.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmu3wc5yn00l43do05e0hvkeo.webp?v=1789550806841"
+    ],
+    "description": "A first-person nightclub for desktop browsers. Choose your character, meet friends on the dance floor, share music and a neon tonic, and join proximity voice with up to six participants.",
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmu2yvujl01392po0z32sbeao",
+    "name": "Dice Chess",
+    "slug": "dice-chess",
+    "game_url": "https://dice-chess.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmu2yvujl01392po0z32sbeao.webp?v=1789494623706"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmtvy0u45004b2sqq8jjwhupw",
+    "name": "GPU Glossary — Interactive NVIDIA Hardware Explorer",
+    "slug": "gpu-glossary",
+    "game_url": "https://gpu-glossary.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmtvy0u45004b2sqq8jjwhupw.webp?v=1789070145652"
+    ],
+    "description": "An interactive 3D guide to NVIDIA data center hardware, from a single GPU module up to a full rack, by Kyle Jeong. Four exhibits share one explorer: the H100 SXM5 module, the B200 SXM6 module, the GB300 Grace Blackwell Ultra Superchip board, and the GB300 NVL72 rack. Drag to rotate, scroll or pinch to zoom, hover or tap a part to read what it is, and switch between the Exterior view (the physical hardware) and the Architecture view (a conceptual overlay of GPU processing clusters, streaming multiprocessors, Tensor and CUDA Cores and the Tensor Memory Accelerator, plus an SM detail inset with the warp schedulers, register files, cores, special function units and load/store units above a shared L1 data cache). On the NVL72, Explode lifts every compute, switch and power tray out of the rack so you can orbit the 72 GPUs, 36 Grace CPUs and 18 NVLink Switch chips. Every component links out to its reference: an entry in Modal's GPU Glossary where one exists, or NVIDIA's product documentation for the system-level parts the glossary does not cover. Every exhibit is procedural Three.js geometry - the project uses no external 3D asset.\n\nModal's GPU Glossary is the primary editorial and design reference here - it provides the conceptual structure, terminology and source material, and its green-on-black terminal look informed the visual design. This is an independent educational project and is not affiliated with or endorsed by Modal or NVIDIA. The exteriors are reference-based reconstructions, not dimension-certified CAD, and the architecture overlays are educational rather than reproductions of NVIDIA's die floorplans.\n\nThis is an explorer, not a game - there is nothing to win. It works on phones: touch to rotate, pinch to zoom, and tap a component in the bottom bar to pin its card.\n\nA faithful port of https://github.com/Kylejeong2/gpu by Kyle Jeong (MIT), published by Threejs Community from commit 3d40bcf. Changes: build glue only.",
+    "github_source_url": "https://github.com/Kylejeong2/gpu",
+    "categories": [
+      "games",
+      "exploration"
+    ]
+  },
+  {
+    "id": "cmtn5wb2u00qr2rode1vkvq72",
+    "name": "airena",
+    "slug": "airena",
+    "game_url": "https://airena.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmtn5wb2u00qr2rode1vkvq72.webp?v=1788538937851"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmtd1el3500qi35plei6kcdn9",
+    "name": "vascule2",
+    "slug": "vascule2",
+    "game_url": "https://vascule2.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmtd1el3500qi35plei6kcdn9.webp?v=1787926741841"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmsz4sorm04pf2cmq2v5io0wi",
+    "name": "genex-character",
+    "slug": "genex-character",
+    "game_url": "https://genex-character.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsz4sorm04pf2cmq2v5io0wi.webp?v=1789151493909"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmsx6yzcq03nc2ao1fwg3fkcp",
+    "name": "campfire-9f9e56",
+    "slug": "campfire-9f9e56",
+    "game_url": "https://campfire-9f9e56.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsx6yzcq03nc2ao1fwg3fkcp.webp?v=1787775548531"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmst6hpxm01gg2cmq5fn429qu",
+    "name": "Night Street — a street built entirely in code",
+    "slug": "night-street",
+    "game_url": "https://night-street.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmst6hpxm01gg2cmq5fn429qu.webp?v=1786727531760"
+    ],
+    "description": "A first-person walkable city side street at golden hour, with nothing downloaded and nothing authored in an art tool. Every texture, mesh, light and sound is generated in your browser at load: the asphalt is a GLSL surface description baked into a PBR texture set on the GPU, the buildings are emitted by a massing solver, the sky is an analytic dome with three procedural cloud decks, and the traffic and the reverberation of the canyon are a Web Audio graph rendered offline. About half a megabyte of JavaScript and zero asset files.\n\nWalk with WASD. Click to lock the pointer, then look with the mouse. Shift sprints, Esc releases the pointer. It is a scene to be looked at rather than a game to be won.\n\nIt takes thirty to forty seconds to start and the page will not respond while it works. That is not a download - it is your GPU compiling this scene's shaders. A card explains it while you wait.\n\nDesktop only: it is driven by a keyboard and a locked mouse pointer, so phones are shown a card instead of a street they cannot walk.\n\nOn Apple Silicon Macs the veiling-glare pass renders the street flat dark, in Chrome and Safari alike. That is an upstream issue in ANGLE's Metal backend, not something this port introduced: it reproduces exactly on the author's own demo and disappears under a software GL backend. Windows and Linux desktop GPUs, where the author measured this project, are unaffected.\n\nA faithful port of github.com/StarKnightt/night-street by Prasenjit (StarKnightt), MIT-licensed, from commit 333f064. Changes: build glue only - a static export and the Genex identity boot. Full credit for the code and the idea goes to the author.",
+    "github_source_url": "https://github.com/StarKnightt/night-street",
+    "categories": [
+      "lighting",
+      "vfx"
+    ]
+  },
+  {
+    "id": "cmst5v0jq01do2cmq60q1iblx",
+    "name": "Tiamat — GPU Fluid Sandbox",
+    "slug": "tiamat",
+    "game_url": "https://tiamat.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmst5v0jq01do2cmq60q1iblx.webp?v=1786725724507"
+    ],
+    "description": "100,000 SPH particles simulated entirely in WebGPU compute shaders, rendered by a WGSL raymarcher: PBR water with refraction through a sand floor, plus foam, spray and rising bubbles. Drop spheres into the tank and drag them through the water — the fluid pushes back.\n\nControls: drag to orbit, scroll or pinch to zoom, click inside the tank to drop a sphere, drag a sphere to push it around, Space to pause. Pause / Reset / FXAA sit in the top-left panel; FPS reads out top-right.\n\nThis is a technical demo and a sandbox, not a game — there is no goal or score, just fluid to play with.\n\nWebGPU is strongly recommended (Chrome, Edge, or Safari 26+ on a desktop GPU). Without it the author's own CPU/WebGL2 fallback takes over: it renders correctly, but only at a few frames per second, and the solver picker and sand floor are not part of that path. The FLIP and Euler solvers appear in the picker but are deliberately disabled upstream (\"Coming soon\") at the ported commit — the author's choice, not a porting omission.\n\nA faithful port of github.com/owenyuwono/tiamat by owenyuwono (MIT), from commit e389a99: build glue only, with no simulation, shader, or UI code changed. Published by Threejs Community — full credit for the code and the idea goes to the author.",
+    "github_source_url": "https://github.com/owenyuwono/tiamat",
+    "categories": [
+      "physics",
+      "vfx"
+    ]
+  },
+  {
+    "id": "cmsq6dn9m02bi2vo51mj2he4s",
+    "name": "skywing",
+    "slug": "skywing",
+    "game_url": "https://skywing.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsq6dn9m02bi2vo51mj2he4s.webp?v=1786544392451"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmspoybpc01e72ro1pb3prvqd",
+    "name": "derby",
+    "slug": "derby",
+    "game_url": "https://derby.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmspoybpc01e72ro1pb3prvqd.webp?v=1786515127657"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cmsorg2vx006y2ht5aoru9f9m",
+    "name": "Inkwell WebGPU Flowers - Procedural Meadow Renderer Demo",
+    "slug": "inkwell-webgpu-flowers",
+    "game_url": "https://inkwell-webgpu-flowers.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsorg2vx006y2ht5aoru9f9m.webp?v=1786459445608"
+    ],
+    "description": "A raw-WebGPU procedural flower field by James Addison, ported unchanged from the open-source inkwell-webgpu-flowers project (MIT). This is a renderer and benchmark lab, not a game - you drive it and watch the numbers.\n\nMillions of potential flowers stay implicit on the GPU: there is no CPU-side transform array at all. Compute shaders reconstruct each candidate flower from its integer ID, reject broad regions with hierarchical 32x32 tile culling, then compact only the survivors into near, middle and far draw streams for indirect drawing. Near flowers get curved textured petals from a painted individual-petal atlas, the middle distance drops to reduced curved geometry, and the horizon keeps species, size, colour and a rooted stem as procedural silhouettes. Five compatible painted petal variants mix within each flower, stems carry varied curvature, wind and a moving rooted-contact bend, and a painted Hearth grass atlas sits underneath.\n\nDrag to orbit, scroll to frame the meadow. Four field profiles (Painted meadow, Lush field, Deep horizon, and a 4.2M-candidate stress field), a GPU-compact vs direct-reference renderer A/B, hierarchical vs flat culling, density / spacing / distance / wind sliders, a petal-mix and moving-contact toggle, and a seed you can step or randomize. The live panel reports frame time, GPU render time from hardware timestamp queries, virtual candidates, visible flowers split near/mid/far, candidate tests, draw calls and visible-ID memory.\n\nRequires WebGPU - use a recent Chrome, Edge or Safari with hardware acceleration. Without a GPU adapter the demo shows a notice instead of an empty page. All code and art are the author's own; no third-party assets.",
+    "github_source_url": "https://github.com/siliconjungle/inkwell-webgpu-flowers",
+    "categories": [
+      "terrain",
+      "vfx"
+    ]
+  },
+  {
+    "id": "cmsogiui500142vms0m62e6rc",
+    "name": "Inkwell WebGPU Sand - Snow & Sand Renderer Demo",
+    "slug": "inkwell-webgpu-sand",
+    "game_url": "https://inkwell-webgpu-sand.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsogiui500142vms0m62e6rc.webp?v=1786441238463"
+    ],
+    "description": "A raw WebGPU renderer demo, not a game. Cryos snow and Solis sand are drawn as one aeolian surface system: shared dune silhouette, wind ripples, powder/crust separation, a travelling sheen, filtered crystal and mineral glints, terrain-hugging transport and airborne gusts. Drag to orbit, scroll to zoom, switch biome and material path, apply the Performance / Production / High relief presets, and pull the terrain-resolution, ripple-detail, glitter and render-scale sliders while a live telemetry panel reports triangles, field memory, FPS, frame percentiles and GPU pass timings.\n\nRequires WebGPU - open it in a recent Chrome, Edge or Safari with hardware acceleration enabled. There is no WebGL fallback: the height field, normals, the 1,300-particle wind transport and the powder volume are all GPU compute and render passes, and terrain vertices are reconstructed from vertex_index so no geometry or index buffers are allocated at all.\n\nFaithful port by Threejs Community of inkwell-webgpu-sand by James Addison (MIT, commit 462b2ff). Changes are build glue only - static export, Genex player identity, and a WebGPU support notice. No renderer, shader, engine or panel code was modified.",
+    "github_source_url": "https://github.com/siliconjungle/inkwell-webgpu-sand",
+    "categories": [
+      "terrain",
+      "vfx"
+    ]
+  },
+  {
+    "id": "cmsogfhm5000x2vmsmpko8oql",
+    "name": "Inkwell WebGPU Grass Lab",
+    "slug": "inkwell-webgpu-grass",
+    "game_url": "https://inkwell-webgpu-grass.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsogfhm5000x2vmsmpko8oql.webp?v=1786441602023"
+    ],
+    "description": "A raw WebGPU procedural grass renderer and stress-test lab by James Addison. This is a renderer demo you can drive, not a game. Up to 16,769,025 virtual grass blades are reconstructed from integer candidate IDs inside WGSL, with no Three.js, no per-blade transforms and no world simulation. Hierarchical 32x32 tile culling compacts visible IDs into a single drawIndirect call, and a live telemetry panel reports FPS, frame percentiles, GPU render and cull timing from hardware timestamp queries, and how much smaller a 4-byte visible-ID buffer is than 64-byte transforms.\n\nDrag to orbit, wheel to zoom. Switch field profiles (Balanced, Lush, Ultra dense, Dense + far), flip the A/B controls for compute+indirect vs direct render path, tiled vs flat culling and Hearth-painted vs plain shading, and drive the density, blade spacing, render radius and wind sliders.\n\nRequires WebGPU - a recent Chrome, Edge or Safari on a desktop GPU. A browser without WebGPU gets an explanatory message instead of the field, not a black page.\n\nFaithful port, build glue only, from commit 9a14b51. Original: github.com/siliconjungle/inkwell-webgpu-grass - MIT, Copyright (c) 2026 James Addison.",
+    "github_source_url": "https://github.com/siliconjungle/inkwell-webgpu-grass",
+    "categories": [
+      "terrain",
+      "vfx"
+    ]
+  },
+  {
+    "id": "cmsj92f1400ds2ro9a0xb937d",
+    "name": "Eanpa Sky Engine",
+    "slug": "eanpa-sky",
+    "game_url": "https://eanpa-sky.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsj92f1400ds2ro9a0xb937d.webp?v=1786127994389"
+    ],
+    "description": "A real-time volumetric sky and weather engine for Three.js WebGPU (TSL), demonstrated inside a walkable first-person desert. Three skyboxes: Earth, an Orbital Halo with a parallax-mapped megastructure band, eclipse and underground-sun lighting, and a far-future Red Giant Earth. Eight weather states from clear to a sealed Dark Storm canopy, forced lightning strikes that leave burn scorch decals, a time-of-day slider and day/night cycle, and a NASA LROC moon. On the ground: eroded mountain terrain, Mojave flora with wind and touch response, and a climbable ziggurat temple. WASD to move, Shift to run, Space to jump, click to lock the look, F for the flashlight, plus a quality-tier panel.\n\nNeeds WebGPU, so open it in a recent Chrome, Edge or Safari - anything else gets a plain message instead of a broken page. It is a large download and a desktop demo.\n\nThis is the author's own early v0.1 and it ships with a known-issues list (weather switching hitches, SSR glitches, rocks without collision yet). Faithful port by Threejs Community: build glue only, no engine, gameplay or asset changes.\n\nCredits: code by SkyeShark (MIT). Moon: NASA CGI Moon Kit. Starmap: Tycho. PBR surfaces: Poly Haven and ambientCG (CC0). Desert bird recordings from xeno-canto (four are CC BY-NC-SA, not CC0). Wind and grass technique derived in part from CK42BB's procedural-grass-threejs (MIT).",
+    "github_source_url": "https://github.com/SkyeShark/Eanpa-Sky",
+    "categories": [
+      "vfx",
+      "lighting",
+      "terrain"
+    ]
+  },
+  {
+    "id": "cmsj87bi000592olsxizouz0m",
+    "name": "AX-4 Spider Robot",
+    "slug": "spider-robot",
+    "game_url": "https://spider-robot.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cmsj87bi000592olsxizouz0m.webp?v=1786124959684"
+    ],
+    "description": "A Three.js demo, not a game: a four-legged robot walks with a procedural IK gait while glowing footfalls, sparks and a plasma field react to every step. Drag to orbit, scroll to zoom, pause the animation, or dial the walking speed from 0.4x to 1.8x. Faithful port of spider-robot by Techartist (MIT). The 3D model is from the Meshy AI community.",
+    "github_source_url": "https://github.com/iamtechartist/spider-robot",
+    "categories": [
+      "physics"
+    ]
+  },
+  {
+    "id": "cms8oibgl02402uqd8br3w4jf",
+    "name": "athath-apartment",
+    "slug": "athath-apartment",
+    "game_url": "https://athath-apartment.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms8oibgl02402uqd8br3w4jf.webp?v=1785486462818"
+    ],
+    "description": null,
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cms5w6p2b006w2cp6t1jhjea4",
+    "name": "EZ-Tree — Procedural Tree Generator",
+    "slug": "ez-tree",
+    "game_url": "https://ez-tree.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms5w6p2b006w2cp6t1jhjea4.webp?v=1785319350654"
+    ],
+    "description": "A tool, not a game. EZ-Tree grows a 3D tree from dozens of tunable parameters — pick a preset (ash, aspen, oak, pine, willow, bush…), roll a seed, then tune bark type and texture scale, branch levels, angle, gnarliness, growth force, length, radius, taper and twist, leaf type, billboard, count and size, a climbing trellis, sun angle and grass density. Export what you grow as .GLB (full detail or an LOD set as .ZIP) or a transparent .PNG, and save/load your parameters as JSON. Faithful port of Dan Greenheck's open-source EZ-Tree (MIT) — unchanged apart from build glue. Bark textures are CC0 from ambientcg.com.",
+    "github_source_url": "https://github.com/dgreenheck/ez-tree",
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "id": "cms4edeg600702ensuqyydf2b",
+    "name": "QUARRY",
+    "slug": "quarry-d291c2",
+    "game_url": "https://quarry-d291c2.genex.technology/",
+    "screenshot_urls": [
+      "https://cdn.genex.technology/covers/cms4edeg600702ensuqyydf2b.webp?v=1786269363815"
+    ],
+    "description": "A ruined jungle temple, and two hunters in it. Play Jack — a blaster, five hits of health, and no way up — or play the Stalker, which climbs the walls, crosses the roof beams and drops on you. Third-person survival horror.",
+    "github_source_url": null,
+    "categories": [
+      "games"
+    ]
+  }
+]
