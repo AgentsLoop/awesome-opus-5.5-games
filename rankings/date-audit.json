@@ -9084,6 +9084,18 @@
       "published_date_confidence": "unknown",
       "repository_created_at": "2026-09-25T18:57:23Z",
       "verified_on": "2026-09-26"
+    },
+    {
+      "game": "GunBros",
+      "repository_url": "https://github.com/skelzer/gunbros-public",
+      "counted_game_units": 1,
+      "published_on": null,
+      "published_date_type": "unknown",
+      "published_date": null,
+      "published_date_source": null,
+      "published_date_confidence": "unknown",
+      "repository_created_at": "2026-09-25T10:34:55Z",
+      "verified_on": "2026-09-26"
     }
   ]
 }

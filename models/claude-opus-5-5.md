@@ -1,6 +1,6 @@
 # Claude Opus 5.5 games
 
-Browse **61 curated game units** from **30 source repositories** attributed to Claude Opus 5.5. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
+Browse **62 curated game units** from **31 source repositories** attributed to Claude Opus 5.5. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
 
 [Back to all models](../README.md#browse-by-model) · [Source data](../games.json)
 
@@ -50,7 +50,7 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **12 game units**
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **1 game units**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **10 game units**
-- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **9 game units**
+- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **10 game units**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **17 game units**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **4 game units**
 
@@ -109,6 +109,7 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 
 - [**Fall Line**](../games/fall-line/readme.md) — ⭐ **9.0/10** · Claude Opus 5.5 · Three.js, JavaScript, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/README.md) · [files](https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/fall-line/index.html) · [play](https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/) · 📸 **8.7/10** · [screenshot](https://github.com/Nipale-ai/opus-5-5-overnight-builds/blob/main/vorschau-fall-line.jpg)
 - [**Harbor Master**](../games/harbor-master/readme.md) — ⭐ **8.2/10** · Claude Opus 5.5 · Three.js, JavaScript, WebGL, Browser · [≈ creator-reported model evidence](https://github.com/hirosichen/ai-harbor-master-game/blob/main/README.md) · [files](https://github.com/hirosichen/ai-harbor-master-game/blob/main/main.js) · [play](https://vibe-harbor-master.pages.dev)
+- [**GunBros**](../games/gunbros/readme.md) — ⭐ **8.0/10** · Claude Opus 5.5, Claude Fable 5.1 · TypeScript, Canvas 2D, Vite, Node.js, WebSocket, +1 more · [≈ creator-reported model evidence](https://github.com/skelzer/gunbros-public#how-it-was-made) · [files](https://github.com/skelzer/gunbros-public/blob/main/packages/shared/src/rules/turn.ts) · [play](https://play.gunbros.luquematte.com/) · 📸 **7.6/10** · [screenshot](https://github.com/skelzer/gunbros-public/blob/main/docs/ui/maps/temple_desktop.png)
 - [**Twilight Crossing — Neural RTS**](../games/twilight-crossing-neural-rts/readme.md) — ⭐ **8.0/10** · Claude Opus 5.5 · Three.js, JavaScript, WebGL, Browser, JEV classifier, +1 more · [≈ creator-reported model evidence](https://www.reddit.com/r/ClaudeCode/comments/1wo8492/prompts_and_jevcontolled_rts_game_ported_and/) · [files](https://github.com/MattiTynka/JEV-RTS/blob/main/index.html) · [play](https://mattitynka.github.io/JEV-RTS/) · [prompt](../games/twilight-crossing-neural-rts/readme.md#reverse-engineered-prompt)
 - [**High Effort Strategy Game**](../games/high-effort-strategy-game/readme.md) — ⭐ **7.6/10** · Claude Opus 5.5 · JavaScript, HTML, CSS, Browser · [≈ creator-reported model evidence](https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md) · [files](https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/high/index.html)
 - [**Low Effort Strategy Game**](../games/low-effort-strategy-game/readme.md) — ⭐ **7.6/10** · Claude Opus 5.5 · JavaScript, HTML, CSS, Browser · [≈ creator-reported model evidence](https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md) · [files](https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/low/index.html)

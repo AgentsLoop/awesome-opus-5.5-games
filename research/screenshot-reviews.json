@@ -4370,6 +4370,16 @@
       "reason": "Use this frame for the game-level score. The centered car, illuminated coastal street, minimap, and speed HUD make driving readable, though the low-poly scene has modest geometry and contrast.",
       "reviewed_on": "2026-09-25",
       "rating_method": "manual_visual_review"
+    },
+    {
+      "repository_url": "https://github.com/skelzer/gunbros-public",
+      "url": "https://github.com/skelzer/gunbros-public/blob/main/docs/ui/maps/temple_desktop.png",
+      "game": "GunBros",
+      "score_10": 7.6,
+      "image_kind": "gameplay",
+      "reason": "Use this active artillery turn as the game-level frame. Layered pixel-art ruins, terrain, health bars, wind dial and weapon HUD give strong scene detail and readable mechanics; the debug overlay obscures part of the sky.",
+      "reviewed_on": "2026-09-26",
+      "rating_method": "manual_visual_review"
     }
   ]
 }

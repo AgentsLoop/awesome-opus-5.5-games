@@ -2,12 +2,12 @@
 
 Open the per-game notes. Use the source links to inspect model evidence, gameplay code, and screenshot assets.
 
-- **Counted game units:** 821
-- **Named game notes:** 785
+- **Counted game units:** 822
+- **Named game notes:** 786
 - **Aggregate notes:** 1 (some repositories document several units without separate names)
-- **Rows with screenshot sources:** 182
+- **Rows with screenshot sources:** 183
 - **Placeholder thumbnails:** 603
-- **Notes written in this run:** 10
+- **Notes written in this run:** 1
 
 ## Today
 
@@ -18,6 +18,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [F1 Racing Game](./f1-racing-game/readme.md) — 8.3/10
 - [Harbor Master](./harbor-master/readme.md) — 8.2/10
 - [League of Legends Simulation](./league-of-legends-simulation/readme.md) — 8.1/10
+- [GunBros](./gunbros/readme.md) — 8.0/10
 - [High Effort Strategy Game](./high-effort-strategy-game/readme.md) — 7.6/10
 
 ## This week
@@ -376,6 +377,7 @@ Open the per-game notes. Use the source links to inspect model evidence, gamepla
 - [Groot Theft Bakkie](./groot-theft-bakkie/readme.md) — 7.0/10
 - [Group Survival Game](./group-survival-game/readme.md) — 7.0/10
 - [Guess the Output](./guess-the-output/readme.md) — 9.0/10
+- [GunBros](./gunbros/readme.md) — 8.0/10
 - [Gura Gura Iseki](./gura-gura-iseki/readme.md) — 7.0/10
 - [ha·ggis Hub](./ha-ggis-hub/readme.md) — 8.9/10
 - [Harbor Master](./harbor-master/readme.md) — 8.2/10

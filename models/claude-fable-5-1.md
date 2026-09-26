@@ -1,6 +1,6 @@
 # Claude Fable 5.1 games
 
-Browse **125 curated game units** from **57 source repositories** attributed to Claude Fable 5.1. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
+Browse **126 curated game units** from **58 source repositories** attributed to Claude Fable 5.1. Read each evidence grade before relying on the attribution. Include multi-model games here and on every other applicable model page.
 
 [Back to all models](../README.md#browse-by-model) · [Source data](../games.json)
 
@@ -43,7 +43,7 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **17 game units**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **5 game units**
 - 🎮 [Other Browser Games](#other-browser-games) — **1 game units**
-- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **2 game units**
+- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **3 game units**
 
 ## Non-Browser Engines
 
@@ -171,6 +171,7 @@ Inspect these manually rated screenshots. Treat the scores as visual impressions
 
 - [**BuildYourTown**](../games/buildyourtown/readme.md) — ⭐ **9.0/10** · Claude Fable 5.1 · TypeScript, Vite, Canvas 2D, Docker, Browser · [✓ direct model evidence](https://github.com/Rapsody09/buildyourtown#jouer) · [files](https://github.com/Rapsody09/buildyourtown) · [play](https://buildyourtown.com) · 📸 **8.1/10** · [screenshot](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/overview.png) · +4 more screenshots in data
 - [**PAC-CLONE**](../games/pac-clone/readme.md) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, Web Audio API, PWA, +1 more · [✓ direct model evidence](https://github.com/boromisp/pacman-clone#pac-clone) · [files](https://github.com/boromisp/pacman-clone) · [play](https://boromisp.github.io/pacman-clone/) · [prompt](https://github.com/boromisp/pacman-clone#development)
+- [**GunBros**](../games/gunbros/readme.md) — ⭐ **8.0/10** · Claude Opus 5.5, Claude Fable 5.1 · TypeScript, Canvas 2D, Vite, Node.js, WebSocket, +1 more · [≈ creator-reported model evidence](https://github.com/skelzer/gunbros-public#how-it-was-made) · [files](https://github.com/skelzer/gunbros-public/blob/main/packages/shared/src/rules/turn.ts) · [play](https://play.gunbros.luquematte.com/) · 📸 **7.6/10** · [screenshot](https://github.com/skelzer/gunbros-public/blob/main/docs/ui/maps/temple_desktop.png)
 
 [Back to game library](#game-library)
 

@@ -31915,5 +31915,62 @@
     "live_demo_urls": [
       "https://tanuu5.github.io/ponpoko-kart/"
     ]
+  },
+  {
+    "name": "GunBros",
+    "repository_id": 1387280116,
+    "github_url": "https://github.com/skelzer/gunbros-public",
+    "added_to_repo_on": "2026-09-25",
+    "game_links": [
+      "https://github.com/skelzer/gunbros-public/blob/main/packages/shared/src/rules/turn.ts",
+      "https://github.com/skelzer/gunbros-public/blob/main/packages/shared/src/entities/projectile.ts",
+      "https://github.com/skelzer/gunbros-public/tree/main/packages/client/src/scenes"
+    ],
+    "live_demo_url": "https://play.gunbros.luquematte.com/",
+    "live_demo_urls": [
+      "https://play.gunbros.luquematte.com/"
+    ],
+    "evidence_url": "https://github.com/skelzer/gunbros-public#how-it-was-made",
+    "screenshot_urls": [
+      "https://github.com/skelzer/gunbros-public/blob/main/docs/ui/maps/temple_desktop.png"
+    ],
+    "technology": [
+      "TypeScript",
+      "Canvas 2D",
+      "Vite",
+      "Node.js",
+      "WebSocket",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5",
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T10:34:55Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "Creator submission (pull request by the repository owner, 2026-09-25)"
+    ],
+    "verification_notes": "A turn-based 2D artillery game for 2 to 8 players online: players pick one of 18 mobiles, charge shots with angle and power, and read the wind; destructible terrain, items, weather, sudden death, bots and a delay-based turn order. Deterministic shared simulation in packages/shared, authoritative Node WebSocket server, Canvas 2D client with touch controls. The README's 'How it was made' section names Claude Opus 5.5 and Claude Fable 5.1, and commits carry Claude co-author trailers. Public source is a single-commit snapshot of a private working repository; the soundtrack is not included and the game plays silently without it. The playable deployment is play.gunbros.luquematte.com; a separate landing page is not recorded as a demo.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate from implementation scope and runtime technology; not measured device performance.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Source-verified multiplayer artillery game with distinct mobiles, maps, destructible terrain, bots and extensive automated tests; 8.0 is a conservative scope estimate without a full gameplay playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Build a browser-based, turn-based 2D artillery game in the style of classic online artillery games: deterministic shared simulation, authoritative WebSocket server, Canvas 2D client, 18 mobiles, wind, items, delay-based turn order and destructible terrain. This summary is not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "screenshot_rating_10": 7.6,
+    "screenshot_rating_evidence_url": "https://github.com/skelzer/gunbros-public/blob/main/docs/ui/maps/temple_desktop.png",
+    "screenshot_rating_on": "2026-09-26"
   }
 ]
