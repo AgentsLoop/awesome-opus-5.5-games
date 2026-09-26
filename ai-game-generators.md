@@ -1,6 +1,6 @@
 # AI Game Generators and Engines
 
-Use this directory to find tools that create or edit playable games with AI. Keep these tools separate from the game repositories in `games.json` and the game collections in `awesomelists.md`.
+Use this directory to compare AI-assisted game-creation tools, adjacent game-development services, and discovery platforms. Keep these tools separate from the game repositories in `games.json` and the game collections in `awesomelists.md`.
 
 ## Compare game-creation tools
 
@@ -17,22 +17,23 @@ Use the detailed comparison to distinguish game generators, AI-assisted engines,
 | [Summer Engine](https://www.summerengine.com/) | Desktop AI-assisted engine; draft scenes and scripts, test, and edit code. Supports GDScript, C++, and C#; offers MCP/CLI workflows. | Advertises Summer Games and other launch destinations. | Code remains editable; advertises exports for desktop, mobile, Steam, and console. | macOS and Windows downloads are offered; verify each export target before relying on it. [Product](https://www.summerengine.com/) |
 | [GDevelop AI Agent](https://gdevelop.io/blog/make-games-with-ai-agent-gdevelop-automated-prompt) | Open-source visual engine with AI that creates or modifies project features. It is not a one-prompt whole-game button. | Preview and publish through gd.games and other destinations. | JavaScript extensibility; export for web, desktop, and mobile. | AI credits and some publishing options vary by plan. [AI Agent guide](https://gdevelop.io/blog/make-games-with-ai-agent-gdevelop-automated-prompt) · [features and export](https://gdevelop.io/features) |
 | [Buildbox 4](https://www.buildbox.com/buildbox-4-is-now-available-make-games-with-ai/) | Visual engine with AI scene/asset generation and AI-assisted node logic; expect to finish and review the project in the editor. | Editor preview; public-play and community-remix features are not established here. | Buildbox documents Android, Windows, iOS, macOS, Steam, Apple TV, and other exports; confirm Buildbox 4-specific support. | AI feature details come from vendor announcements and guides. [AI announcement](https://www.buildbox.com/buildbox-4-is-now-available-make-games-with-ai/) · [export guide](https://www.buildbox.com/portfolio/exporting/) |
+| [Genex](https://genex.games/) | AI-agent game-development toolkit, not an editor or whole-game generator. Use its CLI/MCP/API to generate game assets; keep game logic in your own coding-agent project. | Publish an existing browser game to a unique URL and public catalog; hosted games can include multiplayer and a Remix action. | CLI downloads ordinary asset files for any engine; browser hosting is documented, native builds are not. | Requires account approval; pay per generation. API/MCP access is scoped to asset generation and reads; publish through the CLI workflow. [Tools](https://genex.games/tools) · [docs](https://genex.games/docs) · [GitHub source](https://github.com/genex-games/genex) · [plugin catalog](https://github.com/genex-games/genex-plugins) |
 | [OmGithub](https://omgithub.com/) | AI project studio and game catalog, not a game engine. Create projects through OpenCode; submit or select GitHub games as remix sources. | Discover games; open hosted **Play** or **Original ↗** links; explicitly request a remix and publish a hosted build. | Keep source in GitHub and review commits; native game export is not established. | Guest creation depends on deployment configuration; sign in for authenticated workflows. Read the [publishing guide](https://github.com/AgentsLoop/omsite/blob/main/wiki/omgithub.md) and [site README](https://github.com/AgentsLoop/omsite/blob/main/README.md). |
 | [Exists](https://exists.ai/) | Advertises text-generated multiplayer worlds and gameplay, with customization. | Advertises online play and sharing with friends. | Source-code and export formats are not established. | Landing page uses future-facing language; do not treat the creation or output claims as independently verified. [Product](https://exists.ai/) |
 | [SpawnForge](https://www.spawnforge.ai/) | Browser-based AI-native 2D/3D engine; site advertises generation of scenes, physics, scripts, and game logic. | Instant play and one-click publishing are advertised. | Public repository describes a Bevy/Rust/WASM engine and ZIP/PWA export; some capabilities are incomplete or unverified. | Site says **Private pre-launch**. Repository notes that external MCP is local-build-only and not verified end to end. [Product](https://www.spawnforge.ai/) · [source and capability notes](https://github.com/Tristan578/project-forge) |
 
 ### Feature checklist
 
-| Checklist | Pixelfork | Rosebud | Makko | PocketByte | Wanaka | Gamly | Summer | GDevelop | Buildbox 4 | OmGithub | Exists | SpawnForge |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Prompt-to-game | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ | ✅ | ◐ | ◐ | ◐ | ◐ | ◐ |
-| AI editing / iteration | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ | ✅ | ✅ | ✅ | ✅ | ◐ | ◐ |
-| Browser play / share | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ | ◐ | ✅ | ? | ✅ | ◐ | ◐ |
-| Community remix | ✅ | ✅ | ? | ✅ | ✅ | ? | ? | ? | ? | ✅ | ? | ? |
-| Readable / editable source | ✅ | ✅ | ? | ? | ? | ◐ | ✅ | ✅ | ? | ✅ | ? | ◐ |
-| Native game export | ✅ Android | ◐ Windows | ? | ? | ? | ◐ | ◐ | ✅ | ◐ | ? | ? | ◐ ZIP/PWA |
+| Checklist | Pixelfork | Rosebud | Makko | PocketByte | Wanaka | Gamly | Summer | GDevelop | Buildbox 4 | Genex | OmGithub | Exists | SpawnForge |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Prompt-to-game | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ | ✅ | ◐ | ◐ | — | ◐ | ◐ | ◐ |
+| AI editing / iteration | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ | ✅ | ✅ | ✅ | ◐ assets only | ✅ | ◐ | ◐ |
+| Browser play / share | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ | ◐ | ✅ | ? | ✅ | ✅ | ◐ | ◐ |
+| Community remix | ✅ | ✅ | ? | ✅ | ✅ | ? | ? | ? | ? | ✅ | ✅ | ? | ? |
+| Readable / editable source | ✅ | ✅ | ? | ? | ? | ◐ | ✅ | ✅ | ? | — external project | ✅ | ? | ◐ |
+| Native game export | ✅ Android | ◐ Windows | ? | ? | ? | ◐ | ◐ | ✅ | ◐ | — web publishing | ? | ? | ◐ ZIP/PWA |
 
-**Checklist key:** ✅ explicitly documented; ◐ limited, advertised, or unverified; ? not established by the reviewed evidence. Treat OmGithub as a project studio/catalog rather than a game engine. Treat Gamly and SpawnForge as limited-access products; do not present their advertised output as verified.
+**Checklist key:** ✅ explicitly documented; ◐ limited, advertised, or unverified; ? not established by the reviewed evidence; — not offered by the tool or handled by an external project. Treat OmGithub as a project studio/catalog rather than a game engine. Treat Genex as an asset/publishing service, not a game generator. Treat Gamly and SpawnForge as limited-access products; do not present their advertised output as verified.
 
 ## Prompt-to-playable platforms
 
@@ -52,6 +53,14 @@ Use the detailed comparison to distinguish game generators, AI-assisted engines,
 | [GDevelop AI Agent](https://gdevelop.io/) | Ask the agent to create or modify objects, events, and behaviors in an existing 2D/3D project. | Export through GDevelop. Build features iteratively; do not present the agent as a reliable one-click whole-game generator. | [Agent guide](https://gdevelop.io/blog/make-games-with-ai-agent-gdevelop-automated-prompt) |
 | [Buildbox 4](https://www.buildbox.com/) | Prompt for assets, scenes, level edits, mechanics, and nodes inside a visual game editor. | Use the desktop editor to finish and export a game; distinguish assisted authoring from one-prompt completion. | [Buildbox 4 announcement](https://www.buildbox.com/buildbox-4-is-now-available-make-games-with-ai/) · [mechanics guide](https://www.buildbox.com/getting-started-with-buildbox-4-creating-game-mechanics-and-nodes-using-ai/) |
 
+## AI asset workflows and game publishing
+
+| Tool | What it creates or supports | Access and output limits | Primary evidence and GitHub examples |
+| --- | --- | --- | --- |
+| [Genex](https://genex.games/) | Connect an AI coding agent to generators for 3D models, characters, animations, textures, images, video, sound effects, music, and voice. Add multiplayer through its SDK. Publish an existing browser game to a unique URL and catalog page with an optional Remix action. Genex is not an editor or a full-game code generator; the coding agent builds the game. | Use Node 20+ with its CLI/Skill, or connect over OAuth MCP; the HTTP API is beta. CLI assets download as regular files for any engine. Generations use pay-per-use credits. Scoped API/MCP credentials generate and read assets but cannot publish; publishing uses the CLI/account workflow. Browser publishing is documented; native export is not. | [Tools](https://genex.games/tools) · [Docs](https://genex.games/docs) · [Publish guide](https://genex.games/docs/guide/publish-your-game) · [GitHub README](https://github.com/genex-games/genex) · Examples: [skate-threejs](https://github.com/Rabneba/skate-threejs), [Lost Cathedral](https://github.com/Rabneba/lost-cathedral), [Stick & Steel](https://github.com/Rabneba/stick-steel), [QUARRY](https://github.com/yonidavidson/quarry), [Airena](https://github.com/boozybatsMain/airena) |
+
+An exact-domain GitHub code search (`genex.games`, limit 100) surfaced 12 repositories. It found the official [Genex agent/tool repository](https://github.com/genex-games/genex) and [plugin catalog](https://github.com/genex-games/genex-plugins), plus game or integration code in the examples above. It also found [dark-soul](https://github.com/Piyushrathoree/dark-soul), which uses Genex but identifies its game as **Lost Cathedral**, duplicating the separately listed [Rabneba/lost-cathedral](https://github.com/Rabneba/lost-cathedral) project. Other results were references rather than integrations: [Domain-Connect/Templates](https://github.com/Domain-Connect/Templates) contains DNS templates; [taxodium](https://github.com/Spike-Leung/taxodium) links to Stick & Steel; [UltraIa](https://github.com/LucaPorro420/UltraIa) archives a source/demo link; [aigamedev-gems](https://github.com/hoveychen/aigamedev-gems) archives a Reddit discussion; and [0913_codex_project](https://github.com/yydshly/0913_codex_project) references Stick & Steel as an upstream example. Treat code search as indexed evidence, not an exhaustive list.
+
 ## AI-game discovery and remix
 
 | Tool | What it offers | Output and limits | Primary evidence |
@@ -70,6 +79,7 @@ Use the detailed comparison to distinguish game generators, AI-assisted engines,
 
 - Require a primary product page or repository that describes AI-assisted creation of a **playable game**, not just art, sprites, ideas, or a design document.
 - Separate prompt-to-playable platforms from AI assistance inside a conventional editor.
+- Classify Genex as an asset-generation and publishing service, not as a game engine or complete-game generator; let the connected coding agent create game logic.
 - Label pre-launch and unclear-access products explicitly.
 - Treat every capability above as a vendor or project claim, not an independent build or playtest. Recheck availability, exports, pricing, and licensing before recommending a tool for production.
 - Keep [Ludo.ai](https://ludo.ai/docs) out of the playable-game generator table: its current FAQ says it does not create playable games or prototypes, despite older marketing for a Playable Generator.
