@@ -38,5 +38,6 @@
 ## Git delivery
 
 - Verify and commit every completed change.
-- Push every completed commit to both `origin` and `astra` before reporting completion.
+- Regenerate `profile/README.md` with `node scripts/generate-organization-profile.mjs` after changing the root README.
+- Push every completed commit to `origin`, `astra`, and `org-profile` (`https://github.com/AgentsLoop/.github.git`) before reporting completion.
 - Inspect `~/.config/gh/hosts.yml` and `git remote -v` before remote GitHub actions. Use the intended account and ask if it is ambiguous.
