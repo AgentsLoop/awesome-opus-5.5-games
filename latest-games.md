@@ -4,6 +4,28 @@ Compare when each source repository was created with when this collection first 
 
 [Back to the game collection](README.md) · [Source data](games.json)
 
+## Added 2026-09-26 (UTC)
+
+| Added to this repo (UTC) | Game | Source repository | Original repository created (UTC) | Model | Quality |
+| --- | --- | --- | --- | --- | ---: |
+| 2026-09-26 | [F1 Racing Game](games/f1-racing-game/readme.md) | [hirosichen/ai-f1-racing-game](https://github.com/hirosichen/ai-f1-racing-game) | 2026-09-25 07:22:52 UTC | Claude Opus 5.5 | 8.3/10 |
+| 2026-09-26 | [Harbor Master](games/harbor-master/readme.md) | [hirosichen/ai-harbor-master-game](https://github.com/hirosichen/ai-harbor-master-game) | 2026-09-25 12:48:00 UTC | Claude Opus 5.5 | 8.2/10 |
+| 2026-09-26 | [HELLAS — Greek Civilization](games/hellas-greek-civilization/readme.md) | [MXMX0811/gpt-6-astra-game](https://github.com/MXMX0811/gpt-6-astra-game) | 2026-09-25 02:28:36 UTC | GPT-6 Astra | 8.5/10 |
+| 2026-09-26 | [High Effort Strategy Game](games/high-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [IRON TIDE — Steel Tide](games/iron-tide-steel-tide/readme.md) | [MXMX0811/gpt-6-astra-game](https://github.com/MXMX0811/gpt-6-astra-game) | 2026-09-25 02:28:36 UTC | GPT-6 Astra | 8.5/10 |
+| 2026-09-26 | [League of Legends Simulation](games/league-of-legends-simulation/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Long Wind](games/long-wind/readme.md) | [jbang2004/long-wind](https://github.com/jbang2004/long-wind) | 2026-09-26 00:41:09 UTC | Claude Opus 5.5 | 9.0/10 |
+| 2026-09-26 | [Low Effort Strategy Game](games/low-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [Max Effort Strategy Game](games/max-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [Medium Effort Strategy Game](games/medium-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [Minecraft 3D Sandbox](games/minecraft-3d-sandbox/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Plants vs. Zombies Clone](games/plants-vs-zombies-clone/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Ponpoko Kart](games/ponpoko-kart/readme.md) | [tanuu5/ponpoko-kart](https://github.com/tanuu5/ponpoko-kart) | 2026-09-25 18:57:23 UTC | Claude Opus 5.5 | 8.8/10 |
+| 2026-09-26 | [Sky Rings](games/sky-rings/readme.md) | [hirosichen/ai-sky-rings-game](https://github.com/hirosichen/ai-sky-rings-game) | 2026-09-25 09:04:02 UTC | Claude Opus 5.5 | 8.4/10 |
+| 2026-09-26 | [Slay the Spire Clone](games/slay-the-spire-clone/readme.md) | [icebear0828/vibe-games](https://github.com/icebear0828/vibe-games) | 2026-09-25 11:29:10 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-26 | [Special Prompt Strategy Game](games/special-prompt-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+| 2026-09-26 | [X High Effort Strategy Game](games/x-high-effort-strategy-game/readme.md) | [Barty-Bart/opus-55-effort-comparison](https://github.com/Barty-Bart/opus-55-effort-comparison) | 2026-09-25 11:13:43 UTC | Claude Opus 5.5 | 7.6/10 |
+
 ## Added 2026-09-25 (UTC)
 
 | Added to this repo (UTC) | Game | Source repository | Original repository created (UTC) | Model | Quality |

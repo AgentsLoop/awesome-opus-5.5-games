@@ -31271,5 +31271,649 @@
     "prompt": "Reconstruct the source-described first-person pixel-art exploration sandbox with its movement, flight, torch inventory, object storage, and day/night cycle. This summary is not an original prompt.",
     "prompt_origin": "reverse_engineered_from_source",
     "quality_category": "curated_games"
+  },
+  {
+    "name": "F1 Racing Game",
+    "repository_id": 1387000598,
+    "github_url": "https://github.com/hirosichen/ai-f1-racing-game",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/hirosichen/ai-f1-racing-game/blob/main/main.js"
+    ],
+    "evidence_url": "https://github.com/hirosichen/ai-f1-racing-game/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "F1 Racing Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T07:22:52Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "A three.js Formula racing game with 20 cars, player steering, throttle, braking, lap timing, DRS and AI racers. Source main.js defines input, race state and lap logic. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 8.3,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Rebuild the source-verified Formula racing game with car controls, AI rivals, lap timing and race results.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "live_demo_url": "https://vibe-f1-racing.pages.dev",
+    "live_demo_urls": [
+      "https://vibe-f1-racing.pages.dev"
+    ]
+  },
+  {
+    "name": "Sky Rings",
+    "repository_id": 1387156255,
+    "github_url": "https://github.com/hirosichen/ai-sky-rings-game",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/hirosichen/ai-sky-rings-game/blob/main/main.js"
+    ],
+    "evidence_url": "https://github.com/hirosichen/ai-sky-rings-game/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Sky Rings"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T09:04:02Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "A three.js air race with player flight controls, numbered course rings, boosts, crash penalties and lap timing. Source main.js defines ring geometry and race state. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Rebuild the source-verified air race with flight controls, ring gates, boost and timed laps.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "live_demo_url": "https://vibe-sky-rings.pages.dev",
+    "live_demo_urls": [
+      "https://vibe-sky-rings.pages.dev"
+    ]
+  },
+  {
+    "name": "Harbor Master",
+    "repository_id": 1387487629,
+    "github_url": "https://github.com/hirosichen/ai-harbor-master-game",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/hirosichen/ai-harbor-master-game/blob/main/main.js"
+    ],
+    "evidence_url": "https://github.com/hirosichen/ai-harbor-master-game/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Harbor Master"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T12:48:00Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "A superyacht docking simulator with twin-engine and thruster controls, wind, collision penalties and a position-and-heading docking goal. Source main.js defines controls and dock-state checks. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Rebuild the source-verified yacht docking simulator with controls, wind, collisions and berth scoring.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "live_demo_url": "https://vibe-harbor-master.pages.dev",
+    "live_demo_urls": [
+      "https://vibe-harbor-master.pages.dev"
+    ]
+  },
+  {
+    "name": "Long Wind",
+    "repository_id": 1388327805,
+    "github_url": "https://github.com/jbang2004/long-wind",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/jbang2004/long-wind/blob/main/src/game/game.js"
+    ],
+    "evidence_url": "https://github.com/jbang2004/long-wind/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Long Wind"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-26T00:41:09Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "A three-chapter wuxia action game with player combat, enemy AI, bosses, parries and progression. README explicitly attributes all code to Claude Opus 5.5; src/game contains input, combat, AI and game state. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Rebuild the source-verified three-chapter wuxia action game with combat, parries, enemies, bosses and progression.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "live_demo_url": "https://jbang2004.github.io/long-wind/",
+    "live_demo_urls": [
+      "https://jbang2004.github.io/long-wind/"
+    ]
+  },
+  {
+    "name": "Opus 5.5 Strategy Game Comparison",
+    "repository_id": 1387328979,
+    "github_url": "https://github.com/Barty-Bart/opus-55-effort-comparison",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/low/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/medium/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/high/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/xhigh/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/max/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/special/index.html"
+    ],
+    "evidence_url": "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 6,
+    "contained_games": [
+      "Low Effort Strategy Game",
+      "Medium Effort Strategy Game",
+      "High Effort Strategy Game",
+      "X High Effort Strategy Game",
+      "Max Effort Strategy Game",
+      "Special Prompt Strategy Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T11:13:43Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "Six playable browser strategy-game builds generated from a common prompt at different Opus 5.5 effort levels, plus a special prompt. Each games/* directory contains source and an HTML entry point. No hosted demo is claimed. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 7.6,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 6,
+    "is_independent_game": true,
+    "prompt": "Rebuild the six source-verified browser strategy builds, preserving each version’s distinct mechanics and local launch path.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "contained_game_links": [
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/low/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/medium/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/high/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/xhigh/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/max/index.html",
+      "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/games/special/index.html"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "Low Effort Strategy Game",
+        "quality_estimate_10": 7.6,
+        "quality_estimate_basis": "Six playable browser strategy-game builds generated from a common prompt at different Opus 5.5 effort levels, plus a special prompt. Each games/* directory contains source and an HTML entry point. No hosted demo is claimed.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md"
+      },
+      {
+        "name": "Medium Effort Strategy Game",
+        "quality_estimate_10": 7.6,
+        "quality_estimate_basis": "Six playable browser strategy-game builds generated from a common prompt at different Opus 5.5 effort levels, plus a special prompt. Each games/* directory contains source and an HTML entry point. No hosted demo is claimed.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md"
+      },
+      {
+        "name": "High Effort Strategy Game",
+        "quality_estimate_10": 7.6,
+        "quality_estimate_basis": "Six playable browser strategy-game builds generated from a common prompt at different Opus 5.5 effort levels, plus a special prompt. Each games/* directory contains source and an HTML entry point. No hosted demo is claimed.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md"
+      },
+      {
+        "name": "X High Effort Strategy Game",
+        "quality_estimate_10": 7.6,
+        "quality_estimate_basis": "Six playable browser strategy-game builds generated from a common prompt at different Opus 5.5 effort levels, plus a special prompt. Each games/* directory contains source and an HTML entry point. No hosted demo is claimed.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md"
+      },
+      {
+        "name": "Max Effort Strategy Game",
+        "quality_estimate_10": 7.6,
+        "quality_estimate_basis": "Six playable browser strategy-game builds generated from a common prompt at different Opus 5.5 effort levels, plus a special prompt. Each games/* directory contains source and an HTML entry point. No hosted demo is claimed.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md"
+      },
+      {
+        "name": "Special Prompt Strategy Game",
+        "quality_estimate_10": 7.6,
+        "quality_estimate_basis": "Six playable browser strategy-game builds generated from a common prompt at different Opus 5.5 effort levels, plus a special prompt. Each games/* directory contains source and an HTML entry point. No hosted demo is claimed.",
+        "technology": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/Barty-Bart/opus-55-effort-comparison/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "name": "Vibe Games Arcade",
+    "repository_id": 1387354094,
+    "github_url": "https://github.com/icebear0828/vibe-games",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/icebear0828/vibe-games/tree/main/realistic-league-of-legends-simulation/src",
+      "https://github.com/icebear0828/vibe-games/tree/main/realistic-minecraft-recreation-project/src",
+      "https://github.com/icebear0828/vibe-games/tree/main/recreate-plants-vs-zombies/src",
+      "https://github.com/icebear0828/vibe-games/tree/main/slay-the-spire-clone/src"
+    ],
+    "evidence_url": "https://github.com/icebear0828/vibe-games/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Canvas",
+      "Three.js",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 4,
+    "contained_games": [
+      "League of Legends Simulation",
+      "Minecraft 3D Sandbox",
+      "Plants vs. Zombies Clone",
+      "Slay the Spire Clone"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T11:29:10Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "Four source-separated browser games: a MOBA simulation, voxel sandbox, lane-defense game and card roguelike. README attributes all four one-shot projects to Claude Opus 5.5; each has a source directory and listed deployment. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 8.1,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 4,
+    "is_independent_game": true,
+    "prompt": "Rebuild the four source-verified browser games with their distinct controls, game states and win/loss loops.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "live_demo_url": "https://icebear0828.github.io/vibe-games/lol/",
+    "live_demo_urls": [
+      "https://icebear0828.github.io/vibe-games/lol/",
+      "https://icebear0828.github.io/vibe-games/minecraft/",
+      "https://icebear0828.github.io/vibe-games/pvz/",
+      "https://icebear0828.github.io/vibe-games/sts/"
+    ],
+    "contained_game_links": [
+      "https://github.com/icebear0828/vibe-games/tree/main/realistic-league-of-legends-simulation/src",
+      "https://github.com/icebear0828/vibe-games/tree/main/realistic-minecraft-recreation-project/src",
+      "https://github.com/icebear0828/vibe-games/tree/main/recreate-plants-vs-zombies/src",
+      "https://github.com/icebear0828/vibe-games/tree/main/slay-the-spire-clone/src"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "League of Legends Simulation",
+        "quality_estimate_10": 8.1,
+        "quality_estimate_basis": "Four source-separated browser games: a MOBA simulation, voxel sandbox, lane-defense game and card roguelike. README attributes all four one-shot projects to Claude Opus 5.5; each has a source directory and listed deployment.",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "Canvas",
+          "Three.js",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/icebear0828/vibe-games/blob/main/README.md"
+      },
+      {
+        "name": "Minecraft 3D Sandbox",
+        "quality_estimate_10": 8.1,
+        "quality_estimate_basis": "Four source-separated browser games: a MOBA simulation, voxel sandbox, lane-defense game and card roguelike. README attributes all four one-shot projects to Claude Opus 5.5; each has a source directory and listed deployment.",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "Canvas",
+          "Three.js",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/icebear0828/vibe-games/blob/main/README.md"
+      },
+      {
+        "name": "Plants vs. Zombies Clone",
+        "quality_estimate_10": 8.1,
+        "quality_estimate_basis": "Four source-separated browser games: a MOBA simulation, voxel sandbox, lane-defense game and card roguelike. README attributes all four one-shot projects to Claude Opus 5.5; each has a source directory and listed deployment.",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "Canvas",
+          "Three.js",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/icebear0828/vibe-games/blob/main/README.md"
+      },
+      {
+        "name": "Slay the Spire Clone",
+        "quality_estimate_10": 8.1,
+        "quality_estimate_basis": "Four source-separated browser games: a MOBA simulation, voxel sandbox, lane-defense game and card roguelike. README attributes all four one-shot projects to Claude Opus 5.5; each has a source directory and listed deployment.",
+        "technology": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "Canvas",
+          "Three.js",
+          "Browser"
+        ],
+        "model_family": [
+          "Claude Opus 5.5"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/icebear0828/vibe-games/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "name": "GPT-6 Astra One-Sentence Games",
+    "repository_id": 1386604597,
+    "github_url": "https://github.com/MXMX0811/gpt-6-astra-game",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/MXMX0811/gpt-6-astra-game/blob/main/civilization-v-hellas/src/app.js",
+      "https://github.com/MXMX0811/gpt-6-astra-game/blob/main/world-of-warships/src/main.js"
+    ],
+    "evidence_url": "https://github.com/MXMX0811/gpt-6-astra-game/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 2,
+    "contained_games": [
+      "HELLAS — Greek Civilization",
+      "IRON TIDE — Steel Tide"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T02:28:36Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "Two browser game projects: a Greek civilization turn-based strategy game and a real-time naval battle. README attributes the one-sentence builds to GPT-6 in Codex; each has separate source, rules and public deployment. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 2,
+    "is_independent_game": true,
+    "prompt": "Rebuild the two source-verified games, preserving the turn-based civilization and real-time naval-battle loops.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "live_demo_url": "https://astra-civilization-v-hellas.pages.dev",
+    "live_demo_urls": [
+      "https://astra-civilization-v-hellas.pages.dev",
+      "https://astra-world-of-warships.pages.dev"
+    ],
+    "contained_game_links": [
+      "https://github.com/MXMX0811/gpt-6-astra-game/blob/main/civilization-v-hellas/src/app.js",
+      "https://github.com/MXMX0811/gpt-6-astra-game/blob/main/world-of-warships/src/main.js"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "HELLAS — Greek Civilization",
+        "quality_estimate_10": 8.5,
+        "quality_estimate_basis": "Two browser game projects: a Greek civilization turn-based strategy game and a real-time naval battle. README attributes the one-sentence builds to GPT-6 in Codex; each has separate source, rules and public deployment.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "GPT-6 Astra"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/MXMX0811/gpt-6-astra-game/blob/main/README.md"
+      },
+      {
+        "name": "IRON TIDE — Steel Tide",
+        "quality_estimate_10": 8.5,
+        "quality_estimate_basis": "Two browser game projects: a Greek civilization turn-based strategy game and a real-time naval battle. README attributes the one-sentence builds to GPT-6 in Codex; each has separate source, rules and public deployment.",
+        "technology": [
+          "Three.js",
+          "JavaScript",
+          "WebGL",
+          "Browser"
+        ],
+        "model_family": [
+          "GPT-6 Astra"
+        ],
+        "model_evidence": "creator-reported",
+        "evidence_url": "https://github.com/MXMX0811/gpt-6-astra-game/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "name": "Ponpoko Kart",
+    "repository_id": 1388069738,
+    "github_url": "https://github.com/tanuu5/ponpoko-kart",
+    "added_to_repo_on": "2026-09-26",
+    "game_links": [
+      "https://github.com/tanuu5/ponpoko-kart/blob/main/src/main.js"
+    ],
+    "evidence_url": "https://github.com/tanuu5/ponpoko-kart/blob/main/README.md",
+    "screenshot_urls": [],
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Ponpoko Kart"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-26",
+    "repository_created_at": "2026-09-25T18:57:23Z",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "GitHub repository search: model/game, created:2026-09-25..2026-09-26 (checked 2026-09-26)"
+    ],
+    "verification_notes": "A three-course, eight-kart browser racer with steering, drifting, items, gliding and lap progression. README reports a single Claude Opus 5.5 MAX development session; source separates kart, track, items and stages. Repository creation date is not treated as a game publication date; live demos were not playtested.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static scope estimate; not a measured device benchmark.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Source-backed gameplay mechanics, creator-reported model attribution and documented run path; no fresh runtime playtest.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "prompt": "Rebuild the source-verified three-course kart racer with drifting, items, rivals and lap progression.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "quality_category": "curated_games",
+    "live_demo_url": "https://tanuu5.github.io/ponpoko-kart/",
+    "live_demo_urls": [
+      "https://tanuu5.github.io/ponpoko-kart/"
+    ]
   }
 ]
