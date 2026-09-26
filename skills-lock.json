@@ -6,12 +6,6 @@
       "sourceType": "github",
       "skillPath": ".claude/skills/github-repo-explore/SKILL.md",
       "computedHash": "20d40d711144c427a266796cf3285b42c8655f11d2cbabcd0353e7e1d9f9b3a9"
-    },
-    "reddit-automation": {
-      "source": "flowkit-labs/skills",
-      "sourceType": "github",
-      "skillPath": "reddit-automation/SKILL.md",
-      "computedHash": "b9541be8aa1d4b0fa2e91730bc93e810c02bfb639aa951ad9a1a7612e4666c02"
     }
   }
 }
