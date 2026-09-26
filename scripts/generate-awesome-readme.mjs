@@ -444,3 +444,4 @@ for (const date of addedDates) {
   latestMarkdown += `\n`;
 }
 fs.writeFileSync('latest-games.md', `${latestMarkdown.trimEnd()}\n`);
+await import('./generate-organization-profile.mjs');
