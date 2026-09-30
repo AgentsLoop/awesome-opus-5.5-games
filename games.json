@@ -33926,7 +33926,7 @@
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Order-of-magnitude static workload placeholder; not measured hardware performance.",
-    "quality_estimate_10": 8.0,
+    "quality_estimate_10": 8,
     "quality_estimate_basis": "Conservative source-scope estimate from documented mechanics and code; not a visual rating or runtime playtest.",
     "counted_game_units": 1,
     "is_independent_game": true,
@@ -34086,7 +34086,7 @@
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Order-of-magnitude static workload placeholder; not measured hardware performance.",
-    "quality_estimate_10": 8.0,
+    "quality_estimate_10": 8,
     "quality_estimate_basis": "Conservative source-scope estimate from documented mechanics and code; not a visual rating or runtime playtest.",
     "counted_game_units": 1,
     "is_independent_game": true,
@@ -34278,7 +34278,7 @@
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Order-of-magnitude static workload placeholder; not measured hardware performance.",
-    "quality_estimate_10": 8.0,
+    "quality_estimate_10": 8,
     "quality_estimate_basis": "Conservative source-scope estimate from documented mechanics and code; not a visual rating or runtime playtest.",
     "counted_game_units": 1,
     "is_independent_game": true,
@@ -34637,5 +34637,270 @@
     "prompt_origin": "reverse_engineered_from_source",
     "quality_category": "curated_games",
     "evidence_url": "https://github.com/Anshul1336/scribble-impostor/blob/eef6f8737d05212bb00b673946d068237d96e731/README.md"
+  },
+  {
+    "name": "Kanca",
+    "github_url": "https://github.com/Furkiozknn/kanca",
+    "added_to_repo_on": "2026-09-30",
+    "game_links": [
+      "https://github.com/Furkiozknn/kanca/blob/4991a3396323aa77c2687f7f5c68f2153fdd9797/scripts/oyuncu.gd",
+      "https://github.com/Furkiozknn/kanca/blob/4991a3396323aa77c2687f7f5c68f2153fdd9797/scripts/bolum.gd"
+    ],
+    "live_demo_url": "https://furkiozknn.github.io/kanca/",
+    "evidence_url": "https://github.com/Furkiozknn/kanca/commit/687a67e4a05e337a3f29147d32086b817237886c",
+    "screenshot_urls": [
+      "https://github.com/Furkiozknn/kanca/blob/4991a3396323aa77c2687f7f5c68f2153fdd9797/docs/ekran/bolum_06.png"
+    ],
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "WebAssembly (WebGL 2.0)",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Kanca"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-30",
+    "discovery_sources": [
+      "https://github.com/Furkiozknn/kanca"
+    ],
+    "verification_notes": "The player is a CharacterBody2D that runs, jumps (with coyote time and jump buffering) and fires a rope-limited grapple: while hooked, gravity and wind apply, tangential input adds swing momentum, shortening the rope conserves angular momentum (\"pump\"), and the position is clamped back onto the rope circle every frame so the rope cannot stretch. scripts/bolum.gd runs the per-level loop (load, play, die/finish, next), tracking checkpoints, crystals, medals, a ghost-race replay and a death heatmap. The live GitHub Pages build returned HTTP 200 on 2026-09-30. The cited commit includes an exact Co-Authored-By: Claude Opus 5.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 420000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D rigid-body-like swing physics, raycast-based hook targeting, particle trail rendering, camera follow and WebGL2 rendering at 60 FPS; not measured hardware throughput.",
+    "quality_estimate_10": 8.1,
+    "quality_estimate_basis": "A native-feeling 2D grapple-swing platformer with real pendulum physics (gravity/wind composition, angular-momentum pumping, hard radial clamp), coyote-time jumping, ghost-race and death-map systems, and a working WebGL2 browser export verified live on 2026-09-30.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "repository_created_at": "2026-09-21T21:01:36Z",
+    "publication_date_status": "repository_created_only",
+    "prompt": "Rebuild \"Kanca\" as a complete, playable game using Godot 4.7.2, GDScript, WebAssembly (WebGL 2.0), Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: The player is a CharacterBody2D that runs, jumps (with coyote time and jump buffering) and fires a rope-limited grapple: while hooked, gravity and wind apply, tangential input adds swing momentum, shortening the rope conserves angular momentum (\"pump\"), and the position is clamped back onto the rope circle every frame so the rope cannot stretch. scripts/bolum.gd runs the per-level loop (load, play, die/finish, next), tracking checkpoints, crystals, medals, a ghost-race replay and a death heatmap.\n\nUse Claude Opus 5.5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Furkiozknn/kanca/blob/4991a3396323aa77c2687f7f5c68f2153fdd9797/scripts/oyuncu.gd and keep the implementation scope consistent with the observed game.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/Furkiozknn/kanca/blob/4991a3396323aa77c2687f7f5c68f2153fdd9797/scripts/oyuncu.gd",
+    "quality_category": "curated_games",
+    "screenshot_rating_10": 7,
+    "screenshot_rating_evidence_url": "https://github.com/Furkiozknn/kanca/blob/4991a3396323aa77c2687f7f5c68f2153fdd9797/docs/ekran/bolum_06.png",
+    "screenshot_rating_on": "2026-09-30"
+  },
+  {
+    "name": "Yerçekimi Çevir",
+    "github_url": "https://github.com/Furkiozknn/yercekimi-cevir",
+    "added_to_repo_on": "2026-09-30",
+    "game_links": [
+      "https://github.com/Furkiozknn/yercekimi-cevir/blob/2ade3b9938b31c7144bcc9550b96fbe99adac00c/scripts/oyun.gd",
+      "https://github.com/Furkiozknn/yercekimi-cevir/blob/2ade3b9938b31c7144bcc9550b96fbe99adac00c/scripts/oyuncu.gd"
+    ],
+    "live_demo_url": "https://furkiozknn.github.io/yercekimi-cevir/",
+    "evidence_url": "https://github.com/Furkiozknn/yercekimi-cevir/commit/0c67cecfa2ffcb595fc160aa3d118267137a5d79",
+    "screenshot_urls": [
+      "https://github.com/Furkiozknn/yercekimi-cevir/blob/2ade3b9938b31c7144bcc9550b96fbe99adac00c/docs/tasarim/sonra-oyun-gece.png"
+    ],
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "WebAssembly (WebGL 2.0)",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Yerçekimi Çevir"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-30",
+    "discovery_sources": [
+      "https://github.com/Furkiozknn/yercekimi-cevir"
+    ],
+    "verification_notes": "A no-jump platformer where the only input flips gravity for the player. scripts/oyun.gd drives the level state machine (load level, play, die/finish, next level: OYNA/OLDU/TAMAM/BITTI/HAYALET), tracking a checkpoint, a collectible crystal, a per-level flip counter, a daily ghost race recorded as a position trail, and a death heatmap shown on the level-end panel; the floor/block colors swap to mirror the active gravity direction. The live GitHub Pages build returned HTTP 200 on 2026-09-30. The cited commit includes an exact Co-Authored-By: Claude Opus 5.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 380000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D collision/physics on gravity flip, ghost-trail recording and playback, particle and screen-shake effects, and WebGL2 rendering at 60 FPS; not measured hardware throughput.",
+    "quality_estimate_10": 7.9,
+    "quality_estimate_basis": "A complete single-mechanic puzzle-platformer with a documented level state machine, ghost-race replay, death-heatmap feedback and a daily-challenge mode, verified live in a browser on 2026-09-30.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "repository_created_at": "2026-09-21T21:00:50Z",
+    "publication_date_status": "repository_created_only",
+    "prompt": "Rebuild \"Yerçekimi Çevir\" as a complete, playable game using Godot 4.7.2, GDScript, WebAssembly (WebGL 2.0), Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: A no-jump platformer where the only input flips gravity for the player. scripts/oyun.gd drives the level state machine (load level, play, die/finish, next level: OYNA/OLDU/TAMAM/BITTI/HAYALET), tracking a checkpoint, a collectible crystal, a per-level flip counter, a daily ghost race recorded as a position trail, and a death heatmap shown on the level-end panel; the floor/block colors swap to mirror the active gravity direction.\n\nUse Claude Opus 5.5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Furkiozknn/yercekimi-cevir/blob/2ade3b9938b31c7144bcc9550b96fbe99adac00c/scripts/oyun.gd and keep the implementation scope consistent with the observed game.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/Furkiozknn/yercekimi-cevir/blob/2ade3b9938b31c7144bcc9550b96fbe99adac00c/scripts/oyun.gd",
+    "quality_category": "curated_games",
+    "screenshot_rating_10": 7,
+    "screenshot_rating_evidence_url": "https://github.com/Furkiozknn/yercekimi-cevir/blob/2ade3b9938b31c7144bcc9550b96fbe99adac00c/docs/tasarim/sonra-oyun-gece.png",
+    "screenshot_rating_on": "2026-09-30"
+  },
+  {
+    "name": "Derin Kazı",
+    "github_url": "https://github.com/Furkiozknn/derin-kazi",
+    "added_to_repo_on": "2026-09-30",
+    "game_links": [
+      "https://github.com/Furkiozknn/derin-kazi/blob/8278f18584007ddb08a96324e4495280ad4305f9/scripts/oyun.gd",
+      "https://github.com/Furkiozknn/derin-kazi/blob/8278f18584007ddb08a96324e4495280ad4305f9/scripts/arac.gd"
+    ],
+    "live_demo_url": "https://furkiozknn.github.io/derin-kazi/",
+    "evidence_url": "https://github.com/Furkiozknn/derin-kazi/commit/05ed38554f1abfcdea9a9f54ee4c8f3eafb09ac1",
+    "screenshot_urls": [
+      "https://github.com/Furkiozknn/derin-kazi/blob/8278f18584007ddb08a96324e4495280ad4305f9/yayin/ekran-2.png"
+    ],
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "WebAssembly (WebGL 2.0)",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Derin Kazı"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-30",
+    "discovery_sources": [
+      "https://github.com/Furkiozknn/derin-kazi"
+    ],
+    "verification_notes": "A dig-sell-upgrade mining loop. scripts/oyun.gd wires the HUD (depth, fuel, cargo, health, money), the world, the mining vehicle, a radar, a shop, a museum, a teleport panel and an earthquake warning system with an escape countdown; scripts/arac.gd is the vehicle controller. Digging breaks tiles that can shake loose (DUSME_BEKLE) and yield crates rolled from SANDIK_ODUL (cash, dynamite, fuel); depth is the scored resource and running out of fuel or health ends the run. The live GitHub Pages build returned HTTP 200 on 2026-09-30. The cited commit includes an exact Co-Authored-By: Claude Opus 5.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 410000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D destructible-tile digging, loose-rock physics, particle/screen-shake effects, radar/minimap rendering and WebGL2 output at 60 FPS; not measured hardware throughput.",
+    "quality_estimate_10": 7.8,
+    "quality_estimate_basis": "A full dig-and-return resource loop with fuel/health pressure, a shop/museum meta-progression, a scripted earthquake escape sequence and a live browser build verified on 2026-09-30.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "repository_created_at": "2026-09-21T21:25:10Z",
+    "publication_date_status": "repository_created_only",
+    "prompt": "Rebuild \"Derin Kazı\" as a complete, playable game using Godot 4.7.2, GDScript, WebAssembly (WebGL 2.0), Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: A dig-sell-upgrade mining loop. scripts/oyun.gd wires the HUD (depth, fuel, cargo, health, money), the world, the mining vehicle, a radar, a shop, a museum, a teleport panel and an earthquake warning system with an escape countdown; scripts/arac.gd is the vehicle controller. Digging breaks tiles that can shake loose (DUSME_BEKLE) and yield crates rolled from SANDIK_ODUL (cash, dynamite, fuel); depth is the scored resource and running out of fuel or health ends the run.\n\nUse Claude Opus 5.5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Furkiozknn/derin-kazi/blob/8278f18584007ddb08a96324e4495280ad4305f9/scripts/oyun.gd and keep the implementation scope consistent with the observed game.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/Furkiozknn/derin-kazi/blob/8278f18584007ddb08a96324e4495280ad4305f9/scripts/oyun.gd",
+    "quality_category": "curated_games",
+    "screenshot_rating_10": 7,
+    "screenshot_rating_evidence_url": "https://github.com/Furkiozknn/derin-kazi/blob/8278f18584007ddb08a96324e4495280ad4305f9/yayin/ekran-2.png",
+    "screenshot_rating_on": "2026-09-30"
+  },
+  {
+    "name": "Tek Tuş Koşu",
+    "github_url": "https://github.com/Furkiozknn/tek-tus-kosu",
+    "added_to_repo_on": "2026-09-30",
+    "game_links": [
+      "https://github.com/Furkiozknn/tek-tus-kosu/blob/aca636395f9315ab3c4c8eb7c96eb5446fea9789/scripts/oyun.gd",
+      "https://github.com/Furkiozknn/tek-tus-kosu/blob/aca636395f9315ab3c4c8eb7c96eb5446fea9789/scripts/oyuncu.gd"
+    ],
+    "live_demo_url": "https://furkiozknn.github.io/tek-tus-kosu/",
+    "evidence_url": "https://github.com/Furkiozknn/tek-tus-kosu/commit/2ab7d4794908b0da50e92334537847cd6b1a558f",
+    "screenshot_urls": [
+      "https://github.com/Furkiozknn/tek-tus-kosu/blob/aca636395f9315ab3c4c8eb7c96eb5446fea9789/yayin/ekran-2.png"
+    ],
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "WebAssembly (WebGL 2.0)",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Tek Tuş Koşu"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-30",
+    "discovery_sources": [
+      "https://github.com/Furkiozknn/tek-tus-kosu"
+    ],
+    "verification_notes": "A single-button endless runner synced to a beat grid. scripts/oyun.gd procedurally generates track pieces, ramps speed with distance, tracks score, quests and rotating color themes, and drives a death-replay and game-over flow; obstacles can also be requested in a fixed rhythm pattern (Ritim.DESENLER) for a music-synced daily mode with a seeded RNG. The single input controls jump timing against the oncoming obstacle grid. The live GitHub Pages build returned HTTP 200 on 2026-09-30. The cited commit includes an exact Co-Authored-By: Claude Opus 5.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 350000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D procedural obstacle spawning, rhythm-pattern scheduling, particle/screen-shake feedback and WebGL2 rendering at 60 FPS; not measured hardware throughput.",
+    "quality_estimate_10": 7.7,
+    "quality_estimate_basis": "A one-button rhythm-runner with procedural track generation, a deterministic seeded daily mode, quest tracking, five palette themes and a documented CI smoke test that opens the exported web build headlessly; verified live on 2026-09-30.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "repository_created_at": "2026-09-21T21:24:33Z",
+    "publication_date_status": "repository_created_only",
+    "prompt": "Rebuild \"Tek Tuş Koşu\" as a complete, playable game using Godot 4.7.2, GDScript, WebAssembly (WebGL 2.0), Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: A single-button endless runner synced to a beat grid. scripts/oyun.gd procedurally generates track pieces, ramps speed with distance, tracks score, quests and rotating color themes, and drives a death-replay and game-over flow; obstacles can also be requested in a fixed rhythm pattern (Ritim.DESENLER) for a music-synced daily mode with a seeded RNG. The single input controls jump timing against the oncoming obstacle grid.\n\nUse Claude Opus 5.5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Furkiozknn/tek-tus-kosu/blob/aca636395f9315ab3c4c8eb7c96eb5446fea9789/scripts/oyun.gd and keep the implementation scope consistent with the observed game.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/Furkiozknn/tek-tus-kosu/blob/aca636395f9315ab3c4c8eb7c96eb5446fea9789/scripts/oyun.gd",
+    "quality_category": "curated_games",
+    "screenshot_rating_10": 7,
+    "screenshot_rating_evidence_url": "https://github.com/Furkiozknn/tek-tus-kosu/blob/aca636395f9315ab3c4c8eb7c96eb5446fea9789/yayin/ekran-2.png",
+    "screenshot_rating_on": "2026-09-30"
+  },
+  {
+    "name": "Nova Drift",
+    "github_url": "https://github.com/Furkiozknn/nova-drift",
+    "added_to_repo_on": "2026-09-30",
+    "game_links": [
+      "https://github.com/Furkiozknn/nova-drift/blob/1639fe84579bc0d80e3a7490ac2f4705ad8221a5/script.js",
+      "https://github.com/Furkiozknn/nova-drift/blob/1639fe84579bc0d80e3a7490ac2f4705ad8221a5/rng.js"
+    ],
+    "live_demo_url": "https://furkiozknn.github.io/nova-drift/",
+    "evidence_url": "https://github.com/Furkiozknn/nova-drift/commit/4db4a913db105369d76cef8589eabf16b9d592f7",
+    "screenshot_urls": [
+      "https://github.com/Furkiozknn/nova-drift/blob/1639fe84579bc0d80e3a7490ac2f4705ad8221a5/assets/screenshot.webp"
+    ],
+    "technology": [
+      "Three.js",
+      "WebGL",
+      "JavaScript (ES modules)",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Nova Drift"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-30",
+    "discovery_sources": [
+      "https://github.com/Furkiozknn/nova-drift"
+    ],
+    "verification_notes": "A Three.js space-drift arcade game rendered with bloom post-processing. script.js sets up the WebGL renderer, camera and scene fog, reads keyboard state through a tracked key Set for ship control, and (per test/focus.spec.js) pauses the run and releases held keys on window blur or tab hide so a background tab cannot leave the ship drifting into a wall. rng.js provides a seeded mulberry32 generator and a daily-seed/daily-storage-key pair used for a repeatable daily run. The live GitHub Pages build returned HTTP 200 on 2026-09-30. The cited commit includes an exact Co-Authored-By: Claude Opus 5.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js scene rendering with bloom/tone-mapping postprocessing, physics-like drift movement, particle effects and 60 FPS WebGL output; not measured hardware throughput.",
+    "quality_estimate_10": 8.3,
+    "quality_estimate_basis": "A polished browser arcade game with real post-processing (bloom, tone mapping), a seeded daily-challenge mode, a focus-loss pause fix backed by an automated Playwright regression test, and a documented ~0.8 MB first load; verified live on 2026-09-30.",
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "repository_created_at": "2026-08-30T10:20:05Z",
+    "publication_date_status": "repository_created_only",
+    "prompt": "Rebuild \"Nova Drift\" as a complete, playable game using Three.js, WebGL, JavaScript (ES modules), Browser.\n\nReverse-engineer the observed source behavior rather than inventing a different project. Preserve these mechanics, rules, controls, objectives, progression systems, and win/loss states: A Three.js space-drift arcade game rendered with bloom post-processing. script.js sets up the WebGL renderer, camera and scene fog, reads keyboard state through a tracked key Set for ship control, and (per test/focus.spec.js) pauses the run and releases held keys on window blur or tab hide so a background tab cannot leave the ship drifting into a wall. rng.js provides a seeded mulberry32 generator and a daily-seed/daily-storage-key pair used for a repeatable daily run.\n\nUse Claude Opus 5.5 only as the recorded attribution context; do not claim this reconstruction is the original prompt or original implementation.\n\nImplement a clear start state, responsive input, deterministic game-state transitions, scoring or progression where observed, win/failure feedback, pause or restart behavior where appropriate, and a self-contained run/build path.\n\nValidate the result against the public source evidence at https://github.com/Furkiozknn/nova-drift/blob/1639fe84579bc0d80e3a7490ac2f4705ad8221a5/script.js and keep the implementation scope consistent with the observed game.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": "https://github.com/Furkiozknn/nova-drift/blob/1639fe84579bc0d80e3a7490ac2f4705ad8221a5/script.js",
+    "quality_category": "curated_games",
+    "screenshot_rating_10": 7,
+    "screenshot_rating_evidence_url": "https://github.com/Furkiozknn/nova-drift/blob/1639fe84579bc0d80e3a7490ac2f4705ad8221a5/assets/screenshot.webp",
+    "screenshot_rating_on": "2026-09-30"
   }
 ]

@@ -4,6 +4,16 @@ Compare when each source repository was created with when this collection first 
 
 [Back to the game collection](README.md) · [Source data](games.json)
 
+## Added 2026-09-30 (UTC)
+
+| Added to this repo (UTC) | Game | Source repository | Original repository created (UTC) | Model | Quality |
+| --- | --- | --- | --- | --- | ---: |
+| 2026-09-30 | [Derin Kazı](https://github.com/Furkiozknn/derin-kazi) | [Furkiozknn/derin-kazi](https://github.com/Furkiozknn/derin-kazi) | 2026-09-21 21:25:10 UTC | Claude Opus 5.5 | 7.8/10 |
+| 2026-09-30 | [Kanca](https://github.com/Furkiozknn/kanca) | [Furkiozknn/kanca](https://github.com/Furkiozknn/kanca) | 2026-09-21 21:01:36 UTC | Claude Opus 5.5 | 8.1/10 |
+| 2026-09-30 | [Nova Drift](https://github.com/Furkiozknn/nova-drift) | [Furkiozknn/nova-drift](https://github.com/Furkiozknn/nova-drift) | 2026-08-30 10:20:05 UTC | Claude Opus 5.5 | 8.3/10 |
+| 2026-09-30 | [Tek Tuş Koşu](https://github.com/Furkiozknn/tek-tus-kosu) | [Furkiozknn/tek-tus-kosu](https://github.com/Furkiozknn/tek-tus-kosu) | 2026-09-21 21:24:33 UTC | Claude Opus 5.5 | 7.7/10 |
+| 2026-09-30 | [Yerçekimi Çevir](https://github.com/Furkiozknn/yercekimi-cevir) | [Furkiozknn/yercekimi-cevir](https://github.com/Furkiozknn/yercekimi-cevir) | 2026-09-21 21:00:50 UTC | Claude Opus 5.5 | 7.9/10 |
+
 ## Added 2026-09-28 (UTC)
 
 | Added to this repo (UTC) | Game | Source repository | Original repository created (UTC) | Model | Quality |
@@ -498,8 +508,8 @@ Compare when each source repository was created with when this collection first 
 | 2026-09-09 | [Dragon Quest-style RPG Game 3](games/dragon-quest-style-rpg-game-3/readme.md) | [Isusun/rpg_fable5_3](https://github.com/Isusun/rpg_fable5_3) | 2026-07-05 01:53:13 UTC | Claude Fable 5 | 6.5/10 (excluded) |
 | 2026-09-09 | [Dragons vs Machines](games/dragons-vs-machines/readme.md) | [DavidIsaiah/dragons_vs_machines](https://github.com/DavidIsaiah/dragons_vs_machines) | 2026-04-07 21:50:43 UTC | Claude Opus 4.6 | 8.7/10 |
 | 2026-09-09 | [Drawdown](games/drawdown/readme.md) | [substrateagnostic/drawdown](https://github.com/substrateagnostic/drawdown) | 2026-06-18 05:17:22 UTC | Claude Opus 4.8 | 7.0/10 |
-| 2026-09-09 | [Drift Away Arrows](games/drift-away-arrows/readme.md) | [pawanp3/renderwolf-fable5-chart-toppers](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) | 2026-07-06 04:08:37 UTC | Claude Fable 5 | 8.5/10 |
 | 2026-09-09 | [DRIFTLANDS](games/driftlands/readme.md) | [DEADover/DRIFTLANDS](https://github.com/DEADover/DRIFTLANDS) | 2026-08-14 11:05:31 UTC | Claude Opus 5 | 7.0/10 |
+| 2026-09-09 | [Drift Away Arrows](games/drift-away-arrows/readme.md) | [pawanp3/renderwolf-fable5-chart-toppers](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) | 2026-07-06 04:08:37 UTC | Claude Fable 5 | 8.5/10 |
 | 2026-09-09 | [Drone Arena](games/drone-arena/readme.md) | [shironagasu-ai/claude-fable5-3D-games](https://github.com/shironagasu-ai/claude-fable5-3D-games) | 2026-06-12 23:43:09 UTC | Claude Fable 5 | 8.5/10 |
 | 2026-09-09 | [Dune Browser Game](games/dune-browser-game/readme.md) | [cocodedk/Dune-Browser-Game](https://github.com/cocodedk/Dune-Browser-Game) | 2026-04-12 05:42:46 UTC | Claude Opus 5 | 6.5/10 (excluded) |
 | 2026-09-09 | [Dungeon of Opus](games/dungeon-of-opus/readme.md) | [joozio/dungeon-of-opus](https://github.com/joozio/dungeon-of-opus) | 2026-02-10 22:17:09 UTC | Claude Opus 4.6 | 8.4/10 |
@@ -633,8 +643,8 @@ Compare when each source repository was created with when this collection first 
 | 2026-09-09 | [Memory](games/memory/readme.md) | [shironagasu-ai/claude-fable5-games](https://github.com/shironagasu-ai/claude-fable5-games) | 2026-06-12 11:47:48 UTC | Claude Fable 5 | 7.0/10 |
 | 2026-09-09 | [Merchant's Keep](games/merchant-s-keep/readme.md) | [Afillex/merchants-keep](https://github.com/Afillex/merchants-keep) | 2026-06-13 21:21:58 UTC | Claude Opus 4.8 | 8.4/10 |
 | 2026-09-09 | [Metal Assault](games/metal-assault/readme.md) | [AndreaZero/metal-assault-game-claude-fable](https://github.com/AndreaZero/metal-assault-game-claude-fable) | 2026-06-12 06:38:56 UTC | Claude Fable 5 | 7.5/10 |
-| 2026-09-09 | [Micro Game Jam](games/micro-game-jam/readme.md) | [miromustafa/micro-game-jam](https://github.com/miromustafa/micro-game-jam) | 2026-08-15 11:24:48 UTC | Claude Opus 5 | 7.5/10 |
 | 2026-09-09 | [MICROSTRIDE — Run on Shoes](games/microstride-run-on-shoes/readme.md) | [565353780/run-on-shoes](https://github.com/565353780/run-on-shoes) | 2026-09-09 15:26:35 UTC | GPT-6 | 8.9/10 |
+| 2026-09-09 | [Micro Game Jam](games/micro-game-jam/readme.md) | [miromustafa/micro-game-jam](https://github.com/miromustafa/micro-game-jam) | 2026-08-15 11:24:48 UTC | Claude Opus 5 | 7.5/10 |
 | 2026-09-09 | [Milady's Knight: Blightfall](games/milady-s-knight-blightfall/readme.md) | [crousty24-bit/Milady-s-Knight-godot](https://github.com/crousty24-bit/Milady-s-Knight-godot) | 2026-09-09 13:23:38 UTC | GPT-6 Astra | 8.2/10 |
 | 2026-09-09 | [Mind The Tower](games/mind-the-tower/readme.md) | [Vineethk08/mind-the-tower-defold](https://github.com/Vineethk08/mind-the-tower-defold) | 2026-06-12 13:27:56 UTC | Claude Opus 4.8 | 8.3/10 |
 | 2026-09-09 | [MineClaude](games/mineclaude/readme.md) | [snek-git/mineclaude](https://github.com/snek-git/mineclaude) | 2026-02-06 14:45:43 UTC | Claude Opus 4.6 | 9.0/10 |
@@ -776,8 +786,8 @@ Compare when each source repository was created with when this collection first 
 | 2026-09-09 | [Starlight Peaks](games/starlight-peaks/readme.md) | [pawanp3/renderwolf-fable5-chart-toppers](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) | 2026-07-06 04:08:37 UTC | Claude Fable 5 | 8.5/10 |
 | 2026-09-09 | [Steamed Hams: The Game](games/steamed-hams-the-game/readme.md) | [Ran4/steamed_hams_the_game_claude_opus_4_6](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6) | 2026-02-07 20:05:28 UTC | Claude Opus 4.6 | 7.0/10 |
 | 2026-09-09 | [STORMFALL](games/stormfall/readme.md) | [oh-ashen-one/Opus-5-Three-Games](https://github.com/oh-ashen-one/Opus-5-Three-Games) | 2026-07-24 18:04:12 UTC | Claude Opus 5 | 9.2/10 |
-| 2026-09-09 | [Stride 'n Conquer](games/stride-n-conquer/readme.md) | [aalicia1208/stride-n-conquer](https://github.com/aalicia1208/stride-n-conquer) | 2026-03-07 19:55:23 UTC | Claude Opus 4.6 | 8.5/10 |
 | 2026-09-09 | [STRIKE PROTOCOL](games/strike-protocol/readme.md) | [oh-ashen-one/Opus-5-Three-Games](https://github.com/oh-ashen-one/Opus-5-Three-Games) | 2026-07-24 18:04:12 UTC | Claude Opus 5 | 9.2/10 |
+| 2026-09-09 | [Stride 'n Conquer](games/stride-n-conquer/readme.md) | [aalicia1208/stride-n-conquer](https://github.com/aalicia1208/stride-n-conquer) | 2026-03-07 19:55:23 UTC | Claude Opus 4.6 | 8.5/10 |
 | 2026-09-09 | [Sudden Death Strikers](games/sudden-death-strikers/readme.md) | [pawanp3/renderwolf-fable5-chart-toppers](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) | 2026-07-06 04:08:37 UTC | Claude Fable 5 | 8.5/10 |
 | 2026-09-09 | [Sudoku](games/sudoku/readme.md) | [antoniosubasic/sudoku](https://github.com/antoniosubasic/sudoku) | 2026-02-02 14:13:33 UTC | Claude Opus 4.5 | 7.0/10 |
 | 2026-09-09 | [Sudoku](games/sudoku-vi-o-al-ai-claude-playground/readme.md) | [vi-o-al-ai/claude_playground](https://github.com/vi-o-al-ai/claude_playground) | 2026-04-04 14:03:00 UTC | Claude Opus 4.6 | 7.9/10 |
@@ -851,10 +861,10 @@ Compare when each source repository was created with when this collection first 
 | 2026-09-09 | [Vespertine](games/vespertine/readme.md) | [sunkencity999/vespertine](https://github.com/sunkencity999/vespertine) | 2026-07-02 01:40:33 UTC | Claude Fable 5 | 7.0/10 |
 | 2026-09-09 | [Vibe Pixel Rally](games/vibe-pixel-rally/readme.md) | [jv4v2nw88z-hue/VibePixleRalley](https://github.com/jv4v2nw88z-hue/VibePixleRalley) | 2026-07-26 16:35:40 UTC | Claude Opus 5 | 6.5/10 (excluded) |
 | 2026-09-09 | [VibePinball](games/vibepinball/readme.md) | [Randroids-Dojo/VibePinball](https://github.com/Randroids-Dojo/VibePinball) | 2026-06-09 23:17:08 UTC | Claude Fable 5 | 6.5/10 (excluded) |
-| 2026-09-09 | [Voidash](games/voidash/readme.md) | [rhowell/voidash](https://github.com/rhowell/voidash) | 2026-02-07 00:51:40 UTC | Claude Opus 4.6 | 8.2/10 |
 | 2026-09-09 | [VOIDBOUND: The Choir of Ash](games/voidbound-the-choir-of-ash/readme.md) | [alesha-pro/bench-portal](https://github.com/alesha-pro/bench-portal) | 2026-08-01 21:25:20 UTC | GPT-6 Astra | 8.6/10 |
 | 2026-09-09 | [VOIDRUNNER: Orbital Combat League](games/voidrunner-orbital-combat-league/readme.md) | [alesha-pro/bench-portal](https://github.com/alesha-pro/bench-portal) | 2026-08-01 21:25:20 UTC | GPT-6 Astra | 8.7/10 |
 | 2026-09-09 | [VOIDWRENCH](games/voidwrench/readme.md) | [octopus7/astracraft](https://github.com/octopus7/astracraft) | 2026-09-05 06:36:59 UTC | GPT-6 Astra | 8.5/10 |
+| 2026-09-09 | [Voidash](games/voidash/readme.md) | [rhowell/voidash](https://github.com/rhowell/voidash) | 2026-02-07 00:51:40 UTC | Claude Opus 4.6 | 8.2/10 |
 | 2026-09-09 | [Voxelcraft](games/voxelcraft-alfredbrowser-voxelcraft-minecraft-remake-fable-5-1/readme.md) | [AlfredBrowser/Voxelcraft-Minecraft-Remake-Fable-5.1](https://github.com/AlfredBrowser/Voxelcraft-Minecraft-Remake-Fable-5.1) | 2026-09-03 22:25:29 UTC | Claude Fable 5.1 | 8.0/10 |
 | 2026-09-09 | [Voxelcraft](games/voxelcraft/readme.md) | [Eric-lab-star/voxelcraft](https://github.com/Eric-lab-star/voxelcraft) | 2026-07-10 18:19:16 UTC | Claude Opus 4.8 | 8.9/10 |
 | 2026-09-09 | [VoxelCraft](games/voxelcraft-ukawajun-fable5-voxelcraftgame/readme.md) | [UkawaJun/Fable5-VoxelCraftGame](https://github.com/UkawaJun/Fable5-VoxelCraftGame) | 2026-07-02 10:19:50 UTC | Claude Fable 5 | 8.0/10 |
