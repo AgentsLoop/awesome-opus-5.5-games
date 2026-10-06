@@ -37158,5 +37158,74 @@
     "prompt_origin": "unknown",
     "prompt_evidence_url": null,
     "runtime_test_status": "Runnable instructions and source verified; no execution or playtest performed."
+  },
+  {
+    "name": "Neon Zenith",
+    "github_url": "https://github.com/billpwchan/neon-zenith",
+    "repository_id": 1403371776,
+    "repository_created_at": "2026-10-03T15:55:53Z",
+    "added_to_repo_on": "2026-10-06",
+    "game_links": [
+      "https://github.com/billpwchan/neon-zenith/blob/main/src/game/game.js",
+      "https://github.com/billpwchan/neon-zenith/blob/main/src/game/runs.js",
+      "https://github.com/billpwchan/neon-zenith/blob/main/src/vehicle/kite.js"
+    ],
+    "contained_game_links": [
+      "https://github.com/billpwchan/neon-zenith/blob/main/src/game/game.js"
+    ],
+    "live_demo_url": "https://zenith.billpwchan.art/",
+    "live_demo_urls": [
+      "https://zenith.billpwchan.art/"
+    ],
+    "evidence_url": "https://github.com/billpwchan/neon-zenith#how-it-was-made",
+    "screenshot_urls": [
+      "https://github.com/billpwchan/neon-zenith/blob/27ad04ef04aa9e1e1366fccc63e15a379b999f01/docs/media/market.jpg",
+      "https://github.com/billpwchan/neon-zenith/blob/27ad04ef04aa9e1e1366fccc63e15a379b999f01/docs/media/sky-lane.webp",
+      "https://github.com/billpwchan/neon-zenith/blob/27ad04ef04aa9e1e1366fccc63e15a379b999f01/docs/media/clouds.jpg",
+      "https://github.com/billpwchan/neon-zenith/blob/27ad04ef04aa9e1e1366fccc63e15a379b999f01/docs/media/tenements.jpg",
+      "https://github.com/billpwchan/neon-zenith/blob/27ad04ef04aa9e1e1366fccc63e15a379b999f01/docs/media/rooftop.jpg"
+    ],
+    "youtube_urls": [],
+    "technology": [
+      "JavaScript",
+      "Three.js",
+      "WebGPU",
+      "WebGL2",
+      "TSL",
+      "Vite",
+      "Blender",
+      "Web Audio",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5.5"
+    ],
+    "method_evidence": "creator-reported",
+    "model_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Neon Zenith"
+    ],
+    "counted_game_units": 1,
+    "is_independent_game": true,
+    "verification_status": "verified_source",
+    "verified_on": "2026-10-06",
+    "publication_date_status": "repository_created_only",
+    "discovery_sources": [
+      "Creator submission (pull request by the repository owner, 2026-10-06)"
+    ],
+    "verification_notes": "A flying-car game in a rainy cyberpunk Kowloon of 9,373 buildings: drive the Temple Street night market, take off into the sky lanes and climb through the cloud deck to a 1,418 m spire. Four time trials (market dash, sky lane, ascent, dive) fly through gates generated from the city layout and pushed clear of buildings, with splits against your best, bronze/silver/gold medals and a results screen; 31 collectible shards persist across sessions. Every visible solid collides. three.js r186 with the WebGPU renderer and all materials in TSL, falling back to WebGL2; Temple Street is a Blender scene with Cycles-baked lightmaps. The README's 'How it was made' section names Claude Code with Claude Opus 5.5. Plays in desktop browsers with keyboard or gamepad and on phones with touch controls; ?run=0..3 starts a time trial directly.",
+    "gauntlet_loop": false,
+    "quality_estimate_10": 8,
+    "quality_estimate_basis": "Source-verified 3D flying game with four gated time trials, medals, collectibles, full collision and a hosted build; 8.0 is the creator's own estimate, please revise.",
+    "quality_category": "curated_games",
+    "flops_estimate_raw": 2000000000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for a WebGPU scene of 8-23 M triangles and up to about 2,000 draw calls per frame at 1080p with bloom and analytic fog (README performance table); not measured as FLOPs.",
+    "prompt": "Build a real-time, open-source browser game of a rain-soaked cyberpunk Kowloon in 2077 with three.js WebGPU and TSL: a flyable car that drives Temple Street's night market and lifts into sky lanes above a procedural city, timed gate runs with medals, collectible shards, and collision on everything visible. This summary is not an original prompt.",
+    "prompt_origin": "reverse_engineered_from_source",
+    "prompt_evidence_url": null,
+    "runtime_test_status": "Hosted build loaded and a time trial started from ?run=1 in desktop Chrome on 2026-10-06."
   }
 ]
